@@ -118,7 +118,10 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM_4 !== 'undefined' ? QUESTIONS_PREMIUM_4 : [],
     typeof QUESTIONS_PREMIUM_5 !== 'undefined' ? QUESTIONS_PREMIUM_5 : [],
     typeof QUESTIONS_PREMIUM_6 !== 'undefined' ? QUESTIONS_PREMIUM_6 : [],
-    typeof QUESTIONS_PREMIUM_7 !== 'undefined' ? QUESTIONS_PREMIUM_7 : []
+    typeof QUESTIONS_PREMIUM_7 !== 'undefined' ? QUESTIONS_PREMIUM_7 : [],
+    typeof QUESTIONS_PREMIUM_8 !== 'undefined' ? QUESTIONS_PREMIUM_8 : [],
+    typeof QUESTIONS_PREMIUM_9 !== 'undefined' ? QUESTIONS_PREMIUM_9 : [],
+    typeof QUESTIONS_PREMIUM_10 !== 'undefined' ? QUESTIONS_PREMIUM_10 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -321,7 +324,10 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.decks : []),
       ...(typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5.decks : []),
       ...(typeof LEI_SECA_PREMIUM_6 !== 'undefined' ? LEI_SECA_PREMIUM_6.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_8 !== 'undefined' ? LEI_SECA_PREMIUM_8.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_9 !== 'undefined' ? LEI_SECA_PREMIUM_9.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -934,7 +940,10 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null,
         typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null,
         typeof LEI_SECA_PREMIUM_6 !== 'undefined' ? LEI_SECA_PREMIUM_6 : null,
-        typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null
+        typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null,
+        typeof LEI_SECA_PREMIUM_8 !== 'undefined' ? LEI_SECA_PREMIUM_8 : null,
+        typeof LEI_SECA_PREMIUM_9 !== 'undefined' ? LEI_SECA_PREMIUM_9 : null,
+        typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -977,7 +986,10 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null,
         typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null,
         typeof LEI_SECA_PREMIUM_6 !== 'undefined' ? LEI_SECA_PREMIUM_6 : null,
-        typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null
+        typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null,
+        typeof LEI_SECA_PREMIUM_8 !== 'undefined' ? LEI_SECA_PREMIUM_8 : null,
+        typeof LEI_SECA_PREMIUM_9 !== 'undefined' ? LEI_SECA_PREMIUM_9 : null,
+        typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null
       ].filter(s => s !== null);
 
       deck = null;

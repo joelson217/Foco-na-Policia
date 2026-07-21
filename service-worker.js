@@ -19,6 +19,9 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/lei_seca_premium_5.js',
   '/Foco-na-Policia/data/lei_seca_premium_6.js',
   '/Foco-na-Policia/data/lei_seca_premium_7.js',
+  '/Foco-na-Policia/data/lei_seca_premium_8.js',
+  '/Foco-na-Policia/data/lei_seca_premium_9.js',
+  '/Foco-na-Policia/data/lei_seca_premium_10.js',
   '/Foco-na-Policia/data/questions_administrativo.js',
   '/Foco-na-Policia/data/questions_constitucional.js',
   '/Foco-na-Policia/data/questions_dh.js',
@@ -37,6 +40,9 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_premium_5.js',
   '/Foco-na-Policia/data/questions_premium_6.js',
   '/Foco-na-Policia/data/questions_premium_7.js',
+  '/Foco-na-Policia/data/questions_premium_8.js',
+  '/Foco-na-Policia/data/questions_premium_9.js',
+  '/Foco-na-Policia/data/questions_premium_10.js',
   '/Foco-na-Policia/icon-512.png',
   '/Foco-na-Policia/manifest.json'
 ];
