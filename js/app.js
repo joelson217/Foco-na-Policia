@@ -115,7 +115,8 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM !== 'undefined' ? QUESTIONS_PREMIUM : [],
     typeof QUESTIONS_PREMIUM_2 !== 'undefined' ? QUESTIONS_PREMIUM_2 : [],
     typeof QUESTIONS_PREMIUM_3 !== 'undefined' ? QUESTIONS_PREMIUM_3 : [],
-    typeof QUESTIONS_PREMIUM_4 !== 'undefined' ? QUESTIONS_PREMIUM_4 : []
+    typeof QUESTIONS_PREMIUM_4 !== 'undefined' ? QUESTIONS_PREMIUM_4 : [],
+    typeof QUESTIONS_PREMIUM_5 !== 'undefined' ? QUESTIONS_PREMIUM_5 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -315,7 +316,8 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.decks : []),
       ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.decks : []),
       ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -925,7 +927,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM : null,
         typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2 : null,
         typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3 : null,
-        typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null
+        typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null,
+        typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -965,7 +968,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM : null,
         typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2 : null,
         typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3 : null,
-        typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null
+        typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null,
+        typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null
       ].filter(s => s !== null);
 
       deck = null;
