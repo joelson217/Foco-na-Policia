@@ -27,8 +27,8 @@
 <!-- Loading Screen -->
 <div id="loading-screen">
   <div class="loading-content">
-    <div class="shield-logo">🛡️</div>
-    <h1>PPRN Study</h1>
+    <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
+    <h1>PPRN</h1>
     <p>Polícia Penal do Rio Grande do Norte</p>
     <div class="loading-bar"><div class="loading-fill" id="loading-fill"></div></div>
     <span id="loading-text">Carregando banco de questões...</span>
@@ -41,7 +41,7 @@
   <!-- Header -->
   <header id="app-header">
     <div class="header-left">
-      <div class="logo-icon">🛡️</div>
+      <img src="icon-512.png" alt="App Icon" class="logo-icon" style="width:64px;height:64px;"/>
       <div class="logo-text">
         <span class="logo-title">PPRN</span>
         <span class="logo-sub">Banca Avalia</span>
@@ -875,6 +875,8 @@
 <script src="data/lei_seca_premium_15.js"></script>
 <script src="data/lei_seca_premium_16.js"></script>
 <script src="data/lei_seca_premium_18.js"></script>
+<script src="data/lei_seca_premium_19.js"></script>
+<script src="data/lei_seca_premium_20.js"></script>
 <script src="data/questions_lep.js"></script>
 <script src="data/questions_extra_lep.js"></script>
 <script src="data/questions_legislacao.js"></script>
@@ -909,7 +911,7 @@
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/Foco-na-Policia/service-worker.js')
+      navigator.serviceWorker.register('/Foco-na-Policia/service-worker.js?v=2')
         .then((reg) => {
           // Verifica se há atualização disponível
           reg.addEventListener('updatefound', () => {

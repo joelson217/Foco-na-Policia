@@ -77,10 +77,13 @@ a { color: var(--blue-light); text-decoration: none; }
 }
 .loading-content { text-align: center; }
 .shield-logo {
-  font-size: 80px;
-  animation: pulse-shield 2s ease-in-out infinite;
-  display: block; margin-bottom: 20px;
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 80px;
+  width: 100%;
+  border: none;
   filter: drop-shadow(0 0 30px rgba(29, 111, 239, 0.6));
+  animation: pulse-shield 2s ease-in-out infinite;
 }
 @keyframes pulse-shield {
   0%, 100% { transform: scale(1); filter: drop-shadow(0 0 30px rgba(29, 111, 239, 0.6)); }
