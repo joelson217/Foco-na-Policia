@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Concursos-Policiais | Questões e Simulados</title>
+  <meta name="description" content="App de estudos para concursos policiais. Questões, simulados, lei seca e estatísticas.">
+
+  <!-- PWA: Instalação no iPhone -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Concursos-Policiais">
+  <link rel="apple-touch-icon" href="icon-512.png">
+  <meta name="theme-color" content="#1a2744">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loading-screen">
+  <div class="loading-content">
+    <div class="shield-logo">🛡️</div>
+    <h1>PPRN Study</h1>
+    <p>Polícia Penal do Rio Grande do Norte</p>
+    <div class="loading-bar"><div class="loading-fill" id="loading-fill"></div></div>
+    <span id="loading-text">Carregando banco de questões...</span>
+  </div>
+</div>
+
+<!-- App Container -->
+<div id="app" class="hidden">
+
+  <!-- Header -->
+  <header id="app-header">
+    <div class="header-left">
+      <div class="logo-icon">🛡️</div>
+      <div class="logo-text">
+        <span class="logo-title">PPRN</span>
+        <span class="logo-sub">Banca Avalia</span>
+      </div>
+    </div>
+    <div class="header-center" id="tab-title">Dashboard</div>
+    <div class="header-right">
+      <div class="rank-badge" id="rank-badge" title="Sua patente atual">
+        <span class="rank-title" id="rank-title">Recruta</span>
+        <div class="xp-bar-container"><div class="xp-bar-fill" id="xp-bar-fill"></div></div>
+      </div>
+      <div class="streak-badge" id="streak-badge">
+        <span class="fire-icon">🔥</span>
+        <span id="streak-count">0</span>
+      </div>
+      <div class="countdown-badge" id="header-countdown">
+        <span class="countdown-label">Prova em</span>
+        <span id="countdown-days">--</span>
+        <span class="countdown-unit">dias</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Top Navigation -->
+  <nav id="top-nav">
+    <button class="nav-btn active" data-tab="dashboard" onclick="APP.showTab('dashboard')">
+      <span class="nav-icon">🏠</span>
+      <span class="nav-label">Início</span>
+    </button>
+    <button class="nav-btn" data-tab="lei-seca" onclick="APP.showTab('lei-seca')">
+      <span class="nav-icon">📖</span>
+      <span class="nav-label">Lei Seca</span>
+    </button>
+    <button class="nav-btn" data-tab="questoes" onclick="APP.showTab('questoes')">
+      <span class="nav-icon">❓</span>
+      <span class="nav-label">Questões</span>
+    </button>
+    <button class="nav-btn" data-tab="simulado" onclick="APP.showTab('simulado')">
+      <span class="nav-icon">📝</span>
+      <span class="nav-label">Simulado</span>
+    </button>
+    <button class="nav-btn" data-tab="estatisticas" onclick="APP.showTab('estatisticas')">
+      <span class="nav-icon">📊</span>
+      <span class="nav-label">Status</span>
+    </button>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- ===== TAB: DASHBOARD ===== -->
+    <section class="tab-content active" id="tab-dashboard">
+      <div class="dashboard-grid">
+
+        <!-- Countdown Card -->
+        <div class="card card-highlight countdown-card">
+          <div class="card-header">
+            <span class="card-icon">🎯</span>
+            <span class="card-label">Contagem Regressiva — 13 Set 2026</span>
+          </div>
+          <div class="countdown-display">
+            <div class="countdown-item"><span id="cd-dias">--</span><small>dias</small></div>
+            <div class="countdown-sep">:</div>
+            <div class="countdown-item"><span id="cd-horas">--</span><small>horas</small></div>
+            <div class="countdown-sep">:</div>
+            <div class="countdown-item"><span id="cd-min">--</span><small>min</small></div>
+          </div>
+          <div class="exam-info">
+            <span class="badge-info">📍 Banca Avalia</span>
+            <span class="badge-info">📝 100 questões</span>
+            <span class="badge-info">⏱️ 4 horas</span>
+          </div>
+        </div>
+
+        <!-- Daily Progress -->
+        <div class="card daily-progress-card">
+          <div class="card-header">
+            <span class="card-icon">📅</span>
+            <span class="card-label">Progresso de Hoje</span>
+            <button class="btn-icon" id="btn-set-goal" title="Definir meta">⚙️</button>
+          </div>
+          <div class="progress-ring-container">
+            <svg class="progress-ring" viewBox="0 0 120 120">
+              <circle class="ring-bg" cx="60" cy="60" r="50"/>
+              <circle class="ring-fill" id="daily-ring" cx="60" cy="60" r="50" stroke-dasharray="314" stroke-dashoffset="314"/>
+            </svg>
+            <div class="ring-center">
+              <span id="today-count">0</span>
+              <small>/<span id="daily-goal">30</span></small>
+            </div>
+          </div>
+          <p class="progress-label">questões hoje</p>
+          <div class="daily-actions">
+            <button class="btn btn-primary" onclick="QUIZ.startSession()">Praticar Agora</button>
+          </div>
+        </div>
+
+        <!-- Performance Overview -->
+        <div class="card performance-card">
+          <div class="card-header">
+            <span class="card-icon">📊</span>
+            <span class="card-label">Desempenho Geral</span>
+          </div>
+          <div class="perf-big">
+            <span id="perf-percent">0%</span>
+            <small>de acertos</small>
+          </div>
+          <div class="perf-details">
+            <div class="perf-item correct"><span id="total-correct">0</span><small>Acertos</small></div>
+            <div class="perf-divider"></div>
+            <div class="perf-item wrong"><span id="total-wrong">0</span><small>Erros</small></div>
+            <div class="perf-divider"></div>
+            <div class="perf-item total"><span id="total-answered">0</span><small>Total</small></div>
+          </div>
+        </div>
+
+        <!-- Disciplines Weight Card -->
+        <div class="card discipline-weight-card">
+          <div class="card-header">
+            <span class="card-icon">⚖️</span>
+            <span class="card-label">Distribuição do Edital</span>
+          </div>
+          <div class="discipline-bars" id="discipline-bars"></div>
+        </div>
+
+        <!-- Hot Topics -->
+        <div class="card hot-topics-card">
+          <div class="card-header">
+            <span class="card-icon">🔥</span>
+            <span class="card-label">Mais Cobrado — Foco Total!</span>
+          </div>
+          <div class="hot-topics-list" id="hot-topics-list"></div>
+        </div>
+
+        <!-- Quick Stats by Discipline -->
+        <div class="card disc-stats-card">
+          <div class="card-header">
+            <span class="card-icon">📈</span>
+            <span class="card-label">Meu Desempenho por Disciplina</span>
+          </div>
+          <div class="disc-stats-list" id="disc-stats-list"></div>
+        </div>
+
+        <!-- Recommended Topics -->
+        <div class="card recommendations-card">
+          <div class="card-header">
+            <span class="card-icon">💡</span>
+            <span class="card-label">Recomendado para Você</span>
+          </div>
+          <div class="recommendations-list" id="recommendations-list">
+            <div class="rec-placeholder">Responda questões para receber recomendações personalizadas!</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== TAB: LEI SECA ===== -->
+    <section class="tab-content" id="tab-lei-seca">
+      <div class="lei-seca-container">
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" id="lei-seca-filter-bar">
+          <button class="btn btn-outline" id="btn-voltar-lei" onclick="FLASHCARDS.resetView()" style="display: none;">
+            ← Voltar
+          </button>
+          <select id="lei-seca-select" onchange="FLASHCARDS.loadDeck(this.value)">
+            <option value="">Selecione a Lei/Disciplina...</option>
+          </select>
+          <button class="btn btn-gold" id="btn-flashcard-mode" onclick="FLASHCARDS.startFlashcardMode()" disabled>
+            ⚡ Modo Flashcard
+          </button>
+        </div>
+
+        <!-- Legend -->
+        <div class="lei-legend">
+          <span class="badge-fire">🔥 Muito Cobrado</span>
+          <span class="badge-warning">⚠️ Atenção</span>
+          <span class="badge-tip">💡 Dica</span>
+        </div>
+
+        <!-- Content Area -->
+        <div id="lei-seca-content">
+          <div class="lei-placeholder">
+            <div class="placeholder-icon">📖</div>
+            <h3>Selecione uma Lei ou Disciplina</h3>
+            <p>Estude os principais artigos cobrados em concursos policiais</p>
+            <div class="quick-access-grid" id="quick-access-grid"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flashcard Modal -->
+      <div class="modal hidden" id="flashcard-modal">
+        <div class="modal-overlay" onclick="FLASHCARDS.closeModal()"></div>
+        <div class="flashcard-container">
+          <div class="flashcard-header">
+            <span id="fc-progress">1 / 10</span>
+            <span id="fc-topic"></span>
+            <button class="btn-icon" onclick="FLASHCARDS.closeModal()">✕</button>
+          </div>
+          <div class="flashcard-wrapper" id="flashcard-wrapper">
+            <div class="flashcard" id="flashcard" onclick="FLASHCARDS.flip()">
+              <div class="flashcard-front">
+                <div class="fc-label">📌 Artigo / Conceito</div>
+                <div class="fc-content" id="fc-front"></div>
+                <div class="fc-hint">Clique para ver a resposta</div>
+              </div>
+              <div class="flashcard-back">
+                <div class="fc-label">✅ Conteúdo</div>
+                <div class="fc-content" id="fc-back"></div>
+                <div class="fc-artigo" id="fc-artigo"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flashcard-controls">
+            <button class="btn btn-danger" onclick="FLASHCARDS.prev()">← Anterior</button>
+            <div class="fc-action-btns">
+              <button class="btn btn-outline" onclick="FLASHCARDS.mark()">🔖 Marcar</button>
+            </div>
+            <button class="btn btn-primary" onclick="FLASHCARDS.next()">Próximo →</button>
+          </div>
+          <div class="flashcard-progress-bar">
+            <div class="fc-progress-fill" id="fc-progress-fill"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAB: QUESTÕES ===== -->
+    <section class="tab-content" id="tab-questoes">
+
+      <!-- Quiz Filter Screen -->
+      <div id="quiz-filter-screen">
+        <div class="filter-screen-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px;">
+          <div>
+            <h2>🎯 Banco de Questões</h2>
+            <p>+1000 questões organizadas por disciplina e conteúdo</p>
+          </div>
+          <button class="btn btn-outline btn-small" onclick="CUSTOM_QUESTIONS_UI.openManager()" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: var(--radius-md);">
+            ⚙️ Minhas Questões
+          </button>
+        </div>
+        <div class="quiz-filters">
+          <div class="filter-group">
+            <label>Disciplina</label>
+            <select id="filter-disciplina">
+              <option value="all">Todas as Disciplinas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Tópico</label>
+            <select id="filter-topico">
+              <option value="all">Todos os Tópicos</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Dificuldade</label>
+            <select id="filter-dificuldade">
+              <option value="all">Todas</option>
+              <option value="facil">Fácil</option>
+              <option value="medio">Médio</option>
+              <option value="dificil">Difícil</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Mostrar apenas</label>
+            <select id="filter-cobrado">
+              <option value="all">Todas as questões</option>
+              <option value="cobrado">🔥 Mais cobradas</option>
+              <option value="erradas">❌ Minhas erradas</option>
+              <option value="marcadas">🔖 Marcadas p/ revisar</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter-stats">
+          <span id="filtered-count">0 questões disponíveis</span>
+        </div>
+        <button class="btn btn-primary btn-large" id="btn-start-quiz" onclick="QUIZ.startSession()">
+          ▶ Iniciar Sessão de Estudos
+        </button>
+      </div>
+
+      <!-- Quiz Active Screen -->
+      <div id="quiz-active-screen" class="hidden">
+        <div class="quiz-header">
+          <button class="btn-icon" onclick="QUIZ.exitSession()">✕ Sair</button>
+          <div class="quiz-progress-info">
+            <span id="quiz-current">1</span>/<span id="quiz-total">10</span>
+            <span class="quiz-disc-badge" id="quiz-disc-badge"></span>
+          </div>
+          <div class="quiz-controls">
+            <button class="btn-icon" id="btn-mark-review" onclick="QUIZ.markForReview()" title="Marcar para revisar">🔖</button>
+          </div>
+        </div>
+
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+        </div>
+
+        <div class="quiz-body">
+          <!-- Question -->
+          <div class="question-card">
+            <div class="question-meta">
+              <span class="q-disciplina" id="q-disciplina"></span>
+              <span class="q-topico" id="q-topico"></span>
+              <span class="q-cobrado hidden" id="q-cobrado">🔥 Muito cobrado</span>
+            </div>
+            <div class="question-text" id="question-text"></div>
+          </div>
+
+          <!-- Alternatives -->
+          <div class="alternatives-list" id="alternatives-list"></div>
+
+          <!-- Feedback -->
+          <div class="feedback-card hidden" id="feedback-card">
+            <div class="feedback-header" id="feedback-header"></div>
+            <div class="feedback-body">
+              <div class="feedback-artigo" id="feedback-artigo"></div>
+              <div class="feedback-text" id="feedback-text"></div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="quiz-controls-bottom">
+            <button class="btn btn-primary btn-large hidden" id="btn-confirm" onclick="QUIZ.confirmAnswer()">
+              Confirmar Resposta
+            </button>
+            <button class="btn btn-primary btn-large hidden" id="btn-next" onclick="QUIZ.nextQuestion()">
+              Próxima →
+            </button>
+          </div>
+        </div>
+
+        <!-- Session Results -->
+        <div class="session-results hidden" id="session-results">
+          <div class="results-header">
+            <div class="results-emoji" id="results-emoji">🎉</div>
+            <h2>Sessão Concluída!</h2>
+          </div>
+          <div class="results-score">
+            <div class="score-big" id="results-percent">0%</div>
+            <div class="score-detail">
+              <span class="correct-count" id="results-correct">0 acertos</span>
+              <span class="wrong-count" id="results-wrong">0 erros</span>
+            </div>
+          </div>
+          <div class="results-breakdown" id="results-breakdown"></div>
+          <div class="results-actions">
+            <button class="btn btn-outline" onclick="QUIZ.reviewWrong()">📖 Revisar Erradas</button>
+            <button class="btn btn-primary" onclick="QUIZ.startSession()">Nova Sessão</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAB: SIMULADO ===== -->
+    <section class="tab-content" id="tab-simulado">
+
+      <!-- Simulado Setup Screen -->
+      <div id="simulado-setup-screen">
+        <div class="sim-header">
+          <h2>📝 Simulado PPRN</h2>
+          <p>Simulado com a distribuição EXATA do edital</p>
+        </div>
+
+        <!-- Edital Distribution -->
+        <div class="sim-edital-card card">
+          <h3>⚖️ Distribuição do Edital (Banca Avalia)</h3>
+          <div class="sim-disciplines-grid" id="sim-disciplines-grid"></div>
+          <div class="sim-total-row">
+            <span>Total: <strong>100 questões</strong></span>
+            <span>Pontuação Máxima: <strong>145 pontos</strong></span>
+            <span class="elimination-note">⚠️ Eliminação: &lt;73 pts ou zerar qualquer área</span>
+          </div>
+        </div>
+
+        <!-- Timer Config -->
+        <div class="sim-config card">
+          <h3>⚙️ Configurações</h3>
+          <div class="config-row">
+            <label>Tempo disponível:</label>
+            <select id="sim-time-select">
+              <option value="240">4 horas (tempo real da prova)</option>
+              <option value="120">2 horas (treino rápido)</option>
+              <option value="60">1 hora (revisão)</option>
+              <option value="0">Sem limite de tempo</option>
+            </select>
+          </div>
+          <div class="config-row">
+            <label>Modo:</label>
+            <select id="sim-mode-select">
+              <option value="real">Simulado Real (sem feedback imediato)</option>
+              <option value="treino">Treino (com feedback imediato)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="sim-actions">
+          <button class="btn btn-primary btn-large" onclick="SIMULADO.start()">
+            🚀 Iniciar Simulado
+          </button>
+          <button class="btn btn-outline" onclick="SIMULADO.startHistory()">
+            📚 Ver Histórico
+          </button>
+        </div>
+      </div>
+
+      <!-- Simulado Active Screen -->
+      <div id="simulado-active-screen" class="hidden">
+        <div class="sim-active-header">
+          <button class="btn btn-danger-outline btn-small" onclick="SIMULADO.confirmExit()">Encerrar</button>
+          <div class="sim-progress-info">
+            <span id="sim-answered">0</span>/<span id="sim-total">100</span>
+            <span id="sim-unanswered-badge" class="badge-warning">100 sem resp.</span>
+          </div>
+          <div class="sim-timer" id="sim-timer">
+            <span class="timer-icon">⏱️</span>
+            <span id="timer-display">04:00:00</span>
+          </div>
+        </div>
+
+        <!-- Question Navigator -->
+        <div class="sim-navigator-toggle">
+          <button class="btn btn-outline btn-small" onclick="SIMULADO.toggleNavigator()">
+            📋 Gabarito Rascunho
+          </button>
+        </div>
+
+        <div class="sim-navigator hidden" id="sim-navigator">
+          <div class="navigator-grid" id="navigator-grid"></div>
+          <div class="navigator-legend">
+            <span class="nav-answered">■ Respondida</span>
+            <span class="nav-current">■ Atual</span>
+            <span class="nav-unanswered">■ Sem resposta</span>
+          </div>
+        </div>
+
+        <!-- Question Body -->
+        <div class="sim-question-body">
+          <div class="question-card">
+            <div class="question-meta">
+              <span class="q-number">Questão <span id="sim-q-number">1</span></span>
+              <span class="q-disciplina" id="sim-q-disciplina"></span>
+              <span class="q-cobrado" id="sim-q-cobrado">🔥 Muito cobrado</span>
+            </div>
+            <div class="question-text" id="sim-question-text"></div>
+          </div>
+          <div class="alternatives-list" id="sim-alternatives-list"></div>
+
+          <!-- Feedback (only in treino mode) -->
+          <div class="feedback-card hidden" id="sim-feedback-card">
+            <div class="feedback-header" id="sim-feedback-header"></div>
+            <div class="feedback-body">
+              <div class="feedback-artigo" id="sim-feedback-artigo"></div>
+              <div class="feedback-text" id="sim-feedback-text"></div>
+            </div>
+          </div>
+
+          <div class="sim-nav-buttons">
+            <button class="btn btn-outline" onclick="SIMULADO.prevQuestion()">← Anterior</button>
+            <button class="btn btn-primary" onclick="SIMULADO.nextQuestion()">Próxima →</button>
+          </div>
+        </div>
+
+        <div class="sim-footer">
+          <button class="btn btn-gold btn-large" onclick="SIMULADO.finish()">
+            ✅ Finalizar e Ver Resultado
+          </button>
+        </div>
+      </div>
+
+      <!-- Simulado Results -->
+      <div id="simulado-results-screen" class="hidden">
+        <div class="sim-results-header">
+          <div class="sim-result-emoji" id="sim-result-emoji">🏆</div>
+          <h2 id="sim-result-title">Resultado do Simulado</h2>
+          <div class="sim-result-status" id="sim-result-status"></div>
+        </div>
+
+        <div class="sim-score-card card">
+          <div class="sim-score-big">
+            <span id="sim-score-pts">0</span>
+            <small>/ 145 pontos</small>
+          </div>
+          <div class="sim-score-detail">
+            <span>Acertos: <strong id="sim-acertos">0</strong></span>
+            <span>Erros: <strong id="sim-erros">0</strong></span>
+            <span>Em branco: <strong id="sim-branco">0</strong></span>
+          </div>
+        </div>
+
+        <!-- Score by discipline -->
+        <div class="sim-by-discipline card">
+          <h3>Desempenho por Disciplina</h3>
+          <div id="sim-disc-results"></div>
+        </div>
+
+        <!-- Chart -->
+        <div class="sim-chart-card card">
+          <canvas id="sim-result-chart"></canvas>
+        </div>
+
+        <div class="sim-results-actions">
+          <button class="btn btn-outline" onclick="SIMULADO.reviewAnswers()">📖 Revisar Gabarito</button>
+          <button class="btn btn-primary" onclick="SIMULADO.reset()">Novo Simulado</button>
+        </div>
+      </div>
+
+      <!-- Simulado Review Screen -->
+      <div id="simulado-review-screen" class="hidden" style="padding: 16px;">
+        <div class="sim-review-header" style="margin-bottom: 20px;">
+          <button class="btn btn-outline btn-small" onclick="SIMULADO.exitReview()" style="margin-bottom: 12px;">← Voltar ao Resultado</button>
+          <h2>📖 Revisão do Simulado</h2>
+          <p style="color: var(--text-secondary); font-size: 0.85rem;">Confira todas as questões e explicações detalhadas</p>
+        </div>
+        
+        <div class="review-filters card" style="margin-bottom: 20px;">
+          <label style="display: block; margin-bottom: 8px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); font-weight: 700;">Filtrar questões:</label>
+          <div class="filter-buttons" style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="btn btn-outline btn-small active" data-filter="all" onclick="SIMULADO.filterReview('all')">Todas (100)</button>
+            <button class="btn btn-outline btn-small" style="color: var(--green);" data-filter="correct" onclick="SIMULADO.filterReview('correct')">Corretas</button>
+            <button class="btn btn-outline btn-small" style="color: var(--red);" data-filter="wrong" onclick="SIMULADO.filterReview('wrong')">Erradas</button>
+            <button class="btn btn-outline btn-small" style="color: var(--yellow);" data-filter="blank" onclick="SIMULADO.filterReview('blank')">Sem Resposta</button>
+          </div>
+        </div>
+        
+        <div class="sim-review-list" id="sim-review-list" style="display: flex; flex-direction: column; gap: 16px;">
+          <!-- As questões da revisão serão inseridas aqui dinamicamente -->
+        </div>
+        
+        <div class="sim-review-footer" style="margin-top: 30px; text-align: center;">
+          <button class="btn btn-primary" onclick="SIMULADO.exitReview()">Voltar ao Resultado</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAB: ESTATÍSTICAS ===== -->
+    <section class="tab-content" id="tab-estatisticas">
+      <div class="stats-container">
+
+        <!-- Overall Performance -->
+        <div class="card stats-overall-card">
+          <div class="card-header">
+            <span class="card-icon">🏆</span>
+            <span class="card-label">Desempenho Geral</span>
+            <button class="btn-icon btn-danger-text" onclick="STATS.confirmReset()">🗑️ Reset</button>
+          </div>
+          <div class="stats-overview-grid">
+            <div class="stat-box">
+              <span class="stat-num" id="stats-total">0</span>
+              <span class="stat-label">Questões</span>
+            </div>
+            <div class="stat-box correct">
+              <span class="stat-num" id="stats-correct">0</span>
+              <span class="stat-label">Acertos</span>
+            </div>
+            <div class="stat-box wrong">
+              <span class="stat-num" id="stats-wrong">0</span>
+              <span class="stat-label">Erros</span>
+            </div>
+            <div class="stat-box percent">
+              <span class="stat-num" id="stats-percent">0%</span>
+              <span class="stat-label">Aproveit.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Donut Chart -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <span class="card-label">Distribuição por Disciplina</span>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="discipline-chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Radar Chart -->
+        <div class="card chart-card">
+          <div class="card-header">
+            <span class="card-icon">🕸️</span>
+            <span class="card-label">Análise de Pontos Fortes e Fracos</span>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="radar-chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Performance by Discipline -->
+        <div class="card disc-perf-card">
+          <div class="card-header">
+            <span class="card-icon">📊</span>
+            <span class="card-label">Por Disciplina — Acertos %</span>
+          </div>
+          <div class="disc-perf-list" id="disc-perf-list"></div>
+        </div>
+
+        <!-- Evolution Chart -->
+        <div class="card evolution-card">
+          <div class="card-header">
+            <span class="card-icon">📈</span>
+            <span class="card-label">Evolução Semanal</span>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="evolution-chart"></canvas>
+          </div>
+        </div>
+
+        <!-- Weak Areas -->
+        <div class="card weak-areas-card">
+          <div class="card-header">
+            <span class="card-icon">⚠️</span>
+            <span class="card-label">Tópicos para Reforçar</span>
+          </div>
+          <div class="weak-list" id="weak-list"></div>
+        </div>
+
+        <!-- Strong Areas -->
+        <div class="card strong-areas-card">
+          <div class="card-header">
+            <span class="card-icon">💪</span>
+            <span class="card-label">Pontos Fortes</span>
+          </div>
+          <div class="strong-list" id="strong-list"></div>
+        </div>
+
+        <!-- Simulados History -->
+        <div class="card sim-history-card">
+          <div class="card-header">
+            <span class="card-icon">📝</span>
+            <span class="card-label">Histórico de Simulados</span>
+          </div>
+          <div class="sim-history-list" id="sim-history-list">
+            <div class="empty-state">Nenhum simulado realizado ainda.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal de Confirmação Genérico -->
+  <div class="modal hidden" id="confirm-modal">
+    <div class="modal-overlay" onclick="APP.closeConfirmModal()"></div>
+    <div class="confirm-dialog">
+      <h3 id="confirm-title">Confirmar</h3>
+      <p id="confirm-message"></p>
+      <div class="confirm-actions">
+        <button class="btn btn-outline" onclick="APP.closeConfirmModal()">Cancelar</button>
+        <button class="btn btn-danger" id="confirm-ok-btn">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Gerenciador de Questões Customizadas -->
+  <div class="modal hidden" id="custom-questions-modal">
+    <div class="modal-overlay" onclick="CUSTOM_QUESTIONS_UI.close()"></div>
+    <div class="modal-container large-modal">
+      <div class="modal-header">
+        <h3 id="custom-questions-title">Questões Personalizadas</h3>
+        <button class="btn-icon" onclick="CUSTOM_QUESTIONS_UI.close()">✕</button>
+      </div>
+      
+      <!-- View 1: List View -->
+      <div id="custom-questions-list-view" class="modal-body">
+        <div class="action-row" style="margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
+          <span class="text-muted" id="custom-questions-count" style="font-size: 0.85rem;">0 questões cadastradas</span>
+          <button class="btn btn-primary btn-small" onclick="CUSTOM_QUESTIONS_UI.showAddForm()">➕ Nova Questão</button>
+        </div>
+        <div class="custom-questions-table-wrapper" style="overflow-x: auto; max-height: 400px; margin-bottom: 10px;">
+          <table class="custom-table" id="custom-questions-table" style="width: 100%; border-collapse: collapse; text-align: left;">
+            <thead>
+              <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary); font-size: 0.85rem;">
+                <th style="padding: 10px;">Disciplina</th>
+                <th style="padding: 10px;">Tópico</th>
+                <th style="padding: 10px;">Enunciado</th>
+                <th style="padding: 10px;">Ações</th>
+              </tr>
+            </thead>
+            <tbody id="custom-questions-tbody" style="font-size: 0.85rem;">
+              <!-- Dinâmico -->
+            </tbody>
+          </table>
+          <div class="empty-state hidden" id="custom-questions-empty" style="text-align: center; padding: 40px 20px;">
+            <div class="placeholder-icon" style="font-size: 3rem; margin-bottom: 12px;">✍️</div>
+            <h4 style="margin-bottom: 8px;">Nenhuma questão cadastrada</h4>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Cadastre suas próprias questões para praticar no quiz e nos simulados.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- View 2: Form View -->
+      <div id="custom-questions-form-view" class="modal-body hidden">
+        <form id="custom-question-form" onsubmit="CUSTOM_QUESTIONS_UI.handleSave(event)">
+          <div class="form-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 12px;">
+            <div class="form-group" style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cq-disciplina" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Disciplina *</label>
+              <select id="cq-disciplina" required onchange="CUSTOM_QUESTIONS_UI.updateTopicSuggestions(this.value)" style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+                <option value="">Selecione...</option>
+              </select>
+            </div>
+            <div class="form-group" style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cq-topico" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Tópico / Conteúdo *</label>
+              <input type="text" id="cq-topico" required placeholder="Ex: Progressão de Regime" style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+            <div class="form-group" style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cq-dificuldade" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Dificuldade *</label>
+              <select id="cq-dificuldade" required style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+                <option value="facil">Fácil</option>
+                <option value="medio" selected>Médio</option>
+                <option value="dificil">Difícil</option>
+              </select>
+            </div>
+            <div class="form-group" style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cq-artigo" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Artigo da Lei / Referência</label>
+              <input type="text" id="cq-artigo" placeholder="Ex: Art. 112 da LEP" style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+          </div>
+          
+          <div class="form-group" style="display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px;">
+            <label for="cq-enunciado" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Enunciado da Questão *</label>
+            <textarea id="cq-enunciado" rows="3" required placeholder="Digite o texto da questão..." style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px; resize: vertical; font-family: var(--font);"></textarea>
+          </div>
+          
+          <div class="alternatives-form-grid" style="display: grid; grid-template-columns: 1fr; gap: 8px; margin-bottom: 12px;">
+            <div class="form-group alt-input-group" style="display: flex; align-items: center; gap: 8px;">
+              <span class="alt-letter-badge" style="background: var(--bg-elevated); color: var(--text-secondary); font-weight: 700; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 50%;">A</span>
+              <input type="text" id="cq-alt-a" required placeholder="Texto da alternativa A" style="flex: 1; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+            <div class="form-group alt-input-group" style="display: flex; align-items: center; gap: 8px;">
+              <span class="alt-letter-badge" style="background: var(--bg-elevated); color: var(--text-secondary); font-weight: 700; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 50%;">B</span>
+              <input type="text" id="cq-alt-b" required placeholder="Texto da alternativa B" style="flex: 1; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+            <div class="form-group alt-input-group" style="display: flex; align-items: center; gap: 8px;">
+              <span class="alt-letter-badge" style="background: var(--bg-elevated); color: var(--text-secondary); font-weight: 700; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 50%;">C</span>
+              <input type="text" id="cq-alt-c" required placeholder="Texto da alternativa C" style="flex: 1; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+            <div class="form-group alt-input-group" style="display: flex; align-items: center; gap: 8px;">
+              <span class="alt-letter-badge" style="background: var(--bg-elevated); color: var(--text-secondary); font-weight: 700; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 50%;">D</span>
+              <input type="text" id="cq-alt-d" required placeholder="Texto da alternativa D" style="flex: 1; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+          </div>
+          
+          <div class="form-grid" style="display: grid; grid-template-columns: 1fr 2fr; gap: 12px; margin-bottom: 12px;">
+            <div class="form-group" style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cq-gabarito" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Gabarito Correto *</label>
+              <select id="cq-gabarito" required style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+                <option value="A">Alternativa A</option>
+                <option value="B">Alternativa B</option>
+                <option value="C">Alternativa C</option>
+                <option value="D">Alternativa D</option>
+              </select>
+            </div>
+            <div class="form-group" style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cq-justificativa" style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 600;">Justificativa / Comentário da Questão *</label>
+              <input type="text" id="cq-justificativa" required placeholder="Explique por que o gabarito está correto..." style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 8px;">
+            </div>
+          </div>
+          
+          <div class="form-actions" style="margin-top: 16px; display: flex; justify-content: flex-end; gap: 8px;">
+            <button type="button" class="btn btn-outline" onclick="CUSTOM_QUESTIONS_UI.showList()">Voltar</button>
+            <button type="submit" class="btn btn-primary">Salvar Questão</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+</div><!-- end #app -->
+
+<!-- Data Files -->
+<script src="data/edital.js"></script>
+<script src="data/lei_seca.js"></script>
+<script src="data/lei_seca_extra.js"></script>
+<script src="data/questions_lep.js"></script>
+<script src="data/questions_extra_lep.js"></script>
+<script src="data/questions_legislacao.js"></script>
+<script src="data/questions_extra_legislacao.js"></script>
+<script src="data/questions_penal.js"></script>
+<script src="data/questions_constitucional.js"></script>
+<script src="data/questions_administrativo.js"></script>
+<script src="data/questions_dh.js"></script>
+<script src="data/questions_portugues.js"></script>
+<script src="data/questions_etica.js"></script>
+<script src="data/questions_historia.js"></script>
+<!-- App Scripts -->
+<script src="js/app.js"></script>
+
+<!-- PWA: Registro do Service Worker (atualizações automáticas) -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/Concursos-Policiais/service-worker.js')
+        .then((reg) => {
+          // Verifica se há atualização disponível
+          reg.addEventListener('updatefound', () => {
+            const newWorker = reg.installing;
+            newWorker.addEventListener('statechange', () => {
+              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                // Nova versão disponível — recarrega automaticamente
+                window.location.reload();
+              }
+            });
+          });
+        })
+        .catch((err) => console.log('SW erro:', err));
+    });
+  }
+</script>
+</body>
+</html>
+
