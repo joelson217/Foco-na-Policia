@@ -121,7 +121,8 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM_7 !== 'undefined' ? QUESTIONS_PREMIUM_7 : [],
     typeof QUESTIONS_PREMIUM_8 !== 'undefined' ? QUESTIONS_PREMIUM_8 : [],
     typeof QUESTIONS_PREMIUM_9 !== 'undefined' ? QUESTIONS_PREMIUM_9 : [],
-    typeof QUESTIONS_PREMIUM_10 !== 'undefined' ? QUESTIONS_PREMIUM_10 : []
+    typeof QUESTIONS_PREMIUM_10 !== 'undefined' ? QUESTIONS_PREMIUM_10 : [],
+    typeof QUESTIONS_PREMIUM_11 !== 'undefined' ? QUESTIONS_PREMIUM_11 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -328,7 +329,8 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7.decks : []),
       ...(typeof LEI_SECA_PREMIUM_8 !== 'undefined' ? LEI_SECA_PREMIUM_8.decks : []),
       ...(typeof LEI_SECA_PREMIUM_9 !== 'undefined' ? LEI_SECA_PREMIUM_9.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_11 !== 'undefined' ? LEI_SECA_PREMIUM_11.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -944,7 +946,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null,
         typeof LEI_SECA_PREMIUM_8 !== 'undefined' ? LEI_SECA_PREMIUM_8 : null,
         typeof LEI_SECA_PREMIUM_9 !== 'undefined' ? LEI_SECA_PREMIUM_9 : null,
-        typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null
+        typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null,
+        typeof LEI_SECA_PREMIUM_11 !== 'undefined' ? LEI_SECA_PREMIUM_11 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -990,7 +993,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null,
         typeof LEI_SECA_PREMIUM_8 !== 'undefined' ? LEI_SECA_PREMIUM_8 : null,
         typeof LEI_SECA_PREMIUM_9 !== 'undefined' ? LEI_SECA_PREMIUM_9 : null,
-        typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null
+        typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null,
+        typeof LEI_SECA_PREMIUM_11 !== 'undefined' ? LEI_SECA_PREMIUM_11 : null
       ].filter(s => s !== null);
 
       deck = null;
@@ -1956,11 +1960,16 @@ const CUSTOM_QUESTIONS_UI = {
 };
 
 const VISUAL_FLASHCARDS = {
+  currentIndex: 0,
+  sortedImages: [],
   images: [
     "1 - Lei Penal no Tempo.png",
     "10 - Princípios do Direito Penal.png",
     "11 - Direito Penal.png",
     "12 - LEP (Direitos e Deveres).png",
+    "13 - LEP (Estabelecimentos Penais e Regimes).png",
+    "14 - Estatuto e Regime Penitênciário do RN.png",
+    "15 - Inquério Policial, Conceitos e Características.png",
     "2 - Excludente de Ilicitude.png",
     "3 - Dolo e Culpa.png",
     "4 -Concurso de Crimes e de Pessoas.png",
@@ -1976,14 +1985,14 @@ const VISUAL_FLASHCARDS = {
     if (!grid) return;
     grid.innerHTML = '';
     
-    // Sort logically if we can, or just leave as is. Let's do natural sort.
-    const sorted = [...this.images].sort((a, b) => {
+    // Sort logically
+    this.sortedImages = [...this.images].sort((a, b) => {
       const numA = parseInt(a.split(' -')[0]) || 0;
       const numB = parseInt(b.split(' -')[0]) || 0;
       return numA - numB;
     });
 
-    sorted.forEach(file => {
+    this.sortedImages.forEach((file, index) => {
       const card = document.createElement('div');
       card.className = 'card visual-fc-card';
       card.style.cursor = 'pointer';
@@ -2004,20 +2013,36 @@ const VISUAL_FLASHCARDS = {
         <div style="font-size: 0.9rem; font-weight: 600; text-align: center; color: var(--text-primary);">${title}</div>
       `;
 
-      card.onclick = () => this.openViewer(encodedPath, title);
+      card.onclick = () => this.openViewer(index);
       grid.appendChild(card);
     });
   },
 
-  openViewer(src, title) {
+  openViewer(index) {
+    if (index < 0) index = this.sortedImages.length - 1;
+    if (index >= this.sortedImages.length) index = 0;
+    
+    this.currentIndex = index;
+    const file = this.sortedImages[index];
+    const title = file.replace('.png', '').replace(/^\d+\s*-\s*/, '');
+    const encodedPath = `FlashCards/${encodeURIComponent(file)}`;
+
     const modal = document.getElementById('visual-fc-modal');
     const img = document.getElementById('visual-fc-img');
     const titleEl = document.getElementById('visual-fc-title');
     
-    img.src = src;
+    img.src = encodedPath;
     titleEl.textContent = title;
     modal.classList.remove('hidden');
     modal.style.display = 'flex';
+  },
+
+  prevImage() {
+    this.openViewer(this.currentIndex - 1);
+  },
+
+  nextImage() {
+    this.openViewer(this.currentIndex + 1);
   }
 };
 
