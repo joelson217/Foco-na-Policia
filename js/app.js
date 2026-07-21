@@ -113,7 +113,8 @@ function initQuestions() {
     typeof QUESTIONS_ETICA !== 'undefined' ? QUESTIONS_ETICA : [],
     typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : [],
     typeof QUESTIONS_PREMIUM !== 'undefined' ? QUESTIONS_PREMIUM : [],
-    typeof QUESTIONS_PREMIUM_2 !== 'undefined' ? QUESTIONS_PREMIUM_2 : []
+    typeof QUESTIONS_PREMIUM_2 !== 'undefined' ? QUESTIONS_PREMIUM_2 : [],
+    typeof QUESTIONS_PREMIUM_3 !== 'undefined' ? QUESTIONS_PREMIUM_3 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -311,7 +312,8 @@ const APP = {
       ...LEI_SECA.decks,
       ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.decks : []),
       ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -912,7 +914,8 @@ const FLASHCARDS = {
         ...LEI_SECA.getAllArticles(),
         ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getAllArticles() : []),
         ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getAllArticles() : []),
-        ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getAllArticles() : [])
+        ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getAllArticles() : []),
+        ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getAllArticles() : [])
       ];
       const markedArticles = allArticles.filter(art => markedIds.includes(art.id));
       
@@ -930,7 +933,8 @@ const FLASHCARDS = {
       deck = LEI_SECA.getDeck(deckId) ||
              (typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getDeck(deckId) : null) ||
              (typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getDeck(deckId) : null) ||
-             (typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getDeck(deckId) : null);
+             (typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getDeck(deckId) : null) ||
+             (typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getDeck(deckId) : null);
     }
     
     if (!deck) return;
