@@ -919,14 +919,33 @@ const FLASHCARDS = {
         this.resetView();
         return;
       }
-      const allArticles = [
-        ...LEI_SECA.getAllArticles(),
-        ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getAllArticles() : []),
-        ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getAllArticles() : []),
-        ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getAllArticles() : []),
-        ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getAllArticles() : []),
-        ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.getAllArticles() : [])
-      ];
+      const allSources = [
+        LEI_SECA,
+        typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA : null,
+        typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM : null,
+        typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2 : null,
+        typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3 : null,
+        typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null
+      ].filter(s => s !== null);
+
+      const allArticles = [];
+      allSources.forEach(source => {
+        if (typeof source.getAllArticles === 'function') {
+          allArticles.push(...source.getAllArticles());
+        } else if (source.decks) {
+          source.decks.forEach(deck => {
+            if (deck.secoes) {
+              deck.secoes.forEach(sec => {
+                if (sec.artigos) {
+                  sec.artigos.forEach(art => {
+                    allArticles.push({ ...art, deckId: deck.id, deckNome: deck.nome, disciplina: deck.disciplina });
+                  });
+                }
+              });
+            }
+          });
+        }
+      });
       const markedArticles = allArticles.filter(art => markedIds.includes(art.id));
       
       deck = {
@@ -940,12 +959,24 @@ const FLASHCARDS = {
         }]
       };
     } else {
-      deck = LEI_SECA.getDeck(deckId) ||
-             (typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getDeck(deckId) : null) ||
-             (typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getDeck(deckId) : null) ||
-             (typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getDeck(deckId) : null) ||
-             (typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getDeck(deckId) : null) ||
-             (typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.getDeck(deckId) : null);
+      const allSources = [
+        LEI_SECA,
+        typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA : null,
+        typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM : null,
+        typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2 : null,
+        typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3 : null,
+        typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null
+      ].filter(s => s !== null);
+
+      deck = null;
+      for (const source of allSources) {
+        if (typeof source.getDeck === 'function') {
+          deck = source.getDeck(deckId);
+        } else if (source.decks) {
+          deck = source.decks.find(d => d.id === deckId);
+        }
+        if (deck) break;
+      }
     }
     
     if (!deck) return;
