@@ -36,7 +36,7 @@ echo.
 echo [4/4] Deploy concluído!
 echo.
 echo  ✅ Seu app foi atualizado na nuvem!
-echo  🌐 Link: https://joelson217.github.io/Concursos-Policiais/
+echo  🌐 Link: https://joelson217.github.io/Concursos-Policias/
 echo  📱 O iPhone atualiza automaticamente ao abrir o app.
 echo.
 pause

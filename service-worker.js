@@ -4,27 +4,27 @@
 const CACHE_NAME = 'concursos-policiais-v' + Date.now();
 
 const ASSETS_TO_CACHE = [
-  '/Concursos-Policiais/',
-  '/Concursos-Policiais/index.html',
-  '/Concursos-Policiais/css/styles.css',
-  '/Concursos-Policiais/js/app.js',
-  '/Concursos-Policiais/data/add_questions.js',
-  '/Concursos-Policiais/data/edital.js',
-  '/Concursos-Policiais/data/lei_seca.js',
-  '/Concursos-Policiais/data/lei_seca_extra.js',
-  '/Concursos-Policiais/data/questions_administrativo.js',
-  '/Concursos-Policiais/data/questions_constitucional.js',
-  '/Concursos-Policiais/data/questions_dh.js',
-  '/Concursos-Policiais/data/questions_etica.js',
-  '/Concursos-Policiais/data/questions_extra_legislacao.js',
-  '/Concursos-Policiais/data/questions_extra_lep.js',
-  '/Concursos-Policiais/data/questions_historia.js',
-  '/Concursos-Policiais/data/questions_legislacao.js',
-  '/Concursos-Policiais/data/questions_lep.js',
-  '/Concursos-Policiais/data/questions_penal.js',
-  '/Concursos-Policiais/data/questions_portugues.js',
-  '/Concursos-Policiais/icon-512.png',
-  '/Concursos-Policiais/manifest.json'
+  '/Concursos-Policias/',
+  '/Concursos-Policias/index.html',
+  '/Concursos-Policias/css/styles.css',
+  '/Concursos-Policias/js/app.js',
+  '/Concursos-Policias/data/add_questions.js',
+  '/Concursos-Policias/data/edital.js',
+  '/Concursos-Policias/data/lei_seca.js',
+  '/Concursos-Policias/data/lei_seca_extra.js',
+  '/Concursos-Policias/data/questions_administrativo.js',
+  '/Concursos-Policias/data/questions_constitucional.js',
+  '/Concursos-Policias/data/questions_dh.js',
+  '/Concursos-Policias/data/questions_etica.js',
+  '/Concursos-Policias/data/questions_extra_legislacao.js',
+  '/Concursos-Policias/data/questions_extra_lep.js',
+  '/Concursos-Policias/data/questions_historia.js',
+  '/Concursos-Policias/data/questions_legislacao.js',
+  '/Concursos-Policias/data/questions_lep.js',
+  '/Concursos-Policias/data/questions_penal.js',
+  '/Concursos-Policias/data/questions_portugues.js',
+  '/Concursos-Policias/icon-512.png',
+  '/Concursos-Policias/manifest.json'
 ];
 
 // Instala e faz cache de todos os assets
