@@ -116,7 +116,9 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM_2 !== 'undefined' ? QUESTIONS_PREMIUM_2 : [],
     typeof QUESTIONS_PREMIUM_3 !== 'undefined' ? QUESTIONS_PREMIUM_3 : [],
     typeof QUESTIONS_PREMIUM_4 !== 'undefined' ? QUESTIONS_PREMIUM_4 : [],
-    typeof QUESTIONS_PREMIUM_5 !== 'undefined' ? QUESTIONS_PREMIUM_5 : []
+    typeof QUESTIONS_PREMIUM_5 !== 'undefined' ? QUESTIONS_PREMIUM_5 : [],
+    typeof QUESTIONS_PREMIUM_6 !== 'undefined' ? QUESTIONS_PREMIUM_6 : [],
+    typeof QUESTIONS_PREMIUM_7 !== 'undefined' ? QUESTIONS_PREMIUM_7 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -317,7 +319,9 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.decks : []),
       ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.decks : []),
       ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_6 !== 'undefined' ? LEI_SECA_PREMIUM_6.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -928,7 +932,9 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2 : null,
         typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3 : null,
         typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null,
-        typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null
+        typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null,
+        typeof LEI_SECA_PREMIUM_6 !== 'undefined' ? LEI_SECA_PREMIUM_6 : null,
+        typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -969,7 +975,9 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2 : null,
         typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3 : null,
         typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4 : null,
-        typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null
+        typeof LEI_SECA_PREMIUM_5 !== 'undefined' ? LEI_SECA_PREMIUM_5 : null,
+        typeof LEI_SECA_PREMIUM_6 !== 'undefined' ? LEI_SECA_PREMIUM_6 : null,
+        typeof LEI_SECA_PREMIUM_7 !== 'undefined' ? LEI_SECA_PREMIUM_7 : null
       ].filter(s => s !== null);
 
       deck = null;
@@ -1006,10 +1014,24 @@ const FLASHCARDS = {
           art.cobrado === 'hot' ? '<span class="article-badge badge-hot">🔥 Muito cobrado</span>' : '',
           ...(art.anos || []).map(a => `<span class="article-badge badge-year">${a}</span>`)
         ].filter(Boolean).join('');
+
+        // Suporta formato antigo (artigo/titulo/verso) e novo (numero/texto/destaques)
+        const numLabel = art.artigo || art.numero || '';
+        const titleLabel = art.titulo || '';
+        const bodyText = art.verso || art.texto || '';
+        const destaques = art.destaques || [];
+
+        const destaquesHtml = destaques.length > 0
+          ? `<div class="article-destaques" style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;">
+              ${destaques.map(d => `<span style="background:var(--primary-light,rgba(99,102,241,0.15));color:var(--primary);border-radius:6px;padding:2px 10px;font-size:0.75rem;font-weight:600;">📌 ${d}</span>`).join('')}
+            </div>`
+          : '';
+
         card.innerHTML = `
-          <div class="article-num">${art.artigo}</div>
-          <div class="article-title">${art.titulo}</div>
-          <div class="article-text">${art.verso}</div>
+          <div class="article-num">${numLabel}</div>
+          ${titleLabel ? `<div class="article-title">${titleLabel}</div>` : ''}
+          <div class="article-text" style="white-space:pre-line;">${bodyText}</div>
+          ${destaquesHtml}
           ${badgesHtml ? `<div class="article-badges">${badgesHtml}</div>` : ''}
         `;
         section.appendChild(card);
@@ -1041,9 +1063,10 @@ const FLASHCARDS = {
     if (!card) return;
     document.getElementById('fc-progress').textContent = `${idx + 1} / ${cards.length}`;
     document.getElementById('fc-topic').textContent = card.deckNome || '';
-    document.getElementById('fc-front').textContent = card.frente;
-    document.getElementById('fc-back').textContent = card.verso;
-    document.getElementById('fc-artigo').textContent = card.artigo || '';
+    // Suporta formato antigo (frente/verso/artigo) e novo (numero/texto)
+    document.getElementById('fc-front').textContent = card.frente || card.numero || card.titulo || '';
+    document.getElementById('fc-back').textContent = card.verso || card.texto || '';
+    document.getElementById('fc-artigo').textContent = card.artigo || card.numero || '';
     const fc = document.getElementById('flashcard');
     fc.classList.remove('flipped');
     STATE.flashcards.isFlipped = false;
