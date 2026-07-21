@@ -43,6 +43,18 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_premium_8.js',
   '/Foco-na-Policia/data/questions_premium_9.js',
   '/Foco-na-Policia/data/questions_premium_10.js',
+  '/Foco-na-Policia/FlashCards/1 - Lei Penal no Tempo.png',
+  '/Foco-na-Policia/FlashCards/10 - Princípios do Direito Penal.png',
+  '/Foco-na-Policia/FlashCards/11 - Direito Penal.png',
+  '/Foco-na-Policia/FlashCards/12 - LEP (Direitos e Deveres).png',
+  '/Foco-na-Policia/FlashCards/2 - Excludente de Ilicitude.png',
+  '/Foco-na-Policia/FlashCards/3 - Dolo e Culpa.png',
+  '/Foco-na-Policia/FlashCards/4 -Concurso de Crimes e de Pessoas.png',
+  '/Foco-na-Policia/FlashCards/5 - Inputabilidade Penal e Erro de Tipo.png',
+  '/Foco-na-Policia/FlashCards/6 - Lei Penal no Tempo 2.png',
+  '/Foco-na-Policia/FlashCards/7 - Lei Penal no Espaço e Territorialidade.png',
+  '/Foco-na-Policia/FlashCards/8 - Crime (Conceitos e Classificações).png',
+  '/Foco-na-Policia/FlashCards/9 - O Crime (Inter Criminis e Condições).png',
   '/Foco-na-Policia/icon-512.png',
   '/Foco-na-Policia/manifest.json'
 ];

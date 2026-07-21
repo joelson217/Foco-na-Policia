@@ -229,6 +229,7 @@ const APP = {
     this.initDisciplineFilters();
     this.initSimuladoGrid();
     this.initLeiSeca();
+    VISUAL_FLASHCARDS.render();
     STATS.initCharts();
     DASHBOARD.render();
     this.updateCountdown();
@@ -1951,6 +1952,72 @@ const CUSTOM_QUESTIONS_UI = {
     CUSTOM_QUESTIONS.add(newQ);
     showToast('Questão cadastrada com sucesso!');
     this.showList();
+  }
+};
+
+const VISUAL_FLASHCARDS = {
+  images: [
+    "1 - Lei Penal no Tempo.png",
+    "10 - Princípios do Direito Penal.png",
+    "11 - Direito Penal.png",
+    "12 - LEP (Direitos e Deveres).png",
+    "2 - Excludente de Ilicitude.png",
+    "3 - Dolo e Culpa.png",
+    "4 -Concurso de Crimes e de Pessoas.png",
+    "5 - Inputabilidade Penal e Erro de Tipo.png",
+    "6 - Lei Penal no Tempo 2.png",
+    "7 - Lei Penal no Espaço e Territorialidade.png",
+    "8 - Crime (Conceitos e Classificações).png",
+    "9 - O Crime (Inter Criminis e Condições).png"
+  ],
+
+  render() {
+    const grid = document.getElementById('visual-flashcards-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+    
+    // Sort logically if we can, or just leave as is. Let's do natural sort.
+    const sorted = [...this.images].sort((a, b) => {
+      const numA = parseInt(a.split(' -')[0]) || 0;
+      const numB = parseInt(b.split(' -')[0]) || 0;
+      return numA - numB;
+    });
+
+    sorted.forEach(file => {
+      const card = document.createElement('div');
+      card.className = 'card visual-fc-card';
+      card.style.cursor = 'pointer';
+      card.style.padding = '8px';
+      card.style.display = 'flex';
+      card.style.flexDirection = 'column';
+      card.style.alignItems = 'center';
+      card.style.background = 'var(--bg-primary)';
+      card.style.border = '1px solid var(--border)';
+      
+      const title = file.replace('.png', '').replace(/^\d+\s*-\s*/, '');
+      const encodedPath = `FlashCards/${encodeURIComponent(file)}`;
+
+      card.innerHTML = `
+        <div style="width: 100%; height: 160px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 12px; background: #000; display: flex; align-items: center; justify-content: center;">
+          <img src="${encodedPath}" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy" />
+        </div>
+        <div style="font-size: 0.9rem; font-weight: 600; text-align: center; color: var(--text-primary);">${title}</div>
+      `;
+
+      card.onclick = () => this.openViewer(encodedPath, title);
+      grid.appendChild(card);
+    });
+  },
+
+  openViewer(src, title) {
+    const modal = document.getElementById('visual-fc-modal');
+    const img = document.getElementById('visual-fc-img');
+    const titleEl = document.getElementById('visual-fc-title');
+    
+    img.src = src;
+    titleEl.textContent = title;
+    modal.classList.remove('hidden');
+    modal.style.display = 'flex';
   }
 };
 
