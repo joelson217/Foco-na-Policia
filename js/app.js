@@ -124,7 +124,8 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM_10 !== 'undefined' ? QUESTIONS_PREMIUM_10 : [],
     typeof QUESTIONS_PREMIUM_11 !== 'undefined' ? QUESTIONS_PREMIUM_11 : [],
     typeof QUESTIONS_PREMIUM_12 !== 'undefined' ? QUESTIONS_PREMIUM_12 : [],
-    typeof QUESTIONS_PREMIUM_13 !== 'undefined' ? QUESTIONS_PREMIUM_13 : []
+    typeof QUESTIONS_PREMIUM_13 !== 'undefined' ? QUESTIONS_PREMIUM_13 : [],
+    typeof QUESTIONS_PREMIUM_14 !== 'undefined' ? QUESTIONS_PREMIUM_14 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -334,7 +335,8 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10.decks : []),
       ...(typeof LEI_SECA_PREMIUM_11 !== 'undefined' ? LEI_SECA_PREMIUM_11.decks : []),
       ...(typeof LEI_SECA_PREMIUM_12 !== 'undefined' ? LEI_SECA_PREMIUM_12.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_14 !== 'undefined' ? LEI_SECA_PREMIUM_14.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -953,7 +955,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null,
         typeof LEI_SECA_PREMIUM_11 !== 'undefined' ? LEI_SECA_PREMIUM_11 : null,
         typeof LEI_SECA_PREMIUM_12 !== 'undefined' ? LEI_SECA_PREMIUM_12 : null,
-        typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13 : null
+        typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13 : null,
+        typeof LEI_SECA_PREMIUM_14 !== 'undefined' ? LEI_SECA_PREMIUM_14 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -1002,7 +1005,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_10 !== 'undefined' ? LEI_SECA_PREMIUM_10 : null,
         typeof LEI_SECA_PREMIUM_11 !== 'undefined' ? LEI_SECA_PREMIUM_11 : null,
         typeof LEI_SECA_PREMIUM_12 !== 'undefined' ? LEI_SECA_PREMIUM_12 : null,
-        typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13 : null
+        typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13 : null,
+        typeof LEI_SECA_PREMIUM_14 !== 'undefined' ? LEI_SECA_PREMIUM_14 : null
       ].filter(s => s !== null);
 
       deck = null;
@@ -2043,6 +2047,29 @@ const VISUAL_FLASHCARDS = {
     titleEl.textContent = title;
     modal.classList.remove('hidden');
     modal.style.display = 'flex';
+
+    // Key Handler
+    if (this.activeKeyHandler) {
+      window.removeEventListener('keydown', this.activeKeyHandler);
+    }
+    this.activeKeyHandler = (e) => {
+      if (e.key === 'ArrowLeft') this.prevImage();
+      if (e.key === 'ArrowRight') this.nextImage();
+      if (e.key === 'Escape') this.closeModal();
+    };
+    window.addEventListener('keydown', this.activeKeyHandler);
+  },
+
+  closeModal(e) {
+    if (e && e.target !== e.currentTarget) return;
+    const modal = document.getElementById('visual-fc-modal');
+    modal.classList.add('hidden');
+    modal.style.display = 'none';
+
+    if (this.activeKeyHandler) {
+      window.removeEventListener('keydown', this.activeKeyHandler);
+      this.activeKeyHandler = null;
+    }
   },
 
   prevImage() {

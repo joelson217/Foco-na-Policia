@@ -837,15 +837,15 @@
   </section>
 
   <!-- Modal Viewer for Visual FlashCards -->
-  <div id="visual-fc-modal" class="modal-overlay hidden" style="z-index: 1000; display: none;">
-    <div class="modal-content" style="max-width: 95vw; background: transparent; box-shadow: none; display: flex; flex-direction: column; align-items: center; position: relative;">
-      <button onclick="document.getElementById('visual-fc-modal').classList.add('hidden')" style="position: absolute; top: -40px; right: 0; background: rgba(0,0,0,0.5); color: white; border: none; width: 40px; height: 40px; border-radius: 50%; font-size: 1.5rem; cursor: pointer; z-index: 1001;">×</button>
-      <div style="display: flex; align-items: center; justify-content: center; width: 100%; gap: 16px;">
-        <button id="visual-fc-prev" onclick="VISUAL_FLASHCARDS.prevImage()" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; font-size: 1.2rem;">◀</button>
-        <img id="visual-fc-img" src="" style="max-width: 80%; max-height: 75vh; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
-        <button id="visual-fc-next" onclick="VISUAL_FLASHCARDS.nextImage()" style="background: rgba(255,255,255,0.2); color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; font-size: 1.2rem;">▶</button>
+  <div id="visual-fc-modal" class="modal-overlay hidden" onclick="VISUAL_FLASHCARDS.closeModal(event)" style="z-index: 1000; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;">
+    <div class="modal-content" onclick="event.stopPropagation()" style="max-width: 95vw; background: transparent; box-shadow: none; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; width: 100%; height: 100%; outline: none; border: none;">
+      <button onclick="VISUAL_FLASHCARDS.closeModal()" style="position: absolute; top: 16px; right: 16px; background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; font-size: 1.8rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">×</button>
+      <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; max-height: 80vh; position: relative;">
+        <button id="visual-fc-prev" onclick="VISUAL_FLASHCARDS.prevImage()" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">◀</button>
+        <img id="visual-fc-img" src="" style="max-width: 85%; max-height: 75vh; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); object-fit: contain; display: block; margin: auto;" />
+        <button id="visual-fc-next" onclick="VISUAL_FLASHCARDS.nextImage()" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">▶</button>
       </div>
-      <div id="visual-fc-title" style="color: white; margin-top: 12px; font-weight: 700; font-size: 1.1rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.8);"></div>
+      <div id="visual-fc-title" style="color: white; margin-top: 16px; font-weight: 700; font-size: 1.2rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); text-align: center; max-width: 80vw;"></div>
     </div>
   </div>
 
@@ -871,6 +871,7 @@
 <script src="data/lei_seca_premium_11.js"></script>
 <script src="data/lei_seca_premium_12.js"></script>
 <script src="data/lei_seca_premium_13.js"></script>
+<script src="data/lei_seca_premium_14.js"></script>
 <script src="data/questions_lep.js"></script>
 <script src="data/questions_extra_lep.js"></script>
 <script src="data/questions_legislacao.js"></script>
@@ -895,6 +896,7 @@
 <script src="data/questions_premium_11.js"></script>
 <script src="data/questions_premium_12.js"></script>
 <script src="data/questions_premium_13.js"></script>
+<script src="data/questions_premium_14.js"></script>
 <!-- App Scripts -->
 <script src="js/app.js"></script>
 
