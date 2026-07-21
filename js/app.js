@@ -114,7 +114,8 @@ function initQuestions() {
     typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : [],
     typeof QUESTIONS_PREMIUM !== 'undefined' ? QUESTIONS_PREMIUM : [],
     typeof QUESTIONS_PREMIUM_2 !== 'undefined' ? QUESTIONS_PREMIUM_2 : [],
-    typeof QUESTIONS_PREMIUM_3 !== 'undefined' ? QUESTIONS_PREMIUM_3 : []
+    typeof QUESTIONS_PREMIUM_3 !== 'undefined' ? QUESTIONS_PREMIUM_3 : [],
+    typeof QUESTIONS_PREMIUM_4 !== 'undefined' ? QUESTIONS_PREMIUM_4 : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -313,7 +314,8 @@ const APP = {
       ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.decks : []),
       ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.decks : []),
       ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -351,7 +353,14 @@ const APP = {
       grid.appendChild(card);
     }
     
-    allDecks.forEach(deck => {
+    // Agrupar peso 2 no topo
+    const sortedDecks = [...allDecks].sort((a, b) => {
+      const pesoA = a.peso || 1;
+      const pesoB = b.peso || 1;
+      return pesoB - pesoA; // Descending (2 comes before 1)
+    });
+
+    sortedDecks.forEach(deck => {
       const card = document.createElement('div');
       card.className = `quick-card${deck.peso === 2 ? ' weight-2-card' : ''}`;
       card.innerHTML = `
@@ -915,7 +924,8 @@ const FLASHCARDS = {
         ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getAllArticles() : []),
         ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getAllArticles() : []),
         ...(typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getAllArticles() : []),
-        ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getAllArticles() : [])
+        ...(typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getAllArticles() : []),
+        ...(typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.getAllArticles() : [])
       ];
       const markedArticles = allArticles.filter(art => markedIds.includes(art.id));
       
@@ -934,7 +944,8 @@ const FLASHCARDS = {
              (typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getDeck(deckId) : null) ||
              (typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getDeck(deckId) : null) ||
              (typeof LEI_SECA_PREMIUM_2 !== 'undefined' ? LEI_SECA_PREMIUM_2.getDeck(deckId) : null) ||
-             (typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getDeck(deckId) : null);
+             (typeof LEI_SECA_PREMIUM_3 !== 'undefined' ? LEI_SECA_PREMIUM_3.getDeck(deckId) : null) ||
+             (typeof LEI_SECA_PREMIUM_4 !== 'undefined' ? LEI_SECA_PREMIUM_4.getDeck(deckId) : null);
     }
     
     if (!deck) return;
