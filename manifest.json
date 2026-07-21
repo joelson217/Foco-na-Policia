@@ -1,9 +1,9 @@
 {
-  "name": "Concursos-Policiais",
-  "short_name": "Concursos",
+  "name": "Foco na Polícia",
+  "short_name": "Foco na Polícia",
   "description": "App de estudos para concursos policiais — questões, simulados e lei seca.",
-  "start_url": "/Concursos-Policias/",
-  "scope": "/Concursos-Policias/",
+  "start_url": "/Foco-na-Policia/",
+  "scope": "/Foco-na-Policia/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0f1e",

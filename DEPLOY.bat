@@ -1,10 +1,10 @@
 @echo off
 chcp 65001 >nul
-title Deploy — Concursos-Policiais
+title Deploy — Foco na Polícia
 
 echo.
 echo  ╔══════════════════════════════════════╗
-echo  ║   DEPLOY — Concursos-Policiais       ║
+echo  ║   DEPLOY — Foco na Polícia           ║
 echo  ║   Enviando atualizações para nuvem   ║
 echo  ╚══════════════════════════════════════╝
 echo.
@@ -36,7 +36,7 @@ echo.
 echo [4/4] Deploy concluído!
 echo.
 echo  ✅ Seu app foi atualizado na nuvem!
-echo  🌐 Link: https://joelson217.github.io/Concursos-Policias/
+echo  🌐 Link: https://joelson217.github.io/Foco-na-Policia/
 echo  📱 O iPhone atualiza automaticamente ao abrir o app.
 echo.
 pause

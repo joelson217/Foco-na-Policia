@@ -4,27 +4,27 @@
 const CACHE_NAME = 'concursos-policiais-v' + Date.now();
 
 const ASSETS_TO_CACHE = [
-  '/Concursos-Policias/',
-  '/Concursos-Policias/index.html',
-  '/Concursos-Policias/css/styles.css',
-  '/Concursos-Policias/js/app.js',
-  '/Concursos-Policias/data/add_questions.js',
-  '/Concursos-Policias/data/edital.js',
-  '/Concursos-Policias/data/lei_seca.js',
-  '/Concursos-Policias/data/lei_seca_extra.js',
-  '/Concursos-Policias/data/questions_administrativo.js',
-  '/Concursos-Policias/data/questions_constitucional.js',
-  '/Concursos-Policias/data/questions_dh.js',
-  '/Concursos-Policias/data/questions_etica.js',
-  '/Concursos-Policias/data/questions_extra_legislacao.js',
-  '/Concursos-Policias/data/questions_extra_lep.js',
-  '/Concursos-Policias/data/questions_historia.js',
-  '/Concursos-Policias/data/questions_legislacao.js',
-  '/Concursos-Policias/data/questions_lep.js',
-  '/Concursos-Policias/data/questions_penal.js',
-  '/Concursos-Policias/data/questions_portugues.js',
-  '/Concursos-Policias/icon-512.png',
-  '/Concursos-Policias/manifest.json'
+  '/Foco-na-Policia/',
+  '/Foco-na-Policia/index.html',
+  '/Foco-na-Policia/css/styles.css',
+  '/Foco-na-Policia/js/app.js',
+  '/Foco-na-Policia/data/add_questions.js',
+  '/Foco-na-Policia/data/edital.js',
+  '/Foco-na-Policia/data/lei_seca.js',
+  '/Foco-na-Policia/data/lei_seca_extra.js',
+  '/Foco-na-Policia/data/questions_administrativo.js',
+  '/Foco-na-Policia/data/questions_constitucional.js',
+  '/Foco-na-Policia/data/questions_dh.js',
+  '/Foco-na-Policia/data/questions_etica.js',
+  '/Foco-na-Policia/data/questions_extra_legislacao.js',
+  '/Foco-na-Policia/data/questions_extra_lep.js',
+  '/Foco-na-Policia/data/questions_historia.js',
+  '/Foco-na-Policia/data/questions_legislacao.js',
+  '/Foco-na-Policia/data/questions_lep.js',
+  '/Foco-na-Policia/data/questions_penal.js',
+  '/Foco-na-Policia/data/questions_portugues.js',
+  '/Foco-na-Policia/icon-512.png',
+  '/Foco-na-Policia/manifest.json'
 ];
 
 // Instala e faz cache de todos os assets
