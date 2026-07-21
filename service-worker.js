@@ -13,6 +13,7 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/lei_seca.js',
   '/Foco-na-Policia/data/lei_seca_extra.js',
   '/Foco-na-Policia/data/lei_seca_premium.js',
+  '/Foco-na-Policia/data/lei_seca_premium_2.js',
   '/Foco-na-Policia/data/questions_administrativo.js',
   '/Foco-na-Policia/data/questions_constitucional.js',
   '/Foco-na-Policia/data/questions_dh.js',
@@ -25,6 +26,7 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_penal.js',
   '/Foco-na-Policia/data/questions_portugues.js',
   '/Foco-na-Policia/data/questions_premium.js',
+  '/Foco-na-Policia/data/questions_premium_2.js',
   '/Foco-na-Policia/icon-512.png',
   '/Foco-na-Policia/manifest.json'
 ];
