@@ -111,7 +111,8 @@ function initQuestions() {
     typeof QUESTIONS_DH !== 'undefined' ? QUESTIONS_DH : [],
     typeof QUESTIONS_PORTUGUES !== 'undefined' ? QUESTIONS_PORTUGUES : [],
     typeof QUESTIONS_ETICA !== 'undefined' ? QUESTIONS_ETICA : [],
-    typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : []
+    typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : [],
+    typeof QUESTIONS_PREMIUM !== 'undefined' ? QUESTIONS_PREMIUM : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -307,7 +308,8 @@ const APP = {
     // Combine base decks + extra decks into one unified list
     const allDecks = [
       ...LEI_SECA.decks,
-      ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.decks : [])
+      ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.decks : []),
+      ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -906,7 +908,8 @@ const FLASHCARDS = {
       }
       const allArticles = [
         ...LEI_SECA.getAllArticles(),
-        ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getAllArticles() : [])
+        ...(typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getAllArticles() : []),
+        ...(typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getAllArticles() : [])
       ];
       const markedArticles = allArticles.filter(art => markedIds.includes(art.id));
       
@@ -922,7 +925,8 @@ const FLASHCARDS = {
       };
     } else {
       deck = LEI_SECA.getDeck(deckId) ||
-             (typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getDeck(deckId) : null);
+             (typeof LEI_SECA_EXTRA !== 'undefined' ? LEI_SECA_EXTRA.getDeck(deckId) : null) ||
+             (typeof LEI_SECA_PREMIUM !== 'undefined' ? LEI_SECA_PREMIUM.getDeck(deckId) : null);
     }
     
     if (!deck) return;
