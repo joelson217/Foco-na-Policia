@@ -1,7 +1,7 @@
 // Service Worker — Concursos-Policiais
 // Versão: atualizada automaticamente a cada deploy
 
-const CACHE_NAME = 'concursos-policiais-v4';
+const CACHE_NAME = 'concursos-policiais-v5';
 
 const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/',
@@ -28,6 +28,7 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/lei_seca_premium_14.js',
   '/Foco-na-Policia/data/lei_seca_premium_15.js',
   '/Foco-na-Policia/data/lei_seca_premium_16.js',
+  '/Foco-na-Policia/data/lei_seca_premium_17.js',
   '/Foco-na-Policia/data/lei_seca_premium_18.js',
   '/Foco-na-Policia/data/lei_seca_premium_19.js',
   '/Foco-na-Policia/data/lei_seca_premium_20.js',
@@ -58,6 +59,11 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_premium_14.js',
   '/Foco-na-Policia/data/questions_premium_15.js',
   '/Foco-na-Policia/data/questions_premium_16.js',
+  '/Foco-na-Policia/data/questions_premium_17.js',
+  '/Foco-na-Policia/data/questions_premium_18.js',
+  '/Foco-na-Policia/data/questions_premium_19.js',
+  '/Foco-na-Policia/data/questions_premium_20.js',
+  '/Foco-na-Policia/data/questions_premium_21.js',
   '/Foco-na-Policia/FlashCards/1 - Lei Penal no Tempo.png',
   '/Foco-na-Policia/FlashCards/10 - Princípios do Direito Penal.png',
   '/Foco-na-Policia/FlashCards/11 - Direito Penal.png',

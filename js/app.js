@@ -127,7 +127,14 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM_13 !== 'undefined' ? QUESTIONS_PREMIUM_13 : [],
     typeof QUESTIONS_PREMIUM_14 !== 'undefined' ? QUESTIONS_PREMIUM_14 : [],
     typeof QUESTIONS_PREMIUM_15 !== 'undefined' ? QUESTIONS_PREMIUM_15 : [],
-    typeof QUESTIONS_PREMIUM_16 !== 'undefined' ? QUESTIONS_PREMIUM_16 : []
+    typeof QUESTIONS_PREMIUM_16 !== 'undefined' ? QUESTIONS_PREMIUM_16 : [],
+    typeof QUESTIONS_PREMIUM_17 !== 'undefined' ? QUESTIONS_PREMIUM_17 : [],
+    typeof QUESTIONS_PREMIUM_18 !== 'undefined' ? QUESTIONS_PREMIUM_18 : [],
+    typeof QUESTIONS_PREMIUM_19 !== 'undefined' ? QUESTIONS_PREMIUM_19 : [],
+    typeof QUESTIONS_PREMIUM_20 !== 'undefined' ? QUESTIONS_PREMIUM_20 : [],
+    typeof QUESTIONS_PREMIUM_21 !== 'undefined' ? QUESTIONS_PREMIUM_21 : [],
+    typeof QUESTIONS_EXTRA_3 !== 'undefined' ? QUESTIONS_EXTRA_3 : [],
+    typeof GENERATED_QUESTIONS !== 'undefined' ? GENERATED_QUESTIONS : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -340,7 +347,11 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13.decks : []),
       ...(typeof LEI_SECA_PREMIUM_14 !== 'undefined' ? LEI_SECA_PREMIUM_14.decks : []),
       ...(typeof LEI_SECA_PREMIUM_15 !== 'undefined' ? LEI_SECA_PREMIUM_15.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_16 !== 'undefined' ? LEI_SECA_PREMIUM_16.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_16 !== 'undefined' ? LEI_SECA_PREMIUM_16.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_17 !== 'undefined' ? LEI_SECA_PREMIUM_17.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_18 !== 'undefined' ? LEI_SECA_PREMIUM_18.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_19 !== 'undefined' ? LEI_SECA_PREMIUM_19.decks : []),
+      ...(typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -962,7 +973,11 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13 : null,
         typeof LEI_SECA_PREMIUM_14 !== 'undefined' ? LEI_SECA_PREMIUM_14 : null,
         typeof LEI_SECA_PREMIUM_15 !== 'undefined' ? LEI_SECA_PREMIUM_15 : null,
-        typeof LEI_SECA_PREMIUM_16 !== 'undefined' ? LEI_SECA_PREMIUM_16 : null
+        typeof LEI_SECA_PREMIUM_16 !== 'undefined' ? LEI_SECA_PREMIUM_16 : null,
+        typeof LEI_SECA_PREMIUM_17 !== 'undefined' ? LEI_SECA_PREMIUM_17 : null,
+        typeof LEI_SECA_PREMIUM_18 !== 'undefined' ? LEI_SECA_PREMIUM_18 : null,
+        typeof LEI_SECA_PREMIUM_19 !== 'undefined' ? LEI_SECA_PREMIUM_19 : null,
+        typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -1014,7 +1029,11 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_13 !== 'undefined' ? LEI_SECA_PREMIUM_13 : null,
         typeof LEI_SECA_PREMIUM_14 !== 'undefined' ? LEI_SECA_PREMIUM_14 : null,
         typeof LEI_SECA_PREMIUM_15 !== 'undefined' ? LEI_SECA_PREMIUM_15 : null,
-        typeof LEI_SECA_PREMIUM_16 !== 'undefined' ? LEI_SECA_PREMIUM_16 : null
+        typeof LEI_SECA_PREMIUM_16 !== 'undefined' ? LEI_SECA_PREMIUM_16 : null,
+        typeof LEI_SECA_PREMIUM_17 !== 'undefined' ? LEI_SECA_PREMIUM_17 : null,
+        typeof LEI_SECA_PREMIUM_18 !== 'undefined' ? LEI_SECA_PREMIUM_18 : null,
+        typeof LEI_SECA_PREMIUM_19 !== 'undefined' ? LEI_SECA_PREMIUM_19 : null,
+        typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20 : null
       ].filter(s => s !== null);
 
       deck = null;

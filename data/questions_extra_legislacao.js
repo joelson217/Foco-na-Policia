@@ -2008,1449 +2008,2705 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "gabarito": "A",
         "artigo": "Art. 2º da Lei 9.455/97",
         "justificativa": "A extraterritorialidade depende da nacionalidade da vítima."
-    }
-,
-    {
-        "id": "leg_extra_111",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 111",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 111.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. X da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 111."
     },
-    {
-        "id": "leg_extra_112",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 112",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 112.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. Y da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 112."
-    },
-    {
-        "id": "leg_extra_113",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 113",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 113.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. Z da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 113."
-    },
-    {
-        "id": "leg_extra_114",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 114",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 114.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. W da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 114."
-    },
-    {
-        "id": "leg_extra_115",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 115",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 115.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. V da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 115."
-    },
-    {
-        "id": "leg_extra_116",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 116",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 116.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. U da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 116."
-    },
-    {
-        "id": "leg_extra_117",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 117",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 117.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. T da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 117."
-    },
-    {
-        "id": "leg_extra_118",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 118",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 118.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. S da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 118."
-    },
-    {
-        "id": "leg_extra_119",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 119",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 119.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. R da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 119."
-    },
-    {
-        "id": "leg_extra_120",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 120",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 120.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. Q da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 120."
-    },
+{
+    "id": "leg_extra_111",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Sujeito Ativo do Crime (Q111)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.072/90, assinale a opção correta:",
+    "alternativas": [
         {
-        "id": "leg_extra_121",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 121",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 121.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AA da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 121."
-    },
-    {
-        "id": "leg_extra_122",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 122",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 122.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AB da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 122."
-    },
-    {
-        "id": "leg_extra_123",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 123",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 123.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. AC da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 123."
-    },
-    {
-        "id": "leg_extra_124",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 124",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 124.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. AD da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 124."
-    },
-    {
-        "id": "leg_extra_125",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 125",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 125.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AE da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 125."
-    },
-    {
-        "id": "leg_extra_126",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 126",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 126.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AF da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 126."
-    },
-    {
-        "id": "leg_extra_127",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 127",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 127.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. AG da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 127."
-    },
-    {
-        "id": "leg_extra_128",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 128",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 128.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. AH da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 128."
-    },
-    {
-        "id": "leg_extra_129",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 129",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 129.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AI da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 129."
-    },
-    {
-        "id": "leg_extra_130",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 130",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 130.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AJ da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 130."
-    },
-    {
-        "id": "leg_extra_131",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 131",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 131.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. AK da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 131."
-    },
-    {
-        "id": "leg_extra_132",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 132",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 132.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. AL da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 132."
-    },
-    {
-        "id": "leg_extra_133",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 133",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 133.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AM da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 133."
-    },
-    {
-        "id": "leg_extra_134",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 134",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 134.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AN da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 134."
-    },
-    {
-        "id": "leg_extra_135",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 135",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 135.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. AO da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 135."
-    },
-    {
-        "id": "leg_extra_136",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 136",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 136.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. AP  da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 136."
-    },
-    {
-        "id": "leg_extra_137",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 137",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 137.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AQ da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 137."
-    },
-    {
-        "id": "leg_extra_138",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 138",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 138.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AR da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 138."
-    },
-    {
-        "id": "leg_extra_139",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 139",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 139.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. AS da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 139."
-    },
-    {
-        "id": "leg_extra_140",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 140",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 140.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. AT da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 140."
-    },
-    {
-        "id": "leg_extra_141",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 141",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 141.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AU da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 141."
-    },
-    {
-        "id": "leg_extra_142",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 142",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 142.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AV da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 142."
-    },
-    {
-        "id": "leg_extra_143",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 143",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 143.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. AW da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 143."
-    },
-    {
-        "id": "leg_extra_144",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 144",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 144.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. AX da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 144."
-    },
-    {
-        "id": "leg_extra_145",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 145",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 145.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. AY da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 145."
-    },
-    {
-        "id": "leg_extra_146",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 146",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 146.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. AZ da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 146."
-    },
-    {
-        "id": "leg_extra_147",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 147",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 147.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. BA da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 147."
-    },
-    {
-        "id": "leg_extra_148",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 148",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 148.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. BB da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 148."
-    },
-    {
-        "id": "leg_extra_149",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 149",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 149.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. BC da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 149."
-    },
-    // placeholder end
-    {
-        "id": "leg_extra_150",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 150",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 150.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. P da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 150."
-    },
-    {
-        "id": "leg_extra_151",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 151",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 151.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QA da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 151."
-    },
-    {
-        "id": "leg_extra_152",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 152",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 152.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QB da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 152."
-    },
-    {
-        "id": "leg_extra_153",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 153",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 153.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QC da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 153."
-    },
-    {
-        "id": "leg_extra_154",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 154",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 154.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QD da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 154."
-    },
-    {
-        "id": "leg_extra_155",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 155",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 155.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QE da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 155."
-    },
-    {
-        "id": "leg_extra_156",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 156",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 156.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QF da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 156."
-    },
-    {
-        "id": "leg_extra_157",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 157",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 157.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QG da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 157."
-    },
-    {
-        "id": "leg_extra_158",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 158",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 158.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QH da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 158."
-    },
-    {
-        "id": "leg_extra_159",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 159",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 159.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QI da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 159."
-    },
-    {
-        "id": "leg_extra_160",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 160",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 160.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QJ da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 160."
-    },
-    {
-        "id": "leg_extra_161",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 161",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 161.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QK da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 161."
-    },
-    {
-        "id": "leg_extra_162",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 162",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 162.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QL da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 162."
-    },
-    {
-        "id": "leg_extra_163",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 163",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 163.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QM da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 163."
-    },
-    {
-        "id": "leg_extra_164",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 164",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 164.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QN da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 164."
-    },
-    {
-        "id": "leg_extra_165",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 165",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 165.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QO da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 165."
-    },
-    {
-        "id": "leg_extra_166",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 166",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 166.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QP da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 166."
-    },
-    {
-        "id": "leg_extra_167",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 167",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 167.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QQ da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 167."
-    },
-    {
-        "id": "leg_extra_168",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 168",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 168.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QR da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 168."
-    },
-    {
-        "id": "leg_extra_169",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 169",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 169.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QS da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 169."
-    },
-    {
-        "id": "leg_extra_170",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 170",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 170.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QT da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 170."
-    },
-    {
-        "id": "leg_extra_171",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 171",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 171.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QU da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 171."
-    },
-    {
-        "id": "leg_extra_172",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 172",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 172.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QV da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 172."
-    },
-    {
-        "id": "leg_extra_173",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 173",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 173.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QW da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 173."
-    },
-    {
-        "id": "leg_extra_174",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 174",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 174.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QX da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 174."
-    },
-    {
-        "id": "leg_extra_175",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 175",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 175.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QY da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 175."
-    },
-    {
-        "id": "leg_extra_176",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 176",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 176.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QZ da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 176."
-    },
-    {
-        "id": "leg_extra_177",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 177",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 177.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QA1 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 177."
-    },
-    {
-        "id": "leg_extra_178",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 178",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 178.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QA2 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 178."
-    },
-    {
-        "id": "leg_extra_179",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 179",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 179.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QA3 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 179."
-    },
-    {
-        "id": "leg_extra_180",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 180",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 180.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QA4 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 180."
-    },
-    {
-        "id": "leg_extra_181",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 181",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 181.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QA5 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 181."
-    },
-    {
-        "id": "leg_extra_182",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 182",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 182.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QA6 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 182."
-    },
-    {
-        "id": "leg_extra_183",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 183",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 183.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QA7 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 183."
-    },
-    {
-        "id": "leg_extra_184",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 184",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 184.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QA8 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 184."
-    },
-    {
-        "id": "leg_extra_185",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 185",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 185.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QA9 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 185."
-    },
-    {
-        "id": "leg_extra_186",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 186",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 186.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "D",
-        "artigo": "Art. QA10 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 186."
-    },
-    {
-        "id": "leg_extra_187",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 187",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 187.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QA11 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 187."
-    },
-    {
-        "id": "leg_extra_188",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 188",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 188.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. QA12 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 188."
-    },
-    {
-        "id": "leg_extra_189",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 189",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 189.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "C",
-        "artigo": "Art. QA13 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 189."
-    },
-    {
-        "id": "leg_extra_190",
-        "disciplina": "legislacao",
-        "topico": "Lei 8.072/90 — Tema 190",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Enunciado da questão 190.",
-        "alternativas": [
-            { "letra": "A", "texto": "Opção A" },
-            { "letra": "B", "texto": "Opção B" },
-            { "letra": "C", "texto": "Opção C" },
-            { "letra": "D", "texto": "Opção D" }
-        ],
-        "gabarito": "A",
-        "artigo": "Art. QA14 da Lei 8.072/90",
-        "justificativa": "Justificativa da questão 190."
-    },
-
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_112",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Sujeito Ativo do Crime (Q112)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 11.343/06, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_113",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Sujeito Ativo do Crime (Q113)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 13.869/19, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_114",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Sujeito Ativo do Crime (Q114)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 9.455/97, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_115",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Sujeito Ativo do Crime (Q115)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 11.340/06, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_116",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Sujeito Ativo do Crime (Q116)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 10.826/03, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_117",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Sujeito Ativo do Crime (Q117)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 12.850/13, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_118",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Sujeito Ativo do Crime (Q118)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 7.210/84 (LEP), assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_119",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Sujeito Ativo do Crime (Q119)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.429/92, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_120",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Efeitos da Condenação (Q120)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 8.072/90, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_121",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Efeitos da Condenação (Q121)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 11.343/06, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_122",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Efeitos da Condenação (Q122)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 13.869/19, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_123",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Efeitos da Condenação (Q123)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 9.455/97, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_124",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Efeitos da Condenação (Q124)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 11.340/06, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_125",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Efeitos da Condenação (Q125)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 10.826/03, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_126",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Efeitos da Condenação (Q126)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 12.850/13, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_127",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Efeitos da Condenação (Q127)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 7.210/84 (LEP), é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_128",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Efeitos da Condenação (Q128)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 8.429/92, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_129",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Aumento de Pena (Q129)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime previsto na Lei 8.072/90 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_130",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Aumento de Pena (Q130)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime previsto na Lei 11.343/06 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_131",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Aumento de Pena (Q131)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime previsto na Lei 13.869/19 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_132",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Aumento de Pena (Q132)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime previsto na Lei 9.455/97 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_133",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Aumento de Pena (Q133)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime previsto na Lei 11.340/06 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_134",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Aumento de Pena (Q134)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime previsto na Lei 10.826/03 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_135",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Aumento de Pena (Q135)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime previsto na Lei 12.850/13 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_136",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Aumento de Pena (Q136)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime previsto na Lei 7.210/84 (LEP) terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_137",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Aumento de Pena (Q137)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime previsto na Lei 8.429/92 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_138",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Consumação e Tentativa (Q138)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime de Crimes Hediondos tipificado na Lei 8.072/90 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_139",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Consumação e Tentativa (Q139)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime de Lei de Drogas tipificado na Lei 11.343/06 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_140",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Consumação e Tentativa (Q140)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime de Abuso de Autoridade tipificado na Lei 13.869/19 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_141",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Consumação e Tentativa (Q141)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime de Lei de Tortura tipificado na Lei 9.455/97 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_142",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Consumação e Tentativa (Q142)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime de Lei Maria da Penha tipificado na Lei 11.340/06 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_143",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Consumação e Tentativa (Q143)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime de Estatuto do Desarmamento tipificado na Lei 10.826/03 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_144",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Consumação e Tentativa (Q144)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime de Organização Criminosa tipificado na Lei 12.850/13 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_145",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Consumação e Tentativa (Q145)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime de Execução Penal tipificado na Lei 7.210/84 (LEP) consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_146",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Consumação e Tentativa (Q146)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime de Improbidade Administrativa tipificado na Lei 8.429/92 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_147",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Direito Processual Aplicado (Q147)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 8.072/90, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_148",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Direito Processual Aplicado (Q148)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao procedimento criminal da Lei 11.343/06, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_149",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Direito Processual Aplicado (Q149)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 13.869/19, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_150",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Direito Processual Aplicado (Q150)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 9.455/97, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_151",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Direito Processual Aplicado (Q151)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 11.340/06, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_152",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Direito Processual Aplicado (Q152)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao procedimento criminal da Lei 10.826/03, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_153",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Direito Processual Aplicado (Q153)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 12.850/13, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_154",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Direito Processual Aplicado (Q154)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao procedimento criminal da Lei 7.210/84 (LEP), a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_155",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Direito Processual Aplicado (Q155)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 8.429/92, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_156",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Sujeito Ativo do Crime (Q156)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.072/90, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_157",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Sujeito Ativo do Crime (Q157)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 11.343/06, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_158",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Sujeito Ativo do Crime (Q158)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 13.869/19, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_159",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Sujeito Ativo do Crime (Q159)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 9.455/97, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_160",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Sujeito Ativo do Crime (Q160)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 11.340/06, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_161",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Sujeito Ativo do Crime (Q161)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 10.826/03, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_162",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Sujeito Ativo do Crime (Q162)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 12.850/13, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_163",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Sujeito Ativo do Crime (Q163)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 7.210/84 (LEP), assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_164",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Sujeito Ativo do Crime (Q164)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.429/92, assinale a opção correta:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+        },
+        {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+        },
+        {
+            "letra": "C",
+            "texto": "Somente funcionários públicos da ativa podem responder."
+        },
+        {
+            "letra": "D",
+            "texto": "Não se admite coautoria com particulares."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_165",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Efeitos da Condenação (Q165)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 8.072/90, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_166",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Efeitos da Condenação (Q166)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 11.343/06, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_167",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Efeitos da Condenação (Q167)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 13.869/19, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_168",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Efeitos da Condenação (Q168)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 9.455/97, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_169",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Efeitos da Condenação (Q169)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 11.340/06, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_170",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Efeitos da Condenação (Q170)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 10.826/03, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_171",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Efeitos da Condenação (Q171)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 12.850/13, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_172",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Efeitos da Condenação (Q172)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 7.210/84 (LEP), é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_173",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Efeitos da Condenação (Q173)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Sobre os efeitos da condenação previstos na Lei 8.429/92, é correto afirmar que:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "São automáticos e não exigem motivação judicial."
+        },
+        {
+            "letra": "B",
+            "texto": "Dependem de declaração expressa na sentença condenatória."
+        },
+        {
+            "letra": "C",
+            "texto": "Não admitem perda do cargo público."
+        },
+        {
+            "letra": "D",
+            "texto": "Apenas se aplicam em caso de reincidência específica."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_174",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Aumento de Pena (Q174)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime previsto na Lei 8.072/90 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_175",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Aumento de Pena (Q175)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime previsto na Lei 11.343/06 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_176",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Aumento de Pena (Q176)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime previsto na Lei 13.869/19 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_177",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Aumento de Pena (Q177)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime previsto na Lei 9.455/97 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_178",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Aumento de Pena (Q178)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime previsto na Lei 11.340/06 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_179",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Aumento de Pena (Q179)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime previsto na Lei 10.826/03 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_180",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Aumento de Pena (Q180)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime previsto na Lei 12.850/13 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_181",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Aumento de Pena (Q181)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime previsto na Lei 7.210/84 (LEP) terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_182",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Aumento de Pena (Q182)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime previsto na Lei 8.429/92 terá sua pena aumentada quando:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Praticado no período noturno ou em local deserto."
+        },
+        {
+            "letra": "B",
+            "texto": "O agente cometer o crime prevalecendo-se de função pública."
+        },
+        {
+            "letra": "C",
+            "texto": "Praticado contra maior de 60 anos."
+        },
+        {
+            "letra": "D",
+            "texto": "O agente confessar a autoria voluntariamente."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_183",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Consumação e Tentativa (Q183)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime de Crimes Hediondos tipificado na Lei 8.072/90 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_184",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Consumação e Tentativa (Q184)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime de Lei de Drogas tipificado na Lei 11.343/06 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_185",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Consumação e Tentativa (Q185)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime de Abuso de Autoridade tipificado na Lei 13.869/19 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_186",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Consumação e Tentativa (Q186)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime de Lei de Tortura tipificado na Lei 9.455/97 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_187",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Consumação e Tentativa (Q187)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime de Lei Maria da Penha tipificado na Lei 11.340/06 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_188",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Consumação e Tentativa (Q188)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime de Estatuto do Desarmamento tipificado na Lei 10.826/03 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_189",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Consumação e Tentativa (Q189)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "O crime de Organização Criminosa tipificado na Lei 12.850/13 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_190",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Consumação e Tentativa (Q190)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O crime de Execução Penal tipificado na Lei 7.210/84 (LEP) consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_191",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Consumação e Tentativa (Q191)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "O crime de Improbidade Administrativa tipificado na Lei 8.429/92 consuma-se com:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "O efetivo prejuízo ou dano à administração."
+        },
+        {
+            "letra": "B",
+            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
+        },
+        {
+            "letra": "C",
+            "texto": "A aprovação do superior hierárquico."
+        },
+        {
+            "letra": "D",
+            "texto": "O decurso de prazo de 30 dias após o fato."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do enriquecimento ilícito do agente."
+},
+{
+    "id": "leg_extra_192",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Direito Processual Aplicado (Q192)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 8.072/90, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 8.072/90",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da taxatividade do rol."
+},
+{
+    "id": "leg_extra_193",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Direito Processual Aplicado (Q193)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 11.343/06, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do crime de tráfico de substâncias."
+},
+{
+    "id": "leg_extra_194",
+    "disciplina": "legislacao",
+    "topico": "Lei 13.869/19 — Direito Processual Aplicado (Q194)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao procedimento criminal da Lei 13.869/19, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 13.869/19",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da decretação de medida de privação de liberdade."
+},
+{
+    "id": "leg_extra_195",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Direito Processual Aplicado (Q195)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 9.455/97, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 9.455/97",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos crimes de tortura-prova."
+},
+{
+    "id": "leg_extra_196",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.340/06 — Direito Processual Aplicado (Q196)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao procedimento criminal da Lei 11.340/06, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º da Lei 11.340/06",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do âmbito doméstico e familiar."
+},
+{
+    "id": "leg_extra_197",
+    "disciplina": "legislacao",
+    "topico": "Lei 10.826/03 — Direito Processual Aplicado (Q197)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 10.826/03, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 12 da Lei 10.826/03",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da posse de arma de fogo de uso permitido."
+},
+{
+    "id": "leg_extra_198",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Direito Processual Aplicado (Q198)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 12.850/13, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do número mínimo de 4 integrantes."
+},
+{
+    "id": "leg_extra_199",
+    "disciplina": "legislacao",
+    "topico": "Lei 7.210/84 (LEP) — Direito Processual Aplicado (Q199)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em relação ao procedimento criminal da Lei 7.210/84 (LEP), a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos percentuais de progressão."
+},
+{
+    "id": "leg_extra_200",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.429/92 — Direito Processual Aplicado (Q200)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao procedimento criminal da Lei 8.429/92, a autoridade policial:",
+    "alternativas": [
+        {
+            "letra": "A",
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+        },
+        {
+            "letra": "B",
+            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
+        },
+        {
+            "letra": "C",
+            "texto": "Não precisa ouvir a defesa do investigado."
+        },
+        {
+            "letra": "D",
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+        }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 9º da Lei 8.429/92",
+    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do enriquecimento ilícito do agente."
+}
 ];
-
