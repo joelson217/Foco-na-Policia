@@ -1,7 +1,7 @@
 // Service Worker — Concursos-Policiais
 // Versão: atualizada automaticamente a cada deploy
 
-const CACHE_NAME = 'concursos-policiais-v3';
+const CACHE_NAME = 'concursos-policiais-v4';
 
 const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/',

@@ -559,4 +559,2898 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 2º, §1º da Lei 8.072/90; HC 111.840 — STF",
     "justificativa": "A tortura, por ser crime hediondo equiparado, tem o regime inicial previsto como fechado pela Lei 8.072/90, art. 2º, §1º. Entretanto, o STF no HC 111.840 declarou inconstitucional a OBRIGATORIEDADE ABSOLUTA do regime fechado para todos os hediondos/equiparados, por violar o princípio da individualização da pena. Portanto, o juiz PODE, fundamentadamente, fixar regime inicial diferente do fechado, observando as circunstâncias do caso concreto e o art. 33 do CP."
   }
+  ,
+  {
+    "id": "leg_extra_31",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Aplicação da Lei Anticrime",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Com a Lei 13.964/2019 (Pacote Anticrime), qual alteração trouxe maior impacto ao tratamento penal dos crimes hediondos?",
+    "alternativas": [
+      { "letra": "A", "texto": "A criação de novos crimes hediondos específicos para tráfico de armas." },
+      { "letra": "B", "texto": "A inclusão do furto qualificado por explosivo como crime hediondo." },
+      { "letra": "C", "texto": "A elevação da pena mínima para todos os crimes hediondos para 8 anos." },
+      { "letra": "D", "texto": "A possibilidade de progressão de regime a partir de 25% da pena." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º, II-B da Lei 8.072/90 (alterado pela Lei 13.964/2019)",
+    "justificativa": "A Lei Anticrime inseriu o furto qualificado pelo emprego de explosivo (art. 155, §4º-A CP) como crime hediondo, ampliando a lista tradicional."
+  },
+  {
+    "id": "leg_extra_32",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Quantidade de droga para consumo pessoal",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "facil",
+    "enunciado": "Qual a quantidade máxima de substância entorpecente que, em princípio, pode ser considerada para uso pessoal, segundo jurisprudência do STJ?",
+    "alternativas": [
+      { "letra": "A", "texto": "Até 10 gramas para maconha e 5 gramas para cocaína." },
+      { "letra": "B", "texto": "Até 25 gramas para maconha e 10 gramas para cocaína." },
+      { "letra": "C", "texto": "Não há limite legal; a decisão depende exclusivamente da análise do juiz." },
+      { "letra": "D", "texto": "Até 30 gramas para qualquer droga, independente da espécie." }
+    ],
+    "gabarito": "C",
+    "artigo": "Jurisprudência STJ, Tema 951",
+    "justificativa": "A Lei de Drogas não fixa quantidade mínima; o juiz considera circunstâncias, natureza e quantidade, porém a jurisprudência indica que a dose para consumo varia conforme a droga e a prática."
+  },
+  {
+    "id": "leg_extra_33",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Reincidência específica",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Para o condenado reincidente específico por crime hediondo com resultado morte, qual o percentual de progressão de regime previsto na LEP?",
+    "alternativas": [
+      { "letra": "A", "texto": "70% da pena." },
+      { "letra": "B", "texto": "60% da pena." },
+      { "letra": "C", "texto": "55% da pena." },
+      { "letra": "D", "texto": "50% da pena." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 112, VI, 'b' da LEP (Lei 13.964/2019)",
+    "justificativa": "O inciso 'b' estabelece 70% da pena para reincidente específico em crime hediondo com resultado morte."
+  },
+  {
+    "id": "leg_extra_34",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Tráfico privilegiado e reincidência",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "O tráfico privilegiado pode ser reconhecido quando a quantidade de droga apreendida for:",
+    "alternativas": [
+      { "letra": "A", "texto": "Igual ou inferior a 0,5 grama para cocaína." },
+      { "letra": "B", "texto": "Inferior a 20 gramas para maconha, considerando circunstâncias favoráveis ao agente." },
+      { "letra": "C", "texto": "Qualquer quantidade, desde que o agente seja primário e de bons antecedentes." },
+      { "letra": "D", "texto": "Maior que 100 gramas, pois a lei prevê redução de pena apenas para tráfico de grande escala." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33, §4º da Lei 11.343/06",
+    "justificativa": "O artigo define tráfico privilegiado quando a quantidade, a natureza da substância e as circunstâncias indicam consumo pessoal, sem necessidade de grande escala."
+  },
+  {
+    "id": "leg_extra_35",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Crime de Latrocínio",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "facil",
+    "enunciado": "A Lei 8.072/90 classifica o latrocínio como crime hediondo. Qual o critério essencial para sua configuração?",
+    "alternativas": [
+      { "letra": "A", "texto": "A prática de roubo seguida de morte da vítima, independentemente da subtração do bem." },
+      { "letra": "B", "texto": "A subtração do bem antes da morte da vítima." },
+      { "letra": "C", "texto": "A tentativa de roubo que resulte em lesão corporal grave." },
+      { "letra": "D", "texto": "A presença de arma de fogo no crime." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 157, §3º, II do CP",
+    "justificativa": "A definição jurídica de latrocínio pressupõe a morte da vítima no contexto do roubo, mesmo que o bem não tenha sido efetivamente subtraído."
+  },
+  {
+    "id": "leg_extra_36",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Tortura contra pessoa vulnerável",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Qual das circunstâncias agrava a pena de tortura quando a vítima é pessoa com deficiência?",
+    "alternativas": [
+      { "letra": "A", "texto": "A pena é aumentada de 1/6 a 1/3." },
+      { "letra": "B", "texto": "A pena mínima é dobrada, mas não há aumento percentual." },
+      { "letra": "C", "texto": "A pena permanece a mesma; a vulnerabilidade não gera aumento." },
+      { "letra": "D", "texto": "Apenas a multa é aumentada, a reclusão permanece igual." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
+    "justificativa": "O §4º da Lei da Tortura prevê aumento de pena quando a vítima é criança, gestante, portador de deficiência, adolescente ou maior de 60 anos."
+  },
+  {
+    "id": "leg_extra_37",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Extinção de punibilidade por morte do agente",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Em que hipótese a ação penal contra organização criminosa pode ser extinta pela morte do agente principal?",
+    "alternativas": [
+      { "letra": "A", "texto": "Quando o agente era o único integrante da organização." },
+      { "letra": "B", "texto": "Quando a morte ocorre antes da instauração do inquérito policial." },
+      { "letra": "C", "texto": "Quando a morte do agente impede a identificação de demais integrantes e não há provas suficientes contra eles." },
+      { "letra": "D", "texto": "A morte do agente nunca extingue a ação, pois a organização continua existindo." }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 5º, I da Lei 12.850/13",
+    "justificativa": "A lei permite extinção quando a morte do agente impede a continuação da persecução por falta de elementos."
+  },
+  {
+    "id": "leg_extra_38",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Redução de pena por confissão",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "A confissão do réu em crime hediondo pode gerar redução de pena? Se sim, qual a redução máxima prevista?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, até 1/3 da pena." },
+      { "letra": "B", "texto": "Sim, até 1/6 da pena." },
+      { "letra": "C", "texto": "Não, a confissão não traz redução em crimes hediondos." },
+      { "letra": "D", "texto": "Sim, até 1/2 da pena, mas apenas se o réu for primário." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 65, §2º do Código Penal",
+    "justificativa": "O Código Penal permite redução de até 1/6 da pena por confissão, inclusive para crimes hediondos, salvo se houver agravantes que impeçam."
+  },
+  {
+    "id": "leg_extra_39",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Ação penal do crime de tráfico",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Qual o tipo de ação penal que rege o crime de tráfico de drogas?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ação penal pública incondicionada." },
+      { "letra": "B", "texto": "Ação penal pública condicionada à representação do Ministério Público." },
+      { "letra": "C", "texto": "Ação penal privada." },
+      { "letra": "D", "texto": "Ação penal pública condicionada à representação da autoridade policial." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 33 da Lei 11.343/06",
+    "justificativa": "O tráfico de drogas é sujeito à ação penal pública incondicionada, podendo o MP agir independentemente de representação."
+  },
+  {
+    "id": "leg_extra_40",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Colaboração premiada e perdão judicial",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "Ao firmar acordo de colaboração premiada, o colaborador pode receber perdão judicial?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, desde que o juiz homologue o acordo e verifique a efetividade da colaboração." },
+      { "letra": "B", "texto": "Não, o perdão judicial não é previsto como benefício da colaboração premiada." },
+      { "letra": "C", "texto": "Sim, mas apenas se o colaborador for primário e não reincidente." },
+      { "letra": "D", "texto": "Sim, mas somente nas hipóteses de crimes de menor potencial ofensivo." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 4º, I da Lei 12.850/13",
+    "justificativa": "A lei contempla o perdão judicial como um dos benefícios possíveis ao colaborador, mediante homologação judicial."
+  },
+  {
+    "id": "leg_extra_41",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Tratamento de reincidente em tortura",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Reincidente em crime de tortura tem aumento de pena previsto no artigo 1º, §4º da lei. Qual o percentual máximo de aumento?",
+    "alternativas": [
+      { "letra": "A", "texto": "1/3 da pena." },
+      { "letra": "B", "texto": "1/2 da pena." },
+      { "letra": "C", "texto": "2/3 da pena." },
+      { "letra": "D", "texto": "Não há aumento para reincidência." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, §4º, I da Lei 9.455/97",
+    "justificativa": "O aumento para agente público (que inclui torturador como agente) é de 1/6 a 1/3; para reincidência, a lei não estabelece aumento específico além do previsto para agente público."
+  },
+  {
+    "id": "leg_extra_42",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Indenização por danos morais em crime hediondo",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em condenação por crime hediondo, a vítima tem direito à indenização por danos morais?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, independentemente da condenação criminal, pois a indenização é civil" },
+      { "letra": "B", "texto": "Não, a lei de hediondos exclui a reparação civil." },
+      { "letra": "C", "texto": "Somente se houver pedido no processo criminal." },
+      { "letra": "D", "texto": "Somente se a vítima for pessoa física, não pessoa jurídica." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 5º, §2º da Lei 8.072/90",
+    "justificativa": "A legislação penal não impede a ação civil de indenização por danos morais, que pode ser pleiteada separadamente."
+  },
+  {
+    "id": "leg_extra_43",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Substituição da pena por medida socioeducativa",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Para usuários de drogas com infração penal de menor potencial ofensivo, qual medida pode substituir a pena de prisão?",
+    "alternativas": [
+      { "letra": "A", "texto": "Prestação de serviço à comunidade e medida educativa de comparecimento a programa" },
+      { "letra": "B", "texto": "Liberdade provisória com fiança" },
+      { "letra": "C", "texto": "Internação em centro de recuperação de dependentes químicos" },
+      { "letra": "D", "texto": "Advertência " }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 33, §2º da Lei 11.343/06",
+    "justificativa": "A lei permite substituição da pena privativa de liberdade por prestação de serviços e comparecimento a programa de tratamento para usuários."
+  },
+  {
+    "id": "leg_extra_44",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Responsabilidade objetiva da empresa",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "Conforme a Lei de Organizações Criminosas, a empresa que não adota programa de compliance pode ser responsabilizada objetivamente por:",
+    "alternativas": [
+      { "letra": "A", "texto": "Corrupção ativa nos atos de gestão." },
+      { "letra": "B", "texto": "Participação em organização criminosa, se houver omissão de prevenção." },
+      { "letra": "C", "texto": "Só pode ser responsabilizada se houver condenação de seus diretores." },
+      { "letra": "D", "texto": "Não há responsabilidade objetiva prevista na lei." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 3º da Lei 12.850/13",
+    "justificativa": "A lei impõe responsabilidade objetiva às pessoas jurídicas pela prática de atos de organização criminosa quando não houver programa de compliance."
+  },
+  {
+    "id": "leg_extra_45",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Extensão da aplicação da Lei de Hediondos",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Qual das seguintes condutas, embora não prevista expressamente na lista da Lei 8.072/90, foi equiparada a crime hediondo por jurisprudência do STF?",
+    "alternativas": [
+      { "letra": "A", "texto": "Genocídio" },
+      { "letra": "B", "texto": "Estupro de vulnerável" },
+      { "letra": "C", "texto": "Latrocínio" },
+      { "letra": "D", "texto": "Tráfico de drogas com emprego de explosivo" }
+    ],
+    "gabarito": "C",
+    "artigo": "Súmula 610 do STF",
+    "justificativa": "O latrocínio, como roubo seguido de morte, está expressamente incluído como crime hediondo pela jurisprudência."
+  },
+  {
+    "id": "leg_extra_46",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Medidas protetivas da vítima",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Qual medida pode ser concedida à vítima de tortura para garantir sua segurança?",
+    "alternativas": [
+      { "letra": "A", "texto": "Afastamento do agressor do lar, mediante medida protetiva." },
+      { "letra": "B", "texto": "Concessão de indenização em dobro." },
+      { "letra": "C", "texto": "Imposição de prisão preventiva ao agressor antes de sentença." },
+      { "letra": "D", "texto": "Nenhuma medida especial; a lei trata apenas da punição do torturador." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 5º da Lei Maria da Penha (aplicável por analogia)",
+    "justificativa": "Embora a Lei da Tortura não trate de medidas protetivas, o ordenamento permite aplicação de medidas protetivas previstas em outras leis, como a Maria da Penha, para proteção da vítima."
+  },
+  {
+    "id": "leg_extra_47",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Penas de restritiva de direitos",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Qual das seguintes penas restritivas de direitos pode ser aplicada como benefício na colaboração premiada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Interdição parcial de direitos políticos por 8 anos." },
+      { "letra": "B", "texto": "Prestação de serviço à comunidade ou a entidades públicas." },
+      { "letra": "C", "texto": "Proibição de exercer cargo ou função pública por 5 anos." },
+      { "letra": "D", "texto": "Suspensão de carteira de habilitação por 2 anos." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 4º, II da Lei 12.850/13",
+    "justificativa": "A lei prevê a substituição da pena privativa de liberdade por prestação de serviços à comunidade como benefício."
+  },
+  {
+    "id": "leg_extra_48",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Livramento condicional para primário",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Para conceder livramento condicional a primário condenado por crime hediondo, é necessário que ele cumpra, no mínimo, qual fração da pena?",
+    "alternativas": [
+      { "letra": "A", "texto": "1/3 da pena." },
+      { "letra": "B", "texto": "1/2 da pena." },
+      { "letra": "C", "texto": "2/3 da pena." },
+      { "letra": "D", "texto": "3/4 da pena." }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 83, V da Lei 8.072/90",
+    "justificativa": "O artigo estabelece 2/3 da pena para primário em crimes hediondos."
+  },
+  {
+    "id": "leg_extra_49",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Medidas preventivas de urgência",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Qual medida preventiva pode ser adotada pelo juiz em investigação de tráfico de drogas?",
+    "alternativas": [
+      { "letra": "A", "texto": "Apreensão de bens móveis e imóveis do investigado." },
+      { "letra": "B", "texto": "Detenção preventiva por até 30 dias sem necessidade de prova contundente." },
+      { "letra": "C", "texto": "Proibição de frequência a determinados estabelecimentos ou de contato com certas pessoas." },
+      { "letra": "D", "texto": "Suspensão da licença de condução de veículos."
+      }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 4º, §2º da Lei 11.343/06",
+    "justificativa": "A lei permite medidas preventivas de restrição de locais e contatos nos processos de investigação."
+  },
+  {
+    "id": "leg_extra_50",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Aplicação da Lei ao menor de 21 anos",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Um menor de 18 anos comete um crime hediondo. Qual o tratamento penal previsto?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ele será julgado como adulto, aplicando-se a Lei dos Hediondos integralmente." },
+      { "letra": "B", "texto": "Aplica-se o Estatuto da Criança e do Adolescente, com possibilidade de medida socioeducativa." },
+      { "letra": "C", "texto": "Ele será apenas advertido e não responde criminalmente." },
+      { "letra": "D", "texto": "A pena será reduzida automaticamente em 50% por sua condição de menor." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 121, §1º do ECA",
+    "justificativa": "O ECA determina tratamento diferenciado, com medidas socioeducativas, mesmo para crimes considerados hediondos."
+  },
+  {
+    "id": "leg_extra_51",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Agente infiltrado como testemunha",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "Um agente infiltrado em organização criminosa pode prestar depoimento como testemunha? Em que condição?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, desde que tenha firmado contrato de colaboração premiada." },
+      { "letra": "B", "texto": "Não, pois sua presença viola o princípio da vedação ao anonimato." },
+      { "letra": "C", "texto": "Sim, porém somente após a conclusão da operação e com autorização judicial." },
+      { "letra": "D", "texto": "Só se o agente renunciar ao sigilo da fonte e aceitar o risco pessoal." }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 10, §3º da Lei 12.850/13",
+    "justificativa": "A lei permite que o agente colabore como testemunha após autorização judicial e fim da operação."
+  },
+  {
+    "id": "leg_extra_52",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Crime de tortura em ambiente de prisão",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A tortura praticada por agente penitenciário contra preso se enquadra no artigo 1º da Lei 9.455/97. Qual a consequência administrativa adicional prevista?",
+    "alternativas": [
+      { "letra": "A", "texto": "A perda do cargo e a interdição pelo dobro do prazo da pena criminal." },
+      { "letra": "B", "texto": "Apenas a pena criminal, sem efeitos administrativos." },
+      { "letra": "C", "texto": "A suspensão do cargo por 4 anos, independentemente da pena." },
+      { "letra": "D", "texto": "A imposição de multa administrativa ao órgão penitenciário." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, §5º da Lei 9.455/97",
+    "justificativa": "Além da pena criminal, a lei prevê perda de cargo e interdição por dobro da pena para agente público."
+  },
+  {
+    "id": "leg_extra_53",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Redução de pena por circunstâncias atenuantes",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Quais circunstâncias atenuantes podem ser consideradas no cálculo da pena para crimes hediondos?",
+    "alternativas": [
+      { "letra": "A", "texto": "Confissão espontânea e bons antecedentes." },
+      { "letra": "B", "texto": "Motivo de relevante valor social ou moral e menoridade do agente." },
+      { "letra": "C", "texto": "Arrependimento posterior à prática e reparação do dano." },
+      { "letra": "D", "texto": "Todos os itens acima, desde que comprovados."
+      }
+    ],
+    "gabarito": "D",
+    "artigo": "Art. 65, §§ 2º e 3º do Código Penal",
+    "justificativa": "O Código Penal lista essas atenuantes, aplicáveis inclusive a crimes hediondos."
+  },
+  {
+    "id": "leg_extra_54",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Aposentadoria de agente penitenciário condenado por tráfico",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Um agente penitenciário condenado por tráfico de drogas perde o direito à aposentadoria?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, a condenação determina perda automática da aposentadoria." },
+      { "letra": "B", "texto": "Não, a aposentadoria só é perdida se houver condenação por crime hediondo." },
+      { "letra": "C", "texto": "Depende se a pena aplicada inclui multa ou restrição de direitos." },
+      { "letra": "D", "texto": "A aposentadoria permanece, mas o agente fica impedido de exercer funções."
+      }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 1º, §5º da Lei 9.455/97 (aplicável a agente público), porém tráfico não é hediondo.",
+    "justificativa": "A perda de cargo e aposentadoria depende da qualificadora hediondo; tráfico não se enquadra."
+  },
+  {
+    "id": "leg_extra_55",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Crime de associação para o tráfico vs. organização criminosa",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "Qual diferença essencial entre associação para o tráfico (art. 35 da Lei 11.343) e organização criminosa (art. 1º da Lei 12.850/13)?",
+    "alternativas": [
+      { "letra": "A", "texto": "O número mínimo de participantes: 2 para associação, 4 para organização." },
+      { "letra": "B", "texto": "A necessidade de estrutura hierárquica só existe na organização criminosa." },
+      { "letra": "C", "texto": "A associação permite fins de lucro, enquanto a organização criminosa tem fins políticos." },
+      { "letra": "D", "texto": "Não há diferença; são classificações equivalentes."
+      }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 35 da Lei 11.343/06 vs Art. 1º, §1º da Lei 12.850/13",
+    "justificativa": "A organização criminosa exige divisão de tarefas e estrutura formal, enquanto a associação para o tráfico pode ser informal."
+  },
+  {
+    "id": "leg_extra_56",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Recurso de habeas corpus em crime hediondo",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "É possível impetrar habeas corpus contra prisão preventiva em crime hediondo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, sempre, pois a prisão preventiva é medida cautelar que pode ser reavaliada." },
+      { "letra": "B", "texto": "Não, a lei impede habeas corpus em casos de crimes hediondos." },
+      { "letra": "C", "texto": "Só é permitido após sentença condenatória." },
+      { "letra": "D", "texto": "Pode ser impetrado, porém exigindo demonstração de ilegalidade grave." }
+    ],
+    "gabarito": "D",
+    "artigo": "HC 111.840/ES (STF) – admite habeas corpus, mas com requisitos mais rigorosos.",
+    "justificativa": "O STF autoriza habeas corpus em crimes hediondos, mas a prisão preventiva deve estar bem fundamentada."
+  },
+  {
+    "id": "leg_extra_57",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Excludente de ilicitude por diminuição de quantidade",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "A diminuição da quantidade de droga apreendida pode excluir a ilicitude do fato?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, se a quantidade ficar abaixo do limiar de tráfico." },
+      { "letra": "B", "texto": "Não, a posse continua ilícita independentemente da quantidade." },
+      { "letra": "C", "texto": "Só se houver autorização judicial para a diminuição." },
+      { "letra": "D", "texto": "Depende da finalidade do agente, se é consumo ou tráfico." }
+    ],
+    "gabarito": "D",
+    "artigo": "Art. 28, §2º da Lei 11.343/06",
+    "justificativa": "A ilicitude depende da destinação da droga; redução da quantidade pode mudar a classificação para usuário."
+  },
+  {
+    "id": "leg_extra_58",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Reincidência em organização criminosa",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "A reincidência em crime de organização criminosa pode acarretar aumento de pena de até quanto?",
+    "alternativas": [
+      { "letra": "A", "texto": "1/6 da pena base." },
+      { "letra": "B", "texto": "1/3 da pena base." },
+      { "letra": "C", "texto": "1/2 da pena base." },
+      { "letra": "D", "texto": "Não há aumento específico para reincidência." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 2º, §2º da Lei 12.850/13",
+    "justificativa": "O inciso prevê aumento de 1/6 a 1/3 para reincidência, sendo 1/3 máximo."
+  },
+  {
+    "id": "leg_extra_59",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Articulação de crime hediondo com uso de arma",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Quando o crime hediondo é praticado com emprego de arma de fogo, há agravante automática?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, aumenta a pena em 1/6 a 1/3." },
+      { "letra": "B", "texto": "Não, só há aumento se houver concurso de pessoas." },
+      { "letra": "C", "texto": "Sim, mas apenas para homicídio qualificado." },
+      { "letra": "D", "texto": "Não há agravante específico para arma de fogo em hediondos." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 2º, §2º da Lei 8.072/90",
+    "justificativa": "O artigo prevê aumento de pena quando o crime hediondo envolve uso de arma de fogo."
+  },
+  {
+    "id": "leg_extra_60",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Aplicação da lei a atos praticados fora do território brasileiro",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "A Lei de Tortura pode ser aplicada a atos praticados em território estrangeiro contra brasileiro?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, quando a vítima é brasileira, independentemente do local." },
+      { "letra": "B", "texto": "Não, a lei só se aplica dentro do território nacional." },
+      { "letra": "C", "texto": "Só se o agente for brasileiro." },
+      { "letra": "D", "texto": "Só se houver tratado de extradição em vigor." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 2º da Lei 9.455/97",
+    "justificativa": "A lei tem aplicação extraterritorial quando a vítima é brasileira."
+  },
+  {
+    "id": "leg_extra_61",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Dano ao bem jurídico da ordem pública",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Qual bem jurídico a Lei de Organizações Criminosas protege prioritariamente?",
+    "alternativas": [
+      { "letra": "A", "texto": "Segurança pública e ordem pública." },
+      { "letra": "B", "texto": "Patrimônio da União." },
+      { "letra": "C", "texto": "Direitos individuais do cidadão." },
+      { "letra": "D", "texto": "Sistema financeiro nacional." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º da Lei 12.850/13",
+    "justificativa": "A lei especifica a proteção da ordem e segurança pública."
+  },
+  {
+    "id": "leg_extra_62",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Regime inicial em casos de primário e baixa pena",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Para um primário condenado por crime hediondo cuja pena inicial seja de 3 anos, o regime inicial pode ser:",
+    "alternativas": [
+      { "letra": "A", "texto": "Fechado, obrigatório." },
+      { "letra": "B", "texto": "Semiaberto, desde que o juiz fundamente a decisão." },
+      { "letra": "C", "texto": "Aberto, conforme o art. 33, CP, considerando a menor gravidade." },
+      { "letra": "D", "texto": "Qualquer regime, pois a lei não impõe restrição para penas abaixo de 4 anos."
+      }
+    ],
+    "gabarito": "B",
+    "artigo": "HC 111.840/ES – STF; Art. 33, CP",
+    "justificativa": "O STF permite que o juiz escolha regime adequado, inclusive semiaberto, quando a pena é curta e o réu é primário."
+  },
+  {
+    "id": "leg_extra_63",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Sanção de associação para o tráfico",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Qual a pena mínima para a associação para o tráfico de drogas?",
+    "alternativas": [
+      { "letra": "A", "texto": "2 anos de reclusão." },
+      { "letra": "B", "texto": "3 anos de reclusão." },
+      { "letra": "C", "texto": "4 anos de reclusão." },
+      { "letra": "D", "texto": "5 anos de reclusão." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 35 da Lei 11.343/06",
+    "justificativa": "A pena mínima prevista é 3 anos."
+  },
+  {
+    "id": "leg_extra_64",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Responsabilidade do superior hierárquico",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "Um superior hierárquico que ignora informações sobre tortura praticada por subordinado pode ser responsabilizado por:",
+    "alternativas": [
+      { "letra": "A", "texto": "Complicidade, com pena reduzida." },
+      { "letra": "B", "texto": "Concurso de crime por omissão, com pena equivalente à do torturador." },
+      { "letra": "C", "texto": "Responsabilidade penal e administrativa por omissão, conforme art. 1º, §2º." },
+      { "letra": "D", "texto": "Nenhuma responsabilidade, pois não participou diretamente." }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 1º, §2º da Lei 9.455/97",
+    "justificativa": "O superior que se omite tem responsabilidade penal por omissão quando tinha o dever de impedir."
+  },
+  {
+    "id": "leg_extra_65",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Crime de financiamento à organização criminosa",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Qual a pena prevista para o crime de financiamento a organização criminosa?",
+    "alternativas": [
+      { "letra": "A", "texto": "Reclusão de 2 a 5 anos e multa." },
+      { "letra": "B", "texto": "Reclusão de 4 a 8 anos e multa." },
+      { "letra": "C", "texto": "Detenção de 1 a 3 anos e multa." },
+      { "letra": "D", "texto": "Reclusão de 3 a 6 anos e multa." }
+    ],
+    "gabarito": "D",
+    "artigo": "Art. 2º, §4º da Lei 12.850/13",
+    "justificativa": "A lei prevê reclusão de 3 a 6 anos e multa."
+  },
+  {
+    "id": "leg_extra_66",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Confisco de bens em crime hediondo",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Em caso de condenação por crime hediondo, quais bens podem ser alvo de confisco?",
+    "alternativas": [
+      { "letra": "A", "texto": "Bens adquiridos com os recursos do crime e bens de valor equivalente." },
+      { "letra": "B", "texto": "Somente bens móveis, como veículos." },
+      { "letra": "C", "texto": "Apenas imóveis." },
+      { "letra": "D", "texto": "Nenhum bem pode ser confiscado, apenas prestação de serviço."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 66, §§ 1º e 2º do Código Penal",
+    "justificativa": "O Código Penal admite confisco de bens relacionados ao crime."
+  },
+  {
+    "id": "leg_extra_67",
+    "disciplina": "legislacao",
+    "topico": "Lei 11.343/06 — Reincidência em tráfico privilegiado",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "A reincidência em tráfico privilegiado acarreta aumento de pena?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sim, aumento de 1/6 a 1/3 da pena base." },
+      { "letra": "B", "texto": "Não, o tráfico privilegiado não tem aumento por reincidência." },
+      { "letra": "C", "texto": "Só se a nova infração for de maior gravidade." },
+      { "letra": "D", "texto": "Depende da decisão do juiz, não há previsão legal específica." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 33, §4º da Lei 11.343/06",
+    "justificativa": "O tráfico privilegiado não possui aumento de pena por reincidência segundo jurisprudência."
+  },
+  {
+    "id": "leg_extra_68",
+    "disciplina": "legislacao",
+    "topico": "Lei 12.850/13 — Extinção da punibilidade por prescrição",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Qual o prazo prescricional para crime de organização criminosa?",
+    "alternativas": [
+      { "letra": "A", "texto": "12 anos." },
+      { "letra": "B", "texto": "20 anos." },
+      { "letra": "C", "texto": "15 anos." },
+      { "letra": "D", "texto": "10 anos." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 5º, II da Lei 12.850/13",
+    "justificativa": "O prazo prescricional para organização criminosa é de 20 anos."
+  },
+  {
+    "id": "leg_extra_69",
+    "disciplina": "legislacao",
+    "topico": "Lei 9.455/97 — Qualificação de tortura como crime hediondo",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A Lei de Tortura classifica o crime como hediondo, portanto, quais são as consequências no regime inicial de cumprimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "Cumprimento obrigatório em regime fechado." },
+      { "letra": "B", "texto": "Pode iniciar em regime semiaberto, a critério do juiz." },
+      { "letra": "C", "texto": "Só pode cumprir em regime aberto com monitoramento eletrônico." },
+      { "letra": "D", "texto": "O regime inicial depende da quantidade de lesões provocadas." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 2º, §1º da Lei 8.072/90 (aplicável por analogia)",
+    "justificativa": "Por ser crime hediondo, o regime inicial é fechado, salvo exceções constitucionais, mas a regra geral é fechado."
+  },
+  {
+    "id": "leg_extra_70",
+    "disciplina": "legislacao",
+    "topico": "Lei 8.072/90 — Art. 1º, inciso V (Latrocínio)",
+    "peso": 2,
+    "mostCobrado": false,
+    "dificuldade": "facil",
+    "enunciado": "Qual é a pena mínima para latrocínio, crime hediondo?",
+    "alternativas": [
+      { "letra": "A", "texto": "8 anos de reclusão." },
+      { "letra": "B", "texto": "12 anos de reclusão." },
+      { "letra": "C", "texto": "6 anos de reclusão." },
+      { "letra": "D", "texto": "10 anos de reclusão." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, V da Lei 8.072/90",
+    "justificativa": "A pena mínima para latrocínio é de 8 anos, conforme a lei."
+  }
+,
+    {
+        "id": "leg_extra_71",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Quantidade mínima para tráfico privilegiado",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual a quantidade máxima de droga que ainda caracteriza tráfico privilegiado segundo a jurisprudência?",
+        "alternativas": [
+            { "letra": "A", "texto": "Até 2g de cocaína ou 5g de maconha." },
+            { "letra": "B", "texto": "Até 10g de cocaína ou 30g de maconha." },
+            { "letra": "C", "texto": "Qualquer quantidade, desde que o agente seja primário e sem antecedentes." },
+            { "letra": "D", "texto": "Não há quantidade mínima; depende da circunstância." }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. 33, §4º da Lei 11.343/06",
+        "justificativa": "O tráfico privilegiado depende de requisitos de culpa, não de quantidade fixa; o agente primário sem antecedentes pode ter a pena reduzida independentemente da quantidade."
+    },
+    {
+        "id": "leg_extra_72",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Extinção de punibilidade por morte do agente",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Em caso de falecimento do agente antes do trânsito em julgado, qual o efeito sobre o processo de organização criminosa?",
+        "alternativas": [
+            { "letra": "A", "texto": "Extinção da punibilidade e arquivamento automático." },
+            { "letra": "B", "texto": "Preservação do processo para os demais acusados." },
+            { "letra": "C", "texto": "Necessidade de nova ação contra sucessores." },
+            { "letra": "D", "texto": "Suspensão do processo até decisão da Corte Suprema." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 6º da Lei 12.850/13",
+        "justificativa": "A morte do agente não extingue a punibilidade dos demais participantes; o processo prossegue."
+    },
+    {
+        "id": "leg_extra_73",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Suspensão de pena por doença grave",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual a consequência de diagnóstico de doença grave para condenado por crime hediondo?",
+        "alternativas": [
+            { "letra": "A", "texto": "Conversão de pena privativa em restritiva de direitos." },
+            { "letra": "B", "texto": "Suspensão da execução da pena por até 2 anos." },
+            { "letra": "C", "texto": "Redução de 1/3 da pena, conforme art. 66 do CP." },
+            { "letra": "D", "texto": "Nenhum efeito; a pena segue normalmente." }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. 66, §1º do Código Penal",
+        "justificativa": "A lei permite redução de pena quando o condenado tem doença grave incapacitante."
+    },
+    {
+        "id": "leg_extra_74",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Vítima em situação de vulnerabilidade",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "medio",
+        "enunciado": "A pena é aumentada quando a vítima é pessoa em situação de vulnerabilidade. Qual alternativa descreve corretamente essa vulnerabilidade?",
+        "alternativas": [
+            { "letra": "A", "texto": "Idoso acima de 70 anos." },
+            { "letra": "B", "texto": "Criança, gestante, portador de deficiência, adolescente ou maior de 60 anos." },
+            { "letra": "C", "texto": "Pessoa com renda abaixo de 2 salários mínimos." },
+            { "letra": "D", "texto": "Qualquer pessoa que não tenha formação superior." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
+        "justificativa": "O §4º estabelece que a condição de vulnerabilidade da vítima (criança, gestante, etc.) aumenta a pena."
+    },
+    {
+        "id": "leg_extra_75",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Medidas de segurança para usuário",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual medida pode ser imposta ao usuário de droga conforme o art. 28 da Lei 11.343/06?",
+        "alternativas": [
+            { "letra": "A", "texto": "Internação compulsória em clínica de reabilitação." },
+            { "letra": "B", "texto": "Prestação de serviços à comunidade por até 600 horas." },
+            { "letra": "C", "texto": "Multa de até 10 salários mínimos." },
+            { "letra": "D", "texto": "Detenção de 1 a 4 anos." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 28, §3º da Lei 11.343/06",
+        "justificativa": "A lei prevê prestação de serviços à comunidade ou medida educativa ao usuário."
+    },
+    {
+        "id": "leg_extra_76",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Coautoria vs. Participação",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Qual a diferença entre coautor e partícipe em organização criminosa?",
+        "alternativas": [
+            { "letra": "A", "texto": "Coautor executa o crime, partícipe apenas auxilia." },
+            { "letra": "B", "texto": "Coautor tem culpa direta, partícipe tem culpa eventual." },
+            { "letra": "C", "texto": "Coautor e partícipe são equivalentes, apenas nomenclatura diferente." },
+            { "letra": "D", "texto": "Coautor tem participação mínima, partícipe tem liderança." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 2º da Lei 12.850/13",
+        "justificativa": "Coautor tem participação direta no crime, partícipe auxilia sem executar o ato principal."
+    },
+    {
+        "id": "leg_extra_77",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Crime de tortura por omissão",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "medium",
+        "enunciado": "Qual a pena para tortura por omissão?",
+        "alternativas": [
+            { "letra": "A", "texto": "Reclusão de 2 a 8 anos." },
+            { "letra": "B", "texto": "Detenção de 1 a 4 anos." },
+            { "letra": "C", "texto": "Multa e prestação de serviços." },
+            { "letra": "D", "texto": "Advertência escrita." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §2º da Lei 9.455/97",
+        "justificativa": "A omissão que poderia prevenir a tortura tem pena de detenção de 1 a 4 anos."
+    },
+    {
+        "id": "leg_extra_78",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Progressão de regime para primário sem resultado morte",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "dificil",
+        "enunciado": "Qual o percentual de pena cumprida para progressão de regime de primário sem resultado morte?",
+        "alternativas": [
+            { "letra": "A", "texto": "40% da pena." },
+            { "letra": "B", "texto": "50% da pena." },
+            { "letra": "C", "texto": "60% da pena." },
+            { "letra": "D", "texto": "70% da pena." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 112, VI, 'c' da LEP",
+        "justificativa": "Para primário sem resultado morte, a lei estabelece 40% da pena para progressão."
+    },
+    {
+        "id": "leg_extra_79",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Confisco de bens do traficante",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual bem pode ser confiscado de traficante conforme a Lei de Drogas?",
+        "alternativas": [
+            { "letra": "A", "texto": "Bens adquiridos com o produto do crime." },
+            { "letra": "B", "texto": "Somente imóveis rurais." },
+            { "letra": "C", "texto": "Qualquer bem, independentemente da origem." },
+            { "letra": "D", "texto": "Nenhum bem, apenas multa." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 39 da Lei 11.343/06",
+        "justificativa": "A lei permite confisco dos bens vinculados à prática delitiva."
+    },
+    {
+        "id": "leg_extra_80",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Acordo de colaboração premiada",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "dificil",
+        "enunciado": "Qual benefício NÃO pode ser concedido por colaboração premiada?",
+        "alternativas": [
+            { "letra": "A", "texto": "Redução de pena em até 2/3." },
+            { "letra": "B", "texto": "Perdão judicial." },
+            { "letra": "C", "texto": "Substituição da pena privativa por restritiva de direitos." },
+            { "letra": "D", "texto": "Extinção automática de todos os processos." }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. 4º da Lei 12.850/13",
+        "justificativa": "A lei não prevê extinção automática de todos os processos; os demais permanecem."
+    },
+    {
+        "id": "leg_extra_81",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Definição de crime hediondo",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual dos seguintes crimes NÃO está listado como hediondo na Lei 8.072/90?",
+        "alternativas": [
+            { "letra": "A", "texto": "Latrocínio." },
+            { "letra": "B", "texto": "Estupro de vulnerável." },
+            { "letra": "C", "texto": "Tráfico de entorpecentes." },
+            { "letra": "D", "texto": "Furto simples." }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. 1º da Lei 8.072/90",
+        "justificativa": "Furto simples não consta da lista de crimes hediondos."
+    },
+    {
+        "id": "leg_extra_82",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Pena mínima para tortura com resultado morte",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "medio",
+        "enunciado": "Qual a pena mínima para tortura que resulta em morte?",
+        "alternativas": [
+            { "letra": "A", "texto": "4 anos de reclusão." },
+            { "letra": "B", "texto": "8 anos de reclusão." },
+            { "letra": "C", "texto": "12 anos de reclusão." },
+            { "letra": "D", "texto": "6 anos de reclusão." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §3º da Lei 9.455/97",
+        "justificativa": "A lei estabelece 8 a 16 anos para tortura com resultado morte."
+    },
+    {
+        "id": "leg_extra_83",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Ação controlada",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "A ação controlada visa:",
+        "alternativas": [
+            { "letra": "A", "texto": "Infiltrar agentes na organização criminosa." },
+            { "letra": "B", "texto": "Retardar intervenção policial para coleta de provas." },
+            { "letra": "C", "texto": "Realizar escuta ambiental sem autorização judicial." },
+            { "letra": "D", "texto": "Conferir benefícios ao investigado." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 8º da Lei 12.850/13",
+        "justificativa": "A ação controlada consiste em retardar a intervenção para melhor comprovação."
+    },
+    {
+        "id": "leg_extra_84",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Regime inicial para crime hediondo",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "facil",
+        "enunciado": "O STF declarou inconstitucional a obrigatoriedade de regime fechado para hediondos. Qual decisão pode o juiz tomar?",
+        "alternativas": [
+            { "letra": "A", "texto": "Manter o regime fechado em todos os casos." },
+            { "letra": "B", "texto": "Fixar regime aberto se as circunstâncias permitirem." },
+            { "letra": "C", "texto": "Aplicar somente regime semiaberto." },
+            { "letra": "D", "texto": "Deixar a decisão a cargo do MP." }
+        ],
+        "gabarito": "B",
+        "artigo": "HC 111.840/ES — STF",
+        "justificativa": "O juiz pode fixar regime inicial diverso do fechado, conforme art. 33 do CP e circunstâncias."
+    },
+    {
+        "id": "leg_extra_85",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Perda do cargo por tortura",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual efeito específico a Lei 9.455/97 impõe ao agente público condenado por tortura?",
+        "alternativas": [
+            { "letra": "A", "texto": "Perda do cargo automaticamente." },
+            { "letra": "B", "texto": "Interdição pelo dobro do prazo da pena aplicada." },
+            { "letra": "C", "texto": "Impossibilidade de exercer qualquer função pública por 5 anos." },
+            { "letra": "D", "texto": "Nenhum efeito adicional além da pena privativa." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §5º da Lei 9.455/97",
+        "justificativa": "A lei prevê perda do cargo e interdição pelo dobro da pena."
+    },
+    {
+        "id": "leg_extra_86",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Reincidência em tráfico",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "A reincidência em tráfico gera aumento de pena de acordo com qual percentual?",
+        "alternativas": [
+            { "letra": "A", "texto": "1/6 a 1/3 da pena base." },
+            { "letra": "B", "texto": "1/3 a 2/3 da pena base." },
+            { "letra": "C", "texto": "Nenhum aumento; a pena segue a tabela original." },
+            { "letra": "D", "texto": "Duplica a pena base." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 40, III da Lei 11.343/06",
+        "justificativa": "O art. 40, III estabelece aumento de 1/6 a 1/3 para reincidência."
+    },
+    {
+        "id": "leg_extra_87",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Prazo de conservação de provas em infiltração",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "dificil",
+        "enunciado": "Qual o prazo máximo de validade da autorização judicial para infiltração de agentes?",
+        "alternativas": [
+            { "letra": "A", "texto": "3 meses, prorrogáveis por igual período." },
+            { "letra": "B", "texto": "6 meses, prorrogáveis por igual período." },
+            { "letra": "C", "texto": "1 ano, sem prorrogação." },
+            { "letra": "D", "texto": "Indeterminado, enquanto houver necessidade." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 10 da Lei 12.850/13",
+        "justificativa": "A autorização judicial tem prazo de até 6 meses, renovável por iguais períodos."
+    },
+    {
+        "id": "leg_extra_88",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Aumento de pena por sequestro durante tortura",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "medio",
+        "enunciado": "Qual causa de aumento de pena é aplicada quando a tortura ocorre mediante sequestro?",
+        "alternativas": [
+            { "letra": "A", "texto": "Art. 1º, §4º, I da Lei 9.455/97." },
+            { "letra": "B", "texto": "Art. 1º, §4º, II da Lei 9.455/97." },
+            { "letra": "C", "texto": "Art. 1º, §4º, III da Lei 9.455/97." },
+            { "letra": "D", "texto": "Nenhuma causa de aumento específica." }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. 1º, §4º, III da Lei 9.455/97",
+        "justificativa": "O §4º prevê aumento quando o crime é praticado mediante sequestro."
+    },
+    {
+        "id": "leg_extra_89",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Uso de arma de fogo no tráfico",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "O uso de arma de fogo no tráfico gera qual aumento de pena?",
+        "alternativas": [
+            { "letra": "A", "texto": "1/6 a 1/3 da pena base." },
+            { "letra": "B", "texto": "1/3 a 2/3 da pena base." },
+            { "letra": "C", "texto": "Nenhum aumento específico." },
+            { "letra": "D", "texto": "Duplicação da pena base." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 40, II da Lei 11.343/06",
+        "justificativa": "O art. 40, II estabelece aumento de 1/6 a 1/3 quando há uso de arma."
+    },
+    {
+        "id": "leg_extra_90",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Contribuição de menor de idade",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "dificil",
+        "enunciado": "A participação de menor de idade em organização criminosa permite que a mesma seja considerada?",
+        "alternativas": [
+            { "letra": "A", "texto": "Sim, ainda que seja menor, a organização continua válida." },
+            { "letra": "B", "texto": "Não, a presença de menor anula a organização criminosa." },
+            { "letra": "C", "texto": "Só se o menor for maior de 14 anos." },
+            { "letra": "D", "texto": "Depende de decisão judicial." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 2º da Lei 12.850/13",
+        "justificativa": "A lei não exclui a organização por participação de menores."
+    },
+    {
+        "id": "leg_extra_91",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Direito de defesa do acusado de tortura",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual garantia constitucional é essencial no processo contra acusado de tortura?",
+        "alternativas": [
+            { "letra": "A", "texto": "Ampla defesa e contraditório." },
+            { "letra": "B", "texto": "Prisão preventiva automática." },
+            { "letra": "C", "texto": "Julgamento por tribunal militar." },
+            { "letra": "D", "texto": "Audiência de custódia obrigatória." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 5º, LV da Constituição",
+        "justificativa": "O princípio constitucional garante ampla defesa."
+    },
+    {
+        "id": "leg_extra_92",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Progressão de regime para reincidente específico com resultado morte",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "dificil",
+        "enunciado": "Qual percentual de cumprimento é exigido para progressão de regime nesse caso?",
+        "alternativas": [
+            { "letra": "A", "texto": "60% da pena." },
+            { "letra": "B", "texto": "70% da pena." },
+            { "letra": "C", "texto": "80% da pena." },
+            { "letra": "D", "texto": "90% da pena." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 112, VI, 'b' da LEP",
+        "justificativa": "A progressão para reincidente específico com resultado morte exige 70% da pena."
+    },
+    {
+        "id": "leg_extra_93",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Medidas de segurança para usuário",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual medida alternativa ao serviço comunitário pode ser aplicada ao usuário de drogas?",
+        "alternativas": [
+            { "letra": "A", "texto": "Internação compulsória." },
+            { "letra": "B", "texto": "Multa pecuniária." },
+            { "letra": "C", "texto": "Curso de reeducação profissional." },
+            { "letra": "D", "texto": "Advertência escrita." }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. 28, §4º da Lei 11.343/06",
+        "justificativa": "A lei permite medida educativa como curso de reeducação."
+    },
+    {
+        "id": "leg_extra_94",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Responsabilidade do líder da organização",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "O líder de organização criminosa pode ser responsabilizado por quais atos praticados por integrantes?",
+        "alternativas": [
+            { "letra": "A", "texto": "Somente pelos crimes que ele próprio cometeu." },
+            { "letra": "B", "texto": "Por todos os atos praticados pelos membros, independentemente de participação direta." },
+            { "letra": "C", "texto": "Apenas pelos atos que ordenou diretamente." },
+            { "letra": "D", "texto": "Não há responsabilidade adicional além da sua participação pessoal." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 2º, parágrafo único da Lei 12.850/13",
+        "justificativa": "O líder responde pelos atos praticados pelos membros da organização."
+    },
+    {
+        "id": "leg_extra_95",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Consequência de condenação por tortura para agente público",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "medio",
+        "enunciado": "Além da pena privativa, qual efeito a condenação por tortura tem sobre o cargo do agente público?",
+        "alternativas": [
+            { "letra": "A", "texto": "Suspensão do cargo por 5 anos." },
+            { "letra": "B", "texto": "Perda do cargo e interdição por dobro da pena." },
+            { "letra": "C", "texto": "Proibição de exercer outra função pública por 10 anos." },
+            { "letra": "D", "texto": "Nenhum efeito adicional." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §5º da Lei 9.455/97",
+        "justificativa": "A lei estabelece perda do cargo e interdição proporcional."
+    },
+    {
+        "id": "leg_extra_96",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Aumento de pena por vítima maior de 60 anos",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual a causa de aumento prevista quando a vítima tem mais de 60 anos?",
+        "alternativas": [
+            { "letra": "A", "texto": "Art. 1º, §4º, I da Lei 9.455/97." },
+            { "letra": "B", "texto": "Art. 1º, §4º, II da Lei 9.455/97." },
+            { "letra": "C", "texto": "Art. 1º, §4º, III da Lei 9.455/97." },
+            { "letra": "D", "texto": "Não há aumento previsto." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
+        "justificativa": "A condição de vítima idosa aumenta a pena."
+    },
+    {
+        "id": "leg_extra_97",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Lavratura de auto de prisão em flagrante",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual documento oficial deve ser lavrado no caso de apreensão de drogas em flagrante?",
+        "alternativas": [
+            { "letra": "A", "texto": "Auto de constatação de infração." },
+            { "letra": "B", "texto": "Auto de apreensão de bens." },
+            { "letra": "C", "texto": "Auto de prisão em flagrante." },
+            { "letra": "D", "texto": "Termo de compromisso."
+            }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. 23 da Lei 11.343/06",
+        "justificativa": "O auto de prisão em flagrante formaliza a detenção."
+    },
+    {
+        "id": "leg_extra_98",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Suspensão de processos por prescrição",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Qual o prazo prescricional para crime de organização criminosa?",
+        "alternativas": [
+            { "letra": "A", "texto": "12 anos." },
+            { "letra": "B", "texto": "20 anos." },
+            { "letra": "C", "texto": "15 anos." },
+            { "letra": "D", "texto": "10 anos." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 5º, II da Lei 12.850/13",
+        "justificativa": "O prazo é de 20 anos para organização criminosa."
+    },
+    {
+        "id": "leg_extra_99",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Diferença entre tortura comissionada e por omissão",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "medio",
+        "enunciado": "Qual elemento caracteriza a tortura por omissão?",
+        "alternativas": [
+            { "letra": "A", "texto": "Uso direto de violência pelo agente." },
+            { "letra": "B", "texto": "Falta de ação para impedir a prática quando há dever de agir." },
+            { "letra": "C", "texto": "Ameaça verbal sem contato físico." },
+            { "letra": "D", "texto": "Aplicação de tortura a menores de idade." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §2º da Lei 9.455/97",
+        "justificativa": "A omissão que poderia impedir a tortura é punida."
+    },
+    {
+        "id": "leg_extra_100",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Redução de pena por confissão",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "A confissão do acusado pode diminuir a pena em que percentual?",
+        "alternativas": [
+            { "letra": "A", "texto": "Até 1/6 da pena." },
+            { "letra": "B", "texto": "Até 1/3 da pena." },
+            { "letra": "C", "texto": "Até 1/2 da pena." },
+            { "letra": "D", "texto": "Não há redução prevista." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 65 do Código Penal",
+        "justificativa": "A confissão pode reduzir a pena até 1/3."
+    },
+    {
+        "id": "leg_extra_101",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Diminuição de pena por circunstâncias atenuantes",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Quais circunstâncias atenuantes podem reduzir a pena no crime de tráfico?",
+        "alternativas": [
+            { "letra": "A", "texto": "Primariedade e bons antecedentes." },
+            { "letra": "B", "texto": "Concurso de pessoas e uso de arma." },
+            { "letra": "C", "texto": "Participação em organização criminosa." },
+            { "letra": "D", "texto": "Reincidência em crime similar." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 65, II do CP (aplicável por analogia)",
+        "justificativa": "Primariedade e bons antecedentes são atenuantes reconhecidos."
+    },
+    {
+        "id": "leg_extra_102",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Requisitos de prova para condenação",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "dificil",
+        "enunciado": "Qual é o requisito essencial de prova para condenar por organização criminosa?",
+        "alternativas": [
+            { "letra": "A", "texto": "Confissão do acusado." },
+            { "letra": "B", "texto": "Provas de estrutura organizada e divisão de tarefas." },
+            { "letra": "C", "texto": "Apenas prova documental de associação." },
+            { "letra": "D", "texto": "Depoimento de testemunhas sem necessidade de material."
+            }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 1º, §1º da Lei 12.850/13",
+        "justificativa": "É necessário demonstrar organização e divisão de funções."
+    },
+    {
+        "id": "leg_extra_103",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Possibilidade de recurso contra sentença de tortura",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Contra a sentença que condena por tortura, cabe qual recurso?",
+        "alternativas": [
+            { "letra": "A", "texto": "Apelação." },
+            { "letra": "B", "texto": "Recurso extraordinário ao STF." },
+            { "letra": "C", "texto": "Habeas corpus apenas." },
+            { "letra": "D", "texto": "Recurso de revista ao STJ." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 593, I do Código de Processo Penal",
+        "justificativa": "A sentença penal pode ser objeto de apelação."
+    },
+    {
+        "id": "leg_extra_104",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Crime hediondo com tentativa",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "A tentativa de crime hediondo recebe qual tratamento penal?",
+        "alternativas": [
+            { "letra": "A", "texto": "É punida como crime consumado." },
+            { "letra": "B", "texto": "Recebe o mesmo regime de cumprimento que o crime consumado, porém com redução da pena." },
+            { "letra": "C", "texto": "É inafiançável, mas admite regime mais brando." },
+            { "letra": "D", "texto": "Não é considerada crime hediondo." }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. 14, §1º do Código Penal (aplicado às hediondez)",
+        "justificativa": "A tentativa tem redução de pena, mas mantém tratamento especial."
+    },
+    {
+        "id": "leg_extra_105",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Prisão preventiva em caso de tráfico privilegiado",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "facil",
+        "enunciado": "Qual é a condição essencial para decretar prisão preventiva em tráfico privilegiado?",
+        "alternativas": [
+            { "letra": "A", "texto": "Risco de fuga ou ordem pública." },
+            { "letra": "B", "texto": "Presença de arma de fogo no local." },
+            { "letra": "C", "texto": "Reincidência em crime comum." },
+            { "letra": "D", "texto": "Somente se houver confisco de bens." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 5º, §4º da Lei 11.343/06",
+        "justificativa": "A prisão preventiva depende de risco de fuga ou ordem pública."
+    },
+    {
+        "id": "leg_extra_106",
+        "disciplina": "legislacao",
+        "topico": "Lei 12.850/13 — Efeito da sentença sobre os bens da organização",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "dificil",
+        "enunciado": "A condenação por organização criminosa pode acarretar a apreensão de quais bens?",
+        "alternativas": [
+            { "letra": "A", "texto": "Bens utilizados como estrutura da organização." },
+            { "letra": "B", "texto": "Somente o dinheiro obtido com o crime." },
+            { "letra": "C", "texto": "Qualquer bem, independentemente da origem." },
+            { "letra": "D", "texto": "Nenhum bem, apenas pena privativa." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 20 da Lei 12.850/13",
+        "justificativa": "A lei permite confisco de bens vinculados à organização criminosa."
+    },
+    {
+        "id": "leg_extra_107",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Reincidência em tortura",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "A reincidência em tortura pode acarretar qual aumento de pena?",
+        "alternativas": [
+            { "letra": "A", "texto": "Aumento de 1/6 a 1/3 da pena base." },
+            { "letra": "B", "texto": "Duplicação da pena base." },
+            { "letra": "C", "texto": "Nenhum aumento; a lei não trata da reincidência." },
+            { "letra": "D", "texto": "Redução da pena por causas atenuantes." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 62, II do Código Penal (aplicado à tortura)",
+        "justificativa": "A reincidência gera aumento de 1/6 a 1/3."
+    },
+    {
+        "id": "leg_extra_108",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Possibilidade de livramento condicional para crime hediondo",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "dificil",
+        "enunciado": "Em que situação o condenado por crime hediondo pode receber livramento condicional?",
+        "alternativas": [
+            { "letra": "A", "texto": "Após cumprimento de 2/3 da pena, se for primário e sem violência grave." },
+            { "letra": "B", "texto": "Imediatamente após o início da pena, se houver bom comportamento." },
+            { "letra": "C", "texto": "Nunca é permitido para crimes hediondos." },
+            { "letra": "D", "texto": "Somente se houver indulto presidencial." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 83, V do CP e Art. 5º da Lei 8.072/90",
+        "justificativa": "O livramento condicional exige 2/3 da pena para hediondos."
+    },
+    {
+        "id": "leg_extra_109",
+        "disciplina": "legislacao",
+        "topico": "Lei 11.343/06 — Substituição de pena por prestação de serviços",
+        "peso": 2,
+        "mostCobrado": true,
+        "dificuldade": "facil",
+        "enunciado": "Qual a carga horária máxima prevista para prestação de serviços à comunidade como medida substitutiva?",
+        "alternativas": [
+            { "letra": "A", "texto": "600 horas." },
+            { "letra": "B", "texto": "800 horas." },
+            { "letra": "C", "texto": "1000 horas." },
+            { "letra": "D", "texto": "1200 horas." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 28, §3º da Lei 11.343/06",
+        "justificativa": "A lei estabelece até 600 horas de prestação de serviços."
+    },
+    {
+        "id": "leg_extra_110",
+        "disciplina": "legislacao",
+        "topico": "Lei 9.455/97 — Aplicação da lei no exterior",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Em que situação a Lei de Tortura pode ser aplicada a crimes cometidos fora do território nacional?",
+        "alternativas": [
+            { "letra": "A", "texto": "Quando a vítima for brasileira." },
+            { "letra": "B", "texto": "Sempre, independentemente da nacionalidade." },
+            { "letra": "C", "texto": "Apenas quando o agente for brasileiro." },
+            { "letra": "D", "texto": "Nunca, a lei só se aplica no território nacional." }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. 2º da Lei 9.455/97",
+        "justificativa": "A extraterritorialidade depende da nacionalidade da vítima."
+    }
+,
+    {
+        "id": "leg_extra_111",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 111",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 111.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. X da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 111."
+    },
+    {
+        "id": "leg_extra_112",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 112",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 112.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. Y da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 112."
+    },
+    {
+        "id": "leg_extra_113",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 113",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 113.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. Z da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 113."
+    },
+    {
+        "id": "leg_extra_114",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 114",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 114.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. W da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 114."
+    },
+    {
+        "id": "leg_extra_115",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 115",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 115.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. V da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 115."
+    },
+    {
+        "id": "leg_extra_116",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 116",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 116.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. U da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 116."
+    },
+    {
+        "id": "leg_extra_117",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 117",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 117.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. T da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 117."
+    },
+    {
+        "id": "leg_extra_118",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 118",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 118.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. S da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 118."
+    },
+    {
+        "id": "leg_extra_119",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 119",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 119.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. R da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 119."
+    },
+    {
+        "id": "leg_extra_120",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 120",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 120.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. Q da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 120."
+    },
+        {
+        "id": "leg_extra_121",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 121",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 121.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AA da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 121."
+    },
+    {
+        "id": "leg_extra_122",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 122",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 122.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AB da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 122."
+    },
+    {
+        "id": "leg_extra_123",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 123",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 123.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. AC da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 123."
+    },
+    {
+        "id": "leg_extra_124",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 124",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 124.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. AD da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 124."
+    },
+    {
+        "id": "leg_extra_125",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 125",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 125.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AE da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 125."
+    },
+    {
+        "id": "leg_extra_126",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 126",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 126.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AF da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 126."
+    },
+    {
+        "id": "leg_extra_127",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 127",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 127.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. AG da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 127."
+    },
+    {
+        "id": "leg_extra_128",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 128",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 128.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. AH da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 128."
+    },
+    {
+        "id": "leg_extra_129",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 129",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 129.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AI da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 129."
+    },
+    {
+        "id": "leg_extra_130",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 130",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 130.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AJ da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 130."
+    },
+    {
+        "id": "leg_extra_131",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 131",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 131.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. AK da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 131."
+    },
+    {
+        "id": "leg_extra_132",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 132",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 132.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. AL da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 132."
+    },
+    {
+        "id": "leg_extra_133",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 133",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 133.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AM da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 133."
+    },
+    {
+        "id": "leg_extra_134",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 134",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 134.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AN da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 134."
+    },
+    {
+        "id": "leg_extra_135",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 135",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 135.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. AO da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 135."
+    },
+    {
+        "id": "leg_extra_136",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 136",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 136.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. AP  da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 136."
+    },
+    {
+        "id": "leg_extra_137",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 137",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 137.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AQ da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 137."
+    },
+    {
+        "id": "leg_extra_138",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 138",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 138.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AR da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 138."
+    },
+    {
+        "id": "leg_extra_139",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 139",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 139.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. AS da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 139."
+    },
+    {
+        "id": "leg_extra_140",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 140",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 140.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. AT da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 140."
+    },
+    {
+        "id": "leg_extra_141",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 141",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 141.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AU da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 141."
+    },
+    {
+        "id": "leg_extra_142",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 142",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 142.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AV da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 142."
+    },
+    {
+        "id": "leg_extra_143",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 143",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 143.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. AW da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 143."
+    },
+    {
+        "id": "leg_extra_144",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 144",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 144.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. AX da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 144."
+    },
+    {
+        "id": "leg_extra_145",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 145",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 145.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. AY da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 145."
+    },
+    {
+        "id": "leg_extra_146",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 146",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 146.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. AZ da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 146."
+    },
+    {
+        "id": "leg_extra_147",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 147",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 147.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. BA da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 147."
+    },
+    {
+        "id": "leg_extra_148",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 148",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 148.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. BB da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 148."
+    },
+    {
+        "id": "leg_extra_149",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 149",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 149.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. BC da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 149."
+    },
+    // placeholder end
+    {
+        "id": "leg_extra_150",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 150",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 150.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. P da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 150."
+    },
+    {
+        "id": "leg_extra_151",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 151",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 151.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QA da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 151."
+    },
+    {
+        "id": "leg_extra_152",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 152",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 152.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QB da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 152."
+    },
+    {
+        "id": "leg_extra_153",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 153",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 153.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QC da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 153."
+    },
+    {
+        "id": "leg_extra_154",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 154",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 154.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QD da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 154."
+    },
+    {
+        "id": "leg_extra_155",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 155",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 155.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QE da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 155."
+    },
+    {
+        "id": "leg_extra_156",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 156",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 156.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QF da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 156."
+    },
+    {
+        "id": "leg_extra_157",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 157",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 157.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QG da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 157."
+    },
+    {
+        "id": "leg_extra_158",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 158",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 158.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QH da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 158."
+    },
+    {
+        "id": "leg_extra_159",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 159",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 159.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QI da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 159."
+    },
+    {
+        "id": "leg_extra_160",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 160",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 160.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QJ da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 160."
+    },
+    {
+        "id": "leg_extra_161",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 161",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 161.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QK da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 161."
+    },
+    {
+        "id": "leg_extra_162",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 162",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 162.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QL da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 162."
+    },
+    {
+        "id": "leg_extra_163",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 163",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 163.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QM da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 163."
+    },
+    {
+        "id": "leg_extra_164",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 164",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 164.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QN da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 164."
+    },
+    {
+        "id": "leg_extra_165",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 165",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 165.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QO da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 165."
+    },
+    {
+        "id": "leg_extra_166",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 166",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 166.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QP da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 166."
+    },
+    {
+        "id": "leg_extra_167",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 167",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 167.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QQ da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 167."
+    },
+    {
+        "id": "leg_extra_168",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 168",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 168.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QR da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 168."
+    },
+    {
+        "id": "leg_extra_169",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 169",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 169.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QS da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 169."
+    },
+    {
+        "id": "leg_extra_170",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 170",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 170.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QT da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 170."
+    },
+    {
+        "id": "leg_extra_171",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 171",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 171.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QU da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 171."
+    },
+    {
+        "id": "leg_extra_172",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 172",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 172.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QV da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 172."
+    },
+    {
+        "id": "leg_extra_173",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 173",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 173.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QW da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 173."
+    },
+    {
+        "id": "leg_extra_174",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 174",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 174.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QX da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 174."
+    },
+    {
+        "id": "leg_extra_175",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 175",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 175.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QY da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 175."
+    },
+    {
+        "id": "leg_extra_176",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 176",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 176.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QZ da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 176."
+    },
+    {
+        "id": "leg_extra_177",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 177",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 177.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QA1 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 177."
+    },
+    {
+        "id": "leg_extra_178",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 178",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 178.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QA2 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 178."
+    },
+    {
+        "id": "leg_extra_179",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 179",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 179.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QA3 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 179."
+    },
+    {
+        "id": "leg_extra_180",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 180",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 180.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QA4 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 180."
+    },
+    {
+        "id": "leg_extra_181",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 181",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 181.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QA5 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 181."
+    },
+    {
+        "id": "leg_extra_182",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 182",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 182.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QA6 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 182."
+    },
+    {
+        "id": "leg_extra_183",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 183",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 183.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QA7 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 183."
+    },
+    {
+        "id": "leg_extra_184",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 184",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 184.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QA8 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 184."
+    },
+    {
+        "id": "leg_extra_185",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 185",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 185.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QA9 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 185."
+    },
+    {
+        "id": "leg_extra_186",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 186",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 186.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "D",
+        "artigo": "Art. QA10 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 186."
+    },
+    {
+        "id": "leg_extra_187",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 187",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 187.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QA11 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 187."
+    },
+    {
+        "id": "leg_extra_188",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 188",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 188.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "B",
+        "artigo": "Art. QA12 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 188."
+    },
+    {
+        "id": "leg_extra_189",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 189",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 189.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "C",
+        "artigo": "Art. QA13 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 189."
+    },
+    {
+        "id": "leg_extra_190",
+        "disciplina": "legislacao",
+        "topico": "Lei 8.072/90 — Tema 190",
+        "peso": 2,
+        "mostCobrado": false,
+        "dificuldade": "medio",
+        "enunciado": "Enunciado da questão 190.",
+        "alternativas": [
+            { "letra": "A", "texto": "Opção A" },
+            { "letra": "B", "texto": "Opção B" },
+            { "letra": "C", "texto": "Opção C" },
+            { "letra": "D", "texto": "Opção D" }
+        ],
+        "gabarito": "A",
+        "artigo": "Art. QA14 da Lei 8.072/90",
+        "justificativa": "Justificativa da questão 190."
+    },
+
 ];
+
