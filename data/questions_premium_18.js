@@ -2,7 +2,7 @@
 const QUESTIONS_PREMIUM_18 = [
   {
     id: 'p18_q1',
-    disciplina: 'direito_administrativo',
+    disciplina: 'administrativo',
     topico: 'Licitações',
     enunciado: 'Qual princípio da Lei 8.666/1993 garante a escolha da proposta mais vantajosa para a administração?',
     alternativas: [
@@ -17,8 +17,8 @@ const QUESTIONS_PREMIUM_18 = [
   },
   {
     id: 'p18_q2',
-    disciplina: 'direito_administrativo',
-    topico: 'Abuso de Autoridade',
+    disciplina: 'legislacao',
+    topico: 'Lei 13.869/19 - Abuso de Autoridade',
     enunciado: 'Conforme a Lei 13.869/2019, qual conduta constitui abuso de autoridade por parte do policial?',
     alternativas: [
       { letra: 'A', texto: 'Uso excessivo da força' },

@@ -2,8 +2,8 @@
 const QUESTIONS_PREMIUM_19 = [
   {
     id: 'p19_q1',
-    disciplina: 'direito_penal',
-    topico: 'Organização Criminosa',
+    disciplina: 'legislacao',
+    topico: 'Lei 12.850/13 - Organiz. Criminosas',
     enunciado: 'Qual elemento caracteriza a “estrutura hierárquica” prevista na Lei 12.850/2013?',
     alternativas: [
       { letra: 'A', texto: 'Presença de líder formal' },
@@ -17,7 +17,7 @@ const QUESTIONS_PREMIUM_19 = [
   },
   {
     id: 'p19_q2',
-    disciplina: 'direito_penal',
+    disciplina: 'legislacao',
     topico: 'Crimes Cibernéticos',
     enunciado: 'Segundo a Lei 12.960/2014, a invasão a um sistema informático sem autorização é tipificada como:',
     alternativas: [

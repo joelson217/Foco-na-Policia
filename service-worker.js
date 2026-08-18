@@ -1,9 +1,10 @@
 // Service Worker — Concursos-Policiais
 // Versão: atualizada automaticamente a cada deploy
 
-const CACHE_NAME = 'concursos-policiais-v5';
+const CACHE_NAME = 'concursos-policiais-v9';
 
 const ASSETS_TO_CACHE = [
+  '/Foco-na-Policia/data/questions_extra_3.js',
   '/Foco-na-Policia/',
   '/Foco-na-Policia/index.html',
   '/Foco-na-Policia/css/styles.css',
@@ -64,6 +65,13 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_premium_19.js',
   '/Foco-na-Policia/data/questions_premium_20.js',
   '/Foco-na-Policia/data/questions_premium_21.js',
+  '/Foco-na-Policia/data/mapa_mental_legislacao.js',
+  '/Foco-na-Policia/data/mapa_mental_lep_penal.js',
+  '/Foco-na-Policia/data/lei_seca_antiterrorismo.js',
+  '/Foco-na-Policia/data/lei_seca_licitacoes_14133.js',
+  '/Foco-na-Policia/data/questions_peso2_reforco.js',
+  '/Foco-na-Policia/data/questions_peso2_reforco2.js',
+  '/Foco-na-Policia/data/questions_peso1_reforco.js',
   '/Foco-na-Policia/FlashCards/1 - Lei Penal no Tempo.png',
   '/Foco-na-Policia/FlashCards/10 - Princípios do Direito Penal.png',
   '/Foco-na-Policia/FlashCards/11 - Direito Penal.png',

@@ -134,7 +134,10 @@ function initQuestions() {
     typeof QUESTIONS_PREMIUM_20 !== 'undefined' ? QUESTIONS_PREMIUM_20 : [],
     typeof QUESTIONS_PREMIUM_21 !== 'undefined' ? QUESTIONS_PREMIUM_21 : [],
     typeof QUESTIONS_EXTRA_3 !== 'undefined' ? QUESTIONS_EXTRA_3 : [],
-    typeof GENERATED_QUESTIONS !== 'undefined' ? GENERATED_QUESTIONS : []
+    typeof GENERATED_QUESTIONS !== 'undefined' ? GENERATED_QUESTIONS : [],
+    typeof QUESTIONS_PESO2_REFORCO !== 'undefined' ? QUESTIONS_PESO2_REFORCO : [],
+    typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [],
+    typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom);
@@ -351,7 +354,11 @@ const APP = {
       ...(typeof LEI_SECA_PREMIUM_17 !== 'undefined' ? LEI_SECA_PREMIUM_17.decks : []),
       ...(typeof LEI_SECA_PREMIUM_18 !== 'undefined' ? LEI_SECA_PREMIUM_18.decks : []),
       ...(typeof LEI_SECA_PREMIUM_19 !== 'undefined' ? LEI_SECA_PREMIUM_19.decks : []),
-      ...(typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20.decks : [])
+      ...(typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20.decks : []),
+      ...(typeof LEI_SECA_ANTITERRORISMO !== 'undefined' ? LEI_SECA_ANTITERRORISMO.decks : []),
+      ...(typeof MAPA_MENTAL_LEGISLACAO !== 'undefined' ? MAPA_MENTAL_LEGISLACAO.decks : []),
+      ...(typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL.decks : []),
+      ...(typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133.decks : [])
     ];
 
     const sel = document.getElementById('lei-seca-select');
@@ -977,7 +984,11 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_17 !== 'undefined' ? LEI_SECA_PREMIUM_17 : null,
         typeof LEI_SECA_PREMIUM_18 !== 'undefined' ? LEI_SECA_PREMIUM_18 : null,
         typeof LEI_SECA_PREMIUM_19 !== 'undefined' ? LEI_SECA_PREMIUM_19 : null,
-        typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20 : null
+        typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20 : null,
+        typeof LEI_SECA_ANTITERRORISMO !== 'undefined' ? LEI_SECA_ANTITERRORISMO : null,
+        typeof MAPA_MENTAL_LEGISLACAO !== 'undefined' ? MAPA_MENTAL_LEGISLACAO : null,
+        typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
+        typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -1033,7 +1044,11 @@ const FLASHCARDS = {
         typeof LEI_SECA_PREMIUM_17 !== 'undefined' ? LEI_SECA_PREMIUM_17 : null,
         typeof LEI_SECA_PREMIUM_18 !== 'undefined' ? LEI_SECA_PREMIUM_18 : null,
         typeof LEI_SECA_PREMIUM_19 !== 'undefined' ? LEI_SECA_PREMIUM_19 : null,
-        typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20 : null
+        typeof LEI_SECA_PREMIUM_20 !== 'undefined' ? LEI_SECA_PREMIUM_20 : null,
+        typeof LEI_SECA_ANTITERRORISMO !== 'undefined' ? LEI_SECA_ANTITERRORISMO : null,
+        typeof MAPA_MENTAL_LEGISLACAO !== 'undefined' ? MAPA_MENTAL_LEGISLACAO : null,
+        typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
+        typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null
       ].filter(s => s !== null);
 
       deck = null;

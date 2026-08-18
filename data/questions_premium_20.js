@@ -164,7 +164,7 @@ const QUESTIONS_PREMIUM_20 = [
   },
   {
     id: "premium20_010",
-    disciplina: "processual",
+    disciplina: "penal",
     topico: "Procedimento Penal",
     peso: 2,
     mostCobrado: true,
@@ -182,7 +182,7 @@ const QUESTIONS_PREMIUM_20 = [
   },
   {
     id: "premium20_011",
-    disciplina: "processual",
+    disciplina: "penal",
     topico: "Recursos",
     peso: 1,
     mostCobrado: false,
@@ -200,7 +200,7 @@ const QUESTIONS_PREMIUM_20 = [
   },
   {
     id: "premium20_012",
-    disciplina: "processual",
+    disciplina: "penal",
     topico: "Instrução Criminal",
     peso: 1,
     mostCobrado: false,
@@ -326,7 +326,7 @@ const QUESTIONS_PREMIUM_20 = [
   },
   {
     id: "premium20_019",
-    disciplina: "processual",
+    disciplina: "penal",
     topico: "Prisão Preventiva",
     peso: 2,
     mostCobrado: true,

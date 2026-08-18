@@ -1,12 +1,10 @@
 // ============================================================
-// QUESTIONS_EXTRA_LEGISLACAO.JS — 30 novas questões
-// Foco: Hediondos, Drogas, ORCRIM, Tortura — PPRN/Avalia
+// QUESTIONS_EXTRA_LEGISLACAO.JS — 154 questões (46 duplicatas removidas)
+// Foco: Hediondos, Drogas, ORCRIM, Tortura, Maria da Penha, Desarmamento,
+// Abuso de Autoridade, Improbidade, LEP — PPRN/Avalia
 // ============================================================
 
 const QUESTIONS_EXTRA_LEGISLACAO = [
-  // =========================================
-  // LEI 8.072/90 — CRIMES HEDIONDOS (8 questões)
-  // =========================================
   {
     "id": "leg_extra_1",
     "disciplina": "legislacao",
@@ -151,10 +149,6 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º, VI da Lei 8.072/90",
     "justificativa": "O art. 1º, VI da Lei 8.072/90 prevê expressamente que são hediondos: estupro (art. 213 CP) e estupro de vulnerável (art. 217-A CP), na forma simples ou com qualquer resultado. Não há restrição à forma qualificada. A tentativa de crime hediondo também é hedionda (art. 1º, parágrafo único). A transação penal é vedada — crimes hediondos são inafiançáveis e têm pena mínima superior a 1 ano."
   },
-
-  // =========================================
-  // LEI 11.343/06 — LEI DE DROGAS (8 questões)
-  // =========================================
   {
     "id": "leg_extra_9",
     "disciplina": "legislacao",
@@ -299,10 +293,6 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 28 e §3º da Lei 11.343/06",
     "justificativa": "O crime do art. 28 (usuário) é de ação penal PÚBLICA INCONDICIONADA — o MP pode agir independentemente de representação. Quanto à prescrição, o STF entende que, como não há pena privativa de liberdade (são penas de advertência e serviços comunitários), aplica-se o prazo prescricional mínimo do CP: 2 anos (art. 109, VI CP). O prazo decadencial de 6 meses é de ação privada ou condicionada, não aplicável aqui."
   },
-
-  // =========================================
-  // LEI 12.850/13 — ORGANIZAÇÕES CRIMINOSAS (7 questões)
-  // =========================================
   {
     "id": "leg_extra_17",
     "disciplina": "legislacao",
@@ -429,10 +419,6 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 4º, §§7º e 14 da Lei 12.850/13",
     "justificativa": "O acordo pode ser rescindido quando o colaborador não cumprir as obrigações assumidas (ex: não comparecer para depor, recusar-se a colaborar com a investigação) ou quando praticar novo crime após o acordo. Também pode o colaborador retratar-se da proposta, caso em que as provas por ele produzidas não poderão ser utilizadas exclusivamente em seu desfavor (art. 4º, §10). O MP também pode ser parte interessada na rescisão quando o colaborador descumprir obrigações."
   },
-
-  // =========================================
-  // LEI 9.455/97 — TORTURA (7 questões)
-  // =========================================
   {
     "id": "leg_extra_24",
     "disciplina": "legislacao",
@@ -558,8 +544,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "gabarito": "B",
     "artigo": "Art. 2º, §1º da Lei 8.072/90; HC 111.840 — STF",
     "justificativa": "A tortura, por ser crime hediondo equiparado, tem o regime inicial previsto como fechado pela Lei 8.072/90, art. 2º, §1º. Entretanto, o STF no HC 111.840 declarou inconstitucional a OBRIGATORIEDADE ABSOLUTA do regime fechado para todos os hediondos/equiparados, por violar o princípio da individualização da pena. Portanto, o juiz PODE, fundamentadamente, fixar regime inicial diferente do fechado, observando as circunstâncias do caso concreto e o art. 33 do CP."
-  }
-  ,
+  },
   {
     "id": "leg_extra_31",
     "disciplina": "legislacao",
@@ -1285,9 +1270,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "gabarito": "A",
     "artigo": "Art. 1º, V da Lei 8.072/90",
     "justificativa": "A pena mínima para latrocínio é de 8 anos, conforme a lei."
-  }
-,
-    {
+  },
+  {
         "id": "leg_extra_71",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Quantidade mínima para tráfico privilegiado",
@@ -1305,7 +1289,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 33, §4º da Lei 11.343/06",
         "justificativa": "O tráfico privilegiado depende de requisitos de culpa, não de quantidade fixa; o agente primário sem antecedentes pode ter a pena reduzida independentemente da quantidade."
     },
-    {
+  {
         "id": "leg_extra_72",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Extinção de punibilidade por morte do agente",
@@ -1323,7 +1307,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 6º da Lei 12.850/13",
         "justificativa": "A morte do agente não extingue a punibilidade dos demais participantes; o processo prossegue."
     },
-    {
+  {
         "id": "leg_extra_73",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Suspensão de pena por doença grave",
@@ -1341,7 +1325,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 66, §1º do Código Penal",
         "justificativa": "A lei permite redução de pena quando o condenado tem doença grave incapacitante."
     },
-    {
+  {
         "id": "leg_extra_74",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Vítima em situação de vulnerabilidade",
@@ -1359,7 +1343,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
         "justificativa": "O §4º estabelece que a condição de vulnerabilidade da vítima (criança, gestante, etc.) aumenta a pena."
     },
-    {
+  {
         "id": "leg_extra_75",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Medidas de segurança para usuário",
@@ -1377,7 +1361,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 28, §3º da Lei 11.343/06",
         "justificativa": "A lei prevê prestação de serviços à comunidade ou medida educativa ao usuário."
     },
-    {
+  {
         "id": "leg_extra_76",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Coautoria vs. Participação",
@@ -1395,7 +1379,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 2º da Lei 12.850/13",
         "justificativa": "Coautor tem participação direta no crime, partícipe auxilia sem executar o ato principal."
     },
-    {
+  {
         "id": "leg_extra_77",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Crime de tortura por omissão",
@@ -1413,7 +1397,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §2º da Lei 9.455/97",
         "justificativa": "A omissão que poderia prevenir a tortura tem pena de detenção de 1 a 4 anos."
     },
-    {
+  {
         "id": "leg_extra_78",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Progressão de regime para primário sem resultado morte",
@@ -1431,7 +1415,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 112, VI, 'c' da LEP",
         "justificativa": "Para primário sem resultado morte, a lei estabelece 40% da pena para progressão."
     },
-    {
+  {
         "id": "leg_extra_79",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Confisco de bens do traficante",
@@ -1449,7 +1433,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 39 da Lei 11.343/06",
         "justificativa": "A lei permite confisco dos bens vinculados à prática delitiva."
     },
-    {
+  {
         "id": "leg_extra_80",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Acordo de colaboração premiada",
@@ -1467,7 +1451,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 4º da Lei 12.850/13",
         "justificativa": "A lei não prevê extinção automática de todos os processos; os demais permanecem."
     },
-    {
+  {
         "id": "leg_extra_81",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Definição de crime hediondo",
@@ -1485,7 +1469,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º da Lei 8.072/90",
         "justificativa": "Furto simples não consta da lista de crimes hediondos."
     },
-    {
+  {
         "id": "leg_extra_82",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Pena mínima para tortura com resultado morte",
@@ -1503,7 +1487,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §3º da Lei 9.455/97",
         "justificativa": "A lei estabelece 8 a 16 anos para tortura com resultado morte."
     },
-    {
+  {
         "id": "leg_extra_83",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Ação controlada",
@@ -1521,7 +1505,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 8º da Lei 12.850/13",
         "justificativa": "A ação controlada consiste em retardar a intervenção para melhor comprovação."
     },
-    {
+  {
         "id": "leg_extra_84",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Regime inicial para crime hediondo",
@@ -1539,7 +1523,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "HC 111.840/ES — STF",
         "justificativa": "O juiz pode fixar regime inicial diverso do fechado, conforme art. 33 do CP e circunstâncias."
     },
-    {
+  {
         "id": "leg_extra_85",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Perda do cargo por tortura",
@@ -1557,7 +1541,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §5º da Lei 9.455/97",
         "justificativa": "A lei prevê perda do cargo e interdição pelo dobro da pena."
     },
-    {
+  {
         "id": "leg_extra_86",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Reincidência em tráfico",
@@ -1575,7 +1559,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 40, III da Lei 11.343/06",
         "justificativa": "O art. 40, III estabelece aumento de 1/6 a 1/3 para reincidência."
     },
-    {
+  {
         "id": "leg_extra_87",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Prazo de conservação de provas em infiltração",
@@ -1593,7 +1577,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 10 da Lei 12.850/13",
         "justificativa": "A autorização judicial tem prazo de até 6 meses, renovável por iguais períodos."
     },
-    {
+  {
         "id": "leg_extra_88",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Aumento de pena por sequestro durante tortura",
@@ -1611,7 +1595,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §4º, III da Lei 9.455/97",
         "justificativa": "O §4º prevê aumento quando o crime é praticado mediante sequestro."
     },
-    {
+  {
         "id": "leg_extra_89",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Uso de arma de fogo no tráfico",
@@ -1629,7 +1613,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 40, II da Lei 11.343/06",
         "justificativa": "O art. 40, II estabelece aumento de 1/6 a 1/3 quando há uso de arma."
     },
-    {
+  {
         "id": "leg_extra_90",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Contribuição de menor de idade",
@@ -1647,7 +1631,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 2º da Lei 12.850/13",
         "justificativa": "A lei não exclui a organização por participação de menores."
     },
-    {
+  {
         "id": "leg_extra_91",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Direito de defesa do acusado de tortura",
@@ -1665,7 +1649,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 5º, LV da Constituição",
         "justificativa": "O princípio constitucional garante ampla defesa."
     },
-    {
+  {
         "id": "leg_extra_92",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Progressão de regime para reincidente específico com resultado morte",
@@ -1683,7 +1667,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 112, VI, 'b' da LEP",
         "justificativa": "A progressão para reincidente específico com resultado morte exige 70% da pena."
     },
-    {
+  {
         "id": "leg_extra_93",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Medidas de segurança para usuário",
@@ -1701,7 +1685,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 28, §4º da Lei 11.343/06",
         "justificativa": "A lei permite medida educativa como curso de reeducação."
     },
-    {
+  {
         "id": "leg_extra_94",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Responsabilidade do líder da organização",
@@ -1719,7 +1703,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 2º, parágrafo único da Lei 12.850/13",
         "justificativa": "O líder responde pelos atos praticados pelos membros da organização."
     },
-    {
+  {
         "id": "leg_extra_95",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Consequência de condenação por tortura para agente público",
@@ -1737,7 +1721,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §5º da Lei 9.455/97",
         "justificativa": "A lei estabelece perda do cargo e interdição proporcional."
     },
-    {
+  {
         "id": "leg_extra_96",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Aumento de pena por vítima maior de 60 anos",
@@ -1755,7 +1739,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
         "justificativa": "A condição de vítima idosa aumenta a pena."
     },
-    {
+  {
         "id": "leg_extra_97",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Lavratura de auto de prisão em flagrante",
@@ -1774,25 +1758,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 23 da Lei 11.343/06",
         "justificativa": "O auto de prisão em flagrante formaliza a detenção."
     },
-    {
-        "id": "leg_extra_98",
-        "disciplina": "legislacao",
-        "topico": "Lei 12.850/13 — Suspensão de processos por prescrição",
-        "peso": 2,
-        "mostCobrado": false,
-        "dificuldade": "medio",
-        "enunciado": "Qual o prazo prescricional para crime de organização criminosa?",
-        "alternativas": [
-            { "letra": "A", "texto": "12 anos." },
-            { "letra": "B", "texto": "20 anos." },
-            { "letra": "C", "texto": "15 anos." },
-            { "letra": "D", "texto": "10 anos." }
-        ],
-        "gabarito": "B",
-        "artigo": "Art. 5º, II da Lei 12.850/13",
-        "justificativa": "O prazo é de 20 anos para organização criminosa."
-    },
-    {
+  {
         "id": "leg_extra_99",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Diferença entre tortura comissionada e por omissão",
@@ -1810,7 +1776,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §2º da Lei 9.455/97",
         "justificativa": "A omissão que poderia impedir a tortura é punida."
     },
-    {
+  {
         "id": "leg_extra_100",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Redução de pena por confissão",
@@ -1828,7 +1794,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 65 do Código Penal",
         "justificativa": "A confissão pode reduzir a pena até 1/3."
     },
-    {
+  {
         "id": "leg_extra_101",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Diminuição de pena por circunstâncias atenuantes",
@@ -1846,7 +1812,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 65, II do CP (aplicável por analogia)",
         "justificativa": "Primariedade e bons antecedentes são atenuantes reconhecidos."
     },
-    {
+  {
         "id": "leg_extra_102",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Requisitos de prova para condenação",
@@ -1865,7 +1831,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 1º, §1º da Lei 12.850/13",
         "justificativa": "É necessário demonstrar organização e divisão de funções."
     },
-    {
+  {
         "id": "leg_extra_103",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Possibilidade de recurso contra sentença de tortura",
@@ -1883,7 +1849,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 593, I do Código de Processo Penal",
         "justificativa": "A sentença penal pode ser objeto de apelação."
     },
-    {
+  {
         "id": "leg_extra_104",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Crime hediondo com tentativa",
@@ -1901,7 +1867,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 14, §1º do Código Penal (aplicado às hediondez)",
         "justificativa": "A tentativa tem redução de pena, mas mantém tratamento especial."
     },
-    {
+  {
         "id": "leg_extra_105",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Prisão preventiva em caso de tráfico privilegiado",
@@ -1919,7 +1885,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 5º, §4º da Lei 11.343/06",
         "justificativa": "A prisão preventiva depende de risco de fuga ou ordem pública."
     },
-    {
+  {
         "id": "leg_extra_106",
         "disciplina": "legislacao",
         "topico": "Lei 12.850/13 — Efeito da sentença sobre os bens da organização",
@@ -1937,7 +1903,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 20 da Lei 12.850/13",
         "justificativa": "A lei permite confisco de bens vinculados à organização criminosa."
     },
-    {
+  {
         "id": "leg_extra_107",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Reincidência em tortura",
@@ -1955,7 +1921,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 62, II do Código Penal (aplicado à tortura)",
         "justificativa": "A reincidência gera aumento de 1/6 a 1/3."
     },
-    {
+  {
         "id": "leg_extra_108",
         "disciplina": "legislacao",
         "topico": "Lei 8.072/90 — Possibilidade de livramento condicional para crime hediondo",
@@ -1973,7 +1939,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 83, V do CP e Art. 5º da Lei 8.072/90",
         "justificativa": "O livramento condicional exige 2/3 da pena para hediondos."
     },
-    {
+  {
         "id": "leg_extra_109",
         "disciplina": "legislacao",
         "topico": "Lei 11.343/06 — Substituição de pena por prestação de serviços",
@@ -1991,7 +1957,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 28, §3º da Lei 11.343/06",
         "justificativa": "A lei estabelece até 600 horas de prestação de serviços."
     },
-    {
+  {
         "id": "leg_extra_110",
         "disciplina": "legislacao",
         "topico": "Lei 9.455/97 — Aplicação da lei no exterior",
@@ -2009,7 +1975,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "artigo": "Art. 2º da Lei 9.455/97",
         "justificativa": "A extraterritorialidade depende da nacionalidade da vítima."
     },
-{
+  {
     "id": "leg_extra_111",
     "disciplina": "legislacao",
     "topico": "Lei 8.072/90 — Sujeito Ativo do Crime (Q111)",
@@ -2039,7 +2005,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 8.072/90",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da taxatividade do rol."
 },
-{
+  {
     "id": "leg_extra_112",
     "disciplina": "legislacao",
     "topico": "Lei 11.343/06 — Sujeito Ativo do Crime (Q112)",
@@ -2069,7 +2035,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 33 da Lei 11.343/06",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do crime de tráfico de substâncias."
 },
-{
+  {
     "id": "leg_extra_113",
     "disciplina": "legislacao",
     "topico": "Lei 13.869/19 — Sujeito Ativo do Crime (Q113)",
@@ -2099,7 +2065,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 13.869/19",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da decretação de medida de privação de liberdade."
 },
-{
+  {
     "id": "leg_extra_114",
     "disciplina": "legislacao",
     "topico": "Lei 9.455/97 — Sujeito Ativo do Crime (Q114)",
@@ -2129,7 +2095,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 9.455/97",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos crimes de tortura-prova."
 },
-{
+  {
     "id": "leg_extra_115",
     "disciplina": "legislacao",
     "topico": "Lei 11.340/06 — Sujeito Ativo do Crime (Q115)",
@@ -2159,7 +2125,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 5º da Lei 11.340/06",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do âmbito doméstico e familiar."
 },
-{
+  {
     "id": "leg_extra_116",
     "disciplina": "legislacao",
     "topico": "Lei 10.826/03 — Sujeito Ativo do Crime (Q116)",
@@ -2189,7 +2155,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 12 da Lei 10.826/03",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da posse de arma de fogo de uso permitido."
 },
-{
+  {
     "id": "leg_extra_117",
     "disciplina": "legislacao",
     "topico": "Lei 12.850/13 — Sujeito Ativo do Crime (Q117)",
@@ -2219,7 +2185,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 12.850/13",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do número mínimo de 4 integrantes."
 },
-{
+  {
     "id": "leg_extra_118",
     "disciplina": "legislacao",
     "topico": "Lei 7.210/84 (LEP) — Sujeito Ativo do Crime (Q118)",
@@ -2249,7 +2215,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos percentuais de progressão."
 },
-{
+  {
     "id": "leg_extra_119",
     "disciplina": "legislacao",
     "topico": "Lei 8.429/92 — Sujeito Ativo do Crime (Q119)",
@@ -2279,7 +2245,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 8.429/92",
     "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do enriquecimento ilícito do agente."
 },
-{
+  {
     "id": "leg_extra_120",
     "disciplina": "legislacao",
     "topico": "Lei 8.072/90 — Efeitos da Condenação (Q120)",
@@ -2309,7 +2275,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 8.072/90",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da taxatividade do rol."
 },
-{
+  {
     "id": "leg_extra_121",
     "disciplina": "legislacao",
     "topico": "Lei 11.343/06 — Efeitos da Condenação (Q121)",
@@ -2339,7 +2305,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 33 da Lei 11.343/06",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do crime de tráfico de substâncias."
 },
-{
+  {
     "id": "leg_extra_122",
     "disciplina": "legislacao",
     "topico": "Lei 13.869/19 — Efeitos da Condenação (Q122)",
@@ -2369,7 +2335,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 13.869/19",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da decretação de medida de privação de liberdade."
 },
-{
+  {
     "id": "leg_extra_123",
     "disciplina": "legislacao",
     "topico": "Lei 9.455/97 — Efeitos da Condenação (Q123)",
@@ -2399,7 +2365,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 9.455/97",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos crimes de tortura-prova."
 },
-{
+  {
     "id": "leg_extra_124",
     "disciplina": "legislacao",
     "topico": "Lei 11.340/06 — Efeitos da Condenação (Q124)",
@@ -2429,7 +2395,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 5º da Lei 11.340/06",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do âmbito doméstico e familiar."
 },
-{
+  {
     "id": "leg_extra_125",
     "disciplina": "legislacao",
     "topico": "Lei 10.826/03 — Efeitos da Condenação (Q125)",
@@ -2459,7 +2425,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 12 da Lei 10.826/03",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da posse de arma de fogo de uso permitido."
 },
-{
+  {
     "id": "leg_extra_126",
     "disciplina": "legislacao",
     "topico": "Lei 12.850/13 — Efeitos da Condenação (Q126)",
@@ -2489,7 +2455,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 12.850/13",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do número mínimo de 4 integrantes."
 },
-{
+  {
     "id": "leg_extra_127",
     "disciplina": "legislacao",
     "topico": "Lei 7.210/84 (LEP) — Efeitos da Condenação (Q127)",
@@ -2519,7 +2485,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos percentuais de progressão."
 },
-{
+  {
     "id": "leg_extra_128",
     "disciplina": "legislacao",
     "topico": "Lei 8.429/92 — Efeitos da Condenação (Q128)",
@@ -2549,7 +2515,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 8.429/92",
     "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do enriquecimento ilícito do agente."
 },
-{
+  {
     "id": "leg_extra_129",
     "disciplina": "legislacao",
     "topico": "Lei 8.072/90 — Aumento de Pena (Q129)",
@@ -2579,7 +2545,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 8.072/90",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da taxatividade do rol."
 },
-{
+  {
     "id": "leg_extra_130",
     "disciplina": "legislacao",
     "topico": "Lei 11.343/06 — Aumento de Pena (Q130)",
@@ -2609,7 +2575,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 33 da Lei 11.343/06",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do crime de tráfico de substâncias."
 },
-{
+  {
     "id": "leg_extra_131",
     "disciplina": "legislacao",
     "topico": "Lei 13.869/19 — Aumento de Pena (Q131)",
@@ -2639,7 +2605,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 13.869/19",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da decretação de medida de privação de liberdade."
 },
-{
+  {
     "id": "leg_extra_132",
     "disciplina": "legislacao",
     "topico": "Lei 9.455/97 — Aumento de Pena (Q132)",
@@ -2669,7 +2635,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 9.455/97",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos crimes de tortura-prova."
 },
-{
+  {
     "id": "leg_extra_133",
     "disciplina": "legislacao",
     "topico": "Lei 11.340/06 — Aumento de Pena (Q133)",
@@ -2699,7 +2665,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 5º da Lei 11.340/06",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do âmbito doméstico e familiar."
 },
-{
+  {
     "id": "leg_extra_134",
     "disciplina": "legislacao",
     "topico": "Lei 10.826/03 — Aumento de Pena (Q134)",
@@ -2729,7 +2695,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 12 da Lei 10.826/03",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da posse de arma de fogo de uso permitido."
 },
-{
+  {
     "id": "leg_extra_135",
     "disciplina": "legislacao",
     "topico": "Lei 12.850/13 — Aumento de Pena (Q135)",
@@ -2759,7 +2725,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 12.850/13",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do número mínimo de 4 integrantes."
 },
-{
+  {
     "id": "leg_extra_136",
     "disciplina": "legislacao",
     "topico": "Lei 7.210/84 (LEP) — Aumento de Pena (Q136)",
@@ -2789,7 +2755,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos percentuais de progressão."
 },
-{
+  {
     "id": "leg_extra_137",
     "disciplina": "legislacao",
     "topico": "Lei 8.429/92 — Aumento de Pena (Q137)",
@@ -2819,7 +2785,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 8.429/92",
     "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do enriquecimento ilícito do agente."
 },
-{
+  {
     "id": "leg_extra_138",
     "disciplina": "legislacao",
     "topico": "Lei 8.072/90 — Consumação e Tentativa (Q138)",
@@ -2849,7 +2815,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 8.072/90",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da taxatividade do rol."
 },
-{
+  {
     "id": "leg_extra_139",
     "disciplina": "legislacao",
     "topico": "Lei 11.343/06 — Consumação e Tentativa (Q139)",
@@ -2879,7 +2845,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 33 da Lei 11.343/06",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do crime de tráfico de substâncias."
 },
-{
+  {
     "id": "leg_extra_140",
     "disciplina": "legislacao",
     "topico": "Lei 13.869/19 — Consumação e Tentativa (Q140)",
@@ -2909,7 +2875,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 13.869/19",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da decretação de medida de privação de liberdade."
 },
-{
+  {
     "id": "leg_extra_141",
     "disciplina": "legislacao",
     "topico": "Lei 9.455/97 — Consumação e Tentativa (Q141)",
@@ -2939,7 +2905,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 9.455/97",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos crimes de tortura-prova."
 },
-{
+  {
     "id": "leg_extra_142",
     "disciplina": "legislacao",
     "topico": "Lei 11.340/06 — Consumação e Tentativa (Q142)",
@@ -2969,7 +2935,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 5º da Lei 11.340/06",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do âmbito doméstico e familiar."
 },
-{
+  {
     "id": "leg_extra_143",
     "disciplina": "legislacao",
     "topico": "Lei 10.826/03 — Consumação e Tentativa (Q143)",
@@ -2999,7 +2965,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 12 da Lei 10.826/03",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da posse de arma de fogo de uso permitido."
 },
-{
+  {
     "id": "leg_extra_144",
     "disciplina": "legislacao",
     "topico": "Lei 12.850/13 — Consumação e Tentativa (Q144)",
@@ -3029,7 +2995,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 12.850/13",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do número mínimo de 4 integrantes."
 },
-{
+  {
     "id": "leg_extra_145",
     "disciplina": "legislacao",
     "topico": "Lei 7.210/84 (LEP) — Consumação e Tentativa (Q145)",
@@ -3059,7 +3025,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos percentuais de progressão."
 },
-{
+  {
     "id": "leg_extra_146",
     "disciplina": "legislacao",
     "topico": "Lei 8.429/92 — Consumação e Tentativa (Q146)",
@@ -3089,7 +3055,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 8.429/92",
     "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do enriquecimento ilícito do agente."
 },
-{
+  {
     "id": "leg_extra_147",
     "disciplina": "legislacao",
     "topico": "Lei 8.072/90 — Direito Processual Aplicado (Q147)",
@@ -3119,7 +3085,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 8.072/90",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da taxatividade do rol."
 },
-{
+  {
     "id": "leg_extra_148",
     "disciplina": "legislacao",
     "topico": "Lei 11.343/06 — Direito Processual Aplicado (Q148)",
@@ -3149,7 +3115,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 33 da Lei 11.343/06",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do crime de tráfico de substâncias."
 },
-{
+  {
     "id": "leg_extra_149",
     "disciplina": "legislacao",
     "topico": "Lei 13.869/19 — Direito Processual Aplicado (Q149)",
@@ -3179,7 +3145,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 9º da Lei 13.869/19",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da decretação de medida de privação de liberdade."
 },
-{
+  {
     "id": "leg_extra_150",
     "disciplina": "legislacao",
     "topico": "Lei 9.455/97 — Direito Processual Aplicado (Q150)",
@@ -3209,7 +3175,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 9.455/97",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos crimes de tortura-prova."
 },
-{
+  {
     "id": "leg_extra_151",
     "disciplina": "legislacao",
     "topico": "Lei 11.340/06 — Direito Processual Aplicado (Q151)",
@@ -3239,7 +3205,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 5º da Lei 11.340/06",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do âmbito doméstico e familiar."
 },
-{
+  {
     "id": "leg_extra_152",
     "disciplina": "legislacao",
     "topico": "Lei 10.826/03 — Direito Processual Aplicado (Q152)",
@@ -3269,7 +3235,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 12 da Lei 10.826/03",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da posse de arma de fogo de uso permitido."
 },
-{
+  {
     "id": "leg_extra_153",
     "disciplina": "legislacao",
     "topico": "Lei 12.850/13 — Direito Processual Aplicado (Q153)",
@@ -3299,7 +3265,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 1º da Lei 12.850/13",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do número mínimo de 4 integrantes."
 },
-{
+  {
     "id": "leg_extra_154",
     "disciplina": "legislacao",
     "topico": "Lei 7.210/84 (LEP) — Direito Processual Aplicado (Q154)",
@@ -3329,1363 +3295,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
     "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos percentuais de progressão."
 },
-{
+  {
     "id": "leg_extra_155",
     "disciplina": "legislacao",
     "topico": "Lei 8.429/92 — Direito Processual Aplicado (Q155)",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "facil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 8.429/92, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do enriquecimento ilícito do agente."
-},
-{
-    "id": "leg_extra_156",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.072/90 — Sujeito Ativo do Crime (Q156)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.072/90, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 8.072/90",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da taxatividade do rol."
-},
-{
-    "id": "leg_extra_157",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.343/06 — Sujeito Ativo do Crime (Q157)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 11.343/06, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 33 da Lei 11.343/06",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do crime de tráfico de substâncias."
-},
-{
-    "id": "leg_extra_158",
-    "disciplina": "legislacao",
-    "topico": "Lei 13.869/19 — Sujeito Ativo do Crime (Q158)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 13.869/19, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 13.869/19",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da decretação de medida de privação de liberdade."
-},
-{
-    "id": "leg_extra_159",
-    "disciplina": "legislacao",
-    "topico": "Lei 9.455/97 — Sujeito Ativo do Crime (Q159)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 9.455/97, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 9.455/97",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos crimes de tortura-prova."
-},
-{
-    "id": "leg_extra_160",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.340/06 — Sujeito Ativo do Crime (Q160)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 11.340/06, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 5º da Lei 11.340/06",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do âmbito doméstico e familiar."
-},
-{
-    "id": "leg_extra_161",
-    "disciplina": "legislacao",
-    "topico": "Lei 10.826/03 — Sujeito Ativo do Crime (Q161)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 10.826/03, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 12 da Lei 10.826/03",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da posse de arma de fogo de uso permitido."
-},
-{
-    "id": "leg_extra_162",
-    "disciplina": "legislacao",
-    "topico": "Lei 12.850/13 — Sujeito Ativo do Crime (Q162)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 12.850/13, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 12.850/13",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do número mínimo de 4 integrantes."
-},
-{
-    "id": "leg_extra_163",
-    "disciplina": "legislacao",
-    "topico": "Lei 7.210/84 (LEP) — Sujeito Ativo do Crime (Q163)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 7.210/84 (LEP), assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata dos percentuais de progressão."
-},
-{
-    "id": "leg_extra_164",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Sujeito Ativo do Crime (Q164)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.429/92, assinale a opção correta:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
-        },
-        {
-            "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
-        },
-        {
-            "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
-        },
-        {
-            "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do enriquecimento ilícito do agente."
-},
-{
-    "id": "leg_extra_165",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.072/90 — Efeitos da Condenação (Q165)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 8.072/90, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 8.072/90",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da taxatividade do rol."
-},
-{
-    "id": "leg_extra_166",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.343/06 — Efeitos da Condenação (Q166)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 11.343/06, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 33 da Lei 11.343/06",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do crime de tráfico de substâncias."
-},
-{
-    "id": "leg_extra_167",
-    "disciplina": "legislacao",
-    "topico": "Lei 13.869/19 — Efeitos da Condenação (Q167)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 13.869/19, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 13.869/19",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da decretação de medida de privação de liberdade."
-},
-{
-    "id": "leg_extra_168",
-    "disciplina": "legislacao",
-    "topico": "Lei 9.455/97 — Efeitos da Condenação (Q168)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 9.455/97, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 9.455/97",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos crimes de tortura-prova."
-},
-{
-    "id": "leg_extra_169",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.340/06 — Efeitos da Condenação (Q169)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 11.340/06, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 5º da Lei 11.340/06",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do âmbito doméstico e familiar."
-},
-{
-    "id": "leg_extra_170",
-    "disciplina": "legislacao",
-    "topico": "Lei 10.826/03 — Efeitos da Condenação (Q170)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 10.826/03, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 12 da Lei 10.826/03",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata da posse de arma de fogo de uso permitido."
-},
-{
-    "id": "leg_extra_171",
-    "disciplina": "legislacao",
-    "topico": "Lei 12.850/13 — Efeitos da Condenação (Q171)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 12.850/13, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 12.850/13",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do número mínimo de 4 integrantes."
-},
-{
-    "id": "leg_extra_172",
-    "disciplina": "legislacao",
-    "topico": "Lei 7.210/84 (LEP) — Efeitos da Condenação (Q172)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 7.210/84 (LEP), é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos percentuais de progressão."
-},
-{
-    "id": "leg_extra_173",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Efeitos da Condenação (Q173)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Sobre os efeitos da condenação previstos na Lei 8.429/92, é correto afirmar que:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
-        },
-        {
-            "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
-        },
-        {
-            "letra": "C",
-            "texto": "Não admitem perda do cargo público."
-        },
-        {
-            "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata do enriquecimento ilícito do agente."
-},
-{
-    "id": "leg_extra_174",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.072/90 — Aumento de Pena (Q174)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "O crime previsto na Lei 8.072/90 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 8.072/90",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da taxatividade do rol."
-},
-{
-    "id": "leg_extra_175",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.343/06 — Aumento de Pena (Q175)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "O crime previsto na Lei 11.343/06 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 33 da Lei 11.343/06",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do crime de tráfico de substâncias."
-},
-{
-    "id": "leg_extra_176",
-    "disciplina": "legislacao",
-    "topico": "Lei 13.869/19 — Aumento de Pena (Q176)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "O crime previsto na Lei 13.869/19 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 13.869/19",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da decretação de medida de privação de liberdade."
-},
-{
-    "id": "leg_extra_177",
-    "disciplina": "legislacao",
-    "topico": "Lei 9.455/97 — Aumento de Pena (Q177)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "O crime previsto na Lei 9.455/97 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 9.455/97",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos crimes de tortura-prova."
-},
-{
-    "id": "leg_extra_178",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.340/06 — Aumento de Pena (Q178)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "O crime previsto na Lei 11.340/06 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 5º da Lei 11.340/06",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do âmbito doméstico e familiar."
-},
-{
-    "id": "leg_extra_179",
-    "disciplina": "legislacao",
-    "topico": "Lei 10.826/03 — Aumento de Pena (Q179)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "O crime previsto na Lei 10.826/03 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 12 da Lei 10.826/03",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata da posse de arma de fogo de uso permitido."
-},
-{
-    "id": "leg_extra_180",
-    "disciplina": "legislacao",
-    "topico": "Lei 12.850/13 — Aumento de Pena (Q180)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "O crime previsto na Lei 12.850/13 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 12.850/13",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do número mínimo de 4 integrantes."
-},
-{
-    "id": "leg_extra_181",
-    "disciplina": "legislacao",
-    "topico": "Lei 7.210/84 (LEP) — Aumento de Pena (Q181)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "O crime previsto na Lei 7.210/84 (LEP) terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata dos percentuais de progressão."
-},
-{
-    "id": "leg_extra_182",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Aumento de Pena (Q182)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "O crime previsto na Lei 8.429/92 terá sua pena aumentada quando:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
-        },
-        {
-            "letra": "B",
-            "texto": "O agente cometer o crime prevalecendo-se de função pública."
-        },
-        {
-            "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
-        },
-        {
-            "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do enriquecimento ilícito do agente."
-},
-{
-    "id": "leg_extra_183",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.072/90 — Consumação e Tentativa (Q183)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "O crime de Crimes Hediondos tipificado na Lei 8.072/90 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 8.072/90",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da taxatividade do rol."
-},
-{
-    "id": "leg_extra_184",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.343/06 — Consumação e Tentativa (Q184)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "O crime de Lei de Drogas tipificado na Lei 11.343/06 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 33 da Lei 11.343/06",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do crime de tráfico de substâncias."
-},
-{
-    "id": "leg_extra_185",
-    "disciplina": "legislacao",
-    "topico": "Lei 13.869/19 — Consumação e Tentativa (Q185)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "O crime de Abuso de Autoridade tipificado na Lei 13.869/19 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 13.869/19",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da decretação de medida de privação de liberdade."
-},
-{
-    "id": "leg_extra_186",
-    "disciplina": "legislacao",
-    "topico": "Lei 9.455/97 — Consumação e Tentativa (Q186)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "O crime de Lei de Tortura tipificado na Lei 9.455/97 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 9.455/97",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos crimes de tortura-prova."
-},
-{
-    "id": "leg_extra_187",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.340/06 — Consumação e Tentativa (Q187)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "O crime de Lei Maria da Penha tipificado na Lei 11.340/06 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 5º da Lei 11.340/06",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do âmbito doméstico e familiar."
-},
-{
-    "id": "leg_extra_188",
-    "disciplina": "legislacao",
-    "topico": "Lei 10.826/03 — Consumação e Tentativa (Q188)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "O crime de Estatuto do Desarmamento tipificado na Lei 10.826/03 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 12 da Lei 10.826/03",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata da posse de arma de fogo de uso permitido."
-},
-{
-    "id": "leg_extra_189",
-    "disciplina": "legislacao",
-    "topico": "Lei 12.850/13 — Consumação e Tentativa (Q189)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "O crime de Organização Criminosa tipificado na Lei 12.850/13 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 12.850/13",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do número mínimo de 4 integrantes."
-},
-{
-    "id": "leg_extra_190",
-    "disciplina": "legislacao",
-    "topico": "Lei 7.210/84 (LEP) — Consumação e Tentativa (Q190)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "O crime de Execução Penal tipificado na Lei 7.210/84 (LEP) consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata dos percentuais de progressão."
-},
-{
-    "id": "leg_extra_191",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Consumação e Tentativa (Q191)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "O crime de Improbidade Administrativa tipificado na Lei 8.429/92 consuma-se com:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
-        },
-        {
-            "letra": "B",
-            "texto": "A mera realização da conduta proibida, tratando-se de crime formal."
-        },
-        {
-            "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
-        },
-        {
-            "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do enriquecimento ilícito do agente."
-},
-{
-    "id": "leg_extra_192",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.072/90 — Direito Processual Aplicado (Q192)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 8.072/90, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 8.072/90",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da taxatividade do rol."
-},
-{
-    "id": "leg_extra_193",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.343/06 — Direito Processual Aplicado (Q193)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 11.343/06, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 33 da Lei 11.343/06",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do crime de tráfico de substâncias."
-},
-{
-    "id": "leg_extra_194",
-    "disciplina": "legislacao",
-    "topico": "Lei 13.869/19 — Direito Processual Aplicado (Q194)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Em relação ao procedimento criminal da Lei 13.869/19, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 13.869/19",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da decretação de medida de privação de liberdade."
-},
-{
-    "id": "leg_extra_195",
-    "disciplina": "legislacao",
-    "topico": "Lei 9.455/97 — Direito Processual Aplicado (Q195)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 9.455/97, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 9.455/97",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos crimes de tortura-prova."
-},
-{
-    "id": "leg_extra_196",
-    "disciplina": "legislacao",
-    "topico": "Lei 11.340/06 — Direito Processual Aplicado (Q196)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
-    "enunciado": "Em relação ao procedimento criminal da Lei 11.340/06, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 5º da Lei 11.340/06",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do âmbito doméstico e familiar."
-},
-{
-    "id": "leg_extra_197",
-    "disciplina": "legislacao",
-    "topico": "Lei 10.826/03 — Direito Processual Aplicado (Q197)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 10.826/03, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 12 da Lei 10.826/03",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata da posse de arma de fogo de uso permitido."
-},
-{
-    "id": "leg_extra_198",
-    "disciplina": "legislacao",
-    "topico": "Lei 12.850/13 — Direito Processual Aplicado (Q198)",
-    "peso": 2,
-    "mostCobrado": true,
-    "dificuldade": "dificil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 12.850/13, a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 12.850/13",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do número mínimo de 4 integrantes."
-},
-{
-    "id": "leg_extra_199",
-    "disciplina": "legislacao",
-    "topico": "Lei 7.210/84 (LEP) — Direito Processual Aplicado (Q199)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "facil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 7.210/84 (LEP), a autoridade policial:",
-    "alternativas": [
-        {
-            "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
-        },
-        {
-            "letra": "B",
-            "texto": "Deve conduzir o inquérito no prazo fixado na legislação específica."
-        },
-        {
-            "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
-        },
-        {
-            "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
-        }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 112 da Lei 7.210/84 (LEP)",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata dos percentuais de progressão."
-},
-{
-    "id": "leg_extra_200",
-    "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Direito Processual Aplicado (Q200)",
-    "peso": 2,
-    "mostCobrado": false,
-    "dificuldade": "medio",
     "enunciado": "Em relação ao procedimento criminal da Lei 8.429/92, a autoridade policial:",
     "alternativas": [
         {
