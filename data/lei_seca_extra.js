@@ -251,6 +251,8 @@ const LEI_SECA_EXTRA = {
             { id: 'pp_dir1', artigo: 'Lei Estadual RN', titulo: 'Prerrogativas do Policial Penal', frente: 'Quais as principais prerrogativas do Policial Penal do RN?', verso: 'Porte de arma de fogo em serviço; utilização de algemas; uso de força moderada para manutenção da ordem; acesso aos prontuários dos internos; representação perante o Corregedor. No exercício da função: deve usar uniforme e identificação. Fora do serviço: porte de arma facultativo conforme legislação estadual.', cobrado: 'hot', anos: ['2023', '2022'] },
             { id: 'pp_dir2', artigo: 'Legislação Penitenciária', titulo: 'Uso de Algemas — Súmula Vinculante 11', frente: 'Quando é permitido o uso de algemas pelo Policial Penal?', verso: 'Súmula Vinculante 11 do STF: Uso de algemas é lícito apenas em casos de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia. A excepcionalidade deve ser justificada. O uso indevido de algemas configura abuso de autoridade. ATENÇÃO: algemas devem ser registradas no prontuário.', cobrado: 'hot', anos: ['2024', '2023', '2022'] },
           ]
+        }
+      ]
     },
     // =============================================
     // LEI DE ORGANIZAÇÕES CRIMINOSAS (LEI 12.850/13)

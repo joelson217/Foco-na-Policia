@@ -5,6 +5,11 @@
 
 'use strict';
 
+// Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
+// a cada atualização de dados, para conferir no rodapé do app se a
+// atualização mais recente já chegou ao dispositivo.
+const APP_VERSION = 'v10';
+
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
   currentTab: 'dashboard',
@@ -137,6 +142,7 @@ function initQuestions() {
     typeof GENERATED_QUESTIONS !== 'undefined' ? GENERATED_QUESTIONS : [],
     typeof QUESTIONS_PESO2_REFORCO !== 'undefined' ? QUESTIONS_PESO2_REFORCO : [],
     typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [],
+    typeof QUESTIONS_PESO2_REFORCO3 !== 'undefined' ? QUESTIONS_PESO2_REFORCO3 : [],
     typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
@@ -237,6 +243,12 @@ const APP = {
     }, 300);
   },
 
+  renderVersionFooter() {
+    const el = document.getElementById('app-version-footer');
+    if (!el) return;
+    el.textContent = `Foco na Polícia ${APP_VERSION} · ${ALL_QUESTIONS.length} questões`;
+  },
+
   startApp() {
     initQuestions();
     loadState();
@@ -250,6 +262,7 @@ const APP = {
     DASHBOARD.render();
     this.updateCountdown();
     GAMIFICATION.updateUI();
+    this.renderVersionFooter();
     setInterval(() => this.updateCountdown(), 60000);
     this.showTab('dashboard');
     document.getElementById('filter-disciplina').addEventListener('change', () => QUIZ.updateFilteredCount());
