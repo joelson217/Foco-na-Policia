@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v23';
+const APP_VERSION = 'v24';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
