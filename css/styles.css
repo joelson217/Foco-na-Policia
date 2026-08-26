@@ -51,6 +51,8 @@
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --header-height: 64px;
   --nav-height: 80px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 /* -------- Reset & Base -------- */
@@ -122,12 +124,17 @@ a { color: var(--blue-light); text-decoration: none; }
 /* -------- Header -------- */
 #app-header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  height: var(--header-height);
+  /* Soma a área do notch/status bar (safe-area) à altura fixa, senão o
+     conteúdo do cabeçalho fica espremido atrás do relógio/bateria do
+     iPhone quando o PWA roda em tela cheia (viewport-fit=cover). */
+  height: calc(var(--header-height) + var(--safe-top));
+  padding-top: var(--safe-top);
+  box-sizing: border-box;
   background: rgba(8, 16, 30, 0.95);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; justify-content: space-between;
-  padding: 0 16px;
+  padding-left: 16px; padding-right: 16px;
   gap: 8px;
 }
 .header-left { display: flex; align-items: center; gap: 10px; }
@@ -163,14 +170,14 @@ a { color: var(--blue-light); text-decoration: none; }
 /* -------- Main Content -------- */
 #main-content {
   flex: 1;
-  margin-top: calc(var(--header-height) + var(--nav-height));
-  margin-bottom: 20px;
+  margin-top: calc(var(--header-height) + var(--nav-height) + var(--safe-top));
+  margin-bottom: calc(20px + var(--safe-bottom));
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 /* -------- Tabs -------- */
-.tab-content { display: none; min-height: calc(100vh - var(--header-height) - var(--nav-height)); position: relative; }
+.tab-content { display: none; min-height: calc(100vh - var(--header-height) - var(--nav-height) - var(--safe-top)); position: relative; }
 .tab-content.active { display: block; }
 
 .curso-sem-conteudo-overlay {
@@ -185,7 +192,7 @@ a { color: var(--blue-light); text-decoration: none; }
 
 /* -------- Top Navigation -------- */
 #top-nav {
-  position: fixed; top: var(--header-height); left: 0; right: 0; z-index: 100;
+  position: fixed; top: calc(var(--header-height) + var(--safe-top)); left: 0; right: 0; z-index: 100;
   height: var(--nav-height);
   background: rgba(8, 16, 30, 0.98);
   backdrop-filter: blur(20px);
