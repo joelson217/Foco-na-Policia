@@ -28,8 +28,8 @@
 <div id="loading-screen">
   <div class="loading-content">
     <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
-    <h1>PPRN</h1>
-    <p>Polícia Penal do Rio Grande do Norte</p>
+    <h1>Operação Farda</h1>
+    <p>Preparação para concursos policiais</p>
     <div class="loading-bar"><div class="loading-fill" id="loading-fill"></div></div>
     <span id="loading-text">Verificando acesso...</span>
   </div>
@@ -80,8 +80,8 @@
     <div class="header-left">
       <img src="icon-512.png" alt="App Icon" class="logo-icon" style="width:64px;height:64px;"/>
       <div class="logo-text">
-        <span class="logo-title">PPRN</span>
-        <span class="logo-sub">Banca Avalia</span>
+        <span class="logo-title">Operação Farda</span>
+        <span class="logo-sub" id="header-curso-label">Carregando curso...</span>
       </div>
     </div>
     <div class="header-center" id="tab-title">Dashboard</div>
@@ -124,6 +124,10 @@
       <span class="nav-icon">📊</span>
       <span class="nav-label">Status</span>
     </button>
+    <button class="nav-btn hidden" data-tab="clientes" id="nav-btn-clientes" onclick="APP.showTab('clientes')">
+      <span class="nav-icon">🔒</span>
+      <span class="nav-label">Clientes</span>
+    </button>
   </nav>
 
   <!-- Main Content -->
@@ -148,7 +152,7 @@
         <div class="card card-highlight countdown-card">
           <div class="card-header">
             <span class="card-icon">🎯</span>
-            <span class="card-label">Contagem Regressiva — 13 Set 2026</span>
+            <span class="card-label" id="countdown-label">Contagem Regressiva</span>
           </div>
           <div class="countdown-display">
             <div class="countdown-item"><span id="cd-dias">--</span><small>dias</small></div>
@@ -158,9 +162,9 @@
             <div class="countdown-item"><span id="cd-min">--</span><small>min</small></div>
           </div>
           <div class="exam-info">
-            <span class="badge-info">📍 Banca Avalia</span>
-            <span class="badge-info">📝 100 questões</span>
-            <span class="badge-info">⏱️ 4 horas</span>
+            <span class="badge-info" id="badge-banca">📍 —</span>
+            <span class="badge-info" id="badge-questoes">📝 —</span>
+            <span class="badge-info" id="badge-tempo">⏱️ —</span>
           </div>
         </div>
 
@@ -455,17 +459,17 @@
       <!-- Simulado Setup Screen -->
       <div id="simulado-setup-screen">
         <div class="sim-header">
-          <h2>📝 Simulado PPRN</h2>
+          <h2 id="sim-titulo">📝 Simulado</h2>
           <p>Simulado com a distribuição EXATA do edital</p>
         </div>
 
         <!-- Edital Distribution -->
         <div class="sim-edital-card card">
-          <h3>⚖️ Distribuição do Edital (Banca Avalia)</h3>
+          <h3 id="sim-edital-titulo">⚖️ Distribuição do Edital</h3>
           <div class="sim-disciplines-grid" id="sim-disciplines-grid"></div>
           <div class="sim-total-row">
-            <span>Total: <strong>100 questões</strong></span>
-            <span>Pontuação Máxima: <strong>145 pontos</strong></span>
+            <span>Total: <strong id="sim-total-questoes">100 questões</strong></span>
+            <span>Pontuação Máxima: <strong id="sim-total-pontos">145 pontos</strong></span>
             <span class="elimination-note">⚠️ Eliminação: &lt;73 pts ou zerar qualquer área</span>
           </div>
         </div>
@@ -738,6 +742,77 @@
       </div>
     </section>
 
+    <!-- ===== TAB: CLIENTES (só aparece pra conta admin) ===== -->
+    <section class="tab-content" id="tab-clientes">
+      <div class="card">
+        <h3>🔒 Painel de Clientes</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem;">
+          Cole aqui a chave <strong>service_role</strong> do Supabase (Project Settings → API) para liberar o gerenciamento. Ela não fica salva no app nem no código — só em memória enquanto esta aba estiver aberta.
+        </p>
+        <input type="password" id="admin-service-key" placeholder="cole a chave service_role"
+          style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px; margin-top:8px;">
+        <button class="btn btn-primary" style="margin-top:10px;" onclick="ADMIN.connect()">Conectar</button>
+        <div id="admin-connect-status" style="font-size:0.85rem; margin-top:8px;"></div>
+      </div>
+
+      <div id="admin-panel-content" class="hidden">
+        <div class="card" style="margin-top:16px;">
+          <h3>Adicionar cliente</h3>
+          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">E-mail do cliente</label>
+          <input type="email" id="cliente-email" placeholder="cliente@email.com"
+            style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+
+          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Curso</label>
+          <select id="cliente-curso" style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+            <option value="pprn">PPRN — Polícia Penal do RN</option>
+            <option value="pppe">PPPE — Polícia Penal de PE</option>
+            <option value="pcpe_agente">PCPE — Agente</option>
+            <option value="pcpe_escrivao">PCPE — Escrivão</option>
+            <option value="pmpe">PMPE — Polícia Militar de PE</option>
+          </select>
+
+          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Tipo</label>
+          <select id="cliente-tipo" style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+            <option value="pago">Pago</option>
+            <option value="trial">Trial (teste grátis)</option>
+          </select>
+
+          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Validade (opcional)</label>
+          <input type="date" id="cliente-validade"
+            style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+
+          <label style="display:flex; align-items:center; gap:8px; margin-top:12px; font-size:0.85rem; color:var(--text-muted);">
+            <input type="checkbox" id="cliente-is-admin" style="width:auto;">
+            Esta é a minha conta (acesso a todos os cursos)
+          </label>
+
+          <button class="btn btn-primary" style="margin-top:14px;" onclick="ADMIN.criarCliente()">Criar acesso</button>
+          <div id="admin-status-msg" style="font-size:0.85rem; margin-top:8px;"></div>
+
+          <div id="admin-generated-password-box" class="hidden" style="background: rgba(245,197,24,0.1); border: 1px solid var(--gold); border-radius: 8px; padding: 14px; margin-top: 14px;">
+            <strong>Senha gerada (só aparece uma vez — copie e envie pro cliente):</strong><br>
+            <code id="admin-generated-password-value" style="font-size:1.1rem;"></code>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>Clientes cadastrados</h3>
+          <button class="btn btn-outline" onclick="ADMIN.carregarClientes()">🔄 Atualizar lista</button>
+          <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse: collapse; margin-top:12px; font-size:0.85rem;">
+              <thead>
+                <tr style="text-align:left; border-bottom:1px solid var(--border);">
+                  <th style="padding:8px;">E-mail</th><th style="padding:8px;">Curso</th><th style="padding:8px;">Tipo</th>
+                  <th style="padding:8px;">Status</th><th style="padding:8px;">Validade</th><th style="padding:8px;">Ações</th>
+                </tr>
+              </thead>
+              <tbody id="clientes-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Modal de Confirmação Genérico -->
@@ -969,6 +1044,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-config.js"></script>
 <script src="js/auth.js"></script>
+<script src="js/admin.js"></script>
 
 <!-- PWA: Registro do Service Worker (atualizações automáticas) -->
 <script>

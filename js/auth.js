@@ -1,7 +1,8 @@
 // ============================================================
 // AUTH.JS — Login por e-mail e senha (contas criadas só pelo admin,
-// via admin.html) + controle de acesso por curso + bloqueio de sessão
-// simultânea (Realtime) + sincronização de progresso na nuvem.
+// pela própria aba "Clientes" do app) + controle de acesso por curso +
+// bloqueio de sessão simultânea (Realtime) + sincronização de progresso
+// na nuvem.
 //
 // Fluxo:
 // 1. AUTH.init() roda no lugar de APP.init() direto (ver final do
@@ -210,6 +211,9 @@ const AUTH = {
     document.getElementById('curso-selector-screen').classList.add('hidden');
     document.getElementById('no-access-screen').classList.add('hidden');
     document.getElementById('loading-screen').style.display = 'flex';
+
+    const navClientes = document.getElementById('nav-btn-clientes');
+    if (navClientes) navClientes.classList.toggle('hidden', !CURRENT_IS_ADMIN);
 
     await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, curso);
     APP.init();

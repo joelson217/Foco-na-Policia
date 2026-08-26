@@ -1,12 +1,13 @@
 // ============================================================
-// ADMIN.JS — Painel de clientes (admin.html). Usa a chave service_role
-// do Supabase (colada manualmente pelo dono, nunca salva em disco/git)
-// para criar contas de cliente com senha gerada automaticamente e
-// gerenciar a tabela `assinantes`.
+// ADMIN.JS — Painel de clientes, integrado na aba "Clientes" do
+// próprio app (só aparece pra conta com is_admin=true). Usa a chave
+// service_role do Supabase (colada manualmente pelo dono, nunca salva
+// em disco/git) para criar contas de cliente com senha gerada
+// automaticamente e gerenciar a tabela `assinantes`.
 //
 // A chave service_role ignora TODAS as políticas de RLS -- por isso
 // ela nunca pode ir para o código-fonte público (app.js), só é usada
-// aqui, digitada manualmente a cada sessão de uso desta página.
+// aqui, digitada manualmente a cada sessão de uso desta aba.
 // ============================================================
 'use strict';
 
@@ -31,8 +32,8 @@ const ADMIN = {
   client: null,
 
   connect() {
-    const key = document.getElementById('service-key').value.trim();
-    const statusEl = document.getElementById('connect-status');
+    const key = document.getElementById('admin-service-key').value.trim();
+    const statusEl = document.getElementById('admin-connect-status');
     if (!key) { statusEl.textContent = 'Cole a chave service_role.'; return; }
 
     this.client = window.supabase.createClient(SUPABASE_URL, key, {
@@ -44,25 +45,23 @@ const ADMIN = {
 
     statusEl.textContent = '✅ Conectado.';
     statusEl.style.color = '#10b981';
-    document.getElementById('admin-panel').style.display = 'block';
+    document.getElementById('admin-panel-content').classList.remove('hidden');
     this.carregarClientes();
   },
 
   async criarCliente() {
-    const email = document.getElementById('novo-email').value.trim().toLowerCase();
-    const curso = document.getElementById('novo-curso').value;
-    const tipo = document.getElementById('novo-tipo').value;
-    const validadeInput = document.getElementById('novo-validade').value;
-    const isAdmin = document.getElementById('novo-is-admin').checked;
-    const btn = document.getElementById('criar-btn');
-    const statusEl = document.getElementById('status-msg');
-    const passwordBox = document.getElementById('generated-password-box');
+    const email = document.getElementById('cliente-email').value.trim().toLowerCase();
+    const curso = document.getElementById('cliente-curso').value;
+    const tipo = document.getElementById('cliente-tipo').value;
+    const validadeInput = document.getElementById('cliente-validade').value;
+    const isAdmin = document.getElementById('cliente-is-admin').checked;
+    const statusEl = document.getElementById('admin-status-msg');
+    const passwordBox = document.getElementById('admin-generated-password-box');
 
     if (!email || !email.includes('@')) { statusEl.textContent = 'Digite um e-mail válido.'; return; }
 
-    btn.disabled = true;
     statusEl.textContent = 'Criando...';
-    passwordBox.style.display = 'none';
+    passwordBox.classList.add('hidden');
 
     const senha = gerarSenhaAleatoria();
 
@@ -72,11 +71,10 @@ const ADMIN = {
       });
 
       if (userError) {
-        // Se o usuário já existir no Auth, seguimos e só atualizamos a linha de assinante.
         if (!String(userError.message || '').toLowerCase().includes('already')) {
           throw userError;
         }
-        statusEl.textContent = 'Este e-mail já tinha uma conta — atualizando a assinatura (senha não muda). Use "Gerar nova senha" se precisar redefinir.';
+        statusEl.textContent = 'Este e-mail já tinha uma conta — atualizando a assinatura (senha não muda). Use "Nova senha" na lista se precisar redefinir.';
       }
 
       const { error: upsertError } = await this.client.from('assinantes').upsert({
@@ -87,24 +85,22 @@ const ADMIN = {
       if (upsertError) throw upsertError;
 
       if (!userError) {
-        document.getElementById('generated-password-value').textContent = senha;
-        passwordBox.style.display = 'block';
+        document.getElementById('admin-generated-password-value').textContent = senha;
+        passwordBox.classList.remove('hidden');
         statusEl.textContent = '✅ Cliente criado com sucesso.';
       } else {
         statusEl.textContent = '✅ Assinatura atualizada (conta de login já existia).';
       }
       statusEl.style.color = '#10b981';
 
-      document.getElementById('novo-email').value = '';
-      document.getElementById('novo-validade').value = '';
-      document.getElementById('novo-is-admin').checked = false;
+      document.getElementById('cliente-email').value = '';
+      document.getElementById('cliente-validade').value = '';
+      document.getElementById('cliente-is-admin').checked = false;
       this.carregarClientes();
     } catch (e) {
       console.error(e);
       statusEl.textContent = '❌ Erro: ' + (e.message || e);
       statusEl.style.color = '#ef4444';
-    } finally {
-      btn.disabled = false;
     }
   },
 
@@ -123,19 +119,20 @@ const ADMIN = {
       const validadeISO = c.data_validade ? new Date(c.data_validade).toISOString().slice(0, 10) : '';
       const cursoLabel = (CURSOS_LABEL[c.curso] || c.curso) + (c.is_admin ? ' (admin)' : '');
       const inputId = 'validade-input-' + i;
+      tr.style.borderBottom = '1px solid var(--border)';
       tr.innerHTML = `
-        <td>${c.email}</td>
-        <td>${cursoLabel}</td>
-        <td>${c.tipo}</td>
-        <td><span class="badge ${c.ativo ? 'ativo' : 'inativo'}">${c.ativo ? 'ativo' : 'inativo'}</span></td>
-        <td>
-          <input type="date" id="${inputId}" value="${validadeISO}" style="padding:4px; font-size:0.8rem; width:140px;">
-          <button class="secondary" style="margin:4px 0 0; padding:4px 10px; font-size:0.75rem;" onclick="ADMIN.atualizarValidade('${c.email}', '${inputId}')">Salvar</button>
-          <button class="secondary" style="margin:4px 0 0; padding:4px 10px; font-size:0.75rem;" onclick="ADMIN.limparValidade('${c.email}', '${inputId}')">Sem prazo</button>
+        <td style="padding:8px;">${c.email}</td>
+        <td style="padding:8px;">${cursoLabel}</td>
+        <td style="padding:8px;">${c.tipo}</td>
+        <td style="padding:8px;">${c.ativo ? '🟢 ativo' : '🔴 inativo'}</td>
+        <td style="padding:8px;">
+          <input type="date" id="${inputId}" value="${validadeISO}" style="padding:4px; font-size:0.8rem; width:130px; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius:4px;">
+          <button class="btn btn-outline" style="margin:4px 0 0; padding:4px 10px; font-size:0.75rem;" onclick="ADMIN.atualizarValidade('${c.email}', '${inputId}')">Salvar</button>
+          <button class="btn btn-outline" style="margin:4px 0 0; padding:4px 10px; font-size:0.75rem;" onclick="ADMIN.limparValidade('${c.email}', '${inputId}')">Sem prazo</button>
         </td>
-        <td>
-          <button class="secondary" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.alternarAtivo('${c.email}', ${!c.ativo})">${c.ativo ? 'Revogar' : 'Reativar'}</button>
-          <button class="secondary" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.resetarSenha('${c.email}')">Nova senha</button>
+        <td style="padding:8px;">
+          <button class="btn btn-outline" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.alternarAtivo('${c.email}', ${!c.ativo})">${c.ativo ? 'Revogar' : 'Reativar'}</button>
+          <button class="btn btn-outline" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.resetarSenha('${c.email}')">Nova senha</button>
         </td>`;
       tbody.appendChild(tr);
     });
@@ -172,8 +169,8 @@ const ADMIN = {
     const { error } = await this.client.auth.admin.updateUserById(user.id, { password: novaSenha });
     if (error) { alert('Erro: ' + error.message); return; }
 
-    document.getElementById('generated-password-value').textContent = novaSenha;
-    document.getElementById('generated-password-box').style.display = 'block';
+    document.getElementById('admin-generated-password-value').textContent = novaSenha;
+    document.getElementById('admin-generated-password-box').classList.remove('hidden');
     alert('Nova senha gerada para ' + email + ':\n\n' + novaSenha);
   }
 };
@@ -181,8 +178,9 @@ const ADMIN = {
 // Recupera a chave desta aba (se a página foi recarregada dentro da mesma sessão)
 window.addEventListener('DOMContentLoaded', () => {
   const savedKey = sessionStorage.getItem('opfarda_admin_key');
-  if (savedKey) {
-    document.getElementById('service-key').value = savedKey;
+  const keyInput = document.getElementById('admin-service-key');
+  if (savedKey && keyInput) {
+    keyInput.value = savedKey;
     ADMIN.connect();
   }
 });

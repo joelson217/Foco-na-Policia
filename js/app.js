@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v17';
+const APP_VERSION = 'v18';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -278,6 +278,37 @@ const APP = {
     el.textContent = `Operação Farda ${APP_VERSION} · ${ALL_QUESTIONS.length} questões`;
   },
 
+  // Preenche os textos que dependem do curso/edital carregado (nome do
+  // curso no cabeçalho, banca, nº de questões, distribuição do simulado)
+  // — nunca ficam fixos em "PPRN", sempre vêm do EDITAL do curso ativo.
+  renderCursoBranding() {
+    if (typeof EDITAL === 'undefined') return;
+    const cursoLabel = document.getElementById('header-curso-label');
+    if (cursoLabel) cursoLabel.textContent = `${EDITAL.sigla || EDITAL.concurso} — ${EDITAL.banca}`;
+
+    const meses = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+    const d = EDITAL.dataProva;
+    const dataFormatada = d ? `${d.getDate()} ${meses[d.getMonth()]} ${d.getFullYear()}` : '';
+    const countdownLabel = document.getElementById('countdown-label');
+    if (countdownLabel) countdownLabel.textContent = `Contagem Regressiva${dataFormatada ? ' — ' + dataFormatada : ''}`;
+
+    const badgeBanca = document.getElementById('badge-banca');
+    if (badgeBanca) badgeBanca.textContent = `📍 Banca ${EDITAL.banca}`;
+    const badgeQuestoes = document.getElementById('badge-questoes');
+    if (badgeQuestoes) badgeQuestoes.textContent = `📝 ${EDITAL.totalQuestoes} questões`;
+    const badgeTempo = document.getElementById('badge-tempo');
+    if (badgeTempo) badgeTempo.textContent = `⏱️ ${Math.round(EDITAL.tempoProvaMinutos / 60)} horas`;
+
+    const simTitulo = document.getElementById('sim-titulo');
+    if (simTitulo) simTitulo.textContent = `📝 Simulado ${EDITAL.sigla || ''}`;
+    const simEditalTitulo = document.getElementById('sim-edital-titulo');
+    if (simEditalTitulo) simEditalTitulo.textContent = `⚖️ Distribuição do Edital (Banca ${EDITAL.banca})`;
+    const simTotalQ = document.getElementById('sim-total-questoes');
+    if (simTotalQ) simTotalQ.textContent = `${EDITAL.totalQuestoes} questões`;
+    const simTotalP = document.getElementById('sim-total-pontos');
+    if (simTotalP) simTotalP.textContent = `${EDITAL.pontuacaoMaxima} pontos`;
+  },
+
   startApp() {
     initQuestions();
     loadState();
@@ -292,6 +323,7 @@ const APP = {
     this.updateCountdown();
     GAMIFICATION.updateUI();
     this.renderVersionFooter();
+    this.renderCursoBranding();
     setInterval(() => this.updateCountdown(), 60000);
     this.showTab('dashboard');
     document.getElementById('filter-disciplina').addEventListener('change', () => QUIZ.updateFilteredCount());
@@ -309,7 +341,7 @@ const APP = {
     if (tab) tab.classList.add('active');
     const btn = document.querySelector(`.nav-btn[data-tab="${tabName}"]`);
     if (btn) btn.classList.add('active');
-    const titles = { dashboard: 'Dashboard', 'lei-seca': 'Lei Seca', questoes: 'Questões', simulado: 'Simulado', estatisticas: 'Estatísticas' };
+    const titles = { dashboard: 'Dashboard', 'lei-seca': 'Lei Seca', questoes: 'Questões', simulado: 'Simulado', estatisticas: 'Estatísticas', clientes: 'Clientes' };
     document.getElementById('tab-title').textContent = titles[tabName] || '';
     if (tabName === 'estatisticas') STATS.render();
     if (tabName === 'dashboard') DASHBOARD.render();
