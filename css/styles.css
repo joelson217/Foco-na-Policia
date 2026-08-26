@@ -162,8 +162,18 @@ a { color: var(--blue-light); text-decoration: none; }
 }
 
 /* -------- Tabs -------- */
-.tab-content { display: none; min-height: calc(100vh - var(--header-height) - var(--nav-height)); }
+.tab-content { display: none; min-height: calc(100vh - var(--header-height) - var(--nav-height)); position: relative; }
 .tab-content.active { display: block; }
+
+.curso-sem-conteudo-overlay {
+  position: absolute; inset: 0; z-index: 30;
+  background: var(--bg-primary);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 32px 20px; gap: 10px;
+}
+.curso-sem-conteudo-overlay .placeholder-icon { font-size: 3rem; }
+.curso-sem-conteudo-overlay h3 { margin: 0; }
+.curso-sem-conteudo-overlay p { color: var(--text-muted); max-width: 320px; }
 
 /* -------- Top Navigation -------- */
 #top-nav {

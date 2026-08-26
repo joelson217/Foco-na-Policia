@@ -20,19 +20,29 @@
 // ============================================================
 'use strict';
 
-// cursos com conteúdo pronto no app hoje, na ordem em que aparecem
-// pro seletor da conta admin
+// Todos os cursos planejados já aparecem no seletor (pra conta admin
+// poder cadastrar clientes e organizar tudo desde já), mas só os com
+// `pronto: true` mostram conteúdo real (questões, lei seca, simulado).
+// Os demais mostram uma tela de "conteúdo em preparação" — ver
+// CURSO_CONTEUDO_PRONTO e APP.atualizarDisponibilidadeConteudo().
 const CURSOS_DISPONIVEIS = [
-  { id: 'pprn', nome: 'Polícia Penal do RN (PPRN)' }
+  { id: 'pprn', nome: 'Polícia Penal do RN (PPRN)', pronto: true },
+  { id: 'pppe', nome: 'Polícia Penal de PE (PPPE)', pronto: false },
+  { id: 'pcpe_agente', nome: 'Polícia Civil de PE — Agente (PCPE)', pronto: false },
+  { id: 'pcpe_escrivao', nome: 'Polícia Civil de PE — Escrivão (PCPE)', pronto: false },
+  { id: 'pmpe', nome: 'Polícia Militar de PE (PMPE)', pronto: false }
 ];
 
 const SESSION_TOKEN_KEY = 'opfarda_session_token';
+const AUTH_CRED_STORAGE = 'opfarda_login_cred_id';
 
 let CURRENT_CURSO = null;
 let CURRENT_USER_EMAIL = null;
 let CURRENT_IS_ADMIN = false;
+let CURSO_CONTEUDO_PRONTO = true;
 let _saveProgressTimeout = null;
 let _realtimeChannel = null;
+let _pendingSession = null;
 
 const AUTH = {
   client: null,
@@ -40,21 +50,110 @@ const AUTH = {
   init() {
     this.client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+    // Nunca restaura a sessão em silêncio: mesmo com uma sessão válida
+    // guardada, sempre exige reconhecimento facial ou senha para entrar.
     this.client.auth.getSession().then(({ data }) => {
-      if (data.session) {
-        this.handleSession(data.session, /* isFreshLogin */ false);
-      } else {
-        this.showLoginScreen();
-      }
+      _pendingSession = data.session || null;
+      this.showLoginScreen(null, !!_pendingSession);
     });
   },
 
-  showLoginScreen(message) {
+  // hasStoredSession = true quando existe uma sessão válida guardada
+  // (ex.: reabriu o app) — nesse caso oferece o atalho de Face ID/Touch
+  // ID (se já cadastrado neste aparelho) em vez do formulário de senha,
+  // mas sempre exige uma dessas duas confirmações, nunca entra sozinho.
+  showLoginScreen(message, hasStoredSession) {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('curso-selector-screen').classList.add('hidden');
     document.getElementById('no-access-screen').classList.add('hidden');
     document.getElementById('login-status').textContent = message || '';
+
+    const credId = localStorage.getItem(AUTH_CRED_STORAGE);
+    const bioBtn = document.getElementById('login-biometria-btn');
+    const senhaBtn = document.getElementById('login-usar-senha-btn');
+    const form = document.getElementById('login-form');
+    const subtitle = document.getElementById('login-subtitle');
+
+    if (hasStoredSession && credId && window.PublicKeyCredential) {
+      if (bioBtn) bioBtn.style.display = 'block';
+      if (senhaBtn) senhaBtn.style.display = 'block';
+      if (form) form.style.display = 'none';
+      if (subtitle) subtitle.textContent = 'Toque para entrar com reconhecimento facial';
+    } else {
+      if (bioBtn) bioBtn.style.display = 'none';
+      if (senhaBtn) senhaBtn.style.display = 'none';
+      if (form) form.style.display = 'flex';
+      if (subtitle) subtitle.textContent = 'Entre com o e-mail e a senha da sua assinatura';
+    }
+
     document.getElementById('login-screen').classList.remove('hidden');
+  },
+
+  mostrarFormSenha() {
+    const bioBtn = document.getElementById('login-biometria-btn');
+    const senhaBtn = document.getElementById('login-usar-senha-btn');
+    if (bioBtn) bioBtn.style.display = 'none';
+    if (senhaBtn) senhaBtn.style.display = 'none';
+    document.getElementById('login-form').style.display = 'flex';
+    document.getElementById('login-subtitle').textContent = 'Entre com o e-mail e a senha da sua assinatura';
+  },
+
+  // Confirma a identidade por Face ID/Touch ID e, se validado, usa a
+  // sessão já restaurada (nunca pula direto sem essa confirmação).
+  async entrarComBiometria() {
+    const credIdB64 = localStorage.getItem(AUTH_CRED_STORAGE);
+    const statusEl = document.getElementById('login-status');
+    try {
+      const credId = Uint8Array.from(atob(credIdB64), c => c.charCodeAt(0));
+      await navigator.credentials.get({
+        publicKey: {
+          challenge: crypto.getRandomValues(new Uint8Array(32)),
+          allowCredentials: [{ id: credId, type: 'public-key' }],
+          userVerification: 'required',
+          timeout: 60000
+        }
+      });
+    } catch (e) {
+      console.warn('Biometria recusada/indisponível:', e);
+      statusEl.textContent = 'Não foi possível confirmar. Use e-mail e senha.';
+      this.mostrarFormSenha();
+      return;
+    }
+
+    if (!_pendingSession) {
+      statusEl.textContent = 'Sessão expirada. Faça login com e-mail e senha.';
+      this.mostrarFormSenha();
+      return;
+    }
+    statusEl.textContent = 'Entrando...';
+    await this.handleSession(_pendingSession, /* isFreshLogin */ false);
+  },
+
+  // Depois de um login manual bem-sucedido, oferece cadastrar Face
+  // ID/Touch ID neste aparelho pra próxima vez não precisar digitar
+  // senha (mas o reconhecimento continua sendo exigido a cada entrada).
+  async oferecerBiometriaLogin() {
+    if (!window.PublicKeyCredential || localStorage.getItem(AUTH_CRED_STORAGE)) return;
+    try {
+      const cred = await navigator.credentials.create({
+        publicKey: {
+          challenge: crypto.getRandomValues(new Uint8Array(32)),
+          rp: { name: 'Operação Farda' },
+          user: {
+            id: crypto.getRandomValues(new Uint8Array(16)),
+            name: CURRENT_USER_EMAIL || 'usuario-operacao-farda',
+            displayName: 'Operação Farda'
+          },
+          pubKeyCredParams: [{ type: 'public-key', alg: -7 }, { type: 'public-key', alg: -257 }],
+          authenticatorSelection: { authenticatorAttachment: 'platform', userVerification: 'required' },
+          timeout: 60000
+        }
+      });
+      const credIdB64 = btoa(String.fromCharCode(...new Uint8Array(cred.rawId)));
+      localStorage.setItem(AUTH_CRED_STORAGE, credIdB64);
+    } catch (e) {
+      console.warn('Biometria de login não configurada (seguindo sem ela):', e);
+    }
   },
 
   showNoAccessScreen(message) {
@@ -74,7 +173,7 @@ const AUTH = {
     CURSOS_DISPONIVEIS.forEach(c => {
       const btn = document.createElement('button');
       btn.className = 'btn btn-primary';
-      btn.textContent = c.nome;
+      btn.textContent = c.nome + (c.pronto ? '' : ' (conteúdo em preparação)');
       btn.onclick = () => this.entrarNoCurso(c.id);
       list.appendChild(btn);
     });
@@ -107,12 +206,14 @@ const AUTH = {
 
     document.getElementById('login-password').value = '';
     await this.handleSession(data.session, /* isFreshLogin */ true);
+    this.oferecerBiometriaLogin();
   },
 
   async logout() {
     if (_realtimeChannel) { this.client.removeChannel(_realtimeChannel); _realtimeChannel = null; }
     if (this.client) await this.client.auth.signOut();
     localStorage.removeItem(SESSION_TOKEN_KEY);
+    _pendingSession = null;
     CURRENT_CURSO = null;
     CURRENT_USER_EMAIL = null;
     CURRENT_IS_ADMIN = false;
@@ -207,6 +308,7 @@ const AUTH = {
 
   async entrarNoCurso(curso) {
     CURRENT_CURSO = curso;
+    CURSO_CONTEUDO_PRONTO = (CURSOS_DISPONIVEIS.find(c => c.id === curso) || {}).pronto !== false;
     document.getElementById('login-screen').classList.add('hidden');
     document.getElementById('curso-selector-screen').classList.add('hidden');
     document.getElementById('no-access-screen').classList.add('hidden');
@@ -239,6 +341,7 @@ const AUTH = {
     clearTimeout(_saveProgressTimeout);
     await CLOUD_SYNC.pushProgressNow(CURRENT_USER_EMAIL, CURRENT_CURSO);
     CURRENT_CURSO = novoCurso;
+    CURSO_CONTEUDO_PRONTO = (CURSOS_DISPONIVEIS.find(c => c.id === novoCurso) || {}).pronto !== false;
     STATE.stats = defaultStats();
     await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, novoCurso);
     APP.refreshAfterCursoSwitch();

@@ -40,7 +40,13 @@
   <div class="loading-content">
     <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
     <h1>Operação Farda</h1>
-    <p>Entre com o e-mail e a senha da sua assinatura</p>
+    <p id="login-subtitle">Entre com o e-mail e a senha da sua assinatura</p>
+    <button type="button" class="btn btn-primary" id="login-biometria-btn" style="width:100%; max-width:320px; margin-top:16px; display:none;" onclick="AUTH.entrarComBiometria()">
+      🔓 Entrar com Face ID / Touch ID
+    </button>
+    <button type="button" class="btn btn-outline" id="login-usar-senha-btn" style="width:100%; max-width:320px; margin-top:10px; display:none;" onclick="AUTH.mostrarFormSenha()">
+      Usar e-mail e senha
+    </button>
     <form id="login-form" style="width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 12px; margin-top: 16px;" onsubmit="AUTH.login(event)">
       <input type="email" id="login-email" required placeholder="seu@email.com" autocomplete="email"
         style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
@@ -258,6 +264,11 @@
 
     <!-- ===== TAB: LEI SECA ===== -->
     <section class="tab-content" id="tab-lei-seca">
+      <div class="curso-sem-conteudo-overlay hidden" id="overlay-sem-conteudo-lei-seca">
+        <div class="placeholder-icon">🚧</div>
+        <h3>Conteúdo em preparação</h3>
+        <p>A lei seca deste curso ainda está sendo cadastrada. Em breve estará disponível aqui.</p>
+      </div>
       <div class="lei-seca-container">
 
         <!-- Filter Bar -->
@@ -330,6 +341,11 @@
 
     <!-- ===== TAB: QUESTÕES ===== -->
     <section class="tab-content" id="tab-questoes">
+      <div class="curso-sem-conteudo-overlay hidden" id="overlay-sem-conteudo-questoes">
+        <div class="placeholder-icon">🚧</div>
+        <h3>Conteúdo em preparação</h3>
+        <p>As questões deste curso ainda estão sendo cadastradas. Em breve estarão disponíveis aqui.</p>
+      </div>
 
       <!-- Quiz Filter Screen -->
       <div id="quiz-filter-screen">
@@ -457,6 +473,11 @@
 
     <!-- ===== TAB: SIMULADO ===== -->
     <section class="tab-content" id="tab-simulado">
+      <div class="curso-sem-conteudo-overlay hidden" id="overlay-sem-conteudo-simulado">
+        <div class="placeholder-icon">🚧</div>
+        <h3>Conteúdo em preparação</h3>
+        <p>O simulado deste curso ainda está sendo montado. Em breve estará disponível aqui.</p>
+      </div>
 
       <!-- Simulado Setup Screen -->
       <div id="simulado-setup-screen">
@@ -951,6 +972,11 @@
 
   <!-- ===== TAB: FLASHCARDS VISUAIS ===== -->
   <section class="tab-content" id="tab-visuais" style="padding: 16px;">
+    <div class="curso-sem-conteudo-overlay hidden" id="overlay-sem-conteudo-visuais">
+      <div class="placeholder-icon">🚧</div>
+      <h3>Conteúdo em preparação</h3>
+      <p>Os flashcards visuais deste curso ainda estão sendo cadastrados. Em breve estarão disponíveis aqui.</p>
+    </div>
     <div style="display: flex; align-items: center; margin-bottom: 20px; gap: 12px;">
       <button class="btn btn-outline btn-small" onclick="APP.showTab('dashboard')">← Voltar</button>
       <h2>📸 FlashCards Visuais</h2>

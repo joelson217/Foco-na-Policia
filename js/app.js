@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v19';
+const APP_VERSION = 'v20';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -319,6 +319,18 @@ const APP = {
     if (simTotalP) simTotalP.textContent = `${EDITAL.pontuacaoMaxima} pontos`;
   },
 
+  // Mostra/esconde a tela de "conteúdo em preparação" nas abas que
+  // dependem de banco de questões/lei seca próprio do curso — hoje só o
+  // PPRN tem conteúdo real; os demais cursos já aparecem no seletor mas
+  // ainda não mostram questões/leis (ver CURSO_CONTEUDO_PRONTO em auth.js).
+  atualizarDisponibilidadeConteudo() {
+    const pronto = (typeof CURSO_CONTEUDO_PRONTO === 'undefined') ? true : CURSO_CONTEUDO_PRONTO;
+    ['lei-seca', 'questoes', 'simulado', 'visuais'].forEach(tab => {
+      const overlay = document.getElementById('overlay-sem-conteudo-' + tab);
+      if (overlay) overlay.classList.toggle('hidden', pronto);
+    });
+  },
+
   // Redesenha a tela depois de uma troca de curso (AUTH.trocarCurso) sem
   // reler o localStorage genérico (que não é separado por curso) — os
   // dados corretos já foram colocados em STATE.stats antes de chamar isso.
@@ -329,6 +341,7 @@ const APP = {
     this.updateCountdown();
     GAMIFICATION.updateUI();
     this.renderCursoBranding();
+    this.atualizarDisponibilidadeConteudo();
     STATS.render();
     QUIZ.updateFilteredCount();
     showToast('✅ Curso alterado — dados deste curso carregados.');
@@ -349,6 +362,7 @@ const APP = {
     GAMIFICATION.updateUI();
     this.renderVersionFooter();
     this.renderCursoBranding();
+    this.atualizarDisponibilidadeConteudo();
     setInterval(() => this.updateCountdown(), 60000);
     this.showTab('dashboard');
     document.getElementById('filter-disciplina').addEventListener('change', () => QUIZ.updateFilteredCount());
