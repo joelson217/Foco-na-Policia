@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v18';
+const APP_VERSION = 'v19';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -214,6 +214,16 @@ function qsa(sel) { return document.querySelectorAll(sel); }
 
 // =================== STORAGE =============================
 const STORAGE_KEY = 'pprn_study_state_v2';
+function defaultStats() {
+  return {
+    totalAnswered: 0, totalCorrect: 0, totalWrong: 0,
+    byDiscipline: {}, byTopic: {}, sessions: [], simulados: [],
+    streak: 0, lastStudyDate: null, dailyGoal: 30, todayCount: 0,
+    todayDate: new Date().toDateString(), xp: 0,
+    markedForReview: [], wrongQuestions: [], seenQuestions: {},
+    markedFlashcards: [], dailyHistory: {}
+  };
+}
 function saveState() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE.stats));
@@ -307,6 +317,21 @@ const APP = {
     if (simTotalQ) simTotalQ.textContent = `${EDITAL.totalQuestoes} questões`;
     const simTotalP = document.getElementById('sim-total-pontos');
     if (simTotalP) simTotalP.textContent = `${EDITAL.pontuacaoMaxima} pontos`;
+  },
+
+  // Redesenha a tela depois de uma troca de curso (AUTH.trocarCurso) sem
+  // reler o localStorage genérico (que não é separado por curso) — os
+  // dados corretos já foram colocados em STATE.stats antes de chamar isso.
+  refreshAfterCursoSwitch() {
+    document.getElementById('loading-screen').style.display = 'none';
+    document.getElementById('app').classList.remove('hidden');
+    DASHBOARD.render();
+    this.updateCountdown();
+    GAMIFICATION.updateUI();
+    this.renderCursoBranding();
+    STATS.render();
+    QUIZ.updateFilteredCount();
+    showToast('✅ Curso alterado — dados deste curso carregados.');
   },
 
   startApp() {
@@ -1943,13 +1968,7 @@ const STATS = {
 
   confirmReset() {
     APP.openConfirmModal('Resetar Estatísticas', 'Tem certeza? Todos os dados de progresso serão apagados permanentemente.', () => {
-      STATE.stats = {
-        totalAnswered: 0, totalCorrect: 0, totalWrong: 0,
-        byDiscipline: {}, byTopic: {}, sessions: [], simulados: [],
-        streak: 0, lastStudyDate: null, dailyGoal: 30, todayCount: 0,
-        todayDate: new Date().toDateString(), markedForReview: [], wrongQuestions: [], seenQuestions: {},
-        markedFlashcards: [], dailyHistory: {}
-      };
+      STATE.stats = defaultStats();
       localStorage.removeItem(STORAGE_KEY);
       saveState();
       this.render();

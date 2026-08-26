@@ -82,6 +82,8 @@
       <div class="logo-text">
         <span class="logo-title">Operação Farda</span>
         <span class="logo-sub" id="header-curso-label">Carregando curso...</span>
+        <select id="header-curso-switcher" class="hidden" onchange="AUTH.trocarCurso(this.value)"
+          style="margin-top:2px; font-size:0.75rem; background: var(--bg-primary); color: var(--text-primary); border: 1px solid var(--border); border-radius: 4px; padding: 2px 4px;"></select>
       </div>
     </div>
     <div class="header-center" id="tab-title">Dashboard</div>
@@ -747,11 +749,16 @@
       <div class="card">
         <h3>🔒 Painel de Clientes</h3>
         <p style="color: var(--text-muted); font-size: 0.85rem;">
-          Cole aqui a chave <strong>service_role</strong> do Supabase (Project Settings → API) para liberar o gerenciamento. Ela não fica salva no app nem no código — só em memória enquanto esta aba estiver aberta.
+          Cole aqui a chave <strong>service_role</strong> do Supabase (Project Settings → API) para liberar o gerenciamento.
         </p>
         <input type="password" id="admin-service-key" placeholder="cole a chave service_role"
           style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px; margin-top:8px;">
+        <label style="display:flex; align-items:center; gap:8px; margin-top:10px; font-size:0.85rem; color: var(--text-muted);">
+          <input type="checkbox" id="admin-lembrar-chave" style="width:auto;" checked>
+          Lembrar neste aparelho (protegido por Face ID/Touch ID, se disponível)
+        </label>
         <button class="btn btn-primary" style="margin-top:10px;" onclick="ADMIN.connect()">Conectar</button>
+        <button class="btn btn-outline" style="margin-top:10px;" onclick="ADMIN.esquecerChave()">Esquecer chave salva neste aparelho</button>
         <div id="admin-connect-status" style="font-size:0.85rem; margin-top:8px;"></div>
       </div>
 

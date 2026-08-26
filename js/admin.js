@@ -1,13 +1,15 @@
 // ============================================================
 // ADMIN.JS — Painel de clientes, integrado na aba "Clientes" do
 // próprio app (só aparece pra conta com is_admin=true). Usa a chave
-// service_role do Supabase (colada manualmente pelo dono, nunca salva
-// em disco/git) para criar contas de cliente com senha gerada
-// automaticamente e gerenciar a tabela `assinantes`.
+// service_role do Supabase para criar contas de cliente com senha
+// gerada automaticamente e gerenciar a tabela `assinantes`.
 //
 // A chave service_role ignora TODAS as políticas de RLS -- por isso
-// ela nunca pode ir para o código-fonte público (app.js), só é usada
-// aqui, digitada manualmente a cada sessão de uso desta aba.
+// ela NUNCA vai para o código-fonte do repositório. Se o dono marcar
+// "lembrar neste aparelho", ela fica só no localStorage DESTE
+// dispositivo (nunca sincroniza, nunca é commitada), e pode ser
+// travada atrás de Face ID/Touch ID (WebAuthn) quando o navegador
+// suportar autenticador da plataforma.
 // ============================================================
 'use strict';
 
@@ -18,6 +20,9 @@ const CURSOS_LABEL = {
   pcpe_escrivao: 'PCPE — Escrivão',
   pmpe: 'PMPE — Polícia Militar de PE'
 };
+
+const ADMIN_KEY_STORAGE = 'opfarda_admin_key_persist';
+const ADMIN_CRED_STORAGE = 'opfarda_admin_cred_id';
 
 function gerarSenhaAleatoria() {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
@@ -31,22 +36,101 @@ function gerarSenhaAleatoria() {
 const ADMIN = {
   client: null,
 
-  connect() {
-    const key = document.getElementById('admin-service-key').value.trim();
+  async connect(chaveFornecida) {
+    const key = chaveFornecida || document.getElementById('admin-service-key').value.trim();
     const statusEl = document.getElementById('admin-connect-status');
     if (!key) { statusEl.textContent = 'Cole a chave service_role.'; return; }
 
-    this.client = window.supabase.createClient(SUPABASE_URL, key, {
+    const tentativa = window.supabase.createClient(SUPABASE_URL, key, {
       auth: { autoRefreshToken: false, persistSession: false }
     });
 
-    // sessionStorage: some quando a aba/janela fecha, nunca vai pro git.
-    sessionStorage.setItem('opfarda_admin_key', key);
+    statusEl.textContent = 'Verificando chave...';
+    const { error } = await tentativa.from('assinantes').select('email').limit(1);
+    if (error) {
+      statusEl.textContent = '❌ Chave inválida ou sem permissão: ' + error.message;
+      statusEl.style.color = '#ef4444';
+      return;
+    }
 
+    this.client = tentativa;
     statusEl.textContent = '✅ Conectado.';
     statusEl.style.color = '#10b981';
     document.getElementById('admin-panel-content').classList.remove('hidden');
+
+    const lembrar = document.getElementById('admin-lembrar-chave');
+    if (lembrar && lembrar.checked) {
+      localStorage.setItem(ADMIN_KEY_STORAGE, key);
+      this.oferecerBiometria();
+    }
+
     this.carregarClientes();
+  },
+
+  // Oferece registrar Face ID/Touch ID (WebAuthn) pra travar o uso da
+  // chave salva neste aparelho. Se o navegador não suportar ou o
+  // usuário recusar, a chave continua funcionando normalmente, só sem
+  // essa camada extra.
+  async oferecerBiometria() {
+    if (!window.PublicKeyCredential || localStorage.getItem(ADMIN_CRED_STORAGE)) return;
+    try {
+      const cred = await navigator.credentials.create({
+        publicKey: {
+          challenge: crypto.getRandomValues(new Uint8Array(32)),
+          rp: { name: 'Operação Farda' },
+          user: {
+            id: crypto.getRandomValues(new Uint8Array(16)),
+            name: 'admin-operacao-farda',
+            displayName: 'Administrador'
+          },
+          pubKeyCredParams: [{ type: 'public-key', alg: -7 }, { type: 'public-key', alg: -257 }],
+          authenticatorSelection: { authenticatorAttachment: 'platform', userVerification: 'required' },
+          timeout: 60000
+        }
+      });
+      const credIdB64 = btoa(String.fromCharCode(...new Uint8Array(cred.rawId)));
+      localStorage.setItem(ADMIN_CRED_STORAGE, credIdB64);
+    } catch (e) {
+      console.warn('Biometria não configurada (seguindo sem ela):', e);
+    }
+  },
+
+  // Roda ao abrir a aba: se já tem chave salva neste aparelho, tenta
+  // liberar sozinho (pedindo Face ID/Touch ID antes, se cadastrado).
+  async tentarAutoConectar() {
+    const savedKey = localStorage.getItem(ADMIN_KEY_STORAGE);
+    if (!savedKey) return;
+
+    const credIdB64 = localStorage.getItem(ADMIN_CRED_STORAGE);
+    if (credIdB64 && window.PublicKeyCredential) {
+      try {
+        const credId = Uint8Array.from(atob(credIdB64), c => c.charCodeAt(0));
+        await navigator.credentials.get({
+          publicKey: {
+            challenge: crypto.getRandomValues(new Uint8Array(32)),
+            allowCredentials: [{ id: credId, type: 'public-key' }],
+            userVerification: 'required',
+            timeout: 60000
+          }
+        });
+      } catch (e) {
+        console.warn('Biometria recusada/indisponível:', e);
+        const statusEl = document.getElementById('admin-connect-status');
+        if (statusEl) statusEl.textContent = 'Não foi possível confirmar sua identidade. Cole a chave novamente.';
+        return;
+      }
+    }
+    this.connect(savedKey);
+  },
+
+  esquecerChave() {
+    localStorage.removeItem(ADMIN_KEY_STORAGE);
+    localStorage.removeItem(ADMIN_CRED_STORAGE);
+    const input = document.getElementById('admin-service-key');
+    if (input) input.value = '';
+    document.getElementById('admin-panel-content').classList.add('hidden');
+    document.getElementById('admin-connect-status').textContent = 'Chave esquecida neste aparelho.';
+    document.getElementById('admin-connect-status').style.color = '';
   },
 
   async criarCliente() {
@@ -175,12 +259,8 @@ const ADMIN = {
   }
 };
 
-// Recupera a chave desta aba (se a página foi recarregada dentro da mesma sessão)
+// Se já tem chave lembrada neste aparelho, tenta liberar sozinho
+// (com Face ID/Touch ID antes, se cadastrado) assim que a tela existir.
 window.addEventListener('DOMContentLoaded', () => {
-  const savedKey = sessionStorage.getItem('opfarda_admin_key');
-  const keyInput = document.getElementById('admin-service-key');
-  if (savedKey && keyInput) {
-    keyInput.value = savedKey;
-    ADMIN.connect();
-  }
+  if (document.getElementById('admin-service-key')) ADMIN.tentarAutoConectar();
 });

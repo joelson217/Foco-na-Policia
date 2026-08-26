@@ -215,8 +215,33 @@ const AUTH = {
     const navClientes = document.getElementById('nav-btn-clientes');
     if (navClientes) navClientes.classList.toggle('hidden', !CURRENT_IS_ADMIN);
 
+    // Conta admin: seletor de curso fixo no cabeçalho, pra trocar a
+    // qualquer momento sem precisar deslogar (dá visão dos dados de
+    // cada curso, como se fosse um cliente daquele curso).
+    const switcher = document.getElementById('header-curso-switcher');
+    const label = document.getElementById('header-curso-label');
+    if (CURRENT_IS_ADMIN && switcher) {
+      switcher.innerHTML = CURSOS_DISPONIVEIS.map(c => `<option value="${c.id}">${c.nome}</option>`).join('');
+      switcher.value = curso;
+      switcher.classList.remove('hidden');
+      if (label) label.classList.add('hidden');
+    }
+
     await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, curso);
     APP.init();
+  },
+
+  // Troca de curso em tempo real, sem deslogar (só disponível pra conta
+  // admin). Salva o progresso do curso atual antes de trocar, zera a
+  // tela para o novo curso e busca o progresso dele na nuvem.
+  async trocarCurso(novoCurso) {
+    if (!novoCurso || novoCurso === CURRENT_CURSO) return;
+    clearTimeout(_saveProgressTimeout);
+    await CLOUD_SYNC.pushProgressNow(CURRENT_USER_EMAIL, CURRENT_CURSO);
+    CURRENT_CURSO = novoCurso;
+    STATE.stats = defaultStats();
+    await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, novoCurso);
+    APP.refreshAfterCursoSwitch();
   }
 };
 
@@ -270,6 +295,21 @@ const CLOUD_SYNC = {
         console.error('Falha ao enviar progresso para a nuvem:', e);
       }
     }, 2000);
+  },
+
+  // Envio imediato (sem debounce) — usado ao trocar de curso, pra não
+  // perder as últimas respostas do curso que está sendo deixado.
+  async pushProgressNow(email, curso) {
+    if (!email || !curso || !AUTH.client) return;
+    try {
+      const customQuestions = JSON.parse(localStorage.getItem('pprn_custom_questions') || '[]');
+      await AUTH.client.from('progresso').upsert({
+        email, curso, stats: STATE.stats, custom_questions: customQuestions,
+        atualizado_em: new Date().toISOString()
+      });
+    } catch (e) {
+      console.error('Falha ao enviar progresso (flush):', e);
+    }
   }
 };
 
