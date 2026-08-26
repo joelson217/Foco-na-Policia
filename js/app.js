@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v15';
+const APP_VERSION = 'v16';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -78,6 +78,7 @@ const CUSTOM_QUESTIONS = {
     } catch(e) {
       console.error("Erro ao salvar questões personalizadas:", e);
     }
+    if (typeof CLOUD_SYNC !== 'undefined' && CURRENT_USER_EMAIL) CLOUD_SYNC.pushProgress();
   },
   add(q) {
     const list = this.getAll();
@@ -217,6 +218,7 @@ function saveState() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE.stats));
   } catch(e) { console.warn('Storage error:', e); }
+  if (typeof CLOUD_SYNC !== 'undefined' && CURRENT_USER_EMAIL) CLOUD_SYNC.pushProgress();
 }
 function loadState() {
   try {
@@ -2227,4 +2229,6 @@ const VISUAL_FLASHCARDS = {
 };
 
 // =================== BOOT ================================
-window.addEventListener('DOMContentLoaded', () => APP.init());
+// APP.init() agora é chamado por AUTH.handleSession() (js/auth.js), só
+// depois de confirmar login + assinatura ativa — não no carregamento
+// direto da página.

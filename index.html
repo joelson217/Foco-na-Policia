@@ -31,7 +31,32 @@
     <h1>PPRN</h1>
     <p>Polícia Penal do Rio Grande do Norte</p>
     <div class="loading-bar"><div class="loading-fill" id="loading-fill"></div></div>
-    <span id="loading-text">Carregando banco de questões...</span>
+    <span id="loading-text">Verificando acesso...</span>
+  </div>
+</div>
+
+<!-- Login Screen (Supabase magic link) -->
+<div id="login-screen" class="hidden">
+  <div class="loading-content">
+    <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
+    <h1>Operação Farda</h1>
+    <p>Entre com o e-mail cadastrado na sua assinatura</p>
+    <div style="width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
+      <input type="email" id="login-email" required placeholder="seu@email.com" autocomplete="email"
+        style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
+      <button class="btn btn-primary" id="login-submit-btn" onclick="AUTH.sendMagicLink()">Receber link de acesso</button>
+      <span id="login-status" style="font-size: 0.85rem; color: var(--text-muted); min-height: 1.2em;"></span>
+    </div>
+  </div>
+</div>
+
+<!-- No Access Screen (email autenticado, mas sem assinatura ativa) -->
+<div id="no-access-screen" class="hidden">
+  <div class="loading-content">
+    <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
+    <h1>Sem acesso ativo</h1>
+    <p id="no-access-message" style="max-width: 320px;">Não encontramos uma assinatura ativa para este e-mail. Se você já é assinante, confira se digitou o mesmo e-mail do cadastro.</p>
+    <button class="btn btn-outline" style="margin-top: 16px;" onclick="AUTH.logout()">Tentar com outro e-mail</button>
   </div>
 </div>
 
@@ -605,6 +630,7 @@
             <button class="btn-icon" onclick="STATS.exportBackup()" title="Baixar um arquivo de backup do seu progresso">💾 Backup</button>
             <button class="btn-icon" onclick="STATS.triggerImportBackup()" title="Restaurar progresso a partir de um backup">📂 Restaurar</button>
             <button class="btn-icon btn-danger-text" onclick="STATS.confirmReset()">🗑️ Reset</button>
+            <button class="btn-icon" onclick="AUTH.logout()" title="Sair da conta">🚪 Sair</button>
             <input type="file" id="backup-file-input" accept="application/json" class="hidden" onchange="STATS.importBackup(event)">
           </div>
           <div class="stats-overview-grid">
@@ -926,6 +952,11 @@
     <script src="data/questions_peso1_reforco.js"></script>
 <!-- App Scripts -->
 <script src="js/app.js"></script>
+
+<!-- Supabase: login e sincronização de progresso -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/auth.js"></script>
 
 <!-- PWA: Registro do Service Worker (atualizações automáticas) -->
 <script>

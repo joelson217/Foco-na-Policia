@@ -69,7 +69,7 @@ select, input { font-family: var(--font); }
 a { color: var(--blue-light); text-decoration: none; }
 
 /* -------- Loading Screen -------- */
-#loading-screen {
+#loading-screen, #login-screen, #no-access-screen {
   position: fixed; inset: 0; z-index: 9999;
   background: linear-gradient(135deg, #04080f 0%, #0a1628 50%, #04080f 100%);
   display: flex; align-items: center; justify-content: center;
