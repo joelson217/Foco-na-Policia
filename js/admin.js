@@ -7,9 +7,8 @@
 // A chave service_role ignora TODAS as políticas de RLS -- por isso
 // ela NUNCA vai para o código-fonte do repositório. Se o dono marcar
 // "lembrar neste aparelho", ela fica só no localStorage DESTE
-// dispositivo (nunca sincroniza, nunca é commitada), e pode ser
-// travada atrás de Face ID/Touch ID (WebAuthn) quando o navegador
-// suportar autenticador da plataforma.
+// dispositivo (nunca sincroniza, nunca é commitada) e conecta sozinha
+// da próxima vez, sem pedir de novo.
 // ============================================================
 'use strict';
 
@@ -22,7 +21,6 @@ const CURSOS_LABEL = {
 };
 
 const ADMIN_KEY_STORAGE = 'opfarda_admin_key_persist';
-const ADMIN_CRED_STORAGE = 'opfarda_admin_cred_id';
 
 function gerarSenhaAleatoria() {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
@@ -57,80 +55,41 @@ const ADMIN = {
     statusEl.textContent = '✅ Conectado.';
     statusEl.style.color = '#10b981';
     document.getElementById('admin-panel-content').classList.remove('hidden');
+    // Some o card de colar a chave — só volta a aparecer se "Esquecer
+    // chave" for usado. É pra nunca mais pedir isso de novo na tela.
+    document.getElementById('admin-connect-card').classList.add('hidden');
 
     const lembrar = document.getElementById('admin-lembrar-chave');
     if (lembrar && lembrar.checked) {
       localStorage.setItem(ADMIN_KEY_STORAGE, key);
-      this.oferecerBiometria();
     }
 
     this.carregarClientes();
   },
 
-  // Oferece registrar Face ID/Touch ID (WebAuthn) pra travar o uso da
-  // chave salva neste aparelho. Se o navegador não suportar ou o
-  // usuário recusar, a chave continua funcionando normalmente, só sem
-  // essa camada extra.
-  async oferecerBiometria() {
-    if (!window.PublicKeyCredential || localStorage.getItem(ADMIN_CRED_STORAGE)) return;
-    try {
-      const cred = await navigator.credentials.create({
-        publicKey: {
-          challenge: crypto.getRandomValues(new Uint8Array(32)),
-          rp: { name: 'Operação Farda' },
-          user: {
-            id: crypto.getRandomValues(new Uint8Array(16)),
-            name: 'admin-operacao-farda',
-            displayName: 'Administrador'
-          },
-          pubKeyCredParams: [{ type: 'public-key', alg: -7 }, { type: 'public-key', alg: -257 }],
-          authenticatorSelection: { authenticatorAttachment: 'platform', userVerification: 'required' },
-          timeout: 60000
-        }
-      });
-      const credIdB64 = btoa(String.fromCharCode(...new Uint8Array(cred.rawId)));
-      localStorage.setItem(ADMIN_CRED_STORAGE, credIdB64);
-    } catch (e) {
-      console.warn('Biometria não configurada (seguindo sem ela):', e);
-    }
-  },
-
-  // Roda ao abrir a aba: se já tem chave salva neste aparelho, tenta
-  // liberar sozinho (pedindo Face ID/Touch ID antes, se cadastrado).
+  // Roda ao abrir a aba: se já tem chave salva neste aparelho, conecta
+  // direto e sozinho, sem pedir nada de novo (a chave nunca sai deste
+  // aparelho — só fica no localStorage local).
   async tentarAutoConectar() {
     const savedKey = localStorage.getItem(ADMIN_KEY_STORAGE);
     if (!savedKey) return;
-
-    const credIdB64 = localStorage.getItem(ADMIN_CRED_STORAGE);
-    if (credIdB64 && window.PublicKeyCredential) {
-      try {
-        const credId = Uint8Array.from(atob(credIdB64), c => c.charCodeAt(0));
-        await navigator.credentials.get({
-          publicKey: {
-            challenge: crypto.getRandomValues(new Uint8Array(32)),
-            allowCredentials: [{ id: credId, type: 'public-key' }],
-            userVerification: 'required',
-            timeout: 60000
-          }
-        });
-      } catch (e) {
-        console.warn('Biometria recusada/indisponível:', e);
-        const statusEl = document.getElementById('admin-connect-status');
-        if (statusEl) statusEl.textContent = 'Não foi possível confirmar sua identidade. Cole a chave novamente.';
-        return;
-      }
-    }
     this.connect(savedKey);
   },
 
   esquecerChave() {
     localStorage.removeItem(ADMIN_KEY_STORAGE);
-    localStorage.removeItem(ADMIN_CRED_STORAGE);
     const input = document.getElementById('admin-service-key');
     if (input) input.value = '';
     document.getElementById('admin-panel-content').classList.add('hidden');
+    document.getElementById('admin-connect-card').classList.remove('hidden');
     document.getElementById('admin-connect-status').textContent = 'Chave esquecida neste aparelho.';
     document.getElementById('admin-connect-status').style.color = '';
+  },
+
+  // Mostra/esconde os campos de cadastro de cliente — fica escondido
+  // por padrão, só expande quando o admin toca em "Adicionar cliente".
+  alternarFormCliente() {
+    document.getElementById('admin-form-cliente').classList.toggle('hidden');
   },
 
   async criarCliente() {

@@ -789,59 +789,63 @@
 
     <!-- ===== TAB: CLIENTES (só aparece pra conta admin) ===== -->
     <section class="tab-content" id="tab-clientes">
-      <div class="card">
+      <div class="card" id="admin-connect-card">
         <h3>🔒 Painel de Clientes</h3>
         <p style="color: var(--text-muted); font-size: 0.85rem;">
-          Cole aqui a chave <strong>service_role</strong> do Supabase (Project Settings → API) para liberar o gerenciamento.
+          Cole aqui a chave <strong>service_role</strong> do Supabase (Project Settings → API) — só precisa fazer isso uma vez neste aparelho.
         </p>
         <input type="password" id="admin-service-key" placeholder="cole a chave service_role"
           style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px; margin-top:8px;">
         <label style="display:flex; align-items:center; gap:8px; margin-top:10px; font-size:0.85rem; color: var(--text-muted);">
           <input type="checkbox" id="admin-lembrar-chave" style="width:auto;" checked>
-          Lembrar neste aparelho (protegido por Face ID/Touch ID, se disponível)
+          Lembrar neste aparelho (não pede de novo)
         </label>
         <button class="btn btn-primary" style="margin-top:10px;" onclick="ADMIN.connect()">Conectar</button>
-        <button class="btn btn-outline" style="margin-top:10px;" onclick="ADMIN.esquecerChave()">Esquecer chave salva neste aparelho</button>
         <div id="admin-connect-status" style="font-size:0.85rem; margin-top:8px;"></div>
       </div>
 
       <div id="admin-panel-content" class="hidden">
+        <button class="btn btn-outline" style="margin-top:16px;" onclick="ADMIN.esquecerChave()">Esquecer chave salva neste aparelho</button>
+
         <div class="card" style="margin-top:16px;">
-          <h3>Adicionar cliente</h3>
-          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">E-mail do cliente</label>
-          <input type="email" id="cliente-email" placeholder="cliente@email.com"
-            style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+          <button type="button" class="btn btn-primary" style="width:100%;" onclick="ADMIN.alternarFormCliente()">➕ Adicionar cliente</button>
 
-          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Curso</label>
-          <select id="cliente-curso" style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
-            <option value="pprn">PPRN — Polícia Penal do RN</option>
-            <option value="pppe">PPPE — Polícia Penal de PE</option>
-            <option value="pcpe_agente">PCPE — Agente</option>
-            <option value="pcpe_escrivao">PCPE — Escrivão</option>
-            <option value="pmpe">PMPE — Polícia Militar de PE</option>
-          </select>
+          <div id="admin-form-cliente" class="hidden" style="margin-top:14px;">
+            <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">E-mail do cliente</label>
+            <input type="email" id="cliente-email" placeholder="cliente@email.com"
+              style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
 
-          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Tipo</label>
-          <select id="cliente-tipo" style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
-            <option value="pago">Pago</option>
-            <option value="trial">Trial (teste grátis)</option>
-          </select>
+            <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Curso</label>
+            <select id="cliente-curso" style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+              <option value="pprn">PPRN — Polícia Penal do RN</option>
+              <option value="pppe">PPPE — Polícia Penal de PE</option>
+              <option value="pcpe_agente">PCPE — Agente</option>
+              <option value="pcpe_escrivao">PCPE — Escrivão</option>
+              <option value="pmpe">PMPE — Polícia Militar de PE</option>
+            </select>
 
-          <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Validade (opcional)</label>
-          <input type="date" id="cliente-validade"
-            style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+            <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Tipo</label>
+            <select id="cliente-tipo" style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
+              <option value="pago">Pago</option>
+              <option value="trial">Trial (teste grátis)</option>
+            </select>
 
-          <label style="display:flex; align-items:center; gap:8px; margin-top:12px; font-size:0.85rem; color:var(--text-muted);">
-            <input type="checkbox" id="cliente-is-admin" style="width:auto;">
-            Esta é a minha conta (acesso a todos os cursos)
-          </label>
+            <label style="display:block; font-size:0.8rem; color:var(--text-muted); margin:10px 0 4px;">Validade (opcional)</label>
+            <input type="date" id="cliente-validade"
+              style="width:100%; background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 10px;">
 
-          <button class="btn btn-primary" style="margin-top:14px;" onclick="ADMIN.criarCliente()">Criar acesso</button>
-          <div id="admin-status-msg" style="font-size:0.85rem; margin-top:8px;"></div>
+            <label style="display:flex; align-items:center; gap:8px; margin-top:12px; font-size:0.85rem; color:var(--text-muted);">
+              <input type="checkbox" id="cliente-is-admin" style="width:auto;">
+              Esta é a minha conta (acesso a todos os cursos)
+            </label>
 
-          <div id="admin-generated-password-box" class="hidden" style="background: rgba(245,197,24,0.1); border: 1px solid var(--gold); border-radius: 8px; padding: 14px; margin-top: 14px;">
-            <strong>Senha gerada (só aparece uma vez — copie e envie pro cliente):</strong><br>
-            <code id="admin-generated-password-value" style="font-size:1.1rem;"></code>
+            <button class="btn btn-primary" style="margin-top:14px;" onclick="ADMIN.criarCliente()">Criar acesso</button>
+            <div id="admin-status-msg" style="font-size:0.85rem; margin-top:8px;"></div>
+
+            <div id="admin-generated-password-box" class="hidden" style="background: rgba(245,197,24,0.1); border: 1px solid var(--gold); border-radius: 8px; padding: 14px; margin-top: 14px;">
+              <strong>Senha gerada (só aparece uma vez — copie e envie pro cliente):</strong><br>
+              <code id="admin-generated-password-value" style="font-size:1.1rem;"></code>
+            </div>
           </div>
         </div>
 
