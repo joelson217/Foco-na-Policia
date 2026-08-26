@@ -118,16 +118,21 @@ const ADMIN = {
 
     const tbody = document.getElementById('clientes-tbody');
     tbody.innerHTML = '';
-    data.forEach(c => {
+    data.forEach((c, i) => {
       const tr = document.createElement('tr');
-      const validade = c.data_validade ? new Date(c.data_validade).toLocaleDateString('pt-BR') : '—';
+      const validadeISO = c.data_validade ? new Date(c.data_validade).toISOString().slice(0, 10) : '';
       const cursoLabel = (CURSOS_LABEL[c.curso] || c.curso) + (c.is_admin ? ' (admin)' : '');
+      const inputId = 'validade-input-' + i;
       tr.innerHTML = `
         <td>${c.email}</td>
         <td>${cursoLabel}</td>
         <td>${c.tipo}</td>
         <td><span class="badge ${c.ativo ? 'ativo' : 'inativo'}">${c.ativo ? 'ativo' : 'inativo'}</span></td>
-        <td>${validade}</td>
+        <td>
+          <input type="date" id="${inputId}" value="${validadeISO}" style="padding:4px; font-size:0.8rem; width:140px;">
+          <button class="secondary" style="margin:4px 0 0; padding:4px 10px; font-size:0.75rem;" onclick="ADMIN.atualizarValidade('${c.email}', '${inputId}')">Salvar</button>
+          <button class="secondary" style="margin:4px 0 0; padding:4px 10px; font-size:0.75rem;" onclick="ADMIN.limparValidade('${c.email}', '${inputId}')">Sem prazo</button>
+        </td>
         <td>
           <button class="secondary" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.alternarAtivo('${c.email}', ${!c.ativo})">${c.ativo ? 'Revogar' : 'Reativar'}</button>
           <button class="secondary" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.resetarSenha('${c.email}')">Nova senha</button>
@@ -138,6 +143,21 @@ const ADMIN = {
 
   async alternarAtivo(email, novoValor) {
     const { error } = await this.client.from('assinantes').update({ ativo: novoValor }).eq('email', email);
+    if (error) { alert('Erro: ' + error.message); return; }
+    this.carregarClientes();
+  },
+
+  async atualizarValidade(email, inputId) {
+    const valor = document.getElementById(inputId).value;
+    const novaData = valor ? new Date(valor + 'T23:59:59').toISOString() : null;
+    const { error } = await this.client.from('assinantes').update({ data_validade: novaData }).eq('email', email);
+    if (error) { alert('Erro: ' + error.message); return; }
+    this.carregarClientes();
+  },
+
+  async limparValidade(email, inputId) {
+    document.getElementById(inputId).value = '';
+    const { error } = await this.client.from('assinantes').update({ data_validade: null }).eq('email', email);
     if (error) { alert('Erro: ' + error.message); return; }
     this.carregarClientes();
   },
