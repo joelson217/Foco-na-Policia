@@ -267,7 +267,7 @@ const QUESTIONS_PREMIUM_16 = [
       "Vitalício para líderes de organizações criminosas."
     ],
     resposta: 2,
-    comentario: "O art. 52, I da LEP (redação do Pacote Anticrime) ampliou a duração máxima do RDD de 360 dias para ATÉ 2 ANOS, sem prejuízo de repetição da sanção judicial por nova falta grave de mesma natureza, até o limite de 1/3 da pena aplicada."
+    comentario: "O art. 52, I da LEP (redação do Pacote Anticrime, Lei 13.964/19) ampliou a duração máxima do RDD de 360 dias para ATÉ 2 ANOS, sem prejuízo de repetição da sanção por nova falta grave de mesma espécie. Atenção: a redação atual não traz mais o antigo limite de 1/6 da pena aplicada, que existia na versão anterior à Lei 13.964/19."
   },
   {
     id: "q_premium_121",

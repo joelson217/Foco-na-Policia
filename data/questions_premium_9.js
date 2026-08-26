@@ -62,13 +62,13 @@ const QUESTIONS_PREMIUM_9 = [
   {
     id: "q_premium_33",
     disciplina: "penal",
-    topico: "CP - Homicídio Qualificado e Feminicídio",
+    topico: "CP - Feminicídio (Art. 121-A)",
     ano: 2024,
     banca: "Cebraspe",
     instituicao: "PCDF",
     dificuldade: "media",
     mostCobrado: true,
-    texto: "O feminicídio (art. 121, §2º-A do CP) é uma qualificadora do homicídio doloso. Acerca desse crime, é CORRETO afirmar:",
+    texto: "O feminicídio (Art. 121-A do CP, desde a Lei 14.994/2024) é crime autônomo, e não mais qualificadora do homicídio doloso. Acerca desse crime, é CORRETO afirmar:",
     alternativas: [
       "O feminicídio só se configura quando a vítima e o agressor tiverem relação conjugal ou de companheirismo.",
       "O feminicídio é crime hediondo e ocorre quando o homicídio é praticado contra mulher por razões de condição de sexo feminino, como violência doméstica ou menosprezo à condição de mulher.",
@@ -77,7 +77,7 @@ const QUESTIONS_PREMIUM_9 = [
       "A presença de descendentes da vítima no momento do crime não altera a pena do feminicídio."
     ],
     resposta: 1,
-    comentario: "O feminicídio (art. 121, §2º-A) é homicídio QUALIFICADO (pena de 12-30 anos) praticado contra mulher por razões de CONDIÇÃO DE SEXO FEMININO: violência doméstica/familiar OU menosprezo/discriminação à condição de mulher. É crime HEDIONDO (Lei 8.072/90). A pena aumenta de 1/3 à metade se praticado na presença de filho ou descendente."
+    comentario: "O feminicídio (Art. 121-A, crime AUTÔNOMO desde a Lei 14.994/2024, pena de 20 a 40 anos — antes era qualificadora do art. 121, §2º-A, com pena de 12 a 30 anos) é praticado contra mulher por razões de CONDIÇÃO DE SEXO FEMININO: violência doméstica/familiar OU menosprezo/discriminação à condição de mulher. É crime HEDIONDO (Lei 8.072/90). A pena aumenta de 1/3 à metade se praticado na presença de filho, descendente ou ascendente, durante a gestação/puerpério, contra menor de 14, maior de 60 ou pessoa com deficiência."
   },
   {
     id: "q_premium_34",

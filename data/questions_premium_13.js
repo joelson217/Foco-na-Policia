@@ -100,13 +100,13 @@ const QUESTIONS_PREMIUM_13 = [
   {
     id: "q_premium_52",
     disciplina: "penal",
-    topico: "Homicídio Qualificado - Feminicídio",
+    topico: "Feminicídio (Art. 121-A)",
     ano: 2024,
     banca: "FGV",
     instituicao: "Polícia Civil",
     dificuldade: "media",
     mostCobrado: true,
-    texto: "A qualificadora do feminicídio (art. 121, §2º-A, CP) incide quando o homicídio é praticado contra a mulher por razões da condição de sexo feminino. Segundo a lei, consideram-se razões da condição de sexo feminino quando o crime envolve:",
+    texto: "O feminicídio (Art. 121-A do CP, crime autônomo desde a Lei 14.994/2024) incide quando o homicídio é praticado contra a mulher por razões da condição de sexo feminino. Segundo a lei, consideram-se razões da condição de sexo feminino quando o crime envolve:",
     alternativas: [
       "Qualquer situação de violência contra a mulher, independente do contexto.",
       "Violência doméstica e familiar, ou menosprezo ou discriminação à condição de mulher.",
@@ -115,7 +115,7 @@ const QUESTIONS_PREMIUM_13 = [
       "Crimes motivados por passionalidade, independentemente de gênero."
     ],
     resposta: 1,
-    comentario: "O §2º-A do art. 121 define que há razões de sexo feminino quando o crime envolve: I - violência doméstica e familiar; II - menosprezo ou discriminação à condição de mulher. Não se limita a crimes praticados pelo marido (pode ser pai, irmão, namorado, etc.)."
+    comentario: "O §1º do Art. 121-A define que há razões de sexo feminino quando o crime envolve: I - violência doméstica e familiar; II - menosprezo ou discriminação à condição de mulher. Não se limita a crimes praticados pelo marido (pode ser pai, irmão, namorado, etc.). ATENÇÃO: desde a Lei 14.994/2024, o feminicídio é crime AUTÔNOMO (Art. 121-A, pena de 20 a 40 anos), não mais qualificadora do art. 121, §2º."
   },
   {
     id: "q_premium_53",

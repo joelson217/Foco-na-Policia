@@ -920,8 +920,8 @@ const QUESTIONS_LEGISLACAO = [
       }
     ],
     "gabarito": "B",
-    "artigo": "Súmula 512 do STJ / Tema 745 do STF",
-    "justificativa": "O STF e o STJ consolidaram o entendimento de que o tráfico privilegiado NÃO tem natureza hedionda, o que foi posteriormente incluído no próprio Pacote Anticrime (Art. 112 da LEP)."
+    "artigo": "STF, HC 118.533/MS (2016) c/c Art. 112 da LEP",
+    "justificativa": "O STF, no HC 118.533/MS (Plenário, 2016), consolidou o entendimento de que o tráfico privilegiado (Art. 33, §4º) NÃO tem natureza hedionda, entendimento posteriormente refletido nos próprios percentuais de progressão do Art. 112 da LEP (Pacote Anticrime), que trata o tráfico privilegiado como crime comum, não hediondo."
   },
   {
     "id": "leg_31",
@@ -1444,24 +1444,24 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "A pena dos crimes hediondos pode ser cumprida em regime integralmente fechado."
+      "texto": "A pena dos crimes hediondos deve ser cumprida em regime integralmente fechado, sem possibilidade de progressão."
     },
     {
       "letra": "B",
-      "texto": "Os crimes hediondos são insuscetíveis de fiança, graça e anistia, admitindo-se, contudo, a liberdade provisória."
+      "texto": "Os crimes hediondos são inafiançáveis e insuscetíveis de anistia, graça e indulto, mas admitem liberdade provisória (sem fiança) e progressão de regime, com percentuais diferenciados conforme o Pacote Anticrime."
     },
     {
       "letra": "C",
-      "texto": "Os crimes hediondos são inafiançáveis e insuscetíveis de graça, anistia e indulto."
+      "texto": "Os crimes hediondos são insuscetíveis apenas de indulto, sendo permitidas anistia e graça em casos excepcionais."
     },
     {
       "letra": "D",
-      "texto": "Os crimes hediondos admitem progressão de regime, exigindo-se o cumprimento de 2/5 da pena para primários."
+      "texto": "Os crimes hediondos exigem o cumprimento de 2/5 da pena para progressão, qualquer que seja a condição do condenado."
     }
   ],
   "gabarito": "B",
-  "artigo": "Art. 2º da Lei 8.072/90 c/c STF HC 82.959",
-  "justificativa": "A Lei 8.072/90 é inafiançável e insuscetível de graça e anistia (art. 2º, I). O STF (HC 82.959) declarou inconstitucional o regime integralmente fechado. A progressão de regime é possível (40/60% conforme Pacote Anticrime). Indulto: há discussão, mas majoritariamente é possível."
+  "artigo": "Art. 2º da Lei 8.072/90 (redação da Lei 11.464/07) c/c STF HC 111.840/2012 e Art. 112 da LEP",
+  "justificativa": "Os crimes hediondos são inafiançáveis (art. 2º, II) e insuscetíveis de anistia, graça e indulto (art. 2º, I) — os três juntos, não apenas um. A antiga vedação à liberdade provisória foi removida do texto legal pela Lei 11.464/07; hoje ela é admitida (sem fiança). O regime 'integralmente fechado' da redação original de 1990 foi declarado inconstitucional pelo STF (HC 111.840/2012): hoje é 'inicialmente fechado', com progressão possível segundo os percentuais do Art. 112 da LEP (40% para primário, 60% para reincidente em crime hediondo, entre outros patamares do Pacote Anticrime)."
 },
 {
   "id": "leg_49",

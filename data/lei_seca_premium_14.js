@@ -15,7 +15,7 @@ const LEI_SECA_PREMIUM_14 = {
             {
               id: 'art_1_hed_homicidio',
               numero: 'Homicídio Hediondo (Art. 1º, I)',
-              texto: 'O homicídio simples é hediondo apenas quando praticado em atividade típica de grupo de extermínio, ainda que por um só agente. O homicídio qualificado é SEMPRE hediondo (incluindo feminicídio, homicídio contra policiais, etc.).',
+              texto: 'O homicídio simples é hediondo apenas quando praticado em atividade típica de grupo de extermínio, ainda que por um só agente. O homicídio qualificado é SEMPRE hediondo (ex.: homicídio contra policiais no exercício da função). ATENÇÃO: desde a Lei 14.994/2024, o FEMINICÍDIO deixou de ser qualificadora do homicídio e virou crime autônomo (Art. 121-A do CP, pena de 20 a 40 anos) — mas continua hediondo.',
               destaques: ['simples em grupo de extermínio', 'qualificado é SEMPRE hediondo']
             },
             {

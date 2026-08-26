@@ -98,7 +98,7 @@ const MAPA_MENTAL_LEP_PENAL = {
               '├─ PRINCIPAIS FALTAS GRAVES: fuga, posse de instrumento para ofender integridade física, posse de celular, incitar subversão da ordem, participar de organização criminosa, praticar fato previsto como crime doloso\n' +
               '├─ SANÇÕES (Art. 53): advertência verbal, repreensão, suspensão/restrição de direitos, isolamento (máx. 30 dias), inclusão no RDD\n' +
               '├─ RDD — PRAZO: até 2 anos, renovável por nova falta grave de mesma espécie\n' +
-              '├─ RDD — CONDIÇÕES: cela individual, visitas semanais de 2 pessoas (sem contato físico), banho de sol de 2h/dia, sem trabalho/lazer/atividades educacionais coletivas\n' +
+              '├─ RDD — CONDIÇÕES: cela individual, visitas QUINZENAIS (a cada 15 dias, NÃO semanal) de 2 pessoas (sem contato físico), banho de sol de 2h/dia em grupos de até 4 presos\n' +
               '├─ RDD — QUEM PODE SER INCLUÍDO: preso provisório ou condenado, nacional ou estrangeiro, que apresente alto risco ou fundada suspeita de envolvimento com organização criminosa\n' +
               '└─ EFEITO DA FALTA GRAVE: interrompe prazo para progressão (não zera, reinicia a contagem) e pode gerar regressão + perda de até 1/3 dos dias remidos',
               cobrado: 'hot', anos: ['2024', '2023', '2022'] }

@@ -55,7 +55,7 @@ const QUESTIONS_PREMIUM_15 = [
       "Admite fiança em qualquer hipótese."
     ],
     resposta: 1,
-    comentario: "O tráfico privilegiado NÃO tem natureza de crime hediondo ou equiparado. Esse entendimento foi consolidado pelo STF (Súmula Vinculante 56 e cancelamento da súmula 512 do STJ) e posteriormente positivado na Lei de Execução Penal pela Lei nº 13.964/19 (Pacote Anticrime)."
+    comentario: "O tráfico privilegiado NÃO tem natureza de crime hediondo ou equiparado. Esse entendimento foi consolidado pelo STF no HC 118.533/MS (2016) e posteriormente refletido na Lei de Execução Penal pela Lei nº 13.964/19 (Pacote Anticrime), que trata o tráfico privilegiado com percentuais de progressão de regime comuns, não os agravados da Lei de Hediondos."
   },
   {
     id: "q_premium_90",

@@ -1049,7 +1049,7 @@ const QUESTIONS_LEP = [
       },
       {
         "letra": "B",
-        "texto": "No RDD, o preso tem direito a visitas de 2 pessoas por semana, com duração máxima de 2 horas, com contato físico."
+        "texto": "No RDD, o preso tem direito a visitas de 2 pessoas por semana, com duração máxima de 2 horas, sem contato físico."
       },
       {
         "letra": "C",
@@ -1062,7 +1062,7 @@ const QUESTIONS_LEP = [
     ],
     "gabarito": "C",
     "artigo": "Art. 52, §1º da LEP",
-    "justificativa": "O RDD aplica-se tanto ao condenado quanto ao PRESO PROVISÓRIO (art. 52, §1º). A decisão é do JUIZ competente. As visitas são 2 pessoas/semana SEM contato físico. A duração máxima é de 2 anos, sem prejuízo de nova sanção."
+    "justificativa": "O RDD aplica-se tanto ao condenado quanto ao PRESO PROVISÓRIO (art. 52, §1º). A decisão é do JUIZ competente. As visitas são QUINZENAIS (a cada 15 dias, não semanais) de 2 pessoas, SEM contato físico. A duração máxima é de 2 anos, sem prejuízo de nova sanção por falta grave de mesma espécie."
   },
   {
     "id": "lep_35",
@@ -1618,7 +1618,7 @@ const QUESTIONS_LEP = [
       },
       {
         "letra": "B",
-        "texto": "O preso em RDD terá direito a 2 horas de visita semanal de 2 pessoas, sem contar com as crianças, com duração de 2 horas."
+        "texto": "O preso em RDD terá direito a visita SEMANAL de 2 pessoas, sem contar as crianças, com duração de 2 horas."
       },
       {
         "letra": "C",
@@ -1631,7 +1631,7 @@ const QUESTIONS_LEP = [
     ],
     "gabarito": "B",
     "artigo": "Art. 52, §1º da LEP",
-    "justificativa": "O Art. 52, §1º da LEP prevê que o preso em RDD terá direito à visita de 2 pessoas por semana, sem contar com as crianças, com duração de 2 horas. Além disso, o banho de sol é por no mínimo 2 horas diárias (inciso IV). A alternativa B inverte os dados sobre visita e banho de sol.",
+    "justificativa": "O Art. 52, §1º, III da LEP (redação da Lei 13.964/2019, Pacote Anticrime) prevê visitas QUINZENAIS (a cada 15 dias), e não semanais, de 2 pessoas por vez, com duração de 2 horas. A troca de 'quinzenal' por 'semanal' é a pegadinha clássica dessa questão — as demais alternativas (A, C e D) estão corretas conforme o Art. 52.",
     "id": "lep_53"
   },
   {
@@ -1872,7 +1872,7 @@ const QUESTIONS_LEP = [
   ],
   "gabarito": "C",
   "artigo": "Art. 124 da LEP",
-  "justificativa": "A saída temporária é autorizada pelo Juiz da Execução (art. 124 LEP), ouvidos o MP e a administração penitenciária. A Súmula 520 do STJ admite que o juiz delegue ao dirigente do estabelecimento, mas a competência originária é do juiz."
+  "justificativa": "A saída temporária é autorizada pelo Juiz da Execução (art. 124 LEP), ouvidos o MP e a administração penitenciária. A Súmula 520 do STJ permite que essa autorização judicial seja concedida de forma COLETIVA (para vários presos de uma vez, dispensando decisão individualizada a cada saída), mas a competência para autorizar continua sendo do JUIZ — não há delegação ao diretor do estabelecimento."
 },
 {
   "id": "lep_62",

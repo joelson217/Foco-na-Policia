@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v10';
+const APP_VERSION = 'v11';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -818,8 +818,10 @@ const QUIZ = {
     fbHeader.textContent = isCorrect ? '✅ Correto!' : `❌ Errado! Gabarito: ${q.gabarito}`;
     fbArtigo.textContent = q.artigo || '';
     fbText.textContent = q.justificativa || q.comentario || '';
+    document.getElementById('btn-confirm').classList.add('hidden');
     document.getElementById('btn-confirm').style.display = 'none';
     const nextBtn = document.getElementById('btn-next');
+    nextBtn.classList.remove('hidden');
     nextBtn.style.display = '';
     const isLast = STATE.quiz.currentIndex >= STATE.quiz.questions.length - 1;
     nextBtn.textContent = isLast ? 'Ver Resultado' : 'Próxima →';

@@ -1086,7 +1086,7 @@ const QUESTIONS_PENAL = [
   "peso": 2,
   "mostCobrado": true,
   "dificuldade": "medio",
-  "enunciado": "O homicídio qualificado por feminicídio (Art. 121, §2º, VI do CP) ocorre quando o crime é praticado:",
+  "enunciado": "O feminicídio, crime autônomo previsto no Art. 121-A do CP desde a Lei 14.994/2024 (antes tratado como qualificadora do homicídio), ocorre quando o crime é praticado:",
   "alternativas": [
     {
       "letra": "A",
@@ -1106,8 +1106,8 @@ const QUESTIONS_PENAL = [
     }
   ],
   "gabarito": "B",
-  "artigo": "Art. 121, §2º, VI e §2º-A do CP",
-  "justificativa": "O feminicídio ocorre quando o homicídio é praticado CONTRA A MULHER POR RAZÕES DA CONDIÇÃO DE SEXO FEMININO. O §2º-A define essas razões como: violência doméstica e familiar ou menosprezo ou discriminação à condição de mulher."
+  "artigo": "Art. 121-A do CP (Lei 14.994/2024)",
+  "justificativa": "O feminicídio ocorre quando o homicídio é praticado CONTRA A MULHER POR RAZÕES DA CONDIÇÃO DE SEXO FEMININO. O §1º do Art. 121-A define essas razões como: violência doméstica e familiar ou menosprezo ou discriminação à condição de mulher. ATENÇÃO: desde a Lei 14.994/2024 o feminicídio é CRIME AUTÔNOMO (não mais qualificadora do art. 121, §2º, VI, que foi revogado), com pena própria de reclusão de 20 a 40 anos, permanecendo hediondo."
 },
 {
   "id": "penal_37",
