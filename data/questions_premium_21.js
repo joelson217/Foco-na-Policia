@@ -171,16 +171,16 @@ const QUESTIONS_PREMIUM_21 = [
     "peso": 2,
     "mostCobrado": true,
     "dificuldade": "dificil",
-    "enunciado": "Nos termos da Lei 12.846/2013 (Lei Anticorrupção), o agente que oferece vantagem indevida a terceiro para obter benefício deve responder:",
+    "enunciado": "Nos termos da Lei 12.846/2013 (Lei Anticorrupção), a pessoa jurídica que oferece vantagem indevida a agente público para obter benefício deve responder, com base nesta lei:",
     "alternativas": [
-      { "letra": "A", "texto": "Apenas civilmente" },
+      { "letra": "A", "texto": "Administrativa e civilmente" },
       { "letra": "B", "texto": "Civil e penalmente" },
       { "letra": "C", "texto": "Apenas penalmente" },
       { "letra": "D", "texto": "Nenhuma das anteriores" }
     ],
-    "gabarito": "B",
-    "artigo": "Art. 12, Lei 12.846/13",
-    "justificativa": "A lei prevê responsabilidade civil e administrativa; a conduta pode ser tipificada também como crime de corrupção."
+    "gabarito": "A",
+    "artigo": "Art. 1º, Lei 12.846/13",
+    "justificativa": "A Lei 12.846/13 dispõe sobre a responsabilização objetiva ADMINISTRATIVA e CIVIL da pessoa jurídica (art. 1º), não havendo responsabilidade PENAL da empresa nessa lei. Eventual conduta da pessoa física que oferece vantagem indevida pode configurar crime de corrupção ativa (art. 333 do CP), mas essa é uma responsabilidade penal individual, distinta do regime da Lei Anticorrupção."
   },
   {
     "id": "custom_32",
@@ -225,16 +225,16 @@ const QUESTIONS_PREMIUM_21 = [
     "peso": 2,
     "mostCobrado": true,
     "dificuldade": "dificil",
-    "enunciado": "Quanto tempo de pena pode ser remido com trabalho externo, sendo a jornada de 6 a 8 horas diárias?",
+    "enunciado": "Qual a proporção de remição de pena pelo trabalho (jornada não inferior a 6 nem superior a 8 horas diárias) para o condenado em regime fechado ou semiaberto?",
     "alternativas": [
-      { "letra": "A", "texto": "1/6 da pena" },
-      { "letra": "B", "texto": "1/4 da pena" },
-      { "letra": "C", "texto": "1/2 da pena" },
-      { "letra": "D", "texto": "2/3 da pena" }
+      { "letra": "A", "texto": "1 dia de pena a cada 3 dias de trabalho" },
+      { "letra": "B", "texto": "1 dia de pena a cada 2 dias de trabalho" },
+      { "letra": "C", "texto": "1 dia de pena a cada 5 dias de trabalho" },
+      { "letra": "D", "texto": "1 dia de pena a cada 7 dias de trabalho" }
     ],
-    "gabarito": "B",
-    "artigo": "Art. 126, §1º, LEP",
-    "justificativa": "Trabalho externo reduz a pena em 1/4, desde que a jornada seja de 6 a 8 horas."
+    "gabarito": "A",
+    "artigo": "Art. 126, §1º, I, LEP",
+    "justificativa": "Conforme o art. 126, §1º, I, da LEP, o condenado que cumpre pena em regime fechado ou semiaberto remirá, pelo trabalho, 1 (um) dia de pena a cada 3 (três) dias trabalhados, sendo a jornada não inferior a 6 nem superior a 8 horas diárias. A remição não é uma fração fixa do total da pena (como 1/4 ou 1/2), e sim uma proporção dia a dia entre trabalho e pena cumprida."
   },
   {
     "id": "custom_36",
@@ -297,16 +297,16 @@ const QUESTIONS_PREMIUM_21 = [
     "peso": 2,
     "mostCobrado": true,
     "dificuldade": "medio",
-    "enunciado": "Para a progressão de regime de fechado para semi‑aberto, o condenado deve ter cumprido ao menos:",
+    "enunciado": "Para a progressão de regime de fechado para semiaberto, no caso de condenado PRIMÁRIO por crime cometido SEM violência ou grave ameaça à pessoa (regra geral do Pacote Anticrime), deve ter cumprido ao menos:",
     "alternativas": [
-      { "letra": "A", "texto": "30 % da pena" },
+      { "letra": "A", "texto": "16 % da pena" },
       { "letra": "B", "texto": "40 % da pena" },
       { "letra": "C", "texto": "50 % da pena" },
       { "letra": "D", "texto": "60 % da pena" }
     ],
-    "gabarito": "B",
-    "artigo": "Art. 112, §3º, LEP",
-    "justificativa": "A lei exige cumprimento de, no mínimo, 40 % da pena para progressão."
+    "gabarito": "A",
+    "artigo": "Art. 112, I, LEP",
+    "justificativa": "Conforme o art. 112, I, da LEP (redação da Lei 13.964/2019 - Pacote Anticrime), o condenado primário por crime cometido sem violência ou grave ameaça progride de regime com o cumprimento de 16% da pena. Os percentuais mais altos (20%, 25%, 30%, 40%, 50%, 60%, 70%) aplicam-se a hipóteses de reincidência, violência/grave ameaça ou crimes hediondos/equiparados."
   },
   {
     "id": "custom_42",
@@ -427,7 +427,7 @@ const QUESTIONS_PREMIUM_21 = [
     "alternativas": [
       { "letra": "A", "texto": "Convenção de Viena" },
       { "letra": "B", "texto": "Pacto de San José da Costa Rica" },
-      { "letra": "C", "texto": "Convenção contra a Tortura (OPCAT)" },
+      { "letra": "C", "texto": "Convenção contra a Tortura (CAT)" },
       { "letra": "D", "texto": "Convenção de Berna" }
     ],
     "gabarito": "C",
@@ -441,15 +441,15 @@ const QUESTIONS_PREMIUM_21 = [
     "peso": 3,
     "mostCobrado": true,
     "dificuldade": "dificil",
-    "enunciado": "A pena mínima para tráfico internacional de drogas, segundo a Lei 11.343/2006, é:",
+    "enunciado": "A pena mínima para o crime de tráfico de drogas (art. 33, caput, da Lei 11.343/2006) é:",
     "alternativas": [
-      { "letra": "A", "texto": "7 anos" },
+      { "letra": "A", "texto": "5 anos" },
       { "letra": "B", "texto": "8 anos" },
       { "letra": "C", "texto": "10 anos" },
       { "letra": "D", "texto": "12 anos" }
     ],
-    "gabarito": "C",
-    "artigo": "Art. 33, §2º, Lei 11.343/06",
-    "justificativa": "O tráfico internacional traz pena mínima de 10 a 20 anos."
+    "gabarito": "A",
+    "artigo": "Art. 33, caput, Lei 11.343/06",
+    "justificativa": "O tráfico de drogas (art. 33, caput) tem pena de reclusão de 5 a 15 anos e multa. A transnacionalidade (\"tráfico internacional\") NÃO é uma pena-base distinta: trata-se de causa de AUMENTO de pena de 1/6 a 2/3 (art. 40, I), aplicada sobre a pena-base de 5 a 15 anos. O art. 33, §2º, por sua vez, tipifica crime diverso (induzimento, instigação ou auxílio ao uso indevido de droga), com pena de detenção de 1 a 3 anos."
   }
 ];

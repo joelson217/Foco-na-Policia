@@ -13,7 +13,7 @@ const LEI_SECA_PREMIUM_19 = {
     },
     {
       id: 'lei_seca_19_02',
-      nome: 'Lei 12.960/2014 – Crimes Cibernéticos',
+      nome: 'Lei 12.737/2012 – Crimes Cibernéticos (Lei Carolina Dieckmann)',
       icon: '💻',
       peso: 1,
       artigos: [

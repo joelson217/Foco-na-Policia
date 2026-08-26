@@ -65,7 +65,7 @@ const MAPA_MENTAL_LEP_PENAL = {
               '├─ 25%: primário, crime com violência/grave ameaça\n' +
               '├─ 30%: reincidente, crime com violência/grave ameaça\n' +
               '├─ 40%: primário, crime hediondo/equiparado\n' +
-              '├─ 50%: comandante de organização criminosa OU crime hediondo com resultado morte (vedado livramento condicional)\n' +
+              '├─ 50%: crime hediondo/equiparado com resultado morte (primário, vedado livramento condicional) OU condenado por integrar organização criminosa armada ou milícia (não precisa ser líder/comandante — basta integrar)\n' +
               '├─ 60%: reincidente em crime hediondo/equiparado\n' +
               '├─ 70%: reincidente em crime hediondo/equiparado com resultado morte\n' +
               '├─ REQUISITO OBJETIVO + SUBJETIVO: cumprir o percentual da pena + bom comportamento carcerário (atestado pelo diretor)\n' +
@@ -153,7 +153,7 @@ const MAPA_MENTAL_LEP_PENAL = {
               '🎯 CENTRO: Prisão Preventiva\n' +
               '├─ FUNDAMENTOS (Art. 312): garantia da ordem pública, garantia da ordem econômica, conveniência da instrução criminal, assegurar aplicação da lei penal\n' +
               '├─ REQUISITOS: prova da existência do crime (fumus commissi delicti) + indício suficiente de autoria\n' +
-              '├─ QUEM DECRETA: SOMENTE o juiz, mediante representação da autoridade policial, MP, querelante, assistente, ou de ofício durante o processo (NUNCA de ofício na fase de investigação, desde o Pacote Anticrime)\n' +
+              '├─ QUEM DECRETA: SOMENTE o juiz, e SEMPRE mediante requerimento do MP, do querelante ou do assistente, ou representação da autoridade policial — desde o Pacote Anticrime (Art. 311 CPP), o juiz NUNCA pode decretar preventiva de ofício, NEM na investigação NEM durante o processo (pegadinha clássica: a vedação vale para as DUAS fases)\n' +
               '├─ CABIMENTO: crimes dolosos com pena máxima > 4 anos, reincidência em doloso, violência doméstica (para garantir medidas protetivas), dúvida sobre identidade\n' +
               '├─ SUBSIDIARIEDADE (Art. 282, §6º): só cabe se outras medidas cautelares (Art. 319) forem insuficientes\n' +
               '├─ REVISÃO OBRIGATÓRIA: a cada 90 dias o juiz deve reavaliar a necessidade de manutenção (Art. 316, § único)\n' +

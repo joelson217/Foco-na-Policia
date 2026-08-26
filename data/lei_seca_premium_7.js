@@ -50,8 +50,8 @@ const LEI_SECA_PREMIUM_7 = {
             },
             {
               numero: 'Art. 10 (Condução Coercitiva Ilegal)',
-              texto: 'Implementar medida privativa de liberdade sem as formalidades legais ou com abuso de poder:\nPena: detenção de 1 a 4 anos, e multa.',
-              destaques: ['sem formalidades legais', 'abuso de poder', 'detenção de 1 a 4 anos']
+              texto: 'Decretar condução coercitiva de testemunha ou investigado manifestamente descabida ou sem prévia intimação de comparecimento ao juízo:\nPena: detenção de 1 a 4 anos, e multa.',
+              destaques: ['condução coercitiva sem prévia intimação', 'manifestamente descabida', 'detenção de 1 a 4 anos']
             },
             {
               numero: 'Art. 22 (Violação de Domicílio)',

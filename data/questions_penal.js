@@ -491,11 +491,11 @@ const QUESTIONS_PENAL = [
       },
       {
         "letra": "E",
-        "texto": "Feminicídio."
+        "texto": "Mediante paga ou promessa de recompensa (motivo torpe)."
       }
     ],
     "correta": "B",
-    "comentario": "A alternativa B traz uma hipótese de Homicídio PRIVILEGIADO (causa de diminuição de pena, Art. 121, § 1º) e não de Homicídio Qualificado."
+    "comentario": "A alternativa B traz uma hipótese de Homicídio PRIVILEGIADO (causa de diminuição de pena, Art. 121, § 1º) e não de Homicídio Qualificado. Observação: o feminicídio deixou de ser qualificadora do Art. 121, § 2º (revogado o inciso VI) desde a Lei 14.994/2024, passando a ser crime autônomo do Art. 121-A do CP — por isso não consta mais entre as alternativas desta questão."
   },
   {
     "id": "penal_17",
@@ -681,7 +681,7 @@ const QUESTIONS_PENAL = [
         "texto": "Concussão."
       },
       {
-        "text": "D",
+        "letra": "D",
         "texto": "Prevaricação."
       }
     ],
@@ -1274,7 +1274,7 @@ const QUESTIONS_PENAL = [
     },
     {
       "letra": "B",
-      "texto": "Após a Lei 14.532/23, foi equiparada a crime hediondo, com pena de 2 a 5 anos."
+      "texto": "Após a Lei 14.532/23, foi equiparada a crime de racismo, tornando-se inafiançável e imprescritível, com pena de 2 a 5 anos."
     },
     {
       "letra": "C",
@@ -1287,7 +1287,7 @@ const QUESTIONS_PENAL = [
   ],
   "gabarito": "B",
   "artigo": "Art. 140, §3º do CP (Lei 14.532/23)",
-  "justificativa": "A Lei 14.532/2023 equiparou a injúria racial a crime de racismo e a crime HEDIONDO. A pena é de reclusão de 2 a 5 anos, com possibilidade de aumento. É de ação penal pública incondicionada após a alteração."
+  "justificativa": "A Lei 14.532/2023 equiparou a injúria racial ao crime de RACISMO (Lei 7.716/89), tornando-a INAFIANÇÁVEL E IMPRESCRITÍVEL (art. 5º, XLII, CF) — categoria distinta de \"crime hediondo\" (Lei 8.072/90), na qual o racismo não está listado. A pena é de reclusão de 2 a 5 anos, com possibilidade de aumento. É de ação penal pública incondicionada após a alteração."
 },
 {
   "id": "penal_43",

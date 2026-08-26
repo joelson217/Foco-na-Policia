@@ -50,7 +50,7 @@ const LEI_SECA_PREMIUM_16 = {
             },
             {
               id: 'art_15_abuso_constrangimento',
-              numero: 'Constranger Preso a Se Expor (Art. 15)',
+              numero: 'Constranger Preso a Se Expor (Art. 13)',
               texto: 'Constranger a vítima ou testemunha, com ameaça de violência ou grave sofrimento, a abrir mão de direitos, ou constranger o preso/detento a: I - exibir-se ou ter seu corpo exibido à curiosidade pública; II - submeter-se a situação vexatória ou a constrangimento não autorizado por lei.',
               destaques: ['exibir preso à curiosidade pública', 'situação vexatória', 'detenção de 1 a 4 anos']
             }

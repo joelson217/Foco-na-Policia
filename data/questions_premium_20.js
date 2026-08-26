@@ -7,7 +7,7 @@ const QUESTIONS_PREMIUM_20 = [
     peso: 1,
     mostCobrado: true,
     dificuldade: "media",
-    enunciado: "Qual o prazo para a prescrição da pretensão punitiva?",
+    enunciado: "Qual é o menor prazo prescricional da pretensão punitiva previsto na tabela do Código Penal (aplicável quando a pena máxima cominada não exceder 1 ano)?",
     alternativas: [
       { letra: "A", texto: "2 anos" },
       { letra: "B", texto: "3 anos" },
@@ -15,8 +15,8 @@ const QUESTIONS_PREMIUM_20 = [
       { letra: "D", texto: "5 anos" }
     ],
     gabarito: "B",
-    artigo: "Art. 107, Código Penal",
-    justificativa: "O prazo prescricional da pretensão punitiva é de 3 anos, conforme o art. 107 do CP."
+    artigo: "Art. 109, VI, Código Penal",
+    justificativa: "A tabela de prescrição da pretensão punitiva está no art. 109 do CP (e não no art. 107, que trata das causas de extinção da punibilidade em geral). O menor prazo previsto é de 3 anos, aplicável quando o máximo da pena cominada não exceder 1 ano (art. 109, VI)."
   },
   {
     id: "premium20_002",
@@ -27,14 +27,14 @@ const QUESTIONS_PREMIUM_20 = [
     dificuldade: "facil",
     enunciado: "Qual é a pena mínima para o crime de furto simples?",
     alternativas: [
-      { letra: "A", texto: "Detenção de 1 a 3 anos" },
+      { letra: "A", texto: "Reclusão de 1 a 4 anos e multa" },
       { letra: "B", texto: "Reclusão de 2 a 4 anos" },
       { letra: "C", texto: "Multa" },
       { letra: "D", texto: "Nenhuma" }
     ],
     gabarito: "A",
     artigo: "Art. 155, Código Penal",
-    justificativa: "Furto simples tem pena de detenção de 1 a 3 anos, conforme art. 155 do CP."
+    justificativa: "Furto simples tem pena de RECLUSÃO (e não detenção) de 1 a 4 anos, e multa, conforme o art. 155, caput, do CP."
   },
   {
     id: "premium20_003",
@@ -61,16 +61,16 @@ const QUESTIONS_PREMIUM_20 = [
     peso: 1,
     mostCobrado: true,
     dificuldade: "media",
-    enunciado: "Qual o fundamento constitucional para a tutela de dados pessoais?",
+    enunciado: "Qual o fundamento constitucional específico para a tutela (proteção) dos dados pessoais?",
     alternativas: [
       { letra: "A", texto: "Art. 5º, inciso X" },
       { letra: "B", texto: "Art. 5º, inciso XII" },
       { letra: "C", texto: "Art. 5º, inciso XIII" },
-      { letra: "D", texto: "Art. 5º, inciso XIV" }
+      { letra: "D", texto: "Art. 5º, inciso LXXIX" }
     ],
-    gabarito: "C",
-    artigo: "Art. 5º, inc. XIII da CF",
-    justificativa: "O inciso XIII garante a livre manifestação do pensamento, incluindo dados pessoais."
+    gabarito: "D",
+    artigo: "Art. 5º, inc. LXXIX da CF",
+    justificativa: "A Emenda Constitucional nº 115/2022 incluiu o inciso LXXIX ao art. 5º da CF, assegurando expressamente, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais. O inciso XIII trata da liberdade de exercício de trabalho, ofício ou profissão (não tem relação com dados pessoais); o inciso X trata de intimidade/vida privada e o XII trata da inviolabilidade do sigilo de dados e comunicações — ambos relacionados ao tema, mas o fundamento específico e mais direto é o LXXIX."
   },
   {
     id: "premium20_005",
@@ -84,20 +84,20 @@ const QUESTIONS_PREMIUM_20 = [
       { letra: "A", texto: "7" },
       { letra: "B", texto: "9" },
       { letra: "C", texto: "11" },
-      { letra: "D", texto: "13" }
+      { letra: "D", texto: "15" }
     ],
-    gabarito: "B",
-    artigo: "Art. 103, CF",
-    justificativa: "O CNJ possui 11 membros, porém a composição efetiva inclui 9 conselheiros."
+    gabarito: "D",
+    artigo: "Art. 103-B, CF",
+    justificativa: "O CNJ é composto por 15 membros, com mandato de 2 anos, admitida uma recondução, conforme o art. 103-B da CF/88 (incluído pela EC 45/2004)."
   },
   {
     id: "premium20_006",
     disciplina: "administrativo",
-    topico: "Lei 8.666",
+    topico: "Lei 14.133/2021",
     peso: 2,
     mostCobrado: true,
     dificuldade: "media",
-    enunciado: "Em qual hipótese a licitação pode ser dispensada segundo a Lei 8.666/93?",
+    enunciado: "Em qual hipótese a licitação pode ser dispensada segundo a Lei 14.133/2021 (Nova Lei de Licitações)?",
     alternativas: [
       { letra: "A", texto: "Valor estimado acima de 10% do orçamento" },
       { letra: "B", texto: "Aquisição de bens de uso pessoal" },
@@ -105,8 +105,8 @@ const QUESTIONS_PREMIUM_20 = [
       { letra: "D", texto: "Quando houver apenas um fornecedor no mercado" }
     ],
     gabarito: "C",
-    artigo: "Art. 24, I da Lei 8.666",
-    justificativa: "A lei permite dispensa em casos de emergência ou calamidade pública."
+    artigo: "Art. 75, VIII da Lei 14.133/2021",
+    justificativa: "A Lei 14.133/2021 (que revogou integralmente a Lei 8.666/93) permite a dispensa de licitação em casos de emergência ou calamidade pública, quando caracterizada urgência de atendimento de situação que possa ocasionar prejuízo ou comprometer a segurança de pessoas, obras, serviços ou bens (art. 75, VIII)."
   },
   {
     id: "premium20_007",
@@ -115,16 +115,16 @@ const QUESTIONS_PREMIUM_20 = [
     peso: 1,
     mostCobrado: false,
     dificuldade: "facil",
-    enunciado: "Qual a modalidade de licitação que admite julgamento por menor preço?",
+    enunciado: "Qual a modalidade de licitação, prevista na Lei 14.133/2021, destinada à aquisição de bens e serviços comuns e que utiliza o critério de julgamento por menor preço ou maior desconto?",
     alternativas: [
       { letra: "A", texto: "Concorrência" },
-      { letra: "B", texto: "Tomada de preços" },
+      { letra: "B", texto: "Diálogo Competitivo" },
       { letra: "C", texto: "Pregão" },
       { letra: "D", texto: "Concurso" }
     ],
     gabarito: "C",
-    artigo: "Art. 45, Lei 8.666",
-    justificativa: "O pregão permite julgamento por menor preço."
+    artigo: "Art. 6º, XLI e Art. 29, Lei 14.133/2021",
+    justificativa: "O Pregão é a modalidade destinada à aquisição de bens e serviços comuns, sendo o critério de julgamento sempre o de menor preço ou maior desconto (art. 6º, XLI, Lei 14.133/2021). Nota: a Lei 14.133/2021 revogou a Lei 8.666/93 e extinguiu as antigas modalidades 'tomada de preços' e 'convite', criando o 'diálogo competitivo'."
   },
   {
     id: "premium20_008",
@@ -169,16 +169,16 @@ const QUESTIONS_PREMIUM_20 = [
     peso: 2,
     mostCobrado: true,
     dificuldade: "dificil",
-    enunciado: "Qual o prazo legal para o oferecimento de denúncia após o recebimento do inquérito?",
+    enunciado: "Qual o prazo legal para o oferecimento de denúncia quando o réu estiver solto ou afiançado?",
     alternativas: [
       { letra: "A", texto: "15 dias" },
       { letra: "B", texto: "30 dias" },
       { letra: "C", texto: "60 dias" },
       { letra: "D", texto: "90 dias" }
     ],
-    gabarito: "C",
+    gabarito: "A",
     artigo: "Art. 46, Código de Processo Penal",
-    justificativa: "O Ministério Público tem até 30 dias, mas pode prorrogar para 60."
+    justificativa: "Conforme o art. 46 do CPP, o prazo para oferecimento da denúncia é de 5 dias, contados do recebimento dos autos, se o réu estiver preso, e de 15 dias se estiver solto ou afiançado. Não há previsão legal de prazo de 30 ou 60 dias no CPP para essa hipótese."
   },
   {
     id: "premium20_011",
@@ -280,13 +280,13 @@ const QUESTIONS_PREMIUM_20 = [
     enunciado: "Qual o crime previsto no art. 332 do CP?",
     alternativas: [
       { letra: "A", texto: "Corrupção passiva" },
-      { letra: "B", texto: "Abuso de autoridade" },
+      { letra: "B", texto: "Tráfico de influência" },
       { letra: "C", texto: "Coação" },
       { letra: "D", texto: "Concussão" }
     ],
     gabarito: "B",
     artigo: "Art. 332, CP",
-    justificativa: "O art. 332 tipifica abuso de autoridade."
+    justificativa: "O art. 332 do CP tipifica o crime de Tráfico de Influência (solicitar, exigir, cobrar ou obter vantagem a pretexto de influir em ato de funcionário público no exercício da função). O abuso de autoridade não está previsto no Código Penal, mas sim na Lei nº 13.869/2019."
   },
   {
     id: "premium20_017",

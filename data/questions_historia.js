@@ -256,7 +256,7 @@ const QUESTIONS_HISTORIA = [
     "peso": 1,
     "mostCobrado": true,
     "dificuldade": "facil",
-    "enunciado": "Em relação à matriz energética potiguar, o Rio Grande do Norte desponta como líder nacional e pioneiro na geração de energia:",
+    "enunciado": "Em relação à matriz energética potiguar, o Rio Grande do Norte desponta como um dos maiores produtores nacionais e pioneiro na geração de energia:",
     "alternativas": [
       {
         "letra": "A",
@@ -277,7 +277,7 @@ const QUESTIONS_HISTORIA = [
     ],
     "gabarito": "C",
     "artigo": "Energias renováveis no RN",
-    "justificativa": "O Rio Grande do Norte lidera o ranking nacional de capacidade instalada e produção de energia eólica no Brasil."
+    "justificativa": "O Rio Grande do Norte foi pioneiro na energia eólica no Brasil e é um dos dois maiores produtores do país, ocupando atualmente a 2ª posição em capacidade instalada e geração, atrás da Bahia (dados ANEEL/2024-2026)."
   },
   {
     "id": "hist_10",
@@ -315,7 +315,7 @@ const QUESTIONS_HISTORIA = [
     "peso": 1,
     "mostCobrado": false,
     "dificuldade": "medio",
-    "enunciado": "O Rio Grande do Norte é o maior produtor brasileiro de energia eólica. Sobre os aspectos econômicos do estado, assinale a alternativa CORRETA:",
+    "enunciado": "O Rio Grande do Norte foi pioneiro e é um dos maiores produtores brasileiros de energia eólica. Sobre os aspectos econômicos do estado, assinale a alternativa CORRETA:",
     "alternativas": [
       {
         "letra": "A",
@@ -336,7 +336,7 @@ const QUESTIONS_HISTORIA = [
     ],
     "gabarito": "B",
     "artigo": "Aspectos Geoeconômicos do Rio Grande do Norte",
-    "justificativa": "O RN se destaca na economia nacional por: maior produtor de petróleo em terra (onshore) do Brasil; maior produtor de camarão em cativeiro; maior produtor de sal marinho; e pioneiro e líder na geração de energia eólica. O turismo é uma atividade econômica importante, com destaque para Natal, Pipa e outros balneários.",
+    "justificativa": "O RN se destaca na economia nacional por: maior produtor de petróleo em terra (onshore) do Brasil; maior produtor de camarão em cativeiro; maior produtor de sal marinho; e pioneiro na geração de energia eólica, sendo hoje um dos dois maiores produtores nacionais dessa fonte, ao lado da Bahia. O turismo é uma atividade econômica importante, com destaque para Natal, Pipa e outros balneários.",
     "id": "hist_11"
   },
   {

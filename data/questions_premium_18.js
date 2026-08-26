@@ -4,7 +4,7 @@ const QUESTIONS_PREMIUM_18 = [
     id: 'p18_q1',
     disciplina: 'administrativo',
     topico: 'Licitações',
-    enunciado: 'Qual princípio da Lei 8.666/1993 garante a escolha da proposta mais vantajosa para a administração?',
+    enunciado: 'Qual princípio da Lei 14.133/2021 (Nova Lei de Licitações) garante a escolha da proposta mais vantajosa para a administração?',
     alternativas: [
       { letra: 'A', texto: 'Legalidade' },
       { letra: 'B', texto: 'Economicidade' },
@@ -12,8 +12,8 @@ const QUESTIONS_PREMIUM_18 = [
       { letra: 'D', texto: 'Impessoalidade' }
     ],
     gabarito: 'B',
-    artigo: 'Art. 3º',
-    justificativa: 'O princípio da economicidade busca a proposta mais vantajosa.'
+    artigo: 'Art. 5º, Lei 14.133/2021',
+    justificativa: 'O princípio da economicidade (previsto no art. 5º da Lei 14.133/2021, que revogou integralmente a Lei 8.666/93) busca a proposta mais vantajosa para a Administração.'
   },
   {
     id: 'p18_q2',

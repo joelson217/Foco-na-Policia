@@ -11,14 +11,14 @@ const QUESTIONS_EXTRA_3 = [
     "dificuldade": "facil",
     "enunciado": "Qual a pena prevista para homicídio simples conforme o Código Penal brasileiro?",
     "alternativas": [
-      { "letra": "A", "texto": "2 a 4 anos de reclusão e multa" },
-      { "letra": "B", "texto": "4 a 6 anos de reclusão e multa" },
-      { "letra": "C", "texto": "6 a 8 anos de reclusão e multa" },
+      { "letra": "A", "texto": "2 a 4 anos de reclusão" },
+      { "letra": "B", "texto": "4 a 6 anos de reclusão" },
+      { "letra": "C", "texto": "6 a 20 anos de reclusão" },
       { "letra": "D", "texto": "8 a 12 anos de reclusão e multa" }
     ],
-    "gabarito": "A",
+    "gabarito": "C",
     "artigo": "Art. 121, caput",
-    "justificativa": "O homicídio simples tem pena de reclusão de 2 a 4 anos, além de multa, conforme art. 121, caput, do Código Penal."
+    "justificativa": "O homicídio simples tem pena de reclusão de 6 (seis) a 20 (vinte) anos, conforme art. 121, caput, do Código Penal (não há cominação de pena de multa nessa modalidade)."
   },
   {
     "id": "extra_2",

@@ -26,14 +26,14 @@ const QUESTIONS_PREMIUM_2 = [
     instituicao: "Policial Penal",
     texto: "Nos termos da Lei de Crimes Hediondos, é considerado crime hediondo:",
     alternativas: [
-      "O furto qualificado pelo emprego de explosivo.",
+      "O furto qualificado pelo concurso de duas ou mais pessoas.",
       "A lesão corporal dolosa de natureza grave contra policial civil no exercício da função.",
       "O roubo circunstanciado pelo emprego de arma branca.",
       "A extorsão mediante sequestro e na forma qualificada.",
       "O homicídio simples, em qualquer circunstância."
     ],
     resposta: 3,
-    comentario: "A extorsão mediante sequestro e na forma qualificada é crime hediondo (Art. 1º, IV). O furto com explosivo deixou de ser hediondo (agora o que é hediondo é o ROUBO com explosivo, após a Lei 14.836/2024). A lesão contra policial deve ser GRAVÍSSIMA ou seguida de morte. O roubo com arma BRANCA não é hediondo, apenas com arma de FOGO. O homicídio simples só é hediondo se praticado em atividade típica de grupo de extermínio."
+    comentario: "A extorsão mediante sequestro e na forma qualificada é crime hediondo (Art. 1º, IV). O furto qualificado pelo concurso de pessoas NÃO é hediondo — é hediondo apenas o furto qualificado pelo EMPREGO DE EXPLOSIVO ou artefato análogo que cause perigo comum (Art. 1º, IX, incluído pela Lei 13.964/2019). A lesão contra policial deve ser GRAVÍSSIMA ou seguida de morte. O roubo com arma BRANCA não é hediondo, apenas o roubo circunstanciado pelo emprego de arma de FOGO (ou qualificado por lesão grave/morte). O homicídio simples só é hediondo se praticado em atividade típica de grupo de extermínio."
   },
   {
     id: "q_premium_6",

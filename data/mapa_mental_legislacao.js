@@ -26,7 +26,7 @@ const MAPA_MENTAL_LEGISLACAO = {
           artigos: [
             { id: 'mm_hed', artigo: 'Mapa Mental', titulo: 'Estrutura da Lei', frente: 'Monte o mapa mental da Lei de Crimes Hediondos', verso:
               '🎯 CENTRO: Lei 8.072/90\n' +
-              '├─ ROL TAXATIVO: homicídio qualificado (sempre), homicídio simples em grupo de extermínio, lesão gravíssima/morte contra agente de segurança, latrocínio, extorsão qualificada por morte, extorsão mediante sequestro, estupro e estupro de vulnerável, epidemia com morte, falsificação de remédios, favorecimento da prostituição de vulnerável, genocídio\n' +
+              '├─ ROL TAXATIVO: homicídio qualificado (sempre), feminicídio (Art. 121-A, crime autônomo desde a Lei 14.994/2024), homicídio simples em grupo de extermínio, lesão gravíssima/morte contra agente de segurança, latrocínio, extorsão qualificada por morte, extorsão mediante sequestro, estupro e estupro de vulnerável, epidemia com morte, falsificação de remédios, favorecimento da prostituição de vulnerável, genocídio, mutilação genital, furto qualificado pelo emprego de explosivo (Art. 155, §4º-A CP), posse/porte de arma de fogo de uso restrito ou proibido (Lei 13.497/2017)\n' +
               '├─ REGIME INICIAL: fechado (não é mais obrigatório integralmente após a Lei 13.964/19, mas é regra para a maioria)\n' +
               '├─ PROGRESSÃO DE REGIME: 40% se primário / 60% se reincidente (Art. 112, LEP — combinar sempre com LEP!)\n' +
               '├─ LIVRAMENTO CONDICIONAL: exige 2/3 da pena, VEDADO a reincidente específico\n' +
@@ -75,6 +75,7 @@ const MAPA_MENTAL_LEGISLACAO = {
               '├─ 5 FORMAS DE VIOLÊNCIA (Art. 7º): física, psicológica, sexual, patrimonial, moral\n' +
               '├─ MEDIDAS PROTETIVAS DE URGÊNCIA (Art. 22-24): afastamento do lar, proibição de aproximação/contato, suspensão de posse de arma — juiz decide em 48h\n' +
               '├─ PRAZO PARA MEDIDAS: autoridade policial remete expediente em 48h ao juiz; juiz decide em até 48h\n' +
+              '├─ ATUALIZAÇÃO (Lei 13.827/2019, Art. 12-C): em caráter excepcional e provisório, quando houver risco atual/iminente, o afastamento do agressor do lar pode ser decretado pelo DELEGADO (onde não houver comarca) ou por POLICIAL (na ausência de delegado), com comunicação ao juiz em 24h — não é mais atribuição exclusiva do juiz\n' +
               '├─ NÃO cabe: aplicação de penas de cesta básica ou outras de prestação pecuniária, nem substituição de pena por multa isolada (Art. 17)\n' +
               '├─ NÃO se aplica Lei 9.099/95 (Juizados Especiais) aos crimes da Lei Maria da Penha (Art. 41)\n' +
               '└─ PEGADINHA CLÁSSICA: retratação da vítima só é aceita em audiência especial perante o juiz, antes do recebimento da denúncia, ouvido o MP (Art. 16)',
@@ -90,7 +91,7 @@ const MAPA_MENTAL_LEGISLACAO = {
               '├─ ART. 14: porte ilegal de arma de fogo de uso permitido (fora de casa) — reclusão 2 a 4 anos\n' +
               '├─ ART. 16: posse OU porte de arma de uso restrito/proibido — reclusão 3 a 6 anos (pena maior!)\n' +
               '├─ ART. 16, §único: causas de aumento — arma com numeração raspada, adquirida de forma criminosa, arma de uso restrito adaptada\n' +
-              '├─ TODOS os crimes desta lei são INAFIANÇÁVEIS (mas não são equiparados a hediondos)\n' +
+              '├─ ATENÇÃO: NEM TODOS os crimes desta lei têm o mesmo tratamento — apenas os Arts. 16, 17 e 18 (uso restrito, comércio ilegal e tráfico internacional de arma) são insuscetíveis de liberdade provisória (Art. 21); os Arts. 12 e 14 (posse/porte de uso permitido) NÃO têm essa restrição. E o Art. 16 (posse/porte de arma de uso restrito ou proibido) É EQUIPARADO A HEDIONDO desde a Lei 13.497/2017 — pegadinha clássica\n' +
               '└─ PEGADINHA CLÁSSICA: posse (dentro de casa/trabalho) x porte (fora) mudam completamente o artigo e a pena — cai muito em prova',
               cobrado: 'hot', anos: ['2023', '2022'] }
           ]
@@ -128,7 +129,7 @@ const MAPA_MENTAL_LEGISLACAO = {
           artigos: [
             { id: 'mm_terror', artigo: 'Mapa Mental', titulo: 'Estrutura da Lei', frente: 'Monte o mapa mental da Lei Antiterrorismo', verso:
               '🎯 CENTRO: Lei 13.260/16\n' +
-              '├─ CONCEITO (Art. 2º): atos por xenofobia/discriminação/preconceito de raça, cor, etnia, religião, com finalidade de provocar terror, expondo a perigo pessoa/patrimônio/paz pública\n' +
+              '├─ CONCEITO (Art. 2º): atos por xenofobia/discriminação/preconceito de raça, cor, etnia, religião ou procedência nacional, com finalidade de provocar terror, expondo a perigo pessoa/patrimônio/paz pública\n' +
               '├─ PENA BASE: reclusão de 12 a 30 anos\n' +
               '├─ SE RESULTA MORTE: reclusão de 24 a 30 anos\n' +
               '├─ ORGANIZAÇÃO TERRORISTA (Art. 3º): reclusão de 5 a 8 anos\n' +

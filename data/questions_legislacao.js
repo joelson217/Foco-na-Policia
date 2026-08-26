@@ -1550,8 +1550,8 @@ const QUESTIONS_LEGISLACAO = [
     }
   ],
   "gabarito": "B",
-  "artigo": "Art. 14 da Lei 10.826/03 e Súmula 513 do STJ",
-  "justificativa": "O STJ, pela Súmula 513, e o STF pacificaram que o porte ilegal de arma de fogo é crime de PERIGO ABSTRATO (formal/mera conduta), não exigindo a comprovação de perigo concreto. A simples conduta de portar ilegalmente já consuma o crime."
+  "artigo": "Art. 14 da Lei 10.826/03 e jurisprudência do STF/STJ (Tema 1.256/STJ)",
+  "justificativa": "O STF e o STJ pacificaram que o porte ilegal de arma de fogo é crime de PERIGO ABSTRATO (formal/mera conduta), não exigindo a comprovação de perigo concreto. A simples conduta de portar ilegalmente já consuma o crime. (Atenção: a Súmula 513 do STJ trata de tema diverso — a abolitio criminis temporária para posse de arma de uso permitido com numeração raspada — e não deve ser confundida com esta tese.)"
 },
 {
   "id": "leg_52",
@@ -1581,7 +1581,7 @@ const QUESTIONS_LEGISLACAO = [
   ],
   "gabarito": "D",
   "artigo": "Art. 33 e 44 da Lei 11.343/06",
-  "justificativa": "O tráfico de drogas é equiparado a crime hediondo (art. 44 da Lei 11.343/06), sendo inafiançável e insuscetível de sursis, graça, indulto, anistia e liberdade provisória. A pena é reclusão de 5 a 15 anos (art. 33, caput)."
+  "justificativa": "O tráfico de drogas é equiparado a crime hediondo (art. 44 da Lei 11.343/06), sendo inafiançável e insuscetível de sursis, graça, indulto e anistia, com pena de reclusão de 5 a 15 anos (art. 33, caput). Atenção: o STF (HC 104.339/2012, com repercussão geral confirmada no RE 1.038.925) declarou inconstitucional a expressão 'liberdade provisória' do art. 44, de modo que a prisão cautelar no tráfico depende da análise dos requisitos do art. 312 do CPP, não sendo mais vedada em abstrato."
 },
 {
   "id": "leg_53",
@@ -1670,8 +1670,8 @@ const QUESTIONS_LEGISLACAO = [
     }
   ],
   "gabarito": "B",
-  "artigo": "Art. 10, parágrafo único da Lei 13.869/19",
-  "justificativa": "A Lei 13.869/19 tipifica como abuso de autoridade submeter o preso a medida de segurança por tempo superior ao legalmente estabelecido (art. 10, p.ú.). A alternativa A é incorreta pois a questão diz \"desde que exista fundamentação judicial\", o que afasta o abuso."
+  "artigo": "Art. 12, parágrafo único, IV da Lei 13.869/19",
+  "justificativa": "A Lei 13.869/19 tipifica como abuso de autoridade prolongar a execução de pena privativa de liberdade, de prisão temporária, de prisão preventiva, de medida de segurança ou de internação, deixando, sem motivo justo e excepcionalíssimo, de executar o alvará de soltura (art. 12, parágrafo único, IV). A alternativa A é incorreta pois a questão diz \"desde que exista fundamentação judicial\", o que afasta o abuso."
 },
 {
   "id": "leg_56",
@@ -1800,7 +1800,7 @@ const QUESTIONS_LEGISLACAO = [
   "peso": 2,
   "mostCobrado": true,
   "dificuldade": "dificil",
-  "enunciado": "O art. 33-A da Lei de Drogas, incluído pela Lei 12.982/2014, equipara ao tráfico de drogas a conduta de:",
+  "enunciado": "O art. 33, §3º da Lei de Drogas (Lei 11.343/06) prevê uma forma privilegiada, com pena reduzida em relação ao tráfico comum, para a conduta de:",
   "alternativas": [
     {
       "letra": "A",

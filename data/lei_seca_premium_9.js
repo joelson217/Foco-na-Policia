@@ -69,9 +69,9 @@ const LEI_SECA_PREMIUM_9 = {
               destaques: ['simples: 6-20 anos', 'qualificado: 12-30 anos', 'privilegiado: redução 1/6 a 1/3', 'Tribunal do Júri']
             },
             {
-              numero: 'Art. 121, §2º-A (Feminicídio)',
-              texto: 'Homicídio QUALIFICADO quando praticado contra mulher por razões de condição de sexo feminino. Considera-se razões de condição de sexo feminino:\nI - violência doméstica e familiar;\nII - menosprezo ou discriminação à condição de mulher.\n\nPena: reclusão 12 a 30 anos.\nAumento de 1/3 até a metade se: vítima gestante, menor de 14 anos, maior de 60, com deficiência, ou na presença de descendente ou ascendente.',
-              destaques: ['violência doméstica', 'menosprezo à condição de mulher', 'reclusão 12-30 anos', 'aumento 1/3 se gestante, menor, idoso, deficiente']
+              numero: 'Art. 121-A (Feminicídio)',
+              texto: '⚠️ Desde a Lei 14.994/2024, o feminicídio deixou de ser qualificadora do art. 121 e passou a ser crime AUTÔNOMO (Art. 121-A do CP): matar mulher por razões da condição de sexo feminino. Considera-se razões de condição de sexo feminino:\nI - violência doméstica e familiar;\nII - menosprezo ou discriminação à condição de mulher.\n\nPena: reclusão de 20 a 40 anos.\nContinua sendo crime hediondo.\nAumento de 1/3 até a metade se: vítima gestante, menor de 14 anos, maior de 60, com deficiência, ou na presença de descendente ou ascendente.',
+              destaques: ['crime AUTÔNOMO desde a Lei 14.994/2024', 'violência doméstica', 'menosprezo à condição de mulher', 'reclusão de 20 a 40 anos', 'continua hediondo', 'aumento 1/3 a 1/2 se gestante, menor, idoso, deficiente']
             }
           ]
         },
@@ -105,7 +105,7 @@ const LEI_SECA_PREMIUM_9 = {
               destaques: ['60 anos ou mais']
             },
             {
-              numero: 'Art. 10, §3º (Filas e Assentos)',
+              numero: 'Art. 39, §2º (Filas e Assentos)',
               texto: 'É assegurada prioridade no atendimento ao idoso em qualquer órgão público ou privado.\nÉ obrigatória a reserva de 10% dos assentos para idosos em transportes coletivos.\nÉ obrigatória a reserva de vagas próximas aos elevadores nos estacionamentos.',
               destaques: ['prioridade no atendimento', '10% dos assentos no transporte coletivo', 'vagas próximas aos elevadores']
             },

@@ -617,8 +617,8 @@ const QUESTIONS_LEP = [
         "texto": "Vedada a progressão nesses casos."
       }
     ],
-    "correta": "E",
-    "comentario": "Na verdade, para o reincidente específico em hediondo COM morte a lei atual não previu (há um erro material). O STJ entende que, por lacuna, aplica-se o índice mais favorável. Mas PELA LETRA DA LEI (que as bancas cobram), a progressão do art. 112, VIII veda o livramento condicional, mas a porcentagem é de 70% (na verdade, a banca considera 70% para hediondo com morte se reincidente - porém a opção E diz vedada. Wait, 112 VIII diz 70%. Let me correct this question content before saving). Correção: alternativa D é 70%, que é a resposta certa."
+    "correta": "D",
+    "comentario": "Conforme o art. 112, VIII, da LEP (redação dada pela Lei 13.964/2019 — Pacote Anticrime), a progressão de regime para o reincidente em crime hediondo ou equiparado com resultado morte exige o cumprimento de 70% da pena, vedado o livramento condicional."
   },
   {
     "id": "lep_21",
@@ -717,7 +717,7 @@ const QUESTIONS_LEP = [
       }
     ],
     "correta": "B",
-    "comentario": "Art. 25, LEP: Considera-se egresso: I - o liberado definitivo, pelo prazo de 1 (um) ano a contar da saída; II - o liberado condicional, durante o período de prova."
+    "comentario": "Art. 26, LEP: Considera-se egresso: I - o liberado definitivo, pelo prazo de 1 (um) ano a contar da saída; II - o liberado condicional, durante o período de prova."
   },
   {
     "id": "lep_24",
@@ -940,9 +940,9 @@ const QUESTIONS_LEP = [
         "texto": "5 anos a partir da soltura."
       }
     ],
-    "gabarito": "C",
-    "artigo": "Art. 25 e 26 da LEP",
-    "justificativa": "A assistência ao egresso dura pelo prazo de 2 anos a partir da soltura (art. 25 da LEP), abrangendo tanto o liberado definitivo quanto aquele em livramento condicional."
+    "gabarito": "B",
+    "artigo": "Art. 26, I da LEP",
+    "justificativa": "O liberado definitivo é considerado egresso, para os efeitos da LEP, pelo prazo de 1 (um) ano a contar da saída do estabelecimento (art. 26, I, da LEP). Já o liberado condicional é considerado egresso durante todo o período de prova (art. 26, II). O prazo de 2 (dois) meses do art. 25, II, refere-se, à parte, à concessão de alojamento e alimentação ao egresso, prorrogável uma única vez."
   },
   {
     "id": "lep_31",
@@ -971,8 +971,8 @@ const QUESTIONS_LEP = [
       }
     ],
     "gabarito": "B",
-    "artigo": "Art. 112, VII da LEP (Lei 13.964/2019)",
-    "justificativa": "Conforme o art. 112, VII da LEP: o primário em crime hediondo com resultado morte deve cumprir 50% da pena para progredir. Para reincidente específico com resultado morte (hediondo): 70%."
+    "artigo": "Art. 112, VI, \"a\" da LEP (Lei 13.964/2019)",
+    "justificativa": "Conforme o art. 112, VI, \"a\", da LEP: o primário em crime hediondo com resultado morte deve cumprir 50% da pena para progredir. Para reincidente específico com resultado morte (hediondo): 70% (art. 112, VIII)."
   },
   {
     "id": "lep_32",
@@ -1318,7 +1318,7 @@ const QUESTIONS_LEP = [
         "texto": "Conselho Penitenciário."
       },
       {
-        "text": "B",
+        "letra": "B",
         "texto": "Conselho da Comunidade."
       },
       {
@@ -1689,9 +1689,9 @@ const QUESTIONS_LEP = [
         "texto": "2/3 da pena para progressão ao regime semiaberto."
       }
     ],
-    "gabarito": "C",
+    "gabarito": "B",
     "artigo": "Art. 112, VI, \"a\" da LEP",
-    "justificativa": "O Art. 112, VI da LEP (com redação dada pela Lei 13.964/2019) exige o cumprimento de 60% da pena para o condenado por crime hediondo ou equiparado com resultado morte, se for primário.",
+    "justificativa": "O Art. 112, VI, \"a\", da LEP (com redação dada pela Lei 13.964/2019) exige o cumprimento de 50% da pena para o condenado por crime hediondo ou equiparado com resultado morte, se for primário. O percentual de 60% (art. 112, VII) refere-se ao reincidente em crime hediondo ou equiparado, sem exigência de resultado morte.",
     "id": "lep_55"
   },
   {
@@ -1872,7 +1872,7 @@ const QUESTIONS_LEP = [
   ],
   "gabarito": "C",
   "artigo": "Art. 124 da LEP",
-  "justificativa": "A saída temporária é autorizada pelo Juiz da Execução (art. 124 LEP), ouvidos o MP e a administração penitenciária. A Súmula 520 do STJ permite que essa autorização judicial seja concedida de forma COLETIVA (para vários presos de uma vez, dispensando decisão individualizada a cada saída), mas a competência para autorizar continua sendo do JUIZ — não há delegação ao diretor do estabelecimento."
+  "justificativa": "A saída temporária é autorizada pelo Juiz da Execução (art. 124 LEP), ouvidos o MP e a administração penitenciária. A Súmula 520 do STJ estabelece que 'o benefício de saída temporária no âmbito da execução penal é ato jurisdicional insuscetível de delegação à autoridade administrativa do estabelecimento prisional' — ou seja, a competência para autorizar é exclusiva do JUIZ, não podendo ser delegada ao diretor do estabelecimento."
 },
 {
   "id": "lep_62",

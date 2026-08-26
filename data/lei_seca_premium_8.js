@@ -70,8 +70,8 @@ const LEI_SECA_PREMIUM_8 = {
           artigos: [
             {
               numero: 'Racismo vs Injúria Racial',
-              texto: '📌 RACISMO (Lei 7.716/89):\n- Conduta genérica/coletiva (discriminar grupo racial);\n- Imprescritível e inafiançável (CF/88, art. 5º, XLII);\n- Ação Penal Pública Incondicionada.\n\n📌 INJÚRIA RACIAL (CP, art. 140, §3º):\n- Conduta específica/individual (ofender alguém por raça);\n- Prescritível e afiançável;\n- Também é Ação Penal Pública Incondicionada (desde 2023).',
-              destaques: ['racismo = crime genérico e imprescritível', 'injúria racial = crime individual e prescritível', 'ambos são ação penal pública incondicionada']
+              texto: '📌 RACISMO (Lei 7.716/89):\n- Conduta genérica/coletiva (discriminar grupo racial);\n- Imprescritível e inafiançável (CF/88, art. 5º, XLII);\n- Ação Penal Pública Incondicionada.\n\n📌 INJÚRIA RACIAL (Lei 7.716/89, art. 2º-A, incluído pela Lei 14.532/2023):\n- Conduta específica/individual (ofender a dignidade de alguém por raça, cor, etnia ou procedência nacional);\n- Desde a Lei 14.532/2023, foi EQUIPARADA ao racismo: também é imprescritível e inafiançável;\n- Pena: reclusão de 2 a 5 anos e multa;\n- Também é Ação Penal Pública Incondicionada.',
+              destaques: ['racismo = crime genérico e imprescritível', 'injúria racial (Lei 14.532/2023) = agora também imprescritível e inafiançável', 'ambos são ação penal pública incondicionada']
             }
           ]
         }

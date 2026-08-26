@@ -434,7 +434,7 @@ const QUESTIONS_EXTRA_LEP = [
     ],
     "gabarito": "B",
     "artigo": "Art. 52, I e II da LEP (redação dada pela Lei 13.964/2019)",
-    "justificativa": "O art. 52 da LEP, alterado pelo Pacote Anticrime, prevê o RDD para: I — preso que apresente ALTO RISCO para a ordem e segurança do estabelecimento penal ou da sociedade; II — preso sobre o qual recaiam FUNDADAS SUSPEITAS de envolvimento ou participação em ORCRIM, associação criminosa ou milícia. O RDD se aplica tanto ao CONDENADO quanto ao PRESO PROVISÓRIO. Não exige condenação por ORCRIM — bastam fundadas suspeitas. O prazo é de até 2 anos, renovável por igual período."
+    "justificativa": "O art. 52 da LEP, alterado pelo Pacote Anticrime, prevê o RDD para: I — preso que apresente ALTO RISCO para a ordem e segurança do estabelecimento penal ou da sociedade; II — preso sobre o qual recaiam FUNDADAS SUSPEITAS de envolvimento ou participação em ORCRIM, associação criminosa ou milícia. O RDD se aplica tanto ao CONDENADO quanto ao PRESO PROVISÓRIO. Não exige condenação por ORCRIM — bastam fundadas suspeitas. O prazo é de até 2 anos, sem prejuízo de repetição da sanção em caso de nova falta grave de mesma espécie (não se trata de renovação automática, mas de nova sanção diante de novo fato)."
   },
   {
     "id": "lep_extra_25",
@@ -542,6 +542,6 @@ const QUESTIONS_EXTRA_LEP = [
     ],
     "gabarito": "D",
     "artigo": "Art. 112, VIII da LEP (Lei 13.964/2019)",
-    "justificativa": "O art. 112 da LEP, com a redação da Lei 13.964/2019, escalona os percentuais assim para crimes hediondos com resultado morte: VI 'a' — primário: 50%; VI 'b' — reincidente: 60%; VII — primário específico: 60%; VIII — REINCIDENTE ESPECÍFICO EM CRIME HEDIONDO COM RESULTADO MORTE: 70%. Portanto, 70% é o percentual mais elevado previsto na LEP e exigido apenas nessa combinação agravada de circunstâncias."
+    "justificativa": "O art. 112 da LEP, com a redação da Lei 13.964/2019, prevê os seguintes percentuais relacionados a crime hediondo ou equiparado com resultado morte: inciso VI, alínea 'a' — condenado PRIMÁRIO: 50%; inciso VIII — condenado REINCIDENTE ESPECÍFICO: 70%. O inciso VII (60%) trata do reincidente em crime hediondo ou equiparado SEM exigência de resultado morte. Portanto, 70% é o percentual mais elevado previsto na LEP, exigido apenas para o reincidente específico em crime hediondo ou equiparado com resultado morte, vedado o livramento condicional."
   }
 ];

@@ -273,12 +273,12 @@ const QUESTIONS_PESO2_REFORCO = [
     alternativas: [
       { letra: 'A', texto: 'Reclusão de 12 a 30 anos.' },
       { letra: 'B', texto: 'Reclusão de 15 a 25 anos.' },
-      { letra: 'C', texto: 'Reclusão de 24 a 30 anos.' },
+      { letra: 'C', texto: 'Reclusão de 18 a 45 anos (pena-base aumentada da metade).' },
       { letra: 'D', texto: 'Reclusão de 20 anos, fixa, sem gradação.' }
     ],
     gabarito: 'C',
-    artigo: 'Art. 5º, §1º, Lei 13.260/16',
-    justificativa: 'Se do fato resulta morte, a pena é de reclusão de 24 a 30 anos, mais grave que a pena base do caput (12 a 30 anos).'
+    artigo: 'Art. 7º, Lei 13.260/16',
+    justificativa: 'O Art. 7º da Lei 13.260/16 prevê que, se do fato resulta morte, a pena é aumentada da metade (e não em dobro). Aplicando-se sobre a pena-base do caput do art. 2º (reclusão de 12 a 30 anos), o resultado é reclusão de 18 a 45 anos.'
   },
   {
     id: 'p2r_leg_4',
@@ -313,8 +313,8 @@ const QUESTIONS_PESO2_REFORCO = [
       { letra: 'D', texto: 'Exige-se que o recurso tenha efetivamente financiado um atentado consumado.' }
     ],
     gabarito: 'B',
-    artigo: 'Art. 9º, Lei 13.260/16',
-    justificativa: 'O Art. 9º pune com reclusão de 15 a 30 anos quem receber, prover, oferecer, obter, guardar, mantiver em depósito, solicitar, investir, distribuir ou fizer transitar recursos com a finalidade de financiar o terrorismo.'
+    artigo: 'Art. 6º, Lei 13.260/16',
+    justificativa: 'O Art. 6º pune com reclusão de 15 a 30 anos quem receber, prover, oferecer, obter, guardar, mantiver em depósito, solicitar ou investir, de qualquer modo, recursos com a finalidade de financiar o terrorismo.'
   },
   {
     id: 'p2r_leg_6',
@@ -439,7 +439,7 @@ const QUESTIONS_PESO2_REFORCO = [
       { letra: 'D', texto: 'O estelionato praticado contra idoso.' }
     ],
     gabarito: 'B',
-    artigo: 'Art. 1º, II-B, Lei 8.072/90',
+    artigo: 'Art. 1º, IX, Lei 8.072/90',
     justificativa: 'A Lei 13.964/2019 incluiu no rol de crimes hediondos o furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum (Art. 155, §4º-A, CP).'
   },
   {

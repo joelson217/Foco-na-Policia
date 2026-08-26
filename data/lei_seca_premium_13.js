@@ -95,9 +95,9 @@ const LEI_SECA_PREMIUM_13 = {
           titulo: 'Homicídio e Qualificadoras',
           artigos: [
             {
-              numero: 'Art. 121, §2º (Feminicídio)',
-              texto: 'Homicídio qualificado: contra a mulher por razões da condição de sexo feminino.\nConsidera-se razões de sexo feminino: I - violência doméstica e familiar; II - menosprezo ou discriminação à condição de mulher.\nPena - reclusão, de 12 a 30 anos.',
-              destaques: ['condição de sexo feminino', 'violência doméstica', 'menosprezo ou discriminação']
+              numero: 'Art. 121-A (Feminicídio)',
+              texto: '⚠️ Desde a Lei 14.994/2024, o feminicídio é crime AUTÔNOMO (não mais qualificadora do art. 121): matar mulher por razões da condição de sexo feminino.\nConsidera-se razões de sexo feminino: I - violência doméstica e familiar; II - menosprezo ou discriminação à condição de mulher.\nPena - reclusão, de 20 a 40 anos. Continua sendo crime hediondo.',
+              destaques: ['crime AUTÔNOMO (Lei 14.994/2024)', 'condição de sexo feminino', 'violência doméstica', 'menosprezo ou discriminação', 'reclusão de 20 a 40 anos']
             },
             {
               numero: 'Art. 121, §2º (Homicídio Funcional)',

@@ -677,7 +677,7 @@ const QUESTIONS_ADMINISTRATIVO = [
     ],
     "gabarito": "D",
     "artigo": "Art. 75, I e II da Lei 14.133/21",
-    "justificativa": "O Art. 75 da Lei 14.133/2021 prevê dispensa de licitação, entre outros casos, para: obras e serviços de engenharia até R$ 100.000,00 (I), e para outros serviços e compras até R$ 50.000,00 (II). A dispensa emergencial é limitada a 6 meses, vedada a prorrogação (Art. 75, VIII).",
+    "justificativa": "O Art. 75 da Lei 14.133/2021 prevê dispensa de licitação, entre outros casos, para: obras e serviços de engenharia até R$ 100.000,00 (I), e para outros serviços e compras até R$ 50.000,00 (II) — valores atualizados periodicamente por decreto (Art. 182 da Lei), já superiores a esse patamar original. A dispensa emergencial (Art. 75, VIII) é limitada ao prazo máximo de 1 (um) ano, contado da ocorrência da emergência/calamidade, sendo vedada a prorrogação e a recontratação da mesma empresa com base nesse inciso.",
     "id": "adm_22"
   },
   {

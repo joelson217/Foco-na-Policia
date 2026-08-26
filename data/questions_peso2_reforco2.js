@@ -274,12 +274,12 @@ const QUESTIONS_PESO2_REFORCO2 = [
     alternativas: [
       { letra: 'A', texto: '15 dias, improrrogáveis.' },
       { letra: 'B', texto: '30 dias, improrrogáveis.' },
-      { letra: 'C', texto: '45 dias, prorrogáveis por igual período.' },
+      { letra: 'C', texto: '45 dias, improrrogáveis.' },
       { letra: 'D', texto: '60 dias, prorrogáveis a critério do juiz.' }
     ],
-    gabarito: 'B',
+    gabarito: 'C',
     artigo: 'Art. 108, ECA',
-    justificativa: 'A internação, antes da sentença, pode ser determinada pelo prazo máximo de 45 dias — atenção: o prazo correto é 45 dias (não 30), sendo medida excepcional que exige indícios suficientes de autoria e materialidade, demonstrada a necessidade imperiosa da medida.'
+    justificativa: 'A internação, antes da sentença, pode ser determinada pelo prazo máximo de 45 dias, prazo improrrogável (não podendo ser dilatado sob qualquer justificativa, segundo a jurisprudência dominante), sendo medida excepcional que exige indícios suficientes de autoria e materialidade, demonstrada a necessidade imperiosa da medida.'
   },
   {
     id: 'p2r2_leg_3',

@@ -255,7 +255,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     ],
     "gabarito": "C",
     "artigo": "Art. 44 da Lei 11.343/06",
-    "justificativa": "O art. 44 da Lei de Drogas é expresso: os crimes dos arts. 33, caput e §1º, e arts. 34 a 37 são INAFIANÇÁVEIS e INSUSCETÍVEIS de sursis, graça, indulto, anistia e liberdade provisória. Também é vedada a conversão das penas privativas de liberdade em restritivas de direitos. ATENÇÃO: O tráfico privilegiado (art. 33, §4º), segundo o STJ, não é alcançado pela vedação do art. 44 quanto à conversão em penas restritivas — precedente em evolução."
+    "justificativa": "O art. 44 da Lei de Drogas é expresso: os crimes dos arts. 33, caput e §1º, e arts. 34 a 37 são INAFIANÇÁVEIS e INSUSCETÍVEIS de sursis, graça, indulto, anistia e liberdade provisória. Também é vedada a conversão das penas privativas de liberdade em restritivas de direitos. ATENÇÃO — ATUALIZAÇÃO JURISPRUDENCIAL: o STF, no HC 104.339/2012 (Rel. Min. Gilmar Mendes, Plenário), declarou INCIDENTALMENTE INCONSTITUCIONAL a parte do art. 44 que veda a liberdade provisória, por violar a individualização da pena e a presunção de inocência. Assim, na prática, o juiz PODE conceder liberdade provisória ao preso por tráfico, desde que ausentes os requisitos da prisão preventiva (art. 312 do CPP), mesmo constando a vedação na literalidade do texto legal. Quanto à conversão em penas restritivas de direitos, o STF (Tema 926/RE 973.958) também afastou a vedação para o tráfico privilegiado (art. 33, §4º)."
   },
   {
     "id": "leg_extra_15",
@@ -728,20 +728,20 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_41",
     "disciplina": "legislacao",
-    "topico": "Lei 9.455/97 — Tratamento de reincidente em tortura",
+    "topico": "Lei 9.455/97 — Causas de aumento de pena (Art. 1º, §4º)",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "medio",
-    "enunciado": "Reincidente em crime de tortura tem aumento de pena previsto no artigo 1º, §4º da lei. Qual o percentual máximo de aumento?",
+    "enunciado": "O crime de tortura tem sua pena aumentada de 1/6 até 1/3 nas hipóteses do art. 1º, §4º da Lei 9.455/97. Assinale a hipótese que efetivamente gera esse aumento:",
     "alternativas": [
-      { "letra": "A", "texto": "1/3 da pena." },
-      { "letra": "B", "texto": "1/2 da pena." },
-      { "letra": "C", "texto": "2/3 da pena." },
-      { "letra": "D", "texto": "Não há aumento para reincidência." }
+      { "letra": "A", "texto": "Quando o crime é cometido por agente público." },
+      { "letra": "B", "texto": "Quando o autor é reincidente em qualquer crime." },
+      { "letra": "C", "texto": "Quando o crime ocorre em via pública." },
+      { "letra": "D", "texto": "Quando há mais de um agente envolvido na prática do crime." }
     ],
     "gabarito": "A",
     "artigo": "Art. 1º, §4º, I da Lei 9.455/97",
-    "justificativa": "O aumento para agente público (que inclui torturador como agente) é de 1/6 a 1/3; para reincidência, a lei não estabelece aumento específico além do previsto para agente público."
+    "justificativa": "O aumento de 1/6 a 1/3 do art. 1º, §4º incide quando o crime é cometido por agente público (inciso I), contra criança, gestante, idoso, enfermo ou pessoa com deficiência (inciso II), ou mediante sequestro (inciso III). A Lei de Tortura NÃO prevê causa de aumento específica por reincidência — reincidência é circunstância agravante genérica do Código Penal (art. 61, I), considerada na dosimetria da pena-base, e não uma causa de aumento própria desta lei."
   },
   {
     "id": "leg_extra_42",
@@ -964,21 +964,20 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_54",
     "disciplina": "legislacao",
-    "topico": "Lei 11.343/06 — Aposentadoria de agente penitenciário condenado por tráfico",
+    "topico": "Lei 11.343/06 — Efeitos da condenação por tráfico sobre o cargo público",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "medio",
-    "enunciado": "Um agente penitenciário condenado por tráfico de drogas perde o direito à aposentadoria?",
+    "enunciado": "Um agente penitenciário é condenado, com trânsito em julgado, a 6 anos de reclusão por tráfico de drogas (art. 33, caput, da Lei 11.343/06). Sobre os efeitos dessa condenação em relação ao cargo público, é correto afirmar que:",
     "alternativas": [
-      { "letra": "A", "texto": "Sim, a condenação determina perda automática da aposentadoria." },
-      { "letra": "B", "texto": "Não, a aposentadoria só é perdida se houver condenação por crime hediondo." },
-      { "letra": "C", "texto": "Depende se a pena aplicada inclui multa ou restrição de direitos." },
-      { "letra": "D", "texto": "A aposentadoria permanece, mas o agente fica impedido de exercer funções."
-      }
-    ],
-    "gabarito": "B",
-    "artigo": "Art. 1º, §5º da Lei 9.455/97 (aplicável a agente público), porém tráfico não é hediondo.",
-    "justificativa": "A perda de cargo e aposentadoria depende da qualificadora hediondo; tráfico não se enquadra."
+      { "letra": "A", "texto": "Não há perda do cargo, pois o tráfico de drogas não é crime funcional (praticado no exercício da função)." },
+      { "letra": "B", "texto": "A perda do cargo é efeito automático da condenação, dispensando qualquer menção na sentença." },
+      { "letra": "C", "texto": "A perda do cargo/função pública é efeito da condenação (art. 92, I, 'b', do CP), pois a pena aplicada é igual ou superior a 4 anos — mas deve ser motivadamente declarada na sentença, não é automática." },
+      { "letra": "D", "texto": "A perda do cargo só ocorreria se o tráfico tivesse relação direta com as funções exercidas no cargo." }
+      ],
+    "gabarito": "C",
+    "artigo": "Art. 92, I, 'b' do CP; Art. 33 c/c Art. 2º, caput, da Lei 8.072/90 (tráfico é equiparado a hediondo, CF art. 5º, XLIII)",
+    "justificativa": "O tráfico de drogas é equiparado a crime hediondo (CF, art. 5º, XLIII; Lei 8.072/90, art. 2º), mas isso não é o que gera a perda do cargo aqui. A perda de cargo/função pública é efeito EXTRAPENAL da condenação (art. 92, I, 'b', CP), cabível para QUALQUER crime — não precisa ser funcional — quando a pena aplicada é igual ou superior a 4 anos, como no caso (6 anos). Esse efeito NÃO é automático: precisa ser motivadamente declarado na sentença (art. 92, parágrafo único, CP). Isso contrasta com a Lei de Tortura (art. 1º, §5º), cuja perda de cargo para agente público condenado É automática."
   },
   {
     "id": "leg_extra_55",
@@ -1056,20 +1055,20 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_59",
     "disciplina": "legislacao",
-    "topico": "Lei 8.072/90 — Articulação de crime hediondo com uso de arma",
+    "topico": "Lei 8.072/90 — Arma de fogo e crimes hediondos",
     "peso": 2,
     "mostCobrado": true,
     "dificuldade": "dificil",
-    "enunciado": "Quando o crime hediondo é praticado com emprego de arma de fogo, há agravante automática?",
+    "enunciado": "Sobre a relação entre arma de fogo e crimes hediondos, assinale a alternativa CORRETA:",
     "alternativas": [
-      { "letra": "A", "texto": "Sim, aumenta a pena em 1/6 a 1/3." },
-      { "letra": "B", "texto": "Não, só há aumento se houver concurso de pessoas." },
-      { "letra": "C", "texto": "Sim, mas apenas para homicídio qualificado." },
-      { "letra": "D", "texto": "Não há agravante específico para arma de fogo em hediondos." }
+      { "letra": "A", "texto": "A Lei 8.072/90 não prevê um aumento de pena genérico e automático por uso de arma de fogo aplicável a todo crime hediondo; o que a lei prevê é que o próprio crime de posse ou porte ilegal de arma de fogo de uso restrito ou proibido é equiparado a hediondo (art. 1º, VIII)." },
+      { "letra": "B", "texto": "O art. 2º, §2º da Lei 8.072/90 prevê aumento de 1/6 a 1/3 sempre que um crime hediondo for praticado com arma de fogo." },
+      { "letra": "C", "texto": "O uso de arma de fogo só gera aumento de pena em crimes hediondos havendo concurso de pessoas." },
+      { "letra": "D", "texto": "Arma de fogo de uso permitido também torna o crime de posse/porte equiparado a hediondo." }
     ],
     "gabarito": "A",
-    "artigo": "Art. 2º, §2º da Lei 8.072/90",
-    "justificativa": "O artigo prevê aumento de pena quando o crime hediondo envolve uso de arma de fogo."
+    "artigo": "Art. 1º, VIII da Lei 8.072/90 (incluído pela Lei 13.497/2017)",
+    "justificativa": "Não existe na Lei 8.072/90 aumento de pena genérico e automático por emprego de arma de fogo em crimes hediondos — o art. 2º da lei trata de regime de pena, fiança e prazo de prisão temporária, não de arma. O que a lei prevê é que o crime de posse ou porte ilegal de arma de fogo de USO RESTRITO OU PROIBIDO (não o de uso permitido) é, ele próprio, equiparado a hediondo (art. 1º, VIII, incluído pela Lei 13.497/2017). Aumentos por emprego de arma de fogo existem em tipos específicos do Código Penal (ex.: roubo, art. 157, §2º-A, I, aumento de 2/3), não como regra geral da Lei de Hediondos."
   },
   {
     "id": "leg_extra_60",
@@ -1412,8 +1411,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
             { "letra": "D", "texto": "70% da pena." }
         ],
         "gabarito": "A",
-        "artigo": "Art. 112, VI, 'c' da LEP",
-        "justificativa": "Para primário sem resultado morte, a lei estabelece 40% da pena para progressão."
+        "artigo": "Art. 112, V da LEP (Lei 13.964/2019)",
+        "justificativa": "Para o condenado primário por crime hediondo ou equiparado SEM resultado morte, a LEP estabelece 40% da pena para progressão de regime (art. 112, V). O inciso VI trata apenas dos casos COM resultado morte (alíneas 'a' — primário, 50% — e 'b' — reincidente específico, 70%); não existe alínea 'c'."
     },
   {
         "id": "leg_extra_79",
@@ -2218,11 +2217,11 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_119",
     "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Sujeito Ativo do Crime (Q119)",
+    "topico": "Lei 8.429/92 — Sujeito Ativo do Ato de Improbidade (Q119)",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "facil",
-    "enunciado": "Em relação ao sujeito ativo nos crimes previstos na Lei 8.429/92, assinale a opção correta:",
+    "enunciado": "Em relação ao sujeito ativo nos atos de improbidade administrativa previstos na Lei 8.429/92 (que NÃO configuram crime, mas ilícito civil-administrativo), assinale a opção correta:",
     "alternativas": [
         {
             "letra": "A",
@@ -2243,7 +2242,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     ],
     "gabarito": "B",
     "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata do enriquecimento ilícito do agente."
+    "justificativa": "A Lei 8.429/92 não tipifica crimes, mas sim ATOS DE IMPROBIDADE ADMINISTRATIVA, apurados em ação civil pública e sancionados civilmente (ressarcimento, perda de bens, suspensão de direitos políticos, multa civil, proibição de contratar com o poder público) — não há pena privativa de liberdade. O sujeito ativo pode ser o agente público e também o terceiro (particular) que induza, concorra ou se beneficie do ato ímprobo (art. 3º), admitindo-se participação de particulares."
 },
   {
     "id": "leg_extra_120",
@@ -2758,11 +2757,11 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_137",
     "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Aumento de Pena (Q137)",
+    "topico": "Lei 8.429/92 — Agravamento da Sanção (Q137)",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "facil",
-    "enunciado": "O crime previsto na Lei 8.429/92 terá sua pena aumentada quando:",
+    "enunciado": "O ato de improbidade administrativa previsto na Lei 8.429/92 (que não é crime, mas ilícito civil-administrativo) terá sua sanção agravada quando:",
     "alternativas": [
         {
             "letra": "A",
@@ -2783,7 +2782,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     ],
     "gabarito": "B",
     "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "A utilização da facilidade do cargo público para delinquir qualifica majorante na legislação penal especial. Referência: Trata do enriquecimento ilícito do agente."
+    "justificativa": "A Lei 8.429/92 não comina 'pena' (instituto penal), mas sanções civis-administrativas dosadas conforme a gravidade do ato; o abuso da função pública para a prática do ato ímprobo é circunstância que a autoridade judicial deve considerar para agravar as sanções aplicáveis (art. 12). Referência: Trata do enriquecimento ilícito do agente."
 },
   {
     "id": "leg_extra_138",
@@ -3028,11 +3027,11 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_146",
     "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Consumação e Tentativa (Q146)",
+    "topico": "Lei 8.429/92 — Configuração do Ato de Improbidade (Q146)",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "medio",
-    "enunciado": "O crime de Improbidade Administrativa tipificado na Lei 8.429/92 consuma-se com:",
+    "enunciado": "O ato de improbidade administrativa previsto na Lei 8.429/92 (que não é crime, mas ilícito civil-administrativo apurado em ação civil pública) se configura, na modalidade de enriquecimento ilícito (art. 9º), com:",
     "alternativas": [
         {
             "letra": "A",
@@ -3053,7 +3052,7 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     ],
     "gabarito": "B",
     "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "A maior parte desses delitos são de perigo abstrato ou formais, consumando-se com a mera conduta. Referência: Trata do enriquecimento ilícito do agente."
+    "justificativa": "O ato de enriquecimento ilícito (art. 9º) é de natureza formal, configurando-se com a mera obtenção de vantagem indevida em razão do exercício do cargo, independentemente de dano ao erário — diferente do ato que causa lesão ao patrimônio público (art. 10), que exige efetivo prejuízo. Referência: Trata do enriquecimento ilícito do agente."
 },
   {
     "id": "leg_extra_147",
@@ -3298,11 +3297,11 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
   {
     "id": "leg_extra_155",
     "disciplina": "legislacao",
-    "topico": "Lei 8.429/92 — Direito Processual Aplicado (Q155)",
+    "topico": "Lei 8.429/92 — Procedimento Aplicado (Q155)",
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "facil",
-    "enunciado": "Em relação ao procedimento criminal da Lei 8.429/92, a autoridade policial:",
+    "enunciado": "A Lei 8.429/92 não tipifica crime, mas sim ilícito civil-administrativo apurado por ação civil pública proposta pelo Ministério Público ou pessoa jurídica interessada. Ainda assim, quando o mesmo fato também configurar crime conexo (ex.: peculato, corrupção), a autoridade policial, no inquérito penal correspondente:",
     "alternativas": [
         {
             "letra": "A",
@@ -3323,6 +3322,6 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     ],
     "gabarito": "B",
     "artigo": "Art. 9º da Lei 8.429/92",
-    "justificativa": "O inquérito policial segue prazos especiais estritos definidos por cada microssistema legal. Referência: Trata do enriquecimento ilícito do agente."
+    "justificativa": "Quando há crime conexo ao ato de improbidade, o inquérito policial correspondente segue os prazos do CPP (ou de legislação especial aplicável ao crime conexo). A apuração do ATO DE IMPROBIDADE em si, contudo, não é feita por inquérito policial: dá-se por meio de investigação do MP (inquérito civil/procedimento administrativo) e ação civil pública, na forma da Lei 8.429/92 e da Lei 7.347/85. Referência: Trata do enriquecimento ilícito do agente."
 }
 ];
