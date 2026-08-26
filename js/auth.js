@@ -59,9 +59,14 @@ const AUTH = {
   },
 
   // hasStoredSession = true quando existe uma sessão válida guardada
-  // (ex.: reabriu o app) — nesse caso oferece o atalho de Face ID/Touch
-  // ID (se já cadastrado neste aparelho) em vez do formulário de senha,
-  // mas sempre exige uma dessas duas confirmações, nunca entra sozinho.
+  // (ex.: reabriu o app). Três estados possíveis:
+  // 1. Sessão guardada + Face ID já cadastrado neste aparelho -> botão
+  //    "Entrar com Face ID" (some o formulário de senha).
+  // 2. Sessão guardada + Face ID ainda não cadastrado -> botão
+  //    "Configurar Face ID e entrar" (usa a sessão já válida, sem pedir
+  //    senha de novo — só passa a pedir senha se isso falhar).
+  // 3. Sem sessão guardada (nunca logou ou deslogou) -> formulário de
+  //    e-mail e senha, o único jeito de autenticar do zero.
   showLoginScreen(message, hasStoredSession) {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('curso-selector-screen').classList.add('hidden');
@@ -70,19 +75,20 @@ const AUTH = {
 
     const credId = localStorage.getItem(AUTH_CRED_STORAGE);
     const bioBtn = document.getElementById('login-biometria-btn');
+    const setupBtn = document.getElementById('login-setup-biometria-btn');
     const senhaBtn = document.getElementById('login-usar-senha-btn');
     const form = document.getElementById('login-form');
     const subtitle = document.getElementById('login-subtitle');
+    const set = (el, show) => { if (el) el.style.display = show ? 'block' : 'none'; };
 
-    if (hasStoredSession && credId && window.PublicKeyCredential) {
-      if (bioBtn) bioBtn.style.display = 'block';
-      if (senhaBtn) senhaBtn.style.display = 'block';
-      if (form) form.style.display = 'none';
+    if (hasStoredSession && window.PublicKeyCredential && credId) {
+      set(bioBtn, true); set(setupBtn, false); set(senhaBtn, true); set(form, false);
       if (subtitle) subtitle.textContent = 'Toque para entrar com reconhecimento facial';
+    } else if (hasStoredSession && window.PublicKeyCredential && !credId) {
+      set(bioBtn, false); set(setupBtn, true); set(senhaBtn, true); set(form, false);
+      if (subtitle) subtitle.textContent = 'Configure o Face ID/Touch ID para entrar sem digitar senha';
     } else {
-      if (bioBtn) bioBtn.style.display = 'none';
-      if (senhaBtn) senhaBtn.style.display = 'none';
-      if (form) form.style.display = 'flex';
+      set(bioBtn, false); set(setupBtn, false); set(senhaBtn, false); set(form, true);
       if (subtitle) subtitle.textContent = 'Entre com o e-mail e a senha da sua assinatura';
     }
 
@@ -91,11 +97,29 @@ const AUTH = {
 
   mostrarFormSenha() {
     const bioBtn = document.getElementById('login-biometria-btn');
+    const setupBtn = document.getElementById('login-setup-biometria-btn');
     const senhaBtn = document.getElementById('login-usar-senha-btn');
     if (bioBtn) bioBtn.style.display = 'none';
+    if (setupBtn) setupBtn.style.display = 'none';
     if (senhaBtn) senhaBtn.style.display = 'none';
     document.getElementById('login-form').style.display = 'flex';
     document.getElementById('login-subtitle').textContent = 'Entre com o e-mail e a senha da sua assinatura';
+  },
+
+  // Usa a sessão já guardada (sem pedir senha) pra cadastrar o Face
+  // ID/Touch ID neste aparelho e entrar na hora. Só cai pro formulário
+  // de senha se a sessão tiver expirado de fato.
+  async configurarFaceIdEEntrar() {
+    const statusEl = document.getElementById('login-status');
+    if (!_pendingSession) {
+      statusEl.textContent = 'Sessão expirada. Faça login com e-mail e senha.';
+      this.mostrarFormSenha();
+      return;
+    }
+    statusEl.textContent = 'Configurando Face ID...';
+    await this.oferecerBiometriaLogin(_pendingSession.user.email);
+    statusEl.textContent = 'Entrando...';
+    await this.handleSession(_pendingSession, /* isFreshLogin */ false);
   },
 
   // Confirma a identidade por Face ID/Touch ID e, se validado, usa a
@@ -132,7 +156,7 @@ const AUTH = {
   // Depois de um login manual bem-sucedido, oferece cadastrar Face
   // ID/Touch ID neste aparelho pra próxima vez não precisar digitar
   // senha (mas o reconhecimento continua sendo exigido a cada entrada).
-  async oferecerBiometriaLogin() {
+  async oferecerBiometriaLogin(email) {
     if (!window.PublicKeyCredential || localStorage.getItem(AUTH_CRED_STORAGE)) return;
     try {
       const cred = await navigator.credentials.create({
@@ -141,7 +165,7 @@ const AUTH = {
           rp: { name: 'Operação Farda' },
           user: {
             id: crypto.getRandomValues(new Uint8Array(16)),
-            name: CURRENT_USER_EMAIL || 'usuario-operacao-farda',
+            name: email || CURRENT_USER_EMAIL || 'usuario-operacao-farda',
             displayName: 'Operação Farda'
           },
           pubKeyCredParams: [{ type: 'public-key', alg: -7 }, { type: 'public-key', alg: -257 }],
@@ -206,7 +230,7 @@ const AUTH = {
 
     document.getElementById('login-password').value = '';
     await this.handleSession(data.session, /* isFreshLogin */ true);
-    this.oferecerBiometriaLogin();
+    this.oferecerBiometriaLogin(email);
   },
 
   async logout() {
