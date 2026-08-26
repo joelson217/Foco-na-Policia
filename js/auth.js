@@ -79,16 +79,21 @@ const AUTH = {
     const senhaBtn = document.getElementById('login-usar-senha-btn');
     const form = document.getElementById('login-form');
     const subtitle = document.getElementById('login-subtitle');
-    const set = (el, show) => { if (el) el.style.display = show ? 'block' : 'none'; };
+    // .btn é inline-flex por padrão (é isso que centraliza e alinha o
+    // ícone+texto) — nunca usar 'block' aqui, senão vira caixa cheia
+    // encostada na esquerda em vez de centralizada.
+    const setBtn = (el, show) => { if (el) el.style.display = show ? 'inline-flex' : 'none'; };
+    const setForm = (el, show) => { if (el) el.style.display = show ? 'flex' : 'none'; };
+    const recForm = document.getElementById('login-recuperacao-form');
 
     if (hasStoredSession && window.PublicKeyCredential && credId) {
-      set(bioBtn, true); set(setupBtn, false); set(senhaBtn, true); set(form, false);
+      setBtn(bioBtn, true); setBtn(setupBtn, false); setBtn(senhaBtn, true); setForm(form, false); setForm(recForm, false);
       if (subtitle) subtitle.textContent = 'Toque para entrar com reconhecimento facial';
     } else if (hasStoredSession && window.PublicKeyCredential && !credId) {
-      set(bioBtn, false); set(setupBtn, true); set(senhaBtn, true); set(form, false);
+      setBtn(bioBtn, false); setBtn(setupBtn, true); setBtn(senhaBtn, true); setForm(form, false); setForm(recForm, false);
       if (subtitle) subtitle.textContent = 'Configure o Face ID/Touch ID para entrar sem digitar senha';
     } else {
-      set(bioBtn, false); set(setupBtn, false); set(senhaBtn, false); set(form, true);
+      setBtn(bioBtn, false); setBtn(setupBtn, false); setBtn(senhaBtn, false); setForm(form, true); setForm(recForm, false);
       if (subtitle) subtitle.textContent = 'Entre com o e-mail e a senha da sua assinatura';
     }
 
@@ -99,11 +104,71 @@ const AUTH = {
     const bioBtn = document.getElementById('login-biometria-btn');
     const setupBtn = document.getElementById('login-setup-biometria-btn');
     const senhaBtn = document.getElementById('login-usar-senha-btn');
+    const recForm = document.getElementById('login-recuperacao-form');
     if (bioBtn) bioBtn.style.display = 'none';
     if (setupBtn) setupBtn.style.display = 'none';
     if (senhaBtn) senhaBtn.style.display = 'none';
+    if (recForm) recForm.style.display = 'none';
     document.getElementById('login-form').style.display = 'flex';
     document.getElementById('login-subtitle').textContent = 'Entre com o e-mail e a senha da sua assinatura';
+  },
+
+  // Recuperação avançada: só funciona pra quem tem a chave service_role
+  // do Supabase (ou seja, só o administrador/dono do sistema). Define
+  // uma senha nova sem precisar saber a antiga e já entra com ela.
+  mostrarRecuperacao() {
+    document.getElementById('login-form').style.display = 'none';
+    document.getElementById('login-recuperacao-form').style.display = 'flex';
+    document.getElementById('login-subtitle').textContent = 'Recuperação avançada (apenas administrador)';
+  },
+
+  async recuperarComChave(event) {
+    event.preventDefault();
+    const email = document.getElementById('recuperacao-email').value.trim().toLowerCase();
+    const chave = document.getElementById('recuperacao-chave').value.trim();
+    const novaSenha = document.getElementById('recuperacao-nova-senha').value;
+    const statusEl = document.getElementById('recuperacao-status');
+    const btn = document.getElementById('recuperacao-submit-btn');
+
+    if (!email || !chave || !novaSenha) { statusEl.textContent = 'Preencha todos os campos.'; return; }
+    if (novaSenha.length < 6) { statusEl.textContent = 'A nova senha precisa ter pelo menos 6 caracteres.'; return; }
+
+    btn.disabled = true;
+    statusEl.textContent = 'Verificando chave...';
+
+    const tempClient = window.supabase.createClient(SUPABASE_URL, chave, {
+      auth: { autoRefreshToken: false, persistSession: false }
+    });
+
+    const { error: checkError } = await tempClient.from('assinantes').select('email').limit(1);
+    if (checkError) {
+      statusEl.textContent = '❌ Chave service_role inválida.';
+      btn.disabled = false;
+      return;
+    }
+
+    statusEl.textContent = 'Localizando conta...';
+    const { data: userList, error: listError } = await tempClient.auth.admin.listUsers();
+    if (listError) { statusEl.textContent = '❌ Erro: ' + listError.message; btn.disabled = false; return; }
+    const user = userList.users.find(u => u.email.toLowerCase() === email);
+    if (!user) { statusEl.textContent = '❌ E-mail não encontrado.'; btn.disabled = false; return; }
+
+    statusEl.textContent = 'Definindo nova senha...';
+    const { error: updateError } = await tempClient.auth.admin.updateUserById(user.id, { password: novaSenha });
+    if (updateError) { statusEl.textContent = '❌ Erro ao definir senha: ' + updateError.message; btn.disabled = false; return; }
+
+    statusEl.textContent = 'Entrando...';
+    const { data, error: signInError } = await this.client.auth.signInWithPassword({ email, password: novaSenha });
+    btn.disabled = false;
+    if (signInError || !data.session) {
+      statusEl.textContent = '✅ Senha definida! Agora toque em "Usar e-mail e senha" e entre com ela.';
+      return;
+    }
+
+    document.getElementById('recuperacao-chave').value = '';
+    document.getElementById('recuperacao-nova-senha').value = '';
+    await this.handleSession(data.session, /* isFreshLogin */ true);
+    this.oferecerBiometriaLogin(email);
   },
 
   // Usa a sessão já guardada (sem pedir senha) pra cadastrar o Face

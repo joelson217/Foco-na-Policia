@@ -57,6 +57,20 @@
         style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
       <button type="submit" class="btn btn-primary" id="login-submit-btn">Entrar</button>
       <span id="login-status" style="font-size: 0.85rem; color: var(--text-muted); min-height: 1.2em;"></span>
+      <button type="button" onclick="AUTH.mostrarRecuperacao()" style="background:none; border:none; color: var(--text-muted); font-size: 0.75rem; text-decoration: underline; cursor: pointer; margin-top: 4px;">Esqueci minha senha</button>
+    </form>
+
+    <form id="login-recuperacao-form" style="width: 100%; max-width: 320px; display: none; flex-direction: column; gap: 12px; margin-top: 16px;" onsubmit="AUTH.recuperarComChave(event)">
+      <p style="font-size: 0.75rem; color: var(--text-muted); margin: 0;">Recuperação avançada — só funciona com a chave <strong>service_role</strong> do Supabase (apenas o administrador do sistema tem essa chave).</p>
+      <input type="email" id="recuperacao-email" required placeholder="seu@email.com" autocomplete="email"
+        style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
+      <input type="password" id="recuperacao-chave" required placeholder="chave service_role do Supabase"
+        style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
+      <input type="password" id="recuperacao-nova-senha" required placeholder="nova senha (mín. 6 caracteres)"
+        style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
+      <button type="submit" class="btn btn-primary" id="recuperacao-submit-btn">Definir nova senha e entrar</button>
+      <button type="button" class="btn btn-outline" onclick="AUTH.mostrarFormSenha()">Cancelar</button>
+      <span id="recuperacao-status" style="font-size: 0.85rem; color: var(--text-muted); min-height: 1.2em;"></span>
     </form>
   </div>
 </div>
