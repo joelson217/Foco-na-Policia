@@ -167,6 +167,15 @@ a { color: var(--blue-light); text-decoration: none; }
 .countdown-unit { color: var(--text-muted); }
 .countdown-label { color: var(--text-muted); }
 
+/* Num celular estreito, cabeçalho (ícone + título + curso + patente +
+   sequência + contagem) não cabe tudo numa linha só — o item que
+   estoura pra fora da tela some sem aviso. A contagem regressiva já
+   aparece bem maior no card do Dashboard, então ela é a primeira a
+   sair aqui pra garantir que patente e sequência sempre apareçam. */
+@media (max-width: 430px) {
+  #header-countdown { display: none; }
+}
+
 /* -------- Main Content -------- */
 #main-content {
   flex: 1;
@@ -877,7 +886,7 @@ body {
 /* Rank Badge in Header */
 .rank-badge {
   display: flex; flex-direction: column; align-items: flex-end;
-  margin-right: 12px;
+  margin-right: 8px;
 }
 .rank-title {
   font-size: 0.65rem; font-weight: 800; color: var(--gold);
