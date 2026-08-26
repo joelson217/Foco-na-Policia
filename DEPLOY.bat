@@ -1,10 +1,10 @@
 @echo off
 chcp 65001 >nul
-title Deploy — Foco na Polícia
+title Deploy — Operação Farda
 
 echo.
 echo  ╔══════════════════════════════════════╗
-echo  ║   DEPLOY — Foco na Polícia           ║
+echo  ║   DEPLOY — Operação Farda            ║
 echo  ║   Enviando atualizações para nuvem   ║
 echo  ╚══════════════════════════════════════╝
 echo.

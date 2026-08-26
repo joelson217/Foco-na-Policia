@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v14';
+const APP_VERSION = 'v15';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -273,7 +273,7 @@ const APP = {
   renderVersionFooter() {
     const el = document.getElementById('app-version-footer');
     if (!el) return;
-    el.textContent = `Foco na Polícia ${APP_VERSION} · ${ALL_QUESTIONS.length} questões`;
+    el.textContent = `Operação Farda ${APP_VERSION} · ${ALL_QUESTIONS.length} questões`;
   },
 
   startApp() {
@@ -1962,7 +1962,7 @@ const STATS = {
         return;
       }
       if (!backup || backup.tipo !== 'foco-na-policia-backup' || !backup.stats) {
-        showToast('❌ Este arquivo não é um backup válido do Foco na Polícia.');
+        showToast('❌ Este arquivo não é um backup válido do Operação Farda.');
         return;
       }
       APP.openConfirmModal(
