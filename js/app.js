@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v13';
+const APP_VERSION = 'v14';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -143,6 +143,7 @@ function initQuestions() {
     typeof QUESTIONS_PESO2_REFORCO !== 'undefined' ? QUESTIONS_PESO2_REFORCO : [],
     typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [],
     typeof QUESTIONS_PESO2_REFORCO3 !== 'undefined' ? QUESTIONS_PESO2_REFORCO3 : [],
+    typeof QUESTIONS_PESO2_REFORCO4 !== 'undefined' ? QUESTIONS_PESO2_REFORCO4 : [],
     typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
