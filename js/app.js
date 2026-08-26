@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v22';
+const APP_VERSION = 'v23';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -325,7 +325,7 @@ const APP = {
   // ainda não mostram questões/leis (ver CURSO_CONTEUDO_PRONTO em auth.js).
   atualizarDisponibilidadeConteudo() {
     const pronto = (typeof CURSO_CONTEUDO_PRONTO === 'undefined') ? true : CURSO_CONTEUDO_PRONTO;
-    ['lei-seca', 'questoes', 'simulado', 'visuais'].forEach(tab => {
+    ['dashboard', 'lei-seca', 'questoes', 'simulado', 'visuais'].forEach(tab => {
       const overlay = document.getElementById('overlay-sem-conteudo-' + tab);
       if (overlay) overlay.classList.toggle('hidden', pronto);
     });
