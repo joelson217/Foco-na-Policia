@@ -602,7 +602,10 @@
           <div class="card-header">
             <span class="card-icon">🏆</span>
             <span class="card-label">Desempenho Geral</span>
+            <button class="btn-icon" onclick="STATS.exportBackup()" title="Baixar um arquivo de backup do seu progresso">💾 Backup</button>
+            <button class="btn-icon" onclick="STATS.triggerImportBackup()" title="Restaurar progresso a partir de um backup">📂 Restaurar</button>
             <button class="btn-icon btn-danger-text" onclick="STATS.confirmReset()">🗑️ Reset</button>
+            <input type="file" id="backup-file-input" accept="application/json" class="hidden" onchange="STATS.importBackup(event)">
           </div>
           <div class="stats-overview-grid">
             <div class="stat-box">

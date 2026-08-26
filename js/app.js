@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v12';
+const APP_VERSION = 'v13';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -146,8 +146,34 @@ function initQuestions() {
     typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : []
   ];
   const custom = CUSTOM_QUESTIONS.getAll();
-  ALL_QUESTIONS = sources.flat().concat(custom);
+  ALL_QUESTIONS = sources.flat().concat(custom).map(normalizeQuestion);
   console.log(`✅ Banco carregado: ${ALL_QUESTIONS.length} questões (sendo ${custom.length} personalizadas)`);
+}
+
+// Alguns lotes de questões (ex.: questions_premium.js a _16.js) foram escritos num
+// formato legado (texto/resposta numérica/alternativas em string simples) em vez do
+// formato padrão (enunciado/gabarito/alternativas {letra,texto}) que a tela de
+// Questões e o Simulado sabem renderizar — sem essa conversão, a resposta correta
+// nunca era destacada nessas questões. Normaliza tudo para o formato padrão.
+function normalizeQuestion(q) {
+  if (q.enunciado !== undefined && q.gabarito !== undefined) return q;
+  if (q.enunciado !== undefined && q.correta !== undefined) {
+    return { ...q, gabarito: q.correta, justificativa: q.justificativa || q.comentario };
+  }
+  if (q.texto !== undefined && typeof q.resposta === 'number' && Array.isArray(q.alternativas)) {
+    const LETRAS = ['A', 'B', 'C', 'D', 'E', 'F'];
+    const alternativas = q.alternativas.map((alt, i) =>
+      typeof alt === 'string' ? { letra: LETRAS[i] || String(i), texto: alt } : alt
+    );
+    return {
+      ...q,
+      enunciado: q.texto,
+      alternativas,
+      gabarito: LETRAS[q.resposta] || String(q.resposta),
+      justificativa: q.justificativa || q.comentario
+    };
+  }
+  return q;
 }
 
 // =================== UTILS ===============================
@@ -1895,6 +1921,67 @@ const STATS = {
       DASHBOARD.render();
       showToast('🗑️ Dados resetados!');
     });
+  },
+
+  exportBackup() {
+    const backup = {
+      tipo: 'foco-na-policia-backup',
+      versaoApp: APP_VERSION,
+      exportadoEm: new Date().toISOString(),
+      stats: STATE.stats,
+      customQuestions: JSON.parse(localStorage.getItem('pprn_custom_questions') || '[]')
+    };
+    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const dataAtual = new Date().toISOString().slice(0, 10);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `foco-na-policia-backup-${dataAtual}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('💾 Backup baixado! Guarde este arquivo em local seguro.');
+  },
+
+  triggerImportBackup() {
+    document.getElementById('backup-file-input').click();
+  },
+
+  importBackup(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      let backup;
+      try {
+        backup = JSON.parse(e.target.result);
+      } catch (err) {
+        showToast('❌ Arquivo inválido.');
+        return;
+      }
+      if (!backup || backup.tipo !== 'foco-na-policia-backup' || !backup.stats) {
+        showToast('❌ Este arquivo não é um backup válido do Foco na Polícia.');
+        return;
+      }
+      APP.openConfirmModal(
+        'Restaurar Backup',
+        `Isso vai SUBSTITUIR seu progresso atual pelo backup de ${formatDate(backup.exportadoEm)}. Deseja continuar?`,
+        () => {
+          STATE.stats = { ...STATE.stats, ...backup.stats };
+          saveState();
+          if (Array.isArray(backup.customQuestions)) {
+            localStorage.setItem('pprn_custom_questions', JSON.stringify(backup.customQuestions));
+            initQuestions();
+          }
+          this.render();
+          DASHBOARD.render();
+          showToast('✅ Backup restaurado com sucesso!');
+        }
+      );
+      event.target.value = '';
+    };
+    reader.readAsText(file);
   }
 };
 
