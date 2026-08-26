@@ -137,19 +137,22 @@ a { color: var(--blue-light); text-decoration: none; }
   padding-left: 16px; padding-right: 16px;
   gap: 8px;
 }
-.header-left { display: flex; align-items: center; gap: 10px; }
-.logo-icon { font-size: 28px; filter: drop-shadow(0 0 12px rgba(29, 111, 239, 0.7)); }
-.logo-text { display: flex; flex-direction: column; line-height: 1; }
-.logo-title { font-size: 1rem; font-weight: 800; color: var(--text-primary); letter-spacing: 0.05em; }
+.header-left { display: flex; align-items: center; gap: 10px; min-width: 0; flex-shrink: 1; }
+.logo-icon { font-size: 28px; filter: drop-shadow(0 0 12px rgba(29, 111, 239, 0.7)); flex-shrink: 0; }
+.logo-text { display: flex; flex-direction: column; line-height: 1; min-width: 0; }
+.logo-title {
+  font-size: 1rem; font-weight: 800; color: var(--text-primary); letter-spacing: 0.05em;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
+}
 .logo-sub { font-size: 0.65rem; color: var(--gold); font-weight: 600; }
 .header-center {
   font-size: 0.9rem; font-weight: 600;
   color: var(--text-secondary); text-align: center;
   flex: 1; display: none;
 }
-.header-right { display: flex; align-items: center; gap: 8px; }
+.header-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
 .streak-badge {
-  display: flex; align-items: center; gap: 4px;
+  display: flex; align-items: center; gap: 4px; flex-shrink: 0;
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: 20px; padding: 4px 10px;
   font-size: 0.8rem; font-weight: 700;
@@ -886,7 +889,7 @@ body {
 /* Rank Badge in Header */
 .rank-badge {
   display: flex; flex-direction: column; align-items: flex-end;
-  margin-right: 8px;
+  margin-right: 8px; flex-shrink: 0;
 }
 .rank-title {
   font-size: 0.65rem; font-weight: 800; color: var(--gold);

@@ -1,7 +1,7 @@
 // Service Worker — Concursos-Policiais
 // Versão: atualizada automaticamente a cada deploy
 
-const CACHE_NAME = 'concursos-policiais-v27';
+const CACHE_NAME = 'concursos-policiais-v28';
 
 const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_extra_3.js',
