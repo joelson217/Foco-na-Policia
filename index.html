@@ -35,18 +35,30 @@
   </div>
 </div>
 
-<!-- Login Screen (Supabase magic link) -->
+<!-- Login Screen (e-mail + senha, cadastrado pelo administrador) -->
 <div id="login-screen" class="hidden">
   <div class="loading-content">
     <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
     <h1>Operação Farda</h1>
-    <p>Entre com o e-mail cadastrado na sua assinatura</p>
-    <div style="width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
+    <p>Entre com o e-mail e a senha da sua assinatura</p>
+    <form id="login-form" style="width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 12px; margin-top: 16px;" onsubmit="AUTH.login(event)">
       <input type="email" id="login-email" required placeholder="seu@email.com" autocomplete="email"
         style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
-      <button class="btn btn-primary" id="login-submit-btn" onclick="AUTH.sendMagicLink()">Receber link de acesso</button>
+      <input type="password" id="login-password" required placeholder="Senha" autocomplete="current-password"
+        style="background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px; font-size: 1rem; text-align: center;">
+      <button type="submit" class="btn btn-primary" id="login-submit-btn">Entrar</button>
       <span id="login-status" style="font-size: 0.85rem; color: var(--text-muted); min-height: 1.2em;"></span>
-    </div>
+    </form>
+  </div>
+</div>
+
+<!-- Course Selector Screen (só aparece pra conta admin, com acesso a todos os cursos prontos) -->
+<div id="curso-selector-screen" class="hidden">
+  <div class="loading-content">
+    <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
+    <h1>Escolha o curso</h1>
+    <p>Conta administradora — selecione qual curso quer acessar agora</p>
+    <div id="curso-selector-list" style="width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 10px; margin-top: 16px;"></div>
   </div>
 </div>
 
@@ -55,8 +67,8 @@
   <div class="loading-content">
     <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
     <h1>Sem acesso ativo</h1>
-    <p id="no-access-message" style="max-width: 320px;">Não encontramos uma assinatura ativa para este e-mail. Se você já é assinante, confira se digitou o mesmo e-mail do cadastro.</p>
-    <button class="btn btn-outline" style="margin-top: 16px;" onclick="AUTH.logout()">Tentar com outro e-mail</button>
+    <p id="no-access-message" style="max-width: 320px;">Não encontramos uma assinatura ativa para este e-mail. Se você já é assinante, confira se digitou corretamente o e-mail e a senha.</p>
+    <button class="btn btn-outline" style="margin-top: 16px;" onclick="AUTH.logout()">Tentar novamente</button>
   </div>
 </div>
 

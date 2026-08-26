@@ -1,0 +1,168 @@
+// ============================================================
+// ADMIN.JS — Painel de clientes (admin.html). Usa a chave service_role
+// do Supabase (colada manualmente pelo dono, nunca salva em disco/git)
+// para criar contas de cliente com senha gerada automaticamente e
+// gerenciar a tabela `assinantes`.
+//
+// A chave service_role ignora TODAS as políticas de RLS -- por isso
+// ela nunca pode ir para o código-fonte público (app.js), só é usada
+// aqui, digitada manualmente a cada sessão de uso desta página.
+// ============================================================
+'use strict';
+
+const CURSOS_LABEL = {
+  pprn: 'PPRN — Polícia Penal do RN',
+  pppe: 'PPPE — Polícia Penal de PE',
+  pcpe_agente: 'PCPE — Agente',
+  pcpe_escrivao: 'PCPE — Escrivão',
+  pmpe: 'PMPE — Polícia Militar de PE'
+};
+
+function gerarSenhaAleatoria() {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
+  let senha = '';
+  const bytes = new Uint32Array(12);
+  crypto.getRandomValues(bytes);
+  for (let i = 0; i < 12; i++) senha += chars[bytes[i] % chars.length];
+  return senha;
+}
+
+const ADMIN = {
+  client: null,
+
+  connect() {
+    const key = document.getElementById('service-key').value.trim();
+    const statusEl = document.getElementById('connect-status');
+    if (!key) { statusEl.textContent = 'Cole a chave service_role.'; return; }
+
+    this.client = window.supabase.createClient(SUPABASE_URL, key, {
+      auth: { autoRefreshToken: false, persistSession: false }
+    });
+
+    // sessionStorage: some quando a aba/janela fecha, nunca vai pro git.
+    sessionStorage.setItem('opfarda_admin_key', key);
+
+    statusEl.textContent = '✅ Conectado.';
+    statusEl.style.color = '#10b981';
+    document.getElementById('admin-panel').style.display = 'block';
+    this.carregarClientes();
+  },
+
+  async criarCliente() {
+    const email = document.getElementById('novo-email').value.trim().toLowerCase();
+    const curso = document.getElementById('novo-curso').value;
+    const tipo = document.getElementById('novo-tipo').value;
+    const validadeInput = document.getElementById('novo-validade').value;
+    const isAdmin = document.getElementById('novo-is-admin').checked;
+    const btn = document.getElementById('criar-btn');
+    const statusEl = document.getElementById('status-msg');
+    const passwordBox = document.getElementById('generated-password-box');
+
+    if (!email || !email.includes('@')) { statusEl.textContent = 'Digite um e-mail válido.'; return; }
+
+    btn.disabled = true;
+    statusEl.textContent = 'Criando...';
+    passwordBox.style.display = 'none';
+
+    const senha = gerarSenhaAleatoria();
+
+    try {
+      const { data: userData, error: userError } = await this.client.auth.admin.createUser({
+        email, password: senha, email_confirm: true
+      });
+
+      if (userError) {
+        // Se o usuário já existir no Auth, seguimos e só atualizamos a linha de assinante.
+        if (!String(userError.message || '').toLowerCase().includes('already')) {
+          throw userError;
+        }
+        statusEl.textContent = 'Este e-mail já tinha uma conta — atualizando a assinatura (senha não muda). Use "Gerar nova senha" se precisar redefinir.';
+      }
+
+      const { error: upsertError } = await this.client.from('assinantes').upsert({
+        email, curso, tipo, is_admin: isAdmin, ativo: true,
+        data_validade: validadeInput ? new Date(validadeInput).toISOString() : null
+      }, { onConflict: 'email' });
+
+      if (upsertError) throw upsertError;
+
+      if (!userError) {
+        document.getElementById('generated-password-value').textContent = senha;
+        passwordBox.style.display = 'block';
+        statusEl.textContent = '✅ Cliente criado com sucesso.';
+      } else {
+        statusEl.textContent = '✅ Assinatura atualizada (conta de login já existia).';
+      }
+      statusEl.style.color = '#10b981';
+
+      document.getElementById('novo-email').value = '';
+      document.getElementById('novo-validade').value = '';
+      document.getElementById('novo-is-admin').checked = false;
+      this.carregarClientes();
+    } catch (e) {
+      console.error(e);
+      statusEl.textContent = '❌ Erro: ' + (e.message || e);
+      statusEl.style.color = '#ef4444';
+    } finally {
+      btn.disabled = false;
+    }
+  },
+
+  async carregarClientes() {
+    const { data, error } = await this.client
+      .from('assinantes')
+      .select('email, curso, tipo, ativo, data_validade, is_admin')
+      .order('data_inicio', { ascending: false });
+
+    if (error) { console.error(error); return; }
+
+    const tbody = document.getElementById('clientes-tbody');
+    tbody.innerHTML = '';
+    data.forEach(c => {
+      const tr = document.createElement('tr');
+      const validade = c.data_validade ? new Date(c.data_validade).toLocaleDateString('pt-BR') : '—';
+      const cursoLabel = (CURSOS_LABEL[c.curso] || c.curso) + (c.is_admin ? ' (admin)' : '');
+      tr.innerHTML = `
+        <td>${c.email}</td>
+        <td>${cursoLabel}</td>
+        <td>${c.tipo}</td>
+        <td><span class="badge ${c.ativo ? 'ativo' : 'inativo'}">${c.ativo ? 'ativo' : 'inativo'}</span></td>
+        <td>${validade}</td>
+        <td>
+          <button class="secondary" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.alternarAtivo('${c.email}', ${!c.ativo})">${c.ativo ? 'Revogar' : 'Reativar'}</button>
+          <button class="secondary" style="margin:0; padding:4px 10px; font-size:0.8rem;" onclick="ADMIN.resetarSenha('${c.email}')">Nova senha</button>
+        </td>`;
+      tbody.appendChild(tr);
+    });
+  },
+
+  async alternarAtivo(email, novoValor) {
+    const { error } = await this.client.from('assinantes').update({ ativo: novoValor }).eq('email', email);
+    if (error) { alert('Erro: ' + error.message); return; }
+    this.carregarClientes();
+  },
+
+  async resetarSenha(email) {
+    const { data: userList, error: listError } = await this.client.auth.admin.listUsers();
+    if (listError) { alert('Erro: ' + listError.message); return; }
+    const user = userList.users.find(u => u.email.toLowerCase() === email.toLowerCase());
+    if (!user) { alert('Usuário não encontrado no Auth.'); return; }
+
+    const novaSenha = gerarSenhaAleatoria();
+    const { error } = await this.client.auth.admin.updateUserById(user.id, { password: novaSenha });
+    if (error) { alert('Erro: ' + error.message); return; }
+
+    document.getElementById('generated-password-value').textContent = novaSenha;
+    document.getElementById('generated-password-box').style.display = 'block';
+    alert('Nova senha gerada para ' + email + ':\n\n' + novaSenha);
+  }
+};
+
+// Recupera a chave desta aba (se a página foi recarregada dentro da mesma sessão)
+window.addEventListener('DOMContentLoaded', () => {
+  const savedKey = sessionStorage.getItem('opfarda_admin_key');
+  if (savedKey) {
+    document.getElementById('service-key').value = savedKey;
+    ADMIN.connect();
+  }
+});

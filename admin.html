@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Operação Farda — Painel Administrativo</title>
+<style>
+  :root {
+    --bg: #0a0f1e; --card: #111a2e; --border: #1e3a5f; --text: #e2e8f0;
+    --text-muted: #8ba8cc; --blue: #1d6fef; --gold: #f5c518; --green: #10b981; --red: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px; max-width: 900px; margin: 0 auto;
+  }
+  h1 { font-size: 1.4rem; margin-bottom: 4px; }
+  h2 { font-size: 1.1rem; margin-top: 32px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  p.hint { color: var(--text-muted); font-size: 0.85rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-top: 12px; }
+  label { display: block; font-size: 0.85rem; color: var(--text-muted); margin: 12px 0 4px; }
+  input, select {
+    width: 100%; background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    border-radius: 6px; padding: 10px; font-size: 0.95rem;
+  }
+  button {
+    background: var(--blue); color: white; border: none; border-radius: 6px;
+    padding: 10px 18px; font-size: 0.95rem; cursor: pointer; margin-top: 14px;
+  }
+  button.secondary { background: transparent; border: 1px solid var(--border); color: var(--text); }
+  button.danger { background: var(--red); }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 0.85rem; }
+  th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--border); }
+  .badge { padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; }
+  .badge.ativo { background: rgba(16,185,129,0.15); color: var(--green); }
+  .badge.inativo { background: rgba(239,68,68,0.15); color: var(--red); }
+  #generated-password-box {
+    display: none; background: rgba(245,197,24,0.1); border: 1px solid var(--gold);
+    border-radius: 8px; padding: 14px; margin-top: 14px;
+  }
+  #status-msg { font-size: 0.85rem; margin-top: 10px; min-height: 1.2em; }
+  code { background: var(--bg); padding: 2px 6px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>🔒 Operação Farda — Painel Administrativo</h1>
+<p class="hint">Página de uso interno — não compartilhe este link nem a chave abaixo com ninguém.</p>
+
+<div class="card" id="connect-card">
+  <h2 style="margin-top:0; border:none;">Conectar</h2>
+  <label for="service-key">Chave "service_role" do Supabase (Project Settings → API)</label>
+  <input type="password" id="service-key" placeholder="cole aqui a service_role key">
+  <button onclick="ADMIN.connect()">Conectar</button>
+  <div id="connect-status" style="font-size:0.85rem; margin-top:8px;"></div>
+</div>
+
+<div id="admin-panel" style="display:none;">
+
+  <h2>Adicionar cliente</h2>
+  <div class="card">
+    <label for="novo-email">E-mail do cliente</label>
+    <input type="email" id="novo-email" placeholder="cliente@email.com">
+
+    <label for="novo-curso">Curso</label>
+    <select id="novo-curso">
+      <option value="pprn">PPRN — Polícia Penal do RN</option>
+      <option value="pppe">PPPE — Polícia Penal de PE</option>
+      <option value="pcpe_agente">PCPE — Agente</option>
+      <option value="pcpe_escrivao">PCPE — Escrivão</option>
+      <option value="pmpe">PMPE — Polícia Militar de PE</option>
+    </select>
+
+    <label for="novo-tipo">Tipo</label>
+    <select id="novo-tipo">
+      <option value="pago">Pago</option>
+      <option value="trial">Trial (teste grátis)</option>
+    </select>
+
+    <label for="novo-validade">Validade (opcional — deixe em branco para sem prazo definido)</label>
+    <input type="date" id="novo-validade">
+
+    <label style="display:flex; align-items:center; gap:8px; margin-top:14px;">
+      <input type="checkbox" id="novo-is-admin" style="width:auto;">
+      <span style="font-size:0.85rem; color:var(--text-muted);">Esta é a minha conta (acesso a todos os cursos)</span>
+    </label>
+
+    <button onclick="ADMIN.criarCliente()" id="criar-btn">Criar acesso</button>
+    <div id="status-msg"></div>
+
+    <div id="generated-password-box">
+      <strong>Senha gerada (só aparece uma vez — copie e envie pro cliente):</strong><br>
+      <code id="generated-password-value" style="font-size:1.1rem;"></code>
+    </div>
+  </div>
+
+  <h2>Clientes cadastrados</h2>
+  <div class="card">
+    <button class="secondary" onclick="ADMIN.carregarClientes()">🔄 Atualizar lista</button>
+    <table id="clientes-table">
+      <thead>
+        <tr><th>E-mail</th><th>Curso</th><th>Tipo</th><th>Status</th><th>Validade</th><th>Ações</th></tr>
+      </thead>
+      <tbody id="clientes-tbody"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
