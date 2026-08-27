@@ -71,7 +71,7 @@ select, input { font-family: var(--font); }
 a { color: var(--blue-light); text-decoration: none; }
 
 /* -------- Loading Screen -------- */
-#loading-screen, #login-screen, #curso-selector-screen, #no-access-screen {
+#loading-screen, #login-screen, #no-access-screen {
   position: fixed; inset: 0; z-index: 9999;
   background: linear-gradient(135deg, #04080f 0%, #0a1628 50%, #04080f 100%);
   display: flex; align-items: center; justify-content: center;
@@ -145,6 +145,24 @@ a { color: var(--blue-light); text-decoration: none; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
 }
 .logo-sub { font-size: 0.65rem; color: var(--gold); font-weight: 600; }
+.curso-switcher {
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
+  margin-top: 3px; max-width: 170px;
+  font-size: 0.68rem; font-weight: 700; font-family: var(--font);
+  color: var(--gold);
+  background-color: rgba(240, 180, 41, 0.08);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23f0b429' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 9px 6px;
+  border: 1px solid rgba(240, 180, 41, 0.5);
+  border-radius: 20px;
+  padding: 3px 22px 3px 10px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  cursor: pointer;
+}
+.curso-switcher:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 2px rgba(240, 180, 41, 0.25); }
+.curso-switcher option { background: var(--bg-primary, #0a1628); color: var(--text-primary); }
 .header-center {
   font-size: 0.9rem; font-weight: 600;
   color: var(--text-secondary); text-align: center;

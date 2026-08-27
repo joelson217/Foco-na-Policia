@@ -75,16 +75,6 @@
   </div>
 </div>
 
-<!-- Course Selector Screen (só aparece pra conta admin, com acesso a todos os cursos prontos) -->
-<div id="curso-selector-screen" class="hidden">
-  <div class="loading-content">
-    <img src="icon-512.png" alt="App Icon" class="shield-logo"/>
-    <h1>Escolha o curso</h1>
-    <p>Conta administradora — selecione qual curso quer acessar agora</p>
-    <div id="curso-selector-list" style="width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 10px; margin-top: 16px;"></div>
-  </div>
-</div>
-
 <!-- No Access Screen (email autenticado, mas sem assinatura ativa) -->
 <div id="no-access-screen" class="hidden">
   <div class="loading-content">
@@ -105,8 +95,7 @@
       <div class="logo-text">
         <span class="logo-title">Operação Farda</span>
         <span class="logo-sub" id="header-curso-label">Carregando curso...</span>
-        <select id="header-curso-switcher" class="hidden" onchange="AUTH.trocarCurso(this.value)"
-          style="margin-top:2px; font-size:0.75rem; background: var(--bg-primary); color: var(--text-primary); border: 1px solid var(--border); border-radius: 4px; padding: 2px 4px;"></select>
+        <select id="header-curso-switcher" class="curso-switcher hidden" onchange="AUTH.trocarCurso(this.value)"></select>
       </div>
     </div>
     <div class="header-center" id="tab-title">Dashboard</div>

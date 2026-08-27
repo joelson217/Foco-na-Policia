@@ -10,8 +10,9 @@
 // 2. Sem sessão -> mostra #login-screen (e-mail + senha).
 // 3. Com sessão -> consulta `assinantes` pelo e-mail logado.
 //    - Sem linha ativa / expirada -> #no-access-screen.
-//    - is_admin = true -> #curso-selector-screen (escolhe entre os
-//      cursos já disponíveis, ver CURSOS_DISPONIVEIS).
+//    - is_admin = true -> entra direto no último curso usado (ou no
+//      primeiro de CURSOS_DISPONIVEIS na primeira vez), sem tela
+//      extra — a troca de curso já é feita pelo seletor no cabeçalho.
 //    - Cliente normal -> libera direto o `curso` cadastrado.
 // 4. A cada login bem-sucedido, gera um token novo de sessão e grava
 //    em `assinantes.sessao_atual`. Uma inscrição Realtime nessa linha
@@ -35,6 +36,7 @@ const CURSOS_DISPONIVEIS = [
 
 const SESSION_TOKEN_KEY = 'opfarda_session_token';
 const AUTH_CRED_STORAGE = 'opfarda_login_cred_id';
+const ADMIN_LAST_CURSO_KEY = 'opfarda_admin_last_curso';
 
 let CURRENT_CURSO = null;
 let CURRENT_USER_EMAIL = null;
@@ -69,7 +71,6 @@ const AUTH = {
   //    e-mail e senha, o único jeito de autenticar do zero.
   showLoginScreen(message, hasStoredSession) {
     document.getElementById('loading-screen').style.display = 'none';
-    document.getElementById('curso-selector-screen').classList.add('hidden');
     document.getElementById('no-access-screen').classList.add('hidden');
     document.getElementById('login-status').textContent = message || '';
 
@@ -248,25 +249,8 @@ const AUTH = {
   showNoAccessScreen(message) {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('login-screen').classList.add('hidden');
-    document.getElementById('curso-selector-screen').classList.add('hidden');
     if (message) document.getElementById('no-access-message').textContent = message;
     document.getElementById('no-access-screen').classList.remove('hidden');
-  },
-
-  showCursoSelector() {
-    document.getElementById('loading-screen').style.display = 'none';
-    document.getElementById('login-screen').classList.add('hidden');
-    document.getElementById('no-access-screen').classList.add('hidden');
-    const list = document.getElementById('curso-selector-list');
-    list.innerHTML = '';
-    CURSOS_DISPONIVEIS.forEach(c => {
-      const btn = document.createElement('button');
-      btn.className = 'btn btn-primary';
-      btn.textContent = c.nome + (c.pronto ? '' : ' (conteúdo em preparação)');
-      btn.onclick = () => this.entrarNoCurso(c.id);
-      list.appendChild(btn);
-    });
-    document.getElementById('curso-selector-screen').classList.remove('hidden');
   },
 
   async login(event) {
@@ -360,7 +344,12 @@ const AUTH = {
     this.watchForKick(email);
 
     if (CURRENT_IS_ADMIN) {
-      this.showCursoSelector();
+      // Sem tela extra de escolha — entra direto no último curso usado
+      // neste aparelho (ou no primeiro disponível na primeira vez). Pra
+      // trocar de curso depois, é só usar o seletor do cabeçalho.
+      const ultimoCurso = localStorage.getItem(ADMIN_LAST_CURSO_KEY);
+      const cursoParaEntrar = CURSOS_DISPONIVEIS.some(c => c.id === ultimoCurso) ? ultimoCurso : CURSOS_DISPONIVEIS[0].id;
+      this.entrarNoCurso(cursoParaEntrar);
       return;
     }
 
@@ -399,7 +388,6 @@ const AUTH = {
     CURRENT_CURSO = curso;
     CURSO_CONTEUDO_PRONTO = (CURSOS_DISPONIVEIS.find(c => c.id === curso) || {}).pronto !== false;
     document.getElementById('login-screen').classList.add('hidden');
-    document.getElementById('curso-selector-screen').classList.add('hidden');
     document.getElementById('no-access-screen').classList.add('hidden');
     document.getElementById('loading-screen').style.display = 'flex';
 
@@ -408,14 +396,16 @@ const AUTH = {
 
     // Conta admin: seletor de curso fixo no cabeçalho, pra trocar a
     // qualquer momento sem precisar deslogar (dá visão dos dados de
-    // cada curso, como se fosse um cliente daquele curso).
+    // cada curso, como se fosse um cliente daquele curso). Também
+    // lembra a escolha, pra próxima vez já entrar direto nesse curso.
     const switcher = document.getElementById('header-curso-switcher');
     const label = document.getElementById('header-curso-label');
     if (CURRENT_IS_ADMIN && switcher) {
-      switcher.innerHTML = CURSOS_DISPONIVEIS.map(c => `<option value="${c.id}">${c.nome}</option>`).join('');
+      switcher.innerHTML = CURSOS_DISPONIVEIS.map(c => `<option value="${c.id}">${c.nome}${c.pronto ? '' : ' (em preparação)'}</option>`).join('');
       switcher.value = curso;
       switcher.classList.remove('hidden');
       if (label) label.classList.add('hidden');
+      localStorage.setItem(ADMIN_LAST_CURSO_KEY, curso);
     }
 
     await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, curso);
@@ -431,6 +421,7 @@ const AUTH = {
     await CLOUD_SYNC.pushProgressNow(CURRENT_USER_EMAIL, CURRENT_CURSO);
     CURRENT_CURSO = novoCurso;
     CURSO_CONTEUDO_PRONTO = (CURSOS_DISPONIVEIS.find(c => c.id === novoCurso) || {}).pronto !== false;
+    localStorage.setItem(ADMIN_LAST_CURSO_KEY, novoCurso);
     STATE.stats = defaultStats();
     await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, novoCurso);
     APP.refreshAfterCursoSwitch();
