@@ -35,58 +35,6 @@ const LEI_SECA_PREMIUM = {
           ]
         }
       ]
-    },
-    {
-      id: 'drogas',
-      disciplina: 'legislacao',
-      nome: 'Lei de Drogas',
-      sigla: 'Lei 11.343/2006',
-      icon: '🌿',
-      destaque: true,
-      peso: 1,
-      secoes: [
-        {
-          titulo: 'Do Usuário e do Tráfico',
-          artigos: [
-            {
-              numero: 'Art. 28',
-              texto: 'Quem adquirir, guardar, tiver em depósito, transportar ou trouxer consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal ou regulamentar será submetido às seguintes penas:\nI - advertência sobre os efeitos das drogas;\nII - prestação de serviços à comunidade;\nIII - medida educativa de comparecimento a programa ou curso educativo.',
-              destaques: ['consumo pessoal', 'advertência', 'prestação de serviços', 'medida educativa', 'NÃO há pena de prisão']
-            },
-            {
-              numero: 'Art. 33',
-              texto: 'Importar, exportar, remeter, preparar, produzir, fabricar, adquirir, vender, expor à venda, oferecer, ter em depósito, transportar, trazer consigo, guardar, prescrever, ministrar, entregar a consumo ou fornecer drogas, ainda que gratuitamente, sem autorização ou em desacordo com determinação legal ou regulamentar:\nPena - reclusão de 5 (cinco) a 15 (quinze) anos e pagamento de 500 a 1.500 dias-multa.',
-              destaques: ['ainda que gratuitamente', 'reclusão de 5 a 15 anos']
-            }
-          ]
-        }
-      ]
-    },
-    {
-      id: 'desarmamento',
-      disciplina: 'legislacao',
-      nome: 'Estatuto do Desarmamento',
-      sigla: 'Lei 10.826/2003',
-      icon: '🔫',
-      destaque: true,
-      peso: 1,
-      secoes: [
-        {
-          titulo: 'Dos Crimes e das Penas',
-          artigos: [
-            {
-              numero: 'Art. 12',
-              texto: 'Possuir ou manter sob sua guarda arma de fogo, acessório ou munição, de uso permitido, em desacordo com determinação legal ou regulamentar, no interior de sua residência ou dependência desta, ou, ainda no seu local de trabalho, desde que seja o titular ou o responsável legal do estabelecimento ou empresa:\nPena – detenção, de 1 (um) a 3 (três) anos, e multa.',
-              destaques: ['Possuir', 'interior de sua residência', 'local de trabalho', 'titular ou responsável legal']
-            },
-            {
-              numero: 'Art. 14',
-              texto: 'Portar, deter, adquirir, fornecer, receber, ter em depósito, transportar, ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob guarda ou ocultar arma de fogo, acessório ou munição, de uso permitido, sem autorização e em desacordo com determinação legal ou regulamentar:\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.',
-              destaques: ['Portar', 'fora da residência/trabalho', 'reclusão de 2 a 4 anos']
-            }
-          ]
-        }
-      ]
     }
   ]
 };

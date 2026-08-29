@@ -21,6 +21,12 @@ const LEI_SECA_PREMIUM_9 = {
               numero: 'Art. 304 (Auto de Prisão em Flagrante)',
               texto: 'Apresentado o preso à autoridade competente, ouvirá esta o condutor e colherá, se possível, a assinatura, entregando a este cópia do termo e recibo de entrega do preso.\n\nPrazo para comunicar ao juiz: IMEDIATAMENTE (CF/88, art. 5º, LXII).\nPrazo para relaxar prisão ilegal pelo juiz: também IMEDIATAMENTE.\n\nPrazo para o delegado apresentar nota de culpa ao preso: em 24 HORAS.',
               destaques: ['comunicar ao juiz imediatamente', 'nota de culpa ao preso em 24 horas', 'relaxamento da prisão ilegal é imediato']
+            },
+            {
+              id: 'art_310_juiz_custodia',
+              numero: 'Art. 310 (Decisão do Juiz na Audiência de Custódia)',
+              texto: 'Ao receber o auto de prisão em flagrante, o juiz deverá fundamentadamente:\nI - relaxar a prisão ilegal;\nII - converter a prisão em flagrante em preventiva (se presentes os requisitos);\nIII - conceder liberdade provisória, com ou sem fiança.\n⚠️ O juiz NÃO pode decretar prisão preventiva de ofício nesse momento.',
+              destaques: ['relaxar prisão ilegal', 'converter em preventiva', 'conceder liberdade provisória', 'NÃO cabe preventiva de ofício']
             }
           ]
         },

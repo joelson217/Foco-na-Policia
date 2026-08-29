@@ -1,47 +1,6 @@
 const LEI_SECA_PREMIUM_8 = {
   decks: [
     {
-      id: 'desarmamento',
-      disciplina: 'legislacao',
-      nome: 'Estatuto do Desarmamento',
-      sigla: 'Lei 10.826/2003',
-      icon: '🔫',
-      destaque: true,
-      peso: 2,
-      secoes: [
-        {
-          titulo: 'Crimes e Penas',
-          artigos: [
-            {
-              numero: 'Art. 12 (Posse Ilegal)',
-              texto: 'Possuir ou manter sob sua guarda arma de fogo, acessório ou munição, de uso permitido, em desacordo com determinação legal ou regulamentar, no interior de sua residência ou dependência desta, ou, ainda no seu local de trabalho, desde que seja o titular ou o responsável legal do estabelecimento ou empresa:\nPena: detenção de 1 a 3 anos e multa.\n\n⚠️ Posse = arma DENTRO de casa ou trabalho (próprio).',
-              destaques: ['posse = dentro de casa/trabalho', 'arma de uso permitido', 'detenção 1 a 3 anos']
-            },
-            {
-              numero: 'Art. 14 (Porte Ilegal)',
-              texto: 'Portar, deter, adquirir, fornecer, receber, ter em depósito, transportar, ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob guarda ou ocultar arma de fogo, acessório ou munição, de uso permitido, sem autorização e em desacordo com determinação legal ou regulamentar:\nPena: reclusão de 2 a 4 anos e multa.\n\n⚠️ Porte = arma FORA de casa (em via pública etc.).',
-              destaques: ['porte = fora de casa', 'arma de uso permitido', 'reclusão 2 a 4 anos', 'crime permanente']
-            },
-            {
-              numero: 'Art. 16 (Arma de Uso Restrito/Proibido)',
-              texto: 'Possuir, deter, portar, adquirir, fornecer, receber, ter em depósito, transportar, ceder, emprestar, remeter, empregar, manter sob guarda ou ocultar arma de fogo, acessório ou munição de USO PROIBIDO ou RESTRITO:\nPena: reclusão de 3 a 6 anos e multa.\n\n⚠️ Exemplos de uso restrito: fuzil, submetralhadora, pistola de alto calibre.',
-              destaques: ['arma de uso PROIBIDO ou RESTRITO', 'reclusão 3 a 6 anos', 'pena maior que porte permitido']
-            },
-            {
-              numero: 'Art. 17 (Comércio Ilegal)',
-              texto: 'Adquirir, alugar, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar, adulterar, modificar ou fabricar arma de fogo, acessório ou munição, DE USO PERMITIDO, sem autorização e em desacordo com norma legal:\nPena: reclusão de 4 a 8 anos e multa.',
-              destaques: ['comércio ilegal de arma de uso permitido', 'reclusão 4 a 8 anos']
-            },
-            {
-              numero: 'Art. 18 (Tráfico Internacional)',
-              texto: 'Importar, exportar, favorecer a entrada ou saída do território nacional, a qualquer título, de arma de fogo, acessório ou munição, SEM AUTORIZAÇÃO da autoridade competente:\nPena: reclusão de 4 a 8 anos e multa.',
-              destaques: ['importar/exportar arma', 'sem autorização', 'reclusão 4 a 8 anos']
-            }
-          ]
-        }
-      ]
-    },
-    {
       id: 'racismo',
       disciplina: 'legislacao',
       nome: 'Lei de Racismo',

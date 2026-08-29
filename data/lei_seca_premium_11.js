@@ -1,32 +1,6 @@
 const LEI_SECA_PREMIUM_11 = {
   decks: [
     {
-      id: 'adm_atos',
-      disciplina: 'administrativo',
-      nome: 'Direito Administrativo - Atos',
-      sigla: 'Atos Administrativos',
-      icon: '📝',
-      destaque: true,
-      peso: 2,
-      secoes: [
-        {
-          titulo: 'Atos Administrativos - Requisitos e Atributos',
-          artigos: [
-            {
-              numero: 'Requisitos (Elementos) do Ato Administrativo',
-              texto: 'São 5 (COM FI FOR M OB):\n- COMpetência: sujeito com poder legal para praticar o ato.\n- FInalidade: interesse público (se ferir, ocorre desvio de finalidade).\n- FORma: o modo de exteriorização (regra escrita).\n- Motivo: situação de fato e de direito que determina o ato.\n- OBjeto: o conteúdo do ato, seu efeito jurídico.',
-              destaques: ['Competência', 'Finalidade', 'Forma', 'Motivo', 'Objeto', 'COM-FI-FOR-M-OB']
-            },
-            {
-              numero: 'Atributos do Ato Administrativo',
-              texto: 'São características (PATI):\n- Presunção de Legitimidade e Veracidade: presume-se que estão de acordo com a lei e os fatos são verdadeiros.\n- Autoexecutoriedade: podem ser executados pela própria Administração, sem ordem judicial.\n- Tipicidade: devem corresponder a figuras previamente definidas em lei.\n- Imperatividade: impõem-se a terceiros, independente de concordância.',
-              destaques: ['Presunção de Legitimidade', 'Autoexecutoriedade', 'Tipicidade', 'Imperatividade', 'PATI']
-            }
-          ]
-        }
-      ]
-    },
-    {
       id: 'cpp_inquerito',
       disciplina: 'penal',
       nome: 'CPP - Inquérito Policial',
@@ -78,6 +52,18 @@ const LEI_SECA_PREMIUM_11 = {
               numero: 'Art. 1º, §5º (Efeitos da Condenação)',
               texto: 'A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo DOBRO do prazo da pena aplicada.\n⚠️ Trata-se de efeito AUTOMÁTICO (não precisa ser motivado na sentença).',
               destaques: ['perda do cargo', 'interdição pelo dobro do prazo', 'efeito AUTOMÁTICO']
+            },
+            {
+              id: 'art_1_tort_preconceito',
+              numero: 'Art. 1º, I, c (Tortura Discriminatória)',
+              texto: 'Constranger alguém causando sofrimento físico ou mental em razão de discriminação racial ou religiosa.\n⚠️ A Lei de Tortura não fala em discriminação por orientação sexual, embora a jurisprudência equipare esses casos ao racismo.',
+              destaques: ['discriminação racial ou religiosa']
+            },
+            {
+              id: 'art_1_tort_aumentos',
+              numero: 'Art. 1º, §4º (Causas de Aumento de Pena)',
+              texto: 'A pena é aumentada de 1/6 a 1/3 se:\nI - o crime é cometido por agente público;\nII - contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos;\nIII - mediante sequestro.',
+              destaques: ['aumento de 1/6 a 1/3', 'cometido por agente público', 'criança, gestante, deficiente, idoso']
             }
           ]
         }

@@ -261,6 +261,13 @@ const LEI_SECA = {
             { id: 'des_16', artigo: 'Art. 16', titulo: 'Arma de Uso Restrito', frente: 'Qual o tratamento penal para arma de uso restrito?', verso: 'Posse/porte de uso restrito: Reclusão 3 a 6 anos (CRIME HEDIONDO). Arma com numeração raspada equipara-se a uso restrito.', cobrado: 'hot', anos: ['2024', '2023', '2022'] },
             { id: 'des_13', artigo: 'Art. 13', titulo: 'Omissão de Cautela', frente: 'O que é omissão de cautela no Estatuto do Desarmamento?', verso: 'Deixar de observar as cautelas necessárias para impedir que menor de 18 anos ou portador de deficiência mental se apodere de arma de fogo de sua posse. Pena: detenção 1 a 2 anos + multa.', cobrado: 'medium', anos: ['2022'] }
           ]
+        },
+        {
+          titulo: '🏭 Comércio e Tráfico Internacional de Armas',
+          artigos: [
+            { id: 'des_17', artigo: 'Art. 17', titulo: 'Comércio Ilegal de Arma de Fogo', frente: 'O que caracteriza o crime de comércio ilegal de arma de fogo (Art. 17)?', verso: 'Adquirir, alugar, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar, adulterar, modificar ou fabricar arma de fogo, acessório ou munição, de uso PERMITIDO, sem autorização e em desacordo com norma legal. Pena: reclusão de 4 a 8 anos e multa.', cobrado: 'medium', anos: ['2022'] },
+            { id: 'des_18', artigo: 'Art. 18', titulo: 'Tráfico Internacional de Arma de Fogo', frente: 'O que caracteriza o tráfico internacional de arma de fogo (Art. 18)?', verso: 'Importar, exportar, favorecer a entrada ou saída do território nacional, a qualquer título, de arma de fogo, acessório ou munição, sem autorização da autoridade competente. Pena: reclusão de 4 a 8 anos e multa.', cobrado: 'medium', anos: ['2022'] }
+          ]
         }
       ]
     },

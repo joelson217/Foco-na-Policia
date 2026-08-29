@@ -59,64 +59,6 @@ const LEI_SECA_PREMIUM_15 = {
       ]
     },
     {
-      id: 'cpp_prisoes',
-      disciplina: 'penal',
-      nome: 'Processo Penal - Prisões',
-      sigla: 'CPP - Arts. 301-316',
-      icon: '🚓',
-      destaque: true,
-      peso: 2,
-      secoes: [
-        {
-          titulo: 'Prisão em Flagrante e Preventiva',
-          artigos: [
-            {
-              id: 'art_302_flagrante_proprio',
-              numero: 'Flagrante Próprio (Art. 302, I e II)',
-              texto: 'Considera-se em flagrante delito quem:\nI - está cometendo a infração penal;\nII - acaba de cometê-la.',
-              destaques: ['está cometendo', 'acaba de cometer']
-            },
-            {
-              id: 'art_302_flagrante_improprio',
-              numero: 'Flagrante Impróprio/Imperfeito (Art. 302, III)',
-              texto: 'Considera-se em flagrante delito quem:\nIII - é perseguido, logo após, pela autoridade, pela vítima ou por qualquer pessoa, em situação que faça presumir ser autor da infração.',
-              destaques: ['perseguido logo após', 'situação que faça presumir ser autor']
-            },
-            {
-              id: 'art_302_flagrante_presumido',
-              numero: 'Flagrante Presumido/Ficto (Art. 302, IV)',
-              texto: 'Considera-se em flagrante delito quem:\nIV - é encontrado, logo depois, com instrumentos, armas, objetos ou papéis que façam presumir ser ele autor da infração.\n⚠️ NOTA: Aqui NÃO há perseguição, o agente é apenas encontrado com os objetos.',
-              destaques: ['encontrado logo depois', 'com objetos/armas do crime', 'NÃO exige perseguição']
-            },
-            {
-              id: 'art_306_audiencia_custodia',
-              numero: 'Comunicação e Prazo (Art. 306)',
-              texto: 'A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente, ao Ministério Público e à família do preso ou à pessoa por ele indicada.\nO auto de prisão em flagrante (APF) será encaminhado ao juiz em até 24 HORAS, prazo em que também deve ser entregue a Nota de Culpa ao preso.',
-              destaques: ['comunicação imediata', 'APF enviado em até 24 horas', 'Nota de Culpa entregue em até 24 horas']
-            },
-            {
-              id: 'art_310_juiz_custodia',
-              numero: 'Decisão do Juiz na Custódia (Art. 310)',
-              texto: 'Ao receber o auto de prisão em flagrante, o juiz deverá fundamentadamente:\nI - relaxar a prisão ilegal;\nII - converter a prisão em flagrante em preventiva (se presentes os requisitos);\nIII - conceder liberdade provisória, com ou sem fiança.\n⚠️ NOTA: Juiz NÃO pode decretar preventiva de ofício.',
-              destaques: ['relaxar prisão ilegal', 'converter em preventiva', 'conceder liberdade provisória', 'NÃO cabe preventiva de ofício']
-            },
-            {
-              id: 'art_312_preventiva_requisitos',
-              numero: 'Prisão Preventiva: Requisitos (Art. 312)',
-              texto: 'A prisão preventiva poderá ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução criminal ou para assegurar a aplicação da lei penal, quando houver prova da existência do crime e indício suficiente de autoria.',
-              destaques: ['garantia da ordem pública', 'conveniência da instrução criminal', 'assegurar aplicação da lei penal', 'prova da materialidade + indícios de autoria']
-            },
-            {
-              id: 'art_313_preventiva_admissibilidade',
-              numero: 'Preventiva: Admissibilidade (Art. 313)',
-              texto: 'Será admitida a decretação da prisão preventiva:\nI - nos crimes dolosos punidos com pena privativa de liberdade máxima superior a 4 anos;\nII - se tiver sido condenado por outro crime doloso, em sentença transitada em julgado (reincidente em crime doloso);\nIII - se o crime envolver violência doméstica contra mulher, criança, idoso, etc.',
-              destaques: ['crimes dolosos com pena máxima superior a 4 anos', 'reincidente em crime doloso', 'violência doméstica e familiar']
-            }
-          ]
-        }
-      ]
-    },
-    {
       id: 'lep_remicao_saidas',
       disciplina: 'lep',
       nome: 'LEP - Remição e Saídas',

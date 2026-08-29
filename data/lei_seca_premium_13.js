@@ -42,47 +42,6 @@ const LEI_SECA_PREMIUM_13 = {
       ]
     },
     {
-      id: 'adm_poderes',
-      disciplina: 'administrativo',
-      nome: 'Administrativo - Poderes',
-      sigla: 'Poderes Administrativos',
-      icon: '⚡',
-      destaque: true,
-      peso: 2,
-      secoes: [
-        {
-          titulo: 'Poder de Polícia e Disciplinar',
-          artigos: [
-            {
-              numero: 'Poder de Polícia',
-              texto: 'É a faculdade de a Administração condicionar e restringir o uso e gozo de bens, atividades e direitos individuais, em benefício da coletividade ou do próprio Estado.\nAtributos (DAC): Discricionariedade, Autoexecutoriedade, Coercibilidade.',
-              destaques: ['restringir direitos individuais', 'benefício da coletividade', 'Discricionariedade, Autoexecutoriedade, Coercibilidade']
-            },
-            {
-              numero: 'Poder Disciplinar',
-              texto: 'É o poder de apurar infrações e aplicar penalidades aos servidores públicos e demais pessoas sujeitas à disciplina dos órgãos (ex: alunos de escolas públicas, concessionárias).\n⚠️ Não se confunde com o Poder de Polícia (que atinge particulares em geral).',
-              destaques: ['aplicar penalidades aos servidores', 'pessoas sujeitas à disciplina', 'Não se confunde com Poder de Polícia']
-            }
-          ]
-        },
-        {
-          titulo: 'Poder Hierárquico e Regulamentar',
-          artigos: [
-            {
-              numero: 'Poder Hierárquico',
-              texto: 'É o poder que o Executivo tem para distribuir e escalonar as funções de seus órgãos, ordenar e rever a atuação de seus agentes.\nPermite: dar ordens, delegar competências, avocar atribuições, fiscalizar e punir (o poder disciplinar deriva do hierárquico na punição de servidores).',
-              destaques: ['distribuir e escalonar funções', 'delegar competências', 'avocar atribuições']
-            },
-            {
-              numero: 'Poder Regulamentar (Normativo)',
-              texto: 'Poder conferido ao Chefe do Executivo para editar decretos e regulamentos para a fiel execução da lei.\n⚠️ O decreto regulamentar NÃO pode inovar no ordenamento jurídico (não cria direitos nem obrigações novos).',
-              destaques: ['fiel execução da lei', 'NÃO pode inovar no ordenamento', 'não cria direitos novos']
-            }
-          ]
-        }
-      ]
-    },
-    {
       id: 'cp_vida',
       disciplina: 'penal',
       nome: 'CP - Crimes contra a Vida',

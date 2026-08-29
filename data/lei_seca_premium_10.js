@@ -62,6 +62,11 @@ const LEI_SECA_PREMIUM_10 = {
               numero: 'Poder Disciplinar',
               texto: 'É a faculdade de punir as infrações funcionais dos servidores e demais pessoas sujeitas à disciplina dos órgãos e serviços da Administração.\n⚠️ Exige vínculo específico com a Administração (ex: servidor público ou empresa contratada). Punir um particular por infração de trânsito é Poder de POLÍCIA, não Disciplinar.',
               destaques: ['punir infrações funcionais', 'exige vínculo com a Administração']
+            },
+            {
+              numero: 'Poder Regulamentar (Normativo)',
+              texto: 'Poder conferido ao Chefe do Executivo para editar decretos e regulamentos para a fiel execução da lei.\n⚠️ O decreto regulamentar NÃO pode inovar no ordenamento jurídico (não cria direitos nem obrigações novos).',
+              destaques: ['fiel execução da lei', 'NÃO pode inovar no ordenamento', 'não cria direitos novos']
             }
           ]
         }
