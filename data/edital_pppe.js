@@ -74,13 +74,18 @@ const EDITAL_PPPE = {
         'Faltas Disciplinares, RDD e Sanções',
         'Procedimento Disciplinar e Prescrição',
         'LC 150/2009 - Plano de Cargos GOSPEPE',
-        'LC 422/2019 - Atribuições do Cargo'
+        'LC 422/2019 - Atribuições do Cargo',
+        'LC 106/2007 - Antecedente das Normas Disciplinares',
+        'Constituição do Estado de PE - Art. 101-104 (Polícia Penal)',
+        'Lei 6.123/1968 - Estatuto dos Servidores Civis (deveres, proibições, penas, prescrição)'
       ],
       temasMaisCobrados: [
         { nome: 'Faltas Disciplinares e RDD (estadual)', frequencia: 92 },
         { nome: 'Estabelecimentos Penais (Art. 23)', frequencia: 85 },
-        { nome: 'Prescrição de Faltas (Art. 150)', frequencia: 80 },
-        { nome: 'Plano de Cargos GOSPEPE', frequencia: 70 }
+        { nome: 'Prescrição de Faltas (Art. 150 e Lei 6.123/68)', frequencia: 80 },
+        { nome: 'Plano de Cargos GOSPEPE', frequencia: 70 },
+        { nome: 'Penas Disciplinares do Estatuto (Lei 6.123/68)', frequencia: 75 },
+        { nome: 'Polícia Penal na Constituição de PE (Art. 101-104)', frequencia: 68 }
       ]
     },
     {
@@ -214,15 +219,19 @@ const EDITAL_PPPE = {
       cor: '#0ea5e9',
       icon: '💻',
       topicos: [
-        'Sistema Operacional (Windows) - Conceitos e Atalhos',
-        'Editor de Texto e Planilha Eletrônica',
-        'Internet, Navegadores e Correio Eletrônico',
-        'Segurança da Informação (Malware, Phishing, Backup)',
-        'Redes de Computadores e Computação em Nuvem'
+        'Sistema Operacional (Windows e Linux) - Conceitos e Atalhos',
+        'Editor de Texto, Planilha Eletrônica e Apresentações',
+        'Internet, Navegadores, Sítios de Busca e Correio Eletrônico',
+        'Grupos de Discussão e Redes Sociais',
+        'Segurança da Informação (Malware, Phishing, Backup, Autenticação)',
+        'Redes de Computadores e Computação em Nuvem',
+        'Organização e Gerenciamento de Informações (Arquivos e Pastas)'
       ],
       temasMaisCobrados: [
         { nome: 'Segurança da Informação', frequencia: 90 },
-        { nome: 'Planilha Eletrônica (fórmulas)', frequencia: 82 }
+        { nome: 'Planilha Eletrônica (fórmulas)', frequencia: 82 },
+        { nome: 'Sistema Operacional (Windows/Linux)', frequencia: 75 },
+        { nome: 'Internet e Sítios de Busca', frequencia: 70 }
       ]
     },
     {
@@ -251,14 +260,19 @@ const EDITAL_PPPE = {
       icon: '🧮',
       topicos: [
         'Proposições e Conectivos Lógicos',
-        'Negação e Equivalências (Contrapositiva)',
-        'Argumentos e Silogismos',
-        'Sequências Lógicas e Numéricas',
-        'Conjuntos, Probabilidade e Combinatória'
+        'Negação e Equivalências (Contrapositiva, Leis de De Morgan)',
+        'Diagramas Lógicos (Venn)',
+        'Lógica de Primeira Ordem (Quantificadores)',
+        'Argumentos, Silogismos e Analogias',
+        'Sequências Lógicas, Numéricas e Matriciais',
+        'Conjuntos, Probabilidade e Combinatória',
+        'Problemas Aritméticos e Geométricos'
       ],
       temasMaisCobrados: [
         { nome: 'Negação de Proposições', frequencia: 90 },
-        { nome: 'Equivalências Lógicas', frequencia: 85 }
+        { nome: 'Equivalências Lógicas e Leis de De Morgan', frequencia: 88 },
+        { nome: 'Diagramas Lógicos e Conjuntos', frequencia: 78 },
+        { nome: 'Raciocínio Matricial e Sequências', frequencia: 72 }
       ]
     }
   ],

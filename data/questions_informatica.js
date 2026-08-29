@@ -297,5 +297,143 @@ const QUESTIONS_INFORMATICA = [
     ],
     gabarito: 'B',
     justificativa: 'O firewall atua como uma barreira de controle de tráfego entre redes (ex.: entre a rede interna e a internet), permitindo ou bloqueando conexões conforme regras de segurança configuradas — não tem relação com velocidade de conexão, compactação de arquivos ou tradução de DNS.'
+  },
+
+  // ============================================================
+  // Reforço adicional alinhado ao conteúdo programático oficial do
+  // edital SERES-PE/Cebraspe: sistema operacional Linux, edição de
+  // apresentações, sítios de busca, grupos de discussão/redes
+  // sociais e organização/gerenciamento de informações — tópicos
+  // explicitamente listados no edital e ainda não cobertos.
+  // ============================================================
+  {
+    id: 'info_19',
+    disciplina: 'informatica',
+    topico: 'Sistema Operacional (Linux) - Conceitos Básicos',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'O Linux é um sistema operacional de código aberto (open source) que, ao contrário de sistemas proprietários, permite que:',
+    alternativas: [
+      { letra: 'A', texto: 'O código-fonte seja livremente estudado, modificado e redistribuído, dando origem a diferentes distribuições (como Ubuntu e Fedora).' },
+      { letra: 'B', texto: 'Seja executado apenas em computadores fabricados pela Apple.' },
+      { letra: 'C', texto: 'Seja utilizado exclusivamente em ambiente corporativo, sendo vedado o uso doméstico.' },
+      { letra: 'D', texto: 'Funcione apenas sem interface gráfica, exigindo o uso exclusivo de linha de comando.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O Linux é software livre/open source: seu código-fonte pode ser estudado, modificado e redistribuído, originando diferentes distribuições. Atualmente possui diversas interfaces gráficas (GNOME, KDE etc.), não se restringindo ao terminal.'
+  },
+  {
+    id: 'info_20',
+    disciplina: 'informatica',
+    topico: 'Linux - Comandos Básicos de Terminal',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Em um terminal Linux, o comando utilizado para listar os arquivos e diretórios de uma pasta é:',
+    alternativas: [
+      { letra: 'A', texto: 'cd' },
+      { letra: 'B', texto: 'ls' },
+      { letra: 'C', texto: 'rm' },
+      { letra: 'D', texto: 'mkdir' }
+    ],
+    gabarito: 'B',
+    justificativa: '"ls" (list) lista o conteúdo do diretório atual. "cd" muda de diretório, "rm" remove arquivos e "mkdir" cria diretórios.'
+  },
+  {
+    id: 'info_21',
+    disciplina: 'informatica',
+    topico: 'Apresentações (PowerPoint)',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Em softwares de apresentação de slides, como o Microsoft PowerPoint, o modo de exibição em tela cheia, slide a slide, para o público, é iniciado, tipicamente, pela tecla:',
+    alternativas: [
+      { letra: 'A', texto: 'F5' },
+      { letra: 'B', texto: 'F2' },
+      { letra: 'C', texto: 'Ctrl + P' },
+      { letra: 'D', texto: 'Ctrl + N' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A tecla F5 inicia a apresentação de slides desde o primeiro slide, em modo de exibição de tela cheia. Ctrl+P é usado para imprimir, e Ctrl+N geralmente cria um novo documento/apresentação.'
+  },
+  {
+    id: 'info_22',
+    disciplina: 'informatica',
+    topico: 'Sítios de Busca - Operadores de Pesquisa',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Em sítios de busca na internet, como o Google, para pesquisar uma expressão EXATA (na ordem exata em que foi digitada), o usuário deve digitar a expressão:',
+    alternativas: [
+      { letra: 'A', texto: 'Sem nenhuma formatação especial.' },
+      { letra: 'B', texto: 'Entre aspas duplas, como em "código penitenciário de Pernambuco".' },
+      { letra: 'C', texto: 'Precedida do sinal de menos (-).' },
+      { letra: 'D', texto: 'Em letras maiúsculas.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'Aspas duplas delimitam uma busca por correspondência exata da expressão. O sinal de menos (-) serve para excluir termos dos resultados, e o uso de maiúsculas ou minúsculas não afeta a busca.'
+  },
+  {
+    id: 'info_23',
+    disciplina: 'informatica',
+    topico: 'Grupos de Discussão e Listas de E-mail',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Grupos de discussão baseados em listas de e-mail (mailing lists) permitem que:',
+    alternativas: [
+      { letra: 'A', texto: 'Uma mensagem enviada para o endereço da lista seja automaticamente distribuída a todos os membros inscritos.' },
+      { letra: 'B', texto: 'Apenas o administrador da lista possa enviar e receber mensagens.' },
+      { letra: 'C', texto: 'As mensagens sejam obrigatoriamente criptografadas, não podendo ser lidas por nenhum membro.' },
+      { letra: 'D', texto: 'O grupo funcione exclusivamente por meio de redes sociais, sendo incompatível com correio eletrônico.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Uma lista de discussão distribui automaticamente, a todos os inscritos, qualquer mensagem enviada ao endereço eletrônico do grupo — mecanismo típico de fóruns e grupos de e-mail temáticos.'
+  },
+  {
+    id: 'info_24',
+    disciplina: 'informatica',
+    topico: 'Redes Sociais - Uso Institucional e Segurança',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'No uso institucional de redes sociais por órgãos públicos, uma boa prática de segurança da informação recomendada é:',
+    alternativas: [
+      { letra: 'A', texto: 'Compartilhar a senha da conta oficial entre todos os servidores do setor, por comodidade.' },
+      { letra: 'B', texto: 'Habilitar autenticação de dois fatores e restringir o acesso administrativo da conta a servidores autorizados.' },
+      { letra: 'C', texto: 'Publicar informações sigilosas de processos em andamento, para dar transparência.' },
+      { letra: 'D', texto: 'Desabilitar qualquer forma de verificação de identidade, para agilizar o acesso da equipe.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'A autenticação de dois fatores e a restrição de acessos administrativos reduzem o risco de comprometimento da conta institucional, alinhando-se às boas práticas de segurança da informação.'
+  },
+  {
+    id: 'info_25',
+    disciplina: 'informatica',
+    topico: 'Organização e Gerenciamento de Informações',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'No gerenciamento de arquivos em um sistema operacional (Windows ou Linux), a organização de documentos em uma estrutura hierárquica de pastas (diretórios) e subpastas tem como principal vantagem:',
+    alternativas: [
+      { letra: 'A', texto: 'Impedir que qualquer arquivo seja excluído acidentalmente.' },
+      { letra: 'B', texto: 'Facilitar a localização, a organização lógica e o backup seletivo dos arquivos armazenados.' },
+      { letra: 'C', texto: 'Aumentar automaticamente o espaço de armazenamento disponível no disco.' },
+      { letra: 'D', texto: 'Eliminar a necessidade de nomear os arquivos.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'A hierarquia de pastas organiza logicamente os arquivos por tema/projeto, facilitando busca, manutenção e realização de backups seletivos — não interfere no espaço em disco nem impede exclusões acidentais.'
+  },
+  {
+    id: 'info_26',
+    disciplina: 'informatica',
+    topico: 'Computação em Nuvem - Vantagens sobre Backup Local',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Em relação ao armazenamento de arquivos, uma vantagem do backup em nuvem (cloud) sobre o backup exclusivamente local é:',
+    alternativas: [
+      { letra: 'A', texto: 'Dispensar totalmente qualquer conexão à internet para acesso aos arquivos.' },
+      { letra: 'B', texto: 'Permitir o acesso aos arquivos a partir de diferentes dispositivos e locais, desde que haja conexão à internet.' },
+      { letra: 'C', texto: 'Ser imune a qualquer tipo de falha de segurança ou vazamento de dados.' },
+      { letra: 'D', texto: 'Não exigir nenhum tipo de autenticação para acesso aos arquivos.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'O armazenamento em nuvem permite acesso remoto multiplataforma via internet — sua principal vantagem sobre um backup estritamente local, que fica restrito ao dispositivo ou mídia física onde foi realizado.'
   }
 ];

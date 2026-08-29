@@ -317,5 +317,204 @@ const QUESTIONS_LEGISLACAO_PE = [
     gabarito: 'B',
     artigo: 'Art. 3º da Lei 15.755/2016',
     justificativa: 'A execução penal, mesmo restringindo a liberdade, preserva os direitos fundamentais do condenado que não foram atingidos pela sentença ou pela lei, em harmonia com o princípio da dignidade da pessoa humana.'
+  },
+
+  // ============================================================
+  // Constituição do Estado de Pernambuco (arts. 101-104, redação
+  // dada pela Emenda Constitucional Estadual nº 53/2020) e Lei nº
+  // 6.123/1968 (Estatuto dos Funcionários Públicos Civis do Estado
+  // de Pernambuco) — fontes: legis.alepe.pe.gov.br (texto original
+  // da Lei 6.123/1968) e camarascc.com.br (texto consolidado dos
+  // arts. 101-105 da CE/PE).
+  // ============================================================
+  {
+    id: 'pe_leg_19',
+    disciplina: 'legislacao_pe',
+    topico: 'Constituição de PE - Órgãos de Segurança Pública',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Após a Emenda Constitucional Estadual nº 53/2020, o art. 101 da Constituição do Estado de Pernambuco passou a elencar, como órgão permanente de segurança pública, além da Polícia Civil, da Polícia Militar e do Corpo de Bombeiros Militar:',
+    alternativas: [
+      { letra: 'A', texto: 'A Guarda Municipal, subordinada a cada Prefeitura.' },
+      { letra: 'B', texto: 'A Polícia Penal, vinculada ao órgão administrador do sistema penal do Estado.' },
+      { letra: 'C', texto: 'A Polícia Federal, por força de convênio com a União.' },
+      { letra: 'D', texto: 'O Corpo de Peritos Criminalísticos, como órgão autônomo.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 101 da CE/PE (redação dada pela EC nº 53/2020)',
+    justificativa: 'A EC Estadual nº 53/2020 incluiu a Polícia Penal, vinculada ao órgão administrador do sistema penal (SERES), como quarto órgão permanente de segurança pública, em harmonia com a EC Federal nº 104/2019.'
+  },
+  {
+    id: 'pe_leg_20',
+    disciplina: 'legislacao_pe',
+    topico: 'Constituição de PE - Estatutos Próprios e Carreira',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 102 da Constituição do Estado de Pernambuco, a Polícia Civil, a Polícia Militar, o Corpo de Bombeiros Militar e a Polícia Penal:',
+    alternativas: [
+      { letra: 'A', texto: 'São regidos por um único estatuto comum, com carreira unificada entre as quatro instituições.' },
+      { letra: 'B', texto: 'São regidos por estatutos próprios, organizando-se em carreira, com hierarquia e disciplina como princípios.' },
+      { letra: 'C', texto: 'Não possuem carreira estruturada, sendo os cargos de livre nomeação e exoneração.' },
+      { letra: 'D', texto: 'Subordinam-se hierarquicamente entre si, cabendo à Polícia Militar o comando das demais.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 102 da CE/PE',
+    justificativa: 'Cada instituição de segurança pública é regida por estatuto próprio, organizando-se em carreira, tendo a hierarquia e a disciplina como princípios estruturantes.'
+  },
+  {
+    id: 'pe_leg_21',
+    disciplina: 'legislacao_pe',
+    topico: 'Constituição de PE - Regulamentação da Polícia Penal',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'De acordo com o art. 104 da Constituição do Estado de Pernambuco, as atividades de manutenção da ordem, segurança interna, organização e funcionamento da Polícia Penal serão definidas:',
+    alternativas: [
+      { letra: 'A', texto: 'Exclusivamente por decreto do Governador, sem necessidade de lei.' },
+      { letra: 'B', texto: 'Em lei.' },
+      { letra: 'C', texto: 'Por resolução da Assembleia Legislativa, dispensada a sanção do Governador.' },
+      { letra: 'D', texto: 'Por ato normativo interno da SERES, sem controle legislativo.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 104 da CE/PE',
+    justificativa: 'O art. 104 remete à lei (em sentido formal) a definição das atividades de ordem, segurança interna, organização e funcionamento da Polícia Penal — papel cumprido, no plano estadual, pela Lei nº 15.755/2016 e pela LC nº 422/2019.'
+  },
+  {
+    id: 'pe_leg_22',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Penas Disciplinares',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'São penas disciplinares previstas no Estatuto dos Funcionários Públicos Civis do Estado de Pernambuco (Lei nº 6.123/1968), EXCETO:',
+    alternativas: [
+      { letra: 'A', texto: 'Repreensão.' },
+      { letra: 'B', texto: 'Suspensão.' },
+      { letra: 'C', texto: 'Cassação de aposentadoria ou disponibilidade.' },
+      { letra: 'D', texto: 'Prisão administrativa.' }
+    ],
+    gabarito: 'D',
+    artigo: 'Art. 199 da Lei 6.123/1968',
+    justificativa: 'O art. 199 prevê rol taxativo de seis penas: repreensão, multa, suspensão, destituição de função, demissão e cassação de aposentadoria ou disponibilidade. "Prisão administrativa" não é pena disciplinar prevista no estatuto.'
+  },
+  {
+    id: 'pe_leg_23',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Suspensão',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'A pena disciplinar de suspensão, prevista na Lei nº 6.123/1968, não poderá exceder o prazo de:',
+    alternativas: [
+      { letra: 'A', texto: '15 dias.' },
+      { letra: 'B', texto: '30 dias.' },
+      { letra: 'C', texto: '60 dias.' },
+      { letra: 'D', texto: '90 dias.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 202 da Lei 6.123/1968',
+    justificativa: 'O art. 202 fixa em 30 dias o prazo máximo da suspensão, aplicável em casos de falta grave ou reincidência.'
+  },
+  {
+    id: 'pe_leg_24',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Causas de Demissão',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Constitui hipótese de aplicação da pena de demissão, segundo a Lei nº 6.123/1968, EXCETO:',
+    alternativas: [
+      { letra: 'A', texto: 'Abandono de cargo.' },
+      { letra: 'B', texto: 'Insubordinação grave em serviço.' },
+      { letra: 'C', texto: 'Revelação de segredo de que tenha ciência em razão do cargo.' },
+      { letra: 'D', texto: 'Atraso injustificado de 10 minutos em um único dia de trabalho.' }
+    ],
+    gabarito: 'D',
+    artigo: 'Art. 204 da Lei 6.123/1968',
+    justificativa: 'O art. 204 relaciona causas graves de demissão (crimes contra a administração, abandono de cargo, insubordinação grave, revelação de segredo funcional, corrupção passiva, 60 dias de falta injustificada em 12 meses, entre outras). Um atraso isolado de 10 minutos não se enquadra em nenhuma dessas hipóteses.'
+  },
+  {
+    id: 'pe_leg_25',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Prescrição Escalonada',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo o art. 209 da Lei nº 6.123/1968, prescreve em 4 (quatro) anos a pretensão de apurar falta disciplinar sujeita à pena de:',
+    alternativas: [
+      { letra: 'A', texto: 'Repreensão.' },
+      { letra: 'B', texto: 'Suspensão.' },
+      { letra: 'C', texto: 'Demissão.' },
+      { letra: 'D', texto: 'Multa.' }
+    ],
+    gabarito: 'C',
+    artigo: 'Art. 209 da Lei 6.123/1968',
+    justificativa: 'O art. 209 escalona a prescrição conforme a gravidade: 1 ano para falta sujeita à repreensão, 2 anos para suspensão, e 4 anos para destituição de função, demissão e cassação de aposentadoria/disponibilidade.'
+  },
+  {
+    id: 'pe_leg_26',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Deveres do Funcionário',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 193 da Lei nº 6.123/1968, é dever do funcionário público civil de Pernambuco obedecer às ordens superiores:',
+    alternativas: [
+      { letra: 'A', texto: 'Em qualquer hipótese, mesmo quando manifestamente ilegais, sob pena de insubordinação.' },
+      { letra: 'B', texto: 'Exceto quando manifestamente ilegais.' },
+      { letra: 'C', texto: 'Apenas quando emanadas por escrito e assinadas pela autoridade máxima do órgão.' },
+      { letra: 'D', texto: 'Somente nos dias úteis, sendo facultativo o cumprimento em regime de plantão.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 193 da Lei 6.123/1968',
+    justificativa: 'Entre os deveres do art. 193 (assiduidade, pontualidade, discrição, urbanidade, lealdade às instituições constitucionais), está o de obedecer às ordens superiores, ressalvada a exceção de ordens manifestamente ilegais, que não devem ser cumpridas.'
+  },
+  {
+    id: 'pe_leg_27',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Proibições',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Entre as proibições previstas no art. 194 da Lei nº 6.123/1968 ao funcionário público estadual, inclui-se:',
+    alternativas: [
+      { letra: 'A', texto: 'Receber, direta ou indiretamente, remuneração de empresas que prestem serviços à repartição em que está lotado.' },
+      { letra: 'B', texto: 'Gozar de férias anuais.' },
+      { letra: 'C', texto: 'Perceber vencimento correspondente ao cargo exercido.' },
+      { letra: 'D', texto: 'Exercer o direito de petição perante a Administração.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 194 da Lei 6.123/1968',
+    justificativa: 'O art. 194 lista dezesseis proibições, entre elas receber remuneração de empresas que prestem serviço à repartição onde o servidor está lotado — conflito de interesses. As demais alternativas descrevem direitos do servidor, não proibições.'
+  },
+  {
+    id: 'pe_leg_28',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Férias',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Segundo o art. 103 da Lei nº 6.123/1968, o funcionário público civil de Pernambuco gozará de férias anuais de:',
+    alternativas: [
+      { letra: 'A', texto: '20 dias corridos.' },
+      { letra: 'B', texto: '25 dias corridos.' },
+      { letra: 'C', texto: '30 dias consecutivos.' },
+      { letra: 'D', texto: '45 dias consecutivos.' }
+    ],
+    gabarito: 'C',
+    artigo: 'Art. 103 da Lei 6.123/1968',
+    justificativa: 'O art. 103 assegura 30 dias consecutivos de férias por ano, conforme escala organizada pela autoridade competente.'
+  },
+  {
+    id: 'pe_leg_29',
+    disciplina: 'legislacao_pe',
+    topico: 'LC 106/2007 - Antecedente Disciplinar',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'A Lei Complementar nº 106/2007, do Estado de Pernambuco, é relevante para a carreira do Policial Penal porque:',
+    alternativas: [
+      { letra: 'A', texto: 'Criou originalmente o cargo de Agente de Segurança Penitenciária, sendo a primeira lei da carreira.' },
+      { letra: 'B', texto: 'Estabeleceu normas disciplinares para os Agentes de Segurança Penitenciária (atuais Policiais Penais), precedendo a consolidação promovida pelo Código Penitenciário de 2016 (Lei nº 15.755/2016).' },
+      { letra: 'C', texto: 'Extinguiu o regime disciplinar próprio da categoria, submetendo-a ao regime da Polícia Militar.' },
+      { letra: 'D', texto: 'É a lei que criou a Polícia Penal como órgão de segurança pública, substituindo a Emenda Constitucional nº 104/2019.' }
+    ],
+    gabarito: 'B',
+    artigo: 'LC 106/2007',
+    justificativa: 'A LC 106/2007 estabeleceu normas disciplinares específicas para os Agentes de Segurança Penitenciária de PE, sendo anterior e posteriormente sistematizada pelo Código Penitenciário de 2016, que hoje concentra o regramento disciplinar detalhado da categoria.'
   }
 ];

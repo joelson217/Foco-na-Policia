@@ -97,6 +97,46 @@ const LEI_SECA_PE = {
           ]
         }
       ]
+    },
+
+    // =============================================
+    // CONSTITUIÇÃO DE PE E ESTATUTO DOS SERVIDORES (LEI 6.123/1968)
+    // =============================================
+    {
+      id: 'constituicao_estatuto_pe',
+      disciplina: 'legislacao_pe',
+      nome: 'Constituição de PE e Estatuto dos Servidores',
+      sigla: 'CE/PE (arts. 101-104) + Lei 6.123/1968',
+      icon: '📘',
+      destaque: true,
+      peso: 1,
+      secoes: [
+        {
+          titulo: '📜 Constituição do Estado de PE — Segurança Pública',
+          artigos: [
+            { id: 'pe_ce_101', artigo: 'Art. 101 CE/PE (EC 53/2020)', titulo: 'Órgãos Permanentes de Segurança Pública', frente: 'Quais são os órgãos permanentes de segurança pública em PE, após a EC Estadual nº 53/2020?', verso: 'Polícia Civil, Polícia Militar, Corpo de Bombeiros Militar e Polícia Penal (vinculada ao órgão administrador do sistema penal, a SERES).', cobrado: 'hot', anos: [] },
+            { id: 'pe_ce_102', artigo: 'Art. 102 CE/PE', titulo: 'Estatutos Próprios e Carreira', frente: 'Como se organizam essas instituições, segundo o art. 102?', verso: 'Por estatutos próprios, estruturadas em carreira, tendo a hierarquia e a disciplina como princípios.', cobrado: 'medium', anos: [] },
+            { id: 'pe_ce_104', artigo: 'Art. 104 CE/PE', titulo: 'Regulamentação da Polícia Penal', frente: 'Como são definidas as atividades de ordem, segurança interna, organização e funcionamento da Polícia Penal?', verso: 'Serão definidas em lei — papel cumprido, no plano estadual, pela Lei nº 15.755/2016 e pela LC nº 422/2019.', cobrado: 'medium', anos: [] }
+          ]
+        },
+        {
+          titulo: '📋 Lei 6.123/1968 — Deveres, Proibições e Direitos',
+          artigos: [
+            { id: 'pe_est_193', artigo: 'Art. 193', titulo: 'Deveres do Funcionário', frente: 'Quais são alguns deveres do funcionário público civil de PE?', verso: 'Assiduidade, pontualidade, discrição, urbanidade, lealdade às instituições constitucionais, e obediência às ordens superiores, exceto quando manifestamente ilegais.', cobrado: 'hot', anos: [] },
+            { id: 'pe_est_194', artigo: 'Art. 194', titulo: 'Proibições', frente: 'Cite uma proibição do funcionário público estadual.', verso: 'Receber, direta ou indiretamente, remuneração de empresas que prestem serviços à repartição em que está lotado (uma entre dezesseis proibições previstas).', cobrado: 'medium', anos: [] },
+            { id: 'pe_est_103', artigo: 'Art. 103', titulo: 'Férias', frente: 'Quantos dias de férias tem o funcionário público estadual por ano?', verso: '30 dias consecutivos, conforme escala organizada pela autoridade competente.', cobrado: 'medium', anos: [] }
+          ]
+        },
+        {
+          titulo: '⚠️ Lei 6.123/1968 — Penalidades e Prescrição',
+          artigos: [
+            { id: 'pe_est_199', artigo: 'Art. 199', titulo: 'Rol de Penas Disciplinares', frente: 'Quais são as 6 penas disciplinares previstas?', verso: 'Repreensão, multa, suspensão, destituição de função, demissão e cassação de aposentadoria ou disponibilidade.', cobrado: 'hot', anos: [] },
+            { id: 'pe_est_202', artigo: 'Art. 202', titulo: 'Suspensão', frente: 'Qual o prazo máximo da suspensão disciplinar?', verso: '30 dias.', cobrado: 'hot', anos: [] },
+            { id: 'pe_est_204', artigo: 'Art. 204', titulo: 'Causas de Demissão', frente: 'Cite algumas causas de demissão.', verso: 'Crimes contra a administração pública, abandono de cargo, insubordinação grave, revelação de segredo funcional, corrupção passiva, 60 dias de falta injustificada em 12 meses, entre outras.', cobrado: 'medium', anos: [] },
+            { id: 'pe_est_209', artigo: 'Art. 209', titulo: 'Prescrição Escalonada', frente: 'Em quanto tempo prescreve cada tipo de falta disciplinar?', verso: '1 ano (repreensão), 2 anos (suspensão), e 4 anos (destituição de função, demissão e cassação de aposentadoria/disponibilidade).', cobrado: 'hot', anos: [] }
+          ]
+        }
+      ]
     }
   ]
 };

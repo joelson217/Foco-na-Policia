@@ -330,5 +330,144 @@ const QUESTIONS_RLM = [
     ],
     gabarito: 'D',
     justificativa: 'A taxa por máquina-hora é 60 ÷ (3 máquinas × 2 horas) = 10 peças por máquina-hora. Com 5 máquinas por 3 horas: 5 × 3 × 10 = 150 peças.'
+  },
+
+  // ============================================================
+  // Reforço adicional alinhado ao conteúdo programático oficial do
+  // edital SERES-PE/Cebraspe: Leis de De Morgan, diagramas lógicos,
+  // lógica de primeira ordem (quantificadores), analogias e
+  // problemas matriciais/geométricos — tópicos explicitamente
+  // listados no edital e que ainda não tinham questão própria.
+  // ============================================================
+  {
+    id: 'rlm_21',
+    disciplina: 'rlm',
+    topico: 'Lei de De Morgan - Negação da Conjunção',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Pela Lei de De Morgan, a negação da proposição composta "Marcelo é aprovado E toma posse" é:',
+    alternativas: [
+      { letra: 'A', texto: 'Marcelo não é aprovado E não toma posse.' },
+      { letra: 'B', texto: 'Marcelo não é aprovado OU não toma posse.' },
+      { letra: 'C', texto: 'Marcelo é aprovado OU toma posse.' },
+      { letra: 'D', texto: 'Se Marcelo é aprovado, então toma posse.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'Pela primeira Lei de De Morgan, ¬(P∧Q) ≡ ¬P∨¬Q: a negação de uma conjunção é a disjunção das negações, não a conjunção das negações (erro comum representado na alternativa A).'
+  },
+  {
+    id: 'rlm_22',
+    disciplina: 'rlm',
+    topico: 'Lei de De Morgan - Negação da Disjunção',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'A negação da proposição "Chove OU faz frio" é, pela segunda Lei de De Morgan:',
+    alternativas: [
+      { letra: 'A', texto: 'Não chove E não faz frio.' },
+      { letra: 'B', texto: 'Não chove OU não faz frio.' },
+      { letra: 'C', texto: 'Chove E faz frio.' },
+      { letra: 'D', texto: 'Se chove, então faz frio.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Pela segunda Lei de De Morgan, ¬(P∨Q) ≡ ¬P∧¬Q: a negação de uma disjunção é a conjunção das negações.'
+  },
+  {
+    id: 'rlm_23',
+    disciplina: 'rlm',
+    topico: 'Diagramas Lógicos (Venn) - Interseção',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Em um diagrama de Venn com dois conjuntos, A (candidatos que estudam Direito Penal) e B (candidatos que estudam Direito Constitucional), a região correspondente à interseção A ∩ B representa:',
+    alternativas: [
+      { letra: 'A', texto: 'Candidatos que estudam somente Direito Penal.' },
+      { letra: 'B', texto: 'Candidatos que estudam somente Direito Constitucional.' },
+      { letra: 'C', texto: 'Candidatos que estudam as duas disciplinas simultaneamente.' },
+      { letra: 'D', texto: 'Candidatos que não estudam nenhuma das duas disciplinas.' }
+    ],
+    gabarito: 'C',
+    justificativa: 'A interseção (A∩B) em um diagrama lógico representa exatamente os elementos comuns aos dois conjuntos — nesse caso, quem estuda ambas as disciplinas.'
+  },
+  {
+    id: 'rlm_24',
+    disciplina: 'rlm',
+    topico: 'Lógica de Primeira Ordem - Negação de Quantificador Existencial',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'A negação lógica da proposição "Existe um servidor que não cumpre suas obrigações" é:',
+    alternativas: [
+      { letra: 'A', texto: 'Nenhum servidor cumpre suas obrigações.' },
+      { letra: 'B', texto: 'Todo servidor cumpre suas obrigações.' },
+      { letra: 'C', texto: 'Existe um servidor que cumpre suas obrigações.' },
+      { letra: 'D', texto: 'Não existe nenhum servidor.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'A negação de um quantificador existencial negativo ("existe x tal que não P(x)") é o quantificador universal afirmativo ("para todo x, P(x)") — ou seja, "todo servidor cumpre suas obrigações". As demais alternativas alteram indevidamente o quantificador ou a proposição.'
+  },
+  {
+    id: 'rlm_25',
+    disciplina: 'rlm',
+    topico: 'Analogias',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Assinale a alternativa que mantém a mesma relação lógica de "Delegado está para Polícia Civil, assim como Diretor de Presídio está para":',
+    alternativas: [
+      { letra: 'A', texto: 'Sistema Penitenciário.' },
+      { letra: 'B', texto: 'Ministério Público.' },
+      { letra: 'C', texto: 'Poder Judiciário.' },
+      { letra: 'D', texto: 'Defensoria Pública.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A analogia busca a instituição correspondente à autoridade citada: assim como o Delegado dirige uma unidade da Polícia Civil, o Diretor de Presídio dirige uma unidade do Sistema Penitenciário, mantendo o paralelismo cargo-instituição.'
+  },
+  {
+    id: 'rlm_26',
+    disciplina: 'rlm',
+    topico: 'Raciocínio Matricial',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Observe a matriz numérica organizada em linhas, em que cada linha segue o padrão (n, 2n, 4n), sendo "n" o número da linha: Linha 1: 1, 2, 4. Linha 2: 2, 4, 8. Linha 3: 3, 6, 12. Seguindo o mesmo padrão, qual é o valor da célula central da Linha 4?',
+    alternativas: [
+      { letra: 'A', texto: '6' },
+      { letra: 'B', texto: '8' },
+      { letra: 'C', texto: '12' },
+      { letra: 'D', texto: '16' }
+    ],
+    gabarito: 'B',
+    justificativa: 'Na linha 4 (n=4), o padrão (n, 2n, 4n) resulta em 4, 8, 16. A célula central corresponde a 2n = 2×4 = 8.'
+  },
+  {
+    id: 'rlm_27',
+    disciplina: 'rlm',
+    topico: 'Raciocínio Geométrico - Perímetro',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Um terreno retangular usado como base de treinamento tem 12 metros de comprimento e 8 metros de largura. Qual é o seu perímetro?',
+    alternativas: [
+      { letra: 'A', texto: '20 m' },
+      { letra: 'B', texto: '40 m' },
+      { letra: 'C', texto: '48 m' },
+      { letra: 'D', texto: '96 m' }
+    ],
+    gabarito: 'B',
+    justificativa: 'O perímetro de um retângulo é 2×(comprimento + largura) = 2×(12+8) = 40 m.'
+  },
+  {
+    id: 'rlm_28',
+    disciplina: 'rlm',
+    topico: 'Disjunção Exclusiva (XOR)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Na lógica proposicional, a disjunção exclusiva ("ou... ou", também chamada XOR) entre P e Q é verdadeira quando:',
+    alternativas: [
+      { letra: 'A', texto: 'P e Q são ambas verdadeiras.' },
+      { letra: 'B', texto: 'P e Q são ambas falsas.' },
+      { letra: 'C', texto: 'Exatamente uma das proposições, P ou Q, é verdadeira, mas não ambas.' },
+      { letra: 'D', texto: 'Pelo menos uma das proposições é verdadeira, incluindo quando ambas o são.' }
+    ],
+    gabarito: 'C',
+    justificativa: 'A disjunção exclusiva (XOR) é verdadeira apenas quando exatamente uma das proposições é verdadeira — diferindo do "ou" inclusivo, que também é verdadeiro quando ambas são verdadeiras (alternativa D).'
   }
 ];
