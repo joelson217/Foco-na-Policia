@@ -543,5 +543,180 @@ const QUESTIONS_EXTRA_LEP = [
     "gabarito": "D",
     "artigo": "Art. 112, VIII da LEP (Lei 13.964/2019)",
     "justificativa": "O art. 112 da LEP, com a redação da Lei 13.964/2019, prevê os seguintes percentuais relacionados a crime hediondo ou equiparado com resultado morte: inciso VI, alínea 'a' — condenado PRIMÁRIO: 50%; inciso VIII — condenado REINCIDENTE ESPECÍFICO: 70%. O inciso VII (60%) trata do reincidente em crime hediondo ou equiparado SEM exigência de resultado morte. Portanto, 70% é o percentual mais elevado previsto na LEP, exigido apenas para o reincidente específico em crime hediondo ou equiparado com resultado morte, vedado o livramento condicional."
+  },
+
+  {
+    "id": "lep_extra_31",
+    "disciplina": "lep",
+    "topico": "Lei 11.671/2008 - Sistema Penitenciário Federal",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A inclusão de um preso em estabelecimento penal federal de segurança máxima, segundo a Lei nº 11.671/2008, é medida:",
+    "alternativas": [
+      { "letra": "A", "texto": "Ordinária, aplicável a todo condenado por crime hediondo, independentemente de justificativa específica." },
+      { "letra": "B", "texto": "Excepcional, cabível quando a medida se justifique no interesse da segurança pública ou do próprio preso, e por prazo determinado." },
+      { "letra": "C", "texto": "Definitiva e obrigatória para presos em regime fechado, sem possibilidade de retorno ao estabelecimento de origem." },
+      { "letra": "D", "texto": "Decidida exclusivamente pelo diretor do estabelecimento de origem, sem participação do Poder Judiciário." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 3º da Lei 11.671/2008",
+    "justificativa": "A inclusão em estabelecimento penal federal de segurança máxima é medida excepcional, cabível quando justificada no interesse da segurança pública ou do próprio preso, sempre por prazo determinado e mediante decisão judicial motivada."
+  },
+  {
+    "id": "lep_extra_32",
+    "disciplina": "lep",
+    "topico": "Lei 11.671/2008 - Prazo de Permanência",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Após as alterações promovidas pela Lei nº 13.964/2019 (Pacote Anticrime), o prazo de permanência do preso em estabelecimento penal federal de segurança máxima passou a ser de:",
+    "alternativas": [
+      { "letra": "A", "texto": "360 dias, prazo original mantido sem alteração." },
+      { "letra": "B", "texto": "Até 3 anos, renovável por iguais períodos, mediante pedido motivado do juízo de origem." },
+      { "letra": "C", "texto": "1 ano, improrrogável." },
+      { "letra": "D", "texto": "Prazo indeterminado, sem necessidade de renovação ou revisão periódica." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 10 da Lei 11.671/2008 (redação da Lei 13.964/2019)",
+    "justificativa": "O Pacote Anticrime ampliou o prazo original de 360 dias para até 3 anos, renovável por iguais períodos quando solicitado com motivação pelo juízo de origem e desde que persistam os motivos que determinaram a transferência."
+  },
+  {
+    "id": "lep_extra_33",
+    "disciplina": "lep",
+    "topico": "Lei 11.671/2008 - Comunicação de Renovação",
+    "peso": 2,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo a Lei nº 11.671/2008, com quantos dias de antecedência o Departamento Penitenciário Nacional (Depen) deve comunicar o juízo de origem sobre o fim do prazo de permanência do preso em estabelecimento federal, solicitando manifestação sobre a necessidade de renovação?",
+    "alternativas": [
+      { "letra": "A", "texto": "10 dias." },
+      { "letra": "B", "texto": "30 dias." },
+      { "letra": "C", "texto": "60 dias." },
+      { "letra": "D", "texto": "120 dias." }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 10, §1º da Lei 11.671/2008",
+    "justificativa": "A comunicação deve ocorrer com 60 dias de antecedência ao término do prazo, solicitando ao juízo de origem manifestação sobre a necessidade de renovação da permanência."
+  },
+  {
+    "id": "lep_extra_34",
+    "disciplina": "lep",
+    "topico": "Resolução CNPCP - Revista Pessoal e Vedação à Revista Vexatória",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "As resoluções do Conselho Nacional de Política Criminal e Penitenciária (CNPCP) sobre revista pessoal em estabelecimentos prisionais determinam que:",
+    "alternativas": [
+      { "letra": "A", "texto": "A revista deve priorizar equipamentos eletrônicos (detectores de metal, raio-x, scanners corporais), sendo vedada qualquer forma de revista vexatória, desumana ou degradante." },
+      { "letra": "B", "texto": "A revista vexatória é obrigatória para todos os visitantes, independentemente de existirem meios eletrônicos disponíveis." },
+      { "letra": "C", "texto": "Apenas visitantes do sexo feminino podem ser submetidas a revista íntima, sem qualquer restrição." },
+      { "letra": "D", "texto": "A revista pessoal foi totalmente abolida, não podendo ser realizada em nenhuma hipótese." }
+    ],
+    "gabarito": "A",
+    "artigo": "Resolução CNPCP (matéria atualmente tratada na Resolução nº 28/2022)",
+    "justificativa": "As resoluções do CNPCP sobre o tema recomendam o uso prioritário de equipamentos eletrônicos para a revista, vedando expressamente práticas vexatórias, desumanas ou degradantes — entendimento reforçado pelo STF (Tema 998 de repercussão geral) e seguido por diversos estados que já proibiram a revista vexatória em suas unidades prisionais."
+  },
+  {
+    "id": "lep_extra_35",
+    "disciplina": "lep",
+    "topico": "Decreto 7.626/2011 - Educação no Sistema Prisional",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "O Decreto nº 7.626/2011 institui, no âmbito do sistema prisional brasileiro:",
+    "alternativas": [
+      { "letra": "A", "texto": "O Plano Estratégico de Educação no Âmbito do Sistema Prisional (PEESP), com o objetivo de ampliar e qualificar a oferta educacional às pessoas em privação de liberdade." },
+      { "letra": "B", "texto": "O Sistema Penitenciário Federal de segurança máxima." },
+      { "letra": "C", "texto": "O Regime Disciplinar Diferenciado (RDD)." },
+      { "letra": "D", "texto": "O Conselho Nacional de Política Criminal e Penitenciária." }
+    ],
+    "gabarito": "A",
+    "artigo": "Decreto nº 7.626/2011",
+    "justificativa": "O Decreto institui o PEESP (Plano Estratégico de Educação no Âmbito do Sistema Prisional), com o objetivo de ampliar e qualificar a oferta de educação às pessoas em privação de liberdade nos estabelecimentos penais do país."
+  },
+  {
+    "id": "lep_extra_36",
+    "disciplina": "lep",
+    "topico": "Resolução CNPCP nº 9/2009 - Proporção Agente-Preso",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "A Resolução CNPCP nº 9/2009 estabelece diretrizes sobre:",
+    "alternativas": [
+      { "letra": "A", "texto": "A proporção adequada entre o número de agentes penitenciários e a população carcerária, como parâmetro de segurança e gestão." },
+      { "letra": "B", "texto": "A remuneração mínima dos policiais penais em todo o território nacional." },
+      { "letra": "C", "texto": "O tempo máximo de estágio probatório dos agentes penitenciários." },
+      { "letra": "D", "texto": "A criação de um órgão nacional para substituir as secretarias estaduais de administração penitenciária." }
+    ],
+    "gabarito": "A",
+    "artigo": "Resolução CNPCP nº 9/2009",
+    "justificativa": "A resolução estabelece diretrizes sobre a proporção adequada entre agentes penitenciários e população carcerária, parâmetro relevante para a gestão da segurança nos estabelecimentos penais."
+  },
+  {
+    "id": "lep_extra_37",
+    "disciplina": "lep",
+    "topico": "Resolução CNPCP nº 8/2011 - Assistência Religiosa",
+    "peso": 1,
+    "dificuldade": "facil",
+    "enunciado": "A Resolução CNPCP nº 8/2011, sobre assistência religiosa nos estabelecimentos penais, assegura:",
+    "alternativas": [
+      { "letra": "A", "texto": "A liberdade de culto e o acesso a diferentes credos religiosos pelas pessoas privadas de liberdade." },
+      { "letra": "B", "texto": "A obrigatoriedade de participação em cultos de uma única religião oficial do estabelecimento." },
+      { "letra": "C", "texto": "A vedação total de qualquer prática religiosa dentro dos estabelecimentos penais." },
+      { "letra": "D", "texto": "A substituição da assistência religiosa por atendimento psicológico obrigatório." }
+    ],
+    "gabarito": "A",
+    "artigo": "Resolução CNPCP nº 8/2011",
+    "justificativa": "A resolução assegura a liberdade de culto e o acesso a diferentes credos, em harmonia com o direito constitucional à liberdade religiosa (art. 5º, VI, CF) e com o art. 24 da LEP, que já prevê a assistência religiosa como direito do preso."
+  },
+  {
+    "id": "lep_extra_38",
+    "disciplina": "lep",
+    "topico": "Portaria Interministerial nº 210/2014 - Mulheres em Privação de Liberdade",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "A Portaria Interministerial MJ/SPM nº 210/2014 institui:",
+    "alternativas": [
+      { "letra": "A", "texto": "A Política Nacional de Atenção às Mulheres em Situação de Privação de Liberdade, com diretrizes específicas de gênero (saúde, maternidade, convivência familiar)." },
+      { "letra": "B", "texto": "A extinção de estabelecimentos penais femininos, unificando-os aos masculinos." },
+      { "letra": "C", "texto": "O Regime Disciplinar Diferenciado exclusivo para mulheres." },
+      { "letra": "D", "texto": "A vedação à visita de filhos menores de idade a mães encarceradas." }
+    ],
+    "gabarito": "A",
+    "artigo": "Portaria Interministerial MJ/SPM nº 210/2014",
+    "justificativa": "A portaria institui política nacional com diretrizes específicas para as necessidades de gênero das mulheres em privação de liberdade, incluindo saúde, maternidade e convivência familiar."
+  },
+  {
+    "id": "lep_extra_39",
+    "disciplina": "lep",
+    "topico": "Banco Nacional de Perfis Genéticos",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Após as alterações da Lei nº 13.964/2019 (Pacote Anticrime) na Lei nº 12.037/2009, a identificação do perfil genético, mediante extração de DNA por técnica adequada e indolor, passou a ser:",
+    "alternativas": [
+      { "letra": "A", "texto": "Facultativa, a critério exclusivo do condenado." },
+      { "letra": "B", "texto": "Obrigatória para condenados por crime doloso praticado com violência de natureza grave contra pessoa, ou por crime hediondo, no momento do ingresso no estabelecimento prisional." },
+      { "letra": "C", "texto": "Vedada em qualquer hipótese, por violar a dignidade da pessoa humana." },
+      { "letra": "D", "texto": "Aplicável apenas a estrangeiros em cumprimento de pena no Brasil." }
+    ],
+    "gabarito": "B",
+    "artigo": "Lei 12.037/2009 (redação da Lei 13.964/2019)",
+    "justificativa": "A identificação do perfil genético tornou-se obrigatória para condenados por crime doloso com violência grave contra pessoa ou crime hediondo, com a coleta de DNA por técnica adequada e indolor no momento do ingresso no estabelecimento prisional, alimentando o banco nacional de perfis genéticos."
+  },
+  {
+    "id": "lep_extra_40",
+    "disciplina": "lep",
+    "topico": "Portaria PNAISP - Saúde no Sistema Prisional",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "A Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade (PNAISP), instituída por portaria interministerial, tem como principal objetivo:",
+    "alternativas": [
+      { "letra": "A", "texto": "Garantir o acesso das pessoas privadas de liberdade às ações e serviços de saúde no âmbito do Sistema Único de Saúde (SUS), dentro e a partir dos estabelecimentos penais." },
+      { "letra": "B", "texto": "Transferir a responsabilidade pela saúde dos presos exclusivamente para planos de saúde privados contratados pelo próprio preso." },
+      { "letra": "C", "texto": "Restringir o atendimento de saúde apenas a casos de emergência com risco iminente de morte." },
+      { "letra": "D", "texto": "Substituir integralmente a assistência à saúde por assistência religiosa nos estabelecimentos penais." }
+    ],
+    "gabarito": "A",
+    "artigo": "Portaria Interministerial MS/MJ nº 1/2014 (PNAISP)",
+    "justificativa": "A PNAISP busca garantir o acesso das pessoas privadas de liberdade às ações e aos serviços de saúde do SUS, articulando a atenção básica prisional com a rede pública de saúde, em cumprimento ao direito à saúde previsto na LEP e na Constituição."
   }
 ];

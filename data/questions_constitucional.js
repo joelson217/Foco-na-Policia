@@ -925,5 +925,241 @@ const QUESTIONS_CONSTITUCIONAL = [
     "artigo": "Art. 102 e 103 da CF/88 c/c Lei 9.882/99",
     "justificativa": "A ADPF tem caráter subsidiário (Art. 4º, §1º da Lei 9.882/99): só é cabível quando não houver outro meio eficaz de sanar a lesividade. O rol de legitimados da ADI é restrito (Art. 103 da CF). A decisão em ADI tem efeito erga omnes e vincula todos os órgãos do Poder Judiciário e da Administração Pública.",
     "id": "const_30"
+  },
+  {
+    "id": "const_31",
+    "disciplina": "constitucional",
+    "topico": "Funções Essenciais à Justiça - Ministério Público",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 127 da Constituição Federal, o Ministério Público é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis."
+      },
+      {
+        "letra": "B",
+        "texto": "A representação judicial e extrajudicial da União, com exclusividade."
+      },
+      {
+        "letra": "C",
+        "texto": "A prestação de assistência jurídica integral e gratuita aos necessitados, com exclusividade."
+      },
+      {
+        "letra": "D",
+        "texto": "O julgamento de ações penais de competência originária do STF."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 127 da CF/88",
+    "justificativa": "A defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis é a missão constitucional do Ministério Público. A representação da União é função da Advocacia-Geral da União (art. 131), e a assistência jurídica gratuita é função da Defensoria Pública (art. 134)."
+  },
+  {
+    "id": "const_32",
+    "disciplina": "constitucional",
+    "topico": "Funções Essenciais à Justiça - Advocacia Pública",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 131 da Constituição Federal, a Advocacia-Geral da União (AGU) tem como atribuição:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Representar a União, judicial e extrajudicialmente, e exercer as atividades de consultoria e assessoramento jurídico do Poder Executivo."
+      },
+      {
+        "letra": "B",
+        "texto": "Substituir o Ministério Público na propositura de ações penais públicas."
+      },
+      {
+        "letra": "C",
+        "texto": "Prestar assistência jurídica gratuita exclusivamente a pessoas de baixa renda, em qualquer ramo do direito."
+      },
+      {
+        "letra": "D",
+        "texto": "Fiscalizar a atuação administrativa e financeira do Poder Judiciário."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 131 da CF/88",
+    "justificativa": "A AGU representa a União judicial e extrajudicialmente e exerce consultoria/assessoramento jurídico do Poder Executivo. Os Procuradores dos Estados e do DF (art. 132) exercem função equivalente no âmbito estadual."
+  },
+  {
+    "id": "const_33",
+    "disciplina": "constitucional",
+    "topico": "Funções Essenciais à Justiça - Defensoria Pública",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 134 da Constituição Federal, a Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe, fundamentalmente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A orientação jurídica, a promoção dos direitos humanos e a defesa, em todos os graus, dos direitos individuais e coletivos, de forma integral e gratuita, aos necessitados."
+      },
+      {
+        "letra": "B",
+        "texto": "A defesa da ordem jurídica e do regime democrático, com exclusividade sobre o Ministério Público."
+      },
+      {
+        "letra": "C",
+        "texto": "A representação judicial da União nas causas de interesse fazendário."
+      },
+      {
+        "letra": "D",
+        "texto": "A fiscalização financeira e orçamentária dos Poderes Executivo e Legislativo."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 134 da CF/88",
+    "justificativa": "A Defensoria Pública presta orientação jurídica e defesa integral e gratuita aos necessitados, em todos os graus, como expressão do regime democrático — distinta das funções do MP (art. 127) e da Advocacia Pública (arts. 131-132)."
+  },
+  {
+    "id": "const_34",
+    "disciplina": "constitucional",
+    "topico": "Funções Essenciais à Justiça - Garantias da Defensoria",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo o art. 134, §1º da Constituição Federal, aos membros da Defensoria Pública, organizados em cargos de carreira providos mediante concurso público de provas e títulos, é assegurada:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Inamovibilidade, sendo vedado o exercício da advocacia fora das atribuições institucionais."
+      },
+      {
+        "letra": "B",
+        "texto": "Vitaliciedade após 2 anos de exercício, nos mesmos moldes da magistratura."
+      },
+      {
+        "letra": "C",
+        "texto": "Livre exercício da advocacia privada, cumulativamente com o cargo público."
+      },
+      {
+        "letra": "D",
+        "texto": "Foro por prerrogativa de função equivalente ao dos Ministros do STF."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 134, §1º da CF/88",
+    "justificativa": "A CF assegura inamovibilidade aos membros da Defensoria Pública, vedando o exercício da advocacia fora de suas atribuições institucionais — a vitaliciedade nesses moldes e o foro por prerrogativa equivalente ao STF não são garantias previstas para a carreira."
+  },
+  {
+    "id": "const_35",
+    "disciplina": "constitucional",
+    "topico": "Processo Legislativo - Espécies Normativas",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 59 da Constituição Federal, são espécies normativas resultantes do processo legislativo:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas leis ordinárias e leis complementares, sendo as demais espécies infralegais."
+      },
+      {
+        "letra": "C",
+        "texto": "Decretos regulamentares, portarias e instruções normativas."
+      },
+      {
+        "letra": "D",
+        "texto": "Súmulas vinculantes e enunciados de jurisprudência dos tribunais superiores."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 59 da CF/88",
+    "justificativa": "O art. 59 elenca sete espécies normativas: emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções. Decretos regulamentares e portarias são atos infralegais, e súmulas não são espécies do processo legislativo."
+  },
+  {
+    "id": "const_36",
+    "disciplina": "constitucional",
+    "topico": "Processo Legislativo - Hierarquia das Espécies Normativas",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação às espécies normativas previstas no art. 59 da Constituição Federal, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não há hierarquia entre elas, cada uma atuando dentro de sua área de competência constitucionalmente reservada."
+      },
+      {
+        "letra": "B",
+        "texto": "A lei ordinária sempre prevalece sobre a lei complementar, por ser processada com maior celeridade."
+      },
+      {
+        "letra": "C",
+        "texto": "A medida provisória tem hierarquia superior às leis ordinárias, por emanar diretamente do Poder Executivo."
+      },
+      {
+        "letra": "D",
+        "texto": "Os decretos legislativos têm hierarquia superior às leis complementares."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 59 da CF/88",
+    "justificativa": "Entre as espécies normativas do art. 59 não há hierarquia, mas critério de competência: cada espécie atua na matéria que lhe é constitucionalmente reservada (ex.: lei complementar para matérias específicas exigidas pela CF, exigindo quórum de maioria absoluta, diferente da lei ordinária, que exige maioria simples)."
+  },
+  {
+    "id": "const_37",
+    "disciplina": "constitucional",
+    "topico": "Poder Judiciário - Conselho Nacional de Justiça",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 103-B da Constituição Federal, o Conselho Nacional de Justiça (CNJ) tem como principal atribuição:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O controle da atuação administrativa e financeira do Poder Judiciário e do cumprimento dos deveres funcionais dos juízes."
+      },
+      {
+        "letra": "B",
+        "texto": "O julgamento de recursos extraordinários em matéria constitucional, em substituição ao STF."
+      },
+      {
+        "letra": "C",
+        "texto": "A elaboração de projetos de lei de iniciativa do Poder Judiciário perante o Congresso Nacional."
+      },
+      {
+        "letra": "D",
+        "texto": "A nomeação de todos os juízes de primeiro grau do país."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 103-B da CF/88",
+    "justificativa": "O CNJ exerce o controle da atuação administrativa e financeira do Poder Judiciário e do cumprimento dos deveres funcionais dos juízes, zelando pela autonomia do Judiciário e pela observância do Estatuto da Magistratura — não possui função jurisdicional de julgamento de recursos."
+  },
+  {
+    "id": "const_38",
+    "disciplina": "constitucional",
+    "topico": "Organização Político-Administrativa - Entes Federativos",
+    "peso": 1,
+    "dificuldade": "facil",
+    "enunciado": "Segundo o art. 18 da Constituição Federal, a organização político-administrativa da República Federativa do Brasil compreende:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A União, os Estados, o Distrito Federal e os Municípios, todos autônomos, nos termos da Constituição."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas a União e os Estados, sendo os Municípios meras subdivisões administrativas estaduais sem autonomia própria."
+      },
+      {
+        "letra": "C",
+        "texto": "A União, os Estados e os Territórios Federais, atualmente em número de três territórios ativos."
+      },
+      {
+        "letra": "D",
+        "texto": "Exclusivamente a União, detentora de soberania, sendo os demais entes meros órgãos administrativos federais."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 18 da CF/88",
+    "justificativa": "A organização político-administrativa compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos nos termos da Constituição — o Brasil atualmente não possui Territórios Federais ativos (o último, Fernando de Noronha, foi extinto pela CF/88, incorporado a Pernambuco)."
   }
 ];

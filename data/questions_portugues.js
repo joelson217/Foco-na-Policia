@@ -839,5 +839,55 @@ const QUESTIONS_PORTUGUES = [
     "artigo": "Coesão Textual - Relações Lógico-Semânticas (Causa)",
     "justificativa": "\"Como\", no início do período original, introduz oração causal. \"Pois\", pospositivo, mantém a mesma relação de causa e consequência. \"Embora\" (concessiva) e \"para que\" (finalidade) alteram a relação lógica original.",
     "id": "port_29"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Crase",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que o uso do acento indicativo de crase está CORRETO:",
+    "alternativas": [
+      { "letra": "A", "texto": "O agente penitenciário entregou o relatório à diretora do estabelecimento." },
+      { "letra": "B", "texto": "O preso foi conduzido à pé até a cela de isolamento." },
+      { "letra": "C", "texto": "A audiência ocorrerá à partir das 14 horas." },
+      { "letra": "D", "texto": "Ele se referiu à ela de forma respeitosa." }
+    ],
+    "gabarito": "A",
+    "artigo": "Regência Nominal e Crase",
+    "justificativa": "Em \"à diretora\", há crase pela fusão da preposição \"a\" (exigida pelo verbo \"entregar algo A alguém\") com o artigo feminino \"a\" que antecede \"diretora\". Não há crase antes de palavras masculinas (\"a pé\"), antes de verbo (\"a partir\") ou antes de pronome pessoal (\"a ela\")."
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Pontuação - Vírgula com Aposto e Vocativo",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que a pontuação está CORRETA quanto ao uso de vírgulas para isolar aposto e vocativo:",
+    "alternativas": [
+      { "letra": "A", "texto": "João, o novo agente penitenciário, apresentou-se ao diretor esta manhã." },
+      { "letra": "B", "texto": "João o novo agente penitenciário, apresentou-se ao diretor esta manhã." },
+      { "letra": "C", "texto": "João, o novo agente penitenciário apresentou-se ao diretor esta manhã." },
+      { "letra": "D", "texto": "João o novo agente penitenciário apresentou-se, ao diretor esta manhã." }
+    ],
+    "gabarito": "A",
+    "artigo": "Pontuação - Uso da Vírgula",
+    "justificativa": "O aposto explicativo (\"o novo agente penitenciário\"), que explica quem é João, deve ser isolado por vírgulas em AMBOS os lados. As demais alternativas isolam apenas um dos lados ou pontuam incorretamente outro trecho da frase, rompendo a coesão."
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Ortografia - Parônimos e Homófonos",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "facil",
+    "enunciado": "Assinale a alternativa em que o par de palavras destacadas está empregado CORRETAMENTE, quanto à distinção entre parônimos/homófonos:",
+    "alternativas": [
+      { "letra": "A", "texto": "\"Se não\" cumprir as normas, será punido; ele agiu mal durante o plantão." },
+      { "letra": "B", "texto": "\"Senão\" cumprir as normas, será punido; ele agiu mau durante o plantão." },
+      { "letra": "C", "texto": "\"Se não\" cumprir as normas, será punido; ele agiu mau durante o plantão." },
+      { "letra": "D", "texto": "\"Senão\" cumprir as normas, será punido; ele agiu mal durante o plantão." }
+    ],
+    "gabarito": "A",
+    "artigo": "Ortografia - Parônimos (mal/mau) e Homófonos (se não/senão)",
+    "justificativa": "\"Se não\" (condicional + negação, substituível por \"caso não\") é o correto antes de uma condição, diferente de \"senão\" (equivalente a \"caso contrário\", usado em outro contexto). \"Mal\" é advérbio (antônimo de \"bem\", modifica o verbo \"agiu\"), diferente de \"mau\" (adjetivo, antônimo de \"bom\", modifica substantivo)."
   }
 ];

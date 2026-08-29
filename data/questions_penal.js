@@ -1430,5 +1430,144 @@ const QUESTIONS_PENAL = [
   "gabarito": "A",
   "artigo": "Art. 10 da Lei 9.296/1996",
   "justificativa": "O art. 10 tipifica como crime realizar interceptação de comunicações telefônicas sem autorização judicial ou com objetivos não autorizados em lei, com pena de reclusão de 2 a 4 anos e multa — aplicável tanto a agentes públicos quanto a particulares que pratiquem a conduta irregular."
+},
+{
+  "id": "penal_49",
+  "disciplina": "penal",
+  "topico": "Habeas Corpus - Cabimento",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Segundo o art. 647 do Código de Processo Penal, dar-se-á habeas corpus:",
+  "alternativas": [
+    { "letra": "A", "texto": "Sempre que alguém sofrer ou se achar na iminência de sofrer violência ou coação ilegal na sua liberdade de ir e vir, salvo nos casos de punição disciplinar." },
+    { "letra": "B", "texto": "Apenas após o trânsito em julgado de sentença condenatória." },
+    { "letra": "C", "texto": "Exclusivamente para impugnar decisões do Supremo Tribunal Federal." },
+    { "letra": "D", "texto": "Somente quando requerido pelo Ministério Público, sendo vedada a impetração por advogado ou pelo próprio paciente." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 647 do CPP",
+  "justificativa": "O habeas corpus cabe sempre que alguém sofrer ou se achar na iminência de sofrer violência ou coação ilegal na liberdade de locomoção, ressalvados os casos de punição disciplinar. Pode ser impetrado por qualquer pessoa, em favor de si ou de terceiro, inclusive sem capacidade postulatória."
+},
+{
+  "id": "penal_50",
+  "disciplina": "penal",
+  "topico": "Habeas Corpus - Hipóteses de Coação Ilegal",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 648 do CPP, considera-se ilegal a coação quando, EXCETO:",
+  "alternativas": [
+    { "letra": "A", "texto": "Não houver justa causa." },
+    { "letra": "B", "texto": "Alguém estiver preso por mais tempo do que determina a lei." },
+    { "letra": "C", "texto": "Quem ordenar a coação não tiver competência para fazê-lo." },
+    { "letra": "D", "texto": "A prisão for decretada por autoridade judiciária competente, mediante decisão fundamentada e nos limites da lei." }
+  ],
+  "gabarito": "D",
+  "artigo": "Art. 648 do CPP",
+  "justificativa": "O art. 648 lista hipóteses de ilegalidade da coação: ausência de justa causa, excesso de prazo, incompetência da autoridade coatora, cessação do motivo, entre outras. Uma prisão decretada por autoridade competente, fundamentada e dentro dos limites legais é, ao contrário, hipótese de coação LEGAL, não ensejando habeas corpus."
+},
+{
+  "id": "penal_51",
+  "disciplina": "penal",
+  "topico": "Habeas Corpus - Espécies",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "Em relação às espécies de habeas corpus, o \"habeas corpus preventivo\" (também chamado de salvo-conduto) é aquele:",
+  "alternativas": [
+    { "letra": "A", "texto": "Impetrado para evitar que a coação ilegal à liberdade de locomoção venha a ocorrer, quando ainda não se consumou." },
+    { "letra": "B", "texto": "Impetrado somente após a prisão já ter ocorrido, visando à imediata soltura do paciente." },
+    { "letra": "C", "texto": "Cabível apenas em crimes de menor potencial ofensivo." },
+    { "letra": "D", "texto": "Uma modalidade extinta pelo ordenamento jurídico brasileiro atual." }
+  ],
+  "gabarito": "A",
+  "artigo": "Doutrina processual penal sobre o CPP",
+  "justificativa": "O habeas corpus preventivo (salvo-conduto) é impetrado para evitar a consumação de uma coação ilegal iminente à liberdade de locomoção. O habeas corpus REPRESSIVO (ou liberatório), diferente, é impetrado quando a prisão ilegal já ocorreu, visando à soltura do paciente."
+},
+{
+  "id": "penal_52",
+  "disciplina": "penal",
+  "topico": "Competência Processual Penal - Regra Geral",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "Segundo o art. 70 do Código de Processo Penal, a competência para o julgamento de uma infração penal será, em regra, determinada:",
+  "alternativas": [
+    { "letra": "A", "texto": "Pelo lugar em que se consumar a infração, ou, no caso de tentativa, pelo lugar em que for praticado o último ato de execução." },
+    { "letra": "B", "texto": "Sempre pelo domicílio do réu, independentemente do local do crime." },
+    { "letra": "C", "texto": "Sempre pelo domicílio da vítima, independentemente do local do crime." },
+    { "letra": "D", "texto": "Pela livre escolha do Ministério Público, sem qualquer critério legal predefinido." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 70 do CPP",
+  "justificativa": "A regra geral de competência (ratione loci) é o local da consumação do crime; em caso de tentativa, o local do último ato de execução. O domicílio do réu (art. 72) é critério subsidiário, aplicável apenas quando o local da infração for desconhecido."
+},
+{
+  "id": "penal_53",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública - Peculato",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "O peculato, previsto no art. 312 do Código Penal, consiste em:",
+  "alternativas": [
+    { "letra": "A", "texto": "Apropriar-se o funcionário público de dinheiro, valor ou qualquer bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio." },
+    { "letra": "B", "texto": "Exigir o funcionário público, para si ou para outrem, vantagem indevida, em razão da função." },
+    { "letra": "C", "texto": "Oferecer o particular vantagem indevida a funcionário público, para determiná-lo a praticar ato de ofício." },
+    { "letra": "D", "texto": "Retardar o funcionário público, por interesse pessoal, ato de ofício, sem qualquer apropriação de bem ou valor." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 312 do CP",
+  "justificativa": "O peculato é a apropriação ou desvio, pelo funcionário público, de bem de que tem posse em razão do cargo, em proveito próprio ou alheio. As demais condutas descrevem, respectivamente, concussão (B), corrupção ativa (C) e prevaricação (D)."
+},
+{
+  "id": "penal_54",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública - Concussão x Corrupção Passiva",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "A principal diferença entre a concussão (art. 316 do CP) e a corrupção passiva (art. 317 do CP) reside em:",
+  "alternativas": [
+    { "letra": "A", "texto": "Na concussão, o funcionário público EXIGE a vantagem indevida (imposição, coerção); na corrupção passiva, o funcionário SOLICITA ou RECEBE a vantagem, ou aceita a promessa dela, sem exigência coercitiva." },
+    { "letra": "B", "texto": "A concussão só pode ser praticada por particular, enquanto a corrupção passiva só pode ser praticada por funcionário público." },
+    { "letra": "C", "texto": "Não há qualquer diferença prática entre os dois tipos penais, sendo sinônimos." },
+    { "letra": "D", "texto": "A concussão exige, necessariamente, resultado morte da vítima." }
+  ],
+  "gabarito": "A",
+  "artigo": "Arts. 316 e 317 do CP",
+  "justificativa": "A concussão envolve EXIGÊNCIA (verbo de imposição, coerção implícita) da vantagem indevida pelo funcionário público; a corrupção passiva envolve SOLICITAÇÃO ou RECEBIMENTO (ou aceitação de promessa), sem a coerção característica da concussão. Ambos os crimes são próprios de funcionário público."
+},
+{
+  "id": "penal_55",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública - Corrupção Ativa",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "A corrupção ativa, prevista no art. 333 do Código Penal, é crime que se consuma:",
+  "alternativas": [
+    { "letra": "A", "texto": "Com a simples oferta ou promessa de vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício, independentemente de aceitação pelo funcionário." },
+    { "letra": "B", "texto": "Apenas quando o funcionário público efetivamente aceita e pratica o ato solicitado." },
+    { "letra": "C", "texto": "Apenas quando o valor da vantagem oferecida ultrapassa determinado montante fixado em lei." },
+    { "letra": "D", "texto": "Somente quando praticada por funcionário público contra outro funcionário público." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 333 do CP",
+  "justificativa": "A corrupção ativa é crime formal, que se consuma com a simples oferta ou promessa de vantagem indevida, independentemente de sua aceitação ou da efetiva prática do ato pelo funcionário público — é praticada por particular (ou funcionário público agindo como particular) contra a Administração Pública."
+},
+{
+  "id": "penal_56",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública - Prevaricação",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "A prevaricação, prevista no art. 319 do Código Penal, consiste em o funcionário público retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para:",
+  "alternativas": [
+    { "letra": "A", "texto": "Satisfazer interesse ou sentimento pessoal." },
+    { "letra": "B", "texto": "Obter, necessariamente, vantagem econômica direta." },
+    { "letra": "C", "texto": "Cumprir ordem superior manifestamente legal." },
+    { "letra": "D", "texto": "Beneficiar exclusivamente terceiros estranhos à Administração Pública, nunca a si mesmo." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 319 do CP",
+  "justificativa": "A prevaricação exige elemento subjetivo específico: satisfazer interesse ou sentimento pessoal (não necessariamente vantagem econômica, podendo ser mera animosidade, amizade ou capricho) — diferindo do peculato e da corrupção, que envolvem vantagem patrimonial indevida."
 }
 ];

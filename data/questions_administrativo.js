@@ -829,5 +829,181 @@ const QUESTIONS_ADMINISTRATIVO = [
     "artigo": "Art. 41, §4º da CF/88 e Art. 20 da Lei 8.112/90",
     "justificativa": "O estágio probatório dura 3 anos (STJ/STF firmaram que coincide com o prazo de aquisição de estabilidade). O servidor estável pode perder o cargo por: sentença judicial transitada em julgado, PAD, avaliação periódica de desempenho (Art. 41, §1º, I, II e III da CF) e por insuficiência de desempenho comprovada (III). A alternativa B está incompleta.",
     "id": "adm_27"
+  },
+  {
+    "id": "adm_28",
+    "disciplina": "administrativo",
+    "topico": "Lei 9.784/1999 - Princípios do Processo Administrativo",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 2º da Lei nº 9.784/1999, a Administração Pública obedecerá, no processo administrativo federal, aos princípios de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica e interesse público, entre outros."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas legalidade e eficiência, sendo os demais princípios aplicáveis somente ao processo judicial."
+      },
+      {
+        "letra": "C",
+        "texto": "Sigilo absoluto, sendo vedada qualquer publicidade dos atos processuais administrativos."
+      },
+      {
+        "letra": "D",
+        "texto": "Discricionariedade plena da autoridade julgadora, sem vinculação a critérios objetivos."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 2º da Lei 9.784/1999",
+    "justificativa": "A Lei 9.784/1999 elenca expressamente os princípios de legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público, entre outros, aplicáveis ao processo administrativo federal."
+  },
+  {
+    "id": "adm_29",
+    "disciplina": "administrativo",
+    "topico": "Lei 9.784/1999 - Prazo do Recurso Administrativo",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 59 da Lei nº 9.784/1999, salvo disposição legal específica, o prazo para interposição de recurso administrativo é de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5 dias, contados da publicação da decisão."
+      },
+      {
+        "letra": "B",
+        "texto": "10 dias, contados da ciência ou divulgação oficial da decisão recorrida."
+      },
+      {
+        "letra": "C",
+        "texto": "15 dias úteis, contados da intimação pessoal do interessado."
+      },
+      {
+        "letra": "D",
+        "texto": "30 dias corridos, contados da data do protocolo do processo."
+      }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 59 da Lei 9.784/1999",
+    "justificativa": "Salvo disposição legal específica, o prazo para interposição de recurso administrativo é de 10 dias, contados da ciência ou divulgação oficial da decisão recorrida, e o recurso, em regra, não tem efeito suspensivo."
+  },
+  {
+    "id": "adm_30",
+    "disciplina": "administrativo",
+    "topico": "Lei 9.784/1999 - Prazo de Decisão do Recurso",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo o art. 59, §1º da Lei nº 9.784/1999, quando a lei não fixar prazo diferente, o recurso administrativo deverá ser decidido no prazo máximo de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10 dias, a partir do protocolo do recurso."
+      },
+      {
+        "letra": "B",
+        "texto": "15 dias, improrrogáveis."
+      },
+      {
+        "letra": "C",
+        "texto": "30 dias, a partir do recebimento dos autos pelo órgão competente, prorrogável por igual período mediante justificativa."
+      },
+      {
+        "letra": "D",
+        "texto": "90 dias, sem possibilidade de prorrogação."
+      }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 59, §1º da Lei 9.784/1999",
+    "justificativa": "O recurso deve ser decidido no prazo máximo de 30 dias a partir do recebimento dos autos pelo órgão competente, podendo esse prazo ser prorrogado por igual período, mediante justificativa explícita."
+  },
+  {
+    "id": "adm_31",
+    "disciplina": "administrativo",
+    "topico": "Organização Administrativa - Autarquias",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "As autarquias, integrantes da Administração Pública Indireta, caracterizam-se por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Possuir personalidade jurídica de direito público, criadas por lei específica, com patrimônio e receitas próprios para executar atividades típicas da Administração Pública."
+      },
+      {
+        "letra": "B",
+        "texto": "Possuir personalidade jurídica de direito privado, sujeitando-se ao regime celetista de forma obrigatória e integral."
+      },
+      {
+        "letra": "C",
+        "texto": "Não possuir personalidade jurídica própria, sendo mero órgão despersonalizado vinculado à Administração Direta."
+      },
+      {
+        "letra": "D",
+        "texto": "Ser constituídas exclusivamente sob a forma de sociedade anônima, com participação obrigatória de capital privado."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Decreto-Lei nº 200/1967, Art. 5º, I",
+    "justificativa": "A autarquia é pessoa jurídica de direito público, criada por lei específica (art. 37, XIX, CF), com patrimônio e receita próprios, destinada a executar atividades típicas da Administração Pública que requeiram, para melhor funcionamento, gestão administrativa e financeira descentralizada."
+  },
+  {
+    "id": "adm_32",
+    "disciplina": "administrativo",
+    "topico": "Organização Administrativa - Empresa Pública x Sociedade de Economia Mista",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Em relação às empresas estatais, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A empresa pública pode ser constituída sob qualquer forma admitida em direito, com capital exclusivamente público, enquanto a sociedade de economia mista é constituída sob a forma de sociedade anônima, com capital misto (público e privado), majoritariamente público quanto ao poder de controle."
+      },
+      {
+        "letra": "B",
+        "texto": "Ambas admitem exclusivamente capital privado, sem qualquer participação do Poder Público."
+      },
+      {
+        "letra": "C",
+        "texto": "A sociedade de economia mista deve ser constituída sob a forma de sociedade limitada, nunca sociedade anônima."
+      },
+      {
+        "letra": "D",
+        "texto": "A empresa pública e a sociedade de economia mista têm personalidade jurídica de direito público, como as autarquias."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Decreto-Lei nº 200/1967, Art. 5º, II e III",
+    "justificativa": "A empresa pública admite qualquer forma societária, com capital 100% público; a sociedade de economia mista é sempre sociedade anônima, com capital misto, mas controle acionário majoritário do Poder Público. Ambas têm personalidade jurídica de direito PRIVADO, distinguindo-se das autarquias e fundações públicas de direito público."
+  },
+  {
+    "id": "adm_33",
+    "disciplina": "administrativo",
+    "topico": "Organização Administrativa - Fundações Públicas",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "As fundações públicas, integrantes da Administração Indireta, são criadas para:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Desenvolver atividades de interesse social sem fins lucrativos, como educação, saúde, cultura e pesquisa, podendo ter personalidade jurídica de direito público ou privado, conforme a lei instituidora."
+      },
+      {
+        "letra": "B",
+        "texto": "Explorar atividade econômica em regime de livre concorrência com a iniciativa privada, com fins lucrativos."
+      },
+      {
+        "letra": "C",
+        "texto": "Substituir integralmente as autarquias, sendo vedada a coexistência de ambas as figuras no ordenamento jurídico."
+      },
+      {
+        "letra": "D",
+        "texto": "Atuar exclusivamente como órgãos de consultoria jurídica do Poder Executivo."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Decreto-Lei nº 200/1967, Art. 5º, IV",
+    "justificativa": "As fundações públicas são criadas para o desenvolvimento de atividades de interesse social sem fins lucrativos (educação, saúde, cultura, pesquisa, assistência), podendo ter personalidade jurídica de direito público (fundação autárquica) ou de direito privado, dependendo da forma de instituição definida em lei."
   }
 ];

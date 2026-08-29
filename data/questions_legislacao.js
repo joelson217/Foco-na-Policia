@@ -1952,5 +1952,146 @@ const QUESTIONS_LEGISLACAO = [
   "gabarito": "B",
   "artigo": "Art. 3º da Lei 12.846/2013",
   "justificativa": "A responsabilização objetiva administrativa e civil da pessoa jurídica coexiste com a responsabilidade individual de seus dirigentes/administradores ou de qualquer pessoa física que tenha concorrido para o ato lesivo, na medida de sua culpabilidade — as responsabilidades não se excluem."
+},
+{
+  "id": "leg_67",
+  "disciplina": "legislacao",
+  "topico": "Pacote Anticrime - Juiz das Garantias",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "O instituto do \"juiz das garantias\", introduzido no Código de Processo Penal pela Lei nº 13.964/2019 (Pacote Anticrime), tem como principal função:",
+  "alternativas": [
+    { "letra": "A", "texto": "Julgar o mérito da ação penal e proferir a sentença condenatória ou absolutória." },
+    { "letra": "B", "texto": "Acompanhar a fase de investigação criminal, controlando a legalidade dos atos investigatórios e a proteção dos direitos fundamentais do investigado." },
+    { "letra": "C", "texto": "Substituir o Ministério Público na condução do inquérito policial." },
+    { "letra": "D", "texto": "Presidir o júri popular nos crimes dolosos contra a vida." }
+  ],
+  "gabarito": "B",
+  "artigo": "Lei 13.964/2019 (CPP)",
+  "justificativa": "O juiz das garantias fiscaliza a fase investigatória, controlando a legalidade dos atos de investigação e assegurando os direitos fundamentais do investigado, sendo, em regra, magistrado distinto daquele que julgará o processo (estrutura acusatória)."
+},
+{
+  "id": "leg_68",
+  "disciplina": "legislacao",
+  "topico": "Pacote Anticrime - Prisão Preventiva",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Após a alteração do art. 311 do CPP pela Lei nº 13.964/2019, a prisão preventiva:",
+  "alternativas": [
+    { "letra": "A", "texto": "Pode ser decretada pelo juiz de ofício, a qualquer momento da investigação ou do processo." },
+    { "letra": "B", "texto": "Não pode mais ser decretada de ofício pelo juiz, dependendo de requerimento do Ministério Público, do querelante, do assistente, ou de representação da autoridade policial." },
+    { "letra": "C", "texto": "Foi extinta do ordenamento jurídico brasileiro, restando apenas a prisão em flagrante." },
+    { "letra": "D", "texto": "Passou a exigir aprovação prévia do Conselho Nacional de Justiça em todos os casos." }
+  ],
+  "gabarito": "B",
+  "artigo": "Art. 311 do CPP (redação da Lei 13.964/2019)",
+  "justificativa": "O Pacote Anticrime suprimiu a expressão \"de ofício\" do art. 311, vedando ao juiz decretar prisão preventiva por iniciativa própria — deve haver requerimento do MP, do querelante, do assistente ou representação da autoridade policial, reforçando a estrutura acusatória do processo penal."
+},
+{
+  "id": "leg_69",
+  "disciplina": "legislacao",
+  "topico": "Pacote Anticrime - Banco de Perfis Genéticos e Limite de Pena",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "Entre as alterações promovidas pela Lei nº 13.964/2019 (Pacote Anticrime), é correto afirmar que:",
+  "alternativas": [
+    { "letra": "A", "texto": "O limite máximo de cumprimento de pena privativa de liberdade passou de 30 para 40 anos, e tornou-se obrigatória a coleta de perfil genético de condenados por crime hediondo ou com violência grave contra pessoa." },
+    { "letra": "B", "texto": "O limite máximo de cumprimento de pena foi reduzido de 30 para 20 anos." },
+    { "letra": "C", "texto": "A coleta de perfil genético tornou-se facultativa para todos os tipos de condenação." },
+    { "letra": "D", "texto": "Não houve qualquer alteração relacionada ao limite de cumprimento de pena." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 75 do CP e Lei 12.037/2009 (redação da Lei 13.964/2019)",
+  "justificativa": "O art. 75 do CP passou a fixar em 40 anos o limite máximo de cumprimento de pena (antes 30 anos), e a Lei 12.037/2009 passou a exigir a coleta obrigatória do perfil genético de condenados por crime hediondo ou crime doloso com violência grave contra pessoa, no ingresso ao estabelecimento prisional."
+},
+{
+  "id": "leg_70",
+  "disciplina": "legislacao",
+  "topico": "Pacote Anticrime - Acordo de Não Persecução Penal (ANPP)",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "O Acordo de Não Persecução Penal (ANPP), instituído pela Lei nº 13.964/2019, pode ser proposto pelo Ministério Público, em vez de oferecer denúncia, ao investigado que:",
+  "alternativas": [
+    { "letra": "A", "texto": "Tenha confessado formal e circunstancialmente a prática de infração penal, não sendo caso de arquivamento, e desde que não seja cabível transação penal, observados os demais requisitos legais (não reincidente, sem indícios de conduta criminal habitual, reiterada ou profissional, e pena mínima inferior a 4 anos sem violência ou grave ameaça)." },
+    { "letra": "B", "texto": "Seja reincidente específico em crime hediondo, independentemente de confissão." },
+    { "letra": "C", "texto": "Tenha sido condenado anteriormente por qualquer crime, mesmo que já tenha cumprido a pena integralmente." },
+    { "letra": "D", "texto": "Esteja sendo processado por crime com pena mínima superior a 8 anos." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 28-A do CPP (Lei 13.964/2019)",
+  "justificativa": "O ANPP exige confissão formal e circunstanciada, ausência de indícios de conduta criminal habitual/reiterada/profissional (exceto se irrelevância penal do infração pretérita), não reincidência, e que a infração não tenha sido cometida com violência ou grave ameaça, com pena mínima cominada inferior a 4 anos."
+},
+{
+  "id": "leg_71",
+  "disciplina": "legislacao",
+  "topico": "Lei de Abuso de Autoridade - Requisitos do Crime",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Segundo a Lei nº 13.869/2019 (Lei de Abuso de Autoridade), a configuração do crime de abuso de autoridade exige, cumulativamente:",
+  "alternativas": [
+    { "letra": "A", "texto": "Sujeito ativo agente público, conduta tipificada em dispositivo específico da lei, e dolo específico (finalidade de prejudicar outrem, beneficiar-se ou a terceiro, ou mero capricho/satisfação pessoal)." },
+    { "letra": "B", "texto": "Apenas a prática de qualquer conduta que cause constrangimento a terceiro, independentemente da intenção do agente." },
+    { "letra": "C", "texto": "Que o agente público tenha, necessariamente, mais de 10 anos de exercício no cargo." },
+    { "letra": "D", "texto": "Que a conduta tenha causado dano patrimonial comprovado à vítima." }
+  ],
+  "gabarito": "A",
+  "artigo": "Lei 13.869/2019",
+  "justificativa": "A lei exige o dolo específico: a mera culpa (negligência, imprudência) ou o erro na interpretação de norma não configuram abuso de autoridade — o crime exige a finalidade específica de prejudicar, beneficiar ou satisfação pessoal do agente."
+},
+{
+  "id": "leg_72",
+  "disciplina": "legislacao",
+  "topico": "Lei de Abuso de Autoridade - Sujeito Ativo",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "Segundo a Lei nº 13.869/2019, o crime de abuso de autoridade é crime próprio, podendo ser cometido por:",
+  "alternativas": [
+    { "letra": "A", "texto": "Qualquer agente público, servidor ou não, da administração direta, indireta ou fundacional de qualquer dos Poderes da União, Estados, DF, Municípios e Territórios." },
+    { "letra": "B", "texto": "Exclusivamente por Delegados de Polícia." },
+    { "letra": "C", "texto": "Apenas por membros do Poder Judiciário e do Ministério Público." },
+    { "letra": "D", "texto": "Somente por militares das Forças Armadas em operações de garantia da lei e da ordem." }
+  ],
+  "gabarito": "A",
+  "artigo": "Lei 13.869/2019",
+  "justificativa": "A lei adota um conceito amplo de agente público como sujeito ativo, abrangendo qualquer servidor, de qualquer Poder e esfera federativa, no exercício de suas funções ou a pretexto de exercê-las — não se restringindo a nenhuma categoria específica."
+},
+{
+  "id": "leg_73",
+  "disciplina": "legislacao",
+  "topico": "Lei 12.850/2013 - Conceito de Organização Criminosa",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 1º, §1º da Lei nº 12.850/2013, considera-se organização criminosa a associação de:",
+  "alternativas": [
+    { "letra": "A", "texto": "4 (quatro) ou mais pessoas, estruturalmente ordenada e caracterizada pela divisão de tarefas, ainda que informalmente, com objetivo de obter vantagem de qualquer natureza, mediante a prática de infrações penais cujas penas máximas sejam superiores a 4 anos, ou que sejam de caráter transnacional." },
+    { "letra": "B", "texto": "2 (duas) pessoas, independentemente de estrutura organizacional ou divisão de tarefas." },
+    { "letra": "C", "texto": "Qualquer grupo de pessoas que pratique uma única infração penal isolada, sem estabilidade ou permanência." },
+    { "letra": "D", "texto": "10 (dez) ou mais pessoas, exclusivamente para o tráfico internacional de drogas." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 1º, §1º da Lei 12.850/2013",
+  "justificativa": "A lei exige associação de 4 ou mais pessoas, estruturalmente ordenada, com divisão de tarefas (ainda que informal), objetivando vantagem de qualquer natureza mediante infrações penais com pena máxima superior a 4 anos ou de caráter transnacional."
+},
+{
+  "id": "leg_74",
+  "disciplina": "legislacao",
+  "topico": "Lei 12.850/2013 - Colaboração Premiada",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "A colaboração premiada, instrumento de investigação previsto na Lei nº 12.850/2013, pode resultar, para o colaborador que preste efetiva colaboração à investigação, em:",
+  "alternativas": [
+    { "letra": "A", "texto": "Perdão judicial, redução da pena privativa de liberdade em até 2/3, ou substituição por restritiva de direitos, conforme os resultados obtidos com a colaboração." },
+    { "letra": "B", "texto": "Extinção automática de todos os processos em curso contra o colaborador, independentemente do resultado da colaboração." },
+    { "letra": "C", "texto": "Imunidade penal absoluta, vedada qualquer responsabilização futura." },
+    { "letra": "D", "texto": "Apenas o pagamento de multa, sem qualquer benefício relacionado à pena privativa de liberdade." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 4º da Lei 12.850/2013",
+  "justificativa": "O art. 4º prevê que o juiz pode conceder perdão judicial, reduzir em até 2/3 a pena privativa de liberdade, ou substituí-la por restritiva de direitos, conforme os resultados obtidos com a colaboração — não há extinção automática de processos nem imunidade absoluta."
 }
 ];

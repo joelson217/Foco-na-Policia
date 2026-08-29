@@ -435,5 +435,38 @@ const QUESTIONS_INFORMATICA = [
     ],
     gabarito: 'B',
     justificativa: 'O armazenamento em nuvem permite acesso remoto multiplataforma via internet — sua principal vantagem sobre um backup estritamente local, que fica restrito ao dispositivo ou mídia física onde foi realizado.'
+  },
+  {
+    id: 'info_27',
+    disciplina: 'informatica',
+    topico: 'Planilha Eletrônica - Função SE (Condicional)',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Em uma planilha eletrônica, a fórmula "=SE(A1>=6;\"Aprovado\";\"Reprovado\")" retorna:',
+    alternativas: [
+      { letra: 'A', texto: '"Aprovado" se o valor de A1 for maior ou igual a 6, e "Reprovado" caso contrário.' },
+      { letra: 'B', texto: 'Sempre "Aprovado", independentemente do valor de A1.' },
+      { letra: 'C', texto: 'Um erro, pois a função SE não aceita texto entre aspas.' },
+      { letra: 'D', texto: 'A soma dos valores de A1 com o texto "Aprovado".' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A função SE(teste_lógico; valor_se_verdadeiro; valor_se_falso) avalia a condição (A1>=6) e retorna o primeiro argumento de texto se verdadeira, ou o segundo, se falsa — nesse caso, "Aprovado" ou "Reprovado".'
+  },
+  {
+    id: 'info_28',
+    disciplina: 'informatica',
+    topico: 'Planilha Eletrônica - Função PROCV',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Em uma planilha eletrônica, a função PROCV (ou VLOOKUP, em inglês) é utilizada para:',
+    alternativas: [
+      { letra: 'A', texto: 'Buscar um valor na primeira coluna de um intervalo e retornar um valor correspondente de outra coluna da mesma linha.' },
+      { letra: 'B', texto: 'Ordenar automaticamente todos os dados da planilha em ordem alfabética.' },
+      { letra: 'C', texto: 'Calcular a soma de todos os valores de uma planilha, ignorando células vazias.' },
+      { letra: 'D', texto: 'Proteger a planilha contra edições não autorizadas.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'PROCV (Procura Vertical) busca um valor na primeira coluna de um intervalo especificado e retorna um valor correspondente de outra coluna, na mesma linha — muito usada para cruzar dados entre tabelas (ex.: buscar o nome de um servidor a partir de sua matrícula).'
   }
 ];

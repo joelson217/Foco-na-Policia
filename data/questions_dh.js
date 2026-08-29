@@ -748,5 +748,58 @@ const QUESTIONS_DH = [
     "artigo": "Decreto nº 7.037/2009",
     "justificativa": "O Eixo Orientador IV do PNDH-3 trata de Segurança Pública, Acesso à Justiça e Combate à Violência, com diretrizes sobre humanização do sistema prisional e enfrentamento à violência institucional — tema central para a atuação da Polícia Penal.",
     "id": "dh_28"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Regras de Mandela - Limite do Isolamento Disciplinar",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo as Regras de Mandela (Regras Mínimas da ONU para o Tratamento de Presos), o confinamento solitário (isolamento celular por 22 horas ou mais por dia, sem contato humano significativo) que ultrapassar 15 dias consecutivos é classificado como:",
+    "alternativas": [
+      { "letra": "A", "texto": "Confinamento solitário prolongado, prática que deve ser proibida." },
+      { "letra": "B", "texto": "Medida disciplinar padrão, plenamente compatível com as Regras de Mandela sem qualquer restrição." },
+      { "letra": "C", "texto": "Sanção obrigatória para toda falta disciplinar grave, independentemente das circunstâncias." },
+      { "letra": "D", "texto": "Modalidade de assistência psicológica ao preso." }
+    ],
+    "gabarito": "A",
+    "artigo": "Regras 43 e 44 das Regras de Mandela",
+    "justificativa": "As Regras 43 e 44 definem o confinamento solitário além de 15 dias consecutivos como \"prolongado\", devendo ser proibido por constituir tratamento cruel, desumano ou degradante. É importante notar que a legislação brasileira sobre o RDD (LEP, art. 52) permite isolamento por até 360 dias, superando em muito o limite recomendado pela ONU — divergência frequentemente cobrada em provas.",
+    "id": "dh_29"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Regras de Mandela - Revista Corporal",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Segundo a Regra 52 das Regras de Mandela, as revistas de partes íntimas em estabelecimentos prisionais devem ser conduzidas:",
+    "alternativas": [
+      { "letra": "A", "texto": "Apenas por profissionais de saúde qualificados, ou, no mínimo, por pessoal apropriadamente treinado nos padrões de higiene, saúde e segurança." },
+      { "letra": "B", "texto": "Por qualquer agente disponível no momento, sem exigência de treinamento específico." },
+      { "letra": "C", "texto": "Exclusivamente na presença de outros presos, para fins de testemunho." },
+      { "letra": "D", "texto": "De forma pública, para reforçar o efeito dissuasório da medida." }
+    ],
+    "gabarito": "A",
+    "artigo": "Regra 52 das Regras de Mandela",
+    "justificativa": "As Regras de Mandela exigem que revistas de partes íntimas sejam conduzidas por profissionais de saúde qualificados (que não sejam os responsáveis pela atenção à saúde do preso) ou por pessoal apropriadamente treinado, resguardando a dignidade da pessoa revistada — reforçando o mesmo espírito das resoluções do CNPCP que vedam a revista vexatória.",
+    "id": "dh_30"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Convenção da ONU contra a Tortura (1984)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo o art. 1º da Convenção da ONU contra a Tortura (1984, promulgada no Brasil pelo Decreto nº 40/1991), a configuração da tortura exige, entre outros elementos, que a dor ou sofrimento agudo seja infligido:",
+    "alternativas": [
+      { "letra": "A", "texto": "Por funcionário público ou outra pessoa no exercício de funções públicas, ou por sua instigação, consentimento ou aquiescência, com finalidade específica (obter informação/confissão, castigar, intimidar/coagir, ou discriminação)." },
+      { "letra": "B", "texto": "Exclusivamente por particulares, sem qualquer relação com o poder público." },
+      { "letra": "C", "texto": "Independentemente de qualquer finalidade, bastando o resultado lesivo, ainda que acidental." },
+      { "letra": "D", "texto": "Apenas mediante violência física, excluída expressamente a modalidade psicológica." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º da Convenção da ONU contra a Tortura (1984)",
+    "justificativa": "A Convenção exige dolo (inflição intencional), finalidade específica (obter informação/confissão, castigar, intimidar/coagir ou discriminar) e vínculo com o poder público (agente público, ou terceiro por sua instigação/consentimento/aquiescência) — dores decorrentes unicamente de sanções legítimas não configuram tortura, e o sofrimento pode ser físico OU mental.",
+    "id": "dh_31"
   }
 ];

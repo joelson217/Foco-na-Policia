@@ -469,5 +469,38 @@ const QUESTIONS_RLM = [
     ],
     gabarito: 'C',
     justificativa: 'A disjunção exclusiva (XOR) é verdadeira apenas quando exatamente uma das proposições é verdadeira — diferindo do "ou" inclusivo, que também é verdadeiro quando ambas são verdadeiras (alternativa D).'
+  },
+  {
+    id: 'rlm_29',
+    disciplina: 'rlm',
+    topico: 'Bicondicional (P se e somente se Q)',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'A proposição bicondicional "P se e somente se Q" (P ↔ Q) é VERDADEIRA quando:',
+    alternativas: [
+      { letra: 'A', texto: 'P e Q têm o mesmo valor lógico (ambas verdadeiras ou ambas falsas).' },
+      { letra: 'B', texto: 'Apenas P é verdadeira, independentemente do valor de Q.' },
+      { letra: 'C', texto: 'P e Q têm valores lógicos diferentes.' },
+      { letra: 'D', texto: 'Pelo menos uma das duas proposições é falsa.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O bicondicional (P ↔ Q) equivale à conjunção de "P → Q" e "Q → P": é verdadeiro exatamente quando ambas as proposições compartilham o mesmo valor lógico (V-V ou F-F), e falso quando os valores divergem (V-F ou F-V).'
+  },
+  {
+    id: 'rlm_30',
+    disciplina: 'rlm',
+    topico: 'Condicional com "Somente Se"',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'A proposição "Pedro será promovido somente se for aprovado na avaliação de desempenho" equivale, em termos lógicos, a:',
+    alternativas: [
+      { letra: 'A', texto: 'Se Pedro for aprovado na avaliação, então será promovido.' },
+      { letra: 'B', texto: 'Se Pedro for promovido, então foi aprovado na avaliação de desempenho.' },
+      { letra: 'C', texto: 'Pedro será promovido e será aprovado na avaliação, simultaneamente.' },
+      { letra: 'D', texto: 'Se Pedro não for promovido, então foi aprovado na avaliação.' }
+    ],
+    gabarito: 'B',
+    justificativa: '"P somente se Q" equivale a "Se P, então Q" (P → Q) — a condição necessária vem depois de "somente se". Aqui, P = "será promovido" e Q = "foi aprovado", logo: "se foi promovido, então foi aprovado". É um erro comum inverter essa relação, tratando "somente se" como se fosse "se" (alternativa A).'
   }
 ];
