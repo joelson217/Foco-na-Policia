@@ -533,5 +533,187 @@ const QUESTIONS_INFORMATICA = [
     ],
     gabarito: 'A',
     justificativa: 'Ctrl + Shift + Esc abre diretamente o Gerenciador de Tarefas, útil para encerrar programas travados ou monitorar o desempenho do sistema — diferente de Ctrl+Alt+Delete, que abre uma tela intermediária com mais opções (incluindo o próprio Gerenciador de Tarefas).'
+  },
+  {
+    id: 'info_33',
+    disciplina: 'informatica',
+    topico: 'Atalhos - Desfazer e Refazer',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'facil',
+    enunciado: 'Em editores de texto e planilhas, após usar "Ctrl + Z" (desfazer) uma ação por engano, o atalho utilizado para refazer essa mesma ação é:',
+    alternativas: [
+      { letra: 'A', texto: 'Ctrl + Y' },
+      { letra: 'B', texto: 'Ctrl + X' },
+      { letra: 'C', texto: 'Ctrl + V' },
+      { letra: 'D', texto: 'Ctrl + A' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Ctrl + Y (ou Ctrl + Shift + Z, em alguns programas) refaz a última ação desfeita. Ctrl + X recorta, Ctrl + V cola, e Ctrl + A seleciona tudo.'
+  },
+  {
+    id: 'info_34',
+    disciplina: 'informatica',
+    topico: 'Windows - Fechar Aplicativo',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'No Windows, a combinação de teclas "Alt + F4" tem como efeito:',
+    alternativas: [
+      { letra: 'A', texto: 'Fechar a janela ou o aplicativo ativo no momento.' },
+      { letra: 'B', texto: 'Abrir o Gerenciador de Tarefas.' },
+      { letra: 'C', texto: 'Minimizar todas as janelas abertas.' },
+      { letra: 'D', texto: 'Reiniciar o computador imediatamente, sem confirmação.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Alt + F4 fecha a janela ou o aplicativo em foco. Se nenhuma janela estiver aberta (área de trabalho em foco), pode abrir a caixa de diálogo de desligamento do Windows.'
+  },
+  {
+    id: 'info_35',
+    disciplina: 'informatica',
+    topico: 'Extensões de Arquivo',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Associe corretamente os tipos de arquivo às suas extensões mais comuns: documento de texto do Word, planilha do Excel e arquivo compactado.',
+    alternativas: [
+      { letra: 'A', texto: '.docx (Word), .xlsx (Excel) e .zip (compactado).' },
+      { letra: 'B', texto: '.exe (Word), .mp3 (Excel) e .jpg (compactado).' },
+      { letra: 'C', texto: '.pdf (Word), .docx (Excel) e .png (compactado).' },
+      { letra: 'D', texto: '.zip (Word), .exe (Excel) e .xlsx (compactado).' }
+    ],
+    gabarito: 'A',
+    justificativa: '.docx é a extensão padrão de documentos do Word (a partir do Office 2007), .xlsx é a extensão padrão de planilhas do Excel, e .zip é um formato comum de compactação de arquivos.'
+  },
+  {
+    id: 'info_36',
+    disciplina: 'informatica',
+    topico: 'Segurança da Informação - VPN',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Uma VPN (Virtual Private Network / Rede Privada Virtual) tem como principal função:',
+    alternativas: [
+      { letra: 'A', texto: 'Criar uma conexão criptografada e segura sobre uma rede pública (como a internet), permitindo acesso remoto a uma rede privada com maior privacidade e segurança.' },
+      { letra: 'B', texto: 'Aumentar permanentemente a velocidade de qualquer conexão à internet, sem qualquer relação com segurança.' },
+      { letra: 'C', texto: 'Substituir completamente a necessidade de antivírus no computador.' },
+      { letra: 'D', texto: 'Impedir fisicamente o acesso de terceiros ao computador, funcionando como uma trava de hardware.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A VPN cria um túnel criptografado sobre uma rede pública, permitindo que o tráfego de dados trafegue de forma mais segura e privada, e possibilitando o acesso remoto a redes privadas (ex.: rede corporativa) como se o usuário estivesse fisicamente conectado a ela.'
+  },
+  {
+    id: 'info_37',
+    disciplina: 'informatica',
+    topico: 'Internet - Cookies do Navegador',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Os "cookies" armazenados por um navegador de internet são:',
+    alternativas: [
+      { letra: 'A', texto: 'Pequenos arquivos de texto que sites usam para armazenar informações sobre a navegação do usuário (preferências, sessões de login, histórico de uso), sendo posteriormente reenviados ao servidor do site.' },
+      { letra: 'B', texto: 'Programas executáveis capazes de danificar o sistema operacional do computador.' },
+      { letra: 'C', texto: 'Cópias de segurança automáticas de todos os arquivos do disco rígido.' },
+      { letra: 'D', texto: 'Certificados digitais emitidos por autoridades certificadoras.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Cookies são pequenos arquivos de texto que os sites armazenam no navegador do usuário, guardando informações de navegação (preferências, sessão de login, carrinho de compras) que são reenviadas ao servidor em visitas subsequentes — não são programas executáveis nem representam, por si só, ameaça direta ao sistema.'
+  },
+  {
+    id: 'info_38',
+    disciplina: 'informatica',
+    topico: 'Segurança da Informação - Ransomware',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'O tipo de malware que sequestra os dados da vítima, criptografando seus arquivos e exigindo pagamento de resgate (em geral, em criptomoeda) para restaurar o acesso, é denominado:',
+    alternativas: [
+      { letra: 'A', texto: 'Ransomware.' },
+      { letra: 'B', texto: 'Spyware.' },
+      { letra: 'C', texto: 'Adware.' },
+      { letra: 'D', texto: 'Firewall.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Ransomware ("resgate" + "software") criptografa os arquivos da vítima e exige pagamento para a restauração do acesso. Spyware espiona atividades sem criptografar dados, adware exibe propagandas indesejadas, e firewall é ferramenta de proteção, não malware.'
+  },
+  {
+    id: 'info_39',
+    disciplina: 'informatica',
+    topico: 'Segurança da Informação - Certificado Digital',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Um certificado digital, emitido por uma Autoridade Certificadora (AC), tem como principal finalidade:',
+    alternativas: [
+      { letra: 'A', texto: 'Vincular uma chave pública a uma identidade (pessoa física, jurídica ou dispositivo), permitindo autenticação e assinatura digital com validade jurídica.' },
+      { letra: 'B', texto: 'Aumentar a velocidade de navegação em sites com certificado instalado.' },
+      { letra: 'C', texto: 'Substituir a necessidade de senha em qualquer sistema, sem outra forma de autenticação.' },
+      { letra: 'D', texto: 'Compactar arquivos para reduzir seu tamanho antes do envio por e-mail.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O certificado digital vincula uma chave pública à identidade de seu titular, permitindo autenticação segura e assinatura digital de documentos com validade jurídica (ex.: assinar processos administrativos eletronicamente), baseando-se em infraestrutura de chave pública (ICP-Brasil, no caso nacional).'
+  },
+  {
+    id: 'info_40',
+    disciplina: 'informatica',
+    topico: 'Redes - Bluetooth',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'A tecnologia Bluetooth é caracterizada por ser um padrão de comunicação sem fio de:',
+    alternativas: [
+      { letra: 'A', texto: 'Curto alcance, utilizado tipicamente para conectar dispositivos próximos (fones de ouvido, teclados, celulares) sem a necessidade de cabos.' },
+      { letra: 'B', texto: 'Longuíssimo alcance, substituindo integralmente as redes de telefonia móvel (4G/5G).' },
+      { letra: 'C', texto: 'Uso exclusivo em redes corporativas de grande porte, sendo incompatível com dispositivos domésticos.' },
+      { letra: 'D', texto: 'Transmissão de dados exclusivamente por cabo óptico, apesar do nome "sem fio".' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Bluetooth é um padrão de comunicação sem fio de curto alcance (poucos metros), usado para conectar dispositivos próximos, como fones de ouvido, teclados, mouses e celulares, sem a necessidade de cabos — diferente do Wi-Fi, que tem alcance maior e é voltado principalmente para acesso à internet.'
+  },
+  {
+    id: 'info_41',
+    disciplina: 'informatica',
+    topico: 'Computação em Nuvem - Sincronização x Backup',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Em relação a serviços de armazenamento em nuvem, a diferença essencial entre "sincronização" e "backup" é que:',
+    alternativas: [
+      { letra: 'A', texto: 'Na sincronização, alterações (incluindo exclusões) feitas localmente são replicadas automaticamente na nuvem, podendo propagar uma exclusão indevida; já o backup mantém cópias históricas, permitindo recuperar versões anteriores mesmo após exclusões locais.' },
+      { letra: 'B', texto: 'Não há qualquer diferença prática entre sincronização e backup, sendo termos sinônimos.' },
+      { letra: 'C', texto: 'O backup sempre ocorre em tempo real, enquanto a sincronização só pode ser feita manualmente, uma vez por mês.' },
+      { letra: 'D', texto: 'A sincronização nunca envolve conexão à internet, ocorrendo apenas localmente no dispositivo.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Sincronização mantém pastas idênticas entre dispositivo e nuvem, replicando inclusive exclusões (risco: apagar por engano localmente apaga também na nuvem). Backup, por sua vez, mantém cópias/versões históricas, permitindo restaurar arquivos mesmo depois de excluídos ou corrompidos localmente — por isso backup é mais seguro contra perda de dados por erro do usuário.'
+  },
+  {
+    id: 'info_42',
+    disciplina: 'informatica',
+    topico: 'Internet - Navegação Anônima/Privada',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'A "navegação anônima" (ou "privada"), disponível na maioria dos navegadores modernos, tem como característica:',
+    alternativas: [
+      { letra: 'A', texto: 'Não salvar, no dispositivo local, o histórico de navegação, cookies e dados de formulário da sessão, mas NÃO tornar o usuário anônimo perante sites visitados, provedor de internet ou empregador.' },
+      { letra: 'B', texto: 'Tornar o usuário completamente anônimo e impossível de ser rastreado por qualquer entidade, incluindo o provedor de internet.' },
+      { letra: 'C', texto: 'Impedir automaticamente qualquer tipo de ataque de vírus ou phishing durante a navegação.' },
+      { letra: 'D', texto: 'Aumentar a velocidade de conexão à internet em relação à navegação normal.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A navegação anônima evita que histórico, cookies e dados de formulário sejam salvos LOCALMENTE após o fechamento da janela — mas não esconde a navegação de sites visitados, do provedor de internet, de redes corporativas monitoradas, nem protege contra malware ou phishing.'
+  },
+  {
+    id: 'info_43',
+    disciplina: 'informatica',
+    topico: 'Windows - Spool de Impressão',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'O "spool de impressão", no Windows, é o mecanismo responsável por:',
+    alternativas: [
+      { letra: 'A', texto: 'Armazenar temporariamente os trabalhos de impressão em fila, permitindo que o usuário continue trabalhando enquanto os documentos aguardam para serem impressos.' },
+      { letra: 'B', texto: 'Aumentar permanentemente a resolução de qualquer documento impresso.' },
+      { letra: 'C', texto: 'Substituir fisicamente o cartucho de tinta da impressora automaticamente.' },
+      { letra: 'D', texto: 'Impedir que mais de um documento seja enviado à impressora ao longo de todo um dia de trabalho.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O spool (Simultaneous Peripheral Operations On-Line) gerencia uma fila de impressão, armazenando temporariamente os documentos enviados para impressão e liberando o programa de origem para uso imediato, enquanto a impressora processa os trabalhos em segundo plano, na ordem da fila.'
   }
 ];

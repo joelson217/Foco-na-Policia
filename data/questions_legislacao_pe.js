@@ -647,5 +647,154 @@ const QUESTIONS_LEGISLACAO_PE = [
     gabarito: 'A',
     artigo: 'Decreto Estadual nº 42.065/2015 (regulamenta o Art. 7º da LC 150/2009)',
     justificativa: 'O Decreto nº 42.065/2015 regulamenta o art. 7º da LC 150/2009, detalhando descrições sumárias de atribuições, prerrogativas e quantitativos de vagas do GOSPEPE — a EC 53/2020 tratou da criação constitucional da Polícia Penal, e a LC 106/2007 tratou de normas disciplinares anteriores ao Código Penitenciário de 2016, temas distintos.'
+  },
+
+  // ============================================================
+  // Reforço adicional em Lei 15.755/2016 — dispositivos ainda não
+  // cobertos: trabalho do preso (Art. 90 e 94), assistência à saúde
+  // e Centro de Saúde Penitenciário (Arts. 48 e 65-71), visita
+  // íntima (Art. 105) e vedação à divulgação de imagens (Art. 114),
+  // além da recente vedação à revista íntima de visitantes. Fonte:
+  // legis.alepe.pe.gov.br, texto atualizado.
+  // ============================================================
+  {
+    id: 'pe_leg_33',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Dever de Trabalhar',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 90 da Lei nº 15.755/2016, é dever do condenado trabalhar durante o dia, na medida de suas aptidões e capacidade. Em relação ao preso provisório, o trabalho é:',
+    alternativas: [
+      { letra: 'A', texto: 'Obrigatório, nos mesmos termos exigidos do condenado definitivo.' },
+      { letra: 'B', texto: 'Não obrigatório, podendo ser exercido facultativamente dentro do estabelecimento.' },
+      { letra: 'C', texto: 'Vedado em qualquer hipótese, mesmo que o preso provisório manifeste interesse.' },
+      { letra: 'D', texto: 'Condicionado à autorização do Ministério Público, sem a qual é sempre proibido.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 90 da Lei 15.755/2016',
+    justificativa: 'O art. 90 impõe o dever de trabalhar ao condenado, mas para o preso provisório o trabalho não é obrigatório — pode exercê-lo facultativamente, se houver interesse e disponibilidade no estabelecimento, em harmonia com a presunção de inocência.'
+  },
+  {
+    id: 'pe_leg_34',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Destinação da Remuneração do Trabalho',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo o art. 94 da Lei nº 15.755/2016, a remuneração pelo trabalho do preso deve ser destinada, entre outras finalidades, a:',
+    alternativas: [
+      { letra: 'A', texto: 'Uso pessoal do preso, prestação de alimentos, indenização ao lesado, assistência à família, e formação de pecúlio de 25% em caderneta de poupança.' },
+      { letra: 'B', texto: 'Integralmente ao Fundo Penitenciário do Estado, sem qualquer destinação ao preso ou sua família.' },
+      { letra: 'C', texto: 'Pagamento de honorários advocatícios, com exclusividade, sendo vedada qualquer outra destinação.' },
+      { letra: 'D', texto: 'Compra de bens de consumo eletrônico, exclusivamente, para uso na cela.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 94 da Lei 15.755/2016',
+    justificativa: 'O art. 94 distribui a remuneração do trabalho em: uso pessoal do preso, prestação de alimentos, indenização ao lesado, assistência à família, e pecúlio prisional de 25% da remuneração, depositado em caderneta de poupança — seguindo a lógica do art. 29 da LEP federal, mas com o detalhamento próprio do percentual do pecúlio.'
+  },
+  {
+    id: 'pe_leg_35',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Centro de Saúde Penitenciário',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 48 da Lei nº 15.755/2016, o Centro de Saúde Penitenciário destina-se à pessoa privada de liberdade sob tratamento médico ou de saúde mental, devendo possuir:',
+    alternativas: [
+      { letra: 'A', texto: 'Alas exclusivas para pacientes submetidos a medida de segurança e para assistência à saúde mental feminina.' },
+      { letra: 'B', texto: 'Estrutura idêntica às penitenciárias comuns, sem qualquer diferenciação para tratamento de saúde.' },
+      { letra: 'C', texto: 'Vedação a qualquer atendimento de saúde mental, sendo restrito a tratamentos clínicos gerais.' },
+      { letra: 'D', texto: 'Acesso exclusivo para presos do sexo masculino, sendo vedada qualquer assistência a mulheres.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 48 da Lei 15.755/2016',
+    justificativa: 'O Centro de Saúde Penitenciário destina-se a presos sob tratamento médico ou de saúde mental, prevendo alas exclusivas para pacientes com medida de segurança e para assistência à saúde mental feminina — um dos sete tipos de estabelecimentos penais listados no art. 23 da mesma lei.'
+  },
+  {
+    id: 'pe_leg_36',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Assistência à Saúde',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Segundo os arts. 65-71 da Lei nº 15.755/2016, a assistência à saúde do preso deve ser prestada de forma integral, seguindo o modelo do:',
+    alternativas: [
+      { letra: 'A', texto: 'Sistema Único de Saúde (SUS), com fornecimento de medicamentos e atendimento médico, odontológico, farmacêutico e nutricional.' },
+      { letra: 'B', texto: 'Plano de saúde privado, custeado obrigatoriamente pelo próprio preso ou sua família.' },
+      { letra: 'C', texto: 'Atendimento exclusivamente emergencial, vedado qualquer acompanhamento continuado.' },
+      { letra: 'D', texto: 'Convênio com hospitais militares, com exclusividade, vedado o acesso à rede SUS.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Arts. 65-71 da Lei 15.755/2016',
+    justificativa: 'A assistência à saúde do preso segue o modelo do SUS, de forma integral, incluindo fornecimento de medicamentos e atendimento médico, odontológico, farmacêutico e nutricional — em harmonia com o direito constitucional à saúde e com a PNAISP (Portaria Interministerial MS/MJ nº 1/2014).'
+  },
+  {
+    id: 'pe_leg_37',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Visita Íntima',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo o art. 105 da Lei nº 15.755/2016, a visita íntima tem por finalidade manter o vínculo familiar e colaborar com a ressocialização do preso, sendo assegurada com duração de:',
+    alternativas: [
+      { letra: 'A', texto: '2 a 4 horas semanais.' },
+      { letra: 'B', texto: '30 minutos mensais.' },
+      { letra: 'C', texto: '24 horas contínuas, uma vez por mês.' },
+      { letra: 'D', texto: 'Tempo indeterminado, a critério exclusivo do diretor do estabelecimento.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 105 da Lei 15.755/2016',
+    justificativa: 'A visita íntima é assegurada com duração de 2 a 4 horas semanais, com a finalidade de manter o vínculo familiar e colaborar com a ressocialização do preso.'
+  },
+  {
+    id: 'pe_leg_38',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Vedação à Divulgação de Imagens',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 114 da Lei nº 15.755/2016, é vedado:',
+    alternativas: [
+      { letra: 'A', texto: 'Constranger o preso a permitir a divulgação de suas imagens, sem seu consentimento expresso.' },
+      { letra: 'B', texto: 'Qualquer forma de registro fotográfico do preso, mesmo para fins de identificação oficial.' },
+      { letra: 'C', texto: 'A divulgação de imagens do preso, mesmo mediante consentimento expresso e por determinação judicial.' },
+      { letra: 'D', texto: 'O uso de imagens do preso em processos administrativos disciplinares, mesmo com autorização.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 114 da Lei 15.755/2016',
+    justificativa: 'O art. 114 veda o constrangimento do preso a permitir a divulgação de suas imagens sem consentimento expresso — protegendo sua imagem e dignidade, sem impedir o registro para fins de identificação oficial (como no processo de classificação) ou por determinação judicial legítima.'
+  },
+  {
+    id: 'pe_leg_39',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Vedação à Revista Íntima de Visitantes',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Uma alteração recente à Lei nº 15.755/2016, regulamentada pelo Decreto Estadual nº 59.896/2025, disciplinou a revista de visitantes em unidades prisionais de Pernambuco, estabelecendo que:',
+    alternativas: [
+      { letra: 'A', texto: 'É proibida a revista íntima de visitantes, devendo a revista pessoal ser realizada por meios manuais ou eletrônicos que preservem a dignidade do visitante.' },
+      { letra: 'B', texto: 'A revista íntima passou a ser obrigatória para todos os visitantes, sem exceção.' },
+      { letra: 'C', texto: 'A revista de visitantes foi totalmente abolida, não podendo ser realizada em nenhuma hipótese.' },
+      { letra: 'D', texto: 'Apenas visitantes do sexo masculino podem ser submetidos a qualquer forma de revista.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Lei 15.755/2016 (alteração regulamentada pelo Decreto Estadual nº 59.896/2025)',
+    justificativa: 'A alteração legislativa proíbe a revista íntima de visitantes, alinhando-se à Resolução CNPCP nº 5/2014 e à jurisprudência do STF sobre vedação a práticas vexatórias — a revista pessoal deve ser feita por meios manuais ou eletrônicos que preservem a dignidade do visitante.'
+  },
+  {
+    id: 'pe_leg_40',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Procedimento no Parlatório',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo a alteração recente à Lei nº 15.755/2016 sobre revista de visitantes, se a suspeita de porte de objeto, produto ou substância proibida persistir após a revista pessoal, ou se o visitante não quiser se submeter à revista manual, a visita:',
+    alternativas: [
+      { letra: 'A', texto: 'Poderá ser realizada no parlatório ou em local assemelhado, desde que não haja contato físico com a pessoa presa.' },
+      { letra: 'B', texto: 'Será automaticamente cancelada, sendo vedado qualquer contato, inclusive por parlatório.' },
+      { letra: 'C', texto: 'Deverá ser autorizada normalmente, com contato físico irrestrito, independentemente da suspeita.' },
+      { letra: 'D', texto: 'Será substituída por videochamada obrigatória, sendo vedada qualquer visita presencial futura.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Lei 15.755/2016 (alteração regulamentada pelo Decreto Estadual nº 59.896/2025)',
+    justificativa: 'Persistindo a suspeita (ou recusa do visitante à revista manual), a visita pode ocorrer no parlatório ou local assemelhado, sem contato físico com o preso — solução que concilia segurança institucional com o direito à visita e a vedação a práticas vexatórias.'
   }
 ];

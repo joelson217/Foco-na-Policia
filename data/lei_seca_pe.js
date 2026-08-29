@@ -95,6 +95,19 @@ const LEI_SECA_PE = {
             { id: 'pe_cod_11', artigo: 'Art. 11', titulo: 'Órgão de Direção', frente: 'Qual órgão dirige a política penitenciária de Pernambuco?', verso: 'A Secretaria Executiva de Ressocialização (SERES), subordinada à Secretaria de Justiça e Direitos Humanos (SJDH).', cobrado: 'medium', anos: [] },
             { id: 'pe_cod_35', artigo: 'Art. 35', titulo: 'Seleção de Pessoal', frente: 'O que exige a seleção de pessoal para função penitenciária?', verso: 'Aptidão física e mental comprovada em procedimento adequado, além de formação profissional específica prévia ao exercício da função.', cobrado: 'medium', anos: [] }
           ]
+        },
+        {
+          titulo: '💼 Trabalho, Saúde e Visitas do Preso',
+          artigos: [
+            { id: 'pe_cod_90', artigo: 'Art. 90', titulo: 'Dever de Trabalhar', frente: 'O trabalho é obrigatório para o preso provisório?', verso: 'Não. É dever do CONDENADO trabalhar (na medida de suas aptidões e capacidade); para o preso provisório, o trabalho não é obrigatório.', cobrado: 'hot', anos: [] },
+            { id: 'pe_cod_94', artigo: 'Art. 94', titulo: 'Destinação da Remuneração', frente: 'Como é destinada a remuneração do trabalho do preso?', verso: 'Uso pessoal, prestação de alimentos, indenização ao lesado, assistência à família, e pecúlio de 25% em caderneta de poupança.', cobrado: 'hot', anos: [] },
+            { id: 'pe_cod_48', artigo: 'Art. 48', titulo: 'Centro de Saúde Penitenciário', frente: 'A quem se destina o Centro de Saúde Penitenciário?', verso: 'A presos sob tratamento médico ou de saúde mental, com alas exclusivas para medida de segurança e para saúde mental feminina.', cobrado: 'medium', anos: [] },
+            { id: 'pe_cod_65', artigo: 'Arts. 65-71', titulo: 'Assistência à Saúde', frente: 'Como deve ser prestada a assistência à saúde do preso?', verso: 'De forma integral, seguindo o modelo do SUS: medicamentos, atendimento médico, odontológico, farmacêutico e nutricional.', cobrado: 'medium', anos: [] },
+            { id: 'pe_cod_105', artigo: 'Art. 105', titulo: 'Visita Íntima', verso: 'Manter o vínculo familiar e colaborar com a ressocialização, com duração de 2 a 4 horas semanais.', frente: 'Qual a finalidade e a duração da visita íntima?', cobrado: 'medium', anos: [] },
+            { id: 'pe_cod_114', artigo: 'Art. 114', titulo: 'Vedação à Divulgação de Imagens', frente: 'O que o art. 114 veda em relação às imagens do preso?', verso: 'Constranger o preso a permitir a divulgação de suas imagens, sem seu consentimento expresso.', cobrado: 'baixo', anos: [] },
+            { id: 'pe_cod_revista_intima', artigo: 'Lei 15.755/2016 (alteração, Decreto Estadual nº 59.896/2025)', titulo: 'Vedação à Revista Íntima de Visitantes', frente: 'O que a alteração recente à lei estabeleceu sobre a revista de visitantes?', verso: 'Proíbe a revista íntima, exigindo revista pessoal por meios manuais ou eletrônicos que preservem a dignidade do visitante.', cobrado: 'hot', anos: [] },
+            { id: 'pe_cod_parlatorio', artigo: 'Lei 15.755/2016 (alteração, Decreto Estadual nº 59.896/2025)', titulo: 'Procedimento no Parlatório', frente: 'O que ocorre se a suspeita persistir após a revista pessoal, ou o visitante recusar a revista manual?', verso: 'A visita pode ser realizada no parlatório ou local assemelhado, sem contato físico com a pessoa presa.', cobrado: 'medium', anos: [] }
+          ]
         }
       ]
     },

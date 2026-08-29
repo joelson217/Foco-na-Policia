@@ -568,5 +568,186 @@ const QUESTIONS_RLM = [
     ],
     gabarito: 'A',
     justificativa: 'Encadeando as três premissas universais por transitividade (A→B→C→D, logo A→D): todo policial penal (A) é servidor público (B), todo servidor público observa o estatuto (C), e todo que observa o estatuto está sujeito a processo disciplinar (D). Logo, todo policial penal está sujeito a processo disciplinar em caso de falta — um sorites válido.'
+  },
+  {
+    id: 'rlm_35',
+    disciplina: 'rlm',
+    topico: 'Análise Combinatória - Permutação Simples',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'De quantas maneiras distintas 4 policiais penais podem ser dispostos, lado a lado, em uma fila para uma formatura?',
+    alternativas: [
+      { letra: 'A', texto: '4' },
+      { letra: 'B', texto: '16' },
+      { letra: 'C', texto: '24' },
+      { letra: 'D', texto: '256' }
+    ],
+    gabarito: 'C',
+    justificativa: 'Como a ordem importa e todos os 4 elementos são utilizados, trata-se de uma permutação simples: P(4) = 4! = 4×3×2×1 = 24.'
+  },
+  {
+    id: 'rlm_36',
+    disciplina: 'rlm',
+    topico: 'Análise Combinatória - Arranjo',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'De um grupo de 6 candidatos a uma comissão, de quantas formas distintas é possível escolher um presidente e um vice-presidente (cargos distintos, sem que a mesma pessoa ocupe os dois)?',
+    alternativas: [
+      { letra: 'A', texto: '12' },
+      { letra: 'B', texto: '15' },
+      { letra: 'C', texto: '30' },
+      { letra: 'D', texto: '36' }
+    ],
+    gabarito: 'C',
+    justificativa: 'Como a ordem importa (cargos distintos), trata-se de um arranjo: A(6,2) = 6!/(6-2)! = 6×5 = 30.'
+  },
+  {
+    id: 'rlm_37',
+    disciplina: 'rlm',
+    topico: 'Probabilidade Composta - Eventos Independentes',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Uma moeda honesta é lançada duas vezes, de forma independente. Qual é a probabilidade de o resultado ser "cara" nos dois lançamentos?',
+    alternativas: [
+      { letra: 'A', texto: '1/2' },
+      { letra: 'B', texto: '1/3' },
+      { letra: 'C', texto: '1/4' },
+      { letra: 'D', texto: '1/8' }
+    ],
+    gabarito: 'C',
+    justificativa: 'Para eventos independentes, a probabilidade da ocorrência conjunta (E) é o produto das probabilidades individuais: P(cara) × P(cara) = 1/2 × 1/2 = 1/4.'
+  },
+  {
+    id: 'rlm_38',
+    disciplina: 'rlm',
+    topico: 'Probabilidade - Sem Reposição',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Uma urna contém 5 bolas vermelhas e 3 bolas azuis. Retirando-se duas bolas, sucessivamente e sem reposição, qual é a probabilidade de que as duas sejam vermelhas?',
+    alternativas: [
+      { letra: 'A', texto: '5/14' },
+      { letra: 'B', texto: '5/8' },
+      { letra: 'C', texto: '25/64' },
+      { letra: 'D', texto: '1/2' }
+    ],
+    gabarito: 'A',
+    justificativa: 'P(1ª vermelha) = 5/8. Sem reposição, restam 4 vermelhas em 7 bolas: P(2ª vermelha) = 4/7. P(ambas vermelhas) = 5/8 × 4/7 = 20/56 = 5/14.'
+  },
+  {
+    id: 'rlm_39',
+    disciplina: 'rlm',
+    topico: 'Problema de Calendário',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Sabendo que o dia 15 de março de determinado ano caiu em uma quarta-feira, e que o mês de março desse ano tem 31 dias, em que dia da semana caiu o dia 15 de abril do mesmo ano?',
+    alternativas: [
+      { letra: 'A', texto: 'Quinta-feira' },
+      { letra: 'B', texto: 'Sexta-feira' },
+      { letra: 'C', texto: 'Sábado' },
+      { letra: 'D', texto: 'Domingo' }
+    ],
+    gabarito: 'C',
+    justificativa: 'De 15/03 a 15/04 são exatamente 31 dias. Dividindo 31 por 7, obtém-se 4 semanas completas e resto 3. Avançando 3 dias da quarta-feira: quinta, sexta, sábado. Logo, 15 de abril cai num sábado.'
+  },
+  {
+    id: 'rlm_40',
+    disciplina: 'rlm',
+    topico: 'Regra de Três Composta',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Trabalhando 8 horas por dia, 4 operários constroem um muro de 20 metros em 6 dias. Mantida a mesma produtividade individual e a jornada de 8 horas diárias, quantos dias 6 operários levarão para construir um muro de 30 metros?',
+    alternativas: [
+      { letra: 'A', texto: '4 dias' },
+      { letra: 'B', texto: '6 dias' },
+      { letra: 'C', texto: '8 dias' },
+      { letra: 'D', texto: '9 dias' }
+    ],
+    gabarito: 'B',
+    justificativa: 'Operários e dias são inversamente proporcionais (mais operários, menos dias); metros e dias são diretamente proporcionais (mais metros, mais dias). dias₂ = 6 × (4/6) × (30/20) = 6 × 0,667 × 1,5 = 6 dias.'
+  },
+  {
+    id: 'rlm_41',
+    disciplina: 'rlm',
+    topico: 'Diagramas Lógicos - Três Conjuntos',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Em uma pesquisa com 90 servidores de uma unidade prisional: 50 leem o jornal A, 40 leem o jornal B, 30 leem o jornal C, 20 leem A e B, 15 leem B e C, 10 leem A e C, e 5 leem os três jornais. Quantos servidores NÃO leem nenhum dos três jornais?',
+    alternativas: [
+      { letra: 'A', texto: '5' },
+      { letra: 'B', texto: '10' },
+      { letra: 'C', texto: '15' },
+      { letra: 'D', texto: '20' }
+    ],
+    gabarito: 'B',
+    justificativa: 'Pelo princípio da inclusão-exclusão: |A∪B∪C| = 50+40+30-20-15-10+5 = 80. Como há 90 servidores no total, os que não leem nenhum jornal são 90-80 = 10.'
+  },
+  {
+    id: 'rlm_42',
+    disciplina: 'rlm',
+    topico: 'Progressão Aritmética - Termo Geral',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Em uma progressão aritmética (PA), o primeiro termo é 5 e a razão é 4. Qual é o valor do 10º termo dessa progressão?',
+    alternativas: [
+      { letra: 'A', texto: '36' },
+      { letra: 'B', texto: '39' },
+      { letra: 'C', texto: '41' },
+      { letra: 'D', texto: '45' }
+    ],
+    gabarito: 'C',
+    justificativa: 'O termo geral da PA é aₙ = a₁ + (n-1)×r. Para n=10: a₁₀ = 5 + (10-1)×4 = 5 + 36 = 41.'
+  },
+  {
+    id: 'rlm_43',
+    disciplina: 'rlm',
+    topico: 'Problema de Relógio - Ângulo entre Ponteiros',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Qual é o ângulo formado entre os ponteiros das horas e dos minutos de um relógio analógico às 4h30?',
+    alternativas: [
+      { letra: 'A', texto: '15°' },
+      { letra: 'B', texto: '30°' },
+      { letra: 'C', texto: '45°' },
+      { letra: 'D', texto: '60°' }
+    ],
+    gabarito: 'C',
+    justificativa: 'Às 4h00, o ponteiro das horas está em 120° (4×30°). Em 30 minutos, ele avança 15° (0,5°/min × 30), chegando a 135°. O ponteiro dos minutos, aos 30 min, está em 180° (30×6°). A diferença é 180°-135° = 45°.'
+  },
+  {
+    id: 'rlm_44',
+    disciplina: 'rlm',
+    topico: 'Negação de Universal Afirmativa e Modus Tollens',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Considere as premissas: "Nenhum servidor faltoso é promovido" e "Carlos foi promovido". A conclusão logicamente válida é:',
+    alternativas: [
+      { letra: 'A', texto: 'Carlos não é faltoso.' },
+      { letra: 'B', texto: 'Carlos é faltoso.' },
+      { letra: 'C', texto: 'Não é possível concluir nada sobre Carlos.' },
+      { letra: 'D', texto: 'Todos os promovidos são faltosos.' }
+    ],
+    gabarito: 'A',
+    justificativa: '"Nenhum servidor faltoso é promovido" equivale a "todo faltoso é não-promovido", cuja contrapositiva é "todo promovido é não-faltoso". Como Carlos foi promovido, conclui-se validamente que Carlos não é faltoso.'
+  },
+  {
+    id: 'rlm_45',
+    disciplina: 'rlm',
+    topico: 'Análise Combinatória - Anagramas',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Quantos anagramas distintos podem ser formados com as letras da palavra "PENAL" (5 letras distintas)?',
+    alternativas: [
+      { letra: 'A', texto: '20' },
+      { letra: 'B', texto: '60' },
+      { letra: 'C', texto: '100' },
+      { letra: 'D', texto: '120' }
+    ],
+    gabarito: 'D',
+    justificativa: 'Como as 5 letras da palavra "PENAL" são todas distintas, o número de anagramas é dado pela permutação simples: 5! = 5×4×3×2×1 = 120.'
   }
 ];
