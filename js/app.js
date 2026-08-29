@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v37';
+const APP_VERSION = 'v38';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -213,6 +213,29 @@ function normalizeQuestion(q) {
     };
   }
   return q;
+}
+
+// Monta o HTML com a explicação de por que cada alternativa ERRADA está errada
+// (q.alternativas[].comentario é opcional — só existe nas questões que já
+// foram escritas com esse detalhamento; questões antigas sem o campo
+// simplesmente não mostram essa seção, sem gerar caixas vazias).
+function buildAlternativasErradasHtml(q) {
+  if (!Array.isArray(q.alternativas)) return '';
+  const itens = q.alternativas
+    .filter(alt => alt.letra !== q.gabarito && alt.comentario)
+    .map(alt => `
+      <div class="feedback-alt-item">
+        <span class="feedback-alt-letter">${alt.letra}</span>
+        <span class="feedback-alt-comentario">${alt.comentario}</span>
+      </div>
+    `).join('');
+  if (!itens) return '';
+  return `
+    <div class="feedback-alternativas">
+      <div class="feedback-alternativas-title">🔍 Por que as outras alternativas estão erradas</div>
+      ${itens}
+    </div>
+  `;
 }
 
 // =================== UTILS ===============================
@@ -976,6 +999,7 @@ const QUIZ = {
     fbHeader.textContent = isCorrect ? '✅ Correto!' : `❌ Errado! Gabarito: ${q.gabarito}`;
     fbArtigo.textContent = q.artigo || '';
     fbText.textContent = q.justificativa || q.comentario || '';
+    document.getElementById('feedback-alternativas').innerHTML = buildAlternativasErradasHtml(q);
     document.getElementById('btn-confirm').classList.add('hidden');
     document.getElementById('btn-confirm').style.display = 'none';
     const nextBtn = document.getElementById('btn-next');
@@ -1508,6 +1532,7 @@ const SIMULADO = {
       document.getElementById('sim-feedback-header').textContent = isCorr ? '✅ Correto!' : `❌ Gabarito: ${q.gabarito}`;
       document.getElementById('sim-feedback-artigo').textContent = q.artigo || '';
       document.getElementById('sim-feedback-text').textContent = q.justificativa || '';
+      document.getElementById('sim-feedback-alternativas').innerHTML = buildAlternativasErradasHtml(q);
     } else {
       document.getElementById('sim-feedback-card').classList.add('hidden');
     }
@@ -1765,6 +1790,7 @@ const SIMULADO = {
           <div class="feedback-title">💡 Justificativa & Lei Seca</div>
           <div class="feedback-artigo">${q.artigo || ''}</div>
           <div class="feedback-text">${q.justificativa || q.comentario || ''}</div>
+          ${buildAlternativasErradasHtml(q)}
         </div>
       `;
       container.appendChild(card);

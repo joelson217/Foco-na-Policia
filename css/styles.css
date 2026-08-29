@@ -652,6 +652,16 @@ select:focus { border-color: var(--blue-primary); outline: none; }
 .feedback-body { padding: 14px 16px; background: var(--bg-card); }
 .feedback-artigo { font-size: 0.75rem; font-weight: 700; color: var(--blue-light); margin-bottom: 8px; }
 .feedback-text { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; }
+.feedback-alternativas { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
+.feedback-alternativas-title { font-size: 0.75rem; font-weight: 700; color: var(--red-light); margin-bottom: 8px; }
+.feedback-alt-item { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 8px; }
+.feedback-alt-item:last-child { margin-bottom: 0; }
+.feedback-alt-letter {
+  flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%;
+  background: var(--red-bg); color: var(--red-light); font-weight: 700;
+  font-size: 0.72rem; display: flex; align-items: center; justify-content: center;
+}
+.feedback-alt-comentario { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
 .quiz-controls-bottom { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
 
 /* Session Results */
