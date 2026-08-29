@@ -10,11 +10,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Moralidade e Publicidade."
+        "texto": "Moralidade e Publicidade.",
+        "comentario": "Moralidade trata de probidade e ética, e Publicidade trata de transparência — nenhum dos dois corresponde à vedação de promoção pessoal (impessoalidade) ou à exigência de resultados (eficiência)."
       },
       {
         "letra": "B",
-        "texto": "Legalidade e Moralidade."
+        "texto": "Legalidade e Moralidade.",
+        "comentario": "Legalidade exige atuação conforme a lei e Moralidade trata de ética — nenhum corresponde exatamente à vedação de promoção pessoal nem à exigência de resultados."
       },
       {
         "letra": "C",
@@ -22,7 +24,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "Razoabilidade e Eficiência."
+        "texto": "Razoabilidade e Eficiência.",
+        "comentario": "Razoabilidade não é um dos 5 princípios expressos do art. 37, caput (é princípio implícito) — o correto para \"veda promoção pessoal\" é Impessoalidade, não Razoabilidade."
       }
     ],
     "gabarito": "C",
@@ -40,7 +43,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Presunção de legitimidade."
+        "texto": "Presunção de legitimidade.",
+        "comentario": "Presunção de legitimidade refere-se à presunção de que o ato foi praticado em conformidade com a lei, não à execução direta pela Administração."
       },
       {
         "letra": "B",
@@ -48,11 +52,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Imperatividade."
+        "texto": "Imperatividade.",
+        "comentario": "Imperatividade é o poder de impor obrigações unilaterais aos administrados, distinto da capacidade de executar o ato sem intervenção judicial."
       },
       {
         "letra": "D",
-        "texto": "Tipicidade."
+        "texto": "Tipicidade.",
+        "comentario": "Tipicidade exige que o ato corresponda a figura prevista em lei — não trata da execução direta pela Administração."
       }
     ],
     "gabarito": "B",
@@ -70,15 +76,18 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Poder Hierárquico."
+        "texto": "Poder Hierárquico.",
+        "comentario": "Poder Hierárquico organiza a relação de subordinação interna entre servidores, não a restrição de liberdade/propriedade de particulares."
       },
       {
         "letra": "B",
-        "texto": "Poder Disciplinar."
+        "texto": "Poder Disciplinar.",
+        "comentario": "Poder Disciplinar pune infrações funcionais de quem tem vínculo especial com a Administração, não a restrição geral da liberdade/propriedade da coletividade."
       },
       {
         "letra": "C",
-        "texto": "Poder Regulamentar."
+        "texto": "Poder Regulamentar.",
+        "comentario": "Poder Regulamentar serve para editar decretos que detalhem a fiel execução da lei, não para restringir diretamente liberdade e propriedade dos particulares."
       },
       {
         "letra": "D",
@@ -104,15 +113,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "Presunção de legitimidade, Imperatividade, Autoexecutoriedade e Tipicidade."
+        "texto": "Presunção de legitimidade, Imperatividade, Autoexecutoriedade e Tipicidade.",
+        "comentario": "Esses são os ATRIBUTOS do ato administrativo, não seus elementos/requisitos de validade."
       },
       {
         "letra": "C",
-        "texto": "Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência."
+        "texto": "Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência.",
+        "comentario": "Esses são os princípios da Administração Pública (art. 37, CF), não os elementos do ato administrativo."
       },
       {
         "letra": "D",
-        "texto": "Motivação, Revogação, Anulação e Convalidação."
+        "texto": "Motivação, Revogação, Anulação e Convalidação.",
+        "comentario": "Esses são institutos relacionados ao controle e extinção dos atos, não seus elementos de validade."
       }
     ],
     "gabarito": "A",
@@ -130,11 +142,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Subjetiva, exigindo a comprovação do dolo ou culpa do agente."
+        "texto": "Subjetiva, exigindo a comprovação do dolo ou culpa do agente.",
+        "comentario": "A responsabilidade do Estado perante o terceiro lesado é objetiva, não exigindo comprovação de dolo ou culpa do agente."
       },
       {
         "letra": "B",
-        "texto": "Subsidiária e subjetiva."
+        "texto": "Subsidiária e subjetiva.",
+        "comentario": "A responsabilidade não é subsidiária nem subjetiva — é direta e objetiva em relação ao Estado (a subjetividade só entra no eventual direito de regresso contra o agente)."
       },
       {
         "letra": "C",
@@ -142,7 +156,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "Objetiva integral, não admitindo excludentes."
+        "texto": "Objetiva integral, não admitindo excludentes.",
+        "comentario": "A responsabilidade objetiva não é \"integral\" — admite excludentes/atenuantes como culpa exclusiva da vítima, força maior e caso fortuito."
       }
     ],
     "gabarito": "C",
@@ -160,7 +175,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A presença de dolo ou culpa nas condutas."
+        "texto": "A presença de dolo ou culpa nas condutas.",
+        "comentario": "A reforma de 2021 extinguiu a modalidade culposa — hoje se exige dolo, não dolo OU culpa."
       },
       {
         "letra": "B",
@@ -168,11 +184,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "O dano efetivo ao erário em qualquer hipótese."
+        "texto": "O dano efetivo ao erário em qualquer hipótese.",
+        "comentario": "Não se exige dano efetivo ao erário em qualquer hipótese — isso é elemento típico apenas da modalidade de dano ao erário (art. 10), não das demais (arts. 9º e 11)."
       },
       {
         "letra": "D",
-        "texto": "Ação civil pública ajuizada por qualquer cidadão."
+        "texto": "Ação civil pública ajuizada por qualquer cidadão.",
+        "comentario": "A ação por improbidade não pode ser ajuizada por qualquer cidadão — é de legitimidade do Ministério Público ou da pessoa jurídica lesada, conforme a lei após a reforma de 2021."
       }
     ],
     "gabarito": "B",
@@ -190,7 +208,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Os Ministérios e as Secretarias."
+        "texto": "Os Ministérios e as Secretarias.",
+        "comentario": "Ministérios e Secretarias integram a Administração Direta, não a Indireta."
       },
       {
         "letra": "B",
@@ -198,11 +217,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "O Poder Legislativo e Judiciário."
+        "texto": "O Poder Legislativo e Judiciário.",
+        "comentario": "Poder Legislativo e Judiciário são Poderes do Estado, não entidades da Administração Indireta."
       },
       {
         "letra": "D",
-        "texto": "As Organizações Sociais (OS) e Organizações da Sociedade Civil de Interesse Público (OSCIP)."
+        "texto": "As Organizações Sociais (OS) e Organizações da Sociedade Civil de Interesse Público (OSCIP).",
+        "comentario": "OS e OSCIP integram o chamado terceiro setor (entidades privadas parceiras), não a Administração Indireta."
       }
     ],
     "gabarito": "B",
@@ -220,19 +241,23 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Presunção de Legitimidade."
+        "texto": "Presunção de Legitimidade.",
+        "comentario": "Presunção de Legitimidade É, sim, um dos atributos do ato administrativo (integra o PATI) — por isso não serve de resposta para a exceção pedida."
       },
       {
         "letra": "B",
-        "texto": "Autoexecutoriedade."
+        "texto": "Autoexecutoriedade.",
+        "comentario": "Autoexecutoriedade É atributo do ato administrativo (integra o PATI)."
       },
       {
         "letra": "C",
-        "texto": "Tipicidade."
+        "texto": "Tipicidade.",
+        "comentario": "Tipicidade É atributo do ato administrativo (integra o PATI)."
       },
       {
         "letra": "D",
-        "texto": "Imperatividade."
+        "texto": "Imperatividade.",
+        "comentario": "Imperatividade É atributo do ato administrativo (integra o PATI)."
       },
       {
         "letra": "E",
@@ -253,15 +278,18 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Poder Hierárquico."
+        "texto": "Poder Hierárquico.",
+        "comentario": "Poder Hierárquico organiza a subordinação interna dos servidores, não a restrição de bens/direitos de particulares."
       },
       {
         "letra": "B",
-        "texto": "Poder Disciplinar."
+        "texto": "Poder Disciplinar.",
+        "comentario": "Poder Disciplinar pune infrações funcionais de quem tem vínculo especial com a Administração, não a restrição geral de bens e direitos."
       },
       {
         "letra": "C",
-        "texto": "Poder Vinculado."
+        "texto": "Poder Vinculado.",
+        "comentario": "\"Poder Vinculado\" não é uma categoria de poder administrativo com essa função — vinculação é atributo de certos atos, não um poder autônomo de restrição."
       },
       {
         "letra": "D",
@@ -269,7 +297,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "E",
-        "texto": "Poder Regulamentar."
+        "texto": "Poder Regulamentar.",
+        "comentario": "Poder Regulamentar serve para editar decretos de fiel execução da lei, não para restringir diretamente bens e direitos privados."
       }
     ],
     "correta": "D",
@@ -286,7 +315,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Comprovação de culpa nas modalidades grave ou levíssima."
+        "texto": "Comprovação de culpa nas modalidades grave ou levíssima.",
+        "comentario": "A reforma de 2021 extinguiu a modalidade culposa — não basta culpa grave ou levíssima, exige-se dolo específico."
       },
       {
         "letra": "B",
@@ -294,15 +324,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Responsabilidade objetiva (basta o dano ao erário)."
+        "texto": "Responsabilidade objetiva (basta o dano ao erário).",
+        "comentario": "Não se exige responsabilidade objetiva — a lei reformada exige comprovação de dolo específico do agente."
       },
       {
         "letra": "D",
-        "texto": "Basta a comprovação de culpa (negligência) apenas nos casos de lesão ao erário."
+        "texto": "Basta a comprovação de culpa (negligência) apenas nos casos de lesão ao erário.",
+        "comentario": "Não basta culpa (negligência) mesmo em casos de lesão ao erário — a reforma exige dolo em todas as modalidades."
       },
       {
         "letra": "E",
-        "texto": "A nova lei extinguiu todos os atos de improbidade, transformando-os em crime comum."
+        "texto": "A nova lei extinguiu todos os atos de improbidade, transformando-os em crime comum.",
+        "comentario": "A nova lei não extinguiu os atos de improbidade nem os transformou em crime comum — manteve a natureza de ilícito civil-administrativo, apenas elevando o padrão subjetivo exigido (dolo)."
       }
     ],
     "correta": "B",
@@ -319,7 +352,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Um órgão se divide internamente, criando coordenadorias (Desconcentração)."
+        "texto": "Um órgão se divide internamente, criando coordenadorias (Desconcentração).",
+        "comentario": "A divisão interna de um órgão em coordenadorias, sem criar nova pessoa jurídica, é desconcentração, não descentralização."
       },
       {
         "letra": "B",
@@ -327,15 +361,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "O Governador delega função para o Secretário de Estado."
+        "texto": "O Governador delega função para o Secretário de Estado.",
+        "comentario": "A delegação de função entre agentes da mesma pessoa jurídica é desconcentração administrativa, não descentralização."
       },
       {
         "letra": "D",
-        "texto": "A Administração Direta extingue uma estatal."
+        "texto": "A Administração Direta extingue uma estatal.",
+        "comentario": "A extinção de uma estatal não configura descentralização — é o movimento inverso (reconcentração/extinção de entidade descentralizada)."
       },
       {
         "letra": "E",
-        "texto": "Um ministério atua junto com outro em força-tarefa."
+        "texto": "Um ministério atua junto com outro em força-tarefa.",
+        "comentario": "A atuação conjunta de ministérios em força-tarefa não transfere titularidade a outra pessoa jurídica, portanto não é descentralização."
       }
     ],
     "correta": "B",
@@ -352,11 +389,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Sempre Objetiva (Risco Integral)."
+        "texto": "Sempre Objetiva (Risco Integral).",
+        "comentario": "A responsabilidade não é \"sempre objetiva com risco integral\" — para condutas omissivas, a teoria majoritária exige responsabilidade subjetiva (falha do serviço)."
       },
       {
         "letra": "B",
-        "texto": "Objetiva (Teoria do Risco Administrativo)."
+        "texto": "Objetiva (Teoria do Risco Administrativo).",
+        "comentario": "A Teoria do Risco Administrativo (objetiva) aplica-se principalmente às condutas comissivas — para omissões, prevalece a responsabilidade subjetiva."
       },
       {
         "letra": "C",
@@ -364,11 +403,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "Punitiva exclusivamente, cabendo ao agente indenizar diretamente a vítima."
+        "texto": "Punitiva exclusivamente, cabendo ao agente indenizar diretamente a vítima.",
+        "comentario": "A responsabilidade do Estado não é substituída por indenização direta do agente à vítima — o Estado responde perante o terceiro, cabendo depois ação de regresso contra o agente."
       },
       {
         "letra": "E",
-        "texto": "Solidária automática, onde a vítima processa o servidor primeiro."
+        "texto": "Solidária automática, onde a vítima processa o servidor primeiro.",
+        "comentario": "Não existe essa \"solidariedade automática\" com a vítima processando o servidor primeiro — a vítima aciona o Estado, que depois pode mover ação de regresso contra o agente."
       }
     ],
     "correta": "C",
@@ -385,7 +426,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Anulação."
+        "texto": "Anulação.",
+        "comentario": "Anulação atinge atos ILEGAIS, por razões de legalidade — não de conveniência e oportunidade, que é fundamento da revogação."
       },
       {
         "letra": "B",
@@ -393,15 +435,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Cassação."
+        "texto": "Cassação.",
+        "comentario": "Cassação é modalidade de extinção do ato por descumprimento de condição pelo beneficiário, não retirada por conveniência/oportunidade de ato válido."
       },
       {
         "letra": "D",
-        "texto": "Caducidade."
+        "texto": "Caducidade.",
+        "comentario": "Caducidade decorre de superveniência de norma que torna o ato inválido, não de simples juízo de conveniência sobre ato ainda legal."
       },
       {
         "letra": "E",
-        "texto": "Contraposição."
+        "texto": "Contraposição.",
+        "comentario": "Contraposição ocorre quando um novo ato, com fundamento diverso, produz efeitos contrários ao anterior — não é o instituto usado para retirada por conveniência e oportunidade."
       }
     ],
     "correta": "B",
@@ -418,7 +463,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Frustrar a licitude de processo licitatório."
+        "texto": "Frustrar a licitude de processo licitatório.",
+        "comentario": "Frustrar licitude de processo licitatório causa lesão ao erário (art. 10), não enriquecimento ilícito do agente em si."
       },
       {
         "letra": "B",
@@ -426,15 +472,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Permitir que se utilize maquinário público para obra particular sem vantagem."
+        "texto": "Permitir que se utilize maquinário público para obra particular sem vantagem.",
+        "comentario": "Permitir uso de maquinário público sem vantagem ao agente não configura enriquecimento ilícito (falta o elemento de vantagem patrimonial indevida para o próprio agente)."
       },
       {
         "letra": "D",
-        "texto": "Negar publicidade aos atos oficiais."
+        "texto": "Negar publicidade aos atos oficiais.",
+        "comentario": "Negar publicidade aos atos oficiais atenta contra os princípios da Administração (art. 11), não gera enriquecimento patrimonial do agente."
       },
       {
         "letra": "E",
-        "texto": "Revelar fato ou circunstância sigilosa."
+        "texto": "Revelar fato ou circunstância sigilosa.",
+        "comentario": "Revelar fato ou circunstância sigilosa também atenta contra os princípios (art. 11), sem necessariamente gerar vantagem patrimonial ao agente."
       }
     ],
     "correta": "B",
@@ -451,11 +500,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Autoexecutoriedade."
+        "texto": "Autoexecutoriedade.",
+        "comentario": "Autoexecutoriedade refere-se à execução direta do ato sem necessidade de ordem judicial, e não à imposição unilateral de obrigações em si."
       },
       {
         "letra": "B",
-        "texto": "Presunção de Legitimidade."
+        "texto": "Presunção de Legitimidade.",
+        "comentario": "Presunção de Legitimidade trata da presunção de conformidade do ato com a lei, não da imposição unilateral de obrigações."
       },
       {
         "letra": "C",
@@ -463,7 +514,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "Tipicidade."
+        "texto": "Tipicidade.",
+        "comentario": "Tipicidade exige correspondência do ato a um modelo legal previamente definido, sem relação com a imposição unilateral de obrigações."
       }
     ],
     "gabarito": "C",
@@ -481,7 +533,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Objeto."
+        "texto": "Objeto.",
+        "comentario": "Objeto é o conteúdo do ato, o efeito jurídico que ele produz — não a situação de fato/direito que autoriza sua prática."
       },
       {
         "letra": "B",
@@ -489,11 +542,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Competência."
+        "texto": "Competência.",
+        "comentario": "Competência é o sujeito com poder legal para praticar o ato, não a situação fática/jurídica que o fundamenta."
       },
       {
         "letra": "D",
-        "texto": "Finalidade."
+        "texto": "Finalidade.",
+        "comentario": "Finalidade é o interesse público que o ato busca atender, não a situação de fato/direito que o autoriza."
       }
     ],
     "gabarito": "B",
@@ -511,7 +566,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Competência, Finalidade e Objeto."
+        "texto": "Competência, Finalidade e Objeto.",
+        "comentario": "Esses são elementos/requisitos de validade do ato administrativo em geral, não atributos específicos do poder de polícia."
       },
       {
         "letra": "B",
@@ -519,11 +575,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Hierarquia, Disciplina e Autotutela."
+        "texto": "Hierarquia, Disciplina e Autotutela.",
+        "comentario": "Esses termos referem-se a outros institutos do Direito Administrativo, não aos atributos tradicionais do poder de polícia."
       },
       {
         "letra": "D",
-        "texto": "Vinculação, Razoabilidade e Publicidade."
+        "texto": "Vinculação, Razoabilidade e Publicidade.",
+        "comentario": "Esses não compõem o rol tradicional de atributos do poder de polícia (que é DAC: discricionariedade, autoexecutoriedade, coercibilidade)."
       }
     ],
     "gabarito": "B",
@@ -541,11 +599,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Toda e qualquer competência administrativa pode ser delegada."
+        "texto": "Toda e qualquer competência administrativa pode ser delegada.",
+        "comentario": "Nem toda competência pode ser delegada — a própria lei exclui atos normativos, decisão de recursos e matérias de competência exclusiva."
       },
       {
         "letra": "B",
-        "texto": "A delegação transfere a titularidade definitiva da competência para o subordinado."
+        "texto": "A delegação transfere a titularidade definitiva da competência para o subordinado.",
+        "comentario": "A delegação transfere apenas o exercício temporário da competência, não sua titularidade definitiva, que permanece com o delegante."
       },
       {
         "letra": "C",
@@ -553,7 +613,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "A avocação é a regra geral e deve ser feita de forma indiscriminada."
+        "texto": "A avocação é a regra geral e deve ser feita de forma indiscriminada.",
+        "comentario": "A avocação é medida excepcional e temporária, motivada por relevante interesse, não a regra geral a ser feita indiscriminadamente."
       }
     ],
     "gabarito": "C",
@@ -571,7 +632,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A responsabilidade civil do Estado no Brasil é subjetiva em todas as hipóteses."
+        "texto": "A responsabilidade civil do Estado no Brasil é subjetiva em todas as hipóteses.",
+        "comentario": "A responsabilidade do Estado não é subjetiva em todas as hipóteses — via de regra, para atos comissivos, é objetiva (teoria do risco administrativo)."
       },
       {
         "letra": "B",
@@ -579,11 +641,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "O preso provisório ou condenado que sofre danos em sua integridade física dentro da penitenciária gera responsabilidade subjetiva do Estado."
+        "texto": "O preso provisório ou condenado que sofre danos em sua integridade física dentro da penitenciária gera responsabilidade subjetiva do Estado.",
+        "comentario": "Danos ao preso sob custódia do Estado geram responsabilidade OBJETIVA (dever específico de guarda e vigilância), não subjetiva."
       },
       {
         "letra": "D",
-        "texto": "O direito de regresso do Estado contra o agente público causador do dano exige apenas nexo causal, independente de dolo ou culpa."
+        "texto": "O direito de regresso do Estado contra o agente público causador do dano exige apenas nexo causal, independente de dolo ou culpa.",
+        "comentario": "O direito de regresso do Estado contra o agente exige, sim, comprovação de dolo ou culpa do agente — não basta apenas o nexo causal."
       }
     ],
     "gabarito": "B",
@@ -601,7 +665,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Bens de uso comum do povo."
+        "texto": "Bens de uso comum do povo.",
+        "comentario": "Bens de uso comum do povo são aqueles de fruição geral e indiscriminada (praças, ruas, praias), não edifícios de repartições ou presídios."
       },
       {
         "letra": "B",
@@ -609,11 +674,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "Bens dominicais."
+        "texto": "Bens dominicais.",
+        "comentario": "Bens dominicais são os que não têm destinação pública específica, integrando o patrimônio disponível do Estado — não é o caso de prédios usados diretamente pela Administração."
       },
       {
         "letra": "D",
-        "texto": "Bens de uso privado estatal."
+        "texto": "Bens de uso privado estatal.",
+        "comentario": "\"Bens de uso privado estatal\" não é categoria reconhecida na classificação tradicional dos bens públicos (uso comum, uso especial e dominicais)."
       }
     ],
     "gabarito": "B",
@@ -630,7 +697,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O poder disciplinar pode ser exercido apenas sobre servidores públicos, não sobre particulares."
+        "texto": "O poder disciplinar pode ser exercido apenas sobre servidores públicos, não sobre particulares.",
+        "comentario": "O poder disciplinar não se limita a servidores públicos — alcança também particulares com vínculo jurídico especial com a Administração (ex: contratados)."
       },
       {
         "letra": "B",
@@ -638,11 +706,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "O poder disciplinar é sinônimo do poder punitivo do Estado (poder penal)."
+        "texto": "O poder disciplinar é sinônimo do poder punitivo do Estado (poder penal).",
+        "comentario": "O poder disciplinar é distinto do poder punitivo penal do Estado — trata de infrações funcionais/administrativas, não de crimes."
       },
       {
         "letra": "D",
-        "texto": "O poder disciplinar é sempre vinculado, não cabendo discricionariedade na escolha da sanção."
+        "texto": "O poder disciplinar é sempre vinculado, não cabendo discricionariedade na escolha da sanção.",
+        "comentario": "O poder disciplinar admite discricionariedade na dosimetria e escolha da sanção adequada, dentro dos limites legais — não é sempre estritamente vinculado."
       }
     ],
     "gabarito": "B",
@@ -660,15 +730,18 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A contratação direta por dispensa de valor permite contratos de obras até R$ 30.000,00 e outros serviços até R$ 50.000,00."
+        "texto": "A contratação direta por dispensa de valor permite contratos de obras até R$ 30.000,00 e outros serviços até R$ 50.000,00.",
+        "comentario": "Os valores corretos são até R$ 100.000,00 para obras e R$ 50.000,00 para outros serviços/compras — não R$ 30.000,00 para obras."
       },
       {
         "letra": "B",
-        "texto": "As hipóteses de dispensa de licitação são exaustivas e não podem ser ampliadas por decreto."
+        "texto": "As hipóteses de dispensa de licitação são exaustivas e não podem ser ampliadas por decreto.",
+        "comentario": "Os valores do art. 75 são, na verdade, atualizados periodicamente por decreto (art. 182 da Lei), conforme a própria lei prevê."
       },
       {
         "letra": "C",
-        "texto": "A contratação emergencial por dispensa de licitação pode ser prorrogada indefinidamente enquanto perdurar a urgência."
+        "texto": "A contratação emergencial por dispensa de licitação pode ser prorrogada indefinidamente enquanto perdurar a urgência.",
+        "comentario": "A dispensa emergencial tem prazo máximo de 1 ano, sem possibilidade de prorrogação indefinida enquanto perdurar a urgência."
       },
       {
         "letra": "D",
@@ -690,11 +763,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A responsabilidade objetiva do Estado exige comprovação de dolo ou culpa do agente público."
+        "texto": "A responsabilidade objetiva do Estado exige comprovação de dolo ou culpa do agente público.",
+        "comentario": "A responsabilidade objetiva dispensa a comprovação de dolo ou culpa do agente perante o terceiro lesado — essa é justamente a característica que a diferencia da responsabilidade subjetiva."
       },
       {
         "letra": "B",
-        "texto": "A responsabilidade por atos omissivos do Estado é objetiva, com base no risco administrativo."
+        "texto": "A responsabilidade por atos omissivos do Estado é objetiva, com base no risco administrativo.",
+        "comentario": "A responsabilidade por atos omissivos, segundo a doutrina majoritária, é subjetiva (exige comprovação de falha do serviço), não objetiva."
       },
       {
         "letra": "C",
@@ -702,7 +777,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "O Estado não responde por atos praticados por agentes de empresas privadas concessionárias de serviços públicos."
+        "texto": "O Estado não responde por atos praticados por agentes de empresas privadas concessionárias de serviços públicos.",
+        "comentario": "O Estado também responde por atos de agentes de concessionárias/permissionárias de serviços públicos, conforme o próprio art. 37, §6º da CF."
       }
     ],
     "gabarito": "C",
@@ -720,11 +796,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Continuidade: o serviço público não pode ser interrompido, salvo situações previstas em lei."
+        "texto": "Continuidade: o serviço público não pode ser interrompido, salvo situações previstas em lei.",
+        "comentario": "Continuidade É, sim, princípio consagrado do serviço público — por isso não serve de resposta para \"NÃO corresponde a um princípio\"."
       },
       {
         "letra": "B",
-        "texto": "Generalidade (Universalidade): o serviço deve ser prestado à coletividade, sem distinção."
+        "texto": "Generalidade (Universalidade): o serviço deve ser prestado à coletividade, sem distinção.",
+        "comentario": "Generalidade/Universalidade É, sim, princípio consagrado do serviço público."
       },
       {
         "letra": "C",
@@ -732,7 +810,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "Eficiência: o serviço público deve ser prestado com qualidade e produtividade."
+        "texto": "Eficiência: o serviço público deve ser prestado com qualidade e produtividade.",
+        "comentario": "Eficiência É, sim, princípio consagrado do serviço público (e da Administração em geral, art. 37 CF)."
       }
     ],
     "gabarito": "C",
@@ -750,7 +829,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Os atos administrativos viciados são sempre nulos e não podem ser convalidados."
+        "texto": "Os atos administrativos viciados são sempre nulos e não podem ser convalidados.",
+        "comentario": "Nem todo ato viciado é nulo insanável — vícios de competência (exceto exclusiva) e de forma não essencial podem ser convalidados, conforme o art. 55 da Lei 9.784/99."
       },
       {
         "letra": "B",
@@ -758,11 +838,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "A anulação do ato administrativo ilegal tem efeitos ex nunc (a partir da data da anulação)."
+        "texto": "A anulação do ato administrativo ilegal tem efeitos ex nunc (a partir da data da anulação).",
+        "comentario": "A anulação tem efeitos ex tunc (retroativos à data do ato), não ex nunc."
       },
       {
         "letra": "D",
-        "texto": "A revogação do ato administrativo tem efeitos ex tunc (retroativos), pois desfaz os efeitos já produzidos."
+        "texto": "A revogação do ato administrativo tem efeitos ex tunc (retroativos), pois desfaz os efeitos já produzidos.",
+        "comentario": "A revogação tem efeitos ex nunc (a partir da revogação), não ex tunc — ela preserva os efeitos já produzidos, ao contrário da anulação."
       }
     ],
     "gabarito": "B",
@@ -780,7 +862,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A Administração Pública pode praticar atos administrativos sem observar o contraditório e a ampla defesa quando houver urgência."
+        "texto": "A Administração Pública pode praticar atos administrativos sem observar o contraditório e a ampla defesa quando houver urgência.",
+        "comentario": "A Administração deve observar contraditório e ampla defesa mesmo em situações de urgência — a urgência não afasta essas garantias."
       },
       {
         "letra": "B",
@@ -788,11 +871,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "O recurso administrativo tem prazo de 30 dias para ser interposto, contados da data da decisão."
+        "texto": "O recurso administrativo tem prazo de 30 dias para ser interposto, contados da data da decisão.",
+        "comentario": "O prazo para recurso administrativo é de 10 dias (art. 59), não 30 dias."
       },
       {
         "letra": "D",
-        "texto": "A Administração não pode rever seus próprios atos, pois isso violaria a segurança jurídica."
+        "texto": "A Administração não pode rever seus próprios atos, pois isso violaria a segurança jurídica.",
+        "comentario": "A Administração pode, sim, rever seus próprios atos ilegais (autotutela — Súmulas 346 e 473 do STF), respeitado o prazo decadencial de 5 anos do art. 54."
       }
     ],
     "gabarito": "B",
@@ -810,11 +895,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O servidor nomeado em cargo de provimento efetivo adquire estabilidade após 2 anos de exercício."
+        "texto": "O servidor nomeado em cargo de provimento efetivo adquire estabilidade após 2 anos de exercício.",
+        "comentario": "A estabilidade é adquirida após 3 anos de efetivo exercício (coincidente com o estágio probatório), não 2 anos."
       },
       {
         "letra": "B",
-        "texto": "O servidor estável só pode perder o cargo mediante sentença judicial transitada em julgado ou processo administrativo disciplinar."
+        "texto": "O servidor estável só pode perder o cargo mediante sentença judicial transitada em julgado ou processo administrativo disciplinar.",
+        "comentario": "A afirmação está incompleta — o servidor estável também pode perder o cargo por avaliação periódica de desempenho insatisfatória (art. 41, §1º, III, CF), além de sentença judicial e PAD."
       },
       {
         "letra": "C",
@@ -822,7 +909,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "O servidor estável não pode ser demitido por insuficiência de desempenho, apenas por infração disciplinar."
+        "texto": "O servidor estável não pode ser demitido por insuficiência de desempenho, apenas por infração disciplinar.",
+        "comentario": "O servidor estável PODE ser demitido por insuficiência de desempenho comprovada em avaliação periódica (art. 41, §1º, III, CF), não apenas por infração disciplinar."
       }
     ],
     "gabarito": "C",
@@ -845,15 +933,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "Apenas legalidade e eficiência, sendo os demais princípios aplicáveis somente ao processo judicial."
+        "texto": "Apenas legalidade e eficiência, sendo os demais princípios aplicáveis somente ao processo judicial.",
+        "comentario": "O art. 2º não se limita a legalidade e eficiência — elenca expressamente um rol mais amplo de princípios, todos aplicáveis ao processo administrativo, não apenas ao judicial."
       },
       {
         "letra": "C",
-        "texto": "Sigilo absoluto, sendo vedada qualquer publicidade dos atos processuais administrativos."
+        "texto": "Sigilo absoluto, sendo vedada qualquer publicidade dos atos processuais administrativos.",
+        "comentario": "O processo administrativo não exige sigilo absoluto — a publicidade é, ao contrário, um dos princípios expressos do art. 2º."
       },
       {
         "letra": "D",
-        "texto": "Discricionariedade plena da autoridade julgadora, sem vinculação a critérios objetivos."
+        "texto": "Discricionariedade plena da autoridade julgadora, sem vinculação a critérios objetivos.",
+        "comentario": "A Administração não tem discricionariedade plena e desvinculada — deve observar critérios objetivos e os princípios listados no art. 2º."
       }
     ],
     "gabarito": "A",
@@ -870,7 +961,8 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "5 dias, contados da publicação da decisão."
+        "texto": "5 dias, contados da publicação da decisão.",
+        "comentario": "O prazo correto é de 10 dias, não 5 dias."
       },
       {
         "letra": "B",
@@ -878,11 +970,13 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "C",
-        "texto": "15 dias úteis, contados da intimação pessoal do interessado."
+        "texto": "15 dias úteis, contados da intimação pessoal do interessado.",
+        "comentario": "O prazo correto é de 10 dias, e conta-se da ciência ou divulgação oficial, não da intimação pessoal exclusivamente."
       },
       {
         "letra": "D",
-        "texto": "30 dias corridos, contados da data do protocolo do processo."
+        "texto": "30 dias corridos, contados da data do protocolo do processo.",
+        "comentario": "O prazo correto é de 10 dias, e não se conta do protocolo do processo, mas da ciência da decisão recorrida."
       }
     ],
     "gabarito": "B",
@@ -899,11 +993,13 @@ const QUESTIONS_ADMINISTRATIVO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "10 dias, a partir do protocolo do recurso."
+        "texto": "10 dias, a partir do protocolo do recurso.",
+        "comentario": "O prazo correto é de 30 dias, não 10 dias."
       },
       {
         "letra": "B",
-        "texto": "15 dias, improrrogáveis."
+        "texto": "15 dias, improrrogáveis.",
+        "comentario": "O prazo correto é de 30 dias, prorrogável por igual período — não 15 dias improrrogáveis."
       },
       {
         "letra": "C",
@@ -911,7 +1007,8 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "D",
-        "texto": "90 dias, sem possibilidade de prorrogação."
+        "texto": "90 dias, sem possibilidade de prorrogação.",
+        "comentario": "O prazo correto é de 30 dias (prorrogável por igual período), não 90 dias sem prorrogação."
       }
     ],
     "gabarito": "C",
@@ -933,15 +1030,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "Possuir personalidade jurídica de direito privado, sujeitando-se ao regime celetista de forma obrigatória e integral."
+        "texto": "Possuir personalidade jurídica de direito privado, sujeitando-se ao regime celetista de forma obrigatória e integral.",
+        "comentario": "Autarquias têm personalidade jurídica de DIREITO PÚBLICO, e seus servidores em regra se submetem a regime estatutário, não celetista obrigatório."
       },
       {
         "letra": "C",
-        "texto": "Não possuir personalidade jurídica própria, sendo mero órgão despersonalizado vinculado à Administração Direta."
+        "texto": "Não possuir personalidade jurídica própria, sendo mero órgão despersonalizado vinculado à Administração Direta.",
+        "comentario": "Autarquias possuem personalidade jurídica própria — não são meros órgãos despersonalizados da Administração Direta."
       },
       {
         "letra": "D",
-        "texto": "Ser constituídas exclusivamente sob a forma de sociedade anônima, com participação obrigatória de capital privado."
+        "texto": "Ser constituídas exclusivamente sob a forma de sociedade anônima, com participação obrigatória de capital privado.",
+        "comentario": "Autarquias não são constituídas como sociedade anônima nem exigem capital privado — essa é característica de sociedade de economia mista, entidade distinta."
       }
     ],
     "gabarito": "A",
@@ -962,15 +1062,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "Ambas admitem exclusivamente capital privado, sem qualquer participação do Poder Público."
+        "texto": "Ambas admitem exclusivamente capital privado, sem qualquer participação do Poder Público.",
+        "comentario": "Empresas estatais admitem, sim, participação do Poder Público — a empresa pública tem capital 100% público, e a sociedade de economia mista tem capital misto com controle público majoritário."
       },
       {
         "letra": "C",
-        "texto": "A sociedade de economia mista deve ser constituída sob a forma de sociedade limitada, nunca sociedade anônima."
+        "texto": "A sociedade de economia mista deve ser constituída sob a forma de sociedade limitada, nunca sociedade anônima.",
+        "comentario": "A sociedade de economia mista deve ser constituída sob a forma de sociedade ANÔNIMA, nunca sociedade limitada."
       },
       {
         "letra": "D",
-        "texto": "A empresa pública e a sociedade de economia mista têm personalidade jurídica de direito público, como as autarquias."
+        "texto": "A empresa pública e a sociedade de economia mista têm personalidade jurídica de direito público, como as autarquias.",
+        "comentario": "Empresa pública e sociedade de economia mista têm personalidade jurídica de direito PRIVADO, diferentemente das autarquias, que são de direito público."
       }
     ],
     "gabarito": "A",
@@ -991,15 +1094,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "Explorar atividade econômica em regime de livre concorrência com a iniciativa privada, com fins lucrativos."
+        "texto": "Explorar atividade econômica em regime de livre concorrência com a iniciativa privada, com fins lucrativos.",
+        "comentario": "Fundações públicas não exploram atividade econômica com fins lucrativos — atuam em áreas de interesse social sem finalidade lucrativa."
       },
       {
         "letra": "C",
-        "texto": "Substituir integralmente as autarquias, sendo vedada a coexistência de ambas as figuras no ordenamento jurídico."
+        "texto": "Substituir integralmente as autarquias, sendo vedada a coexistência de ambas as figuras no ordenamento jurídico.",
+        "comentario": "Fundações públicas não substituem as autarquias — ambas coexistem como entidades distintas da Administração Indireta."
       },
       {
         "letra": "D",
-        "texto": "Atuar exclusivamente como órgãos de consultoria jurídica do Poder Executivo."
+        "texto": "Atuar exclusivamente como órgãos de consultoria jurídica do Poder Executivo.",
+        "comentario": "Fundações públicas não atuam exclusivamente como consultoria jurídica — atuam em áreas como educação, saúde, cultura e pesquisa."
       }
     ],
     "gabarito": "A",
@@ -1021,15 +1127,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "O serviço público deve ser prestado gratuitamente em todas as hipóteses, sem qualquer cobrança de tarifa."
+        "texto": "O serviço público deve ser prestado gratuitamente em todas as hipóteses, sem qualquer cobrança de tarifa.",
+        "comentario": "O princípio da continuidade não exige gratuidade total — o serviço pode ser remunerado por tarifa, conforme a modalidade de delegação."
       },
       {
         "letra": "C",
-        "texto": "O serviço público, uma vez concedido, jamais poderá ter suas condições técnicas alteradas ou atualizadas."
+        "texto": "O serviço público, uma vez concedido, jamais poderá ter suas condições técnicas alteradas ou atualizadas.",
+        "comentario": "A continuidade não impede atualização técnica do serviço — pelo contrário, o princípio da atualidade exige modernização e adequação técnica."
       },
       {
         "letra": "D",
-        "texto": "O serviço público deve ser prestado exclusivamente pelo Estado, sendo vedada qualquer forma de delegação a particulares."
+        "texto": "O serviço público deve ser prestado exclusivamente pelo Estado, sendo vedada qualquer forma de delegação a particulares.",
+        "comentario": "A continuidade não veda delegação a particulares — o art. 175 da CF autoriza expressamente a prestação por concessão ou permissão."
       }
     ],
     "gabarito": "A",
@@ -1050,15 +1159,18 @@ const QUESTIONS_ADMINISTRATIVO = [
         "texto": "Mediante licitação, na modalidade de concorrência, à pessoa jurídica ou consórcio de empresas que demonstre capacidade para seu desempenho, por sua conta e risco e por prazo determinado." },
       {
         "letra": "B",
-        "texto": "Independentemente de licitação, a qualquer pessoa física interessada, por prazo indeterminado."
+        "texto": "Independentemente de licitação, a qualquer pessoa física interessada, por prazo indeterminado.",
+        "comentario": "A concessão exige licitação prévia (na modalidade concorrência) e é outorgada por prazo determinado, não indeterminado, nem a qualquer pessoa física."
       },
       {
         "letra": "C",
-        "texto": "Exclusivamente a autarquias e fundações públicas, nunca a empresas privadas."
+        "texto": "Exclusivamente a autarquias e fundações públicas, nunca a empresas privadas.",
+        "comentario": "A concessão pode ser outorgada também a empresas privadas — não é exclusiva de autarquias e fundações públicas."
       },
       {
         "letra": "D",
-        "texto": "Sem qualquer remuneração ao concessionário, que deve prestar o serviço a título gratuito e filantrópico."
+        "texto": "Sem qualquer remuneração ao concessionário, que deve prestar o serviço a título gratuito e filantrópico.",
+        "comentario": "A concessão é, em regra, remunerada (por tarifa cobrada do usuário), não prestada a título gratuito e filantrópico."
       }
     ],
     "gabarito": "A",
@@ -1078,15 +1190,18 @@ const QUESTIONS_ADMINISTRATIVO = [
         "texto": "Ser formalizada por contrato de adesão, revogável unilateralmente pelo poder concedente, podendo ser outorgada a pessoa física ou jurídica, ao contrário da concessão, restrita a pessoa jurídica ou consórcio de empresas." },
       {
         "letra": "B",
-        "texto": "Não exigir licitação prévia, ao contrário da concessão."
+        "texto": "Não exigir licitação prévia, ao contrário da concessão.",
+        "comentario": "Tanto a concessão quanto a permissão exigem licitação prévia — a diferença não está na dispensa de licitação."
       },
       {
         "letra": "C",
-        "texto": "Ser sempre gratuita, enquanto a concessão é sempre remunerada."
+        "texto": "Ser sempre gratuita, enquanto a concessão é sempre remunerada.",
+        "comentario": "A gratuidade não é o critério distintivo — ambos os institutos, em regra, admitem remuneração por tarifa."
       },
       {
         "letra": "D",
-        "texto": "Não admitir fiscalização pelo poder concedente durante sua vigência."
+        "texto": "Não admitir fiscalização pelo poder concedente durante sua vigência.",
+        "comentario": "A permissão também está sujeita à fiscalização do poder concedente durante sua vigência, assim como a concessão."
       }
     ],
     "gabarito": "A",
@@ -1107,14 +1222,18 @@ const QUESTIONS_ADMINISTRATIVO = [
         "texto": "Na encampação, a retomada do serviço decorre de interesse público, mediante lei autorizativa específica e prévia indenização, mesmo sem culpa da concessionária; na caducidade, a extinção decorre da inexecução total ou parcial do contrato pela concessionária." },
       {
         "letra": "B",
-        "texto": "Na caducidade, exige-se lei autorizativa específica; na encampação, basta decisão administrativa discricionária, sem indenização." },
+        "texto": "Na caducidade, exige-se lei autorizativa específica; na encampação, basta decisão administrativa discricionária, sem indenização.",
+        "comentario": "É exatamente o oposto: a encampação exige lei autorizativa específica e indenização prévia; a caducidade decorre de inexecução contratual e não depende de lei específica prévia."
+      },
       {
         "letra": "C",
-        "texto": "Ambas exigem, necessariamente, o mesmo pressuposto: a falência da concessionária."
+        "texto": "Ambas exigem, necessariamente, o mesmo pressuposto: a falência da concessionária.",
+        "comentario": "Nenhum dos dois institutos exige necessariamente a falência da concessionária — a caducidade decorre de inexecução contratual, e a encampação de interesse público."
       },
       {
         "letra": "D",
-        "texto": "Não há qualquer diferença prática entre os dois institutos, sendo sinônimos."
+        "texto": "Não há qualquer diferença prática entre os dois institutos, sendo sinônimos.",
+        "comentario": "Há diferença prática relevante: a encampação pressupõe ausência de culpa da concessionária, e a caducidade pressupõe inadimplemento contratual dela."
       }
     ],
     "gabarito": "A",
@@ -1136,15 +1255,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "Criar, extinguir ou majorar tributos, independentemente de lei em sentido formal."
+        "texto": "Criar, extinguir ou majorar tributos, independentemente de lei em sentido formal.",
+        "comentario": "O poder regulamentar não serve para criar, extinguir ou majorar tributos — isso exige lei em sentido formal, por força do princípio da legalidade tributária."
       },
       {
         "letra": "C",
-        "texto": "Substituir integralmente o Poder Legislativo na criação de normas de qualquer natureza."
+        "texto": "Substituir integralmente o Poder Legislativo na criação de normas de qualquer natureza.",
+        "comentario": "O poder regulamentar não substitui o Poder Legislativo na criação de normas gerais — limita-se a detalhar a fiel execução das leis já existentes."
       },
       {
         "letra": "D",
-        "texto": "Aplicar sanções disciplinares a servidores públicos, função que é exclusiva do poder disciplinar, não do regulamentar."
+        "texto": "Aplicar sanções disciplinares a servidores públicos, função que é exclusiva do poder disciplinar, não do regulamentar.",
+        "comentario": "Aplicar sanções disciplinares decorre do poder disciplinar, não do poder regulamentar, que se refere à edição de decretos regulamentares."
       }
     ],
     "gabarito": "A",
@@ -1166,15 +1288,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "1 (um) ano, improrrogável em qualquer hipótese."
+        "texto": "1 (um) ano, improrrogável em qualquer hipótese.",
+        "comentario": "O prazo correto é de 5 anos, e mesmo esse prazo comporta exceção (má-fé), não sendo \"improrrogável em qualquer hipótese\" o conceito aplicável aqui."
       },
       {
         "letra": "C",
-        "texto": "10 (dez) anos, contados da publicação oficial do ato."
+        "texto": "10 (dez) anos, contados da publicação oficial do ato.",
+        "comentario": "O prazo correto é de 5 anos, não 10 anos, e conta-se da prática do ato, não da publicação oficial."
       },
       {
         "letra": "D",
-        "texto": "Prazo indeterminado, podendo a Administração anular o ato a qualquer tempo, mesmo sem má-fé do beneficiário."
+        "texto": "Prazo indeterminado, podendo a Administração anular o ato a qualquer tempo, mesmo sem má-fé do beneficiário.",
+        "comentario": "Existe, sim, prazo definido (5 anos) para a regra geral — o prazo indeterminado só se aplica na exceção de comprovada má-fé do beneficiário."
       }
     ],
     "gabarito": "A",
@@ -1195,15 +1320,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "A Administração Pública Indireta, no mesmo grupo das autarquias e fundações públicas."
+        "texto": "A Administração Pública Indireta, no mesmo grupo das autarquias e fundações públicas.",
+        "comentario": "OS e OSCIP não integram a Administração Indireta — são entidades privadas do terceiro setor, distintas de autarquias e fundações públicas."
       },
       {
         "letra": "C",
-        "texto": "A Administração Pública Direta, como órgãos subordinados diretamente a Ministérios ou Secretarias."
+        "texto": "A Administração Pública Direta, como órgãos subordinados diretamente a Ministérios ou Secretarias.",
+        "comentario": "OS e OSCIP não integram a Administração Direta — não são órgãos subordinados a Ministérios ou Secretarias."
       },
       {
         "letra": "D",
-        "texto": "O núcleo essencial e insubstituível do Estado, sendo vedada, por definição, qualquer atuação privada nessas áreas."
+        "texto": "O núcleo essencial e insubstituível do Estado, sendo vedada, por definição, qualquer atuação privada nessas áreas.",
+        "comentario": "A atuação privada em áreas de interesse social não é vedada — é justamente isso que caracteriza e viabiliza a atuação de OS e OSCIP em parceria com o Estado."
       }
     ],
     "gabarito": "A",
@@ -1225,15 +1353,18 @@ const QUESTIONS_ADMINISTRATIVO = [
       },
       {
         "letra": "B",
-        "texto": "O Poder Judiciário pode revogar, por razões de conveniência e oportunidade, qualquer ato administrativo discricionário, substituindo livremente o juízo da Administração."
+        "texto": "O Poder Judiciário pode revogar, por razões de conveniência e oportunidade, qualquer ato administrativo discricionário, substituindo livremente o juízo da Administração.",
+        "comentario": "O Judiciário não pode substituir livremente o juízo de conveniência e oportunidade da Administração — isso violaria a separação dos poderes; seu controle se limita à legalidade."
       },
       {
         "letra": "C",
-        "texto": "Nenhum ato administrativo pode ser controlado pelo Poder Judiciário, em razão do princípio da separação dos poderes."
+        "texto": "Nenhum ato administrativo pode ser controlado pelo Poder Judiciário, em razão do princípio da separação dos poderes.",
+        "comentario": "Atos administrativos podem, sim, ser controlados pelo Judiciário quanto à sua legalidade — a separação dos poderes não afasta esse controle (princípio da inafastabilidade da jurisdição)."
       },
       {
         "letra": "D",
-        "texto": "O controle judicial se limita aos atos vinculados, sendo vedado qualquer exame de atos discricionários, mesmo quanto à sua legalidade formal."
+        "texto": "O controle judicial se limita aos atos vinculados, sendo vedado qualquer exame de atos discricionários, mesmo quanto à sua legalidade formal.",
+        "comentario": "O controle judicial não se limita aos atos vinculados — alcança também os discricionários quanto à legalidade formal e aos limites da discricionariedade."
       }
     ],
     "gabarito": "A",
