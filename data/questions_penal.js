@@ -1569,5 +1569,196 @@ const QUESTIONS_PENAL = [
   "gabarito": "A",
   "artigo": "Art. 319 do CP",
   "justificativa": "A prevaricação exige elemento subjetivo específico: satisfazer interesse ou sentimento pessoal (não necessariamente vantagem econômica, podendo ser mera animosidade, amizade ou capricho) — diferindo do peculato e da corrupção, que envolvem vantagem patrimonial indevida."
+},
+{
+  "id": "penal_57",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Fé Pública - Moeda Falsa",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "O crime de moeda falsa, previsto no art. 289 do Código Penal, consiste em:",
+  "alternativas": [
+    { "letra": "A", "texto": "Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro." },
+    { "letra": "B", "texto": "Apenas utilizar, de boa-fé, moeda falsa recebida de terceiro sem qualquer intenção fraudulenta." },
+    { "letra": "C", "texto": "Colecionar cédulas antigas fora de circulação para fins numismáticos." },
+    { "letra": "D", "texto": "Emitir títulos de crédito de empresa privada sem lastro financeiro." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 289 do CP",
+  "justificativa": "O crime de moeda falsa protege a fé pública relacionada à confiança na circulação monetária, abrangendo a fabricação ou alteração de moeda metálica ou papel-moeda, de curso legal no país ou no estrangeiro — é crime contra a fé pública, não contra o patrimônio."
+},
+{
+  "id": "penal_58",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Fé Pública - Uso de Documento Falso",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "O crime de uso de documento falso, previsto no art. 304 do Código Penal, pune quem:",
+  "alternativas": [
+    { "letra": "A", "texto": "Fizer uso de qualquer dos papéis falsificados ou alterados a que se referem os artigos relativos à falsificação de documentos (públicos, particulares ou outros)." },
+    { "letra": "B", "texto": "Apenas fabrica o documento falso, sem chegar a utilizá-lo." },
+    { "letra": "C", "texto": "Perde um documento verdadeiro por descuido, sem qualquer intenção fraudulenta." },
+    { "letra": "D", "texto": "Solicita a segunda via de documento extraviado junto ao órgão competente." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 304 do CP",
+  "justificativa": "O uso de documento falso (art. 304) pune quem utiliza documento já falsificado ou alterado por outrem (ou por si mesmo), recebendo a mesma pena cominada à falsificação. Não se confunde com a própria falsificação (arts. 297-299), que pune o ato de forjar ou alterar o documento."
+},
+{
+  "id": "penal_59",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Fé Pública - Falsa Identidade",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "O crime de falsa identidade, previsto no art. 307 do Código Penal, consiste em atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem, sendo correto afirmar que:",
+  "alternativas": [
+    { "letra": "A", "texto": "A pena é aplicada apenas se o fato não constituir elemento de crime mais grave, tendo, portanto, caráter subsidiário expresso." },
+    { "letra": "B", "texto": "É crime que exige, necessariamente, a falsificação material de um documento físico." },
+    { "letra": "C", "texto": "Somente pode ser praticado contra autoridade policial, nunca contra particulares." },
+    { "letra": "D", "texto": "Exige dano patrimonial efetivo e comprovado à vítima para sua consumação." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 307 do CP",
+  "justificativa": "O art. 307 tem cláusula de subsidiariedade expressa (\"se o fato não constitui elemento de crime mais grave\"): a falsa identidade não exige falsificação documental (pode ser verbal), pode ser praticada contra qualquer pessoa, e não exige dano patrimonial efetivo — basta a intenção de obter vantagem ou causar dano."
+},
+{
+  "id": "penal_60",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública (Particular) - Desacato",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "O crime de desacato, previsto no art. 331 do Código Penal, consiste em desacatar funcionário público no exercício da função ou em razão dela. Sobre esse crime, é correto afirmar que:",
+  "alternativas": [
+    { "letra": "A", "texto": "O STF já decidiu pela sua constitucionalidade e vigência no ordenamento jurídico brasileiro, afastando o entendimento de órgãos internacionais que recomendavam sua descriminalização." },
+    { "letra": "B", "texto": "Foi expressamente revogado pela Lei 13.869/2019 (Lei de Abuso de Autoridade)." },
+    { "letra": "C", "texto": "Só pode ser praticado por outro agente público contra o funcionário desacatado." },
+    { "letra": "D", "texto": "Exige, necessariamente, agressão física ao funcionário público." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 331 do CP",
+  "justificativa": "O STF (ADPF 496 e HC julgados correlatos) reafirmou a constitucionalidade e a vigência do crime de desacato no Brasil, apesar de recomendações de órgãos internacionais (como a Comissão Interamericana de Direitos Humanos) pela sua descriminalização. O crime pune ofensa verbal/gestual, não exigindo agressão física."
+},
+{
+  "id": "penal_61",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública (Particular) - Desobediência",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "O crime de desobediência, previsto no art. 330 do Código Penal, consiste em desobedecer a ordem legal de funcionário público. É correto afirmar que:",
+  "alternativas": [
+    { "letra": "A", "texto": "Não se configura o crime quando a lei já prevê sanção administrativa ou civil específica para o descumprimento, sem ressalva expressa quanto à cumulação com a sanção penal." },
+    { "letra": "B", "texto": "Configura-se em qualquer hipótese de descumprimento de ordem de funcionário público, mesmo quando há sanção administrativa específica prevista, sem qualquer distinção." },
+    { "letra": "C", "texto": "Exige que a ordem desobedecida seja necessariamente ilegal." },
+    { "letra": "D", "texto": "Só pode ser praticado por funcionário público contra outro funcionário público." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 330 do CP",
+  "justificativa": "A jurisprudência majoritária entende que, havendo sanção administrativa ou civil específica para o descumprimento da ordem, sem ressalva expressa de cumulação com sanção penal, não se configura o crime de desobediência — evitando bis in idem. A ordem desobedecida deve ser LEGAL, e o crime é próprio de particular (ou funcionário fora da função) contra a Administração."
+},
+{
+  "id": "penal_62",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública (Particular) - Resistência",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "O crime de resistência, previsto no art. 329 do Código Penal, consiste em opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo. A pena é aumentada:",
+  "alternativas": [
+    { "letra": "A", "texto": "Se o ato, em razão da resistência, não se executa." },
+    { "letra": "B", "texto": "Se a resistência for praticada sem violência, apenas com palavras ofensivas." },
+    { "letra": "C", "texto": "Sempre que houver mais de um funcionário público presente no local." },
+    { "letra": "D", "texto": "Apenas quando a resistência ocorrer em via pública." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 329, §1º do CP",
+  "justificativa": "O §1º do art. 329 prevê causa de aumento de pena quando o ato, em razão da resistência, não se executa. A resistência exige violência ou grave ameaça (diferente do desacato, que não exige violência) contra ato LEGAL sendo executado."
+},
+{
+  "id": "penal_63",
+  "disciplina": "penal",
+  "topico": "Crimes contra a Administração Pública (Particular) - Tráfico de Influência",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "O crime de tráfico de influência, previsto no art. 332 do Código Penal, consiste em:",
+  "alternativas": [
+    { "letra": "A", "texto": "Solicitar, exigir, cobrar ou obter vantagem ou promessa de vantagem, a pretexto de influir em ato praticado por funcionário público no exercício da função." },
+    { "letra": "B", "texto": "Exercer, licitamente, atividade de lobby regulamentado perante órgãos públicos." },
+    { "letra": "C", "texto": "Ser praticado exclusivamente por funcionário público contra outro funcionário público." },
+    { "letra": "D", "texto": "Exigir prova de que o funcionário público efetivamente praticou o ato influenciado, sob pena de atipicidade." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 332 do CP",
+  "justificativa": "O tráfico de influência é praticado, em regra, por particular que se vale (ou alega se valer) de influência sobre funcionário público para obter vantagem, sendo irrelevante se a influência é real ou apenas alegada, e independentemente de o funcionário influenciado ter efetivamente praticado o ato — a pena é aumentada de metade se o agente alega que a vantagem também se destina ao funcionário."
+},
+{
+  "id": "penal_64",
+  "disciplina": "penal",
+  "topico": "Processual Penal - Liberdade Provisória",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Segundo o art. 310 do CPP, o juiz, ao receber o auto de prisão em flagrante, poderá relaxar a prisão ilegal, converter a prisão em flagrante em preventiva, ou conceder liberdade provisória, com ou sem fiança. A concessão de liberdade provisória SEM fiança é cabível, entre outras hipóteses, quando:",
+  "alternativas": [
+    { "letra": "A", "texto": "O juiz verificar que o agente praticou o fato em situação de exclusão de ilicitude (legítima defesa, estado de necessidade, estrito cumprimento do dever legal ou exercício regular de direito)." },
+    { "letra": "B", "texto": "O crime for de tráfico de drogas, hipótese em que a liberdade provisória é sempre concedida automaticamente." },
+    { "letra": "C", "texto": "O réu for reincidente específico em crime hediondo." },
+    { "letra": "D", "texto": "Não há previsão de liberdade provisória sem fiança no ordenamento processual penal brasileiro." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 310, §1º do CPP",
+  "justificativa": "Quando o juiz verifica, pelo auto de prisão em flagrante, que o agente agiu amparado por excludente de ilicitude, deve conceder liberdade provisória (podendo, inclusive, deixar de fixar fiança), sem prejuízo do eventual arbitramento de medidas cautelares diversas da prisão."
+},
+{
+  "id": "penal_65",
+  "disciplina": "penal",
+  "topico": "Processual Penal - Vedação à Fiança",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 323 do CPP, não será concedida fiança nos crimes de:",
+  "alternativas": [
+    { "letra": "A", "texto": "Racismo, tortura, tráfico ilícito de entorpecentes, terrorismo e crimes hediondos, além dos praticados por grupos armados contra a ordem constitucional e o Estado Democrático." },
+    { "letra": "B", "texto": "Furto simples, em qualquer hipótese, independentemente do valor da coisa subtraída." },
+    { "letra": "C", "texto": "Todos os crimes culposos, sem exceção." },
+    { "letra": "D", "texto": "Contravenções penais em geral." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 323 do CPP",
+  "justificativa": "O art. 323 veda a fiança nos crimes de racismo, tortura, tráfico ilícito de entorpecentes e drogas afins, terrorismo, crimes hediondos, e nos praticados por grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático. Importante: a vedação à fiança não impede, por si só, a liberdade provisória SEM fiança."
+},
+{
+  "id": "penal_66",
+  "disciplina": "penal",
+  "topico": "Processual Penal - Peritos (Auxiliares da Justiça)",
+  "peso": 1,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 279 do CPP, NÃO podem ser peritos:",
+  "alternativas": [
+    { "letra": "A", "texto": "Os que já tiverem servido como testemunhas no processo, ou opinado anteriormente sobre o objeto da perícia, além de analfabetos e menores de 21 anos." },
+    { "letra": "B", "texto": "Qualquer profissional com curso superior completo, independentemente de outras circunstâncias." },
+    { "letra": "C", "texto": "Servidores públicos, em qualquer hipótese." },
+    { "letra": "D", "texto": "Pessoas maiores de 60 anos, por presunção de incapacidade técnica." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 279 do CPP",
+  "justificativa": "O art. 279 impede que sejam peritos aqueles sujeitos a certas interdições de direitos do CP, os que já testemunharam ou opinaram sobre o objeto da perícia no mesmo processo, os analfabetos e os menores de 21 anos — o perito, mesmo não oficial, sujeita-se à disciplina judiciária (art. 275)."
+},
+{
+  "id": "penal_67",
+  "disciplina": "penal",
+  "topico": "Processual Penal - Intérprete como Auxiliar da Justiça",
+  "peso": 1,
+  "dificuldade": "medio",
+  "enunciado": "Segundo o art. 281 do CPP, o intérprete, no processo penal, é:",
+  "alternativas": [
+    { "letra": "A", "texto": "Equiparado, para todos os efeitos, aos peritos, sujeitando-se às mesmas regras de impedimento e disciplina judiciária." },
+    { "letra": "B", "texto": "Uma figura distinta, sem qualquer equiparação normativa aos demais auxiliares da justiça." },
+    { "letra": "C", "texto": "Dispensável em qualquer hipótese, mesmo quando o interrogado não domina o idioma português." },
+    { "letra": "D", "texto": "Nomeado exclusivamente pelo Ministério Público, nunca pelo juiz." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 281 do CPP",
+  "justificativa": "O art. 281 equipara o intérprete, para todos os efeitos, aos peritos — sujeitando-se, portanto, às mesmas causas de impedimento (art. 279) e à disciplina judiciária (art. 275), como auxiliar da justiça."
 }
 ];

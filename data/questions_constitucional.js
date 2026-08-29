@@ -1161,5 +1161,241 @@ const QUESTIONS_CONSTITUCIONAL = [
     "gabarito": "A",
     "artigo": "Art. 18 da CF/88",
     "justificativa": "A organização político-administrativa compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos nos termos da Constituição — o Brasil atualmente não possui Territórios Federais ativos (o último, Fernando de Noronha, foi extinto pela CF/88, incorporado a Pernambuco)."
+  },
+  {
+    "id": "const_39",
+    "disciplina": "constitucional",
+    "topico": "Poder Executivo - Atribuições do Presidente (Nomeações)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 84 da Constituição Federal, compete privativamente ao Presidente da República:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nomear e exonerar os Ministros de Estado, e nomear, após aprovação pelo Senado Federal, os Ministros do STF e dos Tribunais Superiores, o Procurador-Geral da República e os Governadores de Territórios."
+      },
+      {
+        "letra": "B",
+        "texto": "Nomear os Ministros do STF sem qualquer participação do Senado Federal."
+      },
+      {
+        "letra": "C",
+        "texto": "Nomear os membros do Tribunal de Contas da União, com exclusividade, sem qualquer participação do Congresso Nacional."
+      },
+      {
+        "letra": "D",
+        "texto": "Nomear os Deputados Federais e Senadores que comporão as Mesas Diretoras das Casas Legislativas."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 84, I e XIV da CF/88",
+    "justificativa": "O Presidente nomeia e exonera livremente os Ministros de Estado (cargo de confiança), mas a nomeação de Ministros do STF/Tribunais Superiores, do PGR e de Governadores de Territórios exige prévia aprovação do Senado Federal — checks and balances entre os Poderes."
+  },
+  {
+    "id": "const_40",
+    "disciplina": "constitucional",
+    "topico": "Poder Executivo - Sanção, Veto e Poder Regulamentar",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Compete privativamente ao Presidente da República, segundo o art. 84, IV e V da CF/88:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para sua fiel execução, além de vetar projetos de lei, total ou parcialmente."
+      },
+      {
+        "letra": "B",
+        "texto": "Julgar a constitucionalidade das leis aprovadas pelo Congresso Nacional, em caráter definitivo."
+      },
+      {
+        "letra": "C",
+        "texto": "Revogar, a qualquer tempo, decisões transitadas em julgado do Poder Judiciário."
+      },
+      {
+        "letra": "D",
+        "texto": "Convocar plebiscito ou referendo, independentemente de autorização do Congresso Nacional."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 84, IV e V da CF/88",
+    "justificativa": "Sanção, promulgação, publicação de leis e expedição de decretos regulamentares (inciso IV), além do veto (inciso V), são atribuições privativas do Presidente. O controle de constitucionalidade cabe ao Judiciário, e a convocação de plebiscito/referendo é do Congresso Nacional (art. 49, XV, CF)."
+  },
+  {
+    "id": "const_41",
+    "disciplina": "constitucional",
+    "topico": "Poder Executivo - Estado de Defesa e Estado de Sítio",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Compete privativamente ao Presidente da República, segundo o art. 84, IX da CF/88:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Decretar o estado de defesa e o estado de sítio, ambos sujeitos a controle político do Congresso Nacional."
+      },
+      {
+        "letra": "B",
+        "texto": "Decretar o estado de sítio sem qualquer participação ou controle do Congresso Nacional."
+      },
+      {
+        "letra": "C",
+        "texto": "Decretar intervenção federal em qualquer hipótese, sem necessidade de decreto específico."
+      },
+      {
+        "letra": "D",
+        "texto": "Suspender, por ato próprio e definitivo, os direitos políticos de parlamentares em oposição."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 84, IX da CF/88",
+    "justificativa": "O Presidente decreta o estado de defesa e o estado de sítio, ouvidos os Conselhos da República e de Defesa Nacional, mas ambos dependem de controle político do Congresso Nacional (autorização prévia, no caso do estado de sítio, e aprovação posterior no caso do estado de defesa)."
+  },
+  {
+    "id": "const_42",
+    "disciplina": "constitucional",
+    "topico": "Tribunal de Contas da União - Natureza e Competências",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre o Tribunal de Contas da União (TCU), previsto no art. 71 da CF/88, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Possui competências constitucionais próprias, não decorrendo de delegação do Poder Legislativo, embora auxilie o Congresso Nacional no controle externo."
+      },
+      {
+        "letra": "B",
+        "texto": "É órgão subordinado hierarquicamente ao Congresso Nacional, cujas decisões podem ser revistas a qualquer tempo por ato parlamentar unilateral."
+      },
+      {
+        "letra": "C",
+        "texto": "Integra o Poder Judiciário, com competência para processar e julgar ações penais contra agentes públicos."
+      },
+      {
+        "letra": "D",
+        "texto": "Depende de autorização do Poder Executivo para iniciar qualquer auditoria ou inspeção."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 71 da CF/88",
+    "justificativa": "O TCU não é mero órgão auxiliar por delegação: possui competências constitucionais próprias, previstas diretamente no art. 71, embora exerça o controle externo em auxílio ao Congresso Nacional. Não integra o Judiciário (suas decisões têm natureza administrativa, não jurisdicional) e não se subordina hierarquicamente ao Legislativo."
+  },
+  {
+    "id": "const_43",
+    "disciplina": "constitucional",
+    "topico": "TCU - Parecer Prévio sobre as Contas do Presidente",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 71, I da CF/88, compete ao TCU apreciar as contas prestadas anualmente pelo Presidente da República mediante:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Parecer prévio, que deverá ser elaborado em 60 dias a contar do recebimento das contas, cabendo o julgamento final ao Congresso Nacional."
+      },
+      {
+        "letra": "B",
+        "texto": "Julgamento definitivo e irrecorrível do próprio TCU, sem qualquer participação do Congresso Nacional."
+      },
+      {
+        "letra": "C",
+        "texto": "Decisão que dispensa qualquer prazo, podendo o TCU se manifestar a qualquer tempo, sem urgência."
+      },
+      {
+        "letra": "D",
+        "texto": "Consulta popular direta, por meio de referendo, sobre a aprovação das contas presidenciais."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 71, I da CF/88",
+    "justificativa": "Diferente das contas dos demais administradores públicos (que o TCU JULGA definitivamente), as contas do Presidente da República recebem apenas parecer prévio do TCU (em 60 dias), cabendo o julgamento final e definitivo ao Congresso Nacional — distinção clássica cobrada em provas."
+  },
+  {
+    "id": "const_44",
+    "disciplina": "constitucional",
+    "topico": "Partidos Políticos - Autonomia e Fidelidade Partidária",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 17 da Constituição Federal, é livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais da pessoa humana, sendo assegurada aos partidos autonomia para definir sua estrutura interna, organização e funcionamento, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas o interesse do partido majoritário no Congresso Nacional, sem qualquer outro limite."
+      },
+      {
+        "letra": "C",
+        "texto": "A exigência de aprovação prévia pelo Presidente da República para o registro de qualquer novo partido."
+      },
+      {
+        "letra": "D",
+        "texto": "A vedação a qualquer autonomia interna dos partidos, que devem seguir modelo único definido por lei federal."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 17 da CF/88",
+    "justificativa": "A liberdade de criação partidária resguarda a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais. Os partidos têm autonomia para se auto-organizar, mas seus estatutos devem prever normas de disciplina e fidelidade partidária, exigência que fundamenta, inclusive, a perda de mandato por infidelidade partidária."
+  },
+  {
+    "id": "const_45",
+    "disciplina": "constitucional",
+    "topico": "Direitos Políticos - Condições de Elegibilidade",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo o art. 14, §3º da CF/88, são condições de elegibilidade, na forma da lei:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição, filiação partidária e idade mínima variável conforme o cargo pretendido."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas a maioridade civil (18 anos), sem qualquer outro requisito, para qualquer cargo eletivo."
+      },
+      {
+        "letra": "C",
+        "texto": "Filiação partidária dispensada para candidaturas a cargos majoritários."
+      },
+      {
+        "letra": "D",
+        "texto": "Domicílio eleitoral irrelevante, podendo o candidato concorrer em qualquer circunscrição do país."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 14, §3º da CF/88",
+    "justificativa": "As condições de elegibilidade incluem nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral, filiação partidária, e idade mínima variável: 35 anos (Presidente/Vice/Senador), 30 anos (Governador/Vice), 21 anos (Deputado Federal/Estadual, Prefeito, Vice-Prefeito, juiz de paz) e 18 anos (Vereador)."
+  },
+  {
+    "id": "const_46",
+    "disciplina": "constitucional",
+    "topico": "Direitos Políticos - Inelegibilidade",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Segundo o art. 14, §4º da CF/88, são inelegíveis:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os inalistáveis e os analfabetos."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas os condenados criminalmente, com sentença transitada em julgado, em qualquer hipótese e por qualquer prazo."
+      },
+      {
+        "letra": "C",
+        "texto": "Todos os maiores de 70 anos, por presunção absoluta de incapacidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Os filiados a mais de um partido político simultaneamente, apenas."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 14, §4º da CF/88",
+    "justificativa": "São inelegíveis os inalistáveis (estrangeiros e conscritos durante o serviço militar obrigatório) e os analfabetos — estes podem votar (alistáveis), mas não podem ser votados. As demais hipóteses de inelegibilidade (ex.: condenação criminal) estão previstas na Lei Complementar 64/1990 (Lei da Ficha Limpa), não diretamente no §4º."
   }
 ];

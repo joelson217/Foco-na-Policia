@@ -2093,5 +2093,40 @@ const QUESTIONS_LEGISLACAO = [
   "gabarito": "A",
   "artigo": "Art. 4º da Lei 12.850/2013",
   "justificativa": "O art. 4º prevê que o juiz pode conceder perdão judicial, reduzir em até 2/3 a pena privativa de liberdade, ou substituí-la por restritiva de direitos, conforme os resultados obtidos com a colaboração — não há extinção automática de processos nem imunidade absoluta."
+},
+{
+  "id": "leg_75",
+  "disciplina": "legislacao",
+  "topico": "Lei de Tortura - Causa de Aumento (Pessoa Presa)",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 1º, §4º, II da Lei nº 9.455/1997, a pena do crime de tortura é aumentada de um sexto até um terço quando o crime é cometido:",
+  "alternativas": [
+    { "letra": "A", "texto": "Contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos, ou contra pessoa presa ou sujeita a medida de segurança." },
+    { "letra": "B", "texto": "Em qualquer circunstância, independentemente da condição da vítima, sem previsão de causa de aumento específica." },
+    { "letra": "C", "texto": "Apenas quando praticado por agente estranho aos quadros da Administração Pública." },
+    { "letra": "D", "texto": "Somente quando resulta em morte da vítima, hipótese que já é tratada como qualificadora, não como causa de aumento." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 1º, §4º, II da Lei 9.455/1997",
+  "justificativa": "A causa de aumento (1/6 a 1/3) protege especialmente pessoas em situação de vulnerabilidade, incluindo presos e pessoas sujeitas a medida de segurança — dispositivo de particular relevância para a atuação da Polícia Penal, já que reforça a responsabilização agravada em casos de tortura praticada contra pessoas sob custódia do Estado."
+},
+{
+  "id": "leg_76",
+  "disciplina": "legislacao",
+  "topico": "Estatuto do Desarmamento - Posse x Porte Ilegal",
+  "peso": 2,
+  "dificuldade": "medio",
+  "enunciado": "Segundo a Lei nº 10.826/2003 (Estatuto do Desarmamento), a principal diferença entre os crimes de posse irregular (art. 12) e porte ilegal (art. 14) de arma de fogo de uso permitido é que:",
+  "alternativas": [
+    { "letra": "A", "texto": "A posse irregular ocorre no interior da residência ou local de trabalho (desde que o agente seja o titular/responsável legal do estabelecimento), enquanto o porte ilegal ocorre fora desses locais, envolvendo o transporte ou uso da arma em via pública ou local não autorizado." },
+    { "letra": "B", "texto": "Não há qualquer diferença prática entre os dois crimes, sendo sinônimos." },
+    { "letra": "C", "texto": "A posse irregular é crime mais grave que o porte ilegal, invertendo a lógica usual das penas." },
+    { "letra": "D", "texto": "O porte ilegal só se aplica a armas de uso restrito, nunca a armas de uso permitido." }
+  ],
+  "gabarito": "A",
+  "artigo": "Arts. 12 e 14 da Lei 10.826/2003",
+  "justificativa": "A posse irregular (art. 12) pressupõe a arma dentro da residência/local de trabalho do titular; o porte ilegal (art. 14) envolve portar, transportar ou manter a arma fora desses locais, sem autorização — o porte ilegal tem pena mais grave (2 a 4 anos) que a posse irregular (1 a 3 anos), refletindo o maior risco à segurança coletiva quando a arma circula fora do ambiente controlado."
 }
 ];

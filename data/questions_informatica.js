@@ -468,5 +468,70 @@ const QUESTIONS_INFORMATICA = [
     ],
     gabarito: 'A',
     justificativa: 'PROCV (Procura Vertical) busca um valor na primeira coluna de um intervalo especificado e retorna um valor correspondente de outra coluna, na mesma linha — muito usada para cruzar dados entre tabelas (ex.: buscar o nome de um servidor a partir de sua matrícula).'
+  },
+  {
+    id: 'info_29',
+    disciplina: 'informatica',
+    topico: 'Linux - Permissões de Arquivo',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'No Linux, a permissão de um arquivo é representada por três grupos de caracteres (dono, grupo e outros), cada um podendo ter "r" (leitura), "w" (escrita) e "x" (execução). A permissão "rwxr-xr--" indica que:',
+    alternativas: [
+      { letra: 'A', texto: 'O dono tem leitura, escrita e execução; o grupo tem leitura e execução; e outros usuários têm apenas leitura.' },
+      { letra: 'B', texto: 'Todos os usuários (dono, grupo e outros) têm exatamente as mesmas permissões.' },
+      { letra: 'C', texto: 'Ninguém, nem mesmo o dono, pode executar o arquivo.' },
+      { letra: 'D', texto: 'O arquivo está protegido por senha, sendo essa a única forma de acesso.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Cada trinca de caracteres representa dono, grupo e outros, respectivamente: "rwx" (dono: leitura+escrita+execução), "r-x" (grupo: leitura+execução, sem escrita) e "r--" (outros: apenas leitura).'
+  },
+  {
+    id: 'info_30',
+    disciplina: 'informatica',
+    topico: 'Linux - Estrutura de Diretórios',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Na estrutura de diretórios do Linux, o diretório "/home" é tipicamente utilizado para:',
+    alternativas: [
+      { letra: 'A', texto: 'Armazenar os diretórios pessoais dos usuários do sistema.' },
+      { letra: 'B', texto: 'Armazenar os arquivos de configuração do sistema operacional.' },
+      { letra: 'C', texto: 'Armazenar dispositivos de hardware conectados ao computador.' },
+      { letra: 'D', texto: 'Armazenar exclusivamente arquivos temporários, apagados automaticamente a cada reinicialização.' }
+    ],
+    gabarito: 'A',
+    justificativa: '"/home" armazena os diretórios pessoais dos usuários (ex.: /home/joao). Arquivos de configuração do sistema ficam tipicamente em "/etc", e dispositivos são representados em "/dev".'
+  },
+  {
+    id: 'info_31',
+    disciplina: 'informatica',
+    topico: 'Planilha Eletrônica - Filtro Avançado',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Em uma planilha eletrônica, o recurso de "Filtro" (ou AutoFiltro) permite:',
+    alternativas: [
+      { letra: 'A', texto: 'Exibir temporariamente apenas as linhas que atendem a determinado(s) critério(s), ocultando as demais sem excluí-las dos dados.' },
+      { letra: 'B', texto: 'Excluir permanentemente as linhas que não atendem ao critério escolhido.' },
+      { letra: 'C', texto: 'Converter automaticamente todos os textos da planilha em números.' },
+      { letra: 'D', texto: 'Proteger a planilha contra qualquer edição futura.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O filtro oculta temporariamente as linhas que não atendem ao critério definido, sem excluir os dados — é possível remover o filtro a qualquer momento para visualizar novamente todas as linhas.'
+  },
+  {
+    id: 'info_32',
+    disciplina: 'informatica',
+    topico: 'Windows - Gerenciador de Tarefas',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'No Windows, a combinação de teclas "Ctrl + Shift + Esc" tem como efeito:',
+    alternativas: [
+      { letra: 'A', texto: 'Abrir diretamente o Gerenciador de Tarefas.' },
+      { letra: 'B', texto: 'Desligar o computador imediatamente, sem confirmação.' },
+      { letra: 'C', texto: 'Bloquear a tela do computador.' },
+      { letra: 'D', texto: 'Abrir o Painel de Controle.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Ctrl + Shift + Esc abre diretamente o Gerenciador de Tarefas, útil para encerrar programas travados ou monitorar o desempenho do sistema — diferente de Ctrl+Alt+Delete, que abre uma tela intermediária com mais opções (incluindo o próprio Gerenciador de Tarefas).'
   }
 ];

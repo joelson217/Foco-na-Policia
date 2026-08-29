@@ -595,5 +595,57 @@ const QUESTIONS_LEGISLACAO_PE = [
     gabarito: 'A',
     artigo: 'Decreto Estadual nº 46.852/2018',
     justificativa: 'As denúncias tramitam em sigilo até seu término, com acesso restrito às partes envolvidas e às autoridades competentes, resguardando tanto o denunciante quanto o denunciado durante a apuração.'
+  },
+  {
+    id: 'pe_leg_30',
+    disciplina: 'legislacao_pe',
+    topico: 'LC 106/2007 - Corregedoria Geral da SDS',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'A Lei Complementar nº 106/2007, de Pernambuco, ao dispor sobre a competência e as atribuições da Corregedoria Geral da Secretaria de Defesa Social (SDS), estabelece que esse órgão atua como:',
+    alternativas: [
+      { letra: 'A', texto: 'Órgão superior de controle disciplinar interno dos demais órgãos e agentes vinculados à SDS, incluindo, à época, os Agentes de Segurança Penitenciária.' },
+      { letra: 'B', texto: 'Instância recursal exclusiva do Poder Judiciário para crimes praticados por policiais penais.' },
+      { letra: 'C', texto: 'Órgão com competência apenas consultiva, sem qualquer poder de instauração de procedimento disciplinar.' },
+      { letra: 'D', texto: 'Substituto do Conselho Penitenciário Estadual, absorvendo integralmente suas atribuições.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC 106/2007 (alterando a Lei nº 11.929/2001)',
+    justificativa: 'A LC 106/2007 modificou a Lei nº 11.929/2001, estabelecendo a Corregedoria Geral da SDS como órgão superior de controle disciplinar interno dos órgãos e agentes a ela vinculados — à época de sua edição, isso incluía os Agentes de Segurança Penitenciária (hoje Policiais Penais), então ligados à Secretaria de Desenvolvimento Social e Direitos Humanos.'
+  },
+  {
+    id: 'pe_leg_31',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 6.123/1968 - Acumulação de Cargos',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Em relação à acumulação de cargos públicos pelo servidor estadual de Pernambuco, a Lei nº 6.123/1968, em harmonia com o art. 37, XVI da Constituição Federal, estabelece que:',
+    alternativas: [
+      { letra: 'A', texto: 'É vedada, em regra, a acumulação remunerada de cargos públicos, ressalvadas as exceções constitucionais expressas (ex.: dois cargos de professor, ou um cargo de professor com outro técnico/científico, ou dois cargos privativos de profissionais de saúde, sempre havendo compatibilidade de horários).' },
+      { letra: 'B', texto: 'É permitida a acumulação irrestrita de quantos cargos públicos o servidor desejar, sem qualquer limitação.' },
+      { letra: 'C', texto: 'É vedada em qualquer hipótese, mesmo para professores, sem qualquer exceção constitucional.' },
+      { letra: 'D', texto: 'Depende exclusivamente de autorização do Governador do Estado, caso a caso, sem critério legal objetivo.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Lei 6.123/1968 c/c Art. 37, XVI da CF/88',
+    justificativa: 'A vedação à acumulação remunerada de cargos públicos é regra geral, com exceções taxativas previstas na própria Constituição (art. 37, XVI): dois cargos de professor; um cargo de professor com outro técnico ou científico; ou dois cargos privativos de profissionais de saúde — sempre exigida a compatibilidade de horários.'
+  },
+  {
+    id: 'pe_leg_32',
+    disciplina: 'legislacao_pe',
+    topico: 'LC 150/2009 - Regulamentação por Decreto',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'A regulamentação detalhada da LC nº 150/2009 (Plano de Cargos do GOSPEPE), incluindo descrições sumárias de atribuições e quantitativo de vagas por classe, foi promovida por qual instrumento normativo?',
+    alternativas: [
+      { letra: 'A', texto: 'Decreto Estadual nº 42.065/2015.' },
+      { letra: 'B', texto: 'Emenda Constitucional Estadual nº 53/2020.' },
+      { letra: 'C', texto: 'Lei Complementar nº 106/2007.' },
+      { letra: 'D', texto: 'Resolução do Conselho Nacional de Política Criminal e Penitenciária.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Decreto Estadual nº 42.065/2015 (regulamenta o Art. 7º da LC 150/2009)',
+    justificativa: 'O Decreto nº 42.065/2015 regulamenta o art. 7º da LC 150/2009, detalhando descrições sumárias de atribuições, prerrogativas e quantitativos de vagas do GOSPEPE — a EC 53/2020 tratou da criação constitucional da Polícia Penal, e a LC 106/2007 tratou de normas disciplinares anteriores ao Código Penitenciário de 2016, temas distintos.'
   }
 ];

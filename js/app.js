@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v34';
+const APP_VERSION = 'v35';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -517,7 +517,8 @@ const APP = {
       ...(typeof MAPA_MENTAL_LEGISLACAO !== 'undefined' ? MAPA_MENTAL_LEGISLACAO.decks : []),
       ...(typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL.decks : []),
       ...(typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133.decks : []),
-      ...(typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO.decks : [])
+      ...(typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO.decks : []),
+      ...(typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2.decks : [])
     ];
 
     // O deck 'pol_penal' (dentro de LEI_SECA_EXTRA) tem uma seção
@@ -1162,7 +1163,8 @@ const FLASHCARDS = {
         typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
         typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
         typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null,
-        typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null
+        typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null,
+        typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2 : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -1224,7 +1226,8 @@ const FLASHCARDS = {
         typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
         typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
         typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null,
-        typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null
+        typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null,
+        typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2 : null
       ].filter(s => s !== null);
 
       deck = null;

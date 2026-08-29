@@ -502,5 +502,71 @@ const QUESTIONS_RLM = [
     ],
     gabarito: 'B',
     justificativa: '"P somente se Q" equivale a "Se P, então Q" (P → Q) — a condição necessária vem depois de "somente se". Aqui, P = "será promovido" e Q = "foi aprovado", logo: "se foi promovido, então foi aprovado". É um erro comum inverter essa relação, tratando "somente se" como se fosse "se" (alternativa A).'
+  },
+  {
+    id: 'rlm_31',
+    disciplina: 'rlm',
+    topico: 'Silogismo Categórico Particular',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Considere as premissas: "Algum policial penal é instrutor de tiro" e "Todo instrutor de tiro trabalha aos sábados". A conclusão logicamente válida é:',
+    alternativas: [
+      { letra: 'A', texto: 'Algum policial penal trabalha aos sábados.' },
+      { letra: 'B', texto: 'Todo policial penal trabalha aos sábados.' },
+      { letra: 'C', texto: 'Nenhum policial penal trabalha aos sábados.' },
+      { letra: 'D', texto: 'Todo instrutor de tiro é policial penal.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'De uma premissa particular ("Algum P é M") combinada com uma premissa universal ("Todo M é N"), só se pode concluir validamente uma proposição particular ("Algum P é N") — nunca uma universal. Generalizar para "todo" (alternativa B) é uma extrapolação lógica inválida a partir de premissa particular.'
+  },
+  {
+    id: 'rlm_32',
+    disciplina: 'rlm',
+    topico: 'Raciocínio Geométrico - Área do Círculo',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Uma área circular de treinamento tem 7 metros de raio. Utilizando π ≈ 22/7, qual é, aproximadamente, a área dessa região?',
+    alternativas: [
+      { letra: 'A', texto: '44 m²' },
+      { letra: 'B', texto: '77 m²' },
+      { letra: 'C', texto: '154 m²' },
+      { letra: 'D', texto: '308 m²' }
+    ],
+    gabarito: 'C',
+    justificativa: 'A área do círculo é π×r² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 m².'
+  },
+  {
+    id: 'rlm_33',
+    disciplina: 'rlm',
+    topico: 'Sequências - Número de Lados de Polígonos',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Observe a sequência de figuras geométricas, considerando o número de lados de cada uma: triângulo (3 lados), quadrado (4 lados), pentágono (5 lados), hexágono (6 lados), ... Qual é a próxima figura da sequência?',
+    alternativas: [
+      { letra: 'A', texto: 'Octógono (8 lados).' },
+      { letra: 'B', texto: 'Heptágono (7 lados).' },
+      { letra: 'C', texto: 'Círculo (0 lados).' },
+      { letra: 'D', texto: 'Triângulo (3 lados), reiniciando o ciclo.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'A sequência segue o padrão de aumentar 1 lado a cada figura (3, 4, 5, 6, ...). A próxima figura, com 7 lados, é o heptágono.'
+  },
+  {
+    id: 'rlm_34',
+    disciplina: 'rlm',
+    topico: 'Argumento com Múltiplas Premissas (Sorites)',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Considere as premissas: "Todo policial penal é servidor público", "Todo servidor público deve observar o estatuto da carreira" e "Todo aquele que observa o estatuto está sujeito a processo disciplinar em caso de falta". A conclusão logicamente válida, por transitividade, é:',
+    alternativas: [
+      { letra: 'A', texto: 'Todo policial penal está sujeito a processo disciplinar em caso de falta.' },
+      { letra: 'B', texto: 'Nenhum policial penal está sujeito a processo disciplinar.' },
+      { letra: 'C', texto: 'Apenas alguns servidores públicos são policiais penais.' },
+      { letra: 'D', texto: 'Todo servidor público é policial penal.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Encadeando as três premissas universais por transitividade (A→B→C→D, logo A→D): todo policial penal (A) é servidor público (B), todo servidor público observa o estatuto (C), e todo que observa o estatuto está sujeito a processo disciplinar (D). Logo, todo policial penal está sujeito a processo disciplinar em caso de falta — um sorites válido.'
   }
 ];

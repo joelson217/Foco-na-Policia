@@ -1005,5 +1005,239 @@ const QUESTIONS_ADMINISTRATIVO = [
     "gabarito": "A",
     "artigo": "Decreto-Lei nº 200/1967, Art. 5º, IV",
     "justificativa": "As fundações públicas são criadas para o desenvolvimento de atividades de interesse social sem fins lucrativos (educação, saúde, cultura, pesquisa, assistência), podendo ter personalidade jurídica de direito público (fundação autárquica) ou de direito privado, dependendo da forma de instituição definida em lei."
+  },
+  {
+    "id": "adm_34",
+    "disciplina": "administrativo",
+    "topico": "Serviços Públicos - Princípios",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Entre os princípios que regem a prestação de serviços públicos, o princípio da continuidade determina que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O serviço público não pode ser interrompido, sendo vedada, em regra, a paralisação, salvo situação de emergência ou após aviso prévio, quando motivada por razões técnicas, de segurança ou inadimplemento do usuário."
+      },
+      {
+        "letra": "B",
+        "texto": "O serviço público deve ser prestado gratuitamente em todas as hipóteses, sem qualquer cobrança de tarifa."
+      },
+      {
+        "letra": "C",
+        "texto": "O serviço público, uma vez concedido, jamais poderá ter suas condições técnicas alteradas ou atualizadas."
+      },
+      {
+        "letra": "D",
+        "texto": "O serviço público deve ser prestado exclusivamente pelo Estado, sendo vedada qualquer forma de delegação a particulares."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Princípio da Continuidade do Serviço Público",
+    "justificativa": "A continuidade veda a interrupção do serviço, admitindo exceções em situações de emergência ou mediante aviso prévio (razões técnicas/segurança, ou inadimplemento do usuário, nos termos da Lei 8.987/95, art. 6º, §3º) — não se confunde com gratuidade (regra geral admite cobrança de tarifa) nem com vedação à delegação (art. 175 CF autoriza concessão/permissão)."
+  },
+  {
+    "id": "adm_35",
+    "disciplina": "administrativo",
+    "topico": "Lei 8.987/1995 - Concessão de Serviço Público",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo a Lei nº 8.987/1995, a concessão de serviço público é a delegação de sua prestação, feita pelo poder concedente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mediante licitação, na modalidade de concorrência, à pessoa jurídica ou consórcio de empresas que demonstre capacidade para seu desempenho, por sua conta e risco e por prazo determinado." },
+      {
+        "letra": "B",
+        "texto": "Independentemente de licitação, a qualquer pessoa física interessada, por prazo indeterminado."
+      },
+      {
+        "letra": "C",
+        "texto": "Exclusivamente a autarquias e fundações públicas, nunca a empresas privadas."
+      },
+      {
+        "letra": "D",
+        "texto": "Sem qualquer remuneração ao concessionário, que deve prestar o serviço a título gratuito e filantrópico."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 2º, II da Lei 8.987/1995",
+    "justificativa": "A concessão é delegada mediante licitação na modalidade concorrência, à pessoa jurídica ou consórcio de empresas, que presta o serviço por sua conta e risco (remunerado, em regra, por tarifa paga pelo usuário), por prazo determinado."
+  },
+  {
+    "id": "adm_36",
+    "disciplina": "administrativo",
+    "topico": "Lei 8.987/1995 - Permissão de Serviço Público",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "A permissão de serviço público, segundo a Lei nº 8.987/1995, diferencia-se da concessão principalmente por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ser formalizada por contrato de adesão, revogável unilateralmente pelo poder concedente, podendo ser outorgada a pessoa física ou jurídica, ao contrário da concessão, restrita a pessoa jurídica ou consórcio de empresas." },
+      {
+        "letra": "B",
+        "texto": "Não exigir licitação prévia, ao contrário da concessão."
+      },
+      {
+        "letra": "C",
+        "texto": "Ser sempre gratuita, enquanto a concessão é sempre remunerada."
+      },
+      {
+        "letra": "D",
+        "texto": "Não admitir fiscalização pelo poder concedente durante sua vigência."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 2º, IV da Lei 8.987/1995",
+    "justificativa": "A permissão é formalizada por contrato de adesão, com natureza precária (revogável unilateralmente), podendo ser outorgada a pessoa física OU jurídica que demonstre capacidade, diferentemente da concessão (restrita a pessoa jurídica/consórcio de empresas) — ambas exigem licitação prévia."
+  },
+  {
+    "id": "adm_37",
+    "disciplina": "administrativo",
+    "topico": "Lei 8.987/1995 - Extinção da Concessão",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo o art. 35 da Lei nº 8.987/1995, a concessão de serviço público se extingue, entre outras hipóteses, por encampação e por caducidade. A diferença essencial entre esses dois institutos é que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Na encampação, a retomada do serviço decorre de interesse público, mediante lei autorizativa específica e prévia indenização, mesmo sem culpa da concessionária; na caducidade, a extinção decorre da inexecução total ou parcial do contrato pela concessionária." },
+      {
+        "letra": "B",
+        "texto": "Na caducidade, exige-se lei autorizativa específica; na encampação, basta decisão administrativa discricionária, sem indenização." },
+      {
+        "letra": "C",
+        "texto": "Ambas exigem, necessariamente, o mesmo pressuposto: a falência da concessionária."
+      },
+      {
+        "letra": "D",
+        "texto": "Não há qualquer diferença prática entre os dois institutos, sendo sinônimos."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 35, 37 e 38 da Lei 8.987/1995",
+    "justificativa": "A encampação retoma o serviço por interesse público, mesmo sem inadimplemento da concessionária, exigindo lei autorizativa específica e prévia indenização. Já a caducidade decorre do descumprimento contratual pela concessionária (prestação inadequada, paralisação, descumprimento de cláusulas), sem exigir lei específica prévia para sua declaração."
+  },
+  {
+    "id": "adm_38",
+    "disciplina": "administrativo",
+    "topico": "Poder Regulamentar",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "O poder regulamentar, exercido tipicamente pelo Chefe do Poder Executivo por meio de decretos, tem como principal função:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Expedir decretos e regulamentos para a fiel execução das leis, sem criar direitos ou obrigações não previstos em lei (decreto regulamentar), ressalvada a hipótese excepcional do decreto autônomo."
+      },
+      {
+        "letra": "B",
+        "texto": "Criar, extinguir ou majorar tributos, independentemente de lei em sentido formal."
+      },
+      {
+        "letra": "C",
+        "texto": "Substituir integralmente o Poder Legislativo na criação de normas de qualquer natureza."
+      },
+      {
+        "letra": "D",
+        "texto": "Aplicar sanções disciplinares a servidores públicos, função que é exclusiva do poder disciplinar, não do regulamentar."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 84, IV da CF/88",
+    "justificativa": "O poder regulamentar (art. 84, IV, CF) permite expedir decretos e regulamentos para a fiel execução das leis, sem inovar na ordem jurídica criando direitos/obrigações novos (isso violaria a reserva legal) — a única exceção é o decreto autônomo (art. 84, VI), restrito a hipóteses específicas de organização administrativa."
+  },
+  {
+    "id": "adm_39",
+    "disciplina": "administrativo",
+    "topico": "Lei 9.784/1999 - Decadência Administrativa",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo o art. 54 da Lei nº 9.784/1999, o direito da Administração Pública de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5 (cinco) anos, contados da data em que foram praticados, salvo comprovada má-fé."
+      },
+      {
+        "letra": "B",
+        "texto": "1 (um) ano, improrrogável em qualquer hipótese."
+      },
+      {
+        "letra": "C",
+        "texto": "10 (dez) anos, contados da publicação oficial do ato."
+      },
+      {
+        "letra": "D",
+        "texto": "Prazo indeterminado, podendo a Administração anular o ato a qualquer tempo, mesmo sem má-fé do beneficiário."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 54 da Lei 9.784/1999",
+    "justificativa": "O prazo decadencial de 5 anos para anular atos favoráveis ao destinatário busca proteger a segurança jurídica e a boa-fé; esse prazo não se aplica, permitindo anulação a qualquer tempo, quando comprovada má-fé do beneficiário do ato."
+  },
+  {
+    "id": "adm_40",
+    "disciplina": "administrativo",
+    "topico": "Organização Administrativa - Entidades Paraestatais e Terceiro Setor",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "As Organizações Sociais (OS) e as Organizações da Sociedade Civil de Interesse Público (OSCIP), qualificações atribuídas a entidades privadas sem fins lucrativos que colaboram com o Estado, integram:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O chamado \"terceiro setor\", não fazendo parte da Administração Pública Direta nem Indireta, mas recebendo, mediante qualificação e instrumentos próprios (contrato de gestão ou termo de parceria), incentivos para atuar em áreas de interesse social."
+      },
+      {
+        "letra": "B",
+        "texto": "A Administração Pública Indireta, no mesmo grupo das autarquias e fundações públicas."
+      },
+      {
+        "letra": "C",
+        "texto": "A Administração Pública Direta, como órgãos subordinados diretamente a Ministérios ou Secretarias."
+      },
+      {
+        "letra": "D",
+        "texto": "O núcleo essencial e insubstituível do Estado, sendo vedada, por definição, qualquer atuação privada nessas áreas."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Lei 9.637/1998 (OS) e Lei 9.790/1999 (OSCIP)",
+    "justificativa": "OS e OSCIP são entidades PRIVADAS sem fins lucrativos que recebem qualificação especial do Poder Público para colaborar em áreas de interesse social (saúde, educação, cultura, meio ambiente), formalizando a parceria por contrato de gestão (OS) ou termo de parceria (OSCIP) — não integram a Administração Direta nem Indireta, compondo o chamado \"terceiro setor\"."
+  },
+  {
+    "id": "adm_41",
+    "disciplina": "administrativo",
+    "topico": "Controle Judicial da Administração Pública",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao controle judicial dos atos administrativos, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O Poder Judiciário pode examinar a legalidade do ato administrativo (inclusive dos atos discricionários, quanto aos seus limites e requisitos legais), mas não pode substituir o mérito administrativo (juízo de conveniência e oportunidade) pelo seu próprio juízo."
+      },
+      {
+        "letra": "B",
+        "texto": "O Poder Judiciário pode revogar, por razões de conveniência e oportunidade, qualquer ato administrativo discricionário, substituindo livremente o juízo da Administração."
+      },
+      {
+        "letra": "C",
+        "texto": "Nenhum ato administrativo pode ser controlado pelo Poder Judiciário, em razão do princípio da separação dos poderes."
+      },
+      {
+        "letra": "D",
+        "texto": "O controle judicial se limita aos atos vinculados, sendo vedado qualquer exame de atos discricionários, mesmo quanto à sua legalidade formal."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Princípio da Inafastabilidade da Jurisdição (Art. 5º, XXXV, CF)",
+    "justificativa": "O Judiciário controla a LEGALIDADE dos atos administrativos (vinculados ou discricionários), incluindo o respeito aos limites legais da discricionariedade e aos princípios (razoabilidade, proporcionalidade, moralidade) — mas não pode substituir o MÉRITO administrativo (a escolha de conveniência e oportunidade em si), sob pena de violar a separação dos poderes."
   }
 ];

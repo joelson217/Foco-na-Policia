@@ -517,5 +517,93 @@ const QUESTIONS_ETICA = [
     "artigo": "Art. 317 do CP",
     "justificativa": "O Art. 317 do CP prevê que o crime de corrupção passiva se consuma com a simples solicitação, recebimento ou aceitação de promessa de vantagem indevida. Portanto, já na solicitação o crime está consumado, mesmo que o servidor não chegue a receber nada. A corrupção ativa (Art. 333) e a passiva são crimes distintos e autônomos.",
     "id": "etica_17"
+  },
+  {
+    "disciplina": "etica",
+    "topico": "Lei 8.112/1990 - Ritos do Processo Disciplinar",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo a Lei nº 8.112/1990, o processo administrativo disciplinar (PAD) pode ser processado por rito ordinário ou por rito sumário, sendo este último obrigatoriamente adotado, entre outras hipóteses, na apuração de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Acumulação ilegal de cargos públicos, abandono de cargo e inassiduidade habitual."
+      },
+      {
+        "letra": "B",
+        "texto": "Qualquer infração disciplinar, independentemente da gravidade, a critério exclusivo da autoridade instauradora."
+      },
+      {
+        "letra": "C",
+        "texto": "Crimes contra a vida praticados por servidor público fora do exercício da função."
+      },
+      {
+        "letra": "D",
+        "texto": "Improbidade administrativa, com exclusividade, sendo vedado o rito ordinário para tal apuração."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 133 e 140 da Lei 8.112/1990",
+    "justificativa": "O rito sumário é obrigatório nos casos de acumulação ilegal de cargos, abandono de cargo e inassiduidade habitual — hipóteses de apuração mais célere e objetiva. Os demais casos, em regra, seguem o rito ordinário, mais amplo.",
+    "id": "etica_18"
+  },
+  {
+    "disciplina": "etica",
+    "topico": "Lei 8.112/1990 - Comissão do PAD Sumário",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Segundo a Lei nº 8.112/1990, a comissão do processo administrativo disciplinar submetido a rito SUMÁRIO deve ser composta por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 (dois) servidores estáveis, designados pela autoridade competente."
+      },
+      {
+        "letra": "B",
+        "texto": "3 (três) servidores estáveis, mesmo número exigido no rito ordinário."
+      },
+      {
+        "letra": "C",
+        "texto": "1 (um) único servidor, independentemente de estabilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "5 (cinco) servidores, sendo ao menos 2 bacharéis em Direito."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 133, I da Lei 8.112/1990",
+    "justificativa": "No rito sumário, a comissão é composta por 2 servidores estáveis — número reduzido em relação ao rito ordinário, que exige comissão de 3 servidores estáveis (art. 149), refletindo o caráter mais célere do procedimento sumário.",
+    "id": "etica_19"
+  },
+  {
+    "disciplina": "etica",
+    "topico": "Lei 8.112/1990 - Fases do PAD Sumário",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "O processo administrativo disciplinar de rito sumário, segundo a Lei nº 8.112/1990, desenvolve-se nas seguintes fases:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Instauração (com publicação do ato constitutivo da comissão e simultânea indicação da autoria e materialidade da transgressão), instrução sumária (indiciação, defesa e relatório) e julgamento."
+      },
+      {
+        "letra": "B",
+        "texto": "Apenas instauração e julgamento, sem qualquer fase de instrução ou defesa."
+      },
+      {
+        "letra": "C",
+        "texto": "Investigação preliminar sigilosa, seguida de arquivamento automático, sem possibilidade de julgamento."
+      },
+      {
+        "letra": "D",
+        "texto": "Notificação, prisão administrativa e sentença, nos mesmos moldes do processo penal."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 133 da Lei 8.112/1990",
+    "justificativa": "O rito sumário segue as fases de instauração (com indicação simultânea de autoria e materialidade), instrução sumária (indiciação, defesa, relatório) e julgamento, devendo ser concluído em até 30 dias, prorrogáveis por até 15 dias.",
+    "id": "etica_20"
   }
 ];

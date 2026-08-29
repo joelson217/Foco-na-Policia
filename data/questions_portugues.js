@@ -889,5 +889,54 @@ const QUESTIONS_PORTUGUES = [
     "gabarito": "A",
     "artigo": "Ortografia - Parônimos (mal/mau) e Homófonos (se não/senão)",
     "justificativa": "\"Se não\" (condicional + negação, substituível por \"caso não\") é o correto antes de uma condição, diferente de \"senão\" (equivalente a \"caso contrário\", usado em outro contexto). \"Mal\" é advérbio (antônimo de \"bem\", modifica o verbo \"agiu\"), diferente de \"mau\" (adjetivo, antônimo de \"bom\", modifica substantivo)."
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Tipologia Textual",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Um texto que apresenta uma sequência de instruções, como um manual de procedimentos operacionais para abordagem policial, caracteriza-se predominantemente como do tipo:",
+    "alternativas": [
+      { "letra": "A", "texto": "Narrativo, pois relata uma sucessão de fatos ocorridos no passado." },
+      { "letra": "B", "texto": "Injuntivo (ou instrucional), pois orienta a realização de uma ação por meio de comandos ou instruções." },
+      { "letra": "C", "texto": "Descritivo, pois se limita a caracterizar objetos ou pessoas." },
+      { "letra": "D", "texto": "Dissertativo-argumentativo, pois defende um ponto de vista sobre um tema controverso." }
+    ],
+    "gabarito": "B",
+    "artigo": "Tipologia Textual",
+    "justificativa": "O tipo injuntivo (ou instrucional) organiza-se em torno de comandos, instruções ou orientações para a realização de uma ação — típico de manuais, receitas e procedimentos operacionais, diferente da narração (sucessão de fatos), descrição (caracterização) e dissertação (defesa de ponto de vista)."
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Regência Nominal",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que a regência nominal (uso da preposição exigida pelo nome) está CORRETA:",
+    "alternativas": [
+      { "letra": "A", "texto": "O servidor demonstrou aptidão para o exercício da função." },
+      { "letra": "B", "texto": "O servidor demonstrou aptidão do exercício da função." },
+      { "letra": "C", "texto": "O agente é obediente com as normas internas." },
+      { "letra": "D", "texto": "O agente é obediente sobre as normas internas." }
+    ],
+    "gabarito": "A",
+    "artigo": "Regência Nominal",
+    "justificativa": "\"Aptidão\" rege a preposição \"para\" (aptidão PARA algo). \"Obediente\", por sua vez, rege a preposição \"a\" (obediente ÀS normas), não \"com\" nem \"sobre\" — nenhuma das opções com \"obediente\" está correta nesta questão, restando a alternativa A como a única regência nominal correta apresentada."
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Coesão Referencial - Pronomes",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Em \"O diretor conversou com o novo agente e lhe entregou o crachá\", o termo \"lhe\" retoma, por coesão referencial, o seguinte elemento do texto:",
+    "alternativas": [
+      { "letra": "A", "texto": "\"o novo agente\", funcionando como objeto indireto do verbo \"entregar\"." },
+      { "letra": "B", "texto": "\"o diretor\", funcionando como sujeito da oração." },
+      { "letra": "C", "texto": "\"o crachá\", funcionando como objeto direto do verbo \"entregar\"." },
+      { "letra": "D", "texto": "Nenhum elemento anterior, tratando-se de um pronome sem referente no texto." }
+    ],
+    "gabarito": "A",
+    "artigo": "Coesão Referencial - Pronomes Oblíquos",
+    "justificativa": "O pronome oblíquo \"lhe\" retoma \"o novo agente\" (a quem o crachá foi entregue), funcionando como objeto indireto (\"entregou o crachá A ELE\") — o objeto direto da oração é \"o crachá\"."
   }
 ];

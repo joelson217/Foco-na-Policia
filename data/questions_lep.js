@@ -2203,5 +2203,40 @@ const QUESTIONS_LEP = [
   "gabarito": "B",
   "artigo": "Art. 66, II e Art. 172 da LEP",
   "justificativa": "Conforme o art. 66, II, c/c art. 172 da LEP, compete ao Juiz da Execução declarar extinta a punibilidade, de ofício ou a requerimento do interessado, ouvido previamente o MP."
+},
+{
+  "id": "lep_73",
+  "disciplina": "lep",
+  "topico": "Patronato (Art. 78 da LEP)",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "O Patronato, órgão da execução penal previsto no art. 78 da LEP, destina-se a prestar assistência a quais categorias de pessoas?",
+  "alternativas": [
+    { "letra": "A", "texto": "Aos albergados (regime aberto) e aos egressos do sistema prisional." },
+    { "letra": "B", "texto": "Exclusivamente aos presos em regime fechado." },
+    { "letra": "C", "texto": "Somente aos familiares de servidores do sistema penitenciário." },
+    { "letra": "D", "texto": "Apenas às vítimas de crimes, nunca aos condenados ou egressos." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 78 da LEP",
+  "justificativa": "O Patronato, público ou particular, destina-se a prestar assistência aos albergados (condenados em regime aberto) e aos egressos (liberados definitivamente, até um ano após a saída do sistema, ou liberados condicionais durante o período de prova), com foco na reintegração social."
+},
+{
+  "id": "lep_74",
+  "disciplina": "lep",
+  "topico": "Patronato - Atribuições (Art. 79 da LEP)",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 79 da LEP, incumbe ao Patronato:",
+  "alternativas": [
+    { "letra": "A", "texto": "Orientar os condenados à pena restritiva de direitos, fiscalizar o cumprimento das penas de prestação de serviços à comunidade e de limitação de fim de semana, e colaborar na fiscalização do cumprimento das condições da suspensão condicional da pena (sursis) e do livramento condicional." },
+    { "letra": "B", "texto": "Substituir o Juiz da Execução na concessão de livramento condicional." },
+    { "letra": "C", "texto": "Administrar diretamente os estabelecimentos penais de regime fechado." },
+    { "letra": "D", "texto": "Aplicar sanções disciplinares aos presos em regime fechado, com força vinculante." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 79 da LEP",
+  "justificativa": "O Patronato orienta condenados a penas restritivas de direitos, fiscaliza a prestação de serviços à comunidade e a limitação de fim de semana, e colabora na fiscalização das condições do sursis e do livramento condicional — não tem poder decisório sobre benefícios (atribuição do Juiz da Execução) nem função de administrar unidades prisionais fechadas."
 }
 ];

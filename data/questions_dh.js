@@ -801,5 +801,40 @@ const QUESTIONS_DH = [
     "artigo": "Art. 1º da Convenção da ONU contra a Tortura (1984)",
     "justificativa": "A Convenção exige dolo (inflição intencional), finalidade específica (obter informação/confissão, castigar, intimidar/coagir ou discriminar) e vínculo com o poder público (agente público, ou terceiro por sua instigação/consentimento/aquiescência) — dores decorrentes unicamente de sanções legítimas não configuram tortura, e o sofrimento pode ser físico OU mental.",
     "id": "dh_31"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Regras de Mandela - Contato com o Mundo Exterior",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Segundo a Regra 58 das Regras de Mandela, os presos devem ter permissão, sob a supervisão necessária, de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Comunicar-se periodicamente com familiares e amigos, por correspondência, meios de telecomunicação e visitas, sendo assegurado às mulheres presas o direito à visita conjugal nas mesmas bases que aos homens, onde esse direito for permitido." },
+      { "letra": "B", "texto": "Nenhum contato com o mundo exterior, como medida padrão de segurança, salvo decisão judicial expressa em contrário." },
+      { "letra": "C", "texto": "Comunicação exclusivamente por correspondência escrita, vedados quaisquer outros meios de telecomunicação." },
+      { "letra": "D", "texto": "Visitas apenas de advogados, sendo vedado o contato com familiares durante todo o cumprimento da pena." }
+    ],
+    "gabarito": "A",
+    "artigo": "Regra 58 das Regras de Mandela",
+    "justificativa": "A Regra 58 assegura o contato periódico com familiares e amigos por correspondência, telecomunicações e visitas — incluindo, quando permitida a visita conjugal, o exercício desse direito pelas mulheres presas em igualdade de condições com os homens, resguardadas segurança e dignidade.",
+    "id": "dh_32"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Regras de Mandela - Localização das Unidades Prisionais",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Segundo a Regra 59 das Regras de Mandela, os presos devem ser alocados, na medida do possível:",
+    "alternativas": [
+      { "letra": "A", "texto": "Em unidades prisionais próximas às suas casas ou ao local de sua reabilitação social, para facilitar a manutenção de vínculos familiares e sociais." },
+      { "letra": "B", "texto": "Sempre nas unidades de segurança máxima mais distantes do local de origem, como regra geral de segurança." },
+      { "letra": "C", "texto": "Exclusivamente conforme a conveniência administrativa, sem qualquer consideração à proximidade familiar." },
+      { "letra": "D", "texto": "Em unidades sorteadas aleatoriamente entre todas as existentes no país." }
+    ],
+    "gabarito": "A",
+    "artigo": "Regra 59 das Regras de Mandela",
+    "justificativa": "A Regra 59 recomenda a alocação dos presos em unidades próximas às suas casas ou ao local de reabilitação social, reconhecendo a importância dos vínculos familiares e comunitários para a reintegração social do preso — princípio que dialoga com o direito à convivência familiar previsto na LEP e na Constituição.",
+    "id": "dh_33"
   }
 ];
