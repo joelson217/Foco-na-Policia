@@ -3,7 +3,7 @@
 // Data da Prova: 13 de Setembro de 2026
 // ============================================================
 
-const EDITAL = {
+const EDITAL_PPRN = {
   concurso: 'Policial Penal do Rio Grande do Norte',
   sigla: 'PPRN-RN',
   banca: 'Instituto Avalia',
@@ -275,3 +275,9 @@ const EDITAL = {
     return this.disciplinas.filter(d => d.peso === 2);
   }
 };
+
+// `EDITAL` é o edital ATIVO no momento — troca de valor (nunca de
+// identidade da variável) quando o curso muda, ver
+// AUTH.aplicarEditalDoCurso() em js/auth.js. Começa apontando pro
+// PPRN, que é o curso padrão até o login confirmar outro.
+let EDITAL = EDITAL_PPRN;

@@ -23,16 +23,30 @@
 
 // Todos os cursos planejados já aparecem no seletor (pra conta admin
 // poder cadastrar clientes e organizar tudo desde já), mas só os com
-// `pronto: true` mostram conteúdo real (questões, lei seca, simulado).
-// Os demais mostram uma tela de "conteúdo em preparação" — ver
-// CURSO_CONTEUDO_PRONTO e APP.atualizarDisponibilidadeConteudo().
+// `pronto: true` têm ao menos algum conteúdo real. Quais ABAS
+// exatamente já têm conteúdo por curso está em CURSO_TABS_DISPONIVEIS
+// logo abaixo — uma aba fora dessa lista mostra "conteúdo em
+// preparação" (ver APP.atualizarDisponibilidadeConteudo() em app.js).
 const CURSOS_DISPONIVEIS = [
   { id: 'pprn', nome: 'Polícia Penal do RN (PPRN)', pronto: true },
-  { id: 'pppe', nome: 'Polícia Penal de PE (PPPE)', pronto: false },
+  { id: 'pppe', nome: 'Polícia Penal de PE (PPPE)', pronto: true },
   { id: 'pcpe_agente', nome: 'Polícia Civil de PE — Agente (PCPE)', pronto: false },
   { id: 'pcpe_escrivao', nome: 'Polícia Civil de PE — Escrivão (PCPE)', pronto: false },
   { id: 'pmpe', nome: 'Polícia Militar de PE (PMPE)', pronto: false }
 ];
+
+// Questões e Simulado da PPPE já têm banco próprio (ver
+// data/questions_legislacao_pe.js, data/questions_rlm.js e o filtro
+// por curso em initQuestions(), js/app.js). Lei Seca e Flashcards
+// Visuais ainda são só do PPRN — ficam de fora até terem conteúdo
+// próprio de PE.
+const CURSO_TABS_DISPONIVEIS = {
+  pprn: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
+  pppe: ['dashboard', 'questoes', 'simulado'],
+  pcpe_agente: [],
+  pcpe_escrivao: [],
+  pmpe: []
+};
 
 const SESSION_TOKEN_KEY = 'opfarda_session_token';
 const AUTH_CRED_STORAGE = 'opfarda_login_cred_id';
@@ -41,7 +55,6 @@ const ADMIN_LAST_CURSO_KEY = 'opfarda_admin_last_curso';
 let CURRENT_CURSO = null;
 let CURRENT_USER_EMAIL = null;
 let CURRENT_IS_ADMIN = false;
-let CURSO_CONTEUDO_PRONTO = true;
 let _saveProgressTimeout = null;
 let _realtimeChannel = null;
 let _pendingSession = null;
@@ -384,9 +397,21 @@ const AUTH = {
       .subscribe();
   },
 
+  // Cada curso tem seu próprio EDITAL (banca, questões, disciplinas) —
+  // troca o objeto global `EDITAL` (ver data/edital.js e
+  // data/edital_pppe.js) pro do curso escolhido antes de renderizar
+  // qualquer tela. Cursos sem edital próprio ainda caem no do PPRN.
+  aplicarEditalDoCurso(curso) {
+    if (curso === 'pppe' && typeof EDITAL_PPPE !== 'undefined') {
+      EDITAL = EDITAL_PPPE;
+    } else if (typeof EDITAL_PPRN !== 'undefined') {
+      EDITAL = EDITAL_PPRN;
+    }
+  },
+
   async entrarNoCurso(curso) {
     CURRENT_CURSO = curso;
-    CURSO_CONTEUDO_PRONTO = (CURSOS_DISPONIVEIS.find(c => c.id === curso) || {}).pronto !== false;
+    this.aplicarEditalDoCurso(curso);
     document.getElementById('login-screen').classList.add('hidden');
     document.getElementById('no-access-screen').classList.add('hidden');
     document.getElementById('loading-screen').style.display = 'flex';
@@ -420,9 +445,10 @@ const AUTH = {
     clearTimeout(_saveProgressTimeout);
     await CLOUD_SYNC.pushProgressNow(CURRENT_USER_EMAIL, CURRENT_CURSO);
     CURRENT_CURSO = novoCurso;
-    CURSO_CONTEUDO_PRONTO = (CURSOS_DISPONIVEIS.find(c => c.id === novoCurso) || {}).pronto !== false;
+    this.aplicarEditalDoCurso(novoCurso);
     localStorage.setItem(ADMIN_LAST_CURSO_KEY, novoCurso);
     STATE.stats = defaultStats();
+    initQuestions(); // banco de questões é filtrado por curso
     await CLOUD_SYNC.pullProgress(CURRENT_USER_EMAIL, novoCurso);
     APP.refreshAfterCursoSwitch();
   }

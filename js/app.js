@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v29';
+const APP_VERSION = 'v30';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -105,8 +105,14 @@ const CUSTOM_QUESTIONS = {
 // =================== ALL QUESTIONS =======================
 let ALL_QUESTIONS = [];
 
-function initQuestions() {
-  const sources = [
+// Disciplinas de Direito Penal/Constitucional/Administrativo/DH/Ética/
+// Português e a legislação especial FEDERAL (Lei de Drogas, Tortura,
+// Maria da Penha etc.) valem pra qualquer curso — são lei nacional,
+// não específica de um estado. Só o que é de fato estadual (a
+// "Legislação Penitenciária do RN" dentro do peso2_reforco4, e a
+// disciplina de História) fica de fora do banco de outros cursos.
+function sourcesComuns() {
+  return [
     typeof QUESTIONS_LEP !== 'undefined' ? QUESTIONS_LEP : [],
     typeof QUESTIONS_EXTRA_LEP !== 'undefined' ? QUESTIONS_EXTRA_LEP : [],
     typeof QUESTIONS_LEGISLACAO !== 'undefined' ? QUESTIONS_LEGISLACAO : [],
@@ -117,7 +123,6 @@ function initQuestions() {
     typeof QUESTIONS_DH !== 'undefined' ? QUESTIONS_DH : [],
     typeof QUESTIONS_PORTUGUES !== 'undefined' ? QUESTIONS_PORTUGUES : [],
     typeof QUESTIONS_ETICA !== 'undefined' ? QUESTIONS_ETICA : [],
-    typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : [],
     typeof QUESTIONS_PREMIUM !== 'undefined' ? QUESTIONS_PREMIUM : [],
     typeof QUESTIONS_PREMIUM_2 !== 'undefined' ? QUESTIONS_PREMIUM_2 : [],
     typeof QUESTIONS_PREMIUM_3 !== 'undefined' ? QUESTIONS_PREMIUM_3 : [],
@@ -143,13 +148,40 @@ function initQuestions() {
     typeof GENERATED_QUESTIONS !== 'undefined' ? GENERATED_QUESTIONS : [],
     typeof QUESTIONS_PESO2_REFORCO !== 'undefined' ? QUESTIONS_PESO2_REFORCO : [],
     typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [],
-    typeof QUESTIONS_PESO2_REFORCO3 !== 'undefined' ? QUESTIONS_PESO2_REFORCO3 : [],
-    typeof QUESTIONS_PESO2_REFORCO4 !== 'undefined' ? QUESTIONS_PESO2_REFORCO4 : [],
-    typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : []
+    typeof QUESTIONS_PESO2_REFORCO3 !== 'undefined' ? QUESTIONS_PESO2_REFORCO3 : []
   ];
+}
+
+function initQuestions() {
+  let sources;
+  if (CURRENT_CURSO === 'pppe') {
+    // QUESTIONS_PESO1_REFORCO e QUESTIONS_PESO2_REFORCO4 têm blocos
+    // específicos do RN misturados junto com conteúdo federal — filtra
+    // pelo prefixo do id pra tirar só a parte estadual do RN.
+    const peso1ReforcoSemRN = (typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : [])
+      .filter(q => !String(q.id).startsWith('p1r_hist_'));
+    const peso2Reforco4SemRN = (typeof QUESTIONS_PESO2_REFORCO4 !== 'undefined' ? QUESTIONS_PESO2_REFORCO4 : [])
+      .filter(q => !String(q.id).startsWith('p2r4_rn_')); // exclui a Legislação Penitenciária do RN
+    sources = [
+      ...sourcesComuns(),
+      peso1ReforcoSemRN,
+      peso2Reforco4SemRN,
+      typeof QUESTIONS_LEGISLACAO_PE !== 'undefined' ? QUESTIONS_LEGISLACAO_PE : [],
+      typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : []
+    ];
+  } else {
+    // PPRN (padrão): mantém o banco completo, incluindo História do RN
+    // e a Legislação Penitenciária do RN dentro do peso1/peso2_reforco4.
+    sources = [
+      ...sourcesComuns(),
+      typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : [],
+      typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : [],
+      typeof QUESTIONS_PESO2_REFORCO4 !== 'undefined' ? QUESTIONS_PESO2_REFORCO4 : []
+    ];
+  }
   const custom = CUSTOM_QUESTIONS.getAll();
   ALL_QUESTIONS = sources.flat().concat(custom).map(normalizeQuestion);
-  console.log(`✅ Banco carregado: ${ALL_QUESTIONS.length} questões (sendo ${custom.length} personalizadas)`);
+  console.log(`✅ Banco carregado (${CURRENT_CURSO}): ${ALL_QUESTIONS.length} questões (sendo ${custom.length} personalizadas)`);
 }
 
 // Alguns lotes de questões (ex.: questions_premium.js a _16.js) foram escritos num
@@ -319,15 +351,15 @@ const APP = {
     if (simTotalP) simTotalP.textContent = `${EDITAL.pontuacaoMaxima} pontos`;
   },
 
-  // Mostra/esconde a tela de "conteúdo em preparação" nas abas que
-  // dependem de banco de questões/lei seca próprio do curso — hoje só o
-  // PPRN tem conteúdo real; os demais cursos já aparecem no seletor mas
-  // ainda não mostram questões/leis (ver CURSO_CONTEUDO_PRONTO em auth.js).
+  // Mostra/esconde a tela de "conteúdo em preparação" aba por aba,
+  // conforme CURSO_TABS_DISPONIVEIS (js/auth.js) — cada curso pode ter
+  // só parte do conteúdo pronto (ex.: PPPE já tem Questões/Simulado
+  // próprios, mas Lei Seca/Flashcards ainda são só do PPRN).
   atualizarDisponibilidadeConteudo() {
-    const pronto = (typeof CURSO_CONTEUDO_PRONTO === 'undefined') ? true : CURSO_CONTEUDO_PRONTO;
+    const tabsProntos = (typeof CURSO_TABS_DISPONIVEIS !== 'undefined' && CURSO_TABS_DISPONIVEIS[CURRENT_CURSO]) || ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'];
     ['dashboard', 'lei-seca', 'questoes', 'simulado', 'visuais'].forEach(tab => {
       const overlay = document.getElementById('overlay-sem-conteudo-' + tab);
-      if (overlay) overlay.classList.toggle('hidden', pronto);
+      if (overlay) overlay.classList.toggle('hidden', tabsProntos.includes(tab));
     });
   },
 
@@ -390,8 +422,15 @@ const APP = {
   },
 
   updateCountdown() {
-    const now = new Date();
     const target = EDITAL.dataProva;
+    if (!target) {
+      ['countdown-days', 'cd-dias', 'cd-horas', 'cd-min'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = '--';
+      });
+      return;
+    }
+    const now = new Date();
     const diff = target - now;
     if (diff <= 0) {
       ['countdown-days', 'cd-dias', 'cd-horas', 'cd-min'].forEach(id => {
