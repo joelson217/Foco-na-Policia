@@ -516,5 +516,84 @@ const QUESTIONS_LEGISLACAO_PE = [
     gabarito: 'B',
     artigo: 'LC 106/2007',
     justificativa: 'A LC 106/2007 estabeleceu normas disciplinares específicas para os Agentes de Segurança Penitenciária de PE, sendo anterior e posteriormente sistematizada pelo Código Penitenciário de 2016, que hoje concentra o regramento disciplinar detalhado da categoria.'
+  },
+
+  // ============================================================
+  // Ética específica de PE — Decreto Estadual nº 46.852/2018
+  // (Código de Ética dos Agentes Públicos da Administração Direta
+  // e Indireta do Poder Executivo Estadual de PE). Disciplina
+  // marcada como 'etica' (não 'legislacao_pe') para contar na cota
+  // de Ética do edital, mas mantida neste arquivo por ser conteúdo
+  // exclusivo da PPPE (não se aplica ao PPRN). Fonte: Boletim
+  // SCGE-PE nº 019/2019 (scge.pe.gov.br).
+  // ============================================================
+  {
+    id: 'pe_etica_1',
+    disciplina: 'etica',
+    topico: 'Decreto 46.852/2018 - Princípios Éticos',
+    peso: 1,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'O Código de Ética dos Agentes Públicos da Administração Direta e Indireta do Poder Executivo de Pernambuco (Decreto Estadual nº 46.852/2018) estabelece, entre seus princípios fundamentais:',
+    alternativas: [
+      { letra: 'A', texto: 'Interesse público, integridade, imparcialidade, transparência, honestidade, responsabilidade, respeito e habilidade técnica.' },
+      { letra: 'B', texto: 'Apenas legalidade e eficiência, dispensados os demais princípios da Administração Pública.' },
+      { letra: 'C', texto: 'Sigilo absoluto sobre toda e qualquer informação, mesmo não sigilosa por natureza.' },
+      { letra: 'D', texto: 'Prevalência do interesse pessoal do agente sobre o interesse público, em caso de conflito.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Decreto Estadual nº 46.852/2018',
+    justificativa: 'O Decreto elenca oito princípios: interesse público, integridade, imparcialidade, transparência, honestidade, responsabilidade, respeito e habilidade técnica, orientando a conduta dos agentes públicos estaduais de PE.'
+  },
+  {
+    id: 'pe_etica_2',
+    disciplina: 'etica',
+    topico: 'Decreto 46.852/2018 - Conflito de Interesses',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo o art. 6º do Decreto Estadual nº 46.852/2018, quando um agente público de Pernambuco identifica um interesse privado relacionado às suas funções públicas (envolvendo a si, parentes até 2º grau ou organizações vinculadas), ele deve:',
+    alternativas: [
+      { letra: 'A', texto: 'Declarar o conflito de interesse à comissão de ética competente.' },
+      { letra: 'B', texto: 'Manter sigilo absoluto sobre o conflito, sem qualquer comunicação.' },
+      { letra: 'C', texto: 'Resolver o conflito por conta própria, sem necessidade de comunicação formal.' },
+      { letra: 'D', texto: 'Aguardar que um terceiro identifique e denuncie a situação.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 6º, §2º do Decreto Estadual nº 46.852/2018',
+    justificativa: 'O agente deve declarar formalmente à comissão de ética competente qualquer interesse privado relacionado às suas funções públicas, envolvendo ganhos para si, parentes até o segundo grau, terceiros associados ou organizações vinculadas.'
+  },
+  {
+    id: 'pe_etica_3',
+    disciplina: 'etica',
+    topico: 'Decreto 46.852/2018 - Penalidades',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'A transgressão ao Código de Ética dos Agentes Públicos de Pernambuco (Decreto nº 46.852/2018), segundo seu art. 12, resulta em:',
+    alternativas: [
+      { letra: 'A', texto: 'Advertência ou censura, conforme a natureza do ato e as circunstâncias do caso, com registro funcional.' },
+      { letra: 'B', texto: 'Demissão automática, sem análise das circunstâncias do caso concreto.' },
+      { letra: 'C', texto: 'Prisão administrativa de até 30 dias.' },
+      { letra: 'D', texto: 'Nenhuma sanção, pois o Código tem caráter meramente orientativo, sem força cogente.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 12 do Decreto Estadual nº 46.852/2018',
+    justificativa: 'As transgressões éticas resultam em advertência ou censura, conforme a natureza do ato e as circunstâncias de cada caso, com registro funcional que pode ter implicações em promoções — sanções mais graves (como demissão) dependem de processo disciplinar próprio, com base em outra legislação.'
+  },
+  {
+    id: 'pe_etica_4',
+    disciplina: 'etica',
+    topico: 'Decreto 46.852/2018 - Denúncias e Sigilo',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'As denúncias de violação ao Código de Ética dos Agentes Públicos de Pernambuco, encaminhadas à comissão de ética do órgão ou ao Conselho Superior de Ética Pública, tramitam:',
+    alternativas: [
+      { letra: 'A', texto: 'Em sigilo até seu término, com acesso restrito às partes e autoridades competentes.' },
+      { letra: 'B', texto: 'Com publicidade ampla e irrestrita, desde o seu recebimento.' },
+      { letra: 'C', texto: 'Apenas verbalmente, sendo vedado o registro escrito.' },
+      { letra: 'D', texto: 'Exclusivamente perante o Poder Judiciário, sendo vedada a análise administrativa.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Decreto Estadual nº 46.852/2018',
+    justificativa: 'As denúncias tramitam em sigilo até seu término, com acesso restrito às partes envolvidas e às autoridades competentes, resguardando tanto o denunciante quanto o denunciado durante a apuração.'
   }
 ];

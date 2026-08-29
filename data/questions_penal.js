@@ -1378,5 +1378,57 @@ const QUESTIONS_PENAL = [
   "gabarito": "B",
   "artigo": "Art. 217-A do CP e posição do STJ",
   "justificativa": "O STJ não adota posição absolutamente objetiva. A alegação de desconhecimento da idade da vítima pode ser invocada como erro de tipo (art. 20 CP), devendo o réu comprovar o erro. Assim, cada caso é analisado individualmente, não havendo responsabilidade objetiva pura."
+},
+{
+  "id": "penal_46",
+  "disciplina": "penal",
+  "topico": "Lei 9.296/1996 - Interceptação Telefônica",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Segundo a Lei nº 9.296/1996, a interceptação de comunicações telefônicas, para fins de investigação criminal ou instrução processual penal, depende de:",
+  "alternativas": [
+    { "letra": "A", "texto": "Ordem do juiz competente, de ofício ou a requerimento, quando não houver outro meio de prova disponível e o fato investigado constituir infração penal punida com reclusão." },
+    { "letra": "B", "texto": "Simples requisição da autoridade policial, sem necessidade de autorização judicial." },
+    { "letra": "C", "texto": "Autorização do Ministério Público, dispensada qualquer participação do Poder Judiciário." },
+    { "letra": "D", "texto": "Consentimento prévio do investigado, sob pena de nulidade da prova." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 1º e 2º da Lei 9.296/1996",
+  "justificativa": "A interceptação telefônica depende de ordem judicial, cabível quando há indícios razoáveis de autoria/participação em infração penal punida com reclusão, a prova não puder ser obtida por outros meios e o fato investigado constituir infração penal (não cabe em investigação de contravenção penal isolada)."
+},
+{
+  "id": "penal_47",
+  "disciplina": "penal",
+  "topico": "Lei 9.296/1996 - Prazo da Interceptação",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo o art. 5º da Lei nº 9.296/1996, o prazo da interceptação telefônica não poderá exceder:",
+  "alternativas": [
+    { "letra": "A", "texto": "5 dias, sem possibilidade de renovação." },
+    { "letra": "B", "texto": "15 dias, renovável por igual período, uma única vez, comprovada a indispensabilidade do meio de prova." },
+    { "letra": "C", "texto": "15 dias, renovável por igual período, quantas vezes forem necessárias, comprovada a indispensabilidade do meio de prova." },
+    { "letra": "D", "texto": "90 dias corridos, improrrogáveis." }
+  ],
+  "gabarito": "C",
+  "artigo": "Art. 5º da Lei 9.296/1996",
+  "justificativa": "O prazo legal é de 15 dias, renovável por igual período, desde que comprovada a indispensabilidade do meio de prova. O STJ e o STF já admitiram sucessivas renovações, enquanto persistir a necessidade da medida e o prazo total for devidamente justificado, não havendo limite máximo absoluto de renovações previsto na lei."
+},
+{
+  "id": "penal_48",
+  "disciplina": "penal",
+  "topico": "Lei 9.296/1996 - Crime de Quebra de Sigilo",
+  "peso": 2,
+  "dificuldade": "dificil",
+  "enunciado": "Constitui crime, segundo o art. 10 da Lei nº 9.296/1996, realizar interceptação de comunicações telefônicas:",
+  "alternativas": [
+    { "letra": "A", "texto": "Sem autorização judicial ou com objetivos não autorizados em lei, sujeitando o responsável à pena de reclusão de 2 a 4 anos e multa." },
+    { "letra": "B", "texto": "Mesmo com autorização judicial válida, sendo sempre crime independentemente da formalidade cumprida." },
+    { "letra": "C", "texto": "Apenas se o conteúdo interceptado for divulgado publicamente; a simples escuta não configura crime." },
+    { "letra": "D", "texto": "Somente quando praticada por particular, excluída a responsabilidade de agente público que aja sem autorização." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 10 da Lei 9.296/1996",
+  "justificativa": "O art. 10 tipifica como crime realizar interceptação de comunicações telefônicas sem autorização judicial ou com objetivos não autorizados em lei, com pena de reclusão de 2 a 4 anos e multa — aplicável tanto a agentes públicos quanto a particulares que pratiquem a conduta irregular."
 }
 ];

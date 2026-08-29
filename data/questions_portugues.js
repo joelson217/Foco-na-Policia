@@ -769,5 +769,75 @@ const QUESTIONS_PORTUGUES = [
     "artigo": "Morfologia — Classes Gramaticais",
     "justificativa": "\"pela\" é uma contração da preposição \"por\" + artigo definido \"a\" = \"pela\". \"tarde\" é substantivo (refere-se a um período do dia, precedido de artigo). Logo, \"pela tarde\" = preposição (por) + artigo definido (a) + substantivo (tarde).",
     "id": "port_25"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Reescrita de Frases - Equivalência de Conectivos",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa que reescreve corretamente o período \"Embora estivesse cansado, o agente concluiu a ronda\", mantendo o sentido original e a correção gramatical:",
+    "alternativas": [
+      { "letra": "A", "texto": "Ainda que estivesse cansado, o agente concluiu a ronda." },
+      { "letra": "B", "texto": "Porque estivesse cansado, o agente concluiu a ronda." },
+      { "letra": "C", "texto": "Se estivesse cansado, o agente concluiu a ronda." },
+      { "letra": "D", "texto": "Enquanto estivesse cansado, o agente concluiu a ronda." }
+    ],
+    "gabarito": "A",
+    "artigo": "Coesão Textual - Conectivos Concessivos",
+    "justificativa": "\"Ainda que\" é sinônimo de \"embora\", mantendo a relação concessiva (uma dificuldade que não impede a ação). As demais opções trocam a relação de sentido: \"porque\" (causal), \"se\" (condicional) e \"enquanto\" (temporal) alteram o sentido original.",
+    "id": "port_26"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Reescrita de Frases - Voz Passiva",
+    "peso": 1,
+    "dificuldade": "facil",
+    "enunciado": "A frase \"O diretor assinou o documento\" pode ser reescrita na voz passiva analítica, mantendo o mesmo sentido, como:",
+    "alternativas": [
+      { "letra": "A", "texto": "O documento foi assinado pelo diretor." },
+      { "letra": "B", "texto": "O documento assinou o diretor." },
+      { "letra": "C", "texto": "O diretor foi assinado pelo documento." },
+      { "letra": "D", "texto": "Assinar o documento é o diretor." }
+    ],
+    "gabarito": "A",
+    "artigo": "Vozes Verbais - Ativa e Passiva",
+    "justificativa": "Na conversão para a voz passiva analítica, o objeto direto da voz ativa (\"o documento\") torna-se sujeito paciente, e o sujeito da voz ativa (\"o diretor\") torna-se agente da passiva, introduzido pela preposição \"por\": \"O documento foi assinado pelo diretor\".",
+    "id": "port_27"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Reescrita de Frases - Substituição de Palavras (Sinonímia)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa que substitui a palavra sublinhada mantendo o sentido original da frase \"O servidor cumpriu RIGOROSAMENTE as normas disciplinares\":",
+    "alternativas": [
+      { "letra": "A", "texto": "O servidor cumpriu ESTRITAMENTE as normas disciplinares." },
+      { "letra": "B", "texto": "O servidor cumpriu RARAMENTE as normas disciplinares." },
+      { "letra": "C", "texto": "O servidor cumpriu DISPLICENTEMENTE as normas disciplinares." },
+      { "letra": "D", "texto": "O servidor cumpriu EVENTUALMENTE as normas disciplinares." }
+    ],
+    "gabarito": "A",
+    "artigo": "Significação das Palavras - Sinonímia",
+    "justificativa": "\"Estritamente\" é sinônimo de \"rigorosamente\", preservando o sentido de cumprimento fiel e integral das normas. As demais opções (\"raramente\", \"displicentemente\", \"eventualmente\") invertem o sentido, sugerindo descumprimento ou irregularidade.",
+    "id": "port_28"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Reescrita de Frases - Reorganização de Período",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Assinale a alternativa que reorganiza o período \"Como chovia muito, a ronda externa foi suspensa\", mantendo a mesma relação de sentido entre as orações:",
+    "alternativas": [
+      { "letra": "A", "texto": "A ronda externa foi suspensa, pois chovia muito." },
+      { "letra": "B", "texto": "A ronda externa foi suspensa, embora chovesse muito." },
+      { "letra": "C", "texto": "A ronda externa foi suspensa, para que chovesse muito." },
+      { "letra": "D", "texto": "A ronda externa foi suspensa, chovendo muito depois." }
+    ],
+    "gabarito": "A",
+    "artigo": "Coesão Textual - Relações Lógico-Semânticas (Causa)",
+    "justificativa": "\"Como\", no início do período original, introduz oração causal. \"Pois\", pospositivo, mantém a mesma relação de causa e consequência. \"Embora\" (concessiva) e \"para que\" (finalidade) alteram a relação lógica original.",
+    "id": "port_29"
   }
 ];

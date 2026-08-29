@@ -607,5 +607,146 @@ const QUESTIONS_DH = [
     "artigo": "Art. 9º, 3 do PIDCP",
     "justificativa": "O Art. 9º, 3 do PIDCP estabelece que qualquer pessoa presa ou encarcerada em virtude de infração penal deverá ser conduzida, sem demora, à presença do juiz ou de outra autoridade habilitada por lei a exercer funções judiciais e terá o direito de ser julgada em prazo razoável ou de ser posta em liberdade.",
     "id": "dh_20"
+  },
+
+  {
+    "disciplina": "dh",
+    "topico": "Participação Social - Conselho Nacional de Política Criminal e Penitenciária",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "O Conselho Nacional de Política Criminal e Penitenciária (CNPCP), órgão da execução penal previsto na Lei de Execução Penal, é integrado por quantos membros, designados por ato do Ministério da Justiça?",
+    "alternativas": [
+      { "letra": "A", "texto": "7 (sete) membros." },
+      { "letra": "B", "texto": "13 (treze) membros, com mandato de 2 anos, renovado 1/3 a cada ano." },
+      { "letra": "C", "texto": "20 (vinte) membros vitalícios." },
+      { "letra": "D", "texto": "5 (cinco) membros, todos magistrados." }
+    ],
+    "gabarito": "B",
+    "artigo": "Arts. 62-63 da LEP",
+    "justificativa": "O CNPCP, com sede na capital da República e subordinado ao Ministério da Justiça, é integrado por 13 membros dentre professores e profissionais de Direito Penal, Processual Penal, Penitenciário e áreas correlatas, além de representantes da comunidade, com mandato de 2 anos renovado em um terço a cada ano.",
+    "id": "dh_21"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Participação Social - Atribuições do CNPCP",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Incumbe ao Conselho Nacional de Política Criminal e Penitenciária (CNPCP), segundo o art. 64 da LEP:",
+    "alternativas": [
+      { "letra": "A", "texto": "Julgar recursos de progressão de regime, em substituição ao juiz da execução." },
+      { "letra": "B", "texto": "Propor diretrizes da política criminal e penitenciária, elaborar o programa nacional de formação de servidores e estabelecer regras sobre a arquitetura de estabelecimentos penais." },
+      { "letra": "C", "texto": "Conceder indulto e comutação de pena, com efeito vinculante e definitivo." },
+      { "letra": "D", "texto": "Administrar diretamente as penitenciárias federais." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 64 da LEP",
+    "justificativa": "Ao CNPCP incumbe, entre outras atribuições, propor diretrizes da política criminal quanto à prevenção do delito e execução das penas, elaborar o programa nacional penitenciário de formação de servidores, e estabelecer regras sobre arquitetura e construção de estabelecimentos penais — não lhe cabe julgar recursos judiciais nem conceder indulto (atribuição do Presidente da República).",
+    "id": "dh_22"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Participação Social - Conselho Penitenciário",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "O Conselho Penitenciário, órgão consultivo e fiscalizador da execução da pena previsto na LEP, é integrado por membros nomeados pelo Governador do Estado, com mandato de:",
+    "alternativas": [
+      { "letra": "A", "texto": "2 anos." },
+      { "letra": "B", "texto": "4 anos." },
+      { "letra": "C", "texto": "6 anos, vedada a recondução." },
+      { "letra": "D", "texto": "Mandato vitalício." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 69 da LEP",
+    "justificativa": "O Conselho Penitenciário é órgão consultivo e fiscalizador, integrado por membros nomeados pelo Governador do Estado dentre professores e profissionais de Direito Penal e áreas correlatas e representantes da comunidade, com mandato de 4 anos.",
+    "id": "dh_23"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Participação Social - Atribuições do Conselho Penitenciário",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "NÃO é atribuição do Conselho Penitenciário, segundo o art. 70 da LEP:",
+    "alternativas": [
+      { "letra": "A", "texto": "Emitir parecer sobre indulto e comutação de pena." },
+      { "letra": "B", "texto": "Inspecionar os estabelecimentos e serviços penais." },
+      { "letra": "C", "texto": "Supervisionar os patronatos e a assistência aos egressos." },
+      { "letra": "D", "texto": "Decidir, com força de coisa julgada, sobre a progressão de regime do preso." }
+    ],
+    "gabarito": "D",
+    "artigo": "Art. 70 da LEP",
+    "justificativa": "O Conselho Penitenciário emite parecer sobre indulto/comutação, inspeciona estabelecimentos, apresenta relatório anual ao CNPCP e supervisiona patronatos e assistência a egressos — mas não decide, com força vinculante, sobre progressão de regime, atribuição do juiz da execução penal.",
+    "id": "dh_24"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Participação Social - Conselho da Comunidade",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "O Conselho da Comunidade, órgão da execução penal que articula a sociedade civil ao sistema prisional, é composto, no mínimo, por representante da associação comercial ou industrial, e mais:",
+    "alternativas": [
+      { "letra": "A", "texto": "Um delegado de polícia e um promotor de justiça." },
+      { "letra": "B", "texto": "Um advogado indicado pela Seção da OAB e um assistente social escolhido pela Delegacia Seccional do CFESS." },
+      { "letra": "C", "texto": "Dois representantes indicados pelo diretor do estabelecimento penal." },
+      { "letra": "D", "texto": "Um juiz de direito e um defensor público, com direito a voto." }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 80 da LEP",
+    "justificativa": "O Conselho da Comunidade é composto, no mínimo, por 1 representante da associação comercial ou industrial, 1 advogado indicado pela Seção da OAB e 1 assistente social escolhido pela Delegacia Seccional do Conselho Federal de Assistentes Sociais (CFESS).",
+    "id": "dh_25"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Participação Social - Atribuições do Conselho da Comunidade",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Incumbe ao Conselho da Comunidade, segundo o art. 81 da LEP:",
+    "alternativas": [
+      { "letra": "A", "texto": "Visitar, pelo menos mensalmente, os estabelecimentos penais da comarca e entrevistar os presos." },
+      { "letra": "B", "texto": "Substituir o juiz da execução na análise dos pedidos de progressão de regime." },
+      { "letra": "C", "texto": "Aplicar sanções disciplinares diretamente aos presos, sem processo administrativo." },
+      { "letra": "D", "texto": "Administrar o orçamento da Secretaria de Administração Penitenciária." }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 81 da LEP",
+    "justificativa": "Ao Conselho da Comunidade incumbe visitar mensalmente os estabelecimentos penais, entrevistar presos, apresentar relatórios mensais ao juiz da execução e ao Conselho Penitenciário, e diligenciar recursos materiais e humanos para melhor assistência ao preso, em harmonia com a direção do estabelecimento.",
+    "id": "dh_26"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "PNDH-3 - Programa Nacional de Direitos Humanos",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "O Programa Nacional de Direitos Humanos (PNDH-3), aprovado pelo Decreto nº 7.037/2009, é implementado por meio de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Eixos orientadores, cada um com diretrizes e ações programáticas próprias." },
+      { "letra": "B", "texto": "Um único artigo genérico, sem detalhamento de diretrizes." },
+      { "letra": "C", "texto": "Portarias ministeriais expedidas anualmente, sem vínculo com o decreto original." },
+      { "letra": "D", "texto": "Resoluções do Conselho Nacional de Justiça, com força vinculante sobre o Poder Executivo." }
+    ],
+    "gabarito": "A",
+    "artigo": "Decreto nº 7.037/2009",
+    "justificativa": "O PNDH-3 é estruturado em eixos orientadores (como \"Interação Democrática entre Estado e Sociedade Civil\", \"Desenvolvimento e Direitos Humanos\", \"Segurança Pública, Acesso à Justiça e Combate à Violência\", entre outros), cada um desdobrado em diretrizes e ações programáticas específicas.",
+    "id": "dh_27"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "PNDH-3 - Eixo Segurança Pública",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Entre os eixos orientadores do PNDH-3 (Decreto nº 7.037/2009), qual trata especificamente de segurança pública, acesso à justiça e combate à violência — tema diretamente relacionado à atuação da Polícia Penal?",
+    "alternativas": [
+      { "letra": "A", "texto": "Eixo Orientador I - Interação Democrática entre Estado e Sociedade Civil." },
+      { "letra": "B", "texto": "Eixo Orientador IV - Segurança Pública, Acesso à Justiça e Combate à Violência." },
+      { "letra": "C", "texto": "Eixo Orientador VI - Direito à Memória e à Verdade." },
+      { "letra": "D", "texto": "Eixo Orientador II - Desenvolvimento e Direitos Humanos." }
+    ],
+    "gabarito": "B",
+    "artigo": "Decreto nº 7.037/2009",
+    "justificativa": "O Eixo Orientador IV do PNDH-3 trata de Segurança Pública, Acesso à Justiça e Combate à Violência, com diretrizes sobre humanização do sistema prisional e enfrentamento à violência institucional — tema central para a atuação da Polícia Penal.",
+    "id": "dh_28"
   }
 ];

@@ -1882,5 +1882,75 @@ const QUESTIONS_LEGISLACAO = [
   "gabarito": "B",
   "artigo": "Art. 1º da Lei 9.613/98 (redação da Lei 12.683/12)",
   "justificativa": "Após a Lei 12.683/12, o rol taxativo de crimes antecedentes foi eliminado: qualquer infração penal (crime OU contravenção) pode ser antecedente da lavagem. A autolavagem é punível no Brasil."
+},
+{
+  "id": "leg_63",
+  "disciplina": "legislacao",
+  "topico": "Lavagem de Dinheiro - Fases (Lei 9.613/98)",
+  "peso": 1,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "A doutrina identifica, no processo de lavagem de dinheiro, três fases sequenciais. Assinale a alternativa que as apresenta na ordem correta:",
+  "alternativas": [
+    { "letra": "A", "texto": "Integração, ocultação e colocação." },
+    { "letra": "B", "texto": "Colocação (placement), ocultação/estratificação (layering) e integração (integration)." },
+    { "letra": "C", "texto": "Fiscalização, denúncia e julgamento." },
+    { "letra": "D", "texto": "Investigação, indiciamento e condenação." }
+  ],
+  "gabarito": "B",
+  "artigo": "Doutrina sobre a Lei 9.613/98",
+  "justificativa": "A lavagem de dinheiro é descrita em três fases: colocação (introdução dos valores ilícitos no sistema financeiro), ocultação/estratificação (movimentações para dificultar o rastreamento da origem) e integração (reinserção dos recursos na economia com aparência de licitude)."
+},
+{
+  "id": "leg_64",
+  "disciplina": "legislacao",
+  "topico": "Lavagem de Dinheiro - Papel do COAF",
+  "peso": 1,
+  "dificuldade": "medio",
+  "enunciado": "No combate à lavagem de dinheiro no Brasil, o Conselho de Controle de Atividades Financeiras (COAF) tem como principal função:",
+  "alternativas": [
+    { "letra": "A", "texto": "Processar e julgar criminalmente os responsáveis por lavagem de dinheiro." },
+    { "letra": "B", "texto": "Receber, examinar e identificar operações financeiras suspeitas, comunicando-as às autoridades competentes para investigação." },
+    { "letra": "C", "texto": "Substituir o Ministério Público na propositura da ação penal." },
+    { "letra": "D", "texto": "Conceder indulto às pessoas condenadas por lavagem de dinheiro." }
+  ],
+  "gabarito": "B",
+  "artigo": "Lei 9.613/98 (Capítulo sobre o COAF)",
+  "justificativa": "O COAF é órgão de inteligência financeira que recebe, examina e identifica operações suspeitas de lavagem de dinheiro e financiamento do terrorismo, comunicando-as às autoridades competentes (Polícia, Ministério Público) para investigação — não tem função judicante ou persecutória própria."
+},
+{
+  "id": "leg_65",
+  "disciplina": "legislacao",
+  "topico": "Lei Anticorrupção - Sanções e Acordo de Leniência",
+  "peso": 1,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Segundo a Lei nº 12.846/2013 (Lei Anticorrupção), o acordo de leniência celebrado entre a autoridade máxima do órgão e a pessoa jurídica que colabora efetivamente com as investigações pode resultar em:",
+  "alternativas": [
+    { "letra": "A", "texto": "Isenção total e automática de qualquer sanção, inclusive a reparação do dano." },
+    { "letra": "B", "texto": "Redução de até 2/3 do valor da multa aplicável, além de isenção ou atenuação de sanções administrativas e judiciais, exceto a reparação integral do dano." },
+    { "letra": "C", "texto": "Extinção da responsabilidade penal dos administradores da empresa, ainda que não previsto nesta lei." },
+    { "letra": "D", "texto": "Transferência da responsabilidade da pessoa jurídica para o Estado." }
+  ],
+  "gabarito": "B",
+  "artigo": "Lei 12.846/2013 (Acordo de Leniência)",
+  "justificativa": "O acordo de leniência pode reduzir em até 2/3 o valor da multa e isentar ou atenuar sanções administrativas e judiciais, mas a reparação integral do dano causado à administração pública nunca é dispensada."
+},
+{
+  "id": "leg_66",
+  "disciplina": "legislacao",
+  "topico": "Lei Anticorrupção - Concurso de Responsabilidades",
+  "peso": 1,
+  "dificuldade": "medio",
+  "enunciado": "De acordo com a Lei nº 12.846/2013, a responsabilização da pessoa jurídica pela prática de atos lesivos à administração pública:",
+  "alternativas": [
+    { "letra": "A", "texto": "Exclui a responsabilização individual dos dirigentes ou administradores que tenham participado do ato ilícito." },
+    { "letra": "B", "texto": "Não exclui a responsabilidade individual de seus dirigentes, administradores ou de qualquer pessoa natural que tenha concorrido para o ato ilícito." },
+    { "letra": "C", "texto": "Só pode ser aplicada após o trânsito em julgado da ação penal contra os administradores." },
+    { "letra": "D", "texto": "Depende da comprovação de culpa da pessoa jurídica, afastando a responsabilidade objetiva." }
+  ],
+  "gabarito": "B",
+  "artigo": "Art. 3º da Lei 12.846/2013",
+  "justificativa": "A responsabilização objetiva administrativa e civil da pessoa jurídica coexiste com a responsabilidade individual de seus dirigentes/administradores ou de qualquer pessoa física que tenha concorrido para o ato lesivo, na medida de sua culpabilidade — as responsabilidades não se excluem."
 }
 ];
