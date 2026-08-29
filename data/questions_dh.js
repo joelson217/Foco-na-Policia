@@ -10,7 +10,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "É um tratado internacional assinado por todos os países membros da ONU, possuindo força de lei."
+        "texto": "É um tratado internacional assinado por todos os países membros da ONU, possuindo força de lei.",
+        "comentario": "A DUDH não é tratado internacional com força de lei — nasceu como Resolução da Assembleia Geral da ONU (soft law), sem caráter vinculante de tratado em sua origem."
       },
       {
         "letra": "B",
@@ -18,11 +19,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "Prevê a criação da Corte Interamericana de Direitos Humanos."
+        "texto": "Prevê a criação da Corte Interamericana de Direitos Humanos.",
+        "comentario": "A criação da Corte Interamericana decorre do Pacto de San José (1969), do sistema regional americano — não da DUDH, documento global de 1948."
       },
       {
         "letra": "D",
-        "texto": "Admite, em situações excepcionais de terrorismo, a prática da tortura."
+        "texto": "Admite, em situações excepcionais de terrorismo, a prática da tortura.",
+        "comentario": "A vedação à tortura é absoluta — nenhuma situação excepcional, nem mesmo o combate ao terrorismo, a autoriza."
       }
     ],
     "gabarito": "B",
@@ -40,7 +43,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "É permitida a prisão do depositário infiel."
+        "texto": "É permitida a prisão do depositário infiel.",
+        "comentario": "O STF, na Súmula Vinculante 25, declarou ilícita a prisão do depositário infiel com base no Pacto de San José — ela não é mais permitida no Brasil."
       },
       {
         "letra": "B",
@@ -48,11 +52,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "É proibida qualquer prisão por dívida, inclusive a do devedor de alimentos."
+        "texto": "É proibida qualquer prisão por dívida, inclusive a do devedor de alimentos.",
+        "comentario": "O Pacto admite exceção expressa para a prisão do devedor de alimentos — não veda toda e qualquer prisão por dívida."
       },
       {
         "letra": "D",
-        "texto": "A prisão civil do devedor de alimentos só é permitida por até 30 dias."
+        "texto": "A prisão civil do devedor de alimentos só é permitida por até 30 dias.",
+        "comentario": "O Pacto não fixa esse prazo de 30 dias para a prisão do devedor de alimentos — apenas autoriza a exceção, cabendo à legislação interna disciplinar o prazo."
       }
     ],
     "gabarito": "B",
@@ -70,7 +76,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "10 dias consecutivos."
+        "texto": "10 dias consecutivos.",
+        "comentario": "A Regra 44 fixa o limite em 15 dias consecutivos, não 10 dias."
       },
       {
         "letra": "B",
@@ -78,11 +85,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "30 dias consecutivos."
+        "texto": "30 dias consecutivos.",
+        "comentario": "30 dias é o dobro do prazo real fixado pela Regra 44 (15 dias consecutivos)."
       },
       {
         "letra": "D",
-        "texto": "45 dias consecutivos."
+        "texto": "45 dias consecutivos.",
+        "comentario": "45 dias está bem acima do limite real de 15 dias consecutivos previsto na Regra 44."
       }
     ],
     "gabarito": "B",
@@ -100,11 +109,13 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A tortura pode ser justificada em tempos de guerra ou instabilidade política interna."
+        "texto": "A tortura pode ser justificada em tempos de guerra ou instabilidade política interna.",
+        "comentario": "A vedação à tortura é absoluta — a própria Convenção veda expressamente qualquer exceção, incluindo guerra ou instabilidade política."
       },
       {
         "letra": "B",
-        "texto": "A ordem de um funcionário superior justifica a prática da tortura, se comprovada coação moral irresistível."
+        "texto": "A ordem de um funcionário superior justifica a prática da tortura, se comprovada coação moral irresistível.",
+        "comentario": "A ordem de superior hierárquico não pode ser invocada como justificativa para a tortura, mesmo alegando coação — é vedação expressa da Convenção."
       },
       {
         "letra": "C",
@@ -112,7 +123,8 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "D",
-        "texto": "A expulsão de estrangeiro para país onde corra risco de tortura é permitida se o estrangeiro for condenado por terrorismo."
+        "texto": "A expulsão de estrangeiro para país onde corra risco de tortura é permitida se o estrangeiro for condenado por terrorismo.",
+        "comentario": "A expulsão para país onde haja risco de tortura é vedada (princípio do non-refoulement), independentemente do crime pelo qual o estrangeiro tenha sido condenado."
       }
     ],
     "gabarito": "C",
@@ -130,15 +142,18 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Inalienabilidade."
+        "texto": "Inalienabilidade.",
+        "comentario": "Inalienabilidade refere-se à impossibilidade de vender, doar ou renunciar aos direitos humanos — não trata da passagem do tempo."
       },
       {
         "letra": "B",
-        "texto": "Universalidade."
+        "texto": "Universalidade.",
+        "comentario": "Universalidade indica que os direitos alcançam todos os seres humanos, sem relação com o decurso do tempo."
       },
       {
         "letra": "C",
-        "texto": "Indivisibilidade."
+        "texto": "Indivisibilidade.",
+        "comentario": "Indivisibilidade trata da interdependência entre as diferentes categorias de direitos (civis, políticos, sociais etc.), não do não perecimento pelo tempo."
       },
       {
         "letra": "D",
@@ -164,19 +179,23 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "B",
-        "texto": "Todo indivíduo tem direito à vida, à liberdade, mas a segurança pessoal pode ser mitigada pelo Estado arbitrariamente."
+        "texto": "Todo indivíduo tem direito à vida, à liberdade, mas a segurança pessoal pode ser mitigada pelo Estado arbitrariamente.",
+        "comentario": "A DUDH assegura a segurança pessoal como direito pleno, sem admitir mitigação arbitrária pelo Estado."
       },
       {
         "letra": "C",
-        "texto": "A prisão preventiva poderá exceder limites legais em caso de guerra."
+        "texto": "A prisão preventiva poderá exceder limites legais em caso de guerra.",
+        "comentario": "A DUDH não permite exceder limites legais em nenhuma hipótese, nem mesmo em situação de guerra."
       },
       {
         "letra": "D",
-        "texto": "A liberdade de expressão é garantida, exceto para questões de oposição ao governo."
+        "texto": "A liberdade de expressão é garantida, exceto para questões de oposição ao governo.",
+        "comentario": "A liberdade de expressão na DUDH não comporta exceção para oposição política ao governo — é garantia ampla."
       },
       {
         "letra": "E",
-        "texto": "A escravidão é tolerada em situações de servidão penal por dívida."
+        "texto": "A escravidão é tolerada em situações de servidão penal por dívida.",
+        "comentario": "A escravidão é expressamente proibida pela DUDH em qualquer forma, inclusive como servidão por dívida."
       }
     ],
     "correta": "A",
@@ -193,15 +212,18 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Admite a prisão por dívida em qualquer situação cível e comercial."
+        "texto": "Admite a prisão por dívida em qualquer situação cível e comercial.",
+        "comentario": "O Pacto não admite prisão por dívida em qualquer situação cível/comercial — a regra geral é a proibição, com exceção única para alimentos."
       },
       {
         "letra": "B",
-        "texto": "Proíbe terminantemente a prisão por dívida, sem nenhuma exceção."
+        "texto": "Proíbe terminantemente a prisão por dívida, sem nenhuma exceção.",
+        "comentario": "Há, sim, uma exceção expressa no próprio texto do Pacto: o inadimplemento de obrigação alimentar."
       },
       {
         "letra": "C",
-        "texto": "Autoriza a prisão por dívida apenas no caso de depositário infiel e devedor de alimentos."
+        "texto": "Autoriza a prisão por dívida apenas no caso de depositário infiel e devedor de alimentos.",
+        "comentario": "A prisão do depositário infiel foi vedada pelo STF (Súmula Vinculante 25) com base no próprio Pacto — hoje só resta permitida a do devedor de alimentos."
       },
       {
         "letra": "D",
@@ -209,7 +231,8 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "E",
-        "texto": "Determina que cabe ao legislador interno prever livremente as hipóteses."
+        "texto": "Determina que cabe ao legislador interno prever livremente as hipóteses.",
+        "comentario": "O Pacto não deixa a matéria à livre disposição do legislador interno — fixa diretamente a regra geral (proibição) e sua única exceção (alimentos)."
       }
     ],
     "correta": "D",
@@ -226,11 +249,13 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Leis ordinárias."
+        "texto": "Leis ordinárias.",
+        "comentario": "Lei ordinária tem status inferior ao adquirido pelo tratado aprovado com esse quórum qualificado — o art. 5º, §3º eleva o tratado a status de emenda constitucional."
       },
       {
         "letra": "B",
-        "texto": "Leis complementares."
+        "texto": "Leis complementares.",
+        "comentario": "Lei complementar exige quórum de maioria absoluta, distinto e mais brando do que o quórum de 3/5 em dois turnos exigido pelo art. 5º, §3º da CF."
       },
       {
         "letra": "C",
@@ -238,11 +263,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "D",
-        "texto": "Decretos presidenciais."
+        "texto": "Decretos presidenciais.",
+        "comentario": "Decreto presidencial não guarda relação com o procedimento legislativo qualificado descrito no art. 5º, §3º da CF."
       },
       {
         "letra": "E",
-        "texto": "Estatutos Supralegais (acima da lei e abaixo da constituição)."
+        "texto": "Estatutos Supralegais (acima da lei e abaixo da constituição).",
+        "comentario": "A supralegalidade é o status dos tratados de DH aprovados SEM esse quórum qualificado — quando aprovado com o quórum do art. 5º, §3º, o tratado ganha status de emenda constitucional, superior à supralegalidade."
       }
     ],
     "correta": "C",
@@ -259,11 +286,13 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Pode ser indeterminado em casos de rebelião ou motim."
+        "texto": "Pode ser indeterminado em casos de rebelião ou motim.",
+        "comentario": "As Regras de Mandela vedam o isolamento prolongado (acima de 15 dias) em qualquer hipótese, sem exceção para rebelião ou motim."
       },
       {
         "letra": "B",
-        "texto": "É expressamente proibido por configurar tortura em qualquer hipótese."
+        "texto": "É expressamente proibido por configurar tortura em qualquer hipótese.",
+        "comentario": "O isolamento não é proibido em qualquer hipótese — é admitido por curto prazo como sanção disciplinar; o que se veda é o isolamento PROLONGADO, acima de 15 dias."
       },
       {
         "letra": "C",
@@ -271,7 +300,8 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "D",
-        "texto": "É permitido pelo período que durar a investigação criminal, sem limite."
+        "texto": "É permitido pelo período que durar a investigação criminal, sem limite.",
+        "comentario": "Não há permissão de isolamento sem limite pelo tempo que durar a investigação — o limite de 15 dias consecutivos se aplica independentemente do motivo."
       }
     ],
     "gabarito": "C",
@@ -289,7 +319,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A ser submetida a julgamento secreto em casos de segurança nacional."
+        "texto": "A ser submetida a julgamento secreto em casos de segurança nacional.",
+        "comentario": "A DUDH garante o direito a julgamento público e justo, vedando julgamentos secretos."
       },
       {
         "letra": "B",
@@ -297,11 +328,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "A portar armas para proteção pessoal contra atos arbitrários do Estado."
+        "texto": "A portar armas para proteção pessoal contra atos arbitrários do Estado.",
+        "comentario": "A DUDH não prevê direito ao porte de armas — trata de direitos civis, políticos e sociais gerais, sem essa previsão."
       },
       {
         "letra": "D",
-        "texto": "Ao asilo político, mesmo no caso de perseguição legitimamente motivada por crimes comuns."
+        "texto": "Ao asilo político, mesmo no caso de perseguição legitimamente motivada por crimes comuns.",
+        "comentario": "A DUDH veda expressamente o asilo para quem pratica crimes comuns ou atos contrários aos propósitos das Nações Unidas."
       }
     ],
     "gabarito": "B",
@@ -319,7 +352,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Permite a prisão civil por dívida de depositário infiel e devedor de alimentos."
+        "texto": "Permite a prisão civil por dívida de depositário infiel e devedor de alimentos.",
+        "comentario": "O Pacto (por interpretação vinculante do STF) veda a prisão do depositário infiel e só permite a do devedor de alimentos — não permite ambas."
       },
       {
         "letra": "B",
@@ -327,11 +361,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "Admite a aplicação da pena de morte para crimes políticos."
+        "texto": "Admite a aplicação da pena de morte para crimes políticos.",
+        "comentario": "O Pacto de São José não admite pena de morte para crimes políticos; ao contrário, restringe seu uso a hipóteses residuais e veda seu restabelecimento onde já abolida."
       },
       {
         "letra": "D",
-        "texto": "Autoriza o Estado a privar a liberdade de qualquer cidadão sem necessidade de previsão legal prévia."
+        "texto": "Autoriza o Estado a privar a liberdade de qualquer cidadão sem necessidade de previsão legal prévia.",
+        "comentario": "A privação de liberdade sempre exige previsão legal prévia (princípio da legalidade), não sendo autorizada de forma arbitrária pelo Estado."
       }
     ],
     "gabarito": "B",
@@ -349,7 +385,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Exclusivamente por particulares, sem nenhuma relação com o Estado."
+        "texto": "Exclusivamente por particulares, sem nenhuma relação com o Estado.",
+        "comentario": "A Convenção exige justamente vínculo com o poder público (agente estatal, ou terceiro por sua instigação, consentimento ou aquiescência) — atos sem qualquer relação estatal escapam ao conceito internacional de tortura."
       },
       {
         "letra": "B",
@@ -357,11 +394,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "Somente no período de guerra declarada entre nações soberanas."
+        "texto": "Somente no período de guerra declarada entre nações soberanas.",
+        "comentario": "A Convenção não restringe a tortura a períodos de guerra declarada — aplica-se em qualquer contexto, inclusive em tempos de paz."
       },
       {
         "letra": "D",
-        "texto": "Exclusivamente por policiais civis e militares, excluindo agentes penais."
+        "texto": "Exclusivamente por policiais civis e militares, excluindo agentes penais.",
+        "comentario": "A Convenção não distingue por categoria de agente público — abrange qualquer funcionário público ou pessoa no exercício de função pública, incluindo agentes penais."
       }
     ],
     "gabarito": "B",
@@ -379,11 +418,13 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Lei Ordinária Federal."
+        "texto": "Lei Ordinária Federal.",
+        "comentario": "Lei ordinária tem status inferior ao adquirido pelo tratado aprovado com esse quórum qualificado, que equivale a emenda constitucional."
       },
       {
         "letra": "B",
-        "texto": "Norma Supralegal."
+        "texto": "Norma Supralegal.",
+        "comentario": "Norma supralegal é o status dos tratados de DH aprovados SEM o quórum qualificado — o enunciado descreve exatamente o quórum que gera equivalência a emenda constitucional."
       },
       {
         "letra": "C",
@@ -391,7 +432,8 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "D",
-        "texto": "Decreto Legislativo Autônomo."
+        "texto": "Decreto Legislativo Autônomo.",
+        "comentario": "Não existe a figura de \"decreto legislativo autônomo\" com esse efeito — o instituto correto, previsto no art. 5º, §3º, é a equivalência a emenda constitucional."
       }
     ],
     "gabarito": "C",
@@ -409,7 +451,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "À Corte Interamericana de Direitos Humanos."
+        "texto": "À Corte Interamericana de Direitos Humanos.",
+        "comentario": "O indivíduo não tem acesso direto (capacidade postulatória) à Corte Interamericana — deve peticionar primeiro à Comissão Interamericana."
       },
       {
         "letra": "B",
@@ -417,11 +460,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "Ao Conselho de Segurança da ONU."
+        "texto": "Ao Conselho de Segurança da ONU.",
+        "comentario": "O Conselho de Segurança da ONU não integra o sistema interamericano de proteção nem recebe petições individuais desse tipo."
       },
       {
         "letra": "D",
-        "texto": "À Assembleia Geral da OEA."
+        "texto": "À Assembleia Geral da OEA.",
+        "comentario": "A Assembleia Geral da OEA não processa petições individuais de violação de direitos humanos; essa função é da Comissão Interamericana."
       }
     ],
     "gabarito": "B",
@@ -439,11 +484,13 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Universalidade."
+        "texto": "Universalidade.",
+        "comentario": "Universalidade indica que os direitos alcançam todos os seres humanos, sem relação com o não uso ao longo do tempo."
       },
       {
         "letra": "B",
-        "texto": "Irrenunciabilidade."
+        "texto": "Irrenunciabilidade.",
+        "comentario": "Irrenunciabilidade trata da impossibilidade de o titular abrir mão do direito, não do efeito do decurso do tempo."
       },
       {
         "letra": "C",
@@ -451,7 +498,8 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "D",
-        "texto": "Indivisibilidade."
+        "texto": "Indivisibilidade.",
+        "comentario": "Indivisibilidade trata da interdependência entre as categorias de direitos, não da imunidade ao decurso do tempo."
       }
     ],
     "gabarito": "C",
@@ -468,7 +516,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A pena de morte é abolida para todos os crimes em todos os países signatários da Convenção."
+        "texto": "A pena de morte é abolida para todos os crimes em todos os países signatários da Convenção.",
+        "comentario": "A Convenção não abole a pena de morte para todos os crimes em todos os signatários — apenas restringe seu uso e veda seu restabelecimento onde já abolida, mantendo hipóteses residuais em alguns Estados."
       },
       {
         "letra": "B",
@@ -476,11 +525,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "O tratamento degradante é permitido em casos excepcionais de estado de emergência."
+        "texto": "O tratamento degradante é permitido em casos excepcionais de estado de emergência.",
+        "comentario": "O tratamento degradante é vedação absoluta, inclusive em estado de emergência — não comporta exceção."
       },
       {
         "letra": "D",
-        "texto": "A Convenção proíbe qualquer forma de pena privativa de liberdade para crime comum."
+        "texto": "A Convenção proíbe qualquer forma de pena privativa de liberdade para crime comum.",
+        "comentario": "A Convenção não proíbe a pena privativa de liberdade para crime comum; ela regula garantias no cumprimento da pena, não a existência da pena em si."
       }
     ],
     "gabarito": "B",
@@ -502,15 +553,18 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "B",
-        "texto": "As Regras de Mandela têm força vinculante e obrigam os países signatários da ONU."
+        "texto": "As Regras de Mandela têm força vinculante e obrigam os países signatários da ONU.",
+        "comentario": "As Regras de Mandela são recomendações (soft law) da ONU, sem força vinculante direta sobre os Estados signatários."
       },
       {
         "letra": "C",
-        "texto": "As Regras se aplicam exclusivamente a presos condenados definitivamente, não a presos provisórios."
+        "texto": "As Regras se aplicam exclusivamente a presos condenados definitivamente, não a presos provisórios.",
+        "comentario": "As Regras se aplicam também a presos provisórios, não apenas a condenados definitivamente."
       },
       {
         "letra": "D",
-        "texto": "Os estabelecimentos penais devem assegurar conforto aos reclusos, incluindo acesso a TV e lazer remunerado."
+        "texto": "Os estabelecimentos penais devem assegurar conforto aos reclusos, incluindo acesso a TV e lazer remunerado.",
+        "comentario": "As Regras não garantem \"conforto\" com TV e lazer remunerado — tratam de padrões mínimos de dignidade e tratamento humano, não de benefícios remunerados."
       }
     ],
     "gabarito": "A",
@@ -528,11 +582,13 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A Comissão Interamericana de Direitos Humanos e a Corte Interamericana de Direitos Humanos integram a ONU."
+        "texto": "A Comissão Interamericana de Direitos Humanos e a Corte Interamericana de Direitos Humanos integram a ONU.",
+        "comentario": "A Comissão e a Corte Interamericanas integram o sistema da OEA, não da ONU."
       },
       {
         "letra": "B",
-        "texto": "Qualquer pessoa pode peticionar diretamente à Corte Interamericana de Direitos Humanos."
+        "texto": "Qualquer pessoa pode peticionar diretamente à Corte Interamericana de Direitos Humanos.",
+        "comentario": "O indivíduo não pode peticionar diretamente à Corte IDH — apenas a Comissão Interamericana ou os Estados-partes podem levar casos à Corte."
       },
       {
         "letra": "C",
@@ -540,7 +596,8 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "D",
-        "texto": "O Brasil não reconhece a jurisdição da Corte Interamericana de Direitos Humanos."
+        "texto": "O Brasil não reconhece a jurisdição da Corte Interamericana de Direitos Humanos.",
+        "comentario": "O Brasil reconhece a jurisdição da Corte Interamericana desde 1998 (Decreto Legislativo nº 89/1998)."
       }
     ],
     "gabarito": "C",
@@ -558,7 +615,8 @@ const QUESTIONS_DH = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A tortura é proibida apenas quando praticada por agentes do Estado."
+        "texto": "A tortura é proibida apenas quando praticada por agentes do Estado.",
+        "comentario": "A proibição da tortura na DUDH é absoluta e não se restringe a agentes do Estado."
       },
       {
         "letra": "B",
@@ -566,11 +624,13 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "C",
-        "texto": "A DUDH permite tratamentos degradantes em casos de guerra declarada."
+        "texto": "A DUDH permite tratamentos degradantes em casos de guerra declarada.",
+        "comentario": "A DUDH não admite tratamentos degradantes nem mesmo em guerra declarada — é vedação sem exceção."
       },
       {
         "letra": "D",
-        "texto": "A proibição da tortura constante na DUDH tem força vinculante para todos os países."
+        "texto": "A proibição da tortura constante na DUDH tem força vinculante para todos os países.",
+        "comentario": "A DUDH, por ser uma Resolução da Assembleia Geral (soft law), não tem força vinculante direta em sua origem, embora seus princípios tenham status de costume internacional."
       }
     ],
     "gabarito": "B",
@@ -592,15 +652,18 @@ const QUESTIONS_DH = [
       },
       {
         "letra": "B",
-        "texto": "O PIDCP permite a prisão preventiva por tempo indeterminado desde que haja flagrante delito."
+        "texto": "O PIDCP permite a prisão preventiva por tempo indeterminado desde que haja flagrante delito.",
+        "comentario": "O PIDCP não permite prisão preventiva por tempo indeterminado — exige controle judicial e prazo razoável mesmo em caso de flagrante."
       },
       {
         "letra": "C",
-        "texto": "O PIDCP não prevê direito à indenização por prisão ilegal."
+        "texto": "O PIDCP não prevê direito à indenização por prisão ilegal.",
+        "comentario": "O PIDCP prevê expressamente direito à indenização por prisão ou detenção ilegal (art. 9º, §5º)."
       },
       {
         "letra": "D",
-        "texto": "A prisão cautelar sem prazo é compatível com o PIDCP em casos de crimes graves."
+        "texto": "A prisão cautelar sem prazo é compatível com o PIDCP em casos de crimes graves.",
+        "comentario": "A prisão cautelar sem prazo definido não é compatível com o Pacto, independentemente da gravidade do crime — exige sempre controle judicial e prazo razoável."
       }
     ],
     "gabarito": "A",
@@ -617,10 +680,10 @@ const QUESTIONS_DH = [
     "dificuldade": "medio",
     "enunciado": "O Conselho Nacional de Política Criminal e Penitenciária (CNPCP), órgão da execução penal previsto na Lei de Execução Penal, é integrado por quantos membros, designados por ato do Ministério da Justiça?",
     "alternativas": [
-      { "letra": "A", "texto": "7 (sete) membros." },
+      { "letra": "A", "texto": "7 (sete) membros.", "comentario": "O número correto de membros do CNPCP é 13, não 7." },
       { "letra": "B", "texto": "13 (treze) membros, com mandato de 2 anos, renovado 1/3 a cada ano." },
-      { "letra": "C", "texto": "20 (vinte) membros vitalícios." },
-      { "letra": "D", "texto": "5 (cinco) membros, todos magistrados." }
+      { "letra": "C", "texto": "20 (vinte) membros vitalícios.", "comentario": "O CNPCP tem 13 membros, com mandato de 2 anos renovado em 1/3 a cada ano — não são 20 membros nem mandato vitalício." },
+      { "letra": "D", "texto": "5 (cinco) membros, todos magistrados.", "comentario": "O CNPCP não é composto exclusivamente por magistrados — reúne professores e profissionais de diversas áreas correlatas, além de representantes da comunidade, totalizando 13 membros." }
     ],
     "gabarito": "B",
     "artigo": "Arts. 62-63 da LEP",
@@ -634,10 +697,10 @@ const QUESTIONS_DH = [
     "dificuldade": "medio",
     "enunciado": "Incumbe ao Conselho Nacional de Política Criminal e Penitenciária (CNPCP), segundo o art. 64 da LEP:",
     "alternativas": [
-      { "letra": "A", "texto": "Julgar recursos de progressão de regime, em substituição ao juiz da execução." },
+      { "letra": "A", "texto": "Julgar recursos de progressão de regime, em substituição ao juiz da execução.", "comentario": "Julgar recursos de progressão de regime é atribuição jurisdicional do juiz da execução penal, não do CNPCP, que é órgão de natureza normativa e consultiva." },
       { "letra": "B", "texto": "Propor diretrizes da política criminal e penitenciária, elaborar o programa nacional de formação de servidores e estabelecer regras sobre a arquitetura de estabelecimentos penais." },
-      { "letra": "C", "texto": "Conceder indulto e comutação de pena, com efeito vinculante e definitivo." },
-      { "letra": "D", "texto": "Administrar diretamente as penitenciárias federais." }
+      { "letra": "C", "texto": "Conceder indulto e comutação de pena, com efeito vinculante e definitivo.", "comentario": "Conceder indulto e comutação de pena é atribuição do Presidente da República (art. 84, XII, CF) — o CNPCP não tem competência decisória vinculante nesse ponto." },
+      { "letra": "D", "texto": "Administrar diretamente as penitenciárias federais.", "comentario": "O CNPCP não administra diretamente estabelecimentos penais — sua função é normativa e de formulação de diretrizes de política criminal e penitenciária." }
     ],
     "gabarito": "B",
     "artigo": "Art. 64 da LEP",
@@ -652,10 +715,10 @@ const QUESTIONS_DH = [
     "dificuldade": "medio",
     "enunciado": "O Conselho Penitenciário, órgão consultivo e fiscalizador da execução da pena previsto na LEP, é integrado por membros nomeados pelo Governador do Estado, com mandato de:",
     "alternativas": [
-      { "letra": "A", "texto": "2 anos." },
+      { "letra": "A", "texto": "2 anos.", "comentario": "O mandato do Conselho Penitenciário é de 4 anos, não 2." },
       { "letra": "B", "texto": "4 anos." },
-      { "letra": "C", "texto": "6 anos, vedada a recondução." },
-      { "letra": "D", "texto": "Mandato vitalício." }
+      { "letra": "C", "texto": "6 anos, vedada a recondução.", "comentario": "Não há previsão de mandato de 6 anos nem dessa vedação genérica à recondução — o mandato correto, fixado pela LEP, é de 4 anos." },
+      { "letra": "D", "texto": "Mandato vitalício.", "comentario": "O mandato não é vitalício; a LEP fixa expressamente o prazo de 4 anos." }
     ],
     "gabarito": "B",
     "artigo": "Art. 69 da LEP",
@@ -669,9 +732,9 @@ const QUESTIONS_DH = [
     "dificuldade": "dificil",
     "enunciado": "NÃO é atribuição do Conselho Penitenciário, segundo o art. 70 da LEP:",
     "alternativas": [
-      { "letra": "A", "texto": "Emitir parecer sobre indulto e comutação de pena." },
-      { "letra": "B", "texto": "Inspecionar os estabelecimentos e serviços penais." },
-      { "letra": "C", "texto": "Supervisionar os patronatos e a assistência aos egressos." },
+      { "letra": "A", "texto": "Emitir parecer sobre indulto e comutação de pena.", "comentario": "Emitir parecer sobre indulto e comutação de pena É atribuição expressa do Conselho Penitenciário (art. 70, I) — por isso não serve de resposta para \"não é atribuição\"." },
+      { "letra": "B", "texto": "Inspecionar os estabelecimentos e serviços penais.", "comentario": "Inspecionar estabelecimentos e serviços penais É atribuição do Conselho Penitenciário (art. 70, II)." },
+      { "letra": "C", "texto": "Supervisionar os patronatos e a assistência aos egressos.", "comentario": "Supervisionar patronatos e assistência a egressos É atribuição prevista no art. 70 da LEP." },
       { "letra": "D", "texto": "Decidir, com força de coisa julgada, sobre a progressão de regime do preso." }
     ],
     "gabarito": "D",
@@ -687,10 +750,10 @@ const QUESTIONS_DH = [
     "dificuldade": "medio",
     "enunciado": "O Conselho da Comunidade, órgão da execução penal que articula a sociedade civil ao sistema prisional, é composto, no mínimo, por representante da associação comercial ou industrial, e mais:",
     "alternativas": [
-      { "letra": "A", "texto": "Um delegado de polícia e um promotor de justiça." },
+      { "letra": "A", "texto": "Um delegado de polícia e um promotor de justiça.", "comentario": "A composição mínima não inclui delegado de polícia nem promotor de justiça — são obrigatórios um advogado (indicado pela OAB) e um assistente social (indicado pelo CFESS)." },
       { "letra": "B", "texto": "Um advogado indicado pela Seção da OAB e um assistente social escolhido pela Delegacia Seccional do CFESS." },
-      { "letra": "C", "texto": "Dois representantes indicados pelo diretor do estabelecimento penal." },
-      { "letra": "D", "texto": "Um juiz de direito e um defensor público, com direito a voto." }
+      { "letra": "C", "texto": "Dois representantes indicados pelo diretor do estabelecimento penal.", "comentario": "Os membros não são indicados pelo diretor do estabelecimento penal — a lei exige indicação por entidades externas (OAB e CFESS), justamente para preservar a independência da fiscalização." },
+      { "letra": "D", "texto": "Um juiz de direito e um defensor público, com direito a voto.", "comentario": "Juiz de direito e defensor público não integram o Conselho da Comunidade com direito a voto — a composição mínima é representante comercial/industrial, advogado (OAB) e assistente social (CFESS)." }
     ],
     "gabarito": "B",
     "artigo": "Art. 80 da LEP",
@@ -705,9 +768,9 @@ const QUESTIONS_DH = [
     "enunciado": "Incumbe ao Conselho da Comunidade, segundo o art. 81 da LEP:",
     "alternativas": [
       { "letra": "A", "texto": "Visitar, pelo menos mensalmente, os estabelecimentos penais da comarca e entrevistar os presos." },
-      { "letra": "B", "texto": "Substituir o juiz da execução na análise dos pedidos de progressão de regime." },
-      { "letra": "C", "texto": "Aplicar sanções disciplinares diretamente aos presos, sem processo administrativo." },
-      { "letra": "D", "texto": "Administrar o orçamento da Secretaria de Administração Penitenciária." }
+      { "letra": "B", "texto": "Substituir o juiz da execução na análise dos pedidos de progressão de regime.", "comentario": "O Conselho da Comunidade não substitui o juiz da execução — sua função é de acompanhamento e apoio, sem poder decisório sobre progressão de regime." },
+      { "letra": "C", "texto": "Aplicar sanções disciplinares diretamente aos presos, sem processo administrativo.", "comentario": "O Conselho da Comunidade não aplica sanções disciplinares aos presos — essa competência é da autoridade administrativa do estabelecimento, mediante processo disciplinar (art. 59 da LEP)." },
+      { "letra": "D", "texto": "Administrar o orçamento da Secretaria de Administração Penitenciária.", "comentario": "O Conselho da Comunidade não administra orçamento da Secretaria de Administração Penitenciária — sua atuação é de fiscalização, visita e apoio assistencial." }
     ],
     "gabarito": "A",
     "artigo": "Art. 81 da LEP",
@@ -723,9 +786,9 @@ const QUESTIONS_DH = [
     "enunciado": "O Programa Nacional de Direitos Humanos (PNDH-3), aprovado pelo Decreto nº 7.037/2009, é implementado por meio de:",
     "alternativas": [
       { "letra": "A", "texto": "Eixos orientadores, cada um com diretrizes e ações programáticas próprias." },
-      { "letra": "B", "texto": "Um único artigo genérico, sem detalhamento de diretrizes." },
-      { "letra": "C", "texto": "Portarias ministeriais expedidas anualmente, sem vínculo com o decreto original." },
-      { "letra": "D", "texto": "Resoluções do Conselho Nacional de Justiça, com força vinculante sobre o Poder Executivo." }
+      { "letra": "B", "texto": "Um único artigo genérico, sem detalhamento de diretrizes.", "comentario": "O PNDH-3 é estruturado em múltiplos eixos orientadores detalhados, e não em \"um único artigo genérico\"." },
+      { "letra": "C", "texto": "Portarias ministeriais expedidas anualmente, sem vínculo com o decreto original.", "comentario": "O PNDH-3 é instituído pelo próprio Decreto nº 7.037/2009, com estrutura permanente de eixos — não depende de portarias anuais desvinculadas do decreto." },
+      { "letra": "D", "texto": "Resoluções do Conselho Nacional de Justiça, com força vinculante sobre o Poder Executivo.", "comentario": "O PNDH-3 não é implementado por resoluções do CNJ; é um programa do Poder Executivo federal, aprovado por decreto presidencial." }
     ],
     "gabarito": "A",
     "artigo": "Decreto nº 7.037/2009",
@@ -739,10 +802,10 @@ const QUESTIONS_DH = [
     "dificuldade": "dificil",
     "enunciado": "Entre os eixos orientadores do PNDH-3 (Decreto nº 7.037/2009), qual trata especificamente de segurança pública, acesso à justiça e combate à violência — tema diretamente relacionado à atuação da Polícia Penal?",
     "alternativas": [
-      { "letra": "A", "texto": "Eixo Orientador I - Interação Democrática entre Estado e Sociedade Civil." },
+      { "letra": "A", "texto": "Eixo Orientador I - Interação Democrática entre Estado e Sociedade Civil.", "comentario": "O Eixo Orientador I trata de Interação Democrática entre Estado e Sociedade Civil, tema distinto de segurança pública." },
       { "letra": "B", "texto": "Eixo Orientador IV - Segurança Pública, Acesso à Justiça e Combate à Violência." },
-      { "letra": "C", "texto": "Eixo Orientador VI - Direito à Memória e à Verdade." },
-      { "letra": "D", "texto": "Eixo Orientador II - Desenvolvimento e Direitos Humanos." }
+      { "letra": "C", "texto": "Eixo Orientador VI - Direito à Memória e à Verdade.", "comentario": "O Eixo Orientador VI trata de Direito à Memória e à Verdade, não de segurança pública ou sistema prisional." },
+      { "letra": "D", "texto": "Eixo Orientador II - Desenvolvimento e Direitos Humanos.", "comentario": "O Eixo Orientador II trata de Desenvolvimento e Direitos Humanos, tema mais amplo e não voltado especificamente à segurança pública." }
     ],
     "gabarito": "B",
     "artigo": "Decreto nº 7.037/2009",
@@ -758,9 +821,9 @@ const QUESTIONS_DH = [
     "enunciado": "Segundo as Regras de Mandela (Regras Mínimas da ONU para o Tratamento de Presos), o confinamento solitário (isolamento celular por 22 horas ou mais por dia, sem contato humano significativo) que ultrapassar 15 dias consecutivos é classificado como:",
     "alternativas": [
       { "letra": "A", "texto": "Confinamento solitário prolongado, prática que deve ser proibida." },
-      { "letra": "B", "texto": "Medida disciplinar padrão, plenamente compatível com as Regras de Mandela sem qualquer restrição." },
-      { "letra": "C", "texto": "Sanção obrigatória para toda falta disciplinar grave, independentemente das circunstâncias." },
-      { "letra": "D", "texto": "Modalidade de assistência psicológica ao preso." }
+      { "letra": "B", "texto": "Medida disciplinar padrão, plenamente compatível com as Regras de Mandela sem qualquer restrição.", "comentario": "O confinamento acima de 15 dias é justamente vedado pelas Regras de Mandela, não uma medida padrão plenamente compatível." },
+      { "letra": "C", "texto": "Sanção obrigatória para toda falta disciplinar grave, independentemente das circunstâncias.", "comentario": "As Regras de Mandela não tornam o isolamento prolongado obrigatório para toda falta grave — ao contrário, restringem severamente seu uso." },
+      { "letra": "D", "texto": "Modalidade de assistência psicológica ao preso.", "comentario": "O confinamento solitário é medida disciplinar restritiva, não uma modalidade de assistência psicológica ao preso." }
     ],
     "gabarito": "A",
     "artigo": "Regras 43 e 44 das Regras de Mandela",
@@ -775,9 +838,9 @@ const QUESTIONS_DH = [
     "enunciado": "Segundo a Regra 52 das Regras de Mandela, as revistas de partes íntimas em estabelecimentos prisionais devem ser conduzidas:",
     "alternativas": [
       { "letra": "A", "texto": "Apenas por profissionais de saúde qualificados, ou, no mínimo, por pessoal apropriadamente treinado nos padrões de higiene, saúde e segurança." },
-      { "letra": "B", "texto": "Por qualquer agente disponível no momento, sem exigência de treinamento específico." },
-      { "letra": "C", "texto": "Exclusivamente na presença de outros presos, para fins de testemunho." },
-      { "letra": "D", "texto": "De forma pública, para reforçar o efeito dissuasório da medida." }
+      { "letra": "B", "texto": "Por qualquer agente disponível no momento, sem exigência de treinamento específico.", "comentario": "A Regra 52 exige treinamento específico de quem realiza a revista íntima — não pode ser feita por qualquer agente disponível, sem qualificação." },
+      { "letra": "C", "texto": "Exclusivamente na presença de outros presos, para fins de testemunho.", "comentario": "A Regra 52 não prevê realização da revista na presença de outros presos como testemunhas — isso violaria a dignidade e privacidade exigidas pela norma." },
+      { "letra": "D", "texto": "De forma pública, para reforçar o efeito dissuasório da medida.", "comentario": "A revista não pode ser feita de forma pública com efeito dissuasório — isso configuraria tratamento degradante, vedado pelas próprias Regras de Mandela." }
     ],
     "gabarito": "A",
     "artigo": "Regra 52 das Regras de Mandela",
@@ -793,9 +856,9 @@ const QUESTIONS_DH = [
     "enunciado": "Segundo o art. 1º da Convenção da ONU contra a Tortura (1984, promulgada no Brasil pelo Decreto nº 40/1991), a configuração da tortura exige, entre outros elementos, que a dor ou sofrimento agudo seja infligido:",
     "alternativas": [
       { "letra": "A", "texto": "Por funcionário público ou outra pessoa no exercício de funções públicas, ou por sua instigação, consentimento ou aquiescência, com finalidade específica (obter informação/confissão, castigar, intimidar/coagir, ou discriminação)." },
-      { "letra": "B", "texto": "Exclusivamente por particulares, sem qualquer relação com o poder público." },
-      { "letra": "C", "texto": "Independentemente de qualquer finalidade, bastando o resultado lesivo, ainda que acidental." },
-      { "letra": "D", "texto": "Apenas mediante violência física, excluída expressamente a modalidade psicológica." }
+      { "letra": "B", "texto": "Exclusivamente por particulares, sem qualquer relação com o poder público.", "comentario": "A Convenção exige justamente vínculo com o poder público — atos exclusivamente entre particulares, sem qualquer relação estatal, escapam ao conceito internacional de tortura da Convenção." },
+      { "letra": "C", "texto": "Independentemente de qualquer finalidade, bastando o resultado lesivo, ainda que acidental.", "comentario": "A Convenção exige finalidade específica (obter confissão, castigar, intimidar, discriminar) — não basta o resultado lesivo acidental, sem essa intenção." },
+      { "letra": "D", "texto": "Apenas mediante violência física, excluída expressamente a modalidade psicológica.", "comentario": "A Convenção não exclui a modalidade psicológica — admite expressamente dor ou sofrimento tanto físico quanto mental." }
     ],
     "gabarito": "A",
     "artigo": "Art. 1º da Convenção da ONU contra a Tortura (1984)",
@@ -811,9 +874,9 @@ const QUESTIONS_DH = [
     "enunciado": "Segundo a Regra 58 das Regras de Mandela, os presos devem ter permissão, sob a supervisão necessária, de:",
     "alternativas": [
       { "letra": "A", "texto": "Comunicar-se periodicamente com familiares e amigos, por correspondência, meios de telecomunicação e visitas, sendo assegurado às mulheres presas o direito à visita conjugal nas mesmas bases que aos homens, onde esse direito for permitido." },
-      { "letra": "B", "texto": "Nenhum contato com o mundo exterior, como medida padrão de segurança, salvo decisão judicial expressa em contrário." },
-      { "letra": "C", "texto": "Comunicação exclusivamente por correspondência escrita, vedados quaisquer outros meios de telecomunicação." },
-      { "letra": "D", "texto": "Visitas apenas de advogados, sendo vedado o contato com familiares durante todo o cumprimento da pena." }
+      { "letra": "B", "texto": "Nenhum contato com o mundo exterior, como medida padrão de segurança, salvo decisão judicial expressa em contrário.", "comentario": "A Regra 58 assegura, como regra, o contato com o mundo exterior — a vedação total não é a regra geral, mas exceção fundamentada." },
+      { "letra": "C", "texto": "Comunicação exclusivamente por correspondência escrita, vedados quaisquer outros meios de telecomunicação.", "comentario": "A Regra 58 não restringe a comunicação apenas à correspondência escrita — inclui também telecomunicações e visitas." },
+      { "letra": "D", "texto": "Visitas apenas de advogados, sendo vedado o contato com familiares durante todo o cumprimento da pena.", "comentario": "A Regra 58 não veda o contato com familiares — pelo contrário, assegura visitas familiares além das de advogados." }
     ],
     "gabarito": "A",
     "artigo": "Regra 58 das Regras de Mandela",
@@ -828,9 +891,9 @@ const QUESTIONS_DH = [
     "enunciado": "Segundo a Regra 59 das Regras de Mandela, os presos devem ser alocados, na medida do possível:",
     "alternativas": [
       { "letra": "A", "texto": "Em unidades prisionais próximas às suas casas ou ao local de sua reabilitação social, para facilitar a manutenção de vínculos familiares e sociais." },
-      { "letra": "B", "texto": "Sempre nas unidades de segurança máxima mais distantes do local de origem, como regra geral de segurança." },
-      { "letra": "C", "texto": "Exclusivamente conforme a conveniência administrativa, sem qualquer consideração à proximidade familiar." },
-      { "letra": "D", "texto": "Em unidades sorteadas aleatoriamente entre todas as existentes no país." }
+      { "letra": "B", "texto": "Sempre nas unidades de segurança máxima mais distantes do local de origem, como regra geral de segurança.", "comentario": "A Regra 59 recomenda justamente o oposto — alocação próxima ao local de origem, não em unidades distantes como regra geral." },
+      { "letra": "C", "texto": "Exclusivamente conforme a conveniência administrativa, sem qualquer consideração à proximidade familiar.", "comentario": "A Regra 59 exige consideração à proximidade familiar na alocação, na medida do possível — não é decisão baseada exclusivamente em conveniência administrativa." },
+      { "letra": "D", "texto": "Em unidades sorteadas aleatoriamente entre todas as existentes no país.", "comentario": "A alocação não deve ser aleatória — deve considerar a proximidade ao local de origem do preso, sempre que possível." }
     ],
     "gabarito": "A",
     "artigo": "Regra 59 das Regras de Mandela",

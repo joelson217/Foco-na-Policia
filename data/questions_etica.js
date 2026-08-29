@@ -10,11 +10,13 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Suspensão."
+        "texto": "Suspensão.",
+        "comentario": "Suspensão é sanção disciplinar prevista no regime jurídico dos servidores (Lei 8.112/90), aplicada via PAD por autoridade competente — não é pena que a Comissão de Ética possa aplicar."
       },
       {
         "letra": "B",
-        "texto": "Multa e advertência."
+        "texto": "Multa e advertência.",
+        "comentario": "Multa não é penalidade prevista no Código de Ética, e a advertência é sanção disciplinar distinta, aplicada em processo próprio — não pela Comissão de Ética."
       },
       {
         "letra": "C",
@@ -22,7 +24,8 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "D",
-        "texto": "Demissão a bem do serviço público."
+        "texto": "Demissão a bem do serviço público.",
+        "comentario": "Demissão é a sanção mais grave do regime jurídico, aplicada por autoridade competente após PAD regular — foge completamente da competência de uma Comissão de Ética."
       }
     ],
     "gabarito": "C",
@@ -40,7 +43,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O lucro do Estado."
+        "texto": "O lucro do Estado.",
+        "comentario": "A Administração Pública não existe para gerar lucro; sua finalidade é servir ao interesse coletivo, não acumular ganhos financeiros."
       },
       {
         "letra": "B",
@@ -48,11 +52,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "A legalidade estrita."
+        "texto": "A legalidade estrita.",
+        "comentario": "Legalidade é outro princípio autônomo da Administração Pública — o texto do Decreto trata especificamente do fundamento da moralidade, não da legalidade."
       },
       {
         "letra": "D",
-        "texto": "A economia processual."
+        "texto": "A economia processual.",
+        "comentario": "Economia processual é princípio de direito processual, sem relação com o fundamento ético da moralidade administrativa tratado no Decreto 1.171/94."
       }
     ],
     "gabarito": "B",
@@ -74,15 +80,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "Tratar mal uma pessoa que paga seus tributos se ela desrespeitar a repartição."
+        "texto": "Tratar mal uma pessoa que paga seus tributos se ela desrespeitar a repartição.",
+        "comentario": "Tratar mal o cidadão é conduta expressamente vedada pelo Código — o dever é justamente o oposto: urbanidade e respeito ao usuário do serviço público, mesmo em situações de atrito."
       },
       {
         "letra": "C",
-        "texto": "Atrasar a prestação de contas quando achar necessário para melhor averiguação."
+        "texto": "Atrasar a prestação de contas quando achar necessário para melhor averiguação.",
+        "comentario": "Atrasar a prestação de contas é infração ética, não um dever — o Código exige agilidade, transparência e presteza em toda informação de interesse do cidadão."
       },
       {
         "letra": "D",
-        "texto": "Alterar ou deturpar o teor de documentos que deva encaminhar se isso for para o bem do Estado."
+        "texto": "Alterar ou deturpar o teor de documentos que deva encaminhar se isso for para o bem do Estado.",
+        "comentario": "Alterar ou deturpar documentos é vedação expressa do Código, jamais um dever — nenhuma justificativa de \"bem do Estado\" autoriza fraudar documentos."
       }
     ],
     "gabarito": "A",
@@ -100,7 +109,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Participar de movimentos sindicais."
+        "texto": "Participar de movimentos sindicais.",
+        "comentario": "Participar de movimento sindical é direito assegurado ao servidor, não vedação do Código de Ética."
       },
       {
         "letra": "B",
@@ -108,11 +118,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "Ser membro de partidos políticos."
+        "texto": "Ser membro de partidos políticos.",
+        "comentario": "Filiação partidária é direito político do cidadão-servidor, não proibido pelo Código de Ética."
       },
       {
         "letra": "D",
-        "texto": "Representar contra o seu superior hierárquico, mesmo que por ato ilegal."
+        "texto": "Representar contra o seu superior hierárquico, mesmo que por ato ilegal.",
+        "comentario": "Representar contra ato ilegal de superior é, na verdade, um DEVER do servidor ético — o Código exige justamente essa conduta, não a proíbe."
       }
     ],
     "gabarito": "B",
@@ -134,15 +146,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "Multa automática em folha."
+        "texto": "Multa automática em folha.",
+        "comentario": "O Código não prevê \"multa automática\" como consequência da ausência — sanções disciplinares exigem sempre processo específico, nunca aplicação automática."
       },
       {
         "letra": "C",
-        "texto": "Demissão sumária, independentemente dos dias."
+        "texto": "Demissão sumária, independentemente dos dias.",
+        "comentario": "Demissão exige processo disciplinar regular (PAD) com direito de defesa — nunca é aplicada de forma sumária e automática por uma simples ausência."
       },
       {
         "letra": "D",
-        "texto": "Exoneração por quebra de confiança."
+        "texto": "Exoneração por quebra de confiança.",
+        "comentario": "Exoneração é instituto distinto de demissão e não decorre automaticamente de ausência injustificada, exigindo procedimento próprio conforme o regime jurídico aplicável."
       }
     ],
     "gabarito": "A",
@@ -164,19 +179,23 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "Crescimento político de seus superiores."
+        "texto": "Crescimento político de seus superiores.",
+        "comentario": "O norte da conduta ética é o interesse público, e não o interesse pessoal ou político de superiores hierárquicos."
       },
       {
         "letra": "C",
-        "texto": "Acúmulo de riqueza e bens do Estado."
+        "texto": "Acúmulo de riqueza e bens do Estado.",
+        "comentario": "Usar o patrimônio público para acúmulo de riqueza pessoal caracteriza improbidade administrativa, o oposto do que a ética exige."
       },
       {
         "letra": "D",
-        "texto": "Interesse da organização sindical."
+        "texto": "Interesse da organização sindical.",
+        "comentario": "Interesses de categoria ou sindicais não podem se sobrepor ao interesse público na atuação funcional do servidor."
       },
       {
         "letra": "E",
-        "texto": "Sigilo de todas as informações públicas."
+        "texto": "Sigilo de todas as informações públicas.",
+        "comentario": "A publicidade é a regra geral da Administração Pública; o sigilo é exceção restrita a hipóteses legais específicas, não abrange \"todas\" as informações."
       }
     ],
     "correta": "A",
@@ -193,7 +212,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Crime de prevaricação."
+        "texto": "Crime de prevaricação.",
+        "comentario": "Prevaricação (Art. 319 do CP) exige retardar ou deixar de praticar ato de ofício para satisfazer interesse ou sentimento pessoal — a simples demora por desorganização, sem esse dolo específico, não configura esse crime automaticamente."
       },
       {
         "letra": "B",
@@ -201,15 +221,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "Crime de concussão."
+        "texto": "Crime de concussão.",
+        "comentario": "Concussão (Art. 316 do CP) exige EXIGIR vantagem indevida do usuário — não tem relação com a simples demora no atendimento."
       },
       {
         "letra": "D",
-        "texto": "Ato regular, se o servidor estiver cumprindo horário de almoço."
+        "texto": "Ato regular, se o servidor estiver cumprindo horário de almoço.",
+        "comentario": "Mesmo em horário de almoço, a Administração deve garantir atendimento ou informar adequadamente o público — deixar usuários sem solução não é conduta regular."
       },
       {
         "letra": "E",
-        "texto": "Prática permitida pela ineficiência dos recursos humanos."
+        "texto": "Prática permitida pela ineficiência dos recursos humanos.",
+        "comentario": "Deficiência de recursos humanos é problema de gestão, mas não torna a prática permitida — o dano ao usuário e a violação ética persistem de qualquer forma."
       }
     ],
     "correta": "B",
@@ -226,11 +249,13 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Meramente administrativa."
+        "texto": "Meramente administrativa.",
+        "comentario": "A omissão da verdade fere diretamente o princípio ético em sua essência — não se trata de uma questão \"meramente\" administrativa e de pouca relevância."
       },
       {
         "letra": "B",
-        "texto": "Civil e política."
+        "texto": "Civil e política.",
+        "comentario": "A infração é, antes de tudo, de natureza ética e moral — as esferas civil e política não são as dimensões centrais tratadas pelo Código de Ética."
       },
       {
         "letra": "C",
@@ -238,11 +263,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "D",
-        "texto": "Exclusivamente criminal."
+        "texto": "Exclusivamente criminal.",
+        "comentario": "A infração não é \"exclusivamente\" criminal — antes de tudo é violação ética e moral, podendo ou não haver reflexo penal a depender do caso concreto."
       },
       {
         "letra": "E",
-        "texto": "De menor potencial ofensivo."
+        "texto": "De menor potencial ofensivo.",
+        "comentario": "Omitir a verdade fere um princípio ético fundamental e não pode ser tratado como algo de menor gravidade ou potencial ofensivo."
       }
     ],
     "correta": "C",
@@ -259,11 +286,13 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A advertência por escrito."
+        "texto": "A advertência por escrito.",
+        "comentario": "Advertência por escrito é sanção disciplinar prevista na Lei 8.112/90 (regime jurídico), aplicada via PAD pela autoridade competente — não é a pena da Comissão de Ética."
       },
       {
         "letra": "B",
-        "texto": "A suspensão por até 30 dias."
+        "texto": "A suspensão por até 30 dias.",
+        "comentario": "Suspensão é sanção disciplinar mais grave, aplicada somente por meio de processo disciplinar regular, e não pela Comissão de Ética."
       },
       {
         "letra": "C",
@@ -271,7 +300,8 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "D",
-        "texto": "A demissão a bem do serviço público."
+        "texto": "A demissão a bem do serviço público.",
+        "comentario": "Demissão é a sanção mais grave do regime jurídico dos servidores, aplicada por autoridade competente após PAD — foge da competência de uma Comissão de Ética."
       }
     ],
     "gabarito": "C",
@@ -289,7 +319,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Utilizar os bens da repartição para agilizar serviços pessoais de interesse público."
+        "texto": "Utilizar os bens da repartição para agilizar serviços pessoais de interesse público.",
+        "comentario": "Usar bens da repartição para fins pessoais é vedação expressa do Código, mesmo sob a justificativa de \"interesse público\"."
       },
       {
         "letra": "B",
@@ -297,11 +328,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "Prestar depoimento falso se for para proteger colega de plantão."
+        "texto": "Prestar depoimento falso se for para proteger colega de plantão.",
+        "comentario": "Prestar depoimento falso é conduta absolutamente vedada, incompatível com o dever de probidade e lealdade à verdade, mesmo para proteger colega."
       },
       {
         "letra": "D",
-        "texto": "Deixar pessoas em filas de espera sem justificativa, para priorizar o preenchimento de relatórios."
+        "texto": "Deixar pessoas em filas de espera sem justificativa, para priorizar o preenchimento de relatórios.",
+        "comentario": "Deixar pessoas em filas sem justificativa é justamente a conduta que o Código proíbe, por ser fator de desmoralização do serviço público."
       }
     ],
     "gabarito": "B",
@@ -319,11 +352,13 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A demonstração de culpa grave ou imperícia."
+        "texto": "A demonstração de culpa grave ou imperícia.",
+        "comentario": "A reforma de 2021 (Lei 14.230/2021) extinguiu a modalidade CULPOSA de improbidade — hoje se exige dolo, não mais culpa grave ou imperícia."
       },
       {
         "letra": "B",
-        "texto": "Apenas dolo genérico, consistente na vontade de realizar a conduta."
+        "texto": "Apenas dolo genérico, consistente na vontade de realizar a conduta.",
+        "comentario": "A lei exige dolo ESPECÍFICO — a vontade de alcançar o resultado ilícito descrito no tipo — e não apenas o dolo genérico de praticar a conduta em si."
       },
       {
         "letra": "C",
@@ -331,7 +366,8 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "D",
-        "texto": "O prejuízo material efetivo ao erário público."
+        "texto": "O prejuízo material efetivo ao erário público.",
+        "comentario": "O ato de improbidade contra os princípios (art. 11) não exige prejuízo material ao erário — esse é elemento típico da modalidade de dano ao erário (art. 10), não da modalidade de violação a princípios."
       }
     ],
     "gabarito": "C",
@@ -349,7 +385,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "1 ano (advertência), 3 anos (suspensão) e 5 anos (demissão)."
+        "texto": "1 ano (advertência), 3 anos (suspensão) e 5 anos (demissão).",
+        "comentario": "Esses prazos não correspondem à escala real prevista no art. 142 da Lei 8.112/90 — a lei prevê 180 dias, 2 anos e 5 anos, respectivamente."
       },
       {
         "letra": "B",
@@ -357,11 +394,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "30 dias (advertência), 1 ano (suspensão) e 2 anos (demissão)."
+        "texto": "30 dias (advertência), 1 ano (suspensão) e 2 anos (demissão).",
+        "comentario": "Esses prazos são muito inferiores aos efetivamente previstos no art. 142 da Lei 8.112/90 (180 dias, 2 anos e 5 anos)."
       },
       {
         "letra": "D",
-        "texto": "O prazo prescricional é de 5 anos para todas as sanções."
+        "texto": "O prazo prescricional é de 5 anos para todas as sanções.",
+        "comentario": "Não há prazo único de 5 anos para todas as sanções — a lei escalona o prazo prescricional conforme a gravidade da penalidade (180 dias, 2 anos ou 5 anos)."
       }
     ],
     "gabarito": "B",
@@ -378,7 +417,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O servidor pode usar informações privilegiadas obtidas no exercício do cargo para benefício pessoal, desde que não cause prejuízo ao erário."
+        "texto": "O servidor pode usar informações privilegiadas obtidas no exercício do cargo para benefício pessoal, desde que não cause prejuízo ao erário.",
+        "comentario": "Usar informação privilegiada para benefício pessoal é vedação expressa do Código, independentemente de haver ou não prejuízo ao erário."
       },
       {
         "letra": "B",
@@ -386,11 +426,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "O servidor pode fazer-se substituir por outro servidor para comparecer a eventos em horário de trabalho, desde que informe ao chefe."
+        "texto": "O servidor pode fazer-se substituir por outro servidor para comparecer a eventos em horário de trabalho, desde que informe ao chefe.",
+        "comentario": "Fazer-se substituir para comparecer a compromissos pessoais em horário de trabalho é conduta vedada, mesmo com ciência do superior hierárquico."
       },
       {
         "letra": "D",
-        "texto": "O uso de material do serviço público para fins particulares é permitido em pequenas quantidades."
+        "texto": "O uso de material do serviço público para fins particulares é permitido em pequenas quantidades.",
+        "comentario": "Não há tolerância para uso de material público em \"pequenas quantidades\" — a vedação ao uso de bens públicos para fins particulares é absoluta."
       }
     ],
     "gabarito": "B",
@@ -408,11 +450,13 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O policial pode utilizar meios ilegais para obter confissão de um suspeito desde que seja para resolver um crime grave."
+        "texto": "O policial pode utilizar meios ilegais para obter confissão de um suspeito desde que seja para resolver um crime grave.",
+        "comentario": "Usar meios ilegais para obter confissão pode configurar tortura ou abuso de autoridade, jamais sendo justificado pela gravidade do crime investigado."
       },
       {
         "letra": "B",
-        "texto": "A ética policial admite o uso de força desproporcional quando o suspeito representa alto risco para a segurança pública."
+        "texto": "A ética policial admite o uso de força desproporcional quando o suspeito representa alto risco para a segurança pública.",
+        "comentario": "O uso da força deve ser sempre proporcional e necessário, conforme os Princípios Básicos da ONU sobre o Uso da Força — não há autorização para força desproporcional mesmo diante de alto risco."
       },
       {
         "letra": "C",
@@ -420,7 +464,8 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "D",
-        "texto": "A lealdade ao grupo policial justifica o silêncio sobre atos ilegais de colegas."
+        "texto": "A lealdade ao grupo policial justifica o silêncio sobre atos ilegais de colegas.",
+        "comentario": "O silêncio corporativista sobre atos ilegais de colegas (a \"lei do silêncio\") é, ele próprio, uma violação ética grave, podendo configurar prevaricação ou omissão."
       }
     ],
     "gabarito": "C",
@@ -442,15 +487,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "Legalidade, Igualdade, Moralidade, Publicidade, Economicidade."
+        "texto": "Legalidade, Igualdade, Moralidade, Publicidade, Economicidade.",
+        "comentario": "\"Igualdade\" e \"Economicidade\" não integram o rol do art. 37, caput — os termos corretos são \"Impessoalidade\" e \"Eficiência\"."
       },
       {
         "letra": "C",
-        "texto": "Legitimidade, Impessoalidade, Moralidade, Publicidade, Eficiência."
+        "texto": "Legitimidade, Impessoalidade, Moralidade, Publicidade, Eficiência.",
+        "comentario": "O termo correto é \"Legalidade\", não \"Legitimidade\" — são princípios distintos, e apenas a legalidade compõe o rol constitucional do art. 37."
       },
       {
         "letra": "D",
-        "texto": "Legalidade, Imparcialidade, Moralidade, Publicidade, Eficiência."
+        "texto": "Legalidade, Imparcialidade, Moralidade, Publicidade, Eficiência.",
+        "comentario": "O termo correto é \"Impessoalidade\", não \"Imparcialidade\" — embora próximos, o texto constitucional usa especificamente \"impessoalidade\"."
       }
     ],
     "gabarito": "A",
@@ -468,7 +516,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A Comissão de Ética tem poder para demitir o servidor que viole o código de ética."
+        "texto": "A Comissão de Ética tem poder para demitir o servidor que viole o código de ética.",
+        "comentario": "A Comissão de Ética não tem competência para demitir — demissão é sanção administrativa aplicada por autoridade competente via PAD regular."
       },
       {
         "letra": "B",
@@ -476,11 +525,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "As decisões da Comissão de Ética são definitivas e não podem ser revisadas por nenhuma autoridade."
+        "texto": "As decisões da Comissão de Ética são definitivas e não podem ser revisadas por nenhuma autoridade.",
+        "comentario": "As decisões da Comissão de Ética não são absolutamente irrevisáveis — podem se sujeitar a controle e revisão pelas vias administrativa e judicial cabíveis."
       },
       {
         "letra": "D",
-        "texto": "A Comissão de Ética pode aplicar penas de suspensão e multa ao servidor infrator."
+        "texto": "A Comissão de Ética pode aplicar penas de suspensão e multa ao servidor infrator.",
+        "comentario": "A Comissão de Ética não pode aplicar suspensão nem multa — sua única sanção possível é a censura ética."
       }
     ],
     "gabarito": "B",
@@ -498,7 +549,8 @@ const QUESTIONS_ETICA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O crime de corrupção passiva exige que o servidor efetivamente receba a vantagem indevida."
+        "texto": "O crime de corrupção passiva exige que o servidor efetivamente receba a vantagem indevida.",
+        "comentario": "A corrupção passiva se consuma com a mera solicitação ou aceitação de promessa de vantagem, não exigindo o recebimento efetivo dela."
       },
       {
         "letra": "B",
@@ -506,11 +558,13 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "C",
-        "texto": "A corrupção passiva e a corrupção ativa são o mesmo crime quando praticadas no mesmo contexto."
+        "texto": "A corrupção passiva e a corrupção ativa são o mesmo crime quando praticadas no mesmo contexto.",
+        "comentario": "Corrupção passiva (art. 317, praticada pelo funcionário) e corrupção ativa (art. 333, praticada pelo particular) são crimes autônomos e distintos, mesmo ocorrendo no mesmo contexto fático."
       },
       {
         "letra": "D",
-        "texto": "A pena do crime de corrupção passiva é menor que a da corrupção ativa, pois o servidor é a \"vítima\" da pressão do particular."
+        "texto": "A pena do crime de corrupção passiva é menor que a da corrupção ativa, pois o servidor é a \"vítima\" da pressão do particular.",
+        "comentario": "A pena da corrupção passiva não é menor — ambas preveem reclusão na mesma faixa (arts. 317 e 333 do CP); o servidor corrupto é autor de crime próprio, não \"vítima\" da pressão do particular."
       }
     ],
     "gabarito": "B",
@@ -532,15 +586,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "Qualquer infração disciplinar, independentemente da gravidade, a critério exclusivo da autoridade instauradora."
+        "texto": "Qualquer infração disciplinar, independentemente da gravidade, a critério exclusivo da autoridade instauradora.",
+        "comentario": "O rito sumário é obrigatório apenas nas hipóteses taxativas legalmente previstas — não é escolha discricionária da autoridade para qualquer infração."
       },
       {
         "letra": "C",
-        "texto": "Crimes contra a vida praticados por servidor público fora do exercício da função."
+        "texto": "Crimes contra a vida praticados por servidor público fora do exercício da função.",
+        "comentario": "Crimes contra a vida fora do exercício da função são apurados na esfera penal comum, não pelo rito sumário do PAD."
       },
       {
         "letra": "D",
-        "texto": "Improbidade administrativa, com exclusividade, sendo vedado o rito ordinário para tal apuração."
+        "texto": "Improbidade administrativa, com exclusividade, sendo vedado o rito ordinário para tal apuração.",
+        "comentario": "A improbidade administrativa (Lei 8.429/92) é apurada por ação judicial própria, não pelo rito sumário do PAD — e não há vedação ao rito ordinário para outras infrações administrativas."
       }
     ],
     "gabarito": "A",
@@ -561,15 +618,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "3 (três) servidores estáveis, mesmo número exigido no rito ordinário."
+        "texto": "3 (três) servidores estáveis, mesmo número exigido no rito ordinário.",
+        "comentario": "O rito sumário exige apenas 2 servidores estáveis — número reduzido em relação aos 3 exigidos no rito ordinário (art. 149), não o \"mesmo número\"."
       },
       {
         "letra": "C",
-        "texto": "1 (um) único servidor, independentemente de estabilidade."
+        "texto": "1 (um) único servidor, independentemente de estabilidade.",
+        "comentario": "A comissão nunca pode ser formada por um único servidor; a lei exige colegiado, mesmo no rito mais célere."
       },
       {
         "letra": "D",
-        "texto": "5 (cinco) servidores, sendo ao menos 2 bacharéis em Direito."
+        "texto": "5 (cinco) servidores, sendo ao menos 2 bacharéis em Direito.",
+        "comentario": "Não há exigência de 5 servidores nem de formação em Direito para a comissão do rito sumário — apenas 2 servidores estáveis."
       }
     ],
     "gabarito": "A",
@@ -590,15 +650,18 @@ const QUESTIONS_ETICA = [
       },
       {
         "letra": "B",
-        "texto": "Apenas instauração e julgamento, sem qualquer fase de instrução ou defesa."
+        "texto": "Apenas instauração e julgamento, sem qualquer fase de instrução ou defesa.",
+        "comentario": "O rito sumário tem, sim, fase de instrução (instrução sumária, com indiciação, defesa e relatório) entre a instauração e o julgamento — não se resume a essas duas fases."
       },
       {
         "letra": "C",
-        "texto": "Investigação preliminar sigilosa, seguida de arquivamento automático, sem possibilidade de julgamento."
+        "texto": "Investigação preliminar sigilosa, seguida de arquivamento automático, sem possibilidade de julgamento.",
+        "comentario": "Não existe \"arquivamento automático\" nem impossibilidade de julgamento no rito sumário — ele necessariamente segue até a fase de julgamento."
       },
       {
         "letra": "D",
-        "texto": "Notificação, prisão administrativa e sentença, nos mesmos moldes do processo penal."
+        "texto": "Notificação, prisão administrativa e sentença, nos mesmos moldes do processo penal.",
+        "comentario": "O rito sumário é procedimento administrativo disciplinar, não criminal — não há \"prisão administrativa\" nem \"sentença\" nos moldes do processo penal."
       }
     ],
     "gabarito": "A",

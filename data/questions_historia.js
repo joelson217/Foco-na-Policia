@@ -10,7 +10,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A capital do sertão."
+        "texto": "A capital do sertão.",
+        "comentario": "Não é o codinome histórico atribuído a Natal na Segunda Guerra — o termo consagrado pela historiografia é \"Trampolim da Vitória\"."
       },
       {
         "letra": "B",
@@ -18,15 +19,18 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Fortaleza Inexpugnável."
+        "texto": "Fortaleza Inexpugnável.",
+        "comentario": "Não é a alcunha histórica atribuída a Natal nesse contexto."
       },
       {
         "letra": "D",
-        "texto": "Porto dos Aliados."
+        "texto": "Porto dos Aliados.",
+        "comentario": "Não corresponde ao codinome historicamente consagrado para a cidade nesse período."
       },
       {
         "letra": "E",
-        "texto": "Base Naval de Parnamirim."
+        "texto": "Base Naval de Parnamirim.",
+        "comentario": "Parnamirim Field era uma base AÉREA, não naval, e não é o codinome pelo qual a cidade ficou conhecida."
       }
     ],
     "gabarito": "B",
@@ -48,15 +52,18 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "B",
-        "texto": "Apenas contra os piratas ingleses."
+        "texto": "Apenas contra os piratas ingleses.",
+        "comentario": "A construção não visava \"apenas\" aos ingleses — a motivação principal e mais documentada foi conter os franceses, que atuavam no comércio de pau-brasil com os potiguares."
       },
       {
         "letra": "C",
-        "texto": "Os paulistas (bandeirantes) que buscavam índios para escravizar."
+        "texto": "Os paulistas (bandeirantes) que buscavam índios para escravizar.",
+        "comentario": "Os bandeirantes paulistas atuavam majoritariamente no interior/sul do país — não foi essa a motivação da construção do forte no litoral potiguar."
       },
       {
         "letra": "D",
-        "texto": "Os espanhóis, durante a União Ibérica."
+        "texto": "Os espanhóis, durante a União Ibérica.",
+        "comentario": "A ameaça espanhola durante a União Ibérica não foi o motivo da construção do forte, que respondia à presença francesa na costa."
       }
     ],
     "gabarito": "A",
@@ -74,7 +81,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Na rendição imediata dos holandeses."
+        "texto": "Na rendição imediata dos holandeses.",
+        "comentario": "O massacre não levou à rendição imediata dos holandeses; a ocupação neerlandesa persistiu por anos após o episódio."
       },
       {
         "letra": "B",
@@ -82,11 +90,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Na fuga dos potiguares para o estado de Pernambuco."
+        "texto": "Na fuga dos potiguares para o estado de Pernambuco.",
+        "comentario": "O evento não resultou em fuga generalizada dos potiguares para Pernambuco — os massacres atingiram principalmente colonos católicos nas fazendas de Cunhaú e Uruaçu."
       },
       {
         "letra": "D",
-        "texto": "No assassinato de Maurício de Nassau."
+        "texto": "No assassinato de Maurício de Nassau.",
+        "comentario": "Maurício de Nassau não foi assassinado nesse episódio; governou o Brasil holandês até 1644 e depois retornou à Europa, sem relação direta com este fato específico."
       }
     ],
     "gabarito": "B",
@@ -104,11 +114,13 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Felipe Camarão"
+        "texto": "Felipe Camarão",
+        "comentario": "Felipe Camarão foi líder indígena aliado aos portugueses num período posterior (luta contra os holandeses), não o responsável pela construção inicial do forte em 1598."
       },
       {
         "letra": "B",
-        "texto": "Mascarenhas Homem"
+        "texto": "Mascarenhas Homem",
+        "comentario": "Referência incompleta ao nome do capitão-mor correto, que é identificado com o nome completo Manuel de Mascarenhas Homem."
       },
       {
         "letra": "C",
@@ -116,11 +128,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "D",
-        "texto": "Jerônimo de Albuquerque"
+        "texto": "Jerônimo de Albuquerque",
+        "comentario": "Jerônimo de Albuquerque atuou em outras frentes de colonização do Nordeste, não foi o líder da construção do Forte dos Reis Magos."
       },
       {
         "letra": "E",
-        "texto": "André de Albuquerque Maranhão"
+        "texto": "André de Albuquerque Maranhão",
+        "comentario": "Não foi o responsável pela construção inicial do forte em 1598."
       }
     ],
     "correta": "C",
@@ -137,19 +151,23 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Revolução Praieira."
+        "texto": "Revolução Praieira.",
+        "comentario": "A Revolução Praieira ocorreu em Pernambuco em 1848-1849, bem depois do período da ocupação holandesa (1633-1654) no RN."
       },
       {
         "letra": "B",
-        "texto": "Confederação do Equador."
+        "texto": "Confederação do Equador.",
+        "comentario": "A Confederação do Equador ocorreu em 1824, já no período imperial, não durante a ocupação holandesa."
       },
       {
         "letra": "C",
-        "texto": "Guerra dos Mascates."
+        "texto": "Guerra dos Mascates.",
+        "comentario": "A Guerra dos Mascates ocorreu em Pernambuco em 1710-1711, também fora do período da ocupação holandesa no RN."
       },
       {
         "letra": "D",
-        "texto": "Invasão do Forte de Keulen pelos franceses."
+        "texto": "Invasão do Forte de Keulen pelos franceses.",
+        "comentario": "O Forte de Keulen era o próprio Forte dos Reis Magos rebatizado pelos holandeses após tomá-lo dos portugueses — não houve invasão francesa desse forte nesse período."
       },
       {
         "letra": "E",
@@ -170,7 +188,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Natal."
+        "texto": "Natal.",
+        "comentario": "A resistência armada contra Lampião em 1927 ocorreu em Mossoró, não em Natal."
       },
       {
         "letra": "B",
@@ -178,11 +197,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Caicó."
+        "texto": "Caicó.",
+        "comentario": "Caicó não foi palco desse episódio específico de resistência liderada por Rodolfo Fernandes contra Lampião."
       },
       {
         "letra": "D",
-        "texto": "Pau dos Ferros."
+        "texto": "Pau dos Ferros.",
+        "comentario": "Pau dos Ferros não foi a cidade onde ocorreu essa resistência histórica contra o bando de Lampião."
       }
     ],
     "gabarito": "B",
@@ -200,7 +221,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Portão das Américas."
+        "texto": "Portão das Américas.",
+        "comentario": "Não é o codinome histórico consagrado para Natal nesse contexto."
       },
       {
         "letra": "B",
@@ -208,11 +230,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Fortaleza do Atlântico."
+        "texto": "Fortaleza do Atlântico.",
+        "comentario": "Não corresponde à alcunha historicamente atribuída à cidade."
       },
       {
         "letra": "D",
-        "texto": "Esquina do Mundo."
+        "texto": "Esquina do Mundo.",
+        "comentario": "Não é o termo consagrado pela historiografia para se referir a Natal na Segunda Guerra."
       }
     ],
     "gabarito": "B",
@@ -230,7 +254,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Carvão mineral."
+        "texto": "Carvão mineral.",
+        "comentario": "O RN não é destaque nacional em carvão mineral; sua mineração de destaque é o sal marinho."
       },
       {
         "letra": "B",
@@ -238,11 +263,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Minério de ferro."
+        "texto": "Minério de ferro.",
+        "comentario": "O RN não é o principal produtor de minério de ferro do país — esse destaque pertence a outros estados, como Minas Gerais e Pará."
       },
       {
         "letra": "D",
-        "texto": "Cobre."
+        "texto": "Cobre.",
+        "comentario": "O RN não se destaca na produção de cobre; seu insumo de consumo básico com mais de 90% da produção nacional é o sal marinho."
       }
     ],
     "gabarito": "B",
@@ -260,11 +287,13 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Nuclear."
+        "texto": "Nuclear.",
+        "comentario": "O RN não possui usina nuclear nem se destaca nessa fonte de energia."
       },
       {
         "letra": "B",
-        "texto": "Hidrelétrica."
+        "texto": "Hidrelétrica.",
+        "comentario": "O RN não é destaque em energia hidrelétrica — seu relevo e clima semiárido não favorecem essa matriz."
       },
       {
         "letra": "C",
@@ -272,7 +301,8 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "D",
-        "texto": "Termelétrica a carvão."
+        "texto": "Termelétrica a carvão.",
+        "comentario": "O RN não é pioneiro nem destaque em termelétrica a carvão; sua matriz de destaque é a eólica."
       }
     ],
     "gabarito": "C",
@@ -290,11 +320,13 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Mata Atlântica."
+        "texto": "Mata Atlântica.",
+        "comentario": "A Mata Atlântica ocorre principalmente na faixa litorânea úmida, não no semiárido do interior potiguar."
       },
       {
         "letra": "B",
-        "texto": "Cerrado."
+        "texto": "Cerrado.",
+        "comentario": "O Cerrado é bioma predominante no Brasil central, não característico do semiárido nordestino do RN."
       },
       {
         "letra": "C",
@@ -302,7 +334,8 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "D",
-        "texto": "Manguezal."
+        "texto": "Manguezal.",
+        "comentario": "O manguezal é ecossistema costeiro associado a estuários, não vegetação característica do semiárido."
       }
     ],
     "gabarito": "C",
@@ -319,7 +352,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A economia do RN é basicamente industrial, com destaque para o polo têxtil de Natal."
+        "texto": "A economia do RN é basicamente industrial, com destaque para o polo têxtil de Natal.",
+        "comentario": "A economia do RN não é \"basicamente industrial\" com polo têxtil como principal destaque; os setores de maior peso são petróleo onshore, sal, camarão e energia eólica."
       },
       {
         "letra": "B",
@@ -327,11 +361,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "O turismo é proibido nas regiões de dunas do litoral potiguar para preservação ambiental."
+        "texto": "O turismo é proibido nas regiões de dunas do litoral potiguar para preservação ambiental.",
+        "comentario": "O turismo não é proibido nas regiões de dunas do litoral potiguar — é, ao contrário, atividade econômica relevante (ex.: Genipabu, Pipa), ainda que sujeita a regras de proteção ambiental."
       },
       {
         "letra": "D",
-        "texto": "A agricultura do RN é baseada principalmente na produção de café e cacau."
+        "texto": "A agricultura do RN é baseada principalmente na produção de café e cacau.",
+        "comentario": "A agricultura do RN não tem como base café e cacau — esses produtos são característicos de outras regiões do país (Sudeste e sul da Bahia, respectivamente)."
       }
     ],
     "gabarito": "B",
@@ -349,7 +385,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A Revolta de Mossoró foi liderada por líderes políticos contra o governador do estado."
+        "texto": "A Revolta de Mossoró foi liderada por líderes políticos contra o governador do estado.",
+        "comentario": "A Revolta/Batalha de Mossoró não foi um confronto político contra o governador — foi a resistência popular armada contra o bando de Lampião."
       },
       {
         "letra": "B",
@@ -357,11 +394,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Lampião conseguiu saquear Mossoró após dias de combate com a população."
+        "texto": "Lampião conseguiu saquear Mossoró após dias de combate com a população.",
+        "comentario": "Lampião não conseguiu saquear Mossoró — a cidade resistiu com sucesso ao ataque, sendo esse justamente o fato histórico de destaque."
       },
       {
         "letra": "D",
-        "texto": "A Batalha de Mossoró ocorreu durante a Segunda Guerra Mundial."
+        "texto": "A Batalha de Mossoró ocorreu durante a Segunda Guerra Mundial.",
+        "comentario": "A Batalha de Mossoró ocorreu em 1927, período bem anterior à Segunda Guerra Mundial (1939-1945)."
       }
     ],
     "gabarito": "B",
@@ -379,7 +418,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O RN faz fronteira terrestre com os estados do Ceará, Paraíba e Pernambuco."
+        "texto": "O RN faz fronteira terrestre com os estados do Ceará, Paraíba e Pernambuco.",
+        "comentario": "O RN não faz fronteira terrestre com Pernambuco — suas únicas fronteiras terrestres são com Ceará e Paraíba."
       },
       {
         "letra": "B",
@@ -387,11 +427,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Natal é a cidade mais populosa do RN e está localizada no interior do estado."
+        "texto": "Natal é a cidade mais populosa do RN e está localizada no interior do estado.",
+        "comentario": "Natal é, de fato, a cidade mais populosa do RN, mas está localizada no litoral, não no interior do estado."
       },
       {
         "letra": "D",
-        "texto": "O RN não possui litoral, sendo um estado interiorano."
+        "texto": "O RN não possui litoral, sendo um estado interiorano.",
+        "comentario": "O RN possui extenso litoral (cerca de 410 km banhado pelo Atlântico) — não é estado interiorano sem litoral."
       }
     ],
     "gabarito": "B",
@@ -413,15 +455,18 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "B",
-        "texto": "O RN foi invadido por tropas alemãs durante a guerra, sendo a única unidade federativa invadida."
+        "texto": "O RN foi invadido por tropas alemãs durante a guerra, sendo a única unidade federativa invadida.",
+        "comentario": "O RN não foi invadido por tropas alemãs — seu papel foi de base estratégica aliada, não de território ocupado por potências do Eixo."
       },
       {
         "letra": "C",
-        "texto": "A participação do RN na guerra foi exclusivamente comercial, fornecendo algodão para as potências aliadas."
+        "texto": "A participação do RN na guerra foi exclusivamente comercial, fornecendo algodão para as potências aliadas.",
+        "comentario": "A participação do RN não se limitou ao fornecimento comercial de algodão — seu papel central foi estratégico-militar, sediando a base aérea de Parnamirim."
       },
       {
         "letra": "D",
-        "texto": "A base aérea de Parnamirim foi utilizada exclusivamente pelo Brasil durante a guerra."
+        "texto": "A base aérea de Parnamirim foi utilizada exclusivamente pelo Brasil durante a guerra.",
+        "comentario": "A base aérea de Parnamirim não foi usada exclusivamente pelo Brasil — foi fundamentalmente operada pelos Estados Unidos como ponto de apoio aéreo aliado."
       }
     ],
     "gabarito": "A",
@@ -439,7 +484,8 @@ const QUESTIONS_HISTORIA = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Um rio próximo chamado Rio Natal."
+        "texto": "Um rio próximo chamado Rio Natal.",
+        "comentario": "Não há registro de um \"Rio Natal\" como origem do nome da cidade — a explicação histórica consolidada é a coincidência com a data de fundação."
       },
       {
         "letra": "B",
@@ -447,11 +493,13 @@ const QUESTIONS_HISTORIA = [
       },
       {
         "letra": "C",
-        "texto": "Um cacique indígena chamado Natal que habitava a região."
+        "texto": "Um cacique indígena chamado Natal que habitava a região.",
+        "comentario": "Não há registro histórico de um cacique indígena chamado Natal como origem do nome da cidade."
       },
       {
         "letra": "D",
-        "texto": "Uma referência à cidade de Natal, em Portugal."
+        "texto": "Uma referência à cidade de Natal, em Portugal.",
+        "comentario": "O nome não faz referência à cidade de Natal, em Portugal — a motivação documentada é a coincidência da fundação com a data comemorativa do Natal cristão."
       }
     ],
     "gabarito": "B",
