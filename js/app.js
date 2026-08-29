@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v30';
+const APP_VERSION = 'v31';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -147,7 +147,6 @@ function sourcesComuns() {
     typeof QUESTIONS_EXTRA_3 !== 'undefined' ? QUESTIONS_EXTRA_3 : [],
     typeof GENERATED_QUESTIONS !== 'undefined' ? GENERATED_QUESTIONS : [],
     typeof QUESTIONS_PESO2_REFORCO !== 'undefined' ? QUESTIONS_PESO2_REFORCO : [],
-    typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [],
     typeof QUESTIONS_PESO2_REFORCO3 !== 'undefined' ? QUESTIONS_PESO2_REFORCO3 : []
   ];
 }
@@ -155,27 +154,33 @@ function sourcesComuns() {
 function initQuestions() {
   let sources;
   if (CURRENT_CURSO === 'pppe') {
-    // QUESTIONS_PESO1_REFORCO e QUESTIONS_PESO2_REFORCO4 têm blocos
-    // específicos do RN misturados junto com conteúdo federal — filtra
-    // pelo prefixo do id pra tirar só a parte estadual do RN.
+    // QUESTIONS_PESO1_REFORCO, QUESTIONS_PESO2_REFORCO2 e
+    // QUESTIONS_PESO2_REFORCO4 têm blocos específicos do RN misturados
+    // junto com conteúdo federal — filtra pelo id pra tirar só a parte
+    // estadual do RN.
     const peso1ReforcoSemRN = (typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : [])
       .filter(q => !String(q.id).startsWith('p1r_hist_'));
+    const peso2Reforco2SemRN = (typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [])
+      .filter(q => q.id !== 'p2r2_leg_5'); // exclui a questão sobre a estrutura organizacional do RN
     const peso2Reforco4SemRN = (typeof QUESTIONS_PESO2_REFORCO4 !== 'undefined' ? QUESTIONS_PESO2_REFORCO4 : [])
       .filter(q => !String(q.id).startsWith('p2r4_rn_')); // exclui a Legislação Penitenciária do RN
     sources = [
       ...sourcesComuns(),
       peso1ReforcoSemRN,
+      peso2Reforco2SemRN,
       peso2Reforco4SemRN,
       typeof QUESTIONS_LEGISLACAO_PE !== 'undefined' ? QUESTIONS_LEGISLACAO_PE : [],
-      typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : []
+      typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
+      typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : []
     ];
   } else {
     // PPRN (padrão): mantém o banco completo, incluindo História do RN
-    // e a Legislação Penitenciária do RN dentro do peso1/peso2_reforco4.
+    // e a Legislação Penitenciária do RN dentro do peso1/peso2_reforco.
     sources = [
       ...sourcesComuns(),
       typeof QUESTIONS_HISTORIA !== 'undefined' ? QUESTIONS_HISTORIA : [],
       typeof QUESTIONS_PESO1_REFORCO !== 'undefined' ? QUESTIONS_PESO1_REFORCO : [],
+      typeof QUESTIONS_PESO2_REFORCO2 !== 'undefined' ? QUESTIONS_PESO2_REFORCO2 : [],
       typeof QUESTIONS_PESO2_REFORCO4 !== 'undefined' ? QUESTIONS_PESO2_REFORCO4 : []
     ];
   }
@@ -374,6 +379,7 @@ const APP = {
     GAMIFICATION.updateUI();
     this.renderCursoBranding();
     this.atualizarDisponibilidadeConteudo();
+    this.renderVersionFooter();
     STATS.render();
     QUIZ.updateFilteredCount();
     showToast('✅ Curso alterado — dados deste curso carregados.');
@@ -513,9 +519,20 @@ const APP = {
       ...(typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133.decks : [])
     ];
 
+    // O deck 'pol_penal' (dentro de LEI_SECA_EXTRA) tem uma seção
+    // específica da legislação estadual do RN — não serve pra outros
+    // cursos. PPPE usa o deck próprio equivalente (LEI_SECA_PE), que já
+    // tem a base constitucional (nacional) + a legislação de PE.
+    const decksParaEsteCurso = CURRENT_CURSO === 'pprn'
+      ? allDecks
+      : [
+          ...allDecks.filter(d => d.id !== 'pol_penal'),
+          ...(CURRENT_CURSO === 'pppe' && typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE.decks : [])
+        ];
+
     const sel = document.getElementById('lei-seca-select');
     if (sel) sel.innerHTML = '<option value="">Selecione a Lei/Disciplina...</option>';
-    allDecks.forEach(deck => {
+    decksParaEsteCurso.forEach(deck => {
       const opt = document.createElement('option');
       opt.value = deck.id;
       opt.textContent = `${deck.icon} ${deck.nome}`;
@@ -549,7 +566,7 @@ const APP = {
     }
     
     // Agrupar peso 2 no topo
-    const sortedDecks = [...allDecks].sort((a, b) => {
+    const sortedDecks = [...decksParaEsteCurso].sort((a, b) => {
       const pesoA = a.peso || 1;
       const pesoB = b.peso || 1;
       return pesoB - pesoA; // Descending (2 comes before 1)
@@ -1142,7 +1159,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_ANTITERRORISMO !== 'undefined' ? LEI_SECA_ANTITERRORISMO : null,
         typeof MAPA_MENTAL_LEGISLACAO !== 'undefined' ? MAPA_MENTAL_LEGISLACAO : null,
         typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
-        typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null
+        typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
+        typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null
       ].filter(s => s !== null);
 
       const allArticles = [];
@@ -1202,7 +1220,8 @@ const FLASHCARDS = {
         typeof LEI_SECA_ANTITERRORISMO !== 'undefined' ? LEI_SECA_ANTITERRORISMO : null,
         typeof MAPA_MENTAL_LEGISLACAO !== 'undefined' ? MAPA_MENTAL_LEGISLACAO : null,
         typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
-        typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null
+        typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
+        typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null
       ].filter(s => s !== null);
 
       deck = null;
@@ -2247,9 +2266,16 @@ const VISUAL_FLASHCARDS = {
     const grid = document.getElementById('visual-flashcards-grid');
     if (!grid) return;
     grid.innerHTML = '';
-    
+
+    // O card "Estatuto e Regime Penitênciário do RN" é específico do
+    // PPRN — os demais são conceitos gerais de Direito Penal/LEP,
+    // reaproveitáveis por qualquer curso.
+    const imagensDoCurso = CURRENT_CURSO === 'pprn'
+      ? this.images
+      : this.images.filter(f => !f.includes('Penitênciário do RN'));
+
     // Sort logically
-    this.sortedImages = [...this.images].sort((a, b) => {
+    this.sortedImages = [...imagensDoCurso].sort((a, b) => {
       const numA = parseInt(a.split(' -')[0]) || 0;
       const numB = parseInt(b.split(' -')[0]) || 0;
       return numA - numB;

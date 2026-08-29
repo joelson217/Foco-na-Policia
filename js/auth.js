@@ -35,14 +35,14 @@ const CURSOS_DISPONIVEIS = [
   { id: 'pmpe', nome: 'Polícia Militar de PE (PMPE)', pronto: false }
 ];
 
-// Questões e Simulado da PPPE já têm banco próprio (ver
-// data/questions_legislacao_pe.js, data/questions_rlm.js e o filtro
-// por curso em initQuestions(), js/app.js). Lei Seca e Flashcards
-// Visuais ainda são só do PPRN — ficam de fora até terem conteúdo
-// próprio de PE.
+// PPPE já tem banco próprio de Questões/Simulado (ver
+// data/questions_legislacao_pe.js, data/questions_rlm.js,
+// data/questions_informatica.js) e Lei Seca/Flashcards Visuais
+// também (ver data/lei_seca_pe.js e o filtro em VISUAL_FLASHCARDS,
+// js/app.js) — todas as abas já têm conteúdo real pra esse curso.
 const CURSO_TABS_DISPONIVEIS = {
   pprn: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
-  pppe: ['dashboard', 'questoes', 'simulado'],
+  pppe: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pcpe_agente: [],
   pcpe_escrivao: [],
   pmpe: []

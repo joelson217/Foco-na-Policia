@@ -15,9 +15,6 @@
 // questões por disciplina abaixo é uma estimativa de estudo baseada
 // nos blocos do último edital (P1 Gerais + P2 Específicos), não uma
 // contagem oficial questão-a-questão (que varia a cada edital).
-//
-// Disciplina "Informática" do bloco P1 ainda NÃO tem conteúdo no
-// banco do app — gap conhecido, fica para uma próxima expansão.
 // ============================================================
 
 const EDITAL_PPPE = {
@@ -64,9 +61,9 @@ const EDITAL_PPPE = {
     {
       id: 'legislacao_pe',
       nome: 'Legislação Estadual (PE)',
-      questoes: 6,
+      questoes: 5,
       peso: 1,
-      pontos: 7.5,
+      pontos: 6.25,
       cor: '#059669',
       icon: '🏛️',
       destaque: true,
@@ -131,9 +128,9 @@ const EDITAL_PPPE = {
     {
       id: 'dh',
       nome: 'Direitos Humanos e Participação Social',
-      questoes: 3,
+      questoes: 4,
       peso: 1,
-      pontos: 3.75,
+      pontos: 5,
       cor: '#ec4899',
       icon: '🕊️',
       topicos: [
@@ -170,9 +167,9 @@ const EDITAL_PPPE = {
     {
       id: 'legislacao',
       nome: 'Legislação Especial (Federal)',
-      questoes: 6,
+      questoes: 5,
       peso: 1,
-      pontos: 7.5,
+      pontos: 6.25,
       cor: '#f97316',
       icon: '⚡',
       topicos: [
@@ -191,9 +188,9 @@ const EDITAL_PPPE = {
     {
       id: 'portugues',
       nome: 'Língua Portuguesa',
-      questoes: 6,
+      questoes: 4,
       peso: 1,
-      pontos: 7.5,
+      pontos: 5,
       cor: '#3b82f6',
       icon: '🔤',
       topicos: [
@@ -206,6 +203,26 @@ const EDITAL_PPPE = {
       temasMaisCobrados: [
         { nome: 'Interpretação de Texto', frequencia: 95 },
         { nome: 'Concordância Verbal', frequencia: 88 }
+      ]
+    },
+    {
+      id: 'informatica',
+      nome: 'Noções de Informática',
+      questoes: 4,
+      peso: 1,
+      pontos: 5,
+      cor: '#0ea5e9',
+      icon: '💻',
+      topicos: [
+        'Sistema Operacional (Windows) - Conceitos e Atalhos',
+        'Editor de Texto e Planilha Eletrônica',
+        'Internet, Navegadores e Correio Eletrônico',
+        'Segurança da Informação (Malware, Phishing, Backup)',
+        'Redes de Computadores e Computação em Nuvem'
+      ],
+      temasMaisCobrados: [
+        { nome: 'Segurança da Informação', frequencia: 90 },
+        { nome: 'Planilha Eletrônica (fórmulas)', frequencia: 82 }
       ]
     },
     {
@@ -227,9 +244,9 @@ const EDITAL_PPPE = {
     {
       id: 'rlm',
       nome: 'Raciocínio Lógico-Matemático',
-      questoes: 5,
+      questoes: 4,
       peso: 1,
-      pontos: 6.25,
+      pontos: 5,
       cor: '#14b8a6',
       icon: '🧮',
       topicos: [

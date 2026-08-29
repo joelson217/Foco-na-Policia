@@ -269,9 +269,9 @@ const LEI_SECA_EXTRA = {
         {
           titulo: '🔥 Conceito e Elementos de Org. Criminosa',
           artigos: [
-            { id: 'oc_1', artigo: 'Art. 1º, §1º', titulo: 'Conceito Legal', frente: 'O que é considerado Organização Criminosa segundo o Art. 1º da Lei 12.850/13?', verso: 'Associação de 4 (quatro) ou mais pessoas estruturalmente ordenada e caracterizada pela divisão de tarefas, ainda que informalmente, com objetivo de obter vantagem, mediante infrações cuja pena máxima seja superior a 4 anos ou de caráter transnacional.', cobrado: 'hot', anos: ['2024', '2023', '2022'] },
-            { id: 'oc_2', artigo: 'Art. 2º', titulo: 'Crime e Integração', frente: 'Qual a pena para quem promove, constitui, financia ou integra organização criminosa?', verso: 'Reclusão de 3 a 8 anos e multa, sem prejuízo das penas correspondentes às demais infrações praticadas.', cobrado: 'hot', anos: ['2023', '2022'] },
-            { id: 'oc_3', artigo: 'Art. 2º, §2º', titulo: 'Causa de Aumento (Arma)', frente: 'Qual a causa de aumento de pena pelo emprego de arma de fogo na organização?', verso: 'A pena é aumentada de até a METADE se houver emprego de arma de fogo na atuação ou estrutura da organização criminosa.', cobrado: 'hot', anos: ['2024', '2022'] }
+            { id: 'orgcrim_1', artigo: 'Art. 1º, §1º', titulo: 'Conceito Legal', frente: 'O que é considerado Organização Criminosa segundo o Art. 1º da Lei 12.850/13?', verso: 'Associação de 4 (quatro) ou mais pessoas estruturalmente ordenada e caracterizada pela divisão de tarefas, ainda que informalmente, com objetivo de obter vantagem, mediante infrações cuja pena máxima seja superior a 4 anos ou de caráter transnacional.', cobrado: 'hot', anos: ['2024', '2023', '2022'] },
+            { id: 'orgcrim_2', artigo: 'Art. 2º', titulo: 'Crime e Integração', frente: 'Qual a pena para quem promove, constitui, financia ou integra organização criminosa?', verso: 'Reclusão de 3 a 8 anos e multa, sem prejuízo das penas correspondentes às demais infrações praticadas.', cobrado: 'hot', anos: ['2023', '2022'] },
+            { id: 'orgcrim_3', artigo: 'Art. 2º, §2º', titulo: 'Causa de Aumento (Arma)', frente: 'Qual a causa de aumento de pena pelo emprego de arma de fogo na organização?', verso: 'A pena é aumentada de até a METADE se houver emprego de arma de fogo na atuação ou estrutura da organização criminosa.', cobrado: 'hot', anos: ['2024', '2022'] }
           ]
         },
         {
