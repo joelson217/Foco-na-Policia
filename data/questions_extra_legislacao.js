@@ -2876,7 +2876,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. Os crimes hediondos são, em regra, delitos materiais ou de perigo comum previstos no CP e leis extravagantes, e a Lei 8.072/90 não condiciona sua consumação à comprovação de prejuízo específico à administração pública."
         },
         {
             "letra": "B",
@@ -2884,11 +2885,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 8.072/90."
         }
     ],
     "gabarito": "B",
@@ -2906,7 +2909,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. O tráfico de drogas é crime de perigo abstrato (contra a saúde pública), não exigindo comprovação de dano efetivo à administração para sua consumação."
         },
         {
             "letra": "B",
@@ -2914,11 +2918,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 11.343/06."
         }
     ],
     "gabarito": "B",
@@ -2936,7 +2942,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. Os crimes de abuso de autoridade são, em regra, formais/de perigo abstrato, consumando-se com a prática do ato abusivo, independentemente de dano efetivo à administração."
         },
         {
             "letra": "B",
@@ -2944,11 +2951,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 13.869/19."
         }
     ],
     "gabarito": "B",
@@ -2966,7 +2975,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. O crime de tortura-prova consuma-se com o emprego de violência ou grave ameaça para obter informação, declaração ou confissão, independentemente de dano à administração como elemento do tipo."
         },
         {
             "letra": "B",
@@ -2974,11 +2984,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 9.455/97."
         }
     ],
     "gabarito": "B",
@@ -2996,7 +3008,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. A Lei 11.340/06 não tipifica um crime autônomo com esse elemento; ela agrava/qualifica delitos já previstos (como lesão corporal), cuja consumação segue as regras próprias de cada tipo, e não exige dano à administração pública."
         },
         {
             "letra": "B",
@@ -3004,11 +3017,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 11.340/06."
         }
     ],
     "gabarito": "B",
@@ -3026,7 +3041,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. Os delitos do Estatuto do Desarmamento (ex.: posse e porte de arma) são crimes de perigo abstrato, consumando-se com a mera conduta descrita no tipo, sem necessidade de dano efetivo."
         },
         {
             "letra": "B",
@@ -3034,11 +3050,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 10.826/03."
         }
     ],
     "gabarito": "B",
@@ -3056,7 +3074,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. O crime de organização criminosa consuma-se com a mera associação estruturada de 4 ou mais pessoas para o fim de praticar infrações penais, independentemente da produção de dano efetivo."
         },
         {
             "letra": "B",
@@ -3064,11 +3083,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. A consumação do delito independe de qualquer aprovação ou chancela de superior hierárquico; trata-se de elemento estranho ao tipo penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão legal de um prazo de 30 dias para a consumação do delito; este critério não corresponde à disciplina da Lei 12.850/13."
         }
     ],
     "gabarito": "B",
@@ -3086,7 +3107,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. A LEP é, em essência, lei processual/administrativa que disciplina a execução da pena; os institutos como a progressão de regime não têm natureza de crime que exija dano efetivo à administração para se configurar."
         },
         {
             "letra": "B",
@@ -3094,11 +3116,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. Não há exigência de aprovação de superior hierárquico como elemento configurador dos institutos da execução penal."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão de um prazo de 30 dias como critério geral na disciplina da progressão de regime prevista na Lei 7.210/84 (LEP)."
         }
     ],
     "gabarito": "B",
@@ -3116,7 +3140,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "O efetivo prejuízo ou dano à administração."
+            "texto": "O efetivo prejuízo ou dano à administração.",
+            "comentario": "Incorreta. O prejuízo ao erário é elemento do ato de improbidade que causa dano ao patrimônio público (art. 10), não do enriquecimento ilícito (art. 9º), que se configura pela mera vantagem indevida obtida pelo agente."
         },
         {
             "letra": "B",
@@ -3124,11 +3149,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "A aprovação do superior hierárquico."
+            "texto": "A aprovação do superior hierárquico.",
+            "comentario": "Incorreta. Não há exigência de aprovação de superior hierárquico como elemento configurador do ato de improbidade por enriquecimento ilícito."
         },
         {
             "letra": "D",
-            "texto": "O decurso de prazo de 30 dias após o fato."
+            "texto": "O decurso de prazo de 30 dias após o fato.",
+            "comentario": "Incorreta. Não há previsão de um prazo de 30 dias como critério configurador do ato de improbidade previsto no art. 9º da Lei 8.429/92."
         }
     ],
     "gabarito": "B",
@@ -3146,7 +3173,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3154,11 +3182,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3176,7 +3206,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3184,11 +3215,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3206,7 +3239,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3214,11 +3248,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3236,7 +3272,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3244,11 +3281,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3266,7 +3305,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3274,11 +3314,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3296,7 +3338,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3304,11 +3347,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3326,7 +3371,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3334,11 +3380,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3356,7 +3404,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3364,11 +3413,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
@@ -3386,7 +3437,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Pode mandar arquivar os autos de inquérito diretamente."
+            "texto": "Pode mandar arquivar os autos de inquérito diretamente.",
+            "comentario": "Incorreta. A autoridade policial não tem competência para determinar o arquivamento do inquérito; esse ato compete ao juiz, mediante manifestação do Ministério Público (art. 28 do CPP)."
         },
         {
             "letra": "B",
@@ -3394,11 +3446,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não precisa ouvir a defesa do investigado."
+            "texto": "Não precisa ouvir a defesa do investigado.",
+            "comentario": "Incorreta. A informalidade relativa da fase inquisitorial não dispensa o respeito às garantias mínimas do investigado, notadamente o direito ao silêncio e à assistência de defensor."
         },
         {
             "letra": "D",
-            "texto": "Decide sobre a concessão de liberdade provisória incondicional."
+            "texto": "Decide sobre a concessão de liberdade provisória incondicional.",
+            "comentario": "Incorreta. A concessão de liberdade provisória é ato jurisdicional, cabendo exclusivamente à autoridade judiciária, e não à autoridade policial."
         }
     ],
     "gabarito": "B",
