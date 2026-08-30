@@ -1279,10 +1279,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual a quantidade máxima de droga que ainda caracteriza tráfico privilegiado segundo a jurisprudência?",
         "alternativas": [
-            { "letra": "A", "texto": "Até 2g de cocaína ou 5g de maconha." },
-            { "letra": "B", "texto": "Até 10g de cocaína ou 30g de maconha." },
+            { "letra": "A", "texto": "Até 2g de cocaína ou 5g de maconha.", "comentario": "Não há esses valores fixos estabelecidos em lei para o tráfico privilegiado." },
+            { "letra": "B", "texto": "Até 10g de cocaína ou 30g de maconha.", "comentario": "Também não correspondem a valores fixados em lei; o critério não é uma quantidade numérica fixa." },
             { "letra": "C", "texto": "Qualquer quantidade, desde que o agente seja primário e sem antecedentes." },
-            { "letra": "D", "texto": "Não há quantidade mínima; depende da circunstância." }
+            { "letra": "D", "texto": "Não há quantidade mínima; depende da circunstância.", "comentario": "Essa alternativa é imprecisa: o requisito central não é uma quantidade variável, mas as condições pessoais do agente (primariedade, bons antecedentes, ausência de vínculo com organização criminosa)." }
         ],
         "gabarito": "C",
         "artigo": "Art. 33, §4º da Lei 11.343/06",
@@ -1297,10 +1297,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Em caso de falecimento do agente antes do trânsito em julgado, qual o efeito sobre o processo de organização criminosa?",
         "alternativas": [
-            { "letra": "A", "texto": "Extinção da punibilidade e arquivamento automático." },
+            { "letra": "A", "texto": "Extinção da punibilidade e arquivamento automático.", "comentario": "A extinção da punibilidade e o arquivamento se limitam ao agente falecido, não afetando o processo quanto aos demais réus." },
             { "letra": "B", "texto": "Preservação do processo para os demais acusados." },
-            { "letra": "C", "texto": "Necessidade de nova ação contra sucessores." },
-            { "letra": "D", "texto": "Suspensão do processo até decisão da Corte Suprema." }
+            { "letra": "C", "texto": "Necessidade de nova ação contra sucessores.", "comentario": "Não há transmissão de responsabilidade penal aos sucessores; a pena não passa da pessoa do condenado." },
+            { "letra": "D", "texto": "Suspensão do processo até decisão da Corte Suprema.", "comentario": "Não há essa exigência de suspensão até decisão de tribunal superior; o processo simplesmente prossegue quanto aos demais réus." }
         ],
         "gabarito": "B",
         "artigo": "Art. 6º da Lei 12.850/13",
@@ -1315,10 +1315,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual a consequência de diagnóstico de doença grave para condenado por crime hediondo?",
         "alternativas": [
-            { "letra": "A", "texto": "Conversão de pena privativa em restritiva de direitos." },
-            { "letra": "B", "texto": "Suspensão da execução da pena por até 2 anos." },
+            { "letra": "A", "texto": "Conversão de pena privativa em restritiva de direitos.", "comentario": "Não é essa a consequência prevista; o art. 66 do CP trata de circunstância atenuante (redução de pena), não de conversão de espécie de pena." },
+            { "letra": "B", "texto": "Suspensão da execução da pena por até 2 anos.", "comentario": "Não há essa previsão específica de suspensão por 2 anos; o instituto aplicável à doença grave é a atenuante genérica do art. 66." },
             { "letra": "C", "texto": "Redução de 1/3 da pena, conforme art. 66 do CP." },
-            { "letra": "D", "texto": "Nenhum efeito; a pena segue normalmente." }
+            { "letra": "D", "texto": "Nenhum efeito; a pena segue normalmente.", "comentario": "Há sim efeito legal, com possibilidade de redução da pena conforme o art. 66, §1º, do CP." }
         ],
         "gabarito": "C",
         "artigo": "Art. 66, §1º do Código Penal",
@@ -1333,10 +1333,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "A pena é aumentada quando a vítima é pessoa em situação de vulnerabilidade. Qual alternativa descreve corretamente essa vulnerabilidade?",
         "alternativas": [
-            { "letra": "A", "texto": "Idoso acima de 70 anos." },
+            { "letra": "A", "texto": "Idoso acima de 70 anos.", "comentario": "A lei fixa a idade mínima de vulnerabilidade em 60 anos, e não 70." },
             { "letra": "B", "texto": "Criança, gestante, portador de deficiência, adolescente ou maior de 60 anos." },
-            { "letra": "C", "texto": "Pessoa com renda abaixo de 2 salários mínimos." },
-            { "letra": "D", "texto": "Qualquer pessoa que não tenha formação superior." }
+            { "letra": "C", "texto": "Pessoa com renda abaixo de 2 salários mínimos.", "comentario": "A condição econômica não é critério de vulnerabilidade previsto no art. 1º, §4º, II." },
+            { "letra": "D", "texto": "Qualquer pessoa que não tenha formação superior.", "comentario": "A escolaridade não é critério de vulnerabilidade previsto nesse dispositivo." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
@@ -1351,10 +1351,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual medida pode ser imposta ao usuário de droga conforme o art. 28 da Lei 11.343/06?",
         "alternativas": [
-            { "letra": "A", "texto": "Internação compulsória em clínica de reabilitação." },
+            { "letra": "A", "texto": "Internação compulsória em clínica de reabilitação.", "comentario": "Essa medida não está entre as penas previstas no art. 28 para o usuário." },
             { "letra": "B", "texto": "Prestação de serviços à comunidade por até 600 horas." },
-            { "letra": "C", "texto": "Multa de até 10 salários mínimos." },
-            { "letra": "D", "texto": "Detenção de 1 a 4 anos." }
+            { "letra": "C", "texto": "Multa de até 10 salários mínimos.", "comentario": "O art. 28 não prevê pena de multa entre suas sanções, mas sim advertência, prestação de serviços e medida educativa." },
+            { "letra": "D", "texto": "Detenção de 1 a 4 anos.", "comentario": "O crime do usuário (art. 28) não prevê pena privativa de liberdade." }
         ],
         "gabarito": "B",
         "artigo": "Art. 28, §3º da Lei 11.343/06",
@@ -1369,10 +1369,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Qual a diferença entre coautor e partícipe em organização criminosa?",
         "alternativas": [
-            { "letra": "A", "texto": "Coautor executa o crime, partícipe apenas auxilia." },
+            { "letra": "A", "texto": "Coautor executa o crime, partícipe apenas auxilia.", "comentario": "Essa distinção pelo verbo nuclear do tipo é a mais usual na doutrina, mas a fonte desta questão adota o critério de culpa direta/eventual como alternativa correta." },
             { "letra": "B", "texto": "Coautor tem culpa direta, partícipe tem culpa eventual." },
-            { "letra": "C", "texto": "Coautor e partícipe são equivalentes, apenas nomenclatura diferente." },
-            { "letra": "D", "texto": "Coautor tem participação mínima, partícipe tem liderança." }
+            { "letra": "C", "texto": "Coautor e partícipe são equivalentes, apenas nomenclatura diferente.", "comentario": "Mesmo pela classificação adotada na questão, há diferença de responsabilidade entre coautor e partícipe, não sendo mera variação terminológica." },
+            { "letra": "D", "texto": "Coautor tem participação mínima, partícipe tem liderança.", "comentario": "Essa descrição inverte os papéis geralmente atribuídos a cada figura na organização criminosa." }
         ],
         "gabarito": "B",
         "artigo": "Art. 2º da Lei 12.850/13",
@@ -1387,10 +1387,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medium",
         "enunciado": "Qual a pena para tortura por omissão?",
         "alternativas": [
-            { "letra": "A", "texto": "Reclusão de 2 a 8 anos." },
+            { "letra": "A", "texto": "Reclusão de 2 a 8 anos.", "comentario": "Essa é a pena da tortura na modalidade comissiva (art. 1º, I/II), e não da tortura por omissão, cuja pena é de detenção de 1 a 4 anos." },
             { "letra": "B", "texto": "Detenção de 1 a 4 anos." },
-            { "letra": "C", "texto": "Multa e prestação de serviços." },
-            { "letra": "D", "texto": "Advertência escrita." }
+            { "letra": "C", "texto": "Multa e prestação de serviços.", "comentario": "A tortura por omissão é punida com pena privativa de liberdade (detenção), e não com multa e prestação de serviços." },
+            { "letra": "D", "texto": "Advertência escrita.", "comentario": "Não há essa penalidade para a tortura por omissão; a pena prevista é de detenção de 1 a 4 anos." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §2º da Lei 9.455/97",
@@ -1406,9 +1406,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Qual o percentual de pena cumprida para progressão de regime de primário sem resultado morte?",
         "alternativas": [
             { "letra": "A", "texto": "40% da pena." },
-            { "letra": "B", "texto": "50% da pena." },
-            { "letra": "C", "texto": "60% da pena." },
-            { "letra": "D", "texto": "70% da pena." }
+            { "letra": "B", "texto": "50% da pena.", "comentario": "50% é a fração para o primário COM resultado morte, não para o caso sem resultado morte." },
+            { "letra": "C", "texto": "60% da pena.", "comentario": "60% é a fração para o reincidente específico sem resultado morte (inciso VII), não para o primário." },
+            { "letra": "D", "texto": "70% da pena.", "comentario": "70% é a fração para o reincidente específico COM resultado morte, não para o primário sem resultado morte." }
         ],
         "gabarito": "A",
         "artigo": "Art. 112, V da LEP (Lei 13.964/2019)",
@@ -1424,9 +1424,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Qual bem pode ser confiscado de traficante conforme a Lei de Drogas?",
         "alternativas": [
             { "letra": "A", "texto": "Bens adquiridos com o produto do crime." },
-            { "letra": "B", "texto": "Somente imóveis rurais." },
-            { "letra": "C", "texto": "Qualquer bem, independentemente da origem." },
-            { "letra": "D", "texto": "Nenhum bem, apenas multa." }
+            { "letra": "B", "texto": "Somente imóveis rurais.", "comentario": "O confisco não se restringe a imóveis rurais, abrangendo qualquer bem vinculado à prática delitiva." },
+            { "letra": "C", "texto": "Qualquer bem, independentemente da origem.", "comentario": "O confisco exige vinculação do bem ao produto ou proveito do crime, e não qualquer bem sem relação com a atividade ilícita." },
+            { "letra": "D", "texto": "Nenhum bem, apenas multa.", "comentario": "A lei prevê expressamente o confisco de bens, além de eventual multa." }
         ],
         "gabarito": "A",
         "artigo": "Art. 39 da Lei 11.343/06",
@@ -1441,9 +1441,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "dificil",
         "enunciado": "Qual benefício NÃO pode ser concedido por colaboração premiada?",
         "alternativas": [
-            { "letra": "A", "texto": "Redução de pena em até 2/3." },
-            { "letra": "B", "texto": "Perdão judicial." },
-            { "letra": "C", "texto": "Substituição da pena privativa por restritiva de direitos." },
+            { "letra": "A", "texto": "Redução de pena em até 2/3.", "comentario": "Esse é um benefício efetivamente previsto no art. 4º, não sendo a exceção buscada pela questão." },
+            { "letra": "B", "texto": "Perdão judicial.", "comentario": "Esse benefício também está previsto no art. 4º, não sendo a exceção." },
+            { "letra": "C", "texto": "Substituição da pena privativa por restritiva de direitos.", "comentario": "Esse benefício também consta do art. 4º, não sendo a exceção buscada pela questão." },
             { "letra": "D", "texto": "Extinção automática de todos os processos." }
         ],
         "gabarito": "D",
@@ -1459,9 +1459,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual dos seguintes crimes NÃO está listado como hediondo na Lei 8.072/90?",
         "alternativas": [
-            { "letra": "A", "texto": "Latrocínio." },
-            { "letra": "B", "texto": "Estupro de vulnerável." },
-            { "letra": "C", "texto": "Tráfico de entorpecentes." },
+            { "letra": "A", "texto": "Latrocínio.", "comentario": "O latrocínio consta expressamente do rol de crimes hediondos do art. 1º." },
+            { "letra": "B", "texto": "Estupro de vulnerável.", "comentario": "O estupro de vulnerável também consta expressamente do rol de crimes hediondos." },
+            { "letra": "C", "texto": "Tráfico de entorpecentes.", "comentario": "O tráfico de drogas é crime equiparado a hediondo, recebendo o mesmo tratamento jurídico rigoroso." },
             { "letra": "D", "texto": "Furto simples." }
         ],
         "gabarito": "D",
@@ -1477,10 +1477,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Qual a pena mínima para tortura que resulta em morte?",
         "alternativas": [
-            { "letra": "A", "texto": "4 anos de reclusão." },
+            { "letra": "A", "texto": "4 anos de reclusão.", "comentario": "Esse valor corresponde à pena mínima da tortura simples, não da tortura com resultado morte." },
             { "letra": "B", "texto": "8 anos de reclusão." },
-            { "letra": "C", "texto": "12 anos de reclusão." },
-            { "letra": "D", "texto": "6 anos de reclusão." }
+            { "letra": "C", "texto": "12 anos de reclusão.", "comentario": "A pena mínima para tortura com resultado morte é 8 anos, e não 12." },
+            { "letra": "D", "texto": "6 anos de reclusão.", "comentario": "A pena mínima é 8 anos, superior aos 6 indicados nesta alternativa." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §3º da Lei 9.455/97",
@@ -1495,10 +1495,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "A ação controlada visa:",
         "alternativas": [
-            { "letra": "A", "texto": "Infiltrar agentes na organização criminosa." },
+            { "letra": "A", "texto": "Infiltrar agentes na organização criminosa.", "comentario": "Essa descrição corresponde à infiltração de agentes (art. 10), instituto distinto da ação controlada." },
             { "letra": "B", "texto": "Retardar intervenção policial para coleta de provas." },
-            { "letra": "C", "texto": "Realizar escuta ambiental sem autorização judicial." },
-            { "letra": "D", "texto": "Conferir benefícios ao investigado." }
+            { "letra": "C", "texto": "Realizar escuta ambiental sem autorização judicial.", "comentario": "Essa descrição corresponde à captação ambiental; a ação controlada exige comunicação prévia ao juiz, não dispensa controle judicial." },
+            { "letra": "D", "texto": "Conferir benefícios ao investigado.", "comentario": "A ação controlada não trata de benefícios ao investigado, mas de uma estratégia investigativa de retardamento da intervenção." }
         ],
         "gabarito": "B",
         "artigo": "Art. 8º da Lei 12.850/13",
@@ -1513,10 +1513,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "O STF declarou inconstitucional a obrigatoriedade de regime fechado para hediondos. Qual decisão pode o juiz tomar?",
         "alternativas": [
-            { "letra": "A", "texto": "Manter o regime fechado em todos os casos." },
+            { "letra": "A", "texto": "Manter o regime fechado em todos os casos.", "comentario": "Essa é justamente a obrigatoriedade que o STF declarou inconstitucional." },
             { "letra": "B", "texto": "Fixar regime aberto se as circunstâncias permitirem." },
-            { "letra": "C", "texto": "Aplicar somente regime semiaberto." },
-            { "letra": "D", "texto": "Deixar a decisão a cargo do MP." }
+            { "letra": "C", "texto": "Aplicar somente regime semiaberto.", "comentario": "Não há essa limitação a apenas o regime semiaberto; o juiz pode fixar o regime cabível conforme as circunstâncias, inclusive o aberto." },
+            { "letra": "D", "texto": "Deixar a decisão a cargo do MP.", "comentario": "A decisão sobre o regime inicial compete ao juiz, e não ao Ministério Público." }
         ],
         "gabarito": "B",
         "artigo": "HC 111.840/ES — STF",
@@ -1531,10 +1531,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual efeito específico a Lei 9.455/97 impõe ao agente público condenado por tortura?",
         "alternativas": [
-            { "letra": "A", "texto": "Perda do cargo automaticamente." },
+            { "letra": "A", "texto": "Perda do cargo automaticamente.", "comentario": "Essa alternativa é incompleta: o efeito legal reúne tanto a perda do cargo quanto a interdição pelo dobro do prazo da pena, elemento que só a alternativa correta contempla integralmente." },
             { "letra": "B", "texto": "Interdição pelo dobro do prazo da pena aplicada." },
-            { "letra": "C", "texto": "Impossibilidade de exercer qualquer função pública por 5 anos." },
-            { "letra": "D", "texto": "Nenhum efeito adicional além da pena privativa." }
+            { "letra": "C", "texto": "Impossibilidade de exercer qualquer função pública por 5 anos.", "comentario": "O prazo de interdição não é fixo de 5 anos, mas corresponde ao DOBRO do prazo da pena aplicada." },
+            { "letra": "D", "texto": "Nenhum efeito adicional além da pena privativa.", "comentario": "Há sim efeito adicional expresso, com perda do cargo e interdição pelo dobro do prazo da pena." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §5º da Lei 9.455/97",
@@ -1550,9 +1550,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "A reincidência em tráfico gera aumento de pena de acordo com qual percentual?",
         "alternativas": [
             { "letra": "A", "texto": "1/6 a 1/3 da pena base." },
-            { "letra": "B", "texto": "1/3 a 2/3 da pena base." },
-            { "letra": "C", "texto": "Nenhum aumento; a pena segue a tabela original." },
-            { "letra": "D", "texto": "Duplica a pena base." }
+            { "letra": "B", "texto": "1/3 a 2/3 da pena base.", "comentario": "Essa faixa corresponde a outras causas de aumento (como o tráfico transnacional), não à reincidência." },
+            { "letra": "C", "texto": "Nenhum aumento; a pena segue a tabela original.", "comentario": "Há sim aumento previsto para reincidência, de 1/6 a 1/3." },
+            { "letra": "D", "texto": "Duplica a pena base.", "comentario": "Não há essa duplicação; o aumento previsto é de 1/6 a 1/3, e não o dobro da pena." }
         ],
         "gabarito": "A",
         "artigo": "Art. 40, III da Lei 11.343/06",
@@ -1567,10 +1567,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "dificil",
         "enunciado": "Qual o prazo máximo de validade da autorização judicial para infiltração de agentes?",
         "alternativas": [
-            { "letra": "A", "texto": "3 meses, prorrogáveis por igual período." },
+            { "letra": "A", "texto": "3 meses, prorrogáveis por igual período.", "comentario": "O prazo correto é de até 6 meses, e não 3." },
             { "letra": "B", "texto": "6 meses, prorrogáveis por igual período." },
-            { "letra": "C", "texto": "1 ano, sem prorrogação." },
-            { "letra": "D", "texto": "Indeterminado, enquanto houver necessidade." }
+            { "letra": "C", "texto": "1 ano, sem prorrogação.", "comentario": "O prazo é de até 6 meses, inferior a 1 ano, e admite prorrogação por iguais períodos." },
+            { "letra": "D", "texto": "Indeterminado, enquanto houver necessidade.", "comentario": "A lei fixa prazo determinado (até 6 meses), renovável mediante comprovação de necessidade, e não um prazo indeterminado." }
         ],
         "gabarito": "B",
         "artigo": "Art. 10 da Lei 12.850/13",
@@ -1585,10 +1585,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Qual causa de aumento de pena é aplicada quando a tortura ocorre mediante sequestro?",
         "alternativas": [
-            { "letra": "A", "texto": "Art. 1º, §4º, I da Lei 9.455/97." },
-            { "letra": "B", "texto": "Art. 1º, §4º, II da Lei 9.455/97." },
+            { "letra": "A", "texto": "Art. 1º, §4º, I da Lei 9.455/97.", "comentario": "O inciso I trata da causa de aumento pela condição de agente público, e não pelo sequestro." },
+            { "letra": "B", "texto": "Art. 1º, §4º, II da Lei 9.455/97.", "comentario": "O inciso II trata da vulnerabilidade da vítima (criança, gestante etc.), e não do sequestro." },
             { "letra": "C", "texto": "Art. 1º, §4º, III da Lei 9.455/97." },
-            { "letra": "D", "texto": "Nenhuma causa de aumento específica." }
+            { "letra": "D", "texto": "Nenhuma causa de aumento específica.", "comentario": "Há sim causa de aumento específica prevista no inciso III para a hipótese de sequestro." }
         ],
         "gabarito": "C",
         "artigo": "Art. 1º, §4º, III da Lei 9.455/97",
@@ -1604,9 +1604,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "O uso de arma de fogo no tráfico gera qual aumento de pena?",
         "alternativas": [
             { "letra": "A", "texto": "1/6 a 1/3 da pena base." },
-            { "letra": "B", "texto": "1/3 a 2/3 da pena base." },
-            { "letra": "C", "texto": "Nenhum aumento específico." },
-            { "letra": "D", "texto": "Duplicação da pena base." }
+            { "letra": "B", "texto": "1/3 a 2/3 da pena base.", "comentario": "Essa faixa corresponde a outra causa de aumento do art. 40 (como a transnacionalidade), não ao uso de arma de fogo." },
+            { "letra": "C", "texto": "Nenhum aumento específico.", "comentario": "Há sim aumento específico previsto para o uso de arma de fogo (inciso II)." },
+            { "letra": "D", "texto": "Duplicação da pena base.", "comentario": "Não há duplicação da pena; o aumento previsto é de 1/6 a 1/3." }
         ],
         "gabarito": "A",
         "artigo": "Art. 40, II da Lei 11.343/06",
@@ -1622,9 +1622,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "A participação de menor de idade em organização criminosa permite que a mesma seja considerada?",
         "alternativas": [
             { "letra": "A", "texto": "Sim, ainda que seja menor, a organização continua válida." },
-            { "letra": "B", "texto": "Não, a presença de menor anula a organização criminosa." },
-            { "letra": "C", "texto": "Só se o menor for maior de 14 anos." },
-            { "letra": "D", "texto": "Depende de decisão judicial." }
+            { "letra": "B", "texto": "Não, a presença de menor anula a organização criminosa.", "comentario": "A participação de menor não anula a existência da organização criminosa perante os demais integrantes." },
+            { "letra": "C", "texto": "Só se o menor for maior de 14 anos.", "comentario": "Não há essa condição etária mínima de 14 anos para a validade da organização." },
+            { "letra": "D", "texto": "Depende de decisão judicial.", "comentario": "A existência da organização criminosa não depende de decisão judicial prévia sobre a validade da participação do menor." }
         ],
         "gabarito": "A",
         "artigo": "Art. 2º da Lei 12.850/13",
@@ -1640,9 +1640,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Qual garantia constitucional é essencial no processo contra acusado de tortura?",
         "alternativas": [
             { "letra": "A", "texto": "Ampla defesa e contraditório." },
-            { "letra": "B", "texto": "Prisão preventiva automática." },
-            { "letra": "C", "texto": "Julgamento por tribunal militar." },
-            { "letra": "D", "texto": "Audiência de custódia obrigatória." }
+            { "letra": "B", "texto": "Prisão preventiva automática.", "comentario": "Não há prisão preventiva automática; ela depende dos requisitos do art. 312 do CPP, avaliados caso a caso." },
+            { "letra": "C", "texto": "Julgamento por tribunal militar.", "comentario": "O crime de tortura, mesmo praticado por agente público, é julgado pela justiça comum, e não pela militar." },
+            { "letra": "D", "texto": "Audiência de custódia obrigatória.", "comentario": "Embora obrigatória para toda prisão em flagrante, a garantia constitucional essencial referida no enunciado é a ampla defesa e o contraditório, não esse procedimento específico." }
         ],
         "gabarito": "A",
         "artigo": "Art. 5º, LV da Constituição",
@@ -1657,10 +1657,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "dificil",
         "enunciado": "Qual percentual de cumprimento é exigido para progressão de regime nesse caso?",
         "alternativas": [
-            { "letra": "A", "texto": "60% da pena." },
+            { "letra": "A", "texto": "60% da pena.", "comentario": "60% corresponde a outra hipótese (reincidente sem resultado morte), inferior ao percentual exigido para o reincidente específico com resultado morte." },
             { "letra": "B", "texto": "70% da pena." },
-            { "letra": "C", "texto": "80% da pena." },
-            { "letra": "D", "texto": "90% da pena." }
+            { "letra": "C", "texto": "80% da pena.", "comentario": "Não há essa fração no art. 112, VI, da LEP; o percentual correto é 70%." },
+            { "letra": "D", "texto": "90% da pena.", "comentario": "Não há essa fração no art. 112, VI, da LEP; o percentual correto é 70%." }
         ],
         "gabarito": "B",
         "artigo": "Art. 112, VI, 'b' da LEP",
@@ -1675,10 +1675,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual medida alternativa ao serviço comunitário pode ser aplicada ao usuário de drogas?",
         "alternativas": [
-            { "letra": "A", "texto": "Internação compulsória." },
-            { "letra": "B", "texto": "Multa pecuniária." },
+            { "letra": "A", "texto": "Internação compulsória.", "comentario": "Essa medida não está entre as previstas no art. 28 para o usuário." },
+            { "letra": "B", "texto": "Multa pecuniária.", "comentario": "O art. 28 não prevê pena de multa entre suas sanções." },
             { "letra": "C", "texto": "Curso de reeducação profissional." },
-            { "letra": "D", "texto": "Advertência escrita." }
+            { "letra": "D", "texto": "Advertência escrita.", "comentario": "A advertência é uma das penas previstas, mas não é a medida alternativa ao serviço comunitário pedida na questão, que corresponde à medida educativa de comparecimento a curso/programa." }
         ],
         "gabarito": "C",
         "artigo": "Art. 28, §4º da Lei 11.343/06",
@@ -1693,10 +1693,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "O líder de organização criminosa pode ser responsabilizado por quais atos praticados por integrantes?",
         "alternativas": [
-            { "letra": "A", "texto": "Somente pelos crimes que ele próprio cometeu." },
+            { "letra": "A", "texto": "Somente pelos crimes que ele próprio cometeu.", "comentario": "A lei atribui ao líder responsabilidade também pelos atos praticados pelos demais membros da organização, e não apenas pelos que ele próprio cometeu." },
             { "letra": "B", "texto": "Por todos os atos praticados pelos membros, independentemente de participação direta." },
-            { "letra": "C", "texto": "Apenas pelos atos que ordenou diretamente." },
-            { "letra": "D", "texto": "Não há responsabilidade adicional além da sua participação pessoal." }
+            { "letra": "C", "texto": "Apenas pelos atos que ordenou diretamente.", "comentario": "A responsabilidade do líder não se limita às ordens diretas, alcançando os atos praticados pelos membros da organização." },
+            { "letra": "D", "texto": "Não há responsabilidade adicional além da sua participação pessoal.", "comentario": "Há sim responsabilidade adicional prevista em lei para o líder quanto aos atos dos demais membros." }
         ],
         "gabarito": "B",
         "artigo": "Art. 2º, parágrafo único da Lei 12.850/13",
@@ -1711,10 +1711,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Além da pena privativa, qual efeito a condenação por tortura tem sobre o cargo do agente público?",
         "alternativas": [
-            { "letra": "A", "texto": "Suspensão do cargo por 5 anos." },
+            { "letra": "A", "texto": "Suspensão do cargo por 5 anos.", "comentario": "O efeito previsto é a PERDA do cargo (não mera suspensão), com interdição pelo dobro da pena, e não um prazo fixo de 5 anos." },
             { "letra": "B", "texto": "Perda do cargo e interdição por dobro da pena." },
-            { "letra": "C", "texto": "Proibição de exercer outra função pública por 10 anos." },
-            { "letra": "D", "texto": "Nenhum efeito adicional." }
+            { "letra": "C", "texto": "Proibição de exercer outra função pública por 10 anos.", "comentario": "O prazo de interdição não é fixo de 10 anos, mas corresponde ao dobro do prazo da pena aplicada." },
+            { "letra": "D", "texto": "Nenhum efeito adicional.", "comentario": "Há sim efeito adicional expresso na lei, com perda do cargo e interdição." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §5º da Lei 9.455/97",
@@ -1729,10 +1729,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual a causa de aumento prevista quando a vítima tem mais de 60 anos?",
         "alternativas": [
-            { "letra": "A", "texto": "Art. 1º, §4º, I da Lei 9.455/97." },
+            { "letra": "A", "texto": "Art. 1º, §4º, I da Lei 9.455/97.", "comentario": "O inciso I trata da causa de aumento pela condição de agente público, e não pela idade da vítima." },
             { "letra": "B", "texto": "Art. 1º, §4º, II da Lei 9.455/97." },
-            { "letra": "C", "texto": "Art. 1º, §4º, III da Lei 9.455/97." },
-            { "letra": "D", "texto": "Não há aumento previsto." }
+            { "letra": "C", "texto": "Art. 1º, §4º, III da Lei 9.455/97.", "comentario": "O inciso III trata da hipótese de sequestro, e não da idade da vítima." },
+            { "letra": "D", "texto": "Não há aumento previsto.", "comentario": "Há sim previsão expressa de aumento quando a vítima é maior de 60 anos." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §4º, II da Lei 9.455/97",
@@ -1747,10 +1747,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "Qual documento oficial deve ser lavrado no caso de apreensão de drogas em flagrante?",
         "alternativas": [
-            { "letra": "A", "texto": "Auto de constatação de infração." },
-            { "letra": "B", "texto": "Auto de apreensão de bens." },
+            { "letra": "A", "texto": "Auto de constatação de infração.", "comentario": "Esse documento não é o previsto para formalizar a prisão em flagrante por tráfico de drogas." },
+            { "letra": "B", "texto": "Auto de apreensão de bens.", "comentario": "Esse documento formaliza apenas a apreensão de bens, e não a prisão em si." },
             { "letra": "C", "texto": "Auto de prisão em flagrante." },
-            { "letra": "D", "texto": "Termo de compromisso."
+            { "letra": "D", "texto": "Termo de compromisso.", "comentario": "Esse documento não formaliza a prisão em flagrante; o documento correto é o auto de prisão em flagrante."
             }
         ],
         "gabarito": "C",
@@ -1766,10 +1766,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Qual elemento caracteriza a tortura por omissão?",
         "alternativas": [
-            { "letra": "A", "texto": "Uso direto de violência pelo agente." },
+            { "letra": "A", "texto": "Uso direto de violência pelo agente.", "comentario": "Essa descrição caracteriza a tortura comissiva, e não a tortura por omissão." },
             { "letra": "B", "texto": "Falta de ação para impedir a prática quando há dever de agir." },
-            { "letra": "C", "texto": "Ameaça verbal sem contato físico." },
-            { "letra": "D", "texto": "Aplicação de tortura a menores de idade." }
+            { "letra": "C", "texto": "Ameaça verbal sem contato físico.", "comentario": "A ameaça verbal ainda é conduta comissiva (constranger mediante grave ameaça), diferente da omissão." },
+            { "letra": "D", "texto": "Aplicação de tortura a menores de idade.", "comentario": "Essa é causa de aumento de pena vinculada à vítima, e não o elemento que caracteriza a modalidade omissiva do crime." }
         ],
         "gabarito": "B",
         "artigo": "Art. 1º, §2º da Lei 9.455/97",
@@ -1784,10 +1784,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "A confissão do acusado pode diminuir a pena em que percentual?",
         "alternativas": [
-            { "letra": "A", "texto": "Até 1/6 da pena." },
+            { "letra": "A", "texto": "Até 1/6 da pena.", "comentario": "Conforme a fonte adotada nesta questão, o percentual correto é até 1/3, diferente do valor citado nesta alternativa." },
             { "letra": "B", "texto": "Até 1/3 da pena." },
-            { "letra": "C", "texto": "Até 1/2 da pena." },
-            { "letra": "D", "texto": "Não há redução prevista." }
+            { "letra": "C", "texto": "Até 1/2 da pena.", "comentario": "O percentual adotado nesta questão como correto é até 1/3, inferior ao indicado nesta alternativa." },
+            { "letra": "D", "texto": "Não há redução prevista.", "comentario": "Há sim previsão de redução por confissão, conforme indicado na justificativa desta questão." }
         ],
         "gabarito": "B",
         "artigo": "Art. 65 do Código Penal",
@@ -1803,9 +1803,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Quais circunstâncias atenuantes podem reduzir a pena no crime de tráfico?",
         "alternativas": [
             { "letra": "A", "texto": "Primariedade e bons antecedentes." },
-            { "letra": "B", "texto": "Concurso de pessoas e uso de arma." },
-            { "letra": "C", "texto": "Participação em organização criminosa." },
-            { "letra": "D", "texto": "Reincidência em crime similar." }
+            { "letra": "B", "texto": "Concurso de pessoas e uso de arma.", "comentario": "Essas são causas de AUMENTO de pena (majorantes), e não atenuantes que reduzem a pena." },
+            { "letra": "C", "texto": "Participação em organização criminosa.", "comentario": "Essa circunstância agrava, e não atenua, a situação do agente." },
+            { "letra": "D", "texto": "Reincidência em crime similar.", "comentario": "A reincidência é agravante, e não atenuante, prejudicando (e não beneficiando) o réu na dosimetria." }
         ],
         "gabarito": "A",
         "artigo": "Art. 65, II do CP (aplicável por analogia)",
@@ -1820,10 +1820,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "dificil",
         "enunciado": "Qual é o requisito essencial de prova para condenar por organização criminosa?",
         "alternativas": [
-            { "letra": "A", "texto": "Confissão do acusado." },
+            { "letra": "A", "texto": "Confissão do acusado.", "comentario": "A confissão isolada não é o requisito essencial; é necessário demonstrar a estrutura organizacional e a divisão de tarefas, conforme o próprio conceito legal." },
             { "letra": "B", "texto": "Provas de estrutura organizada e divisão de tarefas." },
-            { "letra": "C", "texto": "Apenas prova documental de associação." },
-            { "letra": "D", "texto": "Depoimento de testemunhas sem necessidade de material."
+            { "letra": "C", "texto": "Apenas prova documental de associação.", "comentario": "A prova não se limita à documental; a demonstração da estrutura organizada e divisão de tarefas pode ser feita por diversos meios de prova." },
+            { "letra": "D", "texto": "Depoimento de testemunhas sem necessidade de material.", "comentario": "O depoimento isolado, sem lastro em outros elementos, não basta para comprovar a estrutura organizacional exigida."
             }
         ],
         "gabarito": "B",
@@ -1840,9 +1840,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Contra a sentença que condena por tortura, cabe qual recurso?",
         "alternativas": [
             { "letra": "A", "texto": "Apelação." },
-            { "letra": "B", "texto": "Recurso extraordinário ao STF." },
-            { "letra": "C", "texto": "Habeas corpus apenas." },
-            { "letra": "D", "texto": "Recurso de revista ao STJ." }
+            { "letra": "B", "texto": "Recurso extraordinário ao STF.", "comentario": "Esse recurso é cabível apenas em hipóteses específicas de violação constitucional, após esgotadas as instâncias ordinárias, não sendo o recurso cabível diretamente contra a sentença de primeiro grau." },
+            { "letra": "C", "texto": "Habeas corpus apenas.", "comentario": "O habeas corpus não é o recurso próprio contra o mérito de uma sentença condenatória; o recurso cabível é a apelação." },
+            { "letra": "D", "texto": "Recurso de revista ao STJ.", "comentario": "'Recurso de revista' é instituto do processo do trabalho, não do processo penal; em matéria penal, o recurso ao STJ é o recurso especial, cabível apenas após esgotadas as instâncias ordinárias." }
         ],
         "gabarito": "A",
         "artigo": "Art. 593, I do Código de Processo Penal",
@@ -1857,10 +1857,10 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "A tentativa de crime hediondo recebe qual tratamento penal?",
         "alternativas": [
-            { "letra": "A", "texto": "É punida como crime consumado." },
+            { "letra": "A", "texto": "É punida como crime consumado.", "comentario": "A tentativa recebe redução de pena, conforme o art. 14, parágrafo único, do CP, não sendo punida como se consumada fosse." },
             { "letra": "B", "texto": "Recebe o mesmo regime de cumprimento que o crime consumado, porém com redução da pena." },
-            { "letra": "C", "texto": "É inafiançável, mas admite regime mais brando." },
-            { "letra": "D", "texto": "Não é considerada crime hediondo." }
+            { "letra": "C", "texto": "É inafiançável, mas admite regime mais brando.", "comentario": "A inafiançabilidade não é o ponto central tratado na questão sobre a tentativa; o essencial é a redução de pena com manutenção do regime especial de hediondo." },
+            { "letra": "D", "texto": "Não é considerada crime hediondo.", "comentario": "A tentativa de crime hediondo também é considerada hedionda, conforme o parágrafo único do art. 1º da Lei 8.072/90." }
         ],
         "gabarito": "B",
         "artigo": "Art. 14, §1º do Código Penal (aplicado às hediondez)",
@@ -1876,9 +1876,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Qual é a condição essencial para decretar prisão preventiva em tráfico privilegiado?",
         "alternativas": [
             { "letra": "A", "texto": "Risco de fuga ou ordem pública." },
-            { "letra": "B", "texto": "Presença de arma de fogo no local." },
-            { "letra": "C", "texto": "Reincidência em crime comum." },
-            { "letra": "D", "texto": "Somente se houver confisco de bens." }
+            { "letra": "B", "texto": "Presença de arma de fogo no local.", "comentario": "A mera presença de arma de fogo não é, por si só, o requisito legal; o que se exige é o risco à ordem pública, à instrução criminal, à aplicação da lei penal ou de fuga." },
+            { "letra": "C", "texto": "Reincidência em crime comum.", "comentario": "A reincidência em crime comum não é, isoladamente, requisito específico para a prisão preventiva; o critério central é o risco de fuga ou à ordem pública." },
+            { "letra": "D", "texto": "Somente se houver confisco de bens.", "comentario": "O confisco de bens é instituto distinto, não sendo condição para a decretação da prisão preventiva." }
         ],
         "gabarito": "A",
         "artigo": "Art. 5º, §4º da Lei 11.343/06",
@@ -1894,9 +1894,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "A condenação por organização criminosa pode acarretar a apreensão de quais bens?",
         "alternativas": [
             { "letra": "A", "texto": "Bens utilizados como estrutura da organização." },
-            { "letra": "B", "texto": "Somente o dinheiro obtido com o crime." },
-            { "letra": "C", "texto": "Qualquer bem, independentemente da origem." },
-            { "letra": "D", "texto": "Nenhum bem, apenas pena privativa." }
+            { "letra": "B", "texto": "Somente o dinheiro obtido com o crime.", "comentario": "A apreensão não se limita ao dinheiro; abrange qualquer bem utilizado como estrutura ou proveito da organização." },
+            { "letra": "C", "texto": "Qualquer bem, independentemente da origem.", "comentario": "A apreensão exige vinculação do bem à estrutura ou à atividade da organização criminosa, e não qualquer bem sem relação com ela." },
+            { "letra": "D", "texto": "Nenhum bem, apenas pena privativa.", "comentario": "A lei prevê expressamente a possibilidade de confisco de bens vinculados à organização, além da pena privativa de liberdade." }
         ],
         "gabarito": "A",
         "artigo": "Art. 20 da Lei 12.850/13",
@@ -1912,9 +1912,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "A reincidência em tortura pode acarretar qual aumento de pena?",
         "alternativas": [
             { "letra": "A", "texto": "Aumento de 1/6 a 1/3 da pena base." },
-            { "letra": "B", "texto": "Duplicação da pena base." },
-            { "letra": "C", "texto": "Nenhum aumento; a lei não trata da reincidência." },
-            { "letra": "D", "texto": "Redução da pena por causas atenuantes." }
+            { "letra": "B", "texto": "Duplicação da pena base.", "comentario": "Não há essa duplicação; o aumento previsto é de 1/6 a 1/3." },
+            { "letra": "C", "texto": "Nenhum aumento; a lei não trata da reincidência.", "comentario": "Há sim previsão de aumento para a reincidência, aplicando-se a regra geral do Código Penal." },
+            { "letra": "D", "texto": "Redução da pena por causas atenuantes.", "comentario": "A reincidência é circunstância agravante, e não atenuante, e por isso aumenta (não reduz) a pena." }
         ],
         "gabarito": "A",
         "artigo": "Art. 62, II do Código Penal (aplicado à tortura)",
@@ -1930,9 +1930,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Em que situação o condenado por crime hediondo pode receber livramento condicional?",
         "alternativas": [
             { "letra": "A", "texto": "Após cumprimento de 2/3 da pena, se for primário e sem violência grave." },
-            { "letra": "B", "texto": "Imediatamente após o início da pena, se houver bom comportamento." },
-            { "letra": "C", "texto": "Nunca é permitido para crimes hediondos." },
-            { "letra": "D", "texto": "Somente se houver indulto presidencial." }
+            { "letra": "B", "texto": "Imediatamente após o início da pena, se houver bom comportamento.", "comentario": "Não há concessão imediata; exige-se o cumprimento mínimo de 2/3 da pena, além de outros requisitos legais." },
+            { "letra": "C", "texto": "Nunca é permitido para crimes hediondos.", "comentario": "O livramento condicional é admitido para hediondos, exigindo apenas fração maior da pena (2/3) e observando a vedação ao reincidente específico." },
+            { "letra": "D", "texto": "Somente se houver indulto presidencial.", "comentario": "O livramento condicional é instituto distinto do indulto, concedido pelo juiz mediante o cumprimento dos requisitos legais, não dependendo de indulto presidencial." }
         ],
         "gabarito": "A",
         "artigo": "Art. 83, V do CP e Art. 5º da Lei 8.072/90",
@@ -1948,9 +1948,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Qual a carga horária máxima prevista para prestação de serviços à comunidade como medida substitutiva?",
         "alternativas": [
             { "letra": "A", "texto": "600 horas." },
-            { "letra": "B", "texto": "800 horas." },
-            { "letra": "C", "texto": "1000 horas." },
-            { "letra": "D", "texto": "1200 horas." }
+            { "letra": "B", "texto": "800 horas.", "comentario": "A carga horária máxima prevista é de 600 horas, inferior a 800." },
+            { "letra": "C", "texto": "1000 horas.", "comentario": "A carga horária máxima prevista é de 600 horas, bem inferior a 1000." },
+            { "letra": "D", "texto": "1200 horas.", "comentario": "A carga horária máxima prevista é de 600 horas, bem inferior a 1200." }
         ],
         "gabarito": "A",
         "artigo": "Art. 28, §3º da Lei 11.343/06",
@@ -1966,9 +1966,9 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "enunciado": "Em que situação a Lei de Tortura pode ser aplicada a crimes cometidos fora do território nacional?",
         "alternativas": [
             { "letra": "A", "texto": "Quando a vítima for brasileira." },
-            { "letra": "B", "texto": "Sempre, independentemente da nacionalidade." },
-            { "letra": "C", "texto": "Apenas quando o agente for brasileiro." },
-            { "letra": "D", "texto": "Nunca, a lei só se aplica no território nacional." }
+            { "letra": "B", "texto": "Sempre, independentemente da nacionalidade.", "comentario": "A extraterritorialidade não se aplica de forma irrestrita, dependendo da nacionalidade da vítima ou da localização do agente em jurisdição brasileira." },
+            { "letra": "C", "texto": "Apenas quando o agente for brasileiro.", "comentario": "A extraterritorialidade se justifica pela nacionalidade da VÍTIMA, e não do agente." },
+            { "letra": "D", "texto": "Nunca, a lei só se aplica no território nacional.", "comentario": "A lei prevê expressamente, no art. 2º, hipótese de aplicação extraterritorial." }
         ],
         "gabarito": "A",
         "artigo": "Art. 2º da Lei 9.455/97",
