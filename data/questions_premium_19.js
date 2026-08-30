@@ -6,9 +6,9 @@ const QUESTIONS_PREMIUM_19 = [
     topico: 'Lei 12.850/13 - Organiz. Criminosas',
     enunciado: 'Qual elemento caracteriza a “estrutura hierárquica” prevista na Lei 12.850/2013?',
     alternativas: [
-      { letra: 'A', texto: 'Presença de líder formal' },
-      { letra: 'B', texto: 'Divisão de tarefas' },
-      { letra: 'C', texto: 'Comunicação interna regular' },
+      { letra: 'A', texto: 'Presença de líder formal', comentario: 'Correta em si, mas incompleta: a estrutura hierárquica da Lei 12.850/2013 também envolve divisão de tarefas e comunicação interna, por isso a resposta mais completa reúne todas as opções.' },
+      { letra: 'B', texto: 'Divisão de tarefas', comentario: 'Correta em si, mas incompleta: a estrutura hierárquica da Lei 12.850/2013 também envolve liderança formal e comunicação interna, por isso a resposta mais completa reúne todas as opções.' },
+      { letra: 'C', texto: 'Comunicação interna regular', comentario: 'Correta em si, mas incompleta: a estrutura hierárquica da Lei 12.850/2013 também envolve liderança formal e divisão de tarefas, por isso a resposta mais completa reúne todas as opções.' },
       { letra: 'D', texto: 'Todas as anteriores' }
     ],
     gabarito: 'D',
@@ -21,10 +21,10 @@ const QUESTIONS_PREMIUM_19 = [
     topico: 'Crimes Cibernéticos',
     enunciado: 'Segundo a Lei 12.737/2012 (Lei Carolina Dieckmann), a invasão de dispositivo informático alheio, mediante violação indevida de mecanismo de segurança, é tipificada como:',
     alternativas: [
-      { letra: 'A', texto: 'Violação de sigilo' },
+      { letra: 'A', texto: 'Violação de sigilo', comentario: 'Incorreta. Violação de sigilo funcional/profissional é tipo penal distinto (arts. 153 e 154 do CP); a invasão de dispositivo informático tem tipificação própria no art. 154-A.' },
       { letra: 'B', texto: 'Invasão de dispositivo informático' },
-      { letra: 'C', texto: 'Dano ao equipamento' },
-      { letra: 'D', texto: 'Todas as anteriores' }
+      { letra: 'C', texto: 'Dano ao equipamento', comentario: 'Incorreta. O crime de dano (art. 163 do CP) trata da destruição/inutilização de coisa alheia, e não da invasão de dispositivo com violação de mecanismo de segurança.' },
+      { letra: 'D', texto: 'Todas as anteriores', comentario: 'Incorreta. Apenas a invasão de dispositivo informático (art. 154-A) corresponde à conduta descrita; sigilo e dano são tipos penais distintos.' }
     ],
     gabarito: 'B',
     artigo: 'Art. 154-A, CP',

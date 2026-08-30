@@ -10,7 +10,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Havia muitos policiais no pátio da penitenciária."
+        "texto": "Havia muitos policiais no pátio da penitenciária.",
+        "comentario": "Esta alternativa está CORRETA quanto à concordância: o verbo \"haver\" no sentido de existir é impessoal e permanece invariável mesmo com sujeito no plural; por isso não é a alternativa buscada pela questão."
       },
       {
         "letra": "B",
@@ -18,11 +19,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "Devem existir várias soluções para este problema de segurança."
+        "texto": "Devem existir várias soluções para este problema de segurança.",
+        "comentario": "Esta alternativa está CORRETA quanto à concordância: o verbo \"existir\" (pessoal) concorda normalmente com o sujeito \"várias soluções\" (plural); por isso não é a alternativa buscada pela questão."
       },
       {
         "letra": "D",
-        "texto": "Fui eu quem assumiu a responsabilidade pelo plantão."
+        "texto": "Fui eu quem assumiu a responsabilidade pelo plantão.",
+        "comentario": "Esta alternativa está CORRETA quanto à concordância: com o pronome relativo \"quem\", o verbo pode ficar na 3ª pessoa do singular; por isso não é a alternativa buscada pela questão."
       }
     ],
     "gabarito": "B",
@@ -40,7 +43,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "a"
+        "texto": "a",
+        "comentario": "Incorreta. Falta o acento indicativo de crase, pois há fusão da preposição \"a\" (exigida por \"dirigir-se a\") com o artigo feminino \"a\" que antecede \"sala\"."
       },
       {
         "letra": "B",
@@ -48,11 +52,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "á"
+        "texto": "á",
+        "comentario": "Incorreta. O acento agudo isolado não representa a crase; a grafia correta da fusão preposição + artigo é \"à\" (acento grave)."
       },
       {
         "letra": "D",
-        "texto": "ha"
+        "texto": "ha",
+        "comentario": "Incorreta. \"Ha\" não é uma forma válida da língua portuguesa nesse contexto; não representa nem a preposição exigida nem a crase necessária."
       }
     ],
     "gabarito": "B",
@@ -70,7 +76,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O policial, efetuou a prisão em flagrante do suspeito."
+        "texto": "O policial, efetuou a prisão em flagrante do suspeito.",
+        "comentario": "Incorreta. A vírgula separa indevidamente o sujeito (\"O policial\") do verbo (\"efetuou\")."
       },
       {
         "letra": "B",
@@ -78,11 +85,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "Eles precisavam de, mais tempo para finalizar o inquérito."
+        "texto": "Eles precisavam de, mais tempo para finalizar o inquérito.",
+        "comentario": "Incorreta. A vírgula separa indevidamente o verbo (\"precisavam de\") do seu complemento (\"mais tempo\")."
       },
       {
         "letra": "D",
-        "texto": "A fuga foi contida mas, os presos quebraram a estrutura."
+        "texto": "A fuga foi contida mas, os presos quebraram a estrutura.",
+        "comentario": "Incorreta. A vírgula está mal posicionada; o correto seria colocá-la antes da conjunção adversativa (\"contida, mas os presos...\")."
       }
     ],
     "gabarito": "B",
@@ -104,15 +113,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "B",
-        "texto": "Três – Lápis – Útil"
+        "texto": "Três – Lápis – Útil",
+        "comentario": "Incorreta. Essas palavras seguem regras diferentes entre si (monossílabo tônico terminado em \"s\", paroxítona terminada em \"is\", paroxítona terminada em \"l\"), e não a mesma regra."
       },
       {
         "letra": "C",
-        "texto": "Saúde – Herói – Papéis"
+        "texto": "Saúde – Herói – Papéis",
+        "comentario": "Incorreta. Essas palavras seguem regras diferentes entre si (hiato tônico, ditongo aberto tônico e ditongo em terminação \"eis\"), e não a mesma regra dos ditongos em paroxítonas."
       },
       {
         "letra": "D",
-        "texto": "Fácil – História – Até"
+        "texto": "Fácil – História – Até",
+        "comentario": "Incorreta. Essas palavras seguem regras diferentes entre si (paroxítona terminada em \"l\", proparoxítona, oxítona terminada em \"e\"), e não a mesma regra."
       }
     ],
     "gabarito": "A",
@@ -130,7 +142,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Por que o sistema caiu?"
+        "texto": "Por que o sistema caiu?",
+        "comentario": "Está CORRETA quanto ao uso do porquê (interrogativa direta, separado e sem acento); por isso não é a alternativa com erro buscada pela questão."
       },
       {
         "letra": "B",
@@ -138,11 +151,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "Vocês estão rindo de quê? E por quê?"
+        "texto": "Vocês estão rindo de quê? E por quê?",
+        "comentario": "Está CORRETA quanto ao uso do porquê (final de frase, separado e com acento); por isso não é a alternativa com erro buscada pela questão."
       },
       {
         "letra": "D",
-        "texto": "A razão por que luto é minha família."
+        "texto": "A razão por que luto é minha família.",
+        "comentario": "Está CORRETA quanto ao uso do porquê (equivale a \"pela qual\", separado e sem acento); por isso não é a alternativa com erro buscada pela questão."
       }
     ],
     "gabarito": "B",
@@ -164,15 +179,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "B",
-        "texto": "O médico assistiu o detento ferido."
+        "texto": "O médico assistiu o detento ferido.",
+        "comentario": "Está CORRETA: no sentido de \"prestar socorro/cuidar\", assistir é transitivo direto, sem preposição; por isso não é a alternativa com erro buscada."
       },
       {
         "letra": "C",
-        "texto": "Assistimos a uma ótima palestra de capacitação."
+        "texto": "Assistimos a uma ótima palestra de capacitação.",
+        "comentario": "Está CORRETA: no sentido de \"ver/presenciar\", assistir exige a preposição \"a\", corretamente empregada aqui; por isso não é a alternativa com erro buscada."
       },
       {
         "letra": "D",
-        "texto": "Tal direito assiste ao apenado."
+        "texto": "Tal direito assiste ao apenado.",
+        "comentario": "Está CORRETA: no sentido de \"caber/pertencer (direito)\", assistir é transitivo indireto regido por \"a\"; por isso não é a alternativa com erro buscada."
       }
     ],
     "gabarito": "A",
@@ -190,11 +208,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "porque / porquê"
+        "texto": "porque / porquê",
+        "comentario": "Incorreta. A segunda lacuna está errada: no final de frase interrogativa, usa-se \"por quê\" (separado e com acento), e não \"porquê\" (substantivo, precedido de artigo)."
       },
       {
         "letra": "B",
-        "texto": "por que / por que"
+        "texto": "por que / por que",
+        "comentario": "Incorreta. Ambas as lacunas estão erradas: a primeira pede \"porque\" (conjunção explicativa, junto e sem acento) e a segunda pede \"por quê\" (final de frase interrogativa, com acento)."
       },
       {
         "letra": "C",
@@ -202,11 +222,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "porquê / porque"
+        "texto": "porquê / porque",
+        "comentario": "Incorreta. As lacunas estão invertidas: a primeira pede \"porque\" (junto, sem acento) e a segunda pede \"por quê\" (separado, com acento)."
       },
       {
         "letra": "E",
-        "texto": "por que / por quê"
+        "texto": "por que / por quê",
+        "comentario": "Incorreta. A primeira lacuna está errada: nesse contexto de causa/explicação dentro da frase (não interrogativa), usa-se \"porque\" (junto e sem acento), e não \"por que\"."
       }
     ],
     "correta": "C",
@@ -223,15 +245,18 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Chegamos à meia-noite."
+        "texto": "Chegamos à meia-noite.",
+        "comentario": "Está CORRETA quanto ao uso da crase (fusão da preposição \"a\" com o \"a\" de \"meia-noite\", palavra feminina); por isso não é a alternativa incorreta buscada."
       },
       {
         "letra": "B",
-        "texto": "Fomos à Bahia e voltamos felizes."
+        "texto": "Fomos à Bahia e voltamos felizes.",
+        "comentario": "Está CORRETA quanto ao uso da crase, admitida com nomes de lugares femininos que aceitam artigo, especialmente diante da ideia de retorno (\"e voltamos\"); por isso não é a alternativa incorreta buscada."
       },
       {
         "letra": "C",
-        "texto": "Entregou o ofício àquela secretaria."
+        "texto": "Entregou o ofício àquela secretaria.",
+        "comentario": "Está CORRETA quanto ao uso da crase (fusão com o pronome demonstrativo \"aquela\"); por isso não é a alternativa incorreta buscada."
       },
       {
         "letra": "D",
@@ -239,7 +264,8 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "E",
-        "texto": "Assistimos à cerimônia de formatura."
+        "texto": "Assistimos à cerimônia de formatura.",
+        "comentario": "Está CORRETA quanto ao uso da crase (\"assistir a\" + artigo feminino \"a\" de \"cerimônia\"); por isso não é a alternativa incorreta buscada."
       }
     ],
     "correta": "D",
@@ -256,11 +282,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Ele aspira o cargo de diretor."
+        "texto": "Ele aspira o cargo de diretor.",
+        "comentario": "Incorreta quanto à norma padrão: no sentido de almejar/desejar, \"aspirar\" é transitivo indireto e exige a preposição \"a\" (\"aspira ao cargo\"), não devendo ser usado sem ela."
       },
       {
         "letra": "B",
-        "texto": "Nós aspiramos ao ar puro das montanhas."
+        "texto": "Nós aspiramos ao ar puro das montanhas.",
+        "comentario": "Incorreta quanto à norma padrão: no sentido de sorver/respirar, \"aspirar\" é transitivo direto e não deveria vir com a preposição \"a\" (o correto seria \"aspiramos o ar puro\")."
       },
       {
         "letra": "C",
@@ -268,11 +296,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Aspirei ao gás tóxico acidentalmente."
+        "texto": "Aspirei ao gás tóxico acidentalmente.",
+        "comentario": "Incorreta quanto à norma padrão: no sentido de inalar/respirar, \"aspirar\" é transitivo direto, sem preposição (o correto seria \"aspirei o gás tóxico\")."
       },
       {
         "letra": "E",
-        "texto": "Eles aspiravam a fragrância nova."
+        "texto": "Eles aspiravam a fragrância nova.",
+        "comentario": "Esta frase está correta se entendida no sentido de sorver/perceber o cheiro (verbo transitivo direto, sem crase). O gabarito desta questão busca, porém, o exemplo de regência no sentido de \"almejar\" (verbo transitivo indireto, regido por \"a\"), que corresponde à alternativa C."
       }
     ],
     "correta": "C",
@@ -289,7 +319,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O agente, prendeu o suspeito rapidamente."
+        "texto": "O agente, prendeu o suspeito rapidamente.",
+        "comentario": "Incorreta. A vírgula separa indevidamente o sujeito (\"O agente\") do verbo (\"prendeu\")."
       },
       {
         "letra": "B",
@@ -297,15 +328,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "Os presos, que estavam amotinados exigiam a presença, do juiz."
+        "texto": "Os presos, que estavam amotinados exigiam a presença, do juiz.",
+        "comentario": "Incorreta. Falta a vírgula de fechamento da oração intercalada (\"amotinados,\") e há vírgula indevida separando o complemento (\"presença,\" do juiz)."
       },
       {
         "letra": "D",
-        "texto": "Foi deferido, pelo juiz o pedido de progressão."
+        "texto": "Foi deferido, pelo juiz o pedido de progressão.",
+        "comentario": "Incorreta. A vírgula separa indevidamente o verbo do seu agente da passiva (\"pelo juiz\"), quebrando a coesão da oração."
       },
       {
         "letra": "E",
-        "texto": "João, e Maria viajaram para Natal."
+        "texto": "João, e Maria viajaram para Natal.",
+        "comentario": "Incorreta. Não se usa vírgula antes da conjunção aditiva \"e\" quando ela liga elementos de mesma função sintática (sujeito composto), como é o caso aqui."
       }
     ],
     "correta": "B",
@@ -322,11 +356,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "São oxítonas terminadas em A, E, O."
+        "texto": "São oxítonas terminadas em A, E, O.",
+        "comentario": "Incorreta. Pólvora, Tático e Análise não são oxítonas; são proparoxítonas."
       },
       {
         "letra": "B",
-        "texto": "São paroxítonas terminadas em ditongo."
+        "texto": "São paroxítonas terminadas em ditongo.",
+        "comentario": "Incorreta. Nenhuma das três palavras é paroxítona terminada em ditongo; todas são proparoxítonas."
       },
       {
         "letra": "C",
@@ -334,11 +370,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Recebem acento pelo hiato tônico."
+        "texto": "Recebem acento pelo hiato tônico.",
+        "comentario": "Incorreta. A regra do hiato tônico não se aplica a essas palavras, que são acentuadas por serem proparoxítonas."
       },
       {
         "letra": "E",
-        "texto": "Acento diferencial de intensidade."
+        "texto": "Acento diferencial de intensidade.",
+        "comentario": "Incorreta. Não se trata de acento diferencial; as três palavras são acentuadas pela regra das proparoxítonas."
       }
     ],
     "correta": "C",
@@ -355,11 +393,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Adjetivo."
+        "texto": "Adjetivo.",
+        "comentario": "Incorreta. \"Muito\" não modifica um substantivo nesta frase, portanto não funciona como adjetivo."
       },
       {
         "letra": "B",
-        "texto": "Pronome indefinido."
+        "texto": "Pronome indefinido.",
+        "comentario": "Incorreta. Como pronome indefinido, \"muito\" acompanharia ou substituiria um substantivo indicando quantidade imprecisa; aqui ele modifica o verbo, funcionando como advérbio."
       },
       {
         "letra": "C",
@@ -367,11 +407,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Substantivo."
+        "texto": "Substantivo.",
+        "comentario": "Incorreta. \"Muito\" não exerce função de núcleo substantivo na frase; modifica o verbo \"protegeram\"."
       },
       {
         "letra": "E",
-        "texto": "Preposição."
+        "texto": "Preposição.",
+        "comentario": "Incorreta. \"Muito\" não estabelece relação de regência entre termos, como fazem as preposições; modifica o verbo, sendo advérbio."
       }
     ],
     "correta": "C",
@@ -388,11 +430,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Precisa-se de novos agentes penitenciários."
+        "texto": "Precisa-se de novos agentes penitenciários.",
+        "comentario": "Incorreta. Como o verbo \"precisar\" é transitivo indireto (rege \"de\"), o \"se\" aqui é índice de indeterminação do sujeito, não partícula apassivadora."
       },
       {
         "letra": "B",
-        "texto": "Vive-se bem nesta cidade."
+        "texto": "Vive-se bem nesta cidade.",
+        "comentario": "Incorreta. Com verbo intransitivo (\"viver\"), o \"se\" é índice de indeterminação do sujeito, não partícula apassivadora."
       },
       {
         "letra": "C",
@@ -400,11 +444,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Ele se cortou com a faca."
+        "texto": "Ele se cortou com a faca.",
+        "comentario": "Incorreta. Aqui o \"se\" indica voz reflexiva (o sujeito pratica e sofre a ação), não voz passiva."
       },
       {
         "letra": "E",
-        "texto": "A moça se foi chorando."
+        "texto": "A moça se foi chorando.",
+        "comentario": "Incorreta. Nesse caso, \"se\" integra a locução verbal pronominal \"ir-se\" (partir), sem valor de partícula apassivadora."
       }
     ],
     "correta": "C",
@@ -421,11 +467,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Fui eu que levou os relatórios ao diretor da prisão."
+        "texto": "Fui eu que levou os relatórios ao diretor da prisão.",
+        "comentario": "Incorreta. Com o pronome relativo \"que\" retomando \"eu\", o verbo deveria concordar na 1ª pessoa: \"Fui eu que levei\"."
       },
       {
         "letra": "B",
-        "texto": "Fomos nós que organizou a escala de plantão dos agentes."
+        "texto": "Fomos nós que organizou a escala de plantão dos agentes.",
+        "comentario": "Incorreta. Com o pronome relativo \"que\" retomando \"nós\", o verbo deveria concordar na 1ª pessoa do plural: \"Fomos nós que organizamos\"."
       },
       {
         "letra": "C",
@@ -433,7 +481,8 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Mais de um policial se abraçaram após o resgate."
+        "texto": "Mais de um policial se abraçaram após o resgate.",
+        "comentario": "Incorreta. A expressão \"mais de um\" normalmente exige o verbo no singular, salvo quando há ideia clara de reciprocidade; a forma mais adequada segundo a norma-padrão seria \"Mais de um policial se abraçou\"."
       }
     ],
     "gabarito": "C",
@@ -455,15 +504,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "B",
-        "texto": "O policial dirigiu-se à sua mesa para digitar a ocorrência."
+        "texto": "O policial dirigiu-se à sua mesa para digitar a ocorrência.",
+        "comentario": "Incorreta como resposta a esta questão: o uso da crase antes de pronome possessivo feminino singular é facultativo, não obrigatório, diferentemente da alternativa A."
       },
       {
         "letra": "C",
-        "texto": "Ele começou à gritar quando os agentes chegaram à cela."
+        "texto": "Ele começou à gritar quando os agentes chegaram à cela.",
+        "comentario": "Incorreta. Não se usa crase antes de verbo no infinitivo; o correto seria \"começou a gritar\" (sem acento)."
       },
       {
         "letra": "D",
-        "texto": "Os inspetores compareceram à reuniões importantes."
+        "texto": "Os inspetores compareceram à reuniões importantes.",
+        "comentario": "Incorreta. A preposição \"a\" está no singular, mas \"reuniões\" está no plural, o que impede a crase nessa forma; o correto seria \"a reuniões\" (sem acento) ou \"às reuniões\" (se especificadas)."
       }
     ],
     "gabarito": "A",
@@ -481,11 +533,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Os novos policiais penais, que concluíram o curso de formação, assumiram o plantão."
+        "texto": "Os novos policiais penais, que concluíram o curso de formação, assumiram o plantão.",
+        "comentario": "Está CORRETA: a oração explicativa intercalada está corretamente isolada por vírgulas dos dois lados; por isso não é a alternativa buscada."
       },
       {
         "letra": "B",
-        "texto": "Ontem pela manhã, realizou-se uma grande operação de vistoria no pavilhão B."
+        "texto": "Ontem pela manhã, realizou-se uma grande operação de vistoria no pavilhão B.",
+        "comentario": "Está CORRETA: a vírgula isola o adjunto adverbial deslocado para o início da frase; por isso não é a alternativa buscada."
       },
       {
         "letra": "C",
@@ -493,7 +547,8 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Embora fizesse muito frio, os detentos tomaram o banho de sol regular."
+        "texto": "Embora fizesse muito frio, os detentos tomaram o banho de sol regular.",
+        "comentario": "Está CORRETA: a vírgula isola a oração subordinada adverbial concessiva anteposta; por isso não é a alternativa buscada."
       }
     ],
     "gabarito": "C",
@@ -515,15 +570,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "B",
-        "texto": "Todos assistiram o jogo da seleção no refeitório."
+        "texto": "Todos assistiram o jogo da seleção no refeitório.",
+        "comentario": "Incorreta. No sentido de \"ver/presenciar\", \"assistir\" exige a preposição \"a\" (\"assistiram ao jogo\")."
       },
       {
         "letra": "C",
-        "texto": "O detento preferia o trabalho do que o estudo."
+        "texto": "O detento preferia o trabalho do que o estudo.",
+        "comentario": "Incorreta. A estrutura correta de \"preferir\" é \"preferir A a B\", sem o \"do\" (\"preferia o trabalho ao estudo\")."
       },
       {
         "letra": "D",
-        "texto": "Esqueci-me o nome do secretário de administração."
+        "texto": "Esqueci-me o nome do secretário de administração.",
+        "comentario": "Incorreta. O verbo pronominal \"esquecer-se\" exige a preposição \"de\" (\"esqueci-me DO nome\")."
       }
     ],
     "gabarito": "A",
@@ -541,11 +599,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Nunca se deve divulgar informações restritas da instituição."
+        "texto": "Nunca se deve divulgar informações restritas da instituição.",
+        "comentario": "Está CORRETA: \"nunca\" é palavra atrativa, exigindo próclise, corretamente empregada; por isso não é a alternativa com erro buscada."
       },
       {
         "letra": "B",
-        "texto": "O diretor chamou-o para uma conversa de emergência."
+        "texto": "O diretor chamou-o para uma conversa de emergência.",
+        "comentario": "Está CORRETA: em início de oração, sem palavra atrativa antes do verbo, a ênclise é adequada; por isso não é a alternativa com erro buscada."
       },
       {
         "letra": "C",
@@ -553,7 +613,8 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Deus o guarde em sua caminhada profissional."
+        "texto": "Deus o guarde em sua caminhada profissional.",
+        "comentario": "Está CORRETA: trata-se de próclise em construção de cunho optativo, uso tradicionalmente aceito; por isso não é a alternativa com erro buscada."
       }
     ],
     "gabarito": "C",
@@ -571,7 +632,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Seguem anexo os comprovantes de presença do preso."
+        "texto": "Seguem anexo os comprovantes de presença do preso.",
+        "comentario": "Incorreta. Como \"anexo\" funciona aqui como adjetivo referindo-se a \"comprovantes\" (substantivo plural), a concordância correta seria \"Seguem anexos os comprovantes\"."
       },
       {
         "letra": "B",
@@ -579,11 +641,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "Elas mesma assinaram a ata de abertura dos portões."
+        "texto": "Elas mesma assinaram a ata de abertura dos portões.",
+        "comentario": "Incorreta. \"Mesma\" deve concordar em número com \"elas\": o correto é \"Elas mesmas assinaram\"."
       },
       {
         "letra": "D",
-        "texto": "É proibida entrada de pessoas estranhas sem autorização escrita."
+        "texto": "É proibida entrada de pessoas estranhas sem autorização escrita.",
+        "comentario": "Incorreta. Como \"entrada\" não vem precedida de artigo nessa construção, a concordância correta é com a forma invariável: \"É proibido entrada de pessoas estranhas...\"."
       }
     ],
     "gabarito": "B",
@@ -605,15 +669,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "B",
-        "texto": "seção"
+        "texto": "seção",
+        "comentario": "Incorreta. \"Seção\" significa parte, divisão ou repartição, não se referindo a \"ceder/transferir terras\"."
       },
       {
         "letra": "C",
-        "texto": "sessão"
+        "texto": "sessão",
+        "comentario": "Incorreta. \"Sessão\" refere-se a um espaço de tempo (reunião, sessão de cinema/julgamento), não à transferência de terras."
       },
       {
         "letra": "D",
-        "texto": "secção"
+        "texto": "secção",
+        "comentario": "Incorreta. \"Secção\" é variante gráfica de \"seção\" (parte, divisão), não se referindo à transferência de terras."
       }
     ],
     "gabarito": "A",
@@ -630,7 +697,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Concessão — o agente preservou os direitos apesar das circunstâncias."
+        "texto": "Concessão — o agente preservou os direitos apesar das circunstâncias.",
+        "comentario": "Incorreta. O gerúndio \"preservando\" não indica uma dificuldade superada (concessão), mas uma ação simultânea à ação principal."
       },
       {
         "letra": "B",
@@ -638,11 +706,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "Consequência — a eficácia da operação resultou na preservação dos direitos."
+        "texto": "Consequência — a eficácia da operação resultou na preservação dos direitos.",
+        "comentario": "Incorreta. O texto não indica que a eficácia da operação causou a preservação dos direitos; o gerúndio expressa simultaneidade, não relação de causa e efeito."
       },
       {
         "letra": "D",
-        "texto": "Condição — apenas se preservar os direitos a operação será eficaz."
+        "texto": "Condição — apenas se preservar os direitos a operação será eficaz.",
+        "comentario": "Incorreta. O texto não estabelece uma condição hipotética para a eficácia da operação; o gerúndio \"preservando\" expressa uma ação concomitante."
       }
     ],
     "gabarito": "B",
@@ -660,7 +730,8 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "idéia, heróico, saudável, bônus"
+        "texto": "idéia, heróico, saudável, bônus",
+        "comentario": "Incorreta. \"Idéia\" e \"heróico\" mantêm acentos que foram eliminados pelo Acordo Ortográfico de 2009 (o correto é \"ideia\" e \"heroico\")."
       },
       {
         "letra": "B",
@@ -668,11 +739,13 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "C",
-        "texto": "ideia, heróico, saudavel, bonus"
+        "texto": "ideia, heróico, saudavel, bonus",
+        "comentario": "Incorreta. \"Heróico\" deveria perder o acento (\"heroico\"), e \"saudável\" e \"bônus\" deveriam manter seus acentos, grafados aqui incorretamente sem eles (\"saudavel\", \"bonus\")."
       },
       {
         "letra": "D",
-        "texto": "idéia, heroico, saudável, bonus"
+        "texto": "idéia, heroico, saudável, bonus",
+        "comentario": "Incorreta. \"Idéia\" mantém acento que foi eliminado pelo Acordo (correto é \"ideia\"), e \"bônus\" deveria manter o acento circunflexo (correto é \"bônus\", não \"bonus\")."
       }
     ],
     "gabarito": "B",
@@ -690,11 +763,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Simples — o sujeito é \"muito\"."
+        "texto": "Simples — o sujeito é \"muito\".",
+        "comentario": "Incorreta. \"Muito\" é advérbio de intensidade nessa frase, não podendo exercer função de sujeito."
       },
       {
         "letra": "B",
-        "texto": "Composto — formado por \"muito\" e \"naquela tarde\"."
+        "texto": "Composto — formado por \"muito\" e \"naquela tarde\".",
+        "comentario": "Incorreta. Nem \"muito\" nem \"naquela tarde\" são núcleos de sujeito; ambos são advérbios/adjuntos adverbiais, e a oração não apresenta sujeito expresso."
       },
       {
         "letra": "C",
@@ -702,7 +777,8 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Inexistente — a oração tem predicado nominal."
+        "texto": "Inexistente — a oração tem predicado nominal.",
+        "comentario": "Incorreta. A oração tem predicado verbal (o verbo \"correu\" indica ação), e não predicado nominal; o sujeito é indeterminado, não inexistente."
       }
     ],
     "gabarito": "C",
@@ -720,11 +796,13 @@ const QUESTIONS_PORTUGUES = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Hipérbole — exagero para dar ênfase à imparcialidade da lei."
+        "texto": "Hipérbole — exagero para dar ênfase à imparcialidade da lei.",
+        "comentario": "Incorreta. Não há exagero implausível na frase; o termo \"cega\" é empregado em sentido figurado para indicar imparcialidade, caracterizando metáfora, não hipérbole."
       },
       {
         "letra": "B",
-        "texto": "Antítese — oposição entre \"cega\" (imparcial) e \"enxergar\" (perceber a realidade)."
+        "texto": "Antítese — oposição entre \"cega\" (imparcial) e \"enxergar\" (perceber a realidade).",
+        "comentario": "Incorreta como figura predominante: embora haja uma oposição de ideias entre \"cega\" e \"enxergar\", a figura que caracteriza a expressão \"a lei é cega\" em si é a metáfora."
       },
       {
         "letra": "C",
@@ -732,7 +810,8 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "D",
-        "texto": "Metonímia — \"lei\" representa o sistema judiciário como um todo."
+        "texto": "Metonímia — \"lei\" representa o sistema judiciário como um todo.",
+        "comentario": "Incorreta. Não há substituição de um termo por outro com o qual mantém relação de contiguidade (como parte pelo todo); o que ocorre é o emprego figurado de \"cega\", caracterizando metáfora."
       }
     ],
     "gabarito": "C",
@@ -754,15 +833,18 @@ const QUESTIONS_PORTUGUES = [
       },
       {
         "letra": "B",
-        "texto": "Pronome + adjetivo + substantivo."
+        "texto": "Pronome + adjetivo + substantivo.",
+        "comentario": "Incorreta. \"Pela\" não é pronome, e \"tarde\" não é precedida de adjetivo nessa construção."
       },
       {
         "letra": "C",
-        "texto": "Conjunção + artigo + substantivo."
+        "texto": "Conjunção + artigo + substantivo.",
+        "comentario": "Incorreta. \"Pela\" é contração de preposição + artigo, e não conjunção."
       },
       {
         "letra": "D",
-        "texto": "Preposição + artigo indefinido + substantivo."
+        "texto": "Preposição + artigo indefinido + substantivo.",
+        "comentario": "Incorreta. O artigo contraído em \"pela\" é definido (\"a\"), não indefinido."
       }
     ],
     "gabarito": "A",
@@ -779,9 +861,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa que reescreve corretamente o período \"Embora estivesse cansado, o agente concluiu a ronda\", mantendo o sentido original e a correção gramatical:",
     "alternativas": [
       { "letra": "A", "texto": "Ainda que estivesse cansado, o agente concluiu a ronda." },
-      { "letra": "B", "texto": "Porque estivesse cansado, o agente concluiu a ronda." },
-      { "letra": "C", "texto": "Se estivesse cansado, o agente concluiu a ronda." },
-      { "letra": "D", "texto": "Enquanto estivesse cansado, o agente concluiu a ronda." }
+      { "letra": "B", "texto": "Porque estivesse cansado, o agente concluiu a ronda.", "comentario": "Incorreta. \"Porque\" estabelece relação causal, alterando o sentido concessivo original de \"embora\"." },
+      { "letra": "C", "texto": "Se estivesse cansado, o agente concluiu a ronda.", "comentario": "Incorreta. \"Se\" estabelece relação condicional, alterando o sentido concessivo original de \"embora\"." },
+      { "letra": "D", "texto": "Enquanto estivesse cansado, o agente concluiu a ronda.", "comentario": "Incorreta. \"Enquanto\" estabelece relação temporal, alterando o sentido concessivo original de \"embora\"." }
     ],
     "gabarito": "A",
     "artigo": "Coesão Textual - Conectivos Concessivos",
@@ -796,9 +878,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "A frase \"O diretor assinou o documento\" pode ser reescrita na voz passiva analítica, mantendo o mesmo sentido, como:",
     "alternativas": [
       { "letra": "A", "texto": "O documento foi assinado pelo diretor." },
-      { "letra": "B", "texto": "O documento assinou o diretor." },
-      { "letra": "C", "texto": "O diretor foi assinado pelo documento." },
-      { "letra": "D", "texto": "Assinar o documento é o diretor." }
+      { "letra": "B", "texto": "O documento assinou o diretor.", "comentario": "Incorreta. Essa construção inverte indevidamente sujeito e objeto sem os elementos próprios da voz passiva analítica (verbo auxiliar + particípio + agente da passiva)." },
+      { "letra": "C", "texto": "O diretor foi assinado pelo documento.", "comentario": "Incorreta. Essa frase inverte o sentido original: sugere que o diretor sofreu a ação de ser assinado, quando na verdade ele é quem pratica a ação de assinar." },
+      { "letra": "D", "texto": "Assinar o documento é o diretor.", "comentario": "Incorreta. Essa construção não corresponde a uma voz passiva analítica; é uma estrutura gramaticalmente inadequada para expressar o sentido original." }
     ],
     "gabarito": "A",
     "artigo": "Vozes Verbais - Ativa e Passiva",
@@ -814,9 +896,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa que substitui a palavra sublinhada mantendo o sentido original da frase \"O servidor cumpriu RIGOROSAMENTE as normas disciplinares\":",
     "alternativas": [
       { "letra": "A", "texto": "O servidor cumpriu ESTRITAMENTE as normas disciplinares." },
-      { "letra": "B", "texto": "O servidor cumpriu RARAMENTE as normas disciplinares." },
-      { "letra": "C", "texto": "O servidor cumpriu DISPLICENTEMENTE as normas disciplinares." },
-      { "letra": "D", "texto": "O servidor cumpriu EVENTUALMENTE as normas disciplinares." }
+      { "letra": "B", "texto": "O servidor cumpriu RARAMENTE as normas disciplinares.", "comentario": "Incorreta. \"Raramente\" indica baixa frequência, sentido oposto ao de \"rigorosamente\" (cumprimento estrito)." },
+      { "letra": "C", "texto": "O servidor cumpriu DISPLICENTEMENTE as normas disciplinares.", "comentario": "Incorreta. \"Displicentemente\" indica descuido/desleixo, sentido oposto ao de \"rigorosamente\"." },
+      { "letra": "D", "texto": "O servidor cumpriu EVENTUALMENTE as normas disciplinares.", "comentario": "Incorreta. \"Eventualmente\" indica algo ocasional, sentido oposto ao de \"rigorosamente\" (cumprimento constante e estrito)." }
     ],
     "gabarito": "A",
     "artigo": "Significação das Palavras - Sinonímia",
@@ -831,9 +913,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa que reorganiza o período \"Como chovia muito, a ronda externa foi suspensa\", mantendo a mesma relação de sentido entre as orações:",
     "alternativas": [
       { "letra": "A", "texto": "A ronda externa foi suspensa, pois chovia muito." },
-      { "letra": "B", "texto": "A ronda externa foi suspensa, embora chovesse muito." },
-      { "letra": "C", "texto": "A ronda externa foi suspensa, para que chovesse muito." },
-      { "letra": "D", "texto": "A ronda externa foi suspensa, chovendo muito depois." }
+      { "letra": "B", "texto": "A ronda externa foi suspensa, embora chovesse muito.", "comentario": "Incorreta. \"Embora\" introduz relação concessiva, alterando a relação de causa e consequência do período original." },
+      { "letra": "C", "texto": "A ronda externa foi suspensa, para que chovesse muito.", "comentario": "Incorreta. \"Para que\" introduz relação de finalidade, alterando o sentido causal original e invertendo a lógica da frase." },
+      { "letra": "D", "texto": "A ronda externa foi suspensa, chovendo muito depois.", "comentario": "Incorreta. Essa reorganização quebra a relação de causa e consequência original e ainda introduz uma incoerência temporal (\"depois\")." }
     ],
     "gabarito": "A",
     "artigo": "Coesão Textual - Relações Lógico-Semânticas (Causa)",
@@ -849,9 +931,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa em que o uso do acento indicativo de crase está CORRETO:",
     "alternativas": [
       { "letra": "A", "texto": "O agente penitenciário entregou o relatório à diretora do estabelecimento." },
-      { "letra": "B", "texto": "O preso foi conduzido à pé até a cela de isolamento." },
-      { "letra": "C", "texto": "A audiência ocorrerá à partir das 14 horas." },
-      { "letra": "D", "texto": "Ele se referiu à ela de forma respeitosa." }
+      { "letra": "B", "texto": "O preso foi conduzido à pé até a cela de isolamento.", "comentario": "Incorreta. Não se usa crase antes de palavra masculina, como \"pé\"; o correto é \"a pé\"." },
+      { "letra": "C", "texto": "A audiência ocorrerá à partir das 14 horas.", "comentario": "Incorreta. Não se usa crase antes da locução prepositiva \"a partir de\"; o correto é \"a partir das 14 horas\"." },
+      { "letra": "D", "texto": "Ele se referiu à ela de forma respeitosa.", "comentario": "Incorreta. Não se usa crase antes de pronome pessoal do caso reto, como \"ela\"; o correto é \"a ela\"." }
     ],
     "gabarito": "A",
     "artigo": "Regência Nominal e Crase",
@@ -865,9 +947,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa em que a pontuação está CORRETA quanto ao uso de vírgulas para isolar aposto e vocativo:",
     "alternativas": [
       { "letra": "A", "texto": "João, o novo agente penitenciário, apresentou-se ao diretor esta manhã." },
-      { "letra": "B", "texto": "João o novo agente penitenciário, apresentou-se ao diretor esta manhã." },
-      { "letra": "C", "texto": "João, o novo agente penitenciário apresentou-se ao diretor esta manhã." },
-      { "letra": "D", "texto": "João o novo agente penitenciário apresentou-se, ao diretor esta manhã." }
+      { "letra": "B", "texto": "João o novo agente penitenciário, apresentou-se ao diretor esta manhã.", "comentario": "Incorreta. Falta a vírgula de abertura do aposto explicativo, que deveria ser isolado dos dois lados: \"João, o novo agente penitenciário,\"." },
+      { "letra": "C", "texto": "João, o novo agente penitenciário apresentou-se ao diretor esta manhã.", "comentario": "Incorreta. Falta a vírgula de fechamento do aposto explicativo, que deveria ser isolado dos dois lados." },
+      { "letra": "D", "texto": "João o novo agente penitenciário apresentou-se, ao diretor esta manhã.", "comentario": "Incorreta. Falta a pontuação do aposto explicativo, e há ainda uma vírgula indevida separando o verbo do seu complemento (\"apresentou-se,\" ao diretor)." }
     ],
     "gabarito": "A",
     "artigo": "Pontuação - Uso da Vírgula",
@@ -882,9 +964,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa em que o par de palavras destacadas está empregado CORRETAMENTE, quanto à distinção entre parônimos/homófonos:",
     "alternativas": [
       { "letra": "A", "texto": "\"Se não\" cumprir as normas, será punido; ele agiu mal durante o plantão." },
-      { "letra": "B", "texto": "\"Senão\" cumprir as normas, será punido; ele agiu mau durante o plantão." },
-      { "letra": "C", "texto": "\"Se não\" cumprir as normas, será punido; ele agiu mau durante o plantão." },
-      { "letra": "D", "texto": "\"Senão\" cumprir as normas, será punido; ele agiu mal durante o plantão." }
+      { "letra": "B", "texto": "\"Senão\" cumprir as normas, será punido; ele agiu mau durante o plantão.", "comentario": "Incorreta. A primeira parte usa \"senão\" indevidamente no lugar de \"se não\" (condicional + negação), e a segunda usa \"mau\" (adjetivo) no lugar de \"mal\" (advérbio que modifica \"agiu\")." },
+      { "letra": "C", "texto": "\"Se não\" cumprir as normas, será punido; ele agiu mau durante o plantão.", "comentario": "Incorreta. A segunda parte usa \"mau\" (adjetivo) no lugar de \"mal\" (advérbio que modifica o verbo \"agiu\")." },
+      { "letra": "D", "texto": "\"Senão\" cumprir as normas, será punido; ele agiu mal durante o plantão.", "comentario": "Incorreta. A primeira parte usa \"senão\" indevidamente no lugar de \"se não\" (condicional + negação) antes de uma condição." }
     ],
     "gabarito": "A",
     "artigo": "Ortografia - Parônimos (mal/mau) e Homófonos (se não/senão)",
@@ -898,10 +980,10 @@ const QUESTIONS_PORTUGUES = [
     "dificuldade": "medio",
     "enunciado": "Um texto que apresenta uma sequência de instruções, como um manual de procedimentos operacionais para abordagem policial, caracteriza-se predominantemente como do tipo:",
     "alternativas": [
-      { "letra": "A", "texto": "Narrativo, pois relata uma sucessão de fatos ocorridos no passado." },
+      { "letra": "A", "texto": "Narrativo, pois relata uma sucessão de fatos ocorridos no passado.", "comentario": "Incorreta. Um manual de instruções não relata uma sucessão de fatos passados; ele se organiza em torno de comandos para orientar a realização de uma ação." },
       { "letra": "B", "texto": "Injuntivo (ou instrucional), pois orienta a realização de uma ação por meio de comandos ou instruções." },
-      { "letra": "C", "texto": "Descritivo, pois se limita a caracterizar objetos ou pessoas." },
-      { "letra": "D", "texto": "Dissertativo-argumentativo, pois defende um ponto de vista sobre um tema controverso." }
+      { "letra": "C", "texto": "Descritivo, pois se limita a caracterizar objetos ou pessoas.", "comentario": "Incorreta. O texto não se limita a caracterizar objetos ou pessoas; ele orienta a execução de uma ação por meio de instruções." },
+      { "letra": "D", "texto": "Dissertativo-argumentativo, pois defende um ponto de vista sobre um tema controverso.", "comentario": "Incorreta. O texto não defende um ponto de vista sobre tema controverso; apresenta instruções objetivas de procedimento." }
     ],
     "gabarito": "B",
     "artigo": "Tipologia Textual",
@@ -915,9 +997,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Assinale a alternativa em que a regência nominal (uso da preposição exigida pelo nome) está CORRETA:",
     "alternativas": [
       { "letra": "A", "texto": "O servidor demonstrou aptidão para o exercício da função." },
-      { "letra": "B", "texto": "O servidor demonstrou aptidão do exercício da função." },
-      { "letra": "C", "texto": "O agente é obediente com as normas internas." },
-      { "letra": "D", "texto": "O agente é obediente sobre as normas internas." }
+      { "letra": "B", "texto": "O servidor demonstrou aptidão do exercício da função.", "comentario": "Incorreta. \"Aptidão\" rege a preposição \"para\" (\"aptidão PARA o exercício\"), não \"de\"." },
+      { "letra": "C", "texto": "O agente é obediente com as normas internas.", "comentario": "Incorreta. \"Obediente\" rege a preposição \"a\" (\"obediente ÀS normas\"), não \"com\"." },
+      { "letra": "D", "texto": "O agente é obediente sobre as normas internas.", "comentario": "Incorreta. \"Obediente\" rege a preposição \"a\" (\"obediente ÀS normas\"), não \"sobre\"." }
     ],
     "gabarito": "A",
     "artigo": "Regência Nominal",
@@ -931,9 +1013,9 @@ const QUESTIONS_PORTUGUES = [
     "enunciado": "Em \"O diretor conversou com o novo agente e lhe entregou o crachá\", o termo \"lhe\" retoma, por coesão referencial, o seguinte elemento do texto:",
     "alternativas": [
       { "letra": "A", "texto": "\"o novo agente\", funcionando como objeto indireto do verbo \"entregar\"." },
-      { "letra": "B", "texto": "\"o diretor\", funcionando como sujeito da oração." },
-      { "letra": "C", "texto": "\"o crachá\", funcionando como objeto direto do verbo \"entregar\"." },
-      { "letra": "D", "texto": "Nenhum elemento anterior, tratando-se de um pronome sem referente no texto." }
+      { "letra": "B", "texto": "\"o diretor\", funcionando como sujeito da oração.", "comentario": "Incorreta. \"O diretor\" já é o sujeito da oração, praticando a ação; \"lhe\" retoma o destinatário da ação, e não o próprio sujeito." },
+      { "letra": "C", "texto": "\"o crachá\", funcionando como objeto direto do verbo \"entregar\".", "comentario": "Incorreta. \"O crachá\" é o próprio objeto direto do verbo \"entregar\" na frase, sendo o elemento entregue, e não aquele a quem se entrega (função do pronome \"lhe\")." },
+      { "letra": "D", "texto": "Nenhum elemento anterior, tratando-se de um pronome sem referente no texto.", "comentario": "Incorreta. O pronome \"lhe\" tem referente claro no texto: \"o novo agente\", a quem o crachá foi entregue." }
     ],
     "gabarito": "A",
     "artigo": "Coesão Referencial - Pronomes Oblíquos",

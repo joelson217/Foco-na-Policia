@@ -10,15 +10,18 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Polícia Rodoviária Federal."
+        "texto": "Polícia Rodoviária Federal.",
+        "comentario": "A Polícia Rodoviária Federal está expressamente prevista no inciso II do art. 144 da CF como órgão de segurança pública, portanto não é a resposta buscada pela questão."
       },
       {
         "letra": "B",
-        "texto": "Polícias Militares."
+        "texto": "Polícias Militares.",
+        "comentario": "As Polícias Militares constam do inciso V do art. 144 da CF como órgão de segurança pública, o que torna esta alternativa incorreta para a pergunta."
       },
       {
         "letra": "C",
-        "texto": "Polícias Penais Federais, Estaduais e Distrital."
+        "texto": "Polícias Penais Federais, Estaduais e Distrital.",
+        "comentario": "As Polícias Penais foram incluídas no inciso VI do art. 144 da CF pela EC 104/2019, sendo órgão de segurança pública, o que afasta esta alternativa como resposta."
       },
       {
         "letra": "D",
@@ -40,11 +43,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Em nenhuma hipótese."
+        "texto": "Em nenhuma hipótese.",
+        "comentario": "Incorreta, pois a própria CF prevê uma exceção: haverá pena de morte em caso de guerra declarada, nos termos do art. 5º, XLVII, \"a\", c/c art. 84, XIX."
       },
       {
         "letra": "B",
-        "texto": "Apenas em caso de crimes hediondos com resultado morte."
+        "texto": "Apenas em caso de crimes hediondos com resultado morte.",
+        "comentario": "Incorreta, pois os crimes hediondos não constituem a hipótese excepcional prevista na Constituição para a pena de morte, restrita à guerra declarada."
       },
       {
         "letra": "C",
@@ -52,7 +57,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Apenas por crimes militares em tempo de paz."
+        "texto": "Apenas por crimes militares em tempo de paz.",
+        "comentario": "Incorreta, pois a exceção constitucional exige guerra declarada, não bastando a prática de crime militar em tempo de paz."
       }
     ],
     "gabarito": "C",
@@ -70,11 +76,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Mandado de Segurança."
+        "texto": "Mandado de Segurança.",
+        "comentario": "Incorreto, pois o mandado de segurança protege direito líquido e certo não amparado por habeas corpus ou habeas data, e não a liberdade de locomoção."
       },
       {
         "letra": "B",
-        "texto": "Habeas Data."
+        "texto": "Habeas Data.",
+        "comentario": "Incorreto, pois o habeas data tutela o conhecimento ou a retificação de informações da pessoa do impetrante constantes de registros governamentais, não a liberdade de locomoção."
       },
       {
         "letra": "C",
@@ -82,7 +90,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Ação Popular."
+        "texto": "Ação Popular.",
+        "comentario": "Incorreto, pois a ação popular visa anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, não a liberdade de locomoção."
       }
     ],
     "gabarito": "C",
@@ -100,11 +109,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Prover e extinguir cargos públicos federais, na forma da lei."
+        "texto": "Prover e extinguir cargos públicos federais, na forma da lei.",
+        "comentario": "Incorreta, pois essa competência (inciso XXV) pode ser delegada pelo Presidente aos Ministros de Estado, PGR ou AGU, nos termos do parágrafo único do art. 84."
       },
       {
         "letra": "B",
-        "texto": "Conceder indulto e comutar penas."
+        "texto": "Conceder indulto e comutar penas.",
+        "comentario": "Incorreta, pois a concessão de indulto e comutação de penas (inciso XII) é uma das competências delegáveis previstas no parágrafo único do art. 84."
       },
       {
         "letra": "C",
@@ -112,7 +123,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Dispor, mediante decreto, sobre organização e funcionamento da administração federal, quando não implicar aumento de despesa."
+        "texto": "Dispor, mediante decreto, sobre organização e funcionamento da administração federal, quando não implicar aumento de despesa.",
+        "comentario": "Incorreta, pois essa atribuição (inciso VI) é delegável, conforme o parágrafo único do art. 84, diferentemente da decretação de estado de defesa/sítio."
       }
     ],
     "gabarito": "C",
@@ -130,7 +142,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "15 dias."
+        "texto": "15 dias.",
+        "comentario": "Incorreta, pois o mínimo constitucional do aviso prévio é de trinta dias, e não quinze, nos termos do art. 7º, XXI."
       },
       {
         "letra": "B",
@@ -138,11 +151,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "45 dias."
+        "texto": "45 dias.",
+        "comentario": "Incorreta, pois a Constituição fixa o piso mínimo de trinta dias para o aviso prévio proporcional, e não quarenta e cinco."
       },
       {
         "letra": "D",
-        "texto": "60 dias."
+        "texto": "60 dias.",
+        "comentario": "Incorreta, pois o mínimo estabelecido pelo art. 7º, XXI, da CF é de trinta dias, não sessenta."
       }
     ],
     "gabarito": "B",
@@ -164,15 +179,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Os estrangeiros de qualquer nacionalidade, residentes no Brasil há mais de quinze anos sem condenação penal."
+        "texto": "Os estrangeiros de qualquer nacionalidade, residentes no Brasil há mais de quinze anos sem condenação penal.",
+        "comentario": "Incorreta, pois essa hipótese descreve requisito de naturalização (estrangeiros de qualquer nacionalidade residentes há mais de quinze anos sem condenação penal), e não de brasileiro nato."
       },
       {
         "letra": "C",
-        "texto": "Os nascidos no estrangeiro, de pai brasileiro e mãe estrangeira, sem qualquer outra formalidade, a qualquer tempo."
+        "texto": "Os nascidos no estrangeiro, de pai brasileiro e mãe estrangeira, sem qualquer outra formalidade, a qualquer tempo.",
+        "comentario": "Incorreta, pois o reconhecimento da nacionalidade nato nesse caso exige registro em repartição brasileira competente, ou que o interessado venha residir no Brasil e opte pela nacionalidade brasileira após atingida a maioridade — não ocorre automaticamente sem qualquer formalidade."
       },
       {
         "letra": "D",
-        "texto": "Os originários de países de língua portuguesa com residência de um ano ininterrupto e idoneidade moral."
+        "texto": "Os originários de países de língua portuguesa com residência de um ano ininterrupto e idoneidade moral.",
+        "comentario": "Incorreta, pois essa hipótese corresponde à naturalização especial prevista no art. 12, II, \"b\", da CF, e não à condição de brasileiro nato."
       }
     ],
     "gabarito": "A",
@@ -194,15 +212,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas para os analfabetos e maiores de sessenta anos."
+        "texto": "Apenas para os analfabetos e maiores de sessenta anos.",
+        "comentario": "Incorreta, pois, além de incompleta (falta a faixa dos maiores de 16 e menores de 18 anos), a idade correta prevista no art. 14, § 1º, II, é a partir de setenta anos, e não sessenta."
       },
       {
         "letra": "C",
-        "texto": "Os conscritos durante o serviço militar obrigatório."
+        "texto": "Os conscritos durante o serviço militar obrigatório.",
+        "comentario": "Incorreta, pois para os conscritos durante o serviço militar obrigatório o alistamento eleitoral é vedado, e não apenas facultativo."
       },
       {
         "letra": "D",
-        "texto": "Os brasileiros naturalizados."
+        "texto": "Os brasileiros naturalizados.",
+        "comentario": "Incorreta, pois para os naturalizados o alistamento e o voto seguem as mesmas regras dos natos (obrigatoriedade ou facultatividade conforme idade/condição), não havendo previsão de facultatividade em razão apenas da naturalização."
       }
     ],
     "gabarito": "A",
@@ -220,7 +241,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Exclusivamente aos brasileiros natos."
+        "texto": "Exclusivamente aos brasileiros natos.",
+        "comentario": "Incorreta, pois o art. 37, I, da CF admite também naturalizados e, na forma da lei, estrangeiros no acesso a cargos, empregos e funções públicas."
       },
       {
         "letra": "B",
@@ -228,11 +250,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Exclusivamente a brasileiros natos e naturalizados."
+        "texto": "Exclusivamente a brasileiros natos e naturalizados.",
+        "comentario": "Incorreta, pois exclui indevidamente os estrangeiros, que também podem acessar cargos públicos na forma da lei, conforme o art. 37, I."
       },
       {
         "letra": "D",
-        "texto": "Apenas mediante concurso público de provas e títulos, vedado apenas provas."
+        "texto": "Apenas mediante concurso público de provas e títulos, vedado apenas provas.",
+        "comentario": "Incorreta, pois a Constituição admite o concurso de provas ou de provas e títulos (não veda a modalidade só de provas), e essa alternativa não trata do critério de acessibilidade a brasileiros e estrangeiros exigido pela questão."
       }
     ],
     "gabarito": "B",
@@ -250,11 +274,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Fundo de garantia do tempo de serviço."
+        "texto": "Fundo de garantia do tempo de serviço.",
+        "comentario": "Esta alternativa apresenta um direito verdadeiro dos trabalhadores (FGTS, art. 7º, III), portanto não representa a exceção buscada pela questão."
       },
       {
         "letra": "B",
-        "texto": "Gozar de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal."
+        "texto": "Gozar de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal.",
+        "comentario": "Correto conforme o art. 7º, XVII, da CF, por isso não é a alternativa que a questão busca."
       },
       {
         "letra": "C",
@@ -262,11 +288,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Seguro-desemprego, em caso de desemprego involuntário."
+        "texto": "Seguro-desemprego, em caso de desemprego involuntário.",
+        "comentario": "Trata-se de direito efetivamente previsto no art. 7º, II, da CF, não sendo a exceção procurada pelo enunciado."
       },
       {
         "letra": "E",
-        "texto": "Licença-paternidade."
+        "texto": "Licença-paternidade.",
+        "comentario": "É direito previsto no art. 7º, XIX, c/c art. 10, § 1º, do ADCT, portanto não constitui a exceção buscada pela questão."
       }
     ],
     "correta": "C",
@@ -283,11 +311,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Habeas Corpus."
+        "texto": "Habeas Corpus.",
+        "comentario": "Incorreto, pois o habeas corpus protege a liberdade de locomoção, e não o acesso a informações pessoais em registros governamentais."
       },
       {
         "letra": "B",
-        "texto": "Mandado de Segurança."
+        "texto": "Mandado de Segurança.",
+        "comentario": "Incorreto, pois o mandado de segurança tutela direito líquido e certo não amparado por habeas corpus ou habeas data, não sendo o instrumento específico para acesso a dados pessoais."
       },
       {
         "letra": "C",
@@ -295,11 +325,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Mandado de Injunção."
+        "texto": "Mandado de Injunção.",
+        "comentario": "Incorreto, pois o mandado de injunção é cabível diante da falta de norma regulamentadora que inviabilize direitos e liberdades constitucionais, não para acesso a informações pessoais em registros."
       },
       {
         "letra": "E",
-        "texto": "Ação Popular."
+        "texto": "Ação Popular.",
+        "comentario": "Incorreto, pois a ação popular visa anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, não o acesso a dados pessoais."
       }
     ],
     "correta": "C",
@@ -320,19 +352,23 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Legalidade, Igualdade, Motivação, Publicidade e Eficiência."
+        "texto": "Legalidade, Igualdade, Motivação, Publicidade e Eficiência.",
+        "comentario": "Incorreta, pois os princípios expressos no art. 37 são legalidade, impessoalidade, moralidade, publicidade e eficiência — \"igualdade\" e \"motivação\" não fazem parte do rol expresso (mnemônico LIMPE)."
       },
       {
         "letra": "C",
-        "texto": "Legalidade, Impessoalidade, Moralidade, Pessoalidade e Eficácia."
+        "texto": "Legalidade, Impessoalidade, Moralidade, Pessoalidade e Eficácia.",
+        "comentario": "Incorreta, pois inverte o princípio da impessoalidade para \"pessoalidade\" e substitui \"eficiência\" por \"eficácia\", termos que não constam do texto do art. 37."
       },
       {
         "letra": "D",
-        "texto": "Lealdade, Integridade, Moralidade, Publicidade e Estabilidade."
+        "texto": "Lealdade, Integridade, Moralidade, Publicidade e Estabilidade.",
+        "comentario": "Incorreta, pois troca os termos corretos (legalidade, impessoalidade, publicidade e eficiência) por palavras semelhantes que não constam do rol constitucional do art. 37."
       },
       {
         "letra": "E",
-        "texto": "Legalidade, Impessoalidade, Mérito, Publicidade e Efetividade."
+        "texto": "Legalidade, Impessoalidade, Mérito, Publicidade e Efetividade.",
+        "comentario": "Incorreta, pois substitui \"moralidade\" e \"eficiência\" pelos termos \"mérito\" e \"efetividade\", que não integram o rol expresso do art. 37 da CF."
       }
     ],
     "correta": "A",
@@ -349,11 +385,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Deputado Federal."
+        "texto": "Deputado Federal.",
+        "comentario": "Incorreta, pois o cargo de Deputado Federal pode ser exercido por brasileiro naturalizado, não constando do rol taxativo do art. 12, § 3º, da CF."
       },
       {
         "letra": "B",
-        "texto": "Senador da República."
+        "texto": "Senador da República.",
+        "comentario": "Incorreta, pois o cargo de Senador pode ser ocupado por brasileiro naturalizado, não estando entre os cargos privativos de nato listados no art. 12, § 3º."
       },
       {
         "letra": "C",
@@ -361,11 +399,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Governador de Estado."
+        "texto": "Governador de Estado.",
+        "comentario": "Incorreta, pois o cargo de Governador de Estado não consta do rol do art. 12, § 3º, podendo ser exercido por brasileiro naturalizado."
       },
       {
         "letra": "E",
-        "texto": "Ministro da Fazenda."
+        "texto": "Ministro da Fazenda.",
+        "comentario": "Incorreta, pois apenas o cargo de Ministro de Estado da Defesa é privativo de brasileiro nato (art. 12, § 3º, VII); os demais Ministérios, como o da Fazenda, podem ser ocupados por naturalizados."
       }
     ],
     "correta": "C",
@@ -382,15 +422,18 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Polícia Federal."
+        "texto": "Polícia Federal.",
+        "comentario": "Incorreta, pois a Polícia Federal está prevista no inciso I do art. 144 da CF como órgão de segurança pública."
       },
       {
         "letra": "B",
-        "texto": "Polícia Rodoviária Federal."
+        "texto": "Polícia Rodoviária Federal.",
+        "comentario": "Incorreta, pois consta do inciso II do art. 144 como órgão de segurança pública."
       },
       {
         "letra": "C",
-        "texto": "Polícia Penal Federal, Estadual e Distrital."
+        "texto": "Polícia Penal Federal, Estadual e Distrital.",
+        "comentario": "Incorreta, pois as Polícias Penais foram incluídas no inciso VI do art. 144 pela EC 104/2019, sendo órgão de segurança pública."
       },
       {
         "letra": "D",
@@ -398,7 +441,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "E",
-        "texto": "Polícias Militares."
+        "texto": "Polícias Militares.",
+        "comentario": "Incorreta, pois as Polícias Militares constam do inciso V do art. 144 como órgão de segurança pública."
       }
     ],
     "correta": "D",
@@ -419,19 +463,23 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Não será superior a 60 dias, sem prorrogação."
+        "texto": "Não será superior a 60 dias, sem prorrogação.",
+        "comentario": "Incorreta, pois o prazo constitucional do estado de defesa é de trinta dias (não sessenta), admitindo uma prorrogação por igual período, nos termos do art. 136, § 2º."
       },
       {
         "letra": "C",
-        "texto": "É indeterminado, enquanto durar a crise."
+        "texto": "É indeterminado, enquanto durar a crise.",
+        "comentario": "Incorreta, pois o estado de defesa tem prazo determinado (trinta dias, prorrogável uma vez por igual período), não podendo durar indefinidamente enquanto persistir a crise."
       },
       {
         "letra": "D",
-        "texto": "Deve ser renovado a cada 15 dias pelo Congresso."
+        "texto": "Deve ser renovado a cada 15 dias pelo Congresso.",
+        "comentario": "Incorreta, pois não há previsão de renovações a cada quinze dias; o art. 136, § 2º, prevê prazo de trinta dias com uma única prorrogação possível."
       },
       {
         "letra": "E",
-        "texto": "Não excederá a 30 dias, podendo ser prorrogado sucessivas vezes por igual período."
+        "texto": "Não excederá a 30 dias, podendo ser prorrogado sucessivas vezes por igual período.",
+        "comentario": "Incorreta, pois o art. 136, § 2º, permite apenas UMA prorrogação por igual período, não prorrogações sucessivas."
       }
     ],
     "correta": "A",
@@ -448,7 +496,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A criação de associações e cooperativas depende de autorização estatal."
+        "texto": "A criação de associações e cooperativas depende de autorização estatal.",
+        "comentario": "Incorreta, pois o art. 5º, XVIII, da CF veda a exigência de autorização estatal para a criação de associações."
       },
       {
         "letra": "B",
@@ -456,15 +505,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "O Estado pode interferir livremente no funcionamento das associações civis."
+        "texto": "O Estado pode interferir livremente no funcionamento das associações civis.",
+        "comentario": "Incorreta, pois o art. 5º, XVIII, veda expressamente a interferência estatal no funcionamento das associações."
       },
       {
         "letra": "D",
-        "texto": "As atividades das associações podem ser suspensas por ato do Poder Executivo."
+        "texto": "As atividades das associações podem ser suspensas por ato do Poder Executivo.",
+        "comentario": "Incorreta, pois a suspensão das atividades de associações somente pode ocorrer por decisão judicial (art. 5º, XIX), e não por ato do Poder Executivo."
       },
       {
         "letra": "E",
-        "texto": "Qualquer pessoa pode ser compelida a associar-se, se for de interesse público."
+        "texto": "Qualquer pessoa pode ser compelida a associar-se, se for de interesse público.",
+        "comentario": "Incorreta, pois o art. 5º, XX, assegura que ninguém poderá ser compelido a associar-se ou a permanecer associado, ainda que sob alegação de interesse público."
       }
     ],
     "correta": "B",
@@ -481,7 +533,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A liberdade de informação."
+        "texto": "A liberdade de informação.",
+        "comentario": "Incorreta, pois a liberdade de informação não é tutelada pelo habeas corpus, remédio destinado à proteção da liberdade de locomoção."
       },
       {
         "letra": "B",
@@ -489,15 +542,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "O direito líquido e certo não amparado por outra ação."
+        "texto": "O direito líquido e certo não amparado por outra ação.",
+        "comentario": "Incorreta, pois essa é a definição do mandado de segurança (art. 5º, LXIX), não do habeas corpus."
       },
       {
         "letra": "D",
-        "texto": "O direito à retificação de dados públicos."
+        "texto": "O direito à retificação de dados públicos.",
+        "comentario": "Incorreta, pois a retificação de dados é tutelada pelo habeas data (art. 5º, LXXII), não pelo habeas corpus."
       },
       {
         "letra": "E",
-        "texto": "A correção de abuso de autoridade em questões tributárias."
+        "texto": "A correção de abuso de autoridade em questões tributárias.",
+        "comentario": "Incorreta, pois o habeas corpus tutela especificamente a liberdade de locomoção, e não questões tributárias em geral."
       }
     ],
     "correta": "B",
@@ -514,7 +570,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O brasileiro nato pode ser extraditado em caso de tráfico de drogas."
+        "texto": "O brasileiro nato pode ser extraditado em caso de tráfico de drogas.",
+        "comentario": "Incorreta, pois o brasileiro nato jamais pode ser extraditado pelo Brasil, independentemente do crime; a hipótese de tráfico de drogas a qualquer tempo aplica-se apenas ao naturalizado."
       },
       {
         "letra": "B",
@@ -522,15 +579,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Qualquer estrangeiro pode ser extraditado por crime político."
+        "texto": "Qualquer estrangeiro pode ser extraditado por crime político.",
+        "comentario": "Incorreta, pois o art. 5º, LII, veda a extradição de estrangeiro por crime político ou de opinião."
       },
       {
         "letra": "D",
-        "texto": "O brasileiro nato poderá ser extraditado se tiver dupla nacionalidade."
+        "texto": "O brasileiro nato poderá ser extraditado se tiver dupla nacionalidade.",
+        "comentario": "Incorreta, pois a dupla nacionalidade não constitui exceção à vedação absoluta de extradição do brasileiro nato prevista no art. 5º, LI."
       },
       {
         "letra": "E",
-        "texto": "A extradição de brasileiro nato ocorre após trânsito em julgado no TPI."
+        "texto": "A extradição de brasileiro nato ocorre após trânsito em julgado no TPI.",
+        "comentario": "Incorreta, pois o brasileiro nato não é extraditado pelo Brasil em nenhuma hipótese; a entrega ao Tribunal Penal Internacional é instituto diverso da extradição."
       }
     ],
     "correta": "B",
@@ -547,7 +607,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Educação, saúde, alimentação e propriedade privada."
+        "texto": "Educação, saúde, alimentação e propriedade privada.",
+        "comentario": "Incorreta, pois a propriedade privada é direito individual previsto no art. 5º, e não um direito social do rol do art. 6º."
       },
       {
         "letra": "B",
@@ -555,11 +616,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Previdência social, proteção à maternidade e infância, e livre associação partidária."
+        "texto": "Previdência social, proteção à maternidade e infância, e livre associação partidária.",
+        "comentario": "Incorreta, pois a livre associação partidária é direito político/individual (arts. 5º e 17), não constando do rol de direitos sociais do art. 6º."
       },
       {
         "letra": "D",
-        "texto": "Transporte, lazer, moradia, trabalho e proteção à patente industrial."
+        "texto": "Transporte, lazer, moradia, trabalho e proteção à patente industrial.",
+        "comentario": "Incorreta, pois a proteção à patente industrial é direito de propriedade intelectual previsto no art. 5º, XXIX, e não um direito social do art. 6º."
       }
     ],
     "gabarito": "B",
@@ -577,7 +640,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "As Guardas Municipais."
+        "texto": "As Guardas Municipais.",
+        "comentario": "Incorreta, pois as Guardas Municipais já eram previstas no § 8º do art. 144 desde a redação original da CF/88, não tendo sido introduzidas pela EC 104/2019."
       },
       {
         "letra": "B",
@@ -585,11 +649,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Os Agentes de Trânsito."
+        "texto": "Os Agentes de Trânsito.",
+        "comentario": "Incorreta, pois os agentes de trânsito não foram incluídos pela EC 104/2019 nem constam do rol de órgãos de segurança pública do art. 144."
       },
       {
         "letra": "D",
-        "texto": "Os Conselhos Comunitários de Defesa Social."
+        "texto": "Os Conselhos Comunitários de Defesa Social.",
+        "comentario": "Incorreta, pois esses conselhos não são órgãos de segurança pública previstos no art. 144 nem foram criados pela EC 104/2019."
       }
     ],
     "gabarito": "B",
@@ -607,7 +673,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Qualquer cidadão em pleno gozo de seus direitos políticos."
+        "texto": "Qualquer cidadão em pleno gozo de seus direitos políticos.",
+        "comentario": "Incorreta, pois o mandado de segurança coletivo não pode ser impetrado por qualquer cidadão isoladamente; os legitimados são partido político com representação no Congresso, organização sindical, entidade de classe ou associação, nos termos do art. 5º, LXX."
       },
       {
         "letra": "B",
@@ -615,11 +682,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Exclusivamente pelo Ministério Público e Defensoria Pública."
+        "texto": "Exclusivamente pelo Ministério Público e Defensoria Pública.",
+        "comentario": "Incorreta, pois o MP e a Defensoria Pública não figuram entre os legitimados do art. 5º, LXX, para a impetração do mandado de segurança coletivo."
       },
       {
         "letra": "D",
-        "texto": "Qualquer estrangeiro residente no país."
+        "texto": "Qualquer estrangeiro residente no país.",
+        "comentario": "Incorreta, pois a legitimação para o mandado de segurança coletivo é das entidades previstas no art. 5º, LXX (partidos, sindicatos, entidades de classe e associações), não de estrangeiros residentes isoladamente."
       }
     ],
     "gabarito": "B",
@@ -637,7 +706,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A qualquer hora do dia ou da noite."
+        "texto": "A qualquer hora do dia ou da noite.",
+        "comentario": "Incorreta, pois a entrada por determinação judicial somente pode ocorrer durante o dia, conforme o art. 5º, XI; a entrada a qualquer hora só é permitida nos casos de flagrante delito, desastre ou para prestar socorro."
       },
       {
         "letra": "B",
@@ -645,11 +715,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Apenas durante a noite."
+        "texto": "Apenas durante a noite.",
+        "comentario": "Incorreta, pois a Constituição exige exatamente o oposto: a entrada por ordem judicial deve ocorrer durante o dia."
       },
       {
         "letra": "D",
-        "texto": "Apenas em finais de semana."
+        "texto": "Apenas em finais de semana.",
+        "comentario": "Incorreta, pois o art. 5º, XI, não estabelece qualquer restrição relativa a dias da semana, apenas exige que a entrada por ordem judicial ocorra durante o dia."
       }
     ],
     "gabarito": "B",
@@ -667,7 +739,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O brasileiro nato pode ser extraditado em caso de envolvimento em tráfico de drogas antes da naturalização."
+        "texto": "O brasileiro nato pode ser extraditado em caso de envolvimento em tráfico de drogas antes da naturalização.",
+        "comentario": "Incorreta, pois o brasileiro nato nunca é extraditado pelo Brasil; a hipótese de tráfico de drogas a qualquer tempo é exceção aplicável apenas ao naturalizado, e a referência à naturalização sequer se aplica a quem é nato."
       },
       {
         "letra": "B",
@@ -675,11 +748,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "O brasileiro naturalizado pode ser extraditado por crime comum praticado a qualquer tempo."
+        "texto": "O brasileiro naturalizado pode ser extraditado por crime comum praticado a qualquer tempo.",
+        "comentario": "Incorreta, pois o naturalizado só pode ser extraditado por crime comum praticado ANTES da naturalização; após esta, somente em caso de comprovado envolvimento em tráfico de drogas."
       },
       {
         "letra": "D",
-        "texto": "O brasileiro nato perde a nacionalidade sempre que adquirir outra nacionalidade de forma voluntária, sem exceções."
+        "texto": "O brasileiro nato perde a nacionalidade sempre que adquirir outra nacionalidade de forma voluntária, sem exceções.",
+        "comentario": "Incorreta, pois a Constituição prevê hipóteses em que a nacionalidade originária não se perde mesmo com a aquisição de outra nacionalidade, contrariando a afirmação de que a perda ocorreria sempre, sem exceções."
       }
     ],
     "gabarito": "B",
@@ -696,7 +771,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O mandado de segurança coletivo só pode ser impetrado por partido político com representação no Congresso Nacional."
+        "texto": "O mandado de segurança coletivo só pode ser impetrado por partido político com representação no Congresso Nacional.",
+        "comentario": "Incorreta, pois o mandado de segurança coletivo também pode ser impetrado por organização sindical, entidade de classe ou associação legalmente constituída, e não apenas por partido político com representação no Congresso."
       },
       {
         "letra": "B",
@@ -704,11 +780,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "O mandado de segurança pode ser impetrado por qualquer pessoa, inclusive jurídica, para defender direito meramente patrimonial."
+        "texto": "O mandado de segurança pode ser impetrado por qualquer pessoa, inclusive jurídica, para defender direito meramente patrimonial.",
+        "comentario": "Incorreta, pois o mandado de segurança protege direito líquido e certo lesado por ilegalidade ou abuso de poder de autoridade, e não qualquer direito meramente patrimonial desvinculado dessa hipótese."
       },
       {
         "letra": "D",
-        "texto": "O mandado de segurança coletivo não pode ser impetrado por organização sindical, mesmo que em defesa de seus membros."
+        "texto": "O mandado de segurança coletivo não pode ser impetrado por organização sindical, mesmo que em defesa de seus membros.",
+        "comentario": "Incorreta, pois o art. 5º, LXX, autoriza expressamente a organização sindical a impetrar mandado de segurança coletivo em defesa dos interesses de seus membros."
       }
     ],
     "gabarito": "B",
@@ -730,15 +808,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "O habeas corpus somente protege o direito de locomoção, não sendo admitido para outras finalidades."
+        "texto": "O habeas corpus somente protege o direito de locomoção, não sendo admitido para outras finalidades.",
+        "comentario": "Embora o habeas corpus tutele primariamente a liberdade de locomoção, a alternativa correta é a que descreve sua ampla legitimidade de impetração (por qualquer pessoa, inclusive sem necessidade de capacidade postulatória, dispensando advogado), tornando esta alternativa incompleta como resposta ao enunciado."
       },
       {
         "letra": "C",
-        "texto": "O habeas corpus não pode ser impetrado contra ato de autoridade judiciária."
+        "texto": "O habeas corpus não pode ser impetrado contra ato de autoridade judiciária.",
+        "comentario": "Incorreta, pois o habeas corpus pode ser impetrado contra ato de autoridade judiciária, inclusive contra decisão de juiz ou tribunal, quando houver ilegalidade ou abuso de poder que ameace a liberdade de locomoção."
       },
       {
         "letra": "D",
-        "texto": "Cabe habeas corpus nas transgressões militares e nos crimes propriamente militares."
+        "texto": "Cabe habeas corpus nas transgressões militares e nos crimes propriamente militares.",
+        "comentario": "Incorreta, pois o art. 142, § 2º, da CF veda expressamente a impetração de habeas corpus em relação a punições disciplinares militares (transgressões militares)."
       }
     ],
     "gabarito": "A",
@@ -756,7 +837,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Os Estados têm competência legislativa concorrente com a União para legislar sobre direito civil e penal."
+        "texto": "Os Estados têm competência legislativa concorrente com a União para legislar sobre direito civil e penal.",
+        "comentario": "Incorreta, pois direito civil e penal são competências privativas da União para legislar (art. 22, I), não competências concorrentes dos Estados."
       },
       {
         "letra": "B",
@@ -764,11 +846,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Os Estados podem legislar sobre direito do trabalho em matérias que a União não tenha regulamentado."
+        "texto": "Os Estados podem legislar sobre direito do trabalho em matérias que a União não tenha regulamentado.",
+        "comentario": "Incorreta, pois direito do trabalho é competência privativa da União (art. 22, I), não comportando essa espécie de competência supletiva estadual."
       },
       {
         "letra": "D",
-        "texto": "Os Estados podem legislar sobre direito tributário somente no que couber, desde que a União não tenha legislado sobre o tema."
+        "texto": "Os Estados podem legislar sobre direito tributário somente no que couber, desde que a União não tenha legislado sobre o tema.",
+        "comentario": "Incorreta como resposta ao enunciado, pois descreve a competência concorrente supletiva em matéria tributária (art. 24, § 3º), regra distinta da competência residual genérica dos Estados tratada pela alternativa correta (art. 25, § 1º)."
       }
     ],
     "gabarito": "B",
@@ -786,11 +870,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A Polícia Militar é o órgão de segurança pública responsável pela atividade de polícia judiciária."
+        "texto": "A Polícia Militar é o órgão de segurança pública responsável pela atividade de polícia judiciária.",
+        "comentario": "Incorreta, pois a função de polícia judiciária cabe às polícias civis (art. 144, § 4º), enquanto às Polícias Militares cabem a polícia ostensiva e a preservação da ordem pública (art. 144, § 5º)."
       },
       {
         "letra": "B",
-        "texto": "A Polícia Civil é responsável pelas funções de polícia ostensiva e de preservação da ordem pública."
+        "texto": "A Polícia Civil é responsável pelas funções de polícia ostensiva e de preservação da ordem pública.",
+        "comentario": "Incorreta, pois essas são as funções constitucionais atribuídas às Polícias Militares (art. 144, § 5º), e não às Polícias Civis."
       },
       {
         "letra": "C",
@@ -798,7 +884,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "A Polícia Militar e a Polícia Civil são subordinadas ao Ministério da Justiça."
+        "texto": "A Polícia Militar e a Polícia Civil são subordinadas ao Ministério da Justiça.",
+        "comentario": "Incorreta, pois as Polícias Militares e Civis são organizadas e mantidas pelos Estados, subordinando-se aos respectivos Governadores (art. 144, § 6º), e não ao Ministério da Justiça federal."
       }
     ],
     "gabarito": "C",
@@ -816,15 +903,18 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Promover, privativamente, a ação penal pública na forma da lei."
+        "texto": "Promover, privativamente, a ação penal pública na forma da lei.",
+        "comentario": "Incorreta como resposta, pois essa é, de fato, função constitucional do MP prevista no art. 129, I, não sendo, portanto, a exceção buscada pela questão."
       },
       {
         "letra": "B",
-        "texto": "Promover o inquérito civil e a ação civil pública para proteção do patrimônio público."
+        "texto": "Promover o inquérito civil e a ação civil pública para proteção do patrimônio público.",
+        "comentario": "Incorreta como resposta, pois essa é função efetivamente atribuída ao MP pelo art. 129, III, não constituindo a exceção procurada."
       },
       {
         "letra": "C",
-        "texto": "Exercer o controle externo da atividade policial."
+        "texto": "Exercer o controle externo da atividade policial.",
+        "comentario": "Incorreta como resposta, pois esse é função constitucional do MP prevista no art. 129, VII, não sendo a exceção buscada pelo enunciado."
       },
       {
         "letra": "D",
@@ -850,15 +940,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas a educação, saúde, trabalho e moradia."
+        "texto": "Apenas a educação, saúde, trabalho e moradia.",
+        "comentario": "Incorreta, pois o rol do art. 6º é mais extenso, incluindo também alimentação, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância, e assistência aos desamparados."
       },
       {
         "letra": "C",
-        "texto": "A educação, a saúde, o trabalho, a moradia, a previdência social e a assistência social."
+        "texto": "A educação, a saúde, o trabalho, a moradia, a previdência social e a assistência social.",
+        "comentario": "Incorreta, pois essa alternativa omite direitos expressamente previstos no art. 6º, como alimentação, transporte, lazer, segurança e proteção à maternidade e à infância."
       },
       {
         "letra": "D",
-        "texto": "Todos os direitos previstos no Art. 5º da CF/88."
+        "texto": "Todos os direitos previstos no Art. 5º da CF/88.",
+        "comentario": "Incorreta, pois os direitos sociais do art. 6º constituem rol próprio e distinto dos direitos individuais e coletivos previstos no art. 5º."
       }
     ],
     "gabarito": "A",
@@ -876,7 +969,8 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "As MPs têm força de lei imediata, mas perdem eficácia se não forem convertidas em lei pelo Congresso Nacional em 60 dias, prorrogáveis por igual período."
+        "texto": "As MPs têm força de lei imediata, mas perdem eficácia se não forem convertidas em lei pelo Congresso Nacional em 60 dias, prorrogáveis por igual período.",
+        "comentario": "Esta afirmação está correta, nos termos do art. 62, §§ 3º e 7º, da CF/88, portanto não é a alternativa incorreta buscada pela questão."
       },
       {
         "letra": "B",
@@ -884,11 +978,13 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "C",
-        "texto": "Durante o prazo de vigência da MP, o Congresso deve votar em sessão separada para cada Casa."
+        "texto": "Durante o prazo de vigência da MP, o Congresso deve votar em sessão separada para cada Casa.",
+        "comentario": "Esta afirmação está correta: a Câmara dos Deputados e o Senado Federal apreciam a medida provisória separadamente, portanto não representa a incorreção buscada pela questão."
       },
       {
         "letra": "D",
-        "texto": "A MP que trata de matéria relativa à segurança pública é constitucional, pois não há vedação expressa para isso."
+        "texto": "A MP que trata de matéria relativa à segurança pública é constitucional, pois não há vedação expressa para isso.",
+        "comentario": "Esta afirmação está correta, pois a segurança pública não consta do rol de vedações do art. 62, § 1º, da CF, não havendo incorreção nessa alternativa."
       }
     ],
     "gabarito": "B",
@@ -906,11 +1002,13 @@ const QUESTIONS_CONSTITUCIONAL = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Qualquer pessoa pode propor Ação Direta de Inconstitucionalidade (ADI) perante o STF."
+        "texto": "Qualquer pessoa pode propor Ação Direta de Inconstitucionalidade (ADI) perante o STF.",
+        "comentario": "Incorreta, pois o rol de legitimados para propor ADI é restrito e taxativo, previsto no art. 103 da CF, não sendo facultado a qualquer pessoa."
       },
       {
         "letra": "B",
-        "texto": "A ADI tem efeito erga omnes e vinculante em relação ao Executivo e ao Judiciário, mas não ao Legislativo."
+        "texto": "A ADI tem efeito erga omnes e vinculante em relação ao Executivo e ao Judiciário, mas não ao Legislativo.",
+        "comentario": "Incorreta, pois generaliza de forma imprecisa a abrangência do efeito vinculante da decisão em ADI, que atinge os demais órgãos do Poder Judiciário e da Administração Pública direta e indireta nas esferas federal, estadual e municipal."
       },
       {
         "letra": "C",
@@ -918,7 +1016,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "A Ação Direta de Inconstitucionalidade por Omissão (ADO) tem como efeito determinar ao Congresso a aprovação da lei em prazo fixado pelo STF."
+        "texto": "A Ação Direta de Inconstitucionalidade por Omissão (ADO) tem como efeito determinar ao Congresso a aprovação da lei em prazo fixado pelo STF.",
+        "comentario": "Incorreta, pois na ADO, tratando-se de órgão administrativo, apenas se fixa prazo de trinta dias para as providências necessárias; tratando-se do Poder Legislativo, apenas se dá ciência da omissão, sem que o STF possa fixar prazo para o Congresso aprovar a lei."
       }
     ],
     "gabarito": "C",
@@ -941,15 +1040,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "A representação judicial e extrajudicial da União, com exclusividade."
+        "texto": "A representação judicial e extrajudicial da União, com exclusividade.",
+        "comentario": "Incorreta, pois essa é função da Advocacia-Geral da União (art. 131), e não do Ministério Público."
       },
       {
         "letra": "C",
-        "texto": "A prestação de assistência jurídica integral e gratuita aos necessitados, com exclusividade."
+        "texto": "A prestação de assistência jurídica integral e gratuita aos necessitados, com exclusividade.",
+        "comentario": "Incorreta, pois essa é função constitucional da Defensoria Pública (art. 134), e não do Ministério Público."
       },
       {
         "letra": "D",
-        "texto": "O julgamento de ações penais de competência originária do STF."
+        "texto": "O julgamento de ações penais de competência originária do STF.",
+        "comentario": "Incorreta, pois julgar é função jurisdicional do próprio STF; ao Ministério Público cabe promover, e não julgar, a ação penal."
       }
     ],
     "gabarito": "A",
@@ -970,15 +1072,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Substituir o Ministério Público na propositura de ações penais públicas."
+        "texto": "Substituir o Ministério Público na propositura de ações penais públicas.",
+        "comentario": "Incorreta, pois a promoção privativa da ação penal pública é função do Ministério Público (art. 129, I), e não da AGU."
       },
       {
         "letra": "C",
-        "texto": "Prestar assistência jurídica gratuita exclusivamente a pessoas de baixa renda, em qualquer ramo do direito."
+        "texto": "Prestar assistência jurídica gratuita exclusivamente a pessoas de baixa renda, em qualquer ramo do direito.",
+        "comentario": "Incorreta, pois essa é função constitucional da Defensoria Pública (art. 134), não da AGU."
       },
       {
         "letra": "D",
-        "texto": "Fiscalizar a atuação administrativa e financeira do Poder Judiciário."
+        "texto": "Fiscalizar a atuação administrativa e financeira do Poder Judiciário.",
+        "comentario": "Incorreta, pois essa atribuição é do Conselho Nacional de Justiça (art. 103-B), e não da AGU."
       }
     ],
     "gabarito": "A",
@@ -1000,15 +1105,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "A defesa da ordem jurídica e do regime democrático, com exclusividade sobre o Ministério Público."
+        "texto": "A defesa da ordem jurídica e do regime democrático, com exclusividade sobre o Ministério Público.",
+        "comentario": "Incorreta, pois a defesa da ordem jurídica e do regime democrático é função institucional do Ministério Público (art. 127), não da Defensoria Pública."
       },
       {
         "letra": "C",
-        "texto": "A representação judicial da União nas causas de interesse fazendário."
+        "texto": "A representação judicial da União nas causas de interesse fazendário.",
+        "comentario": "Incorreta, pois essa é função da Advocacia-Geral da União (art. 131), não da Defensoria Pública."
       },
       {
         "letra": "D",
-        "texto": "A fiscalização financeira e orçamentária dos Poderes Executivo e Legislativo."
+        "texto": "A fiscalização financeira e orçamentária dos Poderes Executivo e Legislativo.",
+        "comentario": "Incorreta, pois essa é função do controle externo exercido pelo Congresso Nacional com auxílio do Tribunal de Contas (arts. 70-71), não da Defensoria Pública."
       }
     ],
     "gabarito": "A",
@@ -1029,15 +1137,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Vitaliciedade após 2 anos de exercício, nos mesmos moldes da magistratura."
+        "texto": "Vitaliciedade após 2 anos de exercício, nos mesmos moldes da magistratura.",
+        "comentario": "Incorreta, pois a Constituição não assegura aos membros da Defensoria Pública vitaliciedade nos moldes da magistratura; a garantia prevista no art. 134, § 1º, é a inamovibilidade."
       },
       {
         "letra": "C",
-        "texto": "Livre exercício da advocacia privada, cumulativamente com o cargo público."
+        "texto": "Livre exercício da advocacia privada, cumulativamente com o cargo público.",
+        "comentario": "Incorreta, pois o art. 134, § 1º, veda expressamente o exercício da advocacia fora das atribuições institucionais aos membros da Defensoria Pública."
       },
       {
         "letra": "D",
-        "texto": "Foro por prerrogativa de função equivalente ao dos Ministros do STF."
+        "texto": "Foro por prerrogativa de função equivalente ao dos Ministros do STF.",
+        "comentario": "Incorreta, pois não há previsão constitucional de foro por prerrogativa de função equivalente ao dos Ministros do STF para os membros da Defensoria Pública."
       }
     ],
     "gabarito": "A",
@@ -1059,15 +1170,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas leis ordinárias e leis complementares, sendo as demais espécies infralegais."
+        "texto": "Apenas leis ordinárias e leis complementares, sendo as demais espécies infralegais.",
+        "comentario": "Incorreta, pois o art. 59 elenca sete espécies normativas, incluindo também emendas à Constituição, leis delegadas, medidas provisórias, decretos legislativos e resoluções, não apenas leis ordinárias e complementares."
       },
       {
         "letra": "C",
-        "texto": "Decretos regulamentares, portarias e instruções normativas."
+        "texto": "Decretos regulamentares, portarias e instruções normativas.",
+        "comentario": "Incorreta, pois esses são atos infralegais não previstos no art. 59, e não espécies do processo legislativo constitucional."
       },
       {
         "letra": "D",
-        "texto": "Súmulas vinculantes e enunciados de jurisprudência dos tribunais superiores."
+        "texto": "Súmulas vinculantes e enunciados de jurisprudência dos tribunais superiores.",
+        "comentario": "Incorreta, pois súmulas e enunciados de jurisprudência não são espécies normativas resultantes do processo legislativo previsto no art. 59."
       }
     ],
     "gabarito": "A",
@@ -1088,15 +1202,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "A lei ordinária sempre prevalece sobre a lei complementar, por ser processada com maior celeridade."
+        "texto": "A lei ordinária sempre prevalece sobre a lei complementar, por ser processada com maior celeridade.",
+        "comentario": "Incorreta, pois não há relação de hierarquia entre lei ordinária e lei complementar; cada uma atua em seu campo de competência constitucionalmente reservado."
       },
       {
         "letra": "C",
-        "texto": "A medida provisória tem hierarquia superior às leis ordinárias, por emanar diretamente do Poder Executivo."
+        "texto": "A medida provisória tem hierarquia superior às leis ordinárias, por emanar diretamente do Poder Executivo.",
+        "comentario": "Incorreta, pois não existe hierarquia entre medida provisória e lei ordinária; a MP tem força de lei, mas se sujeita aos mesmos critérios de competência material das demais espécies do art. 59."
       },
       {
         "letra": "D",
-        "texto": "Os decretos legislativos têm hierarquia superior às leis complementares."
+        "texto": "Os decretos legislativos têm hierarquia superior às leis complementares.",
+        "comentario": "Incorreta, pois entre as espécies normativas do art. 59 não há hierarquia, apenas repartição de competências materiais."
       }
     ],
     "gabarito": "A",
@@ -1118,15 +1235,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "O julgamento de recursos extraordinários em matéria constitucional, em substituição ao STF."
+        "texto": "O julgamento de recursos extraordinários em matéria constitucional, em substituição ao STF.",
+        "comentario": "Incorreta, pois o CNJ não exerce função jurisdicional nem julga recursos; essa competência é do próprio STF."
       },
       {
         "letra": "C",
-        "texto": "A elaboração de projetos de lei de iniciativa do Poder Judiciário perante o Congresso Nacional."
+        "texto": "A elaboração de projetos de lei de iniciativa do Poder Judiciário perante o Congresso Nacional.",
+        "comentario": "Incorreta, pois essa não é atribuição do CNJ, que tem natureza de controle administrativo e disciplinar, prevista no art. 103-B."
       },
       {
         "letra": "D",
-        "texto": "A nomeação de todos os juízes de primeiro grau do país."
+        "texto": "A nomeação de todos os juízes de primeiro grau do país.",
+        "comentario": "Incorreta, pois a nomeação de juízes decorre de concurso público e de atos próprios de cada tribunal, não sendo atribuição do CNJ nomear todos os juízes do país."
       }
     ],
     "gabarito": "A",
@@ -1147,15 +1267,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas a União e os Estados, sendo os Municípios meras subdivisões administrativas estaduais sem autonomia própria."
+        "texto": "Apenas a União e os Estados, sendo os Municípios meras subdivisões administrativas estaduais sem autonomia própria.",
+        "comentario": "Incorreta, pois os Municípios são entes federativos autônomos, expressamente incluídos no art. 18 da CF, e não meras subdivisões estaduais."
       },
       {
         "letra": "C",
-        "texto": "A União, os Estados e os Territórios Federais, atualmente em número de três territórios ativos."
+        "texto": "A União, os Estados e os Territórios Federais, atualmente em número de três territórios ativos.",
+        "comentario": "Incorreta, pois atualmente não existem Territórios Federais ativos no Brasil; a Constituição admite sua criação futura, mas nenhum território está em vigor."
       },
       {
         "letra": "D",
-        "texto": "Exclusivamente a União, detentora de soberania, sendo os demais entes meros órgãos administrativos federais."
+        "texto": "Exclusivamente a União, detentora de soberania, sendo os demais entes meros órgãos administrativos federais.",
+        "comentario": "Incorreta, pois Estados, Distrito Federal e Municípios são entes federativos dotados de autonomia própria (política, administrativa, financeira e legislativa), e não meros órgãos administrativos federais."
       }
     ],
     "gabarito": "A",
@@ -1177,15 +1300,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Nomear os Ministros do STF sem qualquer participação do Senado Federal."
+        "texto": "Nomear os Ministros do STF sem qualquer participação do Senado Federal.",
+        "comentario": "Incorreta, pois a nomeação dos Ministros do STF exige prévia aprovação do Senado Federal, conforme o art. 84, XIV, c/c art. 101, parágrafo único."
       },
       {
         "letra": "C",
-        "texto": "Nomear os membros do Tribunal de Contas da União, com exclusividade, sem qualquer participação do Congresso Nacional."
+        "texto": "Nomear os membros do Tribunal de Contas da União, com exclusividade, sem qualquer participação do Congresso Nacional.",
+        "comentario": "Incorreta, pois a maioria dos membros do TCU é escolhida pelo Congresso Nacional, cabendo ao Presidente indicar apenas parte deles, com aprovação do Senado."
       },
       {
         "letra": "D",
-        "texto": "Nomear os Deputados Federais e Senadores que comporão as Mesas Diretoras das Casas Legislativas."
+        "texto": "Nomear os Deputados Federais e Senadores que comporão as Mesas Diretoras das Casas Legislativas.",
+        "comentario": "Incorreta, pois a composição das Mesas Diretoras das Casas Legislativas é definida pelos próprios parlamentares, em votação interna, e não por nomeação do Presidente da República."
       }
     ],
     "gabarito": "A",
@@ -1206,15 +1332,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Julgar a constitucionalidade das leis aprovadas pelo Congresso Nacional, em caráter definitivo."
+        "texto": "Julgar a constitucionalidade das leis aprovadas pelo Congresso Nacional, em caráter definitivo.",
+        "comentario": "Incorreta, pois o controle de constitucionalidade das leis é função do Poder Judiciário, com competência final do STF, e não atribuição do Presidente da República."
       },
       {
         "letra": "C",
-        "texto": "Revogar, a qualquer tempo, decisões transitadas em julgado do Poder Judiciário."
+        "texto": "Revogar, a qualquer tempo, decisões transitadas em julgado do Poder Judiciário.",
+        "comentario": "Incorreta, pois decisões judiciais transitadas em julgado fazem coisa julgada e não podem ser revogadas por ato do Poder Executivo."
       },
       {
         "letra": "D",
-        "texto": "Convocar plebiscito ou referendo, independentemente de autorização do Congresso Nacional."
+        "texto": "Convocar plebiscito ou referendo, independentemente de autorização do Congresso Nacional.",
+        "comentario": "Incorreta, pois a autorização para plebiscito e a convocação de referendo competem ao Congresso Nacional, nos termos do art. 49, XV, da CF."
       }
     ],
     "gabarito": "A",
@@ -1236,15 +1365,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Decretar o estado de sítio sem qualquer participação ou controle do Congresso Nacional."
+        "texto": "Decretar o estado de sítio sem qualquer participação ou controle do Congresso Nacional.",
+        "comentario": "Incorreta, pois a decretação do estado de sítio depende de prévia autorização do Congresso Nacional (art. 137), havendo controle político do Legislativo."
       },
       {
         "letra": "C",
-        "texto": "Decretar intervenção federal em qualquer hipótese, sem necessidade de decreto específico."
+        "texto": "Decretar intervenção federal em qualquer hipótese, sem necessidade de decreto específico.",
+        "comentario": "Incorreta, pois a intervenção federal depende de decreto específico do Presidente da República, não sendo dispensado esse ato formal."
       },
       {
         "letra": "D",
-        "texto": "Suspender, por ato próprio e definitivo, os direitos políticos de parlamentares em oposição."
+        "texto": "Suspender, por ato próprio e definitivo, os direitos políticos de parlamentares em oposição.",
+        "comentario": "Incorreta, pois a Constituição veda a suspensão de direitos políticos por ato discricionário do Presidente; tal medida somente pode decorrer das hipóteses previstas no art. 15, mediante processo regular."
       }
     ],
     "gabarito": "A",
@@ -1266,15 +1398,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "É órgão subordinado hierarquicamente ao Congresso Nacional, cujas decisões podem ser revistas a qualquer tempo por ato parlamentar unilateral."
+        "texto": "É órgão subordinado hierarquicamente ao Congresso Nacional, cujas decisões podem ser revistas a qualquer tempo por ato parlamentar unilateral.",
+        "comentario": "Incorreta, pois o TCU não é subordinado hierarquicamente ao Congresso Nacional, possuindo competências constitucionais próprias que não podem ser revistas por ato parlamentar unilateral."
       },
       {
         "letra": "C",
-        "texto": "Integra o Poder Judiciário, com competência para processar e julgar ações penais contra agentes públicos."
+        "texto": "Integra o Poder Judiciário, com competência para processar e julgar ações penais contra agentes públicos.",
+        "comentario": "Incorreta, pois o TCU não integra o Poder Judiciário nem possui competência jurisdicional para processar e julgar ações penais; suas decisões têm natureza administrativa."
       },
       {
         "letra": "D",
-        "texto": "Depende de autorização do Poder Executivo para iniciar qualquer auditoria ou inspeção."
+        "texto": "Depende de autorização do Poder Executivo para iniciar qualquer auditoria ou inspeção.",
+        "comentario": "Incorreta, pois o TCU exerce suas competências fiscalizatórias de forma autônoma, não dependendo de autorização do Poder Executivo para realizar auditorias ou inspeções."
       }
     ],
     "gabarito": "A",
@@ -1295,15 +1430,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Julgamento definitivo e irrecorrível do próprio TCU, sem qualquer participação do Congresso Nacional."
+        "texto": "Julgamento definitivo e irrecorrível do próprio TCU, sem qualquer participação do Congresso Nacional.",
+        "comentario": "Incorreta, pois as contas do Presidente da República não são julgadas pelo TCU, e sim apreciadas mediante parecer prévio, cabendo o julgamento definitivo ao Congresso Nacional."
       },
       {
         "letra": "C",
-        "texto": "Decisão que dispensa qualquer prazo, podendo o TCU se manifestar a qualquer tempo, sem urgência."
+        "texto": "Decisão que dispensa qualquer prazo, podendo o TCU se manifestar a qualquer tempo, sem urgência.",
+        "comentario": "Incorreta, pois o art. 71, I, fixa prazo de sessenta dias para a elaboração do parecer prévio pelo TCU."
       },
       {
         "letra": "D",
-        "texto": "Consulta popular direta, por meio de referendo, sobre a aprovação das contas presidenciais."
+        "texto": "Consulta popular direta, por meio de referendo, sobre a aprovação das contas presidenciais.",
+        "comentario": "Incorreta, pois a apreciação das contas presidenciais ocorre por parecer prévio do TCU seguido de julgamento do Congresso Nacional, não por referendo popular."
       }
     ],
     "gabarito": "A",
@@ -1325,15 +1463,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas o interesse do partido majoritário no Congresso Nacional, sem qualquer outro limite."
+        "texto": "Apenas o interesse do partido majoritário no Congresso Nacional, sem qualquer outro limite.",
+        "comentario": "Incorreta, pois os limites à criação e ao funcionamento dos partidos são a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais da pessoa humana, e não o interesse do partido majoritário."
       },
       {
         "letra": "C",
-        "texto": "A exigência de aprovação prévia pelo Presidente da República para o registro de qualquer novo partido."
+        "texto": "A exigência de aprovação prévia pelo Presidente da República para o registro de qualquer novo partido.",
+        "comentario": "Incorreta, pois o art. 17 assegura a livre criação de partidos políticos, sem exigência de aprovação prévia do Presidente da República; o registro ocorre perante a Justiça Eleitoral."
       },
       {
         "letra": "D",
-        "texto": "A vedação a qualquer autonomia interna dos partidos, que devem seguir modelo único definido por lei federal."
+        "texto": "A vedação a qualquer autonomia interna dos partidos, que devem seguir modelo único definido por lei federal.",
+        "comentario": "Incorreta, pois o art. 17, § 1º, assegura aos partidos autonomia para definir sua estrutura interna, organização e funcionamento, e não um modelo único imposto por lei federal."
       }
     ],
     "gabarito": "A",
@@ -1354,15 +1495,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas a maioridade civil (18 anos), sem qualquer outro requisito, para qualquer cargo eletivo."
+        "texto": "Apenas a maioridade civil (18 anos), sem qualquer outro requisito, para qualquer cargo eletivo.",
+        "comentario": "Incorreta, pois além da idade mínima (que varia conforme o cargo), a Constituição exige nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral e filiação partidária como condições de elegibilidade."
       },
       {
         "letra": "C",
-        "texto": "Filiação partidária dispensada para candidaturas a cargos majoritários."
+        "texto": "Filiação partidária dispensada para candidaturas a cargos majoritários.",
+        "comentario": "Incorreta, pois a filiação partidária é condição de elegibilidade exigida para os cargos eletivos em geral, nos termos do art. 14, § 3º, V, não havendo dispensa para cargos majoritários."
       },
       {
         "letra": "D",
-        "texto": "Domicílio eleitoral irrelevante, podendo o candidato concorrer em qualquer circunscrição do país."
+        "texto": "Domicílio eleitoral irrelevante, podendo o candidato concorrer em qualquer circunscrição do país.",
+        "comentario": "Incorreta, pois o domicílio eleitoral na respectiva circunscrição é condição de elegibilidade expressamente exigida pelo art. 14, § 3º, IV."
       }
     ],
     "gabarito": "A",
@@ -1383,15 +1527,18 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "Apenas os condenados criminalmente, com sentença transitada em julgado, em qualquer hipótese e por qualquer prazo."
+        "texto": "Apenas os condenados criminalmente, com sentença transitada em julgado, em qualquer hipótese e por qualquer prazo.",
+        "comentario": "Incorreta, pois o § 4º do art. 14 trata da inelegibilidade dos inalistáveis e analfabetos; a inelegibilidade decorrente de condenação criminal é disciplinada por lei complementar (Lei da Ficha Limpa), com prazos e hipóteses específicas, e não de forma genérica para 'qualquer hipótese e por qualquer prazo'."
       },
       {
         "letra": "C",
-        "texto": "Todos os maiores de 70 anos, por presunção absoluta de incapacidade."
+        "texto": "Todos os maiores de 70 anos, por presunção absoluta de incapacidade.",
+        "comentario": "Incorreta, pois não há previsão de inelegibilidade por idade avançada; maiores de 70 anos têm apenas o voto facultativo (art. 14, § 1º, II, \"b\"), o que não se confunde com inelegibilidade."
       },
       {
         "letra": "D",
-        "texto": "Os filiados a mais de um partido político simultaneamente, apenas."
+        "texto": "Os filiados a mais de um partido político simultaneamente, apenas.",
+        "comentario": "Incorreta, pois essa hipótese não consta do rol de inelegibilidade do art. 14, § 4º, que trata dos inalistáveis e analfabetos."
       }
     ],
     "gabarito": "A",

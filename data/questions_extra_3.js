@@ -11,10 +11,10 @@ const QUESTIONS_EXTRA_3 = [
     "dificuldade": "facil",
     "enunciado": "Qual a pena prevista para homicídio simples conforme o Código Penal brasileiro?",
     "alternativas": [
-      { "letra": "A", "texto": "2 a 4 anos de reclusão" },
-      { "letra": "B", "texto": "4 a 6 anos de reclusão" },
+      { "letra": "A", "texto": "2 a 4 anos de reclusão", "comentario": "Incorreta. Essa faixa é muito inferior à pena efetivamente cominada ao homicídio simples pelo Código Penal." },
+      { "letra": "B", "texto": "4 a 6 anos de reclusão", "comentario": "Incorreta. Essa faixa é inferior à pena efetivamente cominada ao homicídio simples pelo Código Penal." },
       { "letra": "C", "texto": "6 a 20 anos de reclusão" },
-      { "letra": "D", "texto": "8 a 12 anos de reclusão e multa" }
+      { "letra": "D", "texto": "8 a 12 anos de reclusão e multa", "comentario": "Incorreta. O intervalo de pena não corresponde ao previsto no art. 121, caput, e o homicídio simples não comina pena de multa." }
     ],
     "gabarito": "C",
     "artigo": "Art. 121, caput",
@@ -29,9 +29,9 @@ const QUESTIONS_EXTRA_3 = [
     "dificuldade": "medio",
     "enunciado": "Qual direito fundamental garante o livre exercício de qualquer trabalho, ofício ou profissão?",
     "alternativas": [
-      { "letra": "A", "texto": "Liberdade de expressão" },
-      { "letra": "B", "texto": "Direito à vida" },
-      { "letra": "C", "texto": "Liberdade de locomoção" },
+      { "letra": "A", "texto": "Liberdade de expressão", "comentario": "Incorreta. A liberdade de expressão (art. 5º, IV e IX) protege a manifestação do pensamento, não o exercício de trabalho ou profissão." },
+      { "letra": "B", "texto": "Direito à vida", "comentario": "Incorreta. O direito à vida (art. 5º, caput) é distinto da garantia de livre exercício profissional." },
+      { "letra": "C", "texto": "Liberdade de locomoção", "comentario": "Incorreta. A liberdade de locomoção (art. 5º, XV) trata do direito de ir e vir, não do exercício profissional." },
       { "letra": "D", "texto": "Liberdade de exercício profissional" }
     ],
     "gabarito": "D",
@@ -48,9 +48,9 @@ const QUESTIONS_EXTRA_3 = [
     "enunciado": "Qual a forma correta: 'exceção' ou 'excessão'?",
     "alternativas": [
       { "letra": "A", "texto": "exceção" },
-      { "letra": "B", "texto": "excessão" },
-      { "letra": "C", "texto": "exceçâo" },
-      { "letra": "D", "texto": "excessão" }
+      { "letra": "B", "texto": "excessão", "comentario": "Incorreta. A grafia com dois \"s\" não existe na norma culta; o correto é \"exceção\", com ç." },
+      { "letra": "C", "texto": "exceçâo", "comentario": "Incorreta. O acento correto sobre o \"a\" final é o til (ã), e não o circunflexo (â): a forma correta é \"exceção\"." },
+      { "letra": "D", "texto": "excessão", "comentario": "Incorreta. A grafia com dois \"s\" não existe na norma culta; o correto é \"exceção\", com ç." }
     ],
     "gabarito": "A",
     "artigo": "Gramática normativa",
