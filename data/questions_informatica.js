@@ -63,13 +63,13 @@ const QUESTIONS_INFORMATICA = [
     dificuldade: 'facil',
     enunciado: 'Em editores de texto como Word e LibreOffice Writer, o recurso "Localizar e Substituir" é acionado, por padrão, pela combinação de teclas:',
     alternativas: [
-      { letra: 'A', texto: 'Ctrl + F para localizar e Ctrl + H (ou Ctrl + U) para substituir.' },
+      { letra: 'A', texto: 'Ctrl + F para localizar e Ctrl + H para substituir.' },
       { letra: 'B', texto: 'Ctrl + P para localizar e Ctrl + S para substituir.', comentario: 'Ctrl + P abre a caixa de impressão e Ctrl + S salva o documento; nenhuma das duas está relacionada a localizar ou substituir texto.' },
       { letra: 'C', texto: 'Alt + F4 para localizar e Alt + Tab para substituir.', comentario: 'Alt + F4 fecha a janela/aplicativo e Alt + Tab alterna entre janelas abertas; nenhuma das duas aciona localizar ou substituir.' },
       { letra: 'D', texto: 'F1 para localizar e F2 para substituir.', comentario: 'F1 normalmente abre a ajuda do programa e F2 costuma renomear um item selecionado; nenhuma das duas aciona localizar e substituir.' }
     ],
     gabarito: 'A',
-    justificativa: 'Ctrl + F abre a busca ("Localizar"); Ctrl + H (no Word) ou Ctrl + U (no LibreOffice Writer) abre "Localizar e Substituir".'
+    justificativa: 'Ctrl + F abre a busca ("Localizar"); Ctrl + H abre "Localizar e Substituir", tanto no Word quanto no LibreOffice Writer (atalho padrão em ambos os editores).'
   },
   {
     id: 'info_5',

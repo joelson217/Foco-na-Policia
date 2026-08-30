@@ -680,14 +680,14 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "dificuldade": "facil",
     "enunciado": "A confissão do réu em crime hediondo pode gerar redução de pena? Se sim, qual a redução máxima prevista?",
     "alternativas": [
-      { "letra": "A", "texto": "Sim, até 1/3 da pena.", "comentario": "A redução máxima prevista pelo Código Penal para a confissão espontânea é de 1/6, e não 1/3." },
+      { "letra": "A", "texto": "Sim, até 1/3 da pena.", "comentario": "Incorreta. O parâmetro usualmente adotado pela jurisprudência e pela prática forense para a atenuante de confissão espontânea é de até 1/6, e não 1/3 (a lei não fixa percentual exato para essa atenuante genérica)." },
       { "letra": "B", "texto": "Sim, até 1/6 da pena." },
-      { "letra": "C", "texto": "Não, a confissão não traz redução em crimes hediondos.", "comentario": "A atenuante de confissão é aplicável também a crimes hediondos, salvo impedimento por outras circunstâncias." },
-      { "letra": "D", "texto": "Sim, até 1/2 da pena, mas apenas se o réu for primário.", "comentario": "A redução máxima é de 1/6, e não depende da primariedade do réu; o valor de 1/2 não corresponde a essa atenuante." }
+      { "letra": "C", "texto": "Não, a confissão não traz redução em crimes hediondos.", "comentario": "Incorreta. A atenuante de confissão espontânea é aplicável também a crimes hediondos, salvo impedimento por outras circunstâncias." },
+      { "letra": "D", "texto": "Sim, até 1/2 da pena, mas apenas se o réu for primário.", "comentario": "Incorreta. O parâmetro usual é de até 1/6, e a atenuante não depende da primariedade do réu; o valor de 1/2 não corresponde a essa atenuante." }
     ],
     "gabarito": "B",
-    "artigo": "Art. 65, §2º do Código Penal",
-    "justificativa": "O Código Penal permite redução de até 1/6 da pena por confissão, inclusive para crimes hediondos, salvo se houver agravantes que impeçam."
+    "artigo": "Art. 65, III, \"d\", do Código Penal",
+    "justificativa": "A confissão espontânea é atenuante genérica (art. 65, III, \"d\", do CP), aplicável inclusive a crimes hediondos, salvo se houver agravantes que impeçam a redução abaixo do mínimo legal (Súmula 231 do STJ). A lei não fixa percentual exato, mas o parâmetro de até 1/6 é o mais adotado na prática forense e em bancas de concurso, por analogia às causas de aumento/diminuição."
   },
   {
     "id": "leg_extra_39",
@@ -1259,16 +1259,16 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "peso": 2,
     "mostCobrado": false,
     "dificuldade": "facil",
-    "enunciado": "Qual é a pena mínima para latrocínio, crime hediondo?",
+    "enunciado": "Qual é a pena mínima para latrocínio (roubo seguido de morte), crime hediondo?",
     "alternativas": [
-      { "letra": "A", "texto": "8 anos de reclusão." },
-      { "letra": "B", "texto": "12 anos de reclusão.", "comentario": "O valor de referência adotado pela questão para a pena mínima do latrocínio é 8 anos, e não 12." },
-      { "letra": "C", "texto": "6 anos de reclusão.", "comentario": "O valor de referência adotado pela questão é 8 anos, superior aos 6 indicados nesta alternativa." },
-      { "letra": "D", "texto": "10 anos de reclusão.", "comentario": "O valor de referência adotado pela questão é 8 anos, inferior aos 10 indicados nesta alternativa." }
+      { "letra": "A", "texto": "8 anos de reclusão.", "comentario": "Incorreta. A pena mínima do latrocínio é de 20 anos de reclusão (art. 157, §3º, II, do CP), muito superior aos 8 anos indicados nesta alternativa." },
+      { "letra": "B", "texto": "12 anos de reclusão.", "comentario": "Incorreta. A pena mínima do latrocínio é de 20 anos de reclusão, superior aos 12 anos indicados nesta alternativa." },
+      { "letra": "C", "texto": "20 anos de reclusão." },
+      { "letra": "D", "texto": "30 anos de reclusão.", "comentario": "Incorreta. 30 anos corresponde ao limite MÁXIMO da pena de latrocínio, e não ao mínimo, que é de 20 anos." }
     ],
-    "gabarito": "A",
-    "artigo": "Art. 1º, V da Lei 8.072/90",
-    "justificativa": "A pena mínima para latrocínio é de 8 anos, conforme a lei."
+    "gabarito": "C",
+    "artigo": "Art. 157, §3º, II, do Código Penal (crime elencado como hediondo pelo art. 1º, II, da Lei 8.072/90)",
+    "justificativa": "O latrocínio (roubo seguido de morte) é punido com reclusão de 20 a 30 anos, conforme o art. 157, §3º, II, do Código Penal (redação dada pela Lei 13.654/2018), sendo classificado como crime hediondo pelo art. 1º, II, da Lei 8.072/90. A pena mínima é, portanto, de 20 anos."
   },
   {
         "id": "leg_extra_71",
@@ -1369,14 +1369,14 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "medio",
         "enunciado": "Qual a diferença entre coautor e partícipe em organização criminosa?",
         "alternativas": [
-            { "letra": "A", "texto": "Coautor executa o crime, partícipe apenas auxilia.", "comentario": "Essa distinção pelo verbo nuclear do tipo é a mais usual na doutrina, mas a fonte desta questão adota o critério de culpa direta/eventual como alternativa correta." },
-            { "letra": "B", "texto": "Coautor tem culpa direta, partícipe tem culpa eventual." },
-            { "letra": "C", "texto": "Coautor e partícipe são equivalentes, apenas nomenclatura diferente.", "comentario": "Mesmo pela classificação adotada na questão, há diferença de responsabilidade entre coautor e partícipe, não sendo mera variação terminológica." },
-            { "letra": "D", "texto": "Coautor tem participação mínima, partícipe tem liderança.", "comentario": "Essa descrição inverte os papéis geralmente atribuídos a cada figura na organização criminosa." }
+            { "letra": "A", "texto": "Coautor executa o crime, partícipe apenas auxilia." },
+            { "letra": "B", "texto": "Coautor tem culpa direta, partícipe tem culpa eventual.", "comentario": "Incorreta. Organização criminosa é crime doloso (não admite modalidade culposa), e o critério legal/doutrinário que distingue coautor de partícipe não é \"culpa direta/culpa eventual\" — é a execução (ou não) do núcleo do tipo, conforme a teoria do domínio do fato." },
+            { "letra": "C", "texto": "Coautor e partícipe são equivalentes, apenas nomenclatura diferente.", "comentario": "Incorreta. Há diferença real de responsabilidade e de conduta entre coautor (que executa o núcleo do tipo) e partícipe (que apenas concorre de forma acessória), não sendo mera variação terminológica." },
+            { "letra": "D", "texto": "Coautor tem participação mínima, partícipe tem liderança.", "comentario": "Incorreta. Essa descrição inverte os papéis: o coautor é quem tem participação direta na execução do crime, e o partícipe é quem concorre de forma acessória (induzindo, instigando ou auxiliando)." }
         ],
-        "gabarito": "B",
-        "artigo": "Art. 2º da Lei 12.850/13",
-        "justificativa": "Coautor tem participação direta no crime, partícipe auxilia sem executar o ato principal."
+        "gabarito": "A",
+        "artigo": "Art. 2º da Lei 12.850/13; teoria do domínio do fato",
+        "justificativa": "Coautor tem participação direta no crime, executando o núcleo do tipo (domínio funcional do fato); partícipe concorre de forma acessória, auxiliando, induzindo ou instigando, sem executar o ato principal."
     },
   {
         "id": "leg_extra_77",
@@ -1784,14 +1784,14 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         "dificuldade": "facil",
         "enunciado": "A confissão do acusado pode diminuir a pena em que percentual?",
         "alternativas": [
-            { "letra": "A", "texto": "Até 1/6 da pena.", "comentario": "Conforme a fonte adotada nesta questão, o percentual correto é até 1/3, diferente do valor citado nesta alternativa." },
-            { "letra": "B", "texto": "Até 1/3 da pena." },
-            { "letra": "C", "texto": "Até 1/2 da pena.", "comentario": "O percentual adotado nesta questão como correto é até 1/3, inferior ao indicado nesta alternativa." },
-            { "letra": "D", "texto": "Não há redução prevista.", "comentario": "Há sim previsão de redução por confissão, conforme indicado na justificativa desta questão." }
+            { "letra": "A", "texto": "Até 1/6 da pena." },
+            { "letra": "B", "texto": "Até 1/3 da pena.", "comentario": "Incorreta. O Código Penal não fixa percentual exato para a atenuante genérica da confissão espontânea (art. 65, III, \"d\"); a jurisprudência e a prática forense consolidaram o parâmetro de até 1/6, por analogia às demais causas de aumento/diminuição, e não 1/3." },
+            { "letra": "C", "texto": "Até 1/2 da pena.", "comentario": "Incorreta. Esse percentual não corresponde ao parâmetro usualmente aplicado (1/6) para a atenuante da confissão espontânea." },
+            { "letra": "D", "texto": "Não há redução prevista.", "comentario": "Incorreta. Há previsão de redução por confissão espontânea (art. 65, III, \"d\", do CP), aplicável inclusive a crimes hediondos." }
         ],
-        "gabarito": "B",
-        "artigo": "Art. 65 do Código Penal",
-        "justificativa": "A confissão pode reduzir a pena até 1/3."
+        "gabarito": "A",
+        "artigo": "Art. 65, III, \"d\", do Código Penal",
+        "justificativa": "A confissão espontânea é atenuante genérica (art. 65, III, \"d\", do CP) e, como tal, a lei não fixa um percentual exato de redução — a dosimetria na 2ª fase fica a critério do juiz, respeitado o limite de não reduzir abaixo do mínimo legal (Súmula 231 do STJ). Na prática forense e em bancas de concurso, o parâmetro de até 1/6 é o mais adotado, por analogia às causas de aumento/diminuição que utilizam essa fração como referência mínima."
     },
   {
         "id": "leg_extra_101",
@@ -2051,27 +2051,27 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
-            "comentario": "Atenção: o gabarito desta questão trata o crime como comum, mas a doutrina majoritária classifica os crimes da Lei 13.869/19 como próprios, exigindo a condição de agente público (art. 1º, §1º) — vale conferir esse ponto com a bibliografia da sua banca."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
         },
         {
             "letra": "B",
-            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar."
+            "texto": "Pode ser praticado por qualquer pessoa, civil ou militar.",
+            "comentario": "Incorreta. Os crimes da Lei 13.869/19 são crimes PRÓPRIOS: exigem que o autor seja agente público no exercício da função ou a pretexto de exercê-la (art. 1º, §1º), e não podem ser praticados por qualquer pessoa sem essa qualidade especial."
         },
         {
             "letra": "C",
             "texto": "Somente funcionários públicos da ativa podem responder.",
-            "comentario": "Segundo o gabarito desta questão, o crime não se restringiria a funcionários públicos da ativa; ainda assim, vale notar que a doutrina majoritária trata os crimes de abuso de autoridade como próprios de agente público."
+            "comentario": "Incorreta. A lei exige qualidade de agente público, mas de forma mais ampla do que apenas \"funcionários públicos da ativa\" — abrange qualquer agente público, servidor ou não, ainda que de forma transitória ou sem remuneração (art. 2º, parágrafo único)."
         },
         {
             "letra": "D",
             "texto": "Não se admite coautoria com particulares.",
-            "comentario": "A lei admite a participação de particulares no concurso de agentes, ainda que o crime seja próprio de agente público quanto ao autor principal."
+            "comentario": "Incorreta. A lei admite a participação de particulares em concurso de agentes, ainda que o crime seja próprio de agente público quanto ao autor principal (comunicabilidade da elementar, art. 30 do CP)."
         }
     ],
-    "gabarito": "B",
-    "artigo": "Art. 9º da Lei 13.869/19",
-    "justificativa": "A lei prevê sujeitos ativos comuns em sua maioria, admitindo participação e coautoria de particulares. Referência: Trata da decretação de medida de privação de liberdade."
+    "gabarito": "A",
+    "artigo": "Art. 1º, §1º, c/c art. 2º, da Lei 13.869/19",
+    "justificativa": "Os crimes de abuso de autoridade são crimes próprios, exigindo que o agente ativo seja agente público, servidor ou não, no exercício da função ou a pretexto de exercê-la (art. 1º, §1º e art. 2º da Lei 13.869/19) — abrangendo tanto civis quanto militares que exerçam função pública. Admite-se, contudo, a participação de particulares em concurso de agentes, desde que o autor principal seja agente público."
 },
   {
     "id": "leg_extra_114",
@@ -2381,27 +2381,27 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial.",
-            "comentario": "Atenção: a Lei de Tortura é justamente a exceção onde a jurisprudência trata a perda do cargo como efeito automático — mas o gabarito desta questão específica adota a declaração expressa como resposta correta; vale conferir esse ponto com a bibliografia da sua banca."
+            "texto": "São automáticos e não exigem motivação judicial."
         },
         {
             "letra": "B",
-            "texto": "Dependem de declaração expressa na sentença condenatória."
+            "texto": "Dependem de declaração expressa na sentença condenatória.",
+            "comentario": "Incorreta. Diferentemente da regra geral do art. 92 do Código Penal (que exige declaração motivada para outros crimes), a Lei de Tortura estabelece a perda do cargo como efeito AUTOMÁTICO da condenação (art. 1º, §5º), dispensando motivação expressa nesse ponto — é justamente a exceção à regra geral."
         },
         {
             "letra": "C",
             "texto": "Não admitem perda do cargo público.",
-            "comentario": "A perda do cargo público é sim um efeito expressamente previsto (art. 1º, §5º)."
+            "comentario": "Incorreta. A perda do cargo público é sim um efeito expressamente previsto (art. 1º, §5º), e de forma automática."
         },
         {
             "letra": "D",
             "texto": "Apenas se aplicam em caso de reincidência específica.",
-            "comentario": "Os efeitos da condenação não dependem de reincidência específica; aplicam-se a partir da própria condenação por tortura."
+            "comentario": "Incorreta. Os efeitos da condenação não dependem de reincidência específica; aplicam-se automaticamente a partir da própria condenação por tortura."
         }
     ],
-    "gabarito": "B",
-    "artigo": "Art. 1º da Lei 9.455/97",
-    "justificativa": "Com exceção da Lei de Tortura, a perda de cargo exige motivação expressa do magistrado. Referência: Trata dos crimes de tortura-prova."
+    "gabarito": "A",
+    "artigo": "Art. 1º, §5º, da Lei 9.455/97",
+    "justificativa": "A Lei de Tortura é a exceção à regra geral do art. 92 do CP: a condenação acarreta a perda do cargo, função ou emprego público de forma AUTOMÁTICA (art. 1º, §5º), sem exigir motivação expressa do magistrado — diferentemente do que ocorre com a maioria dos demais crimes."
 },
   {
     "id": "leg_extra_124",

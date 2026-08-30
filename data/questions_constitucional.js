@@ -758,8 +758,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       }
     ],
     "gabarito": "B",
-    "artigo": "Artigo 5º, LI da CF",
-    "justificativa": "O brasileiro nato nunca é extraditado pelo Brasil (vedação absoluta). O naturalizado pode em crimes comuns anteriores à naturalização ou em caso de tráfico a qualquer tempo."
+    "artigo": "Art. 5º, LI, c/c art. 12, §4º, II, da CF",
+    "justificativa": "O brasileiro nato nunca é extraditado pelo Brasil (vedação absoluta, art. 5º, LI). O naturalizado pode ser extraditado em crimes comuns anteriores à naturalização ou em caso de tráfico a qualquer tempo. Quanto à perda de nacionalidade (art. 12, §4º), a Constituição prevê exceções em que a aquisição de outra nacionalidade não acarreta a perda da originária: reconhecimento de nacionalidade originária pela lei estrangeira, ou imposição de naturalização pela norma estrangeira ao residente, como condição para permanência ou para o exercício de direitos civis."
   },
   {
     "disciplina": "constitucional",
@@ -808,8 +808,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "B",
-        "texto": "O habeas corpus somente protege o direito de locomoção, não sendo admitido para outras finalidades.",
-        "comentario": "Embora o habeas corpus tutele primariamente a liberdade de locomoção, a alternativa correta é a que descreve sua ampla legitimidade de impetração (por qualquer pessoa, inclusive sem necessidade de capacidade postulatória, dispensando advogado), tornando esta alternativa incompleta como resposta ao enunciado."
+        "texto": "Cabe habeas corpus para impugnar exclusivamente pena de multa aplicada isoladamente ao condenado.",
+        "comentario": "Incorreta. Não cabe habeas corpus para impugnar exclusivamente pena de multa (Súmula 693 do STF), pois, nesse caso, não há ameaça ou coação à liberdade de locomoção — pressuposto indispensável de cabimento do remédio constitucional."
       },
       {
         "letra": "C",
@@ -851,8 +851,8 @@ const QUESTIONS_CONSTITUCIONAL = [
       },
       {
         "letra": "D",
-        "texto": "Os Estados podem legislar sobre direito tributário somente no que couber, desde que a União não tenha legislado sobre o tema.",
-        "comentario": "Incorreta como resposta ao enunciado, pois descreve a competência concorrente supletiva em matéria tributária (art. 24, § 3º), regra distinta da competência residual genérica dos Estados tratada pela alternativa correta (art. 25, § 1º)."
+        "texto": "Os Estados podem legislar sobre direito tributário de forma plena e permanente, mesmo após a União editar norma geral sobre o tema.",
+        "comentario": "Incorreta. Em matéria de competência concorrente (como o direito tributário), a competência legislativa plena do Estado existe apenas na ausência de lei federal de normas gerais; uma vez editada a lei federal, a competência estadual suplementar tem sua eficácia suspensa no que lhe for contrário (art. 24, §§ 3º e 4º, da CF) — não é, portanto, plena e permanente."
       }
     ],
     "gabarito": "B",

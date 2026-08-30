@@ -84,13 +84,13 @@ const QUESTIONS_PREMIUM_21 = [
     "enunciado": "Assinale a alternativa em que o verbo está corretamente regido por preposição:",
     "alternativas": [
       { "letra": "A", "texto": "Ele insistiu em viajar." },
-      { "letra": "B", "texto": "Ela chegou a tempo.", "comentario": "Nesta questão, o gabarito toma como referência o padrão \"insistir em\"; observe que \"a tempo\" é locução adverbial fixa, não constituindo o exemplo de regência verbal buscado pelo enunciado." },
-      { "letra": "C", "texto": "Nós dependemos da ajuda.", "comentario": "Nesta questão, o gabarito toma como referência o padrão \"insistir em\"; note que \"depender de\" também está gramaticalmente correto (\"da\" = de + a), mas não foi o padrão escolhido como resposta desta questão." },
-      { "letra": "D", "texto": "Ele se referiu ao caso.", "comentario": "Nesta questão, o gabarito toma como referência o padrão \"insistir em\"; note que \"referir-se a\" também está gramaticalmente correto (\"ao\" = a + o), mas não foi o padrão escolhido como resposta desta questão." }
+      { "letra": "B", "texto": "Ela chegou no escritório.", "comentario": "Incorreta. Pela norma culta, o verbo \"chegar\" (indicando destino) rege a preposição \"a\", e não \"em\"; o correto seria \"chegou ao escritório\"." },
+      { "letra": "C", "texto": "Nós dependemos com a ajuda.", "comentario": "Incorreta. O verbo \"depender\" rege a preposição \"de\", e não \"com\"; o correto seria \"dependemos da ajuda\"." },
+      { "letra": "D", "texto": "Ele se referiu no caso.", "comentario": "Incorreta. O verbo pronominal \"referir-se\" rege a preposição \"a\", e não \"em\"; o correto seria \"referiu-se ao caso\"." }
     ],
     "gabarito": "A",
     "artigo": "Gramática normativa",
-    "justificativa": "\"Insistir em\" exige preposição \"em\"."
+    "justificativa": "\"Insistir em\" exige preposição \"em\", empregada corretamente na alternativa A. As demais alternativas empregam preposição indevida para seus respectivos verbos: \"chegar\" e \"referir-se\" regem \"a\" (não \"em\"), e \"depender\" rege \"de\" (não \"com\")."
   },
   {
     "id": "custom_26",
@@ -264,13 +264,13 @@ const QUESTIONS_PREMIUM_21 = [
     "enunciado": "Qual verbo exige a preposição \"a\" antes do complemento:",
     "alternativas": [
       { "letra": "A", "texto": "assistir" },
-      { "letra": "B", "texto": "aderir", "comentario": "Segundo esta questão, o verbo de referência associado à preposição \"a\" é \"assistir\" (no sentido de ver); registre-se que \"aderir\" também rege a preposição \"a\" pela norma culta (\"aderir ao movimento\"), o que pode gerar dúvida nesta questão — vale conferir o padrão adotado pela banca do seu concurso." },
-      { "letra": "C", "texto": "perguntar", "comentario": "Segundo esta questão, o verbo de referência associado à preposição \"a\" é \"assistir\" (no sentido de ver); registre-se que \"perguntar\" também pode reger \"a\" quando indica a pessoa a quem se pergunta (\"perguntar algo a alguém\") — vale conferir o padrão adotado pela banca do seu concurso." },
+      { "letra": "B", "texto": "morar", "comentario": "Incorreta. \"Morar\" rege a preposição \"em\" (\"morar em algum lugar\"), e não \"a\"." },
+      { "letra": "C", "texto": "gostar", "comentario": "Incorreta. \"Gostar\" rege a preposição \"de\" (\"gostar de algo\"), e não \"a\"." },
       { "letra": "D", "texto": "acreditar", "comentario": "Incorreta. \"Acreditar\" rege-se pela preposição \"em\" (\"acreditar em algo/alguém\"), e não pela preposição \"a\"." }
     ],
     "gabarito": "A",
     "artigo": "Gramática normativa",
-    "justificativa": "\"Assistir a\" (no sentido de ver) requer a preposição \"a\"."
+    "justificativa": "\"Assistir a\" (no sentido de ver) requer a preposição \"a\". As demais opções regem outras preposições: \"morar\" rege \"em\", \"gostar\" rege \"de\" e \"acreditar\" rege \"em\"."
   },
   {
     "id": "custom_40",
@@ -354,13 +354,13 @@ const QUESTIONS_PREMIUM_21 = [
     "enunciado": "Qual preposição acompanha o verbo “preferir” quando indica alternativa?",
     "alternativas": [
       { "letra": "A", "texto": "de", "comentario": "Incorreta. Não é a preposição associada à regência de \"preferir\" nesse contexto." },
-      { "letra": "B", "texto": "a", "comentario": "Segundo o padrão adotado nesta questão, a preposição de referência é \"por\"; registre-se que a gramática normativa tradicional também emprega \"a\" nesse contexto (\"preferir algo a outra coisa\") — vale conferir o padrão adotado pela banca do seu concurso." },
-      { "letra": "C", "texto": "por" },
+      { "letra": "B", "texto": "a" },
+      { "letra": "C", "texto": "por", "comentario": "Incorreta. A gramática normativa não consagra \"preferir por\" como regência padrão; a estrutura correta é \"preferir algo A outra coisa\"." },
       { "letra": "D", "texto": "para", "comentario": "Incorreta. Não é a preposição associada à regência de \"preferir\" nesse contexto." }
     ],
-    "gabarito": "C",
+    "gabarito": "B",
     "artigo": "Gramática normativa",
-    "justificativa": "\"Preferir por\" indica a escolha entre duas opções."
+    "justificativa": "Pela norma culta, \"preferir\" rege a estrutura \"preferir A a B\" (ex.: \"prefiro carne a peixe\"), sem uso de \"do que\" ou \"por\". A preposição que acompanha o segundo termo da comparação é \"a\"."
   },
   {
     "id": "custom_45",
