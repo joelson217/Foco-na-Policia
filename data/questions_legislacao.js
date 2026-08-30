@@ -10,11 +10,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Trata-se de crime apenado com detenção de até seis meses."
+        "texto": "Trata-se de crime apenado com detenção de até seis meses.",
+        "comentario": "O art. 28 não comina pena privativa de liberdade nem de detenção; as únicas penas previstas são advertência, prestação de serviços à comunidade e medida educativa."
       },
       {
         "letra": "B",
-        "texto": "Para determinar se a droga destinava-se a consumo pessoal, o juiz não pode levar em conta a conduta e os antecedentes do agente."
+        "texto": "Para determinar se a droga destinava-se a consumo pessoal, o juiz não pode levar em conta a conduta e os antecedentes do agente.",
+        "comentario": "É o contrário: o art. 28, §2º determina expressamente que o juiz atenderá à natureza e quantidade da substância, ao local e condições, bem como à conduta e aos antecedentes do agente."
       },
       {
         "letra": "C",
@@ -22,7 +24,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "A reincidência do agente gera a conversão da prestação de serviços em pena privativa de liberdade."
+        "texto": "A reincidência do agente gera a conversão da prestação de serviços em pena privativa de liberdade.",
+        "comentario": "A lei não prevê essa conversão; como o art. 28 não comina pena privativa de liberdade, mesmo o descumprimento reiterado das medidas não pode resultar em prisão."
       }
     ],
     "gabarito": "C",
@@ -40,7 +43,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Responderá pelo mesmo crime que o autor, com pena reduzida."
+        "texto": "Responderá pelo mesmo crime que o autor, com pena reduzida.",
+        "comentario": "O omisso não responde pela tortura comissiva (reclusão de 2 a 8 anos), mas por tipo autônomo de tortura-omissão, com pena mais branda de detenção de 1 a 4 anos."
       },
       {
         "letra": "B",
@@ -48,11 +52,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Não comete crime algum, apenas responde por tortura quem atua comissivamente."
+        "texto": "Não comete crime algum, apenas responde por tortura quem atua comissivamente.",
+        "comentario": "O art. 1º, §2º pune expressamente quem se omite quando tinha o dever de evitar ou apurar a tortura, de modo que o agente omisso também comete crime."
       },
       {
         "letra": "D",
-        "texto": "Responderá pelo crime de prevaricação, previsto no Código Penal."
+        "texto": "Responderá pelo crime de prevaricação, previsto no Código Penal.",
+        "comentario": "A Lei 9.455/97 tem tipo específico para a omissão (tortura-omissão, art. 1º, §2º), que afasta a aplicação subsidiária do crime de prevaricação do Código Penal."
       }
     ],
     "gabarito": "B",
@@ -74,15 +80,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "B",
-        "texto": "Aplica-se apenas aos proprietários de armas de fogo de uso restrito das Forças Armadas."
+        "texto": "Aplica-se apenas aos proprietários de armas de fogo de uso restrito das Forças Armadas.",
+        "comentario": "O crime de omissão de cautela (art. 13) aplica-se a qualquer arma de fogo sob guarda do agente, sem se restringir a armas de uso restrito das Forças Armadas."
       },
       {
         "letra": "C",
-        "texto": "Tem como pena reclusão de 2 a 4 anos e multa."
+        "texto": "Tem como pena reclusão de 2 a 4 anos e multa.",
+        "comentario": "A pena do art. 13 é detenção de 1 a 2 anos e multa; reclusão de 2 a 4 anos é a pena do crime de porte ilegal de arma de fogo (art. 14)."
       },
       {
         "letra": "D",
-        "texto": "Configura-se quando a arma for roubada e não for comunicado à Polícia Civil em 24h."
+        "texto": "Configura-se quando a arma for roubada e não for comunicado à Polícia Civil em 24h.",
+        "comentario": "O parágrafo único do art. 13 exige a comunicação do extravio, furto ou roubo ao Sinarm (não à Polícia Civil) em 24 horas, e essa hipótese se aplica especificamente ao responsável por empresa de segurança e transporte de valores."
       }
     ],
     "gabarito": "A",
@@ -100,15 +109,18 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Homicídio qualificado."
+        "texto": "Homicídio qualificado.",
+        "comentario": "O homicídio qualificado está expressamente listado como crime hediondo no art. 1º da Lei 8.072/90, não servindo como exceção pedida no enunciado."
       },
       {
         "letra": "B",
-        "texto": "Latrocínio (roubo com resultado morte)."
+        "texto": "Latrocínio (roubo com resultado morte).",
+        "comentario": "O latrocínio (art. 157, §3º, II, do CP) também consta do rol do art. 1º da Lei 8.072/90 como crime hediondo."
       },
       {
         "letra": "C",
-        "texto": "Estupro."
+        "texto": "Estupro.",
+        "comentario": "O estupro (art. 213 do CP) está expressamente previsto como crime hediondo no art. 1º da Lei 8.072/90."
       },
       {
         "letra": "D",
@@ -130,7 +142,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Apenas da unidade doméstica e da família."
+        "texto": "Apenas da unidade doméstica e da família.",
+        "comentario": "A definição é incompleta: a lei também abrange qualquer relação íntima de afeto, não se limitando à unidade doméstica e à família."
       },
       {
         "letra": "B",
@@ -138,11 +151,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Apenas entre pessoas unidas por laços de consanguinidade."
+        "texto": "Apenas entre pessoas unidas por laços de consanguinidade.",
+        "comentario": "A lei não exige vínculo de consanguinidade; abrange também relações afetivas sem qualquer parentesco sanguíneo."
       },
       {
         "letra": "D",
-        "texto": "Somente entre cônjuges ou ex-cônjuges."
+        "texto": "Somente entre cônjuges ou ex-cônjuges.",
+        "comentario": "A lei se aplica a qualquer relação íntima de afeto, mesmo sem casamento ou união estável, atual ou pretérita, e não apenas a cônjuges/ex-cônjuges."
       }
     ],
     "gabarito": "B",
@@ -160,11 +175,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O dolo eventual de assumir o risco de lesionar o administrado."
+        "texto": "O dolo eventual de assumir o risco de lesionar o administrado.",
+        "comentario": "A lei exige dolo específico (finalidade especial); o dolo eventual, de mera assunção do risco, não é suficiente para configurar o crime."
       },
       {
         "letra": "B",
-        "texto": "A culpa consciente na inobservância das normas de procedimento."
+        "texto": "A culpa consciente na inobservância das normas de procedimento.",
+        "comentario": "Os crimes de abuso de autoridade não admitem modalidade culposa; exigem dolo específico, e não culpa consciente."
       },
       {
         "letra": "C",
@@ -172,7 +189,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "O dolo genérico consistente na mera vontade de praticar o ato ilegal."
+        "texto": "O dolo genérico consistente na mera vontade de praticar o ato ilegal.",
+        "comentario": "Não basta o dolo genérico (vontade de praticar o ato); é necessária a finalidade especial de prejudicar, beneficiar ou o mero capricho/satisfação pessoal."
       }
     ],
     "gabarito": "C",
@@ -190,11 +208,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Duas ou mais pessoas."
+        "texto": "Duas ou mais pessoas.",
+        "comentario": "O mínimo exigido para organização criminosa é de 4 pessoas, e não 2 (esse é o requisito da associação criminosa/associação para o tráfico, prevista em outros tipos penais)."
       },
       {
         "letra": "B",
-        "texto": "Três ou mais pessoas."
+        "texto": "Três ou mais pessoas.",
+        "comentario": "A lei exige a associação de ao menos 4 pessoas, e não apenas 3."
       },
       {
         "letra": "C",
@@ -202,7 +222,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "Cinco ou mais pessoas."
+        "texto": "Cinco ou mais pessoas.",
+        "comentario": "O número mínimo exigido pela lei é 4 pessoas, e não 5."
       }
     ],
     "gabarito": "C",
@@ -224,15 +245,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "B",
-        "texto": "Transitar com a arma de fogo de uso permitido nas vias públicas."
+        "texto": "Transitar com a arma de fogo de uso permitido nas vias públicas.",
+        "comentario": "Transitar com a arma em via pública configura PORTE (art. 14), e não posse irregular (art. 12), que pressupõe a arma dentro da residência ou local de trabalho."
       },
       {
         "letra": "C",
-        "texto": "Transportar a arma de fogo no porta-luvas do carro."
+        "texto": "Transportar a arma de fogo no porta-luvas do carro.",
+        "comentario": "Transportar a arma fora da residência ou do local de trabalho também configura porte (art. 14), e não a posse irregular tratada no art. 12."
       },
       {
         "letra": "D",
-        "texto": "Vender arma de fogo de uso restrito a terceiros."
+        "texto": "Vender arma de fogo de uso restrito a terceiros.",
+        "comentario": "A venda de arma de uso restrito a terceiros configura outro delito (comércio ilegal de arma de fogo, arts. 17/18), não o crime de posse irregular do art. 12."
       }
     ],
     "gabarito": "A",
@@ -254,15 +278,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "B",
-        "texto": "Liberdade provisória sem fiança."
+        "texto": "Liberdade provisória sem fiança.",
+        "comentario": "A liberdade provisória SEM fiança é admitida nos crimes hediondos; o que a lei veda é apenas a concessão de fiança em si."
       },
       {
         "letra": "C",
-        "texto": "Apelação em liberdade."
+        "texto": "Apelação em liberdade.",
+        "comentario": "A Lei 8.072/90 não veda a apelação em liberdade; a vedação recai sobre graça, indulto, anistia e fiança."
       },
       {
         "letra": "D",
-        "texto": "Livramento condicional."
+        "texto": "Livramento condicional.",
+        "comentario": "O livramento condicional é admitido nos crimes hediondos, exigindo-se apenas o cumprimento de mais de 2/3 da pena e a não reincidência específica."
       }
     ],
     "gabarito": "A",
@@ -280,7 +307,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Doze e dezesseis anos de idade."
+        "texto": "Doze e dezesseis anos de idade.",
+        "comentario": "O limite superior correto da adolescência é 18 anos, e não 16."
       },
       {
         "letra": "B",
@@ -288,11 +316,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Quatorze e dezoito anos de idade."
+        "texto": "Quatorze e dezoito anos de idade.",
+        "comentario": "O ECA fixa o início da adolescência aos 12 anos, e não aos 14."
       },
       {
         "letra": "D",
-        "texto": "Dez e dezoito anos de idade."
+        "texto": "Dez e dezoito anos de idade.",
+        "comentario": "Criança é a pessoa até 12 anos incompletos, e a adolescência começa aos 12 anos, não aos 10."
       }
     ],
     "gabarito": "B",
@@ -310,11 +340,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Inafiançável, mas suscetível de graça ou anistia."
+        "texto": "Inafiançável, mas suscetível de graça ou anistia.",
+        "comentario": "Além de inafiançável, o crime de tortura também é insuscetível de graça e anistia, e não apenas de fiança."
       },
       {
         "letra": "B",
-        "texto": "Fiançável e suscetível de indulto."
+        "texto": "Fiançável e suscetível de indulto.",
+        "comentario": "O crime de tortura é inafiançável, e não fiançável, além de insuscetível de graça ou anistia."
       },
       {
         "letra": "C",
@@ -322,11 +354,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "Suscetível apenas de fiança estipulada pelo juiz."
+        "texto": "Suscetível apenas de fiança estipulada pelo juiz.",
+        "comentario": "O crime de tortura é inafiançável; não há hipótese de fiança judicial para esse delito."
       },
       {
         "letra": "E",
-        "texto": "Inafiançável, mas extingue a punibilidade no prazo máximo de 5 anos."
+        "texto": "Inafiançável, mas extingue a punibilidade no prazo máximo de 5 anos.",
+        "comentario": "Não há previsão legal de extinção de punibilidade em prazo fixo de 5 anos para o crime de tortura; essa hipótese não consta da Lei 9.455/97."
       }
     ],
     "correta": "C",
@@ -343,11 +377,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Inafiançável em qualquer hipótese."
+        "texto": "Inafiançável em qualquer hipótese.",
+        "comentario": "O porte de arma de uso permitido (art. 14) não é tratado como inafiançável em qualquer hipótese; essa inafiançabilidade mais rígida está associada ao porte de arma de uso restrito (art. 16), que é hediondo."
       },
       {
         "letra": "B",
-        "texto": "Crime hediondo."
+        "texto": "Crime hediondo.",
+        "comentario": "Apenas o porte/posse de arma de uso restrito (art. 16) é crime hediondo; o porte de arma de uso permitido (art. 14) não é."
       },
       {
         "letra": "C",
@@ -355,11 +391,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "Atípico se a arma estiver desmuniciada (teoria admitida no STJ)."
+        "texto": "Atípico se a arma estiver desmuniciada (teoria admitida no STJ).",
+        "comentario": "O STF e o STJ entendem que é crime de perigo abstrato, de modo que a ausência de munição não afasta a tipicidade da conduta."
       },
       {
         "letra": "E",
-        "texto": "Permitido a qualquer cidadão que possua registro de Colecionador (CAC) nas ruas em qualquer momento."
+        "texto": "Permitido a qualquer cidadão que possua registro de Colecionador (CAC) nas ruas em qualquer momento.",
+        "comentario": "O registro de Colecionador (CAC) autoriza a posse/aquisição sob condições específicas, não um porte irrestrito da arma nas ruas a qualquer momento."
       }
     ],
     "correta": "C",
@@ -376,7 +414,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "É efeito automático da condenação a pena privativa de liberdade."
+        "texto": "É efeito automático da condenação a pena privativa de liberdade.",
+        "comentario": "A perda do cargo não é automática; depende de motivação expressa na sentença e da ocorrência de reincidência em crime de abuso de autoridade."
       },
       {
         "letra": "B",
@@ -384,15 +423,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Ocorre sempre que a pena aplicada for superior a 4 anos."
+        "texto": "Ocorre sempre que a pena aplicada for superior a 4 anos.",
+        "comentario": "O critério legal não é o quantum da pena aplicada, mas sim a reincidência específica em crime de abuso de autoridade."
       },
       {
         "letra": "D",
-        "texto": "Pode ser aplicada pelo superior hierárquico independentemente de trânsito em julgado."
+        "texto": "Pode ser aplicada pelo superior hierárquico independentemente de trânsito em julgado.",
+        "comentario": "A perda do cargo é efeito de condenação judicial motivada, não uma decisão administrativa do superior hierárquico."
       },
       {
         "letra": "E",
-        "texto": "Somente se aplica a magistrados e membros do MP."
+        "texto": "Somente se aplica a magistrados e membros do MP.",
+        "comentario": "O efeito se aplica a qualquer agente público sujeito à lei, não se restringindo a magistrados e membros do Ministério Público."
       }
     ],
     "correta": "B",
@@ -409,7 +451,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "3 ou mais pessoas, para a prática de crimes com pena máxima superior a 4 anos."
+        "texto": "3 ou mais pessoas, para a prática de crimes com pena máxima superior a 4 anos.",
+        "comentario": "O número mínimo exigido é 4 pessoas, e não 3."
       },
       {
         "letra": "B",
@@ -417,15 +460,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "4 ou mais pessoas, para a prática de crimes hediondos."
+        "texto": "4 ou mais pessoas, para a prática de crimes hediondos.",
+        "comentario": "A lei não exige que os crimes praticados sejam hediondos; basta que tenham pena máxima superior a 4 anos ou caráter transnacional."
       },
       {
         "letra": "D",
-        "texto": "Qualquer grupo de pessoas estruturalmente ordenado."
+        "texto": "Qualquer grupo de pessoas estruturalmente ordenado.",
+        "comentario": "Falta o requisito numérico mínimo de 4 pessoas e a finalidade de praticar infrações com pena máxima superior a 4 anos ou de caráter transnacional."
       },
       {
         "letra": "E",
-        "texto": "3 ou mais pessoas, com divisão de tarefas informal para crimes contra o patrimônio."
+        "texto": "3 ou mais pessoas, com divisão de tarefas informal para crimes contra o patrimônio.",
+        "comentario": "O número mínimo exigido é 4 pessoas (não 3), e a lei não restringe a finalidade a crimes contra o patrimônio."
       }
     ],
     "correta": "B",
@@ -442,15 +488,18 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "0 e 12 anos incompletos."
+        "texto": "0 e 12 anos incompletos.",
+        "comentario": "Essa é a definição legal de CRIANÇA (art. 2º), e não de adolescente, que é a faixa etária perguntada."
       },
       {
         "letra": "B",
-        "texto": "12 e 18 anos incompletos."
+        "texto": "12 e 18 anos incompletos.",
+        "comentario": "O texto legal fixa o limite superior em 'dezoito anos de idade', sem o qualificativo 'incompletos' usado nesta alternativa, que não reproduz com fidelidade a redação do art. 2º do ECA."
       },
       {
         "letra": "C",
-        "texto": "12 e 18 anos (incompletos ou não, sem distinção)."
+        "texto": "12 e 18 anos (incompletos ou não, sem distinção).",
+        "comentario": "O art. 2º do ECA é preciso ao distinguir 'doze anos de idade incompletos' para a criança e 'entre doze e dezoito anos de idade' para o adolescente, não havendo a imprecisão sugerida nesta alternativa."
       },
       {
         "letra": "D",
@@ -458,7 +507,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "E",
-        "texto": "14 a 18 anos de idade."
+        "texto": "14 a 18 anos de idade.",
+        "comentario": "O marco inicial da adolescência, segundo o ECA, é aos 12 anos, e não aos 14."
       }
     ],
     "correta": "D",
@@ -475,11 +525,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Pelo Delegado de Polícia, se o crime for de menor potencial ofensivo."
+        "texto": "Pelo Delegado de Polícia, se o crime for de menor potencial ofensivo.",
+        "comentario": "O descumprimento de medida protetiva não é crime de menor potencial ofensivo, e a fiança nessa hipótese compete exclusivamente à autoridade judicial."
       },
       {
         "letra": "B",
-        "texto": "Somente pelo Ministério Público."
+        "texto": "Somente pelo Ministério Público.",
+        "comentario": "O Ministério Público não tem competência para conceder fiança; isso cabe exclusivamente à autoridade judicial."
       },
       {
         "letra": "C",
@@ -487,11 +539,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "Apenas após o trânsito em julgado."
+        "texto": "Apenas após o trânsito em julgado.",
+        "comentario": "A fiança pode e deve ser apreciada logo após a prisão em flagrante, não sendo necessário aguardar o trânsito em julgado."
       },
       {
         "letra": "E",
-        "texto": "Por nenhuma autoridade, pois é crime inafiançável."
+        "texto": "Por nenhuma autoridade, pois é crime inafiançável.",
+        "comentario": "O crime admite fiança, desde que concedida pelo juiz; não se trata de crime inafiançável."
       }
     ],
     "correta": "C",
@@ -508,7 +562,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O homicídio simples, em qualquer situação."
+        "texto": "O homicídio simples, em qualquer situação.",
+        "comentario": "Apenas o homicídio QUALIFICADO (e o simples cometido em atividade típica de grupo de extermínio) é hediondo; o homicídio simples em qualquer situação não é."
       },
       {
         "letra": "B",
@@ -516,15 +571,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A associação criminosa para o tráfico de drogas."
+        "texto": "A associação criminosa para o tráfico de drogas.",
+        "comentario": "Trata-se de crime EQUIPARADO a hediondo, e não hediondo propriamente dito, tal qual o próprio tráfico de drogas."
       },
       {
         "letra": "D",
-        "texto": "A receptação qualificada."
+        "texto": "A receptação qualificada.",
+        "comentario": "A receptação qualificada não consta do rol de crimes hediondos da Lei 8.072/90."
       },
       {
         "letra": "E",
-        "texto": "A tortura e o terrorismo."
+        "texto": "A tortura e o terrorismo.",
+        "comentario": "Tortura e terrorismo são crimes EQUIPARADOS a hediondos (art. 5º, XLIII, da CF/88), e não hediondos em sentido estrito."
       }
     ],
     "correta": "B",
@@ -541,7 +599,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Igual ou superior a 50 anos."
+        "texto": "Igual ou superior a 50 anos.",
+        "comentario": "O Estatuto do Idoso fixa o critério em 60 anos, e não em 50."
       },
       {
         "letra": "B",
@@ -549,15 +608,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Superior a 65 anos."
+        "texto": "Superior a 65 anos.",
+        "comentario": "O critério legal é 'igual ou superior a 60 anos'; usar 'superior a 65' erra tanto o valor quanto excluiria indevidamente quem tem exatamente 60."
       },
       {
         "letra": "D",
-        "texto": "Igual ou superior a 70 anos."
+        "texto": "Igual ou superior a 70 anos.",
+        "comentario": "O critério correto fixado pela lei é 60 anos, e não 70."
       },
       {
         "letra": "E",
-        "texto": "Mais de 60 anos completos, com prioridade especial aos maiores de 75."
+        "texto": "Mais de 60 anos completos, com prioridade especial aos maiores de 75.",
+        "comentario": "O critério legal é 'igual ou superior a 60' (não 'mais de 60'), e a prioridade especial é conferida aos maiores de 80 anos, não aos maiores de 75."
       }
     ],
     "correta": "B",
@@ -574,7 +636,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "As medidas protetivas somente podem ser concedidas após audiência com o agressor."
+        "texto": "As medidas protetivas somente podem ser concedidas após audiência com o agressor.",
+        "comentario": "As medidas protetivas podem ser concedidas de imediato, inclusive de ofício, sem necessidade de prévia audiência com o agressor."
       },
       {
         "letra": "B",
@@ -582,11 +645,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A Lei nº 9.099/95 (Juizados Especiais) aplica-se subsidiariamente aos crimes de violência doméstica."
+        "texto": "A Lei nº 9.099/95 (Juizados Especiais) aplica-se subsidiariamente aos crimes de violência doméstica.",
+        "comentario": "O art. 41 da Lei Maria da Penha veda expressamente a aplicação da Lei 9.099/95 aos crimes de violência doméstica."
       },
       {
         "letra": "D",
-        "texto": "A ação penal nos crimes de violência doméstica é condicionada à representação da vítima."
+        "texto": "A ação penal nos crimes de violência doméstica é condicionada à representação da vítima.",
+        "comentario": "Conforme a Súmula 542 do STJ, a ação penal nos crimes de lesão corporal decorrentes de violência doméstica é pública incondicionada."
       }
     ],
     "gabarito": "B",
@@ -604,7 +669,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Exclusivamente xingamentos e ofensas verbais proferidas na presença de testemunhas."
+        "texto": "Exclusivamente xingamentos e ofensas verbais proferidas na presença de testemunhas.",
+        "comentario": "O conceito é muito mais amplo, abrangendo qualquer conduta que cause dano emocional, controle ou diminuição da autoestima, independentemente da presença de testemunhas."
       },
       {
         "letra": "B",
@@ -612,11 +678,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Apenas as condutas que resultem em diagnóstico médico de transtorno psicológico."
+        "texto": "Apenas as condutas que resultem em diagnóstico médico de transtorno psicológico.",
+        "comentario": "Não se exige laudo ou diagnóstico médico para caracterizar a violência psicológica prevista na lei."
       },
       {
         "letra": "D",
-        "texto": "Somente as condutas praticadas na residência da vítima."
+        "texto": "Somente as condutas praticadas na residência da vítima.",
+        "comentario": "A violência psicológica pode ocorrer em qualquer lugar, não se restringindo à residência da vítima."
       }
     ],
     "gabarito": "B",
@@ -634,7 +702,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O crime de abuso de autoridade pode ser praticado por culpa (negligência ou imprudência)."
+        "texto": "O crime de abuso de autoridade pode ser praticado por culpa (negligência ou imprudência).",
+        "comentario": "A lei exige dolo específico, não admitindo modalidade culposa (negligência ou imprudência)."
       },
       {
         "letra": "B",
@@ -642,11 +711,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "O crime de abuso de autoridade somente é praticado por servidores públicos efetivos."
+        "texto": "O crime de abuso de autoridade somente é praticado por servidores públicos efetivos.",
+        "comentario": "A lei abrange qualquer agente público, inclusive comissionados, temporários e sem vínculo efetivo, não se restringindo a servidores efetivos."
       },
       {
         "letra": "D",
-        "texto": "Para a configuração do crime, basta que o agente queira praticar a conduta, independente de qualquer finalidade especial."
+        "texto": "Para a configuração do crime, basta que o agente queira praticar a conduta, independente de qualquer finalidade especial.",
+        "comentario": "Exige-se finalidade específica (prejudicar, beneficiar ou capricho/satisfação pessoal); o dolo genérico, isolado, não basta."
       }
     ],
     "gabarito": "B",
@@ -664,11 +735,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "São efeitos automáticos de qualquer condenação por abuso de autoridade."
+        "texto": "São efeitos automáticos de qualquer condenação por abuso de autoridade.",
+        "comentario": "Não são automáticos; dependem de motivação expressa na sentença e da ocorrência de reincidência em crime de abuso de autoridade."
       },
       {
         "letra": "B",
-        "texto": "Só ocorrem nos casos de crime praticado com violência ou grave ameaça."
+        "texto": "Só ocorrem nos casos de crime praticado com violência ou grave ameaça.",
+        "comentario": "A condição legal é a reincidência em crime de abuso de autoridade, e não o emprego de violência ou grave ameaça."
       },
       {
         "letra": "C",
@@ -676,7 +749,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "São aplicados apenas a agentes públicos de nível federal."
+        "texto": "São aplicados apenas a agentes públicos de nível federal.",
+        "comentario": "Os efeitos se aplicam a agentes públicos de qualquer esfera federativa (federal, estadual, distrital ou municipal), não apenas de nível federal."
       }
     ],
     "gabarito": "C",
@@ -694,7 +768,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O tráfico de drogas é expressamente definido como crime hediondo pela Lei 8.072/90."
+        "texto": "O tráfico de drogas é expressamente definido como crime hediondo pela Lei 8.072/90.",
+        "comentario": "O tráfico de drogas é crime EQUIPARADO a hediondo, e não hediondo propriamente dito nos termos da Lei 8.072/90."
       },
       {
         "letra": "B",
@@ -702,11 +777,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "O crime de latrocínio não está inserido no rol de crimes hediondos."
+        "texto": "O crime de latrocínio não está inserido no rol de crimes hediondos.",
+        "comentario": "O latrocínio está expressamente previsto no rol de crimes hediondos do art. 1º da Lei 8.072/90."
       },
       {
         "letra": "D",
-        "texto": "A progressão de regime para primário em crime hediondo sem resultado morte exige cumprimento de 50% da pena."
+        "texto": "A progressão de regime para primário em crime hediondo sem resultado morte exige cumprimento de 50% da pena.",
+        "comentario": "O percentual correto, conforme o art. 112 da LEP, é de 40% para o condenado primário em crime hediondo sem resultado morte, e não 50%."
       }
     ],
     "gabarito": "B",
@@ -724,7 +801,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Trata-se de crime hediondo, pois é modalidade de tráfico de drogas."
+        "texto": "Trata-se de crime hediondo, pois é modalidade de tráfico de drogas.",
+        "comentario": "O STF fixou no HC 118.533/MS que o tráfico privilegiado NÃO é hediondo, ao contrário do tráfico comum equiparado a hediondo."
       },
       {
         "letra": "B",
@@ -732,11 +810,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A redução da pena aplica-se apenas quando o agente possuir pequena quantidade de droga."
+        "texto": "A redução da pena aplica-se apenas quando o agente possuir pequena quantidade de droga.",
+        "comentario": "A quantidade de droga não é requisito do §4º; os requisitos são primariedade, bons antecedentes, não integrar organização criminosa e não se dedicar a atividades criminosas."
       },
       {
         "letra": "D",
-        "texto": "A pena pode ser convertida em restritiva de direitos, por ser equiparado a crime de menor potencial ofensivo."
+        "texto": "A pena pode ser convertida em restritiva de direitos, por ser equiparado a crime de menor potencial ofensivo.",
+        "comentario": "O tráfico, mesmo privilegiado, não é crime de menor potencial ofensivo; eventual conversão em restritiva de direitos depende dos requisitos próprios do art. 44 do CP, não decorrendo automaticamente do §4º."
       }
     ],
     "gabarito": "B",
@@ -754,11 +834,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "É crime com pena de detenção de 1 a 3 anos."
+        "texto": "É crime com pena de detenção de 1 a 3 anos.",
+        "comentario": "O porte de arma de uso restrito é punido com reclusão de 3 a 6 anos (art. 16), e não com detenção de 1 a 3 anos."
       },
       {
         "letra": "B",
-        "texto": "É crime com pena de reclusão de 2 a 4 anos."
+        "texto": "É crime com pena de reclusão de 2 a 4 anos.",
+        "comentario": "Essa é a pena do porte de arma de uso PERMITIDO (art. 14); o porte de uso restrito (art. 16) tem pena de reclusão de 3 a 6 anos."
       },
       {
         "letra": "C",
@@ -766,7 +848,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "É contravenção penal, com pena de multa."
+        "texto": "É contravenção penal, com pena de multa.",
+        "comentario": "Trata-se de crime (não contravenção penal), com pena de reclusão de 3 a 6 anos, e não apenas de multa."
       }
     ],
     "gabarito": "C",
@@ -784,7 +867,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A pena básica é reduzida à metade em razão do agente público estar no exercício de função."
+        "texto": "A pena básica é reduzida à metade em razão do agente público estar no exercício de função.",
+        "comentario": "É o contrário: a condição de agente público é causa de AUMENTO de pena (1/6 a 1/3), e não de redução."
       },
       {
         "letra": "B",
@@ -792,11 +876,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A condição de agente público não influi na pena, mas gera perda automática do cargo."
+        "texto": "A condição de agente público não influi na pena, mas gera perda automática do cargo.",
+        "comentario": "A condição de agente público é causa de aumento de pena, e a perda do cargo NÃO é automática, dependendo de declaração motivada na sentença."
       },
       {
         "letra": "D",
-        "texto": "O agente público responde pelo crime de tortura em concurso obrigatório com abuso de autoridade."
+        "texto": "O agente público responde pelo crime de tortura em concurso obrigatório com abuso de autoridade.",
+        "comentario": "Não há previsão legal de concurso obrigatório entre os dois crimes; a condição de agente público é apenas majorante do próprio crime de tortura."
       }
     ],
     "gabarito": "B",
@@ -814,7 +900,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A associação para o tráfico exige no mínimo 4 pessoas, enquanto a organização criminosa exige apenas 2."
+        "texto": "A associação para o tráfico exige no mínimo 4 pessoas, enquanto a organização criminosa exige apenas 2.",
+        "comentario": "Está invertido: a associação para o tráfico exige apenas 2 pessoas, e a organização criminosa exige pelo menos 4."
       },
       {
         "letra": "B",
@@ -822,11 +909,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A associação para o tráfico exige estrutura hierárquica, ao contrário da organização criminosa."
+        "texto": "A associação para o tráfico exige estrutura hierárquica, ao contrário da organização criminosa.",
+        "comentario": "É o oposto: é a organização criminosa que exige estrutura ordenada e divisão de tarefas; a associação para o tráfico não exige tal estrutura."
       },
       {
         "letra": "D",
-        "texto": "Não há distinção — ambas exigem os mesmos requisitos e possuem as mesmas penas."
+        "texto": "Não há distinção — ambas exigem os mesmos requisitos e possuem as mesmas penas.",
+        "comentario": "Há distinção clara quanto ao número mínimo de integrantes, à estrutura exigida e às penas cominadas em cada um dos crimes."
       }
     ],
     "gabarito": "B",
@@ -844,11 +933,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Apenas entre cônjuges com casamento civil registrado."
+        "texto": "Apenas entre cônjuges com casamento civil registrado.",
+        "comentario": "A lei não exige casamento civil, abrangendo também união estável e qualquer relação íntima de afeto."
       },
       {
         "letra": "B",
-        "texto": "Apenas dentro da residência da vítima."
+        "texto": "Apenas dentro da residência da vítima.",
+        "comentario": "A violência doméstica pode ocorrer em qualquer lugar, não se restringindo à residência da vítima."
       },
       {
         "letra": "C",
@@ -856,7 +947,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "Somente quando praticada por homem contra mulher, excluindo-se relações homoafetivas."
+        "texto": "Somente quando praticada por homem contra mulher, excluindo-se relações homoafetivas.",
+        "comentario": "A lei se aplica também às relações homoafetivas, independentemente da orientação sexual, conforme entendimento consolidado no STJ."
       }
     ],
     "gabarito": "C",
@@ -874,7 +966,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Reclusão de 2 a 8 anos (mesma pena da tortura ativa)."
+        "texto": "Reclusão de 2 a 8 anos (mesma pena da tortura ativa).",
+        "comentario": "A tortura por omissão tem pena mais branda (detenção de 1 a 4 anos), diferente da tortura ativa/comissiva, que é punida com reclusão de 2 a 8 anos."
       },
       {
         "letra": "B",
@@ -882,11 +975,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Advertência escrita disciplinar apenas."
+        "texto": "Advertência escrita disciplinar apenas.",
+        "comentario": "Trata-se de crime, com pena de detenção, e não de mera sanção administrativa disciplinar."
       },
       {
         "letra": "D",
-        "texto": "Perda imediata do cargo, sem processo."
+        "texto": "Perda imediata do cargo, sem processo.",
+        "comentario": "Não há perda automática e imediata do cargo sem o devido processo; a perda depende de declaração motivada na sentença condenatória."
       }
     ],
     "gabarito": "B",
@@ -904,7 +999,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Mantém a natureza de crime hediondo, mas reduz a pena."
+        "texto": "Mantém a natureza de crime hediondo, mas reduz a pena.",
+        "comentario": "O STF fixou que o tráfico privilegiado AFASTA a hediondez, e não apenas reduz a pena mantendo a natureza hedionda."
       },
       {
         "letra": "B",
@@ -912,11 +1008,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Substitui obrigatoriamente a pena de reclusão por prestação de serviços."
+        "texto": "Substitui obrigatoriamente a pena de reclusão por prestação de serviços.",
+        "comentario": "Não há substituição obrigatória por prestação de serviços; o §4º é apenas causa de diminuição da pena privativa de liberdade."
       },
       {
         "letra": "D",
-        "texto": "Extingue a multa associada."
+        "texto": "Extingue a multa associada.",
+        "comentario": "A multa continua sendo aplicada normalmente; o privilégio afeta a hediondez e o quantum da pena privativa de liberdade, não extinguindo a multa."
       }
     ],
     "gabarito": "B",
@@ -934,11 +1032,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Duas pessoas."
+        "texto": "Duas pessoas.",
+        "comentario": "O mínimo exigido é de 4 pessoas para organização criminosa, e não 2."
       },
       {
         "letra": "B",
-        "texto": "Três pessoas."
+        "texto": "Três pessoas.",
+        "comentario": "O mínimo exigido é de 4 pessoas, e não 3."
       },
       {
         "letra": "C",
@@ -946,7 +1046,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "Cinco pessoas."
+        "texto": "Cinco pessoas.",
+        "comentario": "O número exigido pela lei é 4, e não 5."
       }
     ],
     "gabarito": "C",
@@ -964,7 +1065,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O delegado de polícia pode arbitrar fiança."
+        "texto": "O delegado de polícia pode arbitrar fiança.",
+        "comentario": "O art. 24-A, §2º determina que apenas a autoridade judicial pode conceder fiança nesse caso, não o delegado de polícia."
       },
       {
         "letra": "B",
@@ -972,11 +1074,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "O crime é insuscetível de liberdade provisória sob qualquer hipótese."
+        "texto": "O crime é insuscetível de liberdade provisória sob qualquer hipótese.",
+        "comentario": "O crime admite liberdade provisória; a restrição legal recai apenas sobre a competência para conceder fiança."
       },
       {
         "letra": "D",
-        "texto": "Por ter pena baixa, é cabível transação penal imediata."
+        "texto": "Por ter pena baixa, é cabível transação penal imediata.",
+        "comentario": "O descumprimento de medida protetiva não admite os institutos da Lei 9.099/95, por vedação expressa do art. 41 da Lei Maria da Penha."
       }
     ],
     "gabarito": "B",
@@ -994,7 +1098,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Ocorre de forma automática com o trânsito em julgado."
+        "texto": "Ocorre de forma automática com o trânsito em julgado.",
+        "comentario": "Não é automática; depende de motivação expressa na sentença e da ocorrência de reincidência."
       },
       {
         "letra": "B",
@@ -1002,11 +1107,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Aplica-se apenas a agentes eleitos."
+        "texto": "Aplica-se apenas a agentes eleitos.",
+        "comentario": "Aplica-se a qualquer agente público sujeito à lei, e não apenas a agentes eleitos."
       },
       {
         "letra": "D",
-        "texto": "Substitui obrigatoriamente a pena de prisão."
+        "texto": "Substitui obrigatoriamente a pena de prisão.",
+        "comentario": "É efeito acessório que se soma à eventual pena privativa de liberdade, e não a substitui."
       }
     ],
     "gabarito": "B",
@@ -1024,7 +1131,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Crime de porte ilegal de arma de fogo."
+        "texto": "Crime de porte ilegal de arma de fogo.",
+        "comentario": "O porte pressupõe a arma fora da residência ou local de trabalho; manter a arma em casa com registro apenas vencido não configura porte."
       },
       {
         "letra": "B",
@@ -1032,11 +1140,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Crime de posse irregular de arma de fogo de uso permitido."
+        "texto": "Crime de posse irregular de arma de fogo de uso permitido.",
+        "comentario": "Segundo a jurisprudência do STJ, o mero vencimento do registro de arma de uso permitido mantida na residência configura infração administrativa, não crime."
       },
       {
         "letra": "D",
-        "texto": "Crime hediondo de comércio ilegal."
+        "texto": "Crime hediondo de comércio ilegal.",
+        "comentario": "Não há conduta de comércio nem arma de uso restrito na situação descrita; o registro apenas vencido não configura crime hediondo."
       }
     ],
     "gabarito": "B",
@@ -1054,7 +1164,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Associação para o tráfico de drogas."
+        "texto": "Associação para o tráfico de drogas.",
+        "comentario": "É crime EQUIPARADO a hediondo, não constando do rol do art. 1º da Lei 8.072/90 como hediondo em sentido estrito."
       },
       {
         "letra": "B",
@@ -1062,11 +1173,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "Furto simples de semovente domesticável."
+        "texto": "Furto simples de semovente domesticável.",
+        "comentario": "Apenas o furto QUALIFICADO de semovente domesticável (com abate ou desfiguração) é hediondo; o furto simples não é."
       },
       {
         "letra": "D",
-        "texto": "Lesão corporal culposa de trânsito."
+        "texto": "Lesão corporal culposa de trânsito.",
+        "comentario": "Não há previsão de lesão corporal culposa de trânsito no rol de crimes hediondos da Lei 8.072/90."
       }
     ],
     "gabarito": "B",
@@ -1083,11 +1196,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "As medidas protetivas de urgência devem ser aplicadas somente pelo juiz, após manifestação do Ministério Público."
+        "texto": "As medidas protetivas de urgência devem ser aplicadas somente pelo juiz, após manifestação do Ministério Público.",
+        "comentario": "O juiz pode conceder as medidas de ofício, sem necessidade de prévia manifestação do Ministério Público."
       },
       {
         "letra": "B",
-        "texto": "A autoridade policial poderá registrar o boletim de ocorrência e encaminhar a ofendida ao hospital, mas não pode requerer medidas protetivas."
+        "texto": "A autoridade policial poderá registrar o boletim de ocorrência e encaminhar a ofendida ao hospital, mas não pode requerer medidas protetivas.",
+        "comentario": "A autoridade policial pode e deve encaminhar ao juiz o pedido de medidas protetivas formulado pela ofendida (art. 12, III)."
       },
       {
         "letra": "C",
@@ -1095,7 +1210,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "As medidas protetivas só podem ser concedidas durante o processo penal, não antes de seu início."
+        "texto": "As medidas protetivas só podem ser concedidas durante o processo penal, não antes de seu início.",
+        "comentario": "As medidas podem ser concedidas em qualquer fase, inclusive durante o inquérito policial, antes mesmo do início do processo."
       }
     ],
     "gabarito": "C",
@@ -1113,15 +1229,18 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A pena pode ser reduzida de 1/6 a 2/3 se o agente for primário, de bons antecedentes e não se dedicar a atividades criminosas."
+        "texto": "A pena pode ser reduzida de 1/6 a 2/3 se o agente for primário, de bons antecedentes e não se dedicar a atividades criminosas.",
+        "comentario": "Esta afirmação está correta (não é a alternativa buscada nesta questão que pede a INCORRETA): o art. 33, §4º realmente prevê essa redução de pena para o tráfico privilegiado."
       },
       {
         "letra": "B",
-        "texto": "O crime de tráfico de drogas é inafiançável e insuscetível de graça ou anistia."
+        "texto": "O crime de tráfico de drogas é inafiançável e insuscetível de graça ou anistia.",
+        "comentario": "Esta afirmação está correta: o tráfico de drogas é, de fato, inafiançável e insuscetível de graça, anistia e indulto, por ser equiparado a hediondo (art. 44 da Lei 11.343/06), não sendo a alternativa incorreta buscada."
       },
       {
         "letra": "C",
-        "texto": "O tráfico de drogas é um crime de ação múltipla ou conteúdo variado, pois o tipo penal prevê 18 verbos."
+        "texto": "O tráfico de drogas é um crime de ação múltipla ou conteúdo variado, pois o tipo penal prevê 18 verbos.",
+        "comentario": "Esta afirmação está correta: o art. 33 realmente descreve um tipo penal de ação múltipla/conteúdo variado, com diversos núcleos verbais, não sendo a alternativa incorreta procurada."
       },
       {
         "letra": "D",
@@ -1143,11 +1262,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O crime de porte ilegal de arma de fogo de uso permitido admite fiança e é considerado crime de menor potencial ofensivo."
+        "texto": "O crime de porte ilegal de arma de fogo de uso permitido admite fiança e é considerado crime de menor potencial ofensivo.",
+        "comentario": "Não é crime de menor potencial ofensivo, pois a pena máxima (4 anos) supera o limite de 2 anos exigido para essa classificação."
       },
       {
         "letra": "B",
-        "texto": "O porte ilegal de arma de fogo de uso permitido é inafiançável e insuscetível de liberdade provisória."
+        "texto": "O porte ilegal de arma de fogo de uso permitido é inafiançável e insuscetível de liberdade provisória.",
+        "comentario": "A inafiançabilidade absoluta e a vedação à liberdade provisória correspondem ao tratamento do porte de arma de uso RESTRITO (art. 16, crime hediondo), e não ao porte de uso permitido do art. 14."
       },
       {
         "letra": "C",
@@ -1155,7 +1276,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "O agente surpreendido portando arma de fogo sem registro pode obter sursis processual se primário."
+        "texto": "O agente surpreendido portando arma de fogo sem registro pode obter sursis processual se primário.",
+        "comentario": "O sursis processual (Lei 9.099/95, art. 89) é cabível para crimes com pena mínima igual ou inferior a 1 ano; a pena mínima do art. 14 é de 2 anos, o que inviabiliza o instituto."
       }
     ],
     "gabarito": "C",
@@ -1173,7 +1295,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O agente aja com dolo genérico, bastando que a conduta ilegal seja voluntária."
+        "texto": "O agente aja com dolo genérico, bastando que a conduta ilegal seja voluntária.",
+        "comentario": "A lei exige dolo específico; o dolo genérico, isolado, não é suficiente para configurar o crime."
       },
       {
         "letra": "B",
@@ -1181,11 +1304,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "O resultado lesivo seja de natureza econômica para a vítima."
+        "texto": "O resultado lesivo seja de natureza econômica para a vítima.",
+        "comentario": "A lei não exige resultado econômico; a finalidade especial pode ser de qualquer natureza (prejudicar, beneficiar, capricho ou satisfação pessoal)."
       },
       {
         "letra": "D",
-        "texto": "A conduta seja praticada em serviço ativo, não se aplicando a agentes que praticam atos fora do horário de trabalho."
+        "texto": "A conduta seja praticada em serviço ativo, não se aplicando a agentes que praticam atos fora do horário de trabalho.",
+        "comentario": "A lei também se aplica quando o agente atua 'a pretexto de exercer' a função pública, ainda que fora do estrito serviço ou horário formal."
       }
     ],
     "gabarito": "B",
@@ -1207,15 +1332,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "B",
-        "texto": "Os crimes hediondos são insuscetíveis de fiança e graça, mas admitem anistia e indulto."
+        "texto": "Os crimes hediondos são insuscetíveis de fiança e graça, mas admitem anistia e indulto.",
+        "comentario": "Os crimes hediondos também são insuscetíveis de anistia e indulto, e não apenas de fiança e graça."
       },
       {
         "letra": "C",
-        "texto": "Os crimes hediondos são insuscetíveis de fiança, mas admitem graça, indulto e anistia."
+        "texto": "Os crimes hediondos são insuscetíveis de fiança, mas admitem graça, indulto e anistia.",
+        "comentario": "Os crimes hediondos são insuscetíveis também de graça, indulto e anistia, e não apenas de fiança."
       },
       {
         "letra": "D",
-        "texto": "Os crimes hediondos são insuscetíveis de fiança, graça e anistia, mas admitem indulto."
+        "texto": "Os crimes hediondos são insuscetíveis de fiança, graça e anistia, mas admitem indulto.",
+        "comentario": "O indulto também é vedado aos crimes hediondos e equiparados, e não apenas fiança, graça e anistia."
       }
     ],
     "gabarito": "A",
@@ -1233,11 +1361,13 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A tortura pode ser praticada apenas por agentes públicos no exercício de suas funções."
+        "texto": "A tortura pode ser praticada apenas por agentes públicos no exercício de suas funções.",
+        "comentario": "A tortura pode ser praticada por qualquer pessoa, inclusive particular; a condição de agente público é apenas causa de AUMENTO de pena, não elemento do tipo básico."
       },
       {
         "letra": "B",
-        "texto": "O crime de tortura admite modalidade culposa quando praticada por negligência do agente."
+        "texto": "O crime de tortura admite modalidade culposa quando praticada por negligência do agente.",
+        "comentario": "A tortura é crime exclusivamente doloso; não há previsão de modalidade culposa na Lei 9.455/97."
       },
       {
         "letra": "C",
@@ -1245,7 +1375,8 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "D",
-        "texto": "O condenado por tortura iniciará o cumprimento da pena obrigatoriamente em regime fechado, e a progressão exige o cumprimento de 2/3 da pena."
+        "texto": "O condenado por tortura iniciará o cumprimento da pena obrigatoriamente em regime fechado, e a progressão exige o cumprimento de 2/3 da pena.",
+        "comentario": "Não há mais regime integralmente fechado obrigatório (declarado inconstitucional pelo STF); a progressão segue os percentuais do art. 112 da LEP, não um patamar fixo de 2/3."
       }
     ],
     "gabarito": "C",
@@ -1263,7 +1394,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "2 ou mais pessoas estruturalmente ordenadas para a prática de infrações penais cujas penas máximas sejam superiores a 4 anos."
+        "texto": "2 ou mais pessoas estruturalmente ordenadas para a prática de infrações penais cujas penas máximas sejam superiores a 4 anos.",
+        "comentario": "O mínimo exigido é de 4 pessoas, e não 2 (esse número corresponde à associação criminosa/associação para o tráfico, prevista em outros tipos)."
       },
       {
         "letra": "B",
@@ -1271,11 +1403,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "3 ou mais pessoas estruturalmente ordenadas para a prática de crimes com pena de reclusão superior a 6 anos."
+        "texto": "3 ou mais pessoas estruturalmente ordenadas para a prática de crimes com pena de reclusão superior a 6 anos.",
+        "comentario": "O mínimo é 4 pessoas (não 3), e o critério legal é pena MÁXIMA superior a 4 anos, e não reclusão superior a 6."
       },
       {
         "letra": "D",
-        "texto": "5 ou mais pessoas estruturalmente ordenadas para a prática de crimes com pena mínima superior a 2 anos."
+        "texto": "5 ou mais pessoas estruturalmente ordenadas para a prática de crimes com pena mínima superior a 2 anos.",
+        "comentario": "O número exigido é 4 (não 5), e o critério legal é pena MÁXIMA superior a 4 anos, e não pena mínima superior a 2."
       }
     ],
     "gabarito": "B",
@@ -1297,15 +1431,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "B",
-        "texto": "Apenas as autoridades policiais podem efetuar prisão em flagrante, pois é ato de poder de polícia."
+        "texto": "Apenas as autoridades policiais podem efetuar prisão em flagrante, pois é ato de poder de polícia.",
+        "comentario": "Qualquer pessoa do povo PODE (faculdade) efetuar a prisão em flagrante; apenas para a autoridade policial é que a prisão é um dever (obrigatoriedade)."
       },
       {
         "letra": "C",
-        "texto": "A prisão em flagrante só pode ocorrer durante o cometimento do crime, não após sua consumação."
+        "texto": "A prisão em flagrante só pode ocorrer durante o cometimento do crime, não após sua consumação.",
+        "comentario": "O CPP admite outras modalidades de flagrante (impróprio/quase-flagrante e presumido/ficto) que ocorrem logo após a prática do crime, não apenas durante sua execução."
       },
       {
         "letra": "D",
-        "texto": "O flagrante preparado (provocado pela polícia) é válido e gera prisão legal."
+        "texto": "O flagrante preparado (provocado pela polícia) é válido e gera prisão legal.",
+        "comentario": "O flagrante preparado (provocado) é ilegal, conforme a Súmula 145 do STF, por se tratar de crime impossível."
       }
     ],
     "gabarito": "A",
@@ -1323,7 +1460,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A LGPD se aplica a qualquer operação de tratamento de dados pessoais realizada por pessoa natural ou jurídica, de direito público ou privado."
+        "texto": "A LGPD se aplica a qualquer operação de tratamento de dados pessoais realizada por pessoa natural ou jurídica, de direito público ou privado.",
+        "comentario": "A LGPD prevê exceções expressas, entre elas o tratamento por pessoa natural para fins exclusivamente particulares e não econômicos, não se aplicando a 'qualquer' operação sem ressalvas."
       },
       {
         "letra": "B",
@@ -1331,11 +1469,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A LGPD se aplica apenas ao tratamento de dados digitais, não abrangendo dados em meio físico."
+        "texto": "A LGPD se aplica apenas ao tratamento de dados digitais, não abrangendo dados em meio físico.",
+        "comentario": "A LGPD aplica-se também a dados tratados em meio físico, não se restringindo ao meio digital."
       },
       {
         "letra": "D",
-        "texto": "Somente a alternativa A está correta."
+        "texto": "Somente a alternativa A está correta.",
+        "comentario": "A alternativa A está incorreta por não considerar as exceções legais expressas da LGPD, de modo que esta afirmação também é falsa."
       }
     ],
     "gabarito": "B",
@@ -1357,15 +1497,18 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "B",
-        "texto": "12 anos completos."
+        "texto": "12 anos completos.",
+        "comentario": "O correto é 'até 12 anos incompletos' — ou seja, antes de completar 12 anos — e não '12 anos completos'."
       },
       {
         "letra": "C",
-        "texto": "14 anos incompletos."
+        "texto": "14 anos incompletos.",
+        "comentario": "O limite etário da criança no ECA é 12 anos incompletos, e não 14."
       },
       {
         "letra": "D",
-        "texto": "18 anos."
+        "texto": "18 anos.",
+        "comentario": "Essa é a idade limite da adolescência (art. 2º), e não da infância, que é o que a questão pergunta."
       }
     ],
     "gabarito": "A",
@@ -1384,7 +1527,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "3 pessoas, com estrutura ordenada e divisão de tarefas."
+        "texto": "3 pessoas, com estrutura ordenada e divisão de tarefas.",
+        "comentario": "O número mínimo exigido é 4 pessoas, e não 3."
       },
       {
         "letra": "B",
@@ -1392,11 +1536,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "5 pessoas, com caráter estável e permanente."
+        "texto": "5 pessoas, com caráter estável e permanente.",
+        "comentario": "O número exigido é 4 (não 5), embora o caráter de estabilidade e permanência também seja característico da organização criminosa."
       },
       {
         "letra": "D",
-        "texto": "2 pessoas, para a prática reiterada de crimes com pena superior a 4 anos."
+        "texto": "2 pessoas, para a prática reiterada de crimes com pena superior a 4 anos.",
+        "comentario": "Esse é o requisito da associação criminosa/associação para o tráfico (2 pessoas), e não da organização criminosa, que exige no mínimo 4."
       }
     ],
     "gabarito": "B",
@@ -1414,7 +1560,8 @@ const QUESTIONS_LEGISLACAO = [
     "alternativas": [
       {
         "letra": "A",
-        "texto": "A pena será aumentada de metade e haverá suspensão preventiva do cargo por 180 dias."
+        "texto": "A pena será aumentada de metade e haverá suspensão preventiva do cargo por 180 dias.",
+        "comentario": "O aumento correto é de 1/6 a 1/3, e não de metade, e não há previsão de suspensão preventiva por prazo fixo de 180 dias."
       },
       {
         "letra": "B",
@@ -1422,11 +1569,13 @@ const QUESTIONS_LEGISLACAO = [
       },
       {
         "letra": "C",
-        "texto": "A pena será aumentada de 1/3 a 2/3 e o cargo será mantido até o trânsito em julgado, sem perda automática."
+        "texto": "A pena será aumentada de 1/3 a 2/3 e o cargo será mantido até o trânsito em julgado, sem perda automática.",
+        "comentario": "O aumento correto é de 1/6 a 1/3 (não 1/3 a 2/3), e a perda do cargo é efeito automático da própria sentença (§5º), e não uma mera manutenção do cargo até o trânsito em julgado."
       },
       {
         "letra": "D",
-        "texto": "A pena será duplicada e haverá demissão a bem do serviço público."
+        "texto": "A pena será duplicada e haverá demissão a bem do serviço público.",
+        "comentario": "Não há duplicação de pena; o aumento é de 1/6 a 1/3, e o efeito sobre o cargo é a perda automática decorrente da sentença condenatória (§5º), não uma 'demissão a bem do serviço público' (instituto administrativo distinto)."
       }
     ],
     "gabarito": "B",
@@ -1444,7 +1593,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "A pena dos crimes hediondos deve ser cumprida em regime integralmente fechado, sem possibilidade de progressão."
+      "texto": "A pena dos crimes hediondos deve ser cumprida em regime integralmente fechado, sem possibilidade de progressão.",
+      "comentario": "O STF (HC 111.840/2012) declarou inconstitucional a exigência de regime integralmente fechado; hoje é possível a progressão de regime, mediante o cumprimento dos percentuais legais."
     },
     {
       "letra": "B",
@@ -1452,11 +1602,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Os crimes hediondos são insuscetíveis apenas de indulto, sendo permitidas anistia e graça em casos excepcionais."
+      "texto": "Os crimes hediondos são insuscetíveis apenas de indulto, sendo permitidas anistia e graça em casos excepcionais.",
+      "comentario": "Os crimes hediondos são insuscetíveis dos três institutos — anistia, graça e indulto —, e não apenas do indulto."
     },
     {
       "letra": "D",
-      "texto": "Os crimes hediondos exigem o cumprimento de 2/5 da pena para progressão, qualquer que seja a condição do condenado."
+      "texto": "Os crimes hediondos exigem o cumprimento de 2/5 da pena para progressão, qualquer que seja a condição do condenado.",
+      "comentario": "Os percentuais são diferenciados conforme a condição do condenado (ex.: 40% para primário, 60% para reincidente em crime hediondo), e não um percentual único de 2/5 para todos."
     }
   ],
   "gabarito": "B",
@@ -1474,11 +1626,13 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "As medidas protetivas só podem ser concedidas mediante representação da vítima."
+      "texto": "As medidas protetivas só podem ser concedidas mediante representação da vítima.",
+      "comentario": "As medidas podem ser concedidas de ofício pelo juiz ou a requerimento do MP, sem exigir representação formal da vítima."
     },
     {
       "letra": "B",
-      "texto": "A concessão de medida protetiva configura pré-julgamento, sendo necessário aguardar o trânsito em julgado."
+      "texto": "A concessão de medida protetiva configura pré-julgamento, sendo necessário aguardar o trânsito em julgado.",
+      "comentario": "As medidas protetivas têm natureza cautelar e podem ser deferidas de imediato, independentemente do trânsito em julgado da ação penal."
     },
     {
       "letra": "C",
@@ -1486,7 +1640,8 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "D",
-      "texto": "As medidas protetivas são aplicáveis apenas a mulheres casadas ou em união estável com o agressor."
+      "texto": "As medidas protetivas são aplicáveis apenas a mulheres casadas ou em união estável com o agressor.",
+      "comentario": "As medidas se aplicam a qualquer relação íntima de afeto, não se restringindo a casamento ou união estável."
     }
   ],
   "gabarito": "C",
@@ -1504,7 +1659,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Aplica-se apenas quando a agressão ocorre dentro do lar do casal."
+      "texto": "Aplica-se apenas quando a agressão ocorre dentro do lar do casal.",
+      "comentario": "A lei se aplica a qualquer relação íntima de afeto, independentemente do local em que ocorre a agressão."
     },
     {
       "letra": "B",
@@ -1512,11 +1668,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Aplica-se apenas quando o agressor é o cônjuge ou companheiro da vítima."
+      "texto": "Aplica-se apenas quando o agressor é o cônjuge ou companheiro da vítima.",
+      "comentario": "A lei abrange qualquer relação íntima de afeto, mesmo sem vínculo de cônjuge/companheiro e mesmo sem coabitação."
     },
     {
       "letra": "D",
-      "texto": "Não se aplica quando a vítima e o agressor são do mesmo sexo."
+      "texto": "Não se aplica quando a vítima e o agressor são do mesmo sexo.",
+      "comentario": "O STJ firmou entendimento de que a lei se aplica também às relações homoafetivas femininas."
     }
   ],
   "gabarito": "B",
@@ -1534,7 +1692,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "De menor potencial ofensivo, processado no Juizado Especial Criminal."
+      "texto": "De menor potencial ofensivo, processado no Juizado Especial Criminal.",
+      "comentario": "A pena máxima (4 anos) supera o limite de 2 anos exigido para a classificação como crime de menor potencial ofensivo, afastando a competência do JECRIM."
     },
     {
       "letra": "B",
@@ -1542,11 +1701,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Material, consumado apenas com a prova de perigo concreto à coletividade."
+      "texto": "Material, consumado apenas com a prova de perigo concreto à coletividade.",
+      "comentario": "A jurisprudência classifica o crime como de perigo ABSTRATO (formal), dispensando a prova de perigo concreto à coletividade."
     },
     {
       "letra": "D",
-      "texto": "Que depende da demonstração de dolo específico para sua configuração."
+      "texto": "Que depende da demonstração de dolo específico para sua configuração.",
+      "comentario": "Basta o dolo genérico de portar a arma sem autorização; não se exige finalidade especial (dolo específico)."
     }
   ],
   "gabarito": "B",
@@ -1564,15 +1725,18 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Crime afiançável, com pena de 5 a 15 anos de reclusão."
+      "texto": "Crime afiançável, com pena de 5 a 15 anos de reclusão.",
+      "comentario": "O tráfico é INAFIANÇÁVEL (equiparado a hediondo), e não afiançável."
     },
     {
       "letra": "B",
-      "texto": "Crime inafiançável e insuscetível de sursis, com pena de 5 a 15 anos."
+      "texto": "Crime inafiançável e insuscetível de sursis, com pena de 5 a 15 anos.",
+      "comentario": "A afirmação está correta quanto à inafiançabilidade e à vedação ao sursis, mas a alternativa mais completa (D) é a que evidencia adicionalmente a natureza de crime equiparado a hediondo, elemento central da classificação penal do delito enfatizado pela jurisprudência do STF."
     },
     {
       "letra": "C",
-      "texto": "Crime afiançável e com pena de 5 a 10 anos de reclusão."
+      "texto": "Crime afiançável e com pena de 5 a 10 anos de reclusão.",
+      "comentario": "O tráfico é inafiançável, e a pena vai de 5 a 15 anos, e não de 5 a 10 anos."
     },
     {
       "letra": "D",
@@ -1594,15 +1758,18 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Ser primário, ter bons antecedentes e não se dedicar a atividades criminosas. Redução de 1/6 a 1/3."
+      "texto": "Ser primário, ter bons antecedentes e não se dedicar a atividades criminosas. Redução de 1/6 a 1/3.",
+      "comentario": "Falta o requisito de não integrar organização criminosa, e o intervalo de redução está incorreto — o correto é de 1/6 a 2/3, e não de 1/6 a 1/3."
     },
     {
       "letra": "B",
-      "texto": "Ser primário, ter bons antecedentes, não integrar organização criminosa e não se dedicar a atividades ilícitas. Redução de 1/6 a 2/3."
+      "texto": "Ser primário, ter bons antecedentes, não integrar organização criminosa e não se dedicar a atividades ilícitas. Redução de 1/6 a 2/3.",
+      "comentario": "O texto legal do art. 33, §4º refere-se precisamente a não se dedicar a 'atividades criminosas', e não a 'atividades ilícitas' (termo mais amplo usado nesta alternativa), motivo pelo qual a redação de D é considerada mais fiel ao dispositivo legal."
     },
     {
       "letra": "C",
-      "texto": "Ser primário e colaborar voluntariamente com a persecução penal. Redução de 1/3 a 2/3."
+      "texto": "Ser primário e colaborar voluntariamente com a persecução penal. Redução de 1/3 a 2/3.",
+      "comentario": "Não há requisito de colaboração com a persecução penal para o tráfico privilegiado (isso é próprio da colaboração premiada da Lei 12.850/13), e o intervalo de redução está errado — o correto é 1/6 a 2/3, não 1/3 a 2/3."
     },
     {
       "letra": "D",
@@ -1624,7 +1791,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Apenas o dolo, sem necessidade de qualquer finalidade especial."
+      "texto": "Apenas o dolo, sem necessidade de qualquer finalidade especial.",
+      "comentario": "A lei exige dolo específico, não bastando o dolo genérico sem finalidade especial."
     },
     {
       "letra": "B",
@@ -1632,11 +1800,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Culpa grave do agente público, decorrente de negligência evidente."
+      "texto": "Culpa grave do agente público, decorrente de negligência evidente.",
+      "comentario": "Não há modalidade culposa no abuso de autoridade; o crime exige dolo específico, e não culpa, ainda que grave."
     },
     {
       "letra": "D",
-      "texto": "Dolo e o resultado concreto de dano à vítima para que o crime se consume."
+      "texto": "Dolo e o resultado concreto de dano à vítima para que o crime se consume.",
+      "comentario": "O crime não exige resultado de dano concreto para se consumar; basta a conduta dolosa com a finalidade especial exigida pela lei."
     }
   ],
   "gabarito": "B",
@@ -1654,7 +1824,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Mantém preso preventivamente o indivíduo por prazo superior ao determinado em lei, desde que exista fundamentação judicial."
+      "texto": "Mantém preso preventivamente o indivíduo por prazo superior ao determinado em lei, desde que exista fundamentação judicial.",
+      "comentario": "A questão traz a ressalva 'desde que exista fundamentação judicial', o que afasta o abuso: havendo decisão motivada, não há o excesso de prazo ilegal que caracteriza o crime."
     },
     {
       "letra": "B",
@@ -1662,11 +1833,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Decreta a prisão preventiva em flagrante de crime afiançável sem possibilidade de arbitramento de fiança."
+      "texto": "Decreta a prisão preventiva em flagrante de crime afiançável sem possibilidade de arbitramento de fiança.",
+      "comentario": "Essa conduta não corresponde à hipótese tratada no art. 12, parágrafo único, IV, que trata do prolongamento indevido da execução de pena, prisão ou medida de segurança além do prazo legal."
     },
     {
       "letra": "D",
-      "texto": "Interroga o preso sem a presença do advogado, desde que seja comunicado posteriormente."
+      "texto": "Interroga o preso sem a presença do advogado, desde que seja comunicado posteriormente.",
+      "comentario": "Essa conduta não é a hipótese tratada na alternativa correta, que trata especificamente do prolongamento indevido da execução de pena, prisão preventiva ou medida de segurança além do prazo legal."
     }
   ],
   "gabarito": "B",
@@ -1684,7 +1857,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Qualquer lesão corporal dolosa praticada por agente público contra pessoa detida."
+      "texto": "Qualquer lesão corporal dolosa praticada por agente público contra pessoa detida.",
+      "comentario": "A tortura exige finalidade específica (obter informação, declaração, confissão ou aplicar castigo/medida de caráter preventivo), não bastando qualquer lesão corporal dolosa sem essa finalidade."
     },
     {
       "letra": "B",
@@ -1692,11 +1866,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Apenas a tortura com resultado morte, pois os demais casos configuram lesão corporal qualificada."
+      "texto": "Apenas a tortura com resultado morte, pois os demais casos configuram lesão corporal qualificada.",
+      "comentario": "A tortura é tipo autônomo que não exige resultado morte para sua configuração; o resultado morte é apenas causa de aumento dentro da própria Lei 9.455/97."
     },
     {
       "letra": "D",
-      "texto": "Submeter à prisão indevida qualquer pessoa privada de sua liberdade, independentemente de sofrimento."
+      "texto": "Submeter à prisão indevida qualquer pessoa privada de sua liberdade, independentemente de sofrimento.",
+      "comentario": "A tortura exige o efetivo sofrimento físico ou mental da vítima como elemento do tipo, não bastando a mera prisão indevida sem esse sofrimento."
     }
   ],
   "gabarito": "B",
@@ -1714,15 +1890,18 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Homicídio qualificado e feminicídio."
+      "texto": "Homicídio qualificado e feminicídio.",
+      "comentario": "Ambos são expressamente hediondos, previstos no art. 1º da Lei 8.072/90, não servindo como a exceção pedida no enunciado."
     },
     {
       "letra": "B",
-      "texto": "Estupro e estupro de vulnerável."
+      "texto": "Estupro e estupro de vulnerável.",
+      "comentario": "Ambos são crimes hediondos expressamente previstos no art. 1º da Lei 8.072/90."
     },
     {
       "letra": "C",
-      "texto": "Latrocínio e extorsão mediante sequestro."
+      "texto": "Latrocínio e extorsão mediante sequestro.",
+      "comentario": "Ambos constam do rol de crimes hediondos do art. 1º da Lei 8.072/90."
     },
     {
       "letra": "D",
@@ -1744,11 +1923,13 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "O colaborador pode ser beneficiado com perdão judicial, redução da pena em até 2/3 ou substituição por pena restritiva de direitos."
+      "texto": "O colaborador pode ser beneficiado com perdão judicial, redução da pena em até 2/3 ou substituição por pena restritiva de direitos.",
+      "comentario": "Esta afirmação está correta (não é a alternativa buscada nesta questão que pede a INCORRETA): o art. 4º da Lei 12.850/13 realmente prevê esses benefícios."
     },
     {
       "letra": "B",
-      "texto": "O acordo de colaboração é realizado entre o MP (ou delegado, na fase de inquérito) e o colaborador, homologado pelo juiz."
+      "texto": "O acordo de colaboração é realizado entre o MP (ou delegado, na fase de inquérito) e o colaborador, homologado pelo juiz.",
+      "comentario": "Esta afirmação está correta: o acordo é celebrado entre o MP (ou o delegado, com manifestação do MP, na fase de inquérito) e o colaborador, sendo submetido à homologação judicial (art. 4º, §§6º e 7º)."
     },
     {
       "letra": "C",
@@ -1756,7 +1937,8 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "D",
-      "texto": "Nenhuma sentença condenatória será proferida com fundamento exclusivamente nas declarações do colaborador."
+      "texto": "Nenhuma sentença condenatória será proferida com fundamento exclusivamente nas declarações do colaborador.",
+      "comentario": "Esta afirmação está correta: o art. 4º, §16 veda expressamente que uma condenação se baseie exclusivamente nas declarações do colaborador, exigindo corroboração por outras provas."
     }
   ],
   "gabarito": "C",
@@ -1774,11 +1956,13 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Porte ilegal de arma de fogo de uso permitido — art. 14."
+      "texto": "Porte ilegal de arma de fogo de uso permitido — art. 14.",
+      "comentario": "O art. 14, parágrafo único, I exclui do crime os militares, policiais civis, penais e demais servidores autorizados por lei; o porte irregular por servidor dentro dos limites institucionais é infração administrativa, não o crime do art. 14."
     },
     {
       "letra": "B",
-      "texto": "Posse ou porte ilegal de arma de fogo de uso restrito — art. 16."
+      "texto": "Posse ou porte ilegal de arma de fogo de uso restrito — art. 16.",
+      "comentario": "Pela mesma exclusão legal do art. 14, parágrafo único, I, o servidor autorizado não incorre no tipo penal; além disso, a situação descrita não envolve necessariamente arma de uso restrito."
     },
     {
       "letra": "C",
@@ -1786,7 +1970,8 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "D",
-      "texto": "Disparo de arma de fogo — art. 15."
+      "texto": "Disparo de arma de fogo — art. 15.",
+      "comentario": "O enunciado não descreve disparo de arma, mas mero desacordo com o regulamento interno no porte, hipótese tratada como infração administrativa, não como o crime de disparo do art. 15."
     }
   ],
   "gabarito": "C",
@@ -1804,11 +1989,13 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Fornecer drogas, ainda que gratuitamente, a pessoa de seu relacionamento, causando sua morte."
+      "texto": "Fornecer drogas, ainda que gratuitamente, a pessoa de seu relacionamento, causando sua morte.",
+      "comentario": "Essa hipótese, com resultado morte, não corresponde à forma privilegiada do §3º, que trata do compartilhamento eventual e sem intuito de lucro, sem esse resultado agravado."
     },
     {
       "letra": "B",
-      "texto": "Importar ou exportar droga, ainda que em pequenas quantidades, para consumo próprio."
+      "texto": "Importar ou exportar droga, ainda que em pequenas quantidades, para consumo próprio.",
+      "comentario": "Essa conduta se aproxima do porte para uso pessoal (art. 28), e não da forma privilegiada de cessão eventual do art. 33, §3º."
     },
     {
       "letra": "C",
@@ -1816,7 +2003,8 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "D",
-      "texto": "Administrar estabelecimento em que ocorram práticas de uso de drogas."
+      "texto": "Administrar estabelecimento em que ocorram práticas de uso de drogas.",
+      "comentario": "Essa conduta é tipificada em dispositivo próprio (art. 33, §1º, ou art. 34, conforme o caso), não correspondendo à figura privilegiada do §3º."
     }
   ],
   "gabarito": "C",
@@ -1834,7 +2022,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "Física, psicológica e sexual apenas."
+      "texto": "Física, psicológica e sexual apenas.",
+      "comentario": "Faltam mencionar as violências patrimonial e moral, também previstas no art. 7º."
     },
     {
       "letra": "B",
@@ -1842,11 +2031,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "Física, psicológica, sexual, moral e institucional."
+      "texto": "Física, psicológica, sexual, moral e institucional.",
+      "comentario": "A lei não prevê a modalidade 'institucional'; a quinta forma prevista no art. 7º é a PATRIMONIAL, não a institucional."
     },
     {
       "letra": "D",
-      "texto": "Física, psicológica e patrimonial apenas."
+      "texto": "Física, psicológica e patrimonial apenas.",
+      "comentario": "Faltam as modalidades sexual e moral, também previstas no art. 7º."
     }
   ],
   "gabarito": "B",
@@ -1864,7 +2055,8 @@ const QUESTIONS_LEGISLACAO = [
   "alternativas": [
     {
       "letra": "A",
-      "texto": "O crime antecedente deve ser obrigatoriamente um crime hediondo para que haja lavagem de dinheiro."
+      "texto": "O crime antecedente deve ser obrigatoriamente um crime hediondo para que haja lavagem de dinheiro.",
+      "comentario": "Após a Lei 12.683/12, o rol taxativo de crimes antecedentes foi eliminado: qualquer infração penal (crime ou contravenção) pode ser antecedente da lavagem, não apenas os hediondos."
     },
     {
       "letra": "B",
@@ -1872,11 +2064,13 @@ const QUESTIONS_LEGISLACAO = [
     },
     {
       "letra": "C",
-      "texto": "A lavagem de dinheiro exige que o agente seja o mesmo que cometeu o crime antecedente."
+      "texto": "A lavagem de dinheiro exige que o agente seja o mesmo que cometeu o crime antecedente.",
+      "comentario": "A lavagem pode ser praticada por terceiro distinto do autor do crime antecedente, não sendo essa identidade um requisito do tipo."
     },
     {
       "letra": "D",
-      "texto": "A autolavagem (self-laundering) não é punível no direito brasileiro."
+      "texto": "A autolavagem (self-laundering) não é punível no direito brasileiro.",
+      "comentario": "A autolavagem é punível no Brasil: o próprio autor do crime antecedente pode responder também pela lavagem dos valores dele decorrentes."
     }
   ],
   "gabarito": "B",
@@ -1892,10 +2086,10 @@ const QUESTIONS_LEGISLACAO = [
   "dificuldade": "medio",
   "enunciado": "A doutrina identifica, no processo de lavagem de dinheiro, três fases sequenciais. Assinale a alternativa que as apresenta na ordem correta:",
   "alternativas": [
-    { "letra": "A", "texto": "Integração, ocultação e colocação." },
+    { "letra": "A", "texto": "Integração, ocultação e colocação.", "comentario": "A ordem correta é colocação, ocultação/estratificação e, por último, integração — a colocação não ocorre por último, como sugere esta alternativa." },
     { "letra": "B", "texto": "Colocação (placement), ocultação/estratificação (layering) e integração (integration)." },
-    { "letra": "C", "texto": "Fiscalização, denúncia e julgamento." },
-    { "letra": "D", "texto": "Investigação, indiciamento e condenação." }
+    { "letra": "C", "texto": "Fiscalização, denúncia e julgamento.", "comentario": "Essas são fases do processo penal/persecução, não as fases doutrinárias econômicas da lavagem de dinheiro." },
+    { "letra": "D", "texto": "Investigação, indiciamento e condenação.", "comentario": "Também são etapas da persecução penal, não as fases econômicas da lavagem descritas pela doutrina (colocação, ocultação e integração)." }
   ],
   "gabarito": "B",
   "artigo": "Doutrina sobre a Lei 9.613/98",
@@ -1909,10 +2103,10 @@ const QUESTIONS_LEGISLACAO = [
   "dificuldade": "medio",
   "enunciado": "No combate à lavagem de dinheiro no Brasil, o Conselho de Controle de Atividades Financeiras (COAF) tem como principal função:",
   "alternativas": [
-    { "letra": "A", "texto": "Processar e julgar criminalmente os responsáveis por lavagem de dinheiro." },
+    { "letra": "A", "texto": "Processar e julgar criminalmente os responsáveis por lavagem de dinheiro.", "comentario": "O COAF não tem função jurisdicional; é órgão de inteligência financeira, apenas comunicando suspeitas às autoridades competentes." },
     { "letra": "B", "texto": "Receber, examinar e identificar operações financeiras suspeitas, comunicando-as às autoridades competentes para investigação." },
-    { "letra": "C", "texto": "Substituir o Ministério Público na propositura da ação penal." },
-    { "letra": "D", "texto": "Conceder indulto às pessoas condenadas por lavagem de dinheiro." }
+    { "letra": "C", "texto": "Substituir o Ministério Público na propositura da ação penal.", "comentario": "O COAF não possui legitimidade para propor ação penal, papel exclusivo do Ministério Público (ou do querelante, em ação privada)." },
+    { "letra": "D", "texto": "Conceder indulto às pessoas condenadas por lavagem de dinheiro.", "comentario": "O COAF não tem competência para conceder indulto, ato de natureza político-administrativa de competência do Presidente da República." }
   ],
   "gabarito": "B",
   "artigo": "Lei 9.613/98 (Capítulo sobre o COAF)",
@@ -1927,10 +2121,10 @@ const QUESTIONS_LEGISLACAO = [
   "dificuldade": "dificil",
   "enunciado": "Segundo a Lei nº 12.846/2013 (Lei Anticorrupção), o acordo de leniência celebrado entre a autoridade máxima do órgão e a pessoa jurídica que colabora efetivamente com as investigações pode resultar em:",
   "alternativas": [
-    { "letra": "A", "texto": "Isenção total e automática de qualquer sanção, inclusive a reparação do dano." },
+    { "letra": "A", "texto": "Isenção total e automática de qualquer sanção, inclusive a reparação do dano.", "comentario": "A reparação integral do dano causado à administração pública nunca é dispensada pelo acordo de leniência." },
     { "letra": "B", "texto": "Redução de até 2/3 do valor da multa aplicável, além de isenção ou atenuação de sanções administrativas e judiciais, exceto a reparação integral do dano." },
-    { "letra": "C", "texto": "Extinção da responsabilidade penal dos administradores da empresa, ainda que não previsto nesta lei." },
-    { "letra": "D", "texto": "Transferência da responsabilidade da pessoa jurídica para o Estado." }
+    { "letra": "C", "texto": "Extinção da responsabilidade penal dos administradores da empresa, ainda que não previsto nesta lei.", "comentario": "A Lei 12.846/13 trata da responsabilização administrativa/civil da pessoa jurídica; não extingue a responsabilidade penal individual dos administradores, que segue regras próprias de outras leis." },
+    { "letra": "D", "texto": "Transferência da responsabilidade da pessoa jurídica para o Estado.", "comentario": "Não existe essa transferência; a pessoa jurídica permanece responsável, apenas com benefícios de redução/isenção de sanções." }
   ],
   "gabarito": "B",
   "artigo": "Lei 12.846/2013 (Acordo de Leniência)",
@@ -1944,10 +2138,10 @@ const QUESTIONS_LEGISLACAO = [
   "dificuldade": "medio",
   "enunciado": "De acordo com a Lei nº 12.846/2013, a responsabilização da pessoa jurídica pela prática de atos lesivos à administração pública:",
   "alternativas": [
-    { "letra": "A", "texto": "Exclui a responsabilização individual dos dirigentes ou administradores que tenham participado do ato ilícito." },
+    { "letra": "A", "texto": "Exclui a responsabilização individual dos dirigentes ou administradores que tenham participado do ato ilícito.", "comentario": "A lei expressamente NÃO exclui a responsabilização individual dos dirigentes/administradores; ambas coexistem, cada uma na medida da respectiva culpabilidade." },
     { "letra": "B", "texto": "Não exclui a responsabilidade individual de seus dirigentes, administradores ou de qualquer pessoa natural que tenha concorrido para o ato ilícito." },
-    { "letra": "C", "texto": "Só pode ser aplicada após o trânsito em julgado da ação penal contra os administradores." },
-    { "letra": "D", "texto": "Depende da comprovação de culpa da pessoa jurídica, afastando a responsabilidade objetiva." }
+    { "letra": "C", "texto": "Só pode ser aplicada após o trânsito em julgado da ação penal contra os administradores.", "comentario": "A responsabilização administrativa e civil da pessoa jurídica é independente e não depende do trânsito em julgado de eventual ação penal contra as pessoas físicas envolvidas." },
+    { "letra": "D", "texto": "Depende da comprovação de culpa da pessoa jurídica, afastando a responsabilidade objetiva.", "comentario": "A Lei Anticorrupção adota responsabilidade OBJETIVA da pessoa jurídica nas esferas administrativa e civil, dispensando a comprovação de culpa." }
   ],
   "gabarito": "B",
   "artigo": "Art. 3º da Lei 12.846/2013",
@@ -1962,10 +2156,10 @@ const QUESTIONS_LEGISLACAO = [
   "dificuldade": "medio",
   "enunciado": "O instituto do \"juiz das garantias\", introduzido no Código de Processo Penal pela Lei nº 13.964/2019 (Pacote Anticrime), tem como principal função:",
   "alternativas": [
-    { "letra": "A", "texto": "Julgar o mérito da ação penal e proferir a sentença condenatória ou absolutória." },
+    { "letra": "A", "texto": "Julgar o mérito da ação penal e proferir a sentença condenatória ou absolutória.", "comentario": "Julgar o mérito e sentenciar é função do juiz do processo/instrução, e não do juiz das garantias, que atua apenas na fase de investigação e se afasta antes da fase de julgamento." },
     { "letra": "B", "texto": "Acompanhar a fase de investigação criminal, controlando a legalidade dos atos investigatórios e a proteção dos direitos fundamentais do investigado." },
-    { "letra": "C", "texto": "Substituir o Ministério Público na condução do inquérito policial." },
-    { "letra": "D", "texto": "Presidir o júri popular nos crimes dolosos contra a vida." }
+    { "letra": "C", "texto": "Substituir o Ministério Público na condução do inquérito policial.", "comentario": "O juiz das garantias fiscaliza a legalidade dos atos investigatórios, mas não conduz o inquérito nem substitui o MP em sua função de controle externo da atividade policial." },
+    { "letra": "D", "texto": "Presidir o júri popular nos crimes dolosos contra a vida.", "comentario": "Presidir o júri é função do juiz do processo/tribunal do júri; a atuação do juiz das garantias se encerra com o recebimento da denúncia, antes dessa fase." }
   ],
   "gabarito": "B",
   "artigo": "Lei 13.964/2019 (CPP)",
@@ -1980,10 +2174,10 @@ const QUESTIONS_LEGISLACAO = [
   "dificuldade": "dificil",
   "enunciado": "Após a alteração do art. 311 do CPP pela Lei nº 13.964/2019, a prisão preventiva:",
   "alternativas": [
-    { "letra": "A", "texto": "Pode ser decretada pelo juiz de ofício, a qualquer momento da investigação ou do processo." },
+    { "letra": "A", "texto": "Pode ser decretada pelo juiz de ofício, a qualquer momento da investigação ou do processo.", "comentario": "A Lei 13.964/2019 suprimiu justamente a expressão \"de ofício\" do art. 311, vedando ao juiz decretar a preventiva por iniciativa própria." },
     { "letra": "B", "texto": "Não pode mais ser decretada de ofício pelo juiz, dependendo de requerimento do Ministério Público, do querelante, do assistente, ou de representação da autoridade policial." },
-    { "letra": "C", "texto": "Foi extinta do ordenamento jurídico brasileiro, restando apenas a prisão em flagrante." },
-    { "letra": "D", "texto": "Passou a exigir aprovação prévia do Conselho Nacional de Justiça em todos os casos." }
+    { "letra": "C", "texto": "Foi extinta do ordenamento jurídico brasileiro, restando apenas a prisão em flagrante.", "comentario": "A prisão preventiva continua plenamente vigente no CPP; apenas não pode mais ser decretada de ofício pelo juiz." },
+    { "letra": "D", "texto": "Passou a exigir aprovação prévia do Conselho Nacional de Justiça em todos os casos.", "comentario": "Não há essa exigência; a competência para decretar a preventiva permanece do juiz competente, sem qualquer intervenção do CNJ." }
   ],
   "gabarito": "B",
   "artigo": "Art. 311 do CPP (redação da Lei 13.964/2019)",
@@ -1998,9 +2192,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "Entre as alterações promovidas pela Lei nº 13.964/2019 (Pacote Anticrime), é correto afirmar que:",
   "alternativas": [
     { "letra": "A", "texto": "O limite máximo de cumprimento de pena privativa de liberdade passou de 30 para 40 anos, e tornou-se obrigatória a coleta de perfil genético de condenados por crime hediondo ou com violência grave contra pessoa." },
-    { "letra": "B", "texto": "O limite máximo de cumprimento de pena foi reduzido de 30 para 20 anos." },
-    { "letra": "C", "texto": "A coleta de perfil genético tornou-se facultativa para todos os tipos de condenação." },
-    { "letra": "D", "texto": "Não houve qualquer alteração relacionada ao limite de cumprimento de pena." }
+    { "letra": "B", "texto": "O limite máximo de cumprimento de pena foi reduzido de 30 para 20 anos.", "comentario": "O limite foi AUMENTADO, de 30 para 40 anos, e não reduzido para 20." },
+    { "letra": "C", "texto": "A coleta de perfil genético tornou-se facultativa para todos os tipos de condenação.", "comentario": "A coleta tornou-se OBRIGATÓRIA para condenados por crime hediondo ou crime doloso com violência grave contra pessoa, não facultativa nem generalizada a todos os tipos de condenação." },
+    { "letra": "D", "texto": "Não houve qualquer alteração relacionada ao limite de cumprimento de pena.", "comentario": "Houve alteração expressa: o art. 75 do CP passou a fixar o limite máximo de cumprimento de pena em 40 anos, antes fixado em 30." }
   ],
   "gabarito": "A",
   "artigo": "Art. 75 do CP e Lei 12.037/2009 (redação da Lei 13.964/2019)",
@@ -2016,9 +2210,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "O Acordo de Não Persecução Penal (ANPP), instituído pela Lei nº 13.964/2019, pode ser proposto pelo Ministério Público, em vez de oferecer denúncia, ao investigado que:",
   "alternativas": [
     { "letra": "A", "texto": "Tenha confessado formal e circunstancialmente a prática de infração penal, não sendo caso de arquivamento, e desde que não seja cabível transação penal, observados os demais requisitos legais (não reincidente, sem indícios de conduta criminal habitual, reiterada ou profissional, e pena mínima inferior a 4 anos sem violência ou grave ameaça)." },
-    { "letra": "B", "texto": "Seja reincidente específico em crime hediondo, independentemente de confissão." },
-    { "letra": "C", "texto": "Tenha sido condenado anteriormente por qualquer crime, mesmo que já tenha cumprido a pena integralmente." },
-    { "letra": "D", "texto": "Esteja sendo processado por crime com pena mínima superior a 8 anos." }
+    { "letra": "B", "texto": "Seja reincidente específico em crime hediondo, independentemente de confissão.", "comentario": "A reincidência (especialmente em crime hediondo) é justamente causa que AFASTA o ANPP, e a confissão formal e circunstanciada é requisito obrigatório para sua proposta." },
+    { "letra": "C", "texto": "Tenha sido condenado anteriormente por qualquer crime, mesmo que já tenha cumprido a pena integralmente.", "comentario": "A lei veda o ANPP a quem for reincidente ou tenha sido beneficiado por ANPP, transação penal ou suspensão condicional nos 5 anos anteriores — não qualquer condenação pretérita já cumprida." },
+    { "letra": "D", "texto": "Esteja sendo processado por crime com pena mínima superior a 8 anos.", "comentario": "O requisito legal é exatamente o oposto: pena MÍNIMA cominada inferior a 4 anos, e sem violência ou grave ameaça à pessoa." }
   ],
   "gabarito": "A",
   "artigo": "Art. 28-A do CPP (Lei 13.964/2019)",
@@ -2034,9 +2228,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "Segundo a Lei nº 13.869/2019 (Lei de Abuso de Autoridade), a configuração do crime de abuso de autoridade exige, cumulativamente:",
   "alternativas": [
     { "letra": "A", "texto": "Sujeito ativo agente público, conduta tipificada em dispositivo específico da lei, e dolo específico (finalidade de prejudicar outrem, beneficiar-se ou a terceiro, ou mero capricho/satisfação pessoal)." },
-    { "letra": "B", "texto": "Apenas a prática de qualquer conduta que cause constrangimento a terceiro, independentemente da intenção do agente." },
-    { "letra": "C", "texto": "Que o agente público tenha, necessariamente, mais de 10 anos de exercício no cargo." },
-    { "letra": "D", "texto": "Que a conduta tenha causado dano patrimonial comprovado à vítima." }
+    { "letra": "B", "texto": "Apenas a prática de qualquer conduta que cause constrangimento a terceiro, independentemente da intenção do agente.", "comentario": "A lei exige dolo específico; sem a finalidade de prejudicar, beneficiar-se/a terceiro ou mero capricho, a conduta não configura abuso de autoridade, mesmo que cause constrangimento." },
+    { "letra": "C", "texto": "Que o agente público tenha, necessariamente, mais de 10 anos de exercício no cargo.", "comentario": "Não há exigência de tempo mínimo de exercício no cargo para a configuração do crime; o requisito é apenas a condição de agente público." },
+    { "letra": "D", "texto": "Que a conduta tenha causado dano patrimonial comprovado à vítima.", "comentario": "O crime de abuso de autoridade é formal e não exige resultado de dano patrimonial; basta a conduta dolosa específica tipificada na lei." }
   ],
   "gabarito": "A",
   "artigo": "Lei 13.869/2019",
@@ -2051,9 +2245,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "Segundo a Lei nº 13.869/2019, o crime de abuso de autoridade é crime próprio, podendo ser cometido por:",
   "alternativas": [
     { "letra": "A", "texto": "Qualquer agente público, servidor ou não, da administração direta, indireta ou fundacional de qualquer dos Poderes da União, Estados, DF, Municípios e Territórios." },
-    { "letra": "B", "texto": "Exclusivamente por Delegados de Polícia." },
-    { "letra": "C", "texto": "Apenas por membros do Poder Judiciário e do Ministério Público." },
-    { "letra": "D", "texto": "Somente por militares das Forças Armadas em operações de garantia da lei e da ordem." }
+    { "letra": "B", "texto": "Exclusivamente por Delegados de Polícia.", "comentario": "A lei não restringe o sujeito ativo a Delegados de Polícia; abrange qualquer agente público no exercício de suas funções." },
+    { "letra": "C", "texto": "Apenas por membros do Poder Judiciário e do Ministério Público.", "comentario": "O conceito de agente público adotado pela lei é amplo, não se limitando a magistrados e membros do MP." },
+    { "letra": "D", "texto": "Somente por militares das Forças Armadas em operações de garantia da lei e da ordem.", "comentario": "Não há essa restrição; qualquer agente público de qualquer Poder e esfera federativa pode ser sujeito ativo do crime." }
   ],
   "gabarito": "A",
   "artigo": "Lei 13.869/2019",
@@ -2069,9 +2263,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "Segundo o art. 1º, §1º da Lei nº 12.850/2013, considera-se organização criminosa a associação de:",
   "alternativas": [
     { "letra": "A", "texto": "4 (quatro) ou mais pessoas, estruturalmente ordenada e caracterizada pela divisão de tarefas, ainda que informalmente, com objetivo de obter vantagem de qualquer natureza, mediante a prática de infrações penais cujas penas máximas sejam superiores a 4 anos, ou que sejam de caráter transnacional." },
-    { "letra": "B", "texto": "2 (duas) pessoas, independentemente de estrutura organizacional ou divisão de tarefas." },
-    { "letra": "C", "texto": "Qualquer grupo de pessoas que pratique uma única infração penal isolada, sem estabilidade ou permanência." },
-    { "letra": "D", "texto": "10 (dez) ou mais pessoas, exclusivamente para o tráfico internacional de drogas." }
+    { "letra": "B", "texto": "2 (duas) pessoas, independentemente de estrutura organizacional ou divisão de tarefas.", "comentario": "O mínimo exigido é de 4 pessoas, com estrutura ordenada e divisão de tarefas — 2 pessoas sem esses requisitos não configuram organização criminosa." },
+    { "letra": "C", "texto": "Qualquer grupo de pessoas que pratique uma única infração penal isolada, sem estabilidade ou permanência.", "comentario": "A organização criminosa pressupõe estrutura organizada e alguma estabilidade, e não uma prática isolada e eventual de uma única infração." },
+    { "letra": "D", "texto": "10 (dez) ou mais pessoas, exclusivamente para o tráfico internacional de drogas.", "comentario": "O número mínimo é 4 pessoas, e a finalidade não se restringe ao tráfico internacional de drogas, abrangendo qualquer infração com pena máxima superior a 4 anos ou caráter transnacional." }
   ],
   "gabarito": "A",
   "artigo": "Art. 1º, §1º da Lei 12.850/2013",
@@ -2086,9 +2280,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "A colaboração premiada, instrumento de investigação previsto na Lei nº 12.850/2013, pode resultar, para o colaborador que preste efetiva colaboração à investigação, em:",
   "alternativas": [
     { "letra": "A", "texto": "Perdão judicial, redução da pena privativa de liberdade em até 2/3, ou substituição por restritiva de direitos, conforme os resultados obtidos com a colaboração." },
-    { "letra": "B", "texto": "Extinção automática de todos os processos em curso contra o colaborador, independentemente do resultado da colaboração." },
-    { "letra": "C", "texto": "Imunidade penal absoluta, vedada qualquer responsabilização futura." },
-    { "letra": "D", "texto": "Apenas o pagamento de multa, sem qualquer benefício relacionado à pena privativa de liberdade." }
+    { "letra": "B", "texto": "Extinção automática de todos os processos em curso contra o colaborador, independentemente do resultado da colaboração.", "comentario": "Os benefícios dependem da efetividade da colaboração e de decisão judicial motivada; não há extinção automática de processos em curso." },
+    { "letra": "C", "texto": "Imunidade penal absoluta, vedada qualquer responsabilização futura.", "comentario": "A lei não prevê imunidade absoluta; os benefícios são graduados (perdão judicial, redução ou substituição de pena) conforme os resultados obtidos com a colaboração." },
+    { "letra": "D", "texto": "Apenas o pagamento de multa, sem qualquer benefício relacionado à pena privativa de liberdade.", "comentario": "Os benefícios legais incidem justamente sobre a pena privativa de liberdade (redução, substituição ou perdão), não se limitando ao pagamento de multa." }
   ],
   "gabarito": "A",
   "artigo": "Art. 4º da Lei 12.850/2013",
@@ -2104,9 +2298,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "Segundo o art. 1º, §4º, II da Lei nº 9.455/1997, a pena do crime de tortura é aumentada de um sexto até um terço quando o crime é cometido:",
   "alternativas": [
     { "letra": "A", "texto": "Contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos, ou contra pessoa presa ou sujeita a medida de segurança." },
-    { "letra": "B", "texto": "Em qualquer circunstância, independentemente da condição da vítima, sem previsão de causa de aumento específica." },
-    { "letra": "C", "texto": "Apenas quando praticado por agente estranho aos quadros da Administração Pública." },
-    { "letra": "D", "texto": "Somente quando resulta em morte da vítima, hipótese que já é tratada como qualificadora, não como causa de aumento." }
+    { "letra": "B", "texto": "Em qualquer circunstância, independentemente da condição da vítima, sem previsão de causa de aumento específica.", "comentario": "A lei prevê expressamente uma causa de aumento vinculada à condição da vítima (art. 1º, §4º, II), e não uma incidência genérica e indiferente a essa condição." },
+    { "letra": "C", "texto": "Apenas quando praticado por agente estranho aos quadros da Administração Pública.", "comentario": "A causa de aumento do inciso II está ligada à condição de vulnerabilidade da VÍTIMA (ou sua situação de custódia), e não à origem funcional do agente." },
+    { "letra": "D", "texto": "Somente quando resulta em morte da vítima, hipótese que já é tratada como qualificadora, não como causa de aumento.", "comentario": "O resultado morte é tratado por dispositivo distinto (qualificadora do §3º), diferente desta causa de aumento do §4º, II, que decorre da vulnerabilidade ou condição de custódia da vítima." }
   ],
   "gabarito": "A",
   "artigo": "Art. 1º, §4º, II da Lei 9.455/1997",
@@ -2121,9 +2315,9 @@ const QUESTIONS_LEGISLACAO = [
   "enunciado": "Segundo a Lei nº 10.826/2003 (Estatuto do Desarmamento), a principal diferença entre os crimes de posse irregular (art. 12) e porte ilegal (art. 14) de arma de fogo de uso permitido é que:",
   "alternativas": [
     { "letra": "A", "texto": "A posse irregular ocorre no interior da residência ou local de trabalho (desde que o agente seja o titular/responsável legal do estabelecimento), enquanto o porte ilegal ocorre fora desses locais, envolvendo o transporte ou uso da arma em via pública ou local não autorizado." },
-    { "letra": "B", "texto": "Não há qualquer diferença prática entre os dois crimes, sendo sinônimos." },
-    { "letra": "C", "texto": "A posse irregular é crime mais grave que o porte ilegal, invertendo a lógica usual das penas." },
-    { "letra": "D", "texto": "O porte ilegal só se aplica a armas de uso restrito, nunca a armas de uso permitido." }
+    { "letra": "B", "texto": "Não há qualquer diferença prática entre os dois crimes, sendo sinônimos.", "comentario": "Há diferença clara de local de ocorrência (dentro ou fora de casa/trabalho) e de pena entre os dois tipos, que não são sinônimos." },
+    { "letra": "C", "texto": "A posse irregular é crime mais grave que o porte ilegal, invertendo a lógica usual das penas.", "comentario": "É o contrário: o porte ilegal (reclusão de 2 a 4 anos) tem pena mais grave que a posse irregular (detenção de 1 a 3 anos)." },
+    { "letra": "D", "texto": "O porte ilegal só se aplica a armas de uso restrito, nunca a armas de uso permitido.", "comentario": "O art. 14 trata justamente do porte ilegal de arma de uso PERMITIDO; o porte/posse de arma de uso restrito é tratado por outro tipo penal, o art. 16." }
   ],
   "gabarito": "A",
   "artigo": "Arts. 12 e 14 da Lei 10.826/2003",
