@@ -1985,7 +1985,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "Os crimes hediondos são, em regra, crimes comuns, não exigindo qualidade funcional especial do sujeito ativo."
         },
         {
             "letra": "B",
@@ -1993,11 +1994,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O crime não se restringe a funcionários públicos da ativa; pode ser praticado por qualquer pessoa, civil ou militar."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite coautoria e participação de particulares, não havendo essa vedação."
         }
     ],
     "gabarito": "B",
@@ -2015,7 +2018,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "O crime de tráfico é comum, não exigindo qualidade funcional especial do sujeito ativo."
         },
         {
             "letra": "B",
@@ -2023,11 +2027,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O crime não se restringe a funcionários públicos da ativa; pode ser praticado por qualquer pessoa, civil ou militar."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite coautoria e participação de particulares, não havendo essa vedação."
         }
     ],
     "gabarito": "B",
@@ -2045,7 +2051,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "Atenção: o gabarito desta questão trata o crime como comum, mas a doutrina majoritária classifica os crimes da Lei 13.869/19 como próprios, exigindo a condição de agente público (art. 1º, §1º) — vale conferir esse ponto com a bibliografia da sua banca."
         },
         {
             "letra": "B",
@@ -2053,11 +2060,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "Segundo o gabarito desta questão, o crime não se restringiria a funcionários públicos da ativa; ainda assim, vale notar que a doutrina majoritária trata os crimes de abuso de autoridade como próprios de agente público."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite a participação de particulares no concurso de agentes, ainda que o crime seja próprio de agente público quanto ao autor principal."
         }
     ],
     "gabarito": "B",
@@ -2075,7 +2084,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "O crime de tortura é comum, podendo ser praticado por qualquer pessoa; a condição de agente público é apenas causa de aumento de pena, não elemento do tipo básico."
         },
         {
             "letra": "B",
@@ -2083,11 +2093,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O crime não se restringe a funcionários públicos da ativa; pode ser praticado por qualquer pessoa, civil ou militar."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite coautoria e participação de particulares, não havendo essa vedação."
         }
     ],
     "gabarito": "B",
@@ -2105,7 +2117,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "Os crimes praticados no âmbito da Lei Maria da Penha são comuns quanto à qualidade funcional, bastando a relação doméstica, familiar ou de afeto entre agressor e vítima."
         },
         {
             "letra": "B",
@@ -2113,11 +2126,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O crime não se restringe a funcionários públicos da ativa; pode ser praticado por qualquer pessoa, civil ou militar, desde que presente a relação doméstica/familiar/afetiva."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite coautoria e participação de particulares, não havendo essa vedação."
         }
     ],
     "gabarito": "B",
@@ -2135,7 +2150,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "Os crimes do Estatuto do Desarmamento são comuns, não exigindo qualidade funcional especial do sujeito ativo."
         },
         {
             "letra": "B",
@@ -2143,11 +2159,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O crime não se restringe a funcionários públicos da ativa; pode ser praticado por qualquer pessoa, civil ou militar."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite coautoria e participação de particulares, não havendo essa vedação."
         }
     ],
     "gabarito": "B",
@@ -2165,7 +2183,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "O crime de integrar organização criminosa é comum, não exigindo qualidade funcional especial do sujeito ativo."
         },
         {
             "letra": "B",
@@ -2173,11 +2192,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O crime não se restringe a funcionários públicos da ativa; pode ser praticado por qualquer pessoa, civil ou militar."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite coautoria e participação de particulares, não havendo essa vedação."
         }
     ],
     "gabarito": "B",
@@ -2195,7 +2216,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "As normas da LEP relevantes ao tema não exigem qualidade funcional especial, aplicando-se de forma comum, conforme a fonte adotada nesta questão."
         },
         {
             "letra": "B",
@@ -2203,11 +2225,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "Não há essa restrição a funcionários públicos da ativa, conforme a fonte adotada nesta questão."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "Não há essa vedação à coautoria com particulares, conforme a fonte adotada nesta questão."
         }
     ],
     "gabarito": "B",
@@ -2225,7 +2249,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Exige-se obrigatoriamente qualidade funcional especial."
+            "texto": "Exige-se obrigatoriamente qualidade funcional especial.",
+            "comentario": "O sujeito ativo pode ser tanto o agente público quanto o terceiro particular que induza, concorra ou se beneficie do ato ímprobo (art. 3º), não havendo exigência exclusiva de qualidade funcional."
         },
         {
             "letra": "B",
@@ -2233,11 +2258,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Somente funcionários públicos da ativa podem responder."
+            "texto": "Somente funcionários públicos da ativa podem responder.",
+            "comentario": "O terceiro particular que induza, concorra ou se beneficie do ato ímprobo também responde (art. 3º), não se restringindo aos funcionários públicos da ativa."
         },
         {
             "letra": "D",
-            "texto": "Não se admite coautoria com particulares."
+            "texto": "Não se admite coautoria com particulares.",
+            "comentario": "A lei admite expressamente a responsabilização do terceiro particular que induza, concorra ou se beneficie do ato de improbidade (art. 3º)."
         }
     ],
     "gabarito": "B",
@@ -2255,7 +2282,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2263,11 +2291,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios (como o quantum da pena)."
         }
     ],
     "gabarito": "B",
@@ -2285,7 +2315,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2293,11 +2324,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios (como o quantum da pena)."
         }
     ],
     "gabarito": "B",
@@ -2315,7 +2348,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2323,11 +2357,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios (como o quantum da pena)."
         }
     ],
     "gabarito": "B",
@@ -2345,7 +2381,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Atenção: a Lei de Tortura é justamente a exceção onde a jurisprudência trata a perda do cargo como efeito automático — mas o gabarito desta questão específica adota a declaração expressa como resposta correta; vale conferir esse ponto com a bibliografia da sua banca."
         },
         {
             "letra": "B",
@@ -2353,11 +2390,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito expressamente previsto (art. 1º, §5º)."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica; aplicam-se a partir da própria condenação por tortura."
         }
     ],
     "gabarito": "B",
@@ -2375,7 +2414,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2383,11 +2423,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios (como o quantum da pena)."
         }
     ],
     "gabarito": "B",
@@ -2405,7 +2447,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2413,11 +2456,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios (como o quantum da pena)."
         }
     ],
     "gabarito": "B",
@@ -2435,7 +2480,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2443,11 +2489,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios (como o quantum da pena)."
         }
     ],
     "gabarito": "B",
@@ -2465,7 +2513,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Com exceção da Lei de Tortura (efeito automático), os efeitos da condenação em geral dependem de motivação expressa do magistrado na sentença."
         },
         {
             "letra": "B",
@@ -2473,11 +2522,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda do cargo público é sim um efeito admitido, desde que motivadamente declarado na sentença."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "Os efeitos da condenação não dependem de reincidência específica, aplicando-se conforme os requisitos legais próprios."
         }
     ],
     "gabarito": "B",
@@ -2495,7 +2546,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "São automáticos e não exigem motivação judicial."
+            "texto": "São automáticos e não exigem motivação judicial.",
+            "comentario": "Os efeitos sancionatórios da improbidade (como a perda de função pública) dependem de decisão judicial fundamentada, e não são automáticos."
         },
         {
             "letra": "B",
@@ -2503,11 +2555,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Não admitem perda do cargo público."
+            "texto": "Não admitem perda do cargo público.",
+            "comentario": "A perda da função pública é uma das sanções expressamente previstas para o ato de improbidade (art. 12 da Lei 8.429/92)."
         },
         {
             "letra": "D",
-            "texto": "Apenas se aplicam em caso de reincidência específica."
+            "texto": "Apenas se aplicam em caso de reincidência específica.",
+            "comentario": "As sanções não dependem de reincidência específica, aplicando-se conforme a gravidade e os elementos do próprio ato de improbidade."
         }
     ],
     "gabarito": "B",
@@ -2525,7 +2579,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é causa de aumento prevista para os crimes hediondos; o elemento correto é o abuso da função pública."
         },
         {
             "letra": "B",
@@ -2533,11 +2588,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de aumento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2555,7 +2612,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é causa de aumento prevista para o tráfico de drogas; o elemento correto é o abuso da função pública."
         },
         {
             "letra": "B",
@@ -2563,11 +2621,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de aumento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2585,7 +2645,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é causa de aumento prevista para o abuso de autoridade; o elemento correto é o próprio abuso da função pública inerente ao tipo."
         },
         {
             "letra": "B",
@@ -2593,11 +2654,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de aumento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2615,7 +2678,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não consta do rol de causas de aumento da Lei de Tortura (art. 1º, §4º); o abuso da condição de agente público é uma das hipóteses efetivamente previstas."
         },
         {
             "letra": "B",
@@ -2623,11 +2687,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa também é causa de aumento prevista na Lei de Tortura, mas pela condição da VÍTIMA (inciso II) — a alternativa correta trata da condição do AGENTE (inciso I), que é o que a questão pede."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2645,7 +2711,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é causa de aumento tratada nesta questão; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "B",
@@ -2653,11 +2720,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de aumento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2675,7 +2744,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é causa de aumento tratada nesta questão; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "B",
@@ -2683,11 +2753,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de aumento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2705,7 +2777,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não consta do rol de causas de aumento do art. 2º, §4º; o envolvimento de agente público é uma das hipóteses efetivamente previstas."
         },
         {
             "letra": "B",
@@ -2713,11 +2786,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de aumento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2735,7 +2810,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é a causa de agravamento tratada nesta questão; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "B",
@@ -2743,11 +2819,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é a causa de agravamento tratada aqui; o elemento correto é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão é circunstância atenuante (reduz a pena), e não causa de aumento."
         }
     ],
     "gabarito": "B",
@@ -2765,7 +2843,8 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
     "alternativas": [
         {
             "letra": "A",
-            "texto": "Praticado no período noturno ou em local deserto."
+            "texto": "Praticado no período noturno ou em local deserto.",
+            "comentario": "Essa circunstância não é considerada pelo art. 12 da lei para dosar a gravidade da sanção; o abuso da própria função pública é o elemento relevante."
         },
         {
             "letra": "B",
@@ -2773,11 +2852,13 @@ const QUESTIONS_EXTRA_LEGISLACAO = [
         },
         {
             "letra": "C",
-            "texto": "Praticado contra maior de 60 anos."
+            "texto": "Praticado contra maior de 60 anos.",
+            "comentario": "Essa condição da vítima não é o critério de agravamento tratado aqui; o elemento relevante é o abuso da função pública pelo agente."
         },
         {
             "letra": "D",
-            "texto": "O agente confessar a autoria voluntariamente."
+            "texto": "O agente confessar a autoria voluntariamente.",
+            "comentario": "A confissão tende a ser considerada favoravelmente ao agente na dosimetria, e não como fator de agravamento da sanção."
         }
     ],
     "gabarito": "B",
