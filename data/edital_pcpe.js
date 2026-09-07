@@ -93,13 +93,19 @@ const DISCIPLINAS_PCPE_COMUNS = [
       'Lei 12.850/13 - Organização Criminosa',
       'Lei 13.869/19 - Abuso de Autoridade',
       'Lei 8.069/90 - Estatuto da Criança e do Adolescente (ECA)',
-      'Lei 9.099/95 - Juizados Especiais Criminais (JECRIM)'
+      'Lei 9.099/95 - Juizados Especiais Criminais (JECRIM)',
+      'Lei 9.503/97 - Crimes de Trânsito (CTB, Art. 302-308)',
+      'Lei 14.344/22 - Lei Henry Borel (Violência Doméstica contra Criança e Adolescente)',
+      'Lei 9.605/98 - Crimes Ambientais (responsabilidade penal, incl. pessoa jurídica)'
     ],
     temasMaisCobrados: [
       { nome: 'Lei de Drogas - usuário x traficante', frequencia: 92 },
       { nome: 'Organização Criminosa (conceito e colaboração premiada)', frequencia: 88 },
       { nome: 'Lei Maria da Penha', frequencia: 85 },
-      { nome: 'Abuso de Autoridade', frequencia: 80 }
+      { nome: 'Crimes de Trânsito (embriaguez, homicídio culposo)', frequencia: 82 },
+      { nome: 'Abuso de Autoridade', frequencia: 80 },
+      { nome: 'Lei Henry Borel (violência contra criança/adolescente)', frequencia: 75 },
+      { nome: 'Crimes Ambientais (responsabilidade da pessoa jurídica)', frequencia: 70 }
     ]
   },
   {
