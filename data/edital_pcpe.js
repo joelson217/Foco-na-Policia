@@ -18,19 +18,27 @@
 //
 // Disciplinas exclusivas de cada cargo (bloco de conhecimentos
 // específicos): Contabilidade Geral (Agente) e Arquivologia
-// (Escrivão). As demais disciplinas (Legislação Estadual/Especial,
-// Constitucional, Administrativo, Penal e Processual Penal,
-// Português, RLM, Informática, Estatística) são comuns aos dois
-// cargos no edital real.
+// (Escrivão). As demais disciplinas (Legislação Penal Especial,
+// Legislação Estadual, Constitucional, Administrativo, Penal e
+// Processual Penal, Português, RLM, Informática, Estatística) são
+// comuns aos dois cargos no edital real.
+//
+// "Legislação Penal Especial" (id: legislacao) foi confirmada como
+// parte do conteúdo de Direito Penal da PCPE via fontes secundárias
+// (blogs de concurso que reproduzem o edital verticalizado): Lei de
+// Drogas, Tortura, Desarmamento, Hediondos, Maria da Penha, Abuso de
+// Autoridade, Organização Criminosa e ECA. Reaproveita os bancos
+// QUESTIONS_LEGISLACAO/QUESTIONS_EXTRA_LEGISLACAO (já usados por
+// PPRN/PPPE), pois cobrem exatamente essas leis.
 // ============================================================
 
 const DISCIPLINAS_PCPE_COMUNS = [
   {
     id: 'penal',
     nome: 'Direito Penal e Processual Penal',
-    questoes: 10,
+    questoes: 6,
     peso: 1,
-    pontos: 12.5,
+    pontos: 7.5,
     cor: '#a855f7',
     icon: '⚖️',
     destaque: true,
@@ -46,13 +54,42 @@ const DISCIPLINAS_PCPE_COMUNS = [
       'Prisão em Flagrante (Art. 302-310 CPP)',
       'Prisão Preventiva (Art. 311-316 CPP)',
       'Medidas Cautelares Alternativas (Art. 319 CPP)',
-      'Ação Penal (tipos e condições)'
+      'Ação Penal (tipos e condições)',
+      'Cadeia de Custódia da Prova Pericial (Art. 158-A a 158-F CPP, Pacote Anticrime)'
     ],
     temasMaisCobrados: [
       { nome: 'Inquérito Policial (atribuições da Polícia Civil)', frequencia: 95 },
+      { nome: 'Cadeia de Custódia da Prova (Pacote Anticrime)', frequencia: 92 },
       { nome: 'Prisão em Flagrante (modalidades)', frequencia: 90 },
       { nome: 'Prisão Preventiva (fundamentos)', frequencia: 85 },
       { nome: 'Excludentes de Ilicitude', frequencia: 80 }
+    ]
+  },
+  {
+    id: 'legislacao',
+    nome: 'Legislação Penal Especial',
+    questoes: 6,
+    peso: 1,
+    pontos: 7.5,
+    cor: '#f97316',
+    icon: '⚡',
+    destaque: true,
+    topicos: [
+      'Lei 11.343/06 - Lei de Drogas',
+      'Lei 9.455/97 - Lei de Tortura',
+      'Lei 10.826/03 - Estatuto do Desarmamento',
+      'Lei 8.072/90 - Crimes Hediondos',
+      'Lei 11.340/06 - Lei Maria da Penha',
+      'Lei 12.850/13 - Organização Criminosa',
+      'Lei 13.869/19 - Abuso de Autoridade',
+      'Lei 8.069/90 - Estatuto da Criança e do Adolescente (ECA)',
+      'Lei 9.099/95 - Juizados Especiais Criminais (JECRIM)'
+    ],
+    temasMaisCobrados: [
+      { nome: 'Lei de Drogas - usuário x traficante', frequencia: 92 },
+      { nome: 'Organização Criminosa (conceito e colaboração premiada)', frequencia: 88 },
+      { nome: 'Lei Maria da Penha', frequencia: 85 },
+      { nome: 'Abuso de Autoridade', frequencia: 80 }
     ]
   },
   {
@@ -127,9 +164,9 @@ const DISCIPLINAS_PCPE_COMUNS = [
   {
     id: 'portugues',
     nome: 'Língua Portuguesa',
-    questoes: 10,
+    questoes: 8,
     peso: 1,
-    pontos: 12.5,
+    pontos: 10,
     cor: '#3b82f6',
     icon: '🔤',
     topicos: [

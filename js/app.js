@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v54';
+const APP_VERSION = 'v55';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -155,17 +155,21 @@ function initQuestions() {
   let sources;
   if (CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao') {
     // PCPE (Agente e Escrivão): bloco "Noções de Direito" do edital
-    // real (Cebraspe, PC-PE 2023) cobre apenas Legislação
-    // Estadual/Especial + Constitucional + Administrativo + Penal e
-    // Processual Penal (o "penal" do banco já inclui tópicos de
-    // processual penal) + Português — NÃO inclui LEP/Execução Penal,
-    // Direitos Humanos nem Ética, que são exclusivos das carreiras
-    // penitenciárias (PPRN/PPPE). Por isso NÃO reaproveita
-    // sourcesComuns() (que traria LEP e legislação especial federal
-    // fora do escopo da PCPE), usando uma lista própria e mais restrita.
-    // RLM e Informática são genéricos (sem conteúdo estadual do RN) e
-    // por isso reaproveitáveis. Estatística é comum aos dois cargos;
-    // Contabilidade Geral é exclusiva do Agente e Arquivologia
+    // real (Cebraspe, PC-PE 2023) cobre Legislação Estadual/Especial +
+    // Constitucional + Administrativo + Penal e Processual Penal (o
+    // "penal" do banco já inclui tópicos de processual penal) +
+    // Legislação Penal Especial (Drogas, Tortura, Desarmamento,
+    // Hediondos, Maria da Penha, Abuso de Autoridade, Organização
+    // Criminosa, ECA — confirmado via fontes de edital verticalizado)
+    // + Português — NÃO inclui LEP/Execução Penal, Direitos Humanos
+    // nem Ética, que são exclusivos das carreiras penitenciárias
+    // (PPRN/PPPE). Por isso NÃO reaproveita sourcesComuns() inteiro
+    // (que traria também LEP fora do escopo da PCPE), usando uma
+    // lista própria que soma os bancos federais relevantes (LEGISLACAO
+    // e EXTRA_LEGISLACAO, já usados por PPRN/PPPE) aos exclusivos da
+    // PCPE. RLM e Informática são genéricos (sem conteúdo estadual do
+    // RN) e por isso reaproveitáveis. Estatística é comum aos dois
+    // cargos; Contabilidade Geral é exclusiva do Agente e Arquivologia
     // exclusiva do Escrivão.
     sources = [
       typeof QUESTIONS_PENAL !== 'undefined' ? QUESTIONS_PENAL : [],
@@ -174,6 +178,8 @@ function initQuestions() {
       typeof QUESTIONS_PORTUGUES !== 'undefined' ? QUESTIONS_PORTUGUES : [],
       typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
       typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : [],
+      typeof QUESTIONS_LEGISLACAO !== 'undefined' ? QUESTIONS_LEGISLACAO : [],
+      typeof QUESTIONS_EXTRA_LEGISLACAO !== 'undefined' ? QUESTIONS_EXTRA_LEGISLACAO : [],
       typeof QUESTIONS_LEGISLACAO_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_PCPE : [],
       typeof QUESTIONS_PROCESSUAL_PENAL_PCPE !== 'undefined' ? QUESTIONS_PROCESSUAL_PENAL_PCPE : [],
       typeof QUESTIONS_ESTATISTICA !== 'undefined' ? QUESTIONS_ESTATISTICA : [],
