@@ -749,5 +749,101 @@ const QUESTIONS_RLM = [
     ],
     gabarito: 'D',
     justificativa: 'Como as 5 letras da palavra "PENAL" são todas distintas, o número de anagramas é dado pela permutação simples: 5! = 5×4×3×2×1 = 120.'
+  },
+  {
+    id: 'rlm_46',
+    disciplina: 'rlm',
+    topico: 'Progressão Geométrica - Termo Geral',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Numa progressão geométrica (PG) em que o primeiro termo é 3 e a razão é 2, qual é o quinto termo dessa progressão?',
+    alternativas: [
+      { letra: 'A', texto: '48' },
+      { letra: 'B', texto: '24', comentario: 'Incorreta. Esse valor corresponde ao QUARTO termo da progressão (a4 = 3×2³ = 24), não ao quinto; o erro comum é usar o expoente (n-2) em vez de (n-1) na fórmula.' },
+      { letra: 'C', texto: '96', comentario: 'Incorreta. Esse valor resulta de usar o expoente n em vez de (n-1) na fórmula do termo geral (3×2⁵=96), erro comum ao aplicar a fórmula da PG.' },
+      { letra: 'D', texto: '20', comentario: 'Incorreta. Esse valor não corresponde ao resultado da aplicação correta da fórmula do termo geral da PG, conforme explicado na justificativa.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Numa PG, o termo geral é dado por a_n = a1 × q^(n-1). Com a1=3 e q=2, o quinto termo é a5 = 3 × 2^(5-1) = 3 × 16 = 48.'
+  },
+  {
+    id: 'rlm_47',
+    disciplina: 'rlm',
+    topico: 'Progressão Geométrica - Soma dos Termos',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Qual é a soma dos 4 primeiros termos da progressão geométrica (2, 6, 18, 54, ...)?',
+    alternativas: [
+      { letra: 'A', texto: '80' },
+      { letra: 'B', texto: '26', comentario: 'Incorreta. Esse valor corresponde à soma de apenas os 3 primeiros termos (2+6+18=26), esquecendo o quarto termo (54).' },
+      { letra: 'C', texto: '216', comentario: 'Incorreta. Esse valor resulta de multiplicar o último termo pelo número de termos (54×4=216) em vez de somar todos os termos da sequência.' },
+      { letra: 'D', texto: '112', comentario: 'Incorreta. Esse valor resulta de aplicar indevidamente a fórmula da soma de uma progressão ARITMÉTICA — (a1+an)×n/2 = (2+54)×4/2=112 — a uma progressão GEOMÉTRICA, que segue fórmula diferente.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A soma dos termos de uma PG finita é dada por Sn = a1×(q^n - 1)/(q-1). Com a1=2, q=3 e n=4: S4 = 2×(3⁴-1)/(3-1) = 2×80/2 = 80. Conferindo pela soma direta: 2+6+18+54=80.'
+  },
+  {
+    id: 'rlm_48',
+    disciplina: 'rlm',
+    topico: 'MDC e MMC',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Qual é o Máximo Divisor Comum (MDC) entre 36 e 48?',
+    alternativas: [
+      { letra: 'A', texto: '12' },
+      { letra: 'B', texto: '6', comentario: 'Incorreta. 6 é um divisor comum de 36 e 48, mas não o maior: o MDC correto é 12.' },
+      { letra: 'C', texto: '144', comentario: 'Incorreta. 144 corresponde ao Mínimo Múltiplo Comum (MMC) entre 36 e 48, e não ao Máximo Divisor Comum (MDC), que é 12 — atenção para não confundir os dois conceitos.' },
+      { letra: 'D', texto: '4', comentario: 'Incorreta. 4 é um divisor comum de 36 e 48, mas não o maior: o MDC correto é 12.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Fatorando: 36 = 2²×3² e 48 = 2⁴×3. O MDC é o produto dos fatores primos comuns com o menor expoente: 2²×3¹ = 4×3 = 12.'
+  },
+  {
+    id: 'rlm_49',
+    disciplina: 'rlm',
+    topico: 'Lógica - Paradoxo Autorreferente',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Em uma ilha, há dois tipos de habitantes: os que sempre dizem a verdade e os que sempre mentem. Um habitante A diz: "Eu sempre minto." O que se pode concluir logicamente?',
+    alternativas: [
+      { letra: 'A', texto: 'A é do tipo que sempre mente.', comentario: 'Incorreta. Se A sempre mentisse, a afirmação "eu sempre minto" seria uma mentira — logo, seria falso que ele sempre mente, o que contradiz a premissa. A conclusão correta é que a afirmação gera contradição em ambos os casos.' },
+      { letra: 'B', texto: 'A é do tipo que sempre fala a verdade.', comentario: 'Incorreta. Se A sempre falasse a verdade, a afirmação "eu sempre minto" seria verdadeira — mas isso significaria que ele mente, contradizendo a premissa de que ele sempre fala a verdade.' },
+      { letra: 'C', texto: 'A afirmação é impossível de ser feita por qualquer um dos dois tipos de habitante, pois gera contradição em ambos os casos.' },
+      { letra: 'D', texto: 'A pode ser de qualquer um dos dois tipos, pois a frase não gera contradição.', comentario: 'Incorreta. A frase gera contradição lógica em ambos os casos (mentiroso ou verdadeiro), não podendo ser dita coerentemente por nenhum dos dois tipos.' }
+    ],
+    gabarito: 'C',
+    justificativa: 'Se A sempre fala a verdade, a afirmação "eu sempre minto" seria verdadeira, o que contradiz a premissa (ele estaria mentindo ao afirmá-la, mas só fala a verdade). Se A sempre mente, a afirmação seria uma mentira, logo seria falso que "A sempre mente" — o que significaria que ele às vezes fala a verdade, contradizendo a premissa de que sempre mente. Portanto, nenhum dos dois tipos poderia fazer essa afirmação sem gerar contradição — trata-se de um paradoxo autorreferente, análogo ao paradoxo do mentiroso.'
+  },
+  {
+    id: 'rlm_50',
+    disciplina: 'rlm',
+    topico: 'Estatística Básica - Média, Moda e Mediana',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Considere o conjunto de dados: 4, 7, 7, 9, 13. A respeito da média, da moda e da mediana desse conjunto, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'A média é 8, a moda é 7 e a mediana é 7.' },
+      { letra: 'B', texto: 'A média é 7, a moda é 8 e a mediana é 9.', comentario: 'Incorreta. A média correta é 8 (soma 40 dividida por 5 elementos), a moda é 7 (valor que mais se repete) e a mediana é 7 (valor central da sequência ordenada) — os valores estão trocados nesta alternativa.' },
+      { letra: 'C', texto: 'A média é 8, a moda é 9 e a mediana é 13.', comentario: 'Incorreta. A moda é 7 (valor que se repete), e não 9; a mediana é 7 (valor central), e não 13 (que é apenas o maior valor do conjunto).' },
+      { letra: 'D', texto: 'A média, a moda e a mediana são todas iguais a 8.', comentario: 'Incorreta. Apenas a média é 8; a moda e a mediana são 7, não 8.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Média = soma dos valores dividida pela quantidade: (4+7+7+9+13)/5 = 40/5 = 8. Moda = valor que mais se repete = 7. Mediana = valor central da sequência ordenada (4,7,7,9,13) = 7 (o terceiro de cinco valores).'
+  },
+  {
+    id: 'rlm_51',
+    disciplina: 'rlm',
+    topico: 'Regra de Três Simples',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Se 5 policiais penais revistam 40 celas em um plantão, quantas celas seriam revistadas por 8 policiais penais no mesmo tempo, mantendo a mesma proporção?',
+    alternativas: [
+      { letra: 'A', texto: '64' },
+      { letra: 'B', texto: '25', comentario: 'Incorreta. Esse valor resulta de inverter a proporção (tratando a relação como inversamente proporcional), quando, na verdade, mais policiais revistam mais celas no mesmo tempo — proporção direta.' },
+      { letra: 'C', texto: '45', comentario: 'Incorreta. Esse valor resulta de somar o número de policiais ao número de celas (40+5=45), o que não corresponde ao método correto de regra de três.' },
+      { letra: 'D', texto: '32', comentario: 'Incorreta. Esse valor resulta de subtrair o número de policiais do número de celas (40-8=32), o que não corresponde ao método correto de regra de três.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Trata-se de grandezas diretamente proporcionais (mais policiais revistam mais celas no mesmo tempo). Regra de três: 5 policiais — 40 celas / 8 policiais — x celas. x = (40×8)/5 = 320/5 = 64.'
   }
 ];

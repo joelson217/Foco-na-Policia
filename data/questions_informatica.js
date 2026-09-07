@@ -715,5 +715,101 @@ const QUESTIONS_INFORMATICA = [
     ],
     gabarito: 'A',
     justificativa: 'O spool (Simultaneous Peripheral Operations On-Line) gerencia uma fila de impressão, armazenando temporariamente os documentos enviados para impressão e liberando o programa de origem para uso imediato, enquanto a impressora processa os trabalhos em segundo plano, na ordem da fila.'
+  },
+  {
+    id: 'info_44',
+    disciplina: 'informatica',
+    topico: 'Segurança da Informação - Tipos de Backup',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Quanto aos tipos de backup, o backup INCREMENTAL caracteriza-se por copiar:',
+    alternativas: [
+      { letra: 'A', texto: 'Todos os arquivos selecionados, independentemente de terem sido modificados desde o último backup.', comentario: 'Essa é a definição de backup COMPLETO (full), que copia todos os arquivos selecionados a cada execução, e não do backup incremental.' },
+      { letra: 'B', texto: 'Apenas os arquivos criados ou alterados desde o ÚLTIMO backup (completo ou incremental) realizado.' },
+      { letra: 'C', texto: 'Apenas os arquivos criados ou alterados desde o último backup COMPLETO, ignorando backups incrementais intermediários.', comentario: 'Essa é a definição de backup DIFERENCIAL, que sempre toma como referência o último backup completo, e não do backup incremental, que toma como referência o último backup de qualquer tipo.' },
+      { letra: 'D', texto: 'Somente os arquivos do sistema operacional, excluindo arquivos de usuário.', comentario: 'A distinção entre backup completo, incremental e diferencial não se relaciona com o tipo de arquivo (sistema x usuário), mas com o critério de quais arquivos alterados são copiados.' }
+    ],
+    gabarito: 'B',
+    justificativa: 'O backup incremental copia apenas os arquivos criados ou modificados desde o ÚLTIMO backup realizado, seja ele completo ou incremental — por isso é mais rápido e ocupa menos espaço, mas a restauração exige todos os incrementos em sequência. Já o backup diferencial sempre copia os arquivos alterados desde o último backup COMPLETO, independentemente de diferenciais intermediários.'
+  },
+  {
+    id: 'info_45',
+    disciplina: 'informatica',
+    topico: 'Segurança da Informação - Criptografia Simétrica e Assimétrica',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Sobre criptografia simétrica e assimétrica, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'Na criptografia simétrica, usa-se a mesma chave para cifrar e decifrar a informação; na assimétrica, usa-se um par de chaves distintas (pública e privada).' },
+      { letra: 'B', texto: 'Na criptografia assimétrica, a mesma chave cifra e decifra a mensagem, sendo mais simples de gerenciar.', comentario: 'Incorreta. Usar a mesma chave para cifrar e decifrar é característica da criptografia SIMÉTRICA, e não da assimétrica, que usa um par de chaves distintas.' },
+      { letra: 'C', texto: 'A criptografia simétrica utiliza obrigatoriamente um par de chaves pública e privada.', comentario: 'Incorreta. O uso de um par de chaves pública e privada é característica da criptografia ASSIMÉTRICA; a simétrica usa uma única chave compartilhada.' },
+      { letra: 'D', texto: 'Não há diferença prática entre criptografia simétrica e assimétrica, sendo termos equivalentes.', comentario: 'Incorreta. São conceitos distintos quanto ao número e ao tipo de chaves utilizadas, com implicações diferentes de segurança e desempenho.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Na criptografia simétrica, a mesma chave secreta é usada tanto para cifrar quanto para decifrar a informação, exigindo que ambas as partes a compartilhem previamente de forma segura. Na criptografia assimétrica, utiliza-se um par de chaves matematicamente relacionadas — uma pública (para cifrar ou verificar) e uma privada (para decifrar ou assinar) —, eliminando a necessidade de compartilhar uma chave secreta.'
+  },
+  {
+    id: 'info_46',
+    disciplina: 'informatica',
+    topico: 'Internet - Protocolos HTTP e HTTPS',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'A principal diferença entre os protocolos HTTP e HTTPS é que o HTTPS:',
+    alternativas: [
+      { letra: 'A', texto: 'Adiciona uma camada de criptografia (via TLS/SSL) à comunicação, protegendo a confidencialidade e a integridade dos dados transmitidos.' },
+      { letra: 'B', texto: 'É um protocolo exclusivo para envio de e-mails, sem relação com navegação em páginas web.', comentario: 'Incorreta. HTTPS é utilizado para navegação em páginas web, assim como o HTTP (porém de forma segura); não é um protocolo de e-mail.' },
+      { letra: 'C', texto: 'É mais lento e menos seguro que o HTTP, sendo usado apenas em redes locais.', comentario: 'Incorreta. O HTTPS é considerado mais seguro que o HTTP, justamente por adicionar criptografia à comunicação; não se restringe a redes locais.' },
+      { letra: 'D', texto: 'Elimina a necessidade de qualquer autenticação do usuário em sítios de internet.', comentario: 'Incorreta. O HTTPS protege o canal de comunicação (criptografia em trânsito), mas não elimina a necessidade de autenticação do usuário em sistemas que a exigem.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O HTTPS (HTTP Secure) é o protocolo HTTP combinado com uma camada de criptografia (TLS/SSL), que protege a confidencialidade e a integridade dos dados trocados entre navegador e servidor, dificultando a interceptação e adulteração das informações em trânsito.'
+  },
+  {
+    id: 'info_47',
+    disciplina: 'informatica',
+    topico: 'Planilha Eletrônica - Classificação (Ordenação) de Dados',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Em uma planilha eletrônica (Excel/LibreOffice Calc), a ferramenta de "Classificar" (ordenar) permite:',
+    alternativas: [
+      { letra: 'A', texto: 'Reorganizar as linhas de uma tabela em ordem crescente ou decrescente, com base nos valores de uma ou mais colunas escolhidas.' },
+      { letra: 'B', texto: 'Excluir permanentemente as linhas duplicadas da planilha, sem possibilidade de recuperação.', comentario: 'Incorreta. A remoção de duplicatas é uma ferramenta distinta ("Remover Duplicatas"); a classificação apenas reorganiza a ordem das linhas, sem excluir dados.' },
+      { letra: 'C', texto: 'Aplicar fórmulas automaticamente a todas as células de uma coluna.', comentario: 'Incorreta. Aplicar fórmulas a uma coluna é feito por preenchimento/cópia de fórmulas, não pela ferramenta de classificação.' },
+      { letra: 'D', texto: 'Converter texto em maiúsculas para minúsculas em toda a planilha.', comentario: 'Incorreta. Conversão de maiúsculas/minúsculas é feita por funções de texto (como MAIÚSCULA/MINÚSCULA) ou recursos específicos, não pela ferramenta de classificação.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A ferramenta de classificação (ordenação) reorganiza as linhas de uma tabela em ordem crescente ou decrescente, com base nos valores de uma ou mais colunas escolhidas como critério, sem alterar o conteúdo dos dados.'
+  },
+  {
+    id: 'info_48',
+    disciplina: 'informatica',
+    topico: 'Editor de Texto (Word) - Cabeçalho e Rodapé',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Em editores de texto como Word e LibreOffice Writer, os recursos de "Cabeçalho" e "Rodapé" servem para:',
+    alternativas: [
+      { letra: 'A', texto: 'Inserir conteúdo (como título, número de página ou data) que se repete automaticamente no topo ou na base de todas as páginas do documento.' },
+      { letra: 'B', texto: 'Definir a cor de fundo exclusiva da primeira página do documento.', comentario: 'Incorreta. A definição de cor de fundo é um recurso de formatação de página distinto, sem relação com cabeçalho e rodapé.' },
+      { letra: 'C', texto: 'Criar exclusivamente notas de rodapé numeradas ao final de cada página.', comentario: 'Incorreta. Notas de rodapé (para citações/comentários) são um recurso diferente do "Rodapé" da página, que é uma área repetida em todas as páginas.' },
+      { letra: 'D', texto: 'Bloquear a edição do documento para outros usuários.', comentario: 'Incorreta. O bloqueio de edição é controlado por recursos de proteção de documento, sem relação com cabeçalho e rodapé.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Cabeçalho e rodapé são áreas especiais que se repetem automaticamente no topo e na base de todas as páginas (ou de seções) do documento, comumente usadas para exibir título, número de página, data ou logotipo, sem precisar inserir esse conteúdo manualmente em cada página.'
+  },
+  {
+    id: 'info_49',
+    disciplina: 'informatica',
+    topico: 'Segurança da Informação - Assinatura Digital',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'A assinatura digital de um documento eletrônico tem como principal finalidade garantir:',
+    alternativas: [
+      { letra: 'A', texto: 'A autenticidade (identificação do signatário) e a integridade (ausência de alteração) do documento assinado.' },
+      { letra: 'B', texto: 'O sigilo total do conteúdo do documento, tornando-o ilegível para qualquer pessoa.', comentario: 'Incorreta. Garantir o sigilo/confidencialidade do conteúdo é função da criptografia do documento, não da assinatura digital, cuja finalidade é autenticar e garantir integridade.' },
+      { letra: 'C', texto: 'A formatação visual do documento, impedindo que ele seja impresso.', comentario: 'Incorreta. A assinatura digital não tem relação com formatação visual nem com o controle de impressão do documento.' },
+      { letra: 'D', texto: 'A exclusão automática do documento após determinado prazo de validade.', comentario: 'Incorreta. A exclusão automática por prazo não é finalidade da assinatura digital, que se destina a autenticar o signatário e garantir a integridade do conteúdo.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A assinatura digital, baseada em criptografia assimétrica (o signatário assina com sua chave privada, e qualquer pessoa pode verificar com a chave pública correspondente), garante a autenticidade (comprova quem assinou) e a integridade (comprova que o conteúdo não foi alterado após a assinatura), além de contribuir para o não repúdio (o signatário não pode negar a autoria).'
   }
 ];

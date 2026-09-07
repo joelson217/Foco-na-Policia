@@ -796,5 +796,175 @@ const QUESTIONS_LEGISLACAO_PE = [
     gabarito: 'A',
     artigo: 'Lei 15.755/2016 (alteração regulamentada pelo Decreto Estadual nº 59.896/2025)',
     justificativa: 'Persistindo a suspeita (ou recusa do visitante à revista manual), a visita pode ocorrer no parlatório ou local assemelhado, sem contato físico com o preso — solução que concilia segurança institucional com o direito à visita e a vedação a práticas vexatórias.'
+  },
+  {
+    id: 'pe_leg_41',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Conselho Penitenciário',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos do art. 14 da Lei nº 15.755/2016, o Conselho Penitenciário do Estado de Pernambuco tem natureza de órgão:',
+    alternativas: [
+      { letra: 'A', texto: 'Consultivo e fiscalizador da execução da pena, com atribuições previstas na Lei de Execução Penal.' },
+      { letra: 'B', texto: 'Executivo, responsável pela administração direta dos estabelecimentos penais.', comentario: 'Incorreta. A administração direta dos estabelecimentos penais cabe à SERES e às unidades prisionais, não ao Conselho Penitenciário, que tem natureza consultiva e fiscalizadora.' },
+      { letra: 'C', texto: 'Jurisdicional, com competência para decidir sobre progressão de regime.', comentario: 'Incorreta. A decisão sobre progressão de regime é ato jurisdicional, de competência do Juízo da Execução Penal, e não do Conselho Penitenciário.' },
+      { letra: 'D', texto: 'Meramente honorífico, sem qualquer atribuição prevista em lei.', comentario: 'Incorreta. O Conselho Penitenciário possui atribuições concretas, previstas na Lei de Execução Penal, não se tratando de órgão meramente honorífico.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 14 da Lei 15.755/2016',
+    justificativa: 'O Conselho Penitenciário é órgão consultivo e fiscalizador da execução da pena, com atribuições estabelecidas na Lei Federal 7.210/84 (LEP), regulamentado por decreto estadual.'
+  },
+  {
+    id: 'pe_leg_42',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Patronato (Definição)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'De acordo com a Lei nº 15.755/2016, o Patronato, no âmbito do sistema penitenciário de Pernambuco, destina-se a assistir:',
+    alternativas: [
+      { letra: 'A', texto: 'Exclusivamente os presos em regime fechado.', comentario: 'Incorreta. O Patronato destina-se justamente a quem cumpre pena em regime ABERTO, aos liberados condicionais e aos egressos, e não aos presos em regime fechado.' },
+      { letra: 'B', texto: 'Quem cumpre pena em regime aberto, os liberados condicionais, os egressos e seus familiares.' },
+      { letra: 'C', texto: 'Apenas as vítimas de crimes praticados pelos internos.', comentario: 'Incorreta. O Patronato não tem por finalidade assistir vítimas de crimes; sua atuação é voltada ao apenado em regime aberto, ao liberado condicional, ao egresso e à sua família.' },
+      { letra: 'D', texto: 'Exclusivamente os servidores do sistema penitenciário.', comentario: 'Incorreta. O Patronato não se destina aos servidores do sistema penitenciário, mas sim aos apenados em regime aberto, liberados condicionais, egressos e seus familiares.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 15 da Lei 15.755/2016 (c/c Lei estadual 14.522/2011)',
+    justificativa: 'O Patronato destina-se a assistir os albergados e egressos, incluindo quem cumpre pena em regime aberto, os liberados condicionais e seus familiares, conforme o art. 15 da Lei 15.755/2016.'
+  },
+  {
+    id: 'pe_leg_43',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Objetivos do Patronato',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Constitui objetivo do Patronato, nos termos do art. 16 da Lei nº 15.755/2016:',
+    alternativas: [
+      { letra: 'A', texto: 'Substituir integralmente as funções do Juízo da Execução Penal.', comentario: 'Incorreta. O Patronato tem função de apoio e fiscalização de benefícios, não substituindo as funções jurisdicionais do Juízo da Execução Penal.' },
+      { letra: 'B', texto: 'Fiscalizar o cumprimento das condições impostas para a suspensão condicional da pena ou livramento condicional.' },
+      { letra: 'C', texto: 'Aplicar sanções disciplinares aos egressos que descumprirem as condições impostas.', comentario: 'Incorreta. O Patronato fiscaliza e assiste, mas não tem competência para aplicar sanções disciplinares — isso é atribuição de outros órgãos, notadamente do Judiciário.' },
+      { letra: 'D', texto: 'Substituir o Conselho da Comunidade nas comarcas onde este não existir.', comentario: 'Incorreta. Entre os objetivos do Patronato está APOIAR os Conselhos da Comunidade, e não substituí-los.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 16 da Lei 15.755/2016',
+    justificativa: 'Entre os objetivos do Patronato estão apoiar os Conselhos da Comunidade, instalar Casas do Albergado, fiscalizar o cumprimento das condições da suspensão condicional da pena e do livramento condicional, e promover assistência social e ocupacional ao egresso e à sua família.'
+  },
+  {
+    id: 'pe_leg_44',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Conselho da Comunidade',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Sobre o Conselho da Comunidade previsto na Lei nº 15.755/2016, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'Seus membros são escolhidos livremente pelo diretor do estabelecimento penal.', comentario: 'Incorreta. Os membros do Conselho da Comunidade são escolhidos a critério do juiz da execução, e não pelo diretor do estabelecimento penal.' },
+      { letra: 'B', texto: 'Compete-lhe visitar mensalmente os estabelecimentos penais, entrevistar presos e apresentar relatórios ao juiz da execução.' },
+      { letra: 'C', texto: 'Substitui o Ministério Público na fiscalização da execução penal.', comentario: 'Incorreta. O Conselho da Comunidade atua de forma complementar, mas não substitui a fiscalização própria do Ministério Público na execução penal.' },
+      { letra: 'D', texto: 'É composto exclusivamente por servidores efetivos do sistema penitenciário.', comentario: 'Incorreta. O Conselho da Comunidade é formado por membros da comunidade escolhidos pelo juiz da execução, e não exclusivamente por servidores do sistema penitenciário.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Arts. 17 a 19 da Lei 15.755/2016',
+    justificativa: 'Os membros do Conselho da Comunidade são escolhidos a critério do juiz da execução; compete-lhe visitar mensalmente os estabelecimentos penais, entrevistar presos, apresentar relatórios ao juiz e diligenciar a obtenção de recursos materiais e humanos para melhor assistência ao preso e ao egresso.'
+  },
+  {
+    id: 'pe_leg_45',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Comissão Técnica de Classificação',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'A Comissão Técnica de Classificação, prevista na Lei nº 15.755/2016, tem como finalidade principal:',
+    alternativas: [
+      { letra: 'A', texto: 'Julgar recursos administrativos contra decisões do diretor do estabelecimento.', comentario: 'Incorreta. Julgar recursos administrativos não é a finalidade da Comissão Técnica de Classificação, cuja função é classificatória e de acompanhamento individualizado do condenado.' },
+      { letra: 'B', texto: 'Classificar os condenados segundo seus antecedentes e personalidade, elaborando o programa individualizador da pena.' },
+      { letra: 'C', texto: 'Substituir o exame criminológico por avaliação exclusivamente documental.', comentario: 'Incorreta. A Comissão realiza ou analisa o exame criminológico como parte de seu trabalho multidisciplinar, não o substituindo por avaliação meramente documental.' },
+      { letra: 'D', texto: 'Definir exclusivamente o valor da remuneração do trabalho prisional.', comentario: 'Incorreta. A definição da remuneração do trabalho prisional não é a finalidade da Comissão Técnica de Classificação, cuja atuação é voltada à classificação e individualização da execução da pena.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Arts. 54 a 60 da Lei 15.755/2016',
+    justificativa: 'A Comissão Técnica de Classificação, composta por gestor penitenciário, supervisor, médico, psicólogo, assistente social e advogado, tem a finalidade de classificar os condenados segundo seus antecedentes e personalidade, elaborar o programa individualizador da pena e realizar ou analisar exames criminológicos.'
+  },
+  {
+    id: 'pe_leg_46',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Assistência Jurídica',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'A assistência jurídica prevista na Lei nº 15.755/2016 destina-se:',
+    alternativas: [
+      { letra: 'A', texto: 'Exclusivamente aos presos provisórios, não se estendendo aos condenados.', comentario: 'Incorreta. A assistência jurídica destina-se às pessoas presas sem recursos financeiros para constituir advogado, sem essa distinção entre presos provisórios e condenados.' },
+      { letra: 'B', texto: 'Às pessoas presas que não dispuserem de recursos financeiros para constituir advogado, compreendendo, entre outras atribuições, a impetração de habeas corpus e pedidos de benefícios.' },
+      { letra: 'C', texto: 'Apenas para a defesa em processo disciplinar, não abrangendo pedidos de benefícios da execução.', comentario: 'Incorreta. A assistência jurídica abrange também a impetração de habeas corpus e os pedidos de benefícios da execução, além da defesa em processo disciplinar.' },
+      { letra: 'D', texto: 'Exclusivamente aos servidores do sistema penitenciário processados administrativamente.', comentario: 'Incorreta. A assistência jurídica de que trata a lei é destinada à pessoa presa sem recursos financeiros, e não aos servidores do sistema penitenciário.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Arts. 73 e 74 da Lei 15.755/2016',
+    justificativa: 'A assistência jurídica destina-se às pessoas presas sem recursos financeiros para constituir advogado, compreendendo a verificação da legalidade da execução, a impetração de habeas corpus, os pedidos de benefícios da execução e a defesa em processo disciplinar.'
+  },
+  {
+    id: 'pe_leg_47',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Assistência Educacional',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Sobre a assistência educacional no sistema penitenciário de Pernambuco, nos termos da Lei nº 15.755/2016, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'O ensino fundamental é facultativo, cabendo ao preso decidir livremente se deseja ou não frequentá-lo.', comentario: 'Incorreta. A instrução escolar de nível fundamental é obrigatória para os presos que não a tenham concluído, integrada ao sistema escolar, não sendo meramente facultativa.' },
+      { letra: 'B', texto: 'Compreenderá o ensino fundamental e médio, integrado ao sistema escolar, além de ensino profissionalizante e biblioteca com acervo diversificado.' },
+      { letra: 'C', texto: 'Restringe-se ao ensino profissionalizante, não contemplando ensino fundamental ou médio.', comentario: 'Incorreta. A assistência educacional compreende também o ensino fundamental e médio integrado ao sistema escolar, além do ensino profissionalizante.' },
+      { letra: 'D', texto: 'É de responsabilidade exclusiva de entidades privadas, sem qualquer participação do Estado.', comentario: 'Incorreta. A assistência educacional é dever do Estado no âmbito do sistema penitenciário, podendo contar com parcerias, mas não é de responsabilidade exclusiva de entidades privadas.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Art. 75 da Lei 15.755/2016',
+    justificativa: 'A assistência educacional compreende a instrução escolar (ensino fundamental e médio, integrado ao sistema escolar), o ensino profissionalizante e a manutenção de biblioteca com acervo diversificado.'
+  },
+  {
+    id: 'pe_leg_48',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Assistência Social',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'A assistência social prevista na Lei nº 15.755/2016 tem por finalidade:',
+    alternativas: [
+      { letra: 'A', texto: 'Substituir a assistência jurídica nos casos de recursos judiciais.', comentario: 'Incorreta. A assistência social não se confunde nem substitui a assistência jurídica; são modalidades distintas de assistência previstas na lei.' },
+      { letra: 'B', texto: 'Amparar a pessoa presa e prepará-la para o retorno à liberdade, em consonância com a legislação federal de assistência social.' },
+      { letra: 'C', texto: 'Aplicar sanções disciplinares em substituição à Comissão Técnica de Classificação.', comentario: 'Incorreta. A assistência social não tem função sancionadora; sua finalidade é amparar a pessoa presa e prepará-la para o retorno à liberdade.' },
+      { letra: 'D', texto: 'Restringir-se ao acompanhamento de servidores penitenciários em licença médica.', comentario: 'Incorreta. A assistência social de que trata a lei é destinada à pessoa presa, e não aos servidores penitenciários.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Arts. 76 e 77 da Lei 15.755/2016',
+    justificativa: 'A assistência social tem por finalidade amparar a pessoa presa e prepará-la para o retorno à liberdade, em consonância com a Lei Federal 12.435/2011, que organiza a assistência social.'
+  },
+  {
+    id: 'pe_leg_49',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Assistência Psicológica e Psiquiátrica',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Sobre a assistência psicológica e psiquiátrica no sistema penitenciário de Pernambuco, é correto afirmar, nos termos da Lei nº 15.755/2016, que:',
+    alternativas: [
+      { letra: 'A', texto: 'Restringe-se ao atendimento de presos em regime disciplinar diferenciado.', comentario: 'Incorreta. A assistência psicológica e psiquiátrica não se restringe ao RDD; compreende programas voltados ao interno e a seus familiares de forma mais ampla, incluindo o atendimento no RDD entre suas previsões.' },
+      { letra: 'B', texto: 'Compreende programas voltados ao interno e a seus familiares, com vistas à ressocialização, incluindo atendimento no regime disciplinar diferenciado e a elaboração de pareceres e laudos técnicos.' },
+      { letra: 'C', texto: 'É vedada a elaboração de laudos e pareceres técnicos pela equipe psicológica.', comentario: 'Incorreta. A elaboração de pareceres e laudos técnicos é justamente uma das atribuições previstas para a equipe de assistência psicológica e psiquiátrica.' },
+      { letra: 'D', texto: 'Não se estende aos familiares do preso, sendo direcionada exclusivamente ao próprio interno.', comentario: 'Incorreta. Os programas de assistência psicológica e psiquiátrica também são voltados aos familiares do interno, e não apenas a ele.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Arts. 78 a 84 da Lei 15.755/2016',
+    justificativa: 'A assistência psicológica e psiquiátrica compreende programas voltados ao interno e a seus familiares, visando à ressocialização, contemplando inclusive o atendimento a presos em regime disciplinar diferenciado e a elaboração de pareceres e laudos técnicos.'
+  },
+  {
+    id: 'pe_leg_50',
+    disciplina: 'legislacao_pe',
+    topico: 'Lei 15.755/2016 - Uso de Algemas e Medidas de Precaução',
+    peso: 1,
+    dificuldade: 'dificil',
+    enunciado: 'Quanto ao uso de algemas e outras medidas de precaução previstas na Lei nº 15.755/2016, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'O uso de algemas é permitido de forma irrestrita, em qualquer circunstância, a critério exclusivo do agente.', comentario: 'Incorreta. O uso de algemas deve se limitar a hipóteses excepcionais previstas em lei, como transferências, não sendo de aplicação irrestrita e discricionária.' },
+      { letra: 'B', texto: 'O uso de algemas deve se limitar a hipóteses excepcionais, como transferências, sendo vedado o transporte do preso em condições que atentem contra a sua dignidade, com previsão de escolta feminina para mulheres.' },
+      { letra: 'C', texto: 'É vedado o uso de algemas em qualquer hipótese, mesmo durante transferências entre unidades.', comentario: 'Incorreta. A lei não veda de forma absoluta o uso de algemas; permite seu uso em hipóteses excepcionais, como durante transferências, respeitados os limites de dignidade da pessoa presa.' },
+      { letra: 'D', texto: 'A escolta de mulheres presas pode ser feita indistintamente por agentes de qualquer sexo, sem qualquer previsão específica na lei.', comentario: 'Incorreta. A lei prevê especificamente escolta feminina para mulheres presas, não se tratando de matéria deixada sem regulamentação específica.' }
+    ],
+    gabarito: 'B',
+    artigo: 'Arts. 95 a 100 da Lei 15.755/2016',
+    justificativa: 'O uso de algemas e outras medidas de precaução deve se limitar a hipóteses excepcionais (como transferências), sendo vedado o transporte em condições que atentem contra a dignidade do preso; a lei prevê escolta feminina para mulheres presas, com aplicação restrita ao necessário para restabelecer a normalidade.'
   }
 ];
