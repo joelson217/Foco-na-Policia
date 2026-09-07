@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v53';
+const APP_VERSION = 'v54';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -175,6 +175,7 @@ function initQuestions() {
       typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
       typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : [],
       typeof QUESTIONS_LEGISLACAO_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_PCPE : [],
+      typeof QUESTIONS_PROCESSUAL_PENAL_PCPE !== 'undefined' ? QUESTIONS_PROCESSUAL_PENAL_PCPE : [],
       typeof QUESTIONS_ESTATISTICA !== 'undefined' ? QUESTIONS_ESTATISTICA : [],
       CURRENT_CURSO === 'pcpe_agente' && typeof QUESTIONS_CONTABILIDADE !== 'undefined' ? QUESTIONS_CONTABILIDADE : [],
       CURRENT_CURSO === 'pcpe_escrivao' && typeof QUESTIONS_ARQUIVOLOGIA !== 'undefined' ? QUESTIONS_ARQUIVOLOGIA : []
