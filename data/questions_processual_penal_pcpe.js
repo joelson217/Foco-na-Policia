@@ -284,5 +284,158 @@ const QUESTIONS_PROCESSUAL_PENAL_PCPE = [
     gabarito: 'A',
     artigo: 'Art. 226 do CPP',
     justificativa: 'O reconhecimento de pessoas exige, entre outras formalidades, a descrição prévia das características físicas do reconhecendo, a reunião de pessoas com características semelhantes (ou fotografias, no reconhecimento fotográfico) e a lavratura de auto pormenorizado assinado pela autoridade, pela pessoa chamada a reconhecer e por duas testemunhas presenciais, cujo descumprimento gera, conforme jurisprudência do STJ, a nulidade do reconhecimento.'
+  },
+  {
+    id: 'pcpe_proc_17',
+    disciplina: 'penal',
+    topico: 'Busca e Apreensão - Finalidades (Art. 240, §1º, CPP)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'De acordo com o art. 240, §1º, do CPP, a busca poderá ser determinada, entre outras hipóteses, para:',
+    alternativas: [
+      { letra: 'A', texto: 'Apreender instrumentos de falsificação ou objetos falsificados, armas e munições, ou instrumentos utilizados na prática de crime.' },
+      { letra: 'B', texto: 'Substituir o interrogatório do investigado, dispensando sua oitiva formal no inquérito.', comentario: 'Incorreta. A busca é meio de obtenção de prova sobre pessoas e coisas, e não substitui o interrogatório, ato próprio e distinto do investigado.' },
+      { letra: 'C', texto: 'Autorizar, por si só, a decretação de prisão preventiva, independentemente de decisão judicial fundamentada.', comentario: 'Incorreta. A busca não supre a exigência de decisão judicial fundamentada para decretação de prisão preventiva, que segue requisitos próprios do art. 312 do CPP.' },
+      { letra: 'D', texto: 'Suprir a necessidade de mandado judicial em qualquer situação, mesmo fora de flagrante delito.', comentario: 'Incorreta. A busca domiciliar depende, em regra, de mandado judicial, ressalvadas as exceções constitucionais como o flagrante delito.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 240, §1º, do CPP',
+    justificativa: 'O art. 240, §1º, do CPP prevê que a busca domiciliar será determinada, entre outras hipóteses, para apreender instrumentos de falsificação ou objetos falsificados, armas e munições, instrumentos utilizados na prática de crime, ou colher qualquer elemento de convicção.'
+  },
+  {
+    id: 'pcpe_proc_18',
+    disciplina: 'penal',
+    topico: 'Busca e Apreensão - Mandado (Art. 241, CPP)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 241 do CPP, quando a própria autoridade policial ou judiciária não realizar pessoalmente a busca domiciliar, esta deverá ser precedida de:',
+    alternativas: [
+      { letra: 'A', texto: 'Expedição de mandado.' },
+      { letra: 'B', texto: 'Simples comunicação verbal ao morador, sem necessidade de documento formal.', comentario: 'Incorreta. A lei exige a expedição de mandado (documento formal), e não mera comunicação verbal, quando a diligência não é realizada pessoalmente pela autoridade.' },
+      { letra: 'C', texto: 'Autorização do Ministério Público, dispensada qualquer intervenção judicial.', comentario: 'Incorreta. A exigência legal é de mandado, expedido no âmbito da autoridade competente, e não de mera autorização do Ministério Público em substituição ao mandado.' },
+      { letra: 'D', texto: 'Publicação de edital no Diário Oficial dando ciência da diligência ao morador.', comentario: 'Incorreta. Não há previsão de publicação de edital para a realização de busca domiciliar; a exigência é de mandado específico.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 241 do CPP',
+    justificativa: 'Quando a própria autoridade policial ou judiciária não realizar pessoalmente a busca, esta deverá ser precedida da expedição de mandado.'
+  },
+  {
+    id: 'pcpe_proc_19',
+    disciplina: 'penal',
+    topico: 'Busca e Apreensão - Horário da Diligência (Art. 245, CPP)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos do art. 245, caput, do CPP, as buscas domiciliares serão executadas:',
+    alternativas: [
+      { letra: 'A', texto: 'De dia, salvo se o morador consentir que se realizem à noite.' },
+      { letra: 'B', texto: 'Exclusivamente à noite, para preservar o efeito surpresa da diligência.', comentario: 'Incorreta. A regra legal é a execução diurna, sendo a execução noturna exceção condicionada ao consentimento do morador.' },
+      { letra: 'C', texto: 'A qualquer hora do dia ou da noite, independentemente do consentimento do morador.', comentario: 'Incorreta. A execução fora do período diurno depende do consentimento do morador, não sendo livre a qualquer hora.' },
+      { letra: 'D', texto: 'Somente mediante prévia notificação do morador com 24 horas de antecedência.', comentario: 'Incorreta. Não há exigência legal de notificação prévia com antecedência mínima; a lei trata do horário de execução e da leitura do mandado no ato da diligência.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 245, caput, do CPP',
+    justificativa: 'As buscas domiciliares serão executadas de dia, salvo se o morador consentir que se realizem à noite; antes de penetrar na casa, os executores mostrarão e lerão o mandado ao morador ou a quem o represente.'
+  },
+  {
+    id: 'pcpe_proc_20',
+    disciplina: 'penal',
+    topico: 'Busca e Apreensão - Requisitos do Mandado (Art. 243, CPP)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'O mandado de busca, nos termos do art. 243 do CPP, deverá, entre outros requisitos:',
+    alternativas: [
+      { letra: 'A', texto: 'Indicar, o mais precisamente possível, a casa em que será realizada a diligência e o nome do respectivo proprietário ou morador, além de mencionar o motivo e os fins da diligência.' },
+      { letra: 'B', texto: 'Dispensar qualquer menção ao motivo da diligência, bastando a assinatura da autoridade.', comentario: 'Incorreta. A lei exige expressamente que o mandado mencione o motivo e os fins da diligência, não bastando a simples assinatura da autoridade.' },
+      { letra: 'C', texto: 'Ser expedido oralmente pela autoridade policial, sem necessidade de forma escrita.', comentario: 'Incorreta. O mandado de busca é documento escrito, subscrito pelo escrivão e assinado pela autoridade que o expedir.' },
+      { letra: 'D', texto: 'Indicar apenas o número do inquérito policial, sem necessidade de especificar o local da busca.', comentario: 'Incorreta. A lei exige a indicação precisa do local (casa) e do proprietário ou morador, não bastando a referência ao número do inquérito.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 243, I e II, do CPP',
+    justificativa: 'O mandado de busca deverá indicar, o mais precisamente possível, a casa em que será realizada a diligência e o nome do respectivo proprietário ou morador (ou, na busca pessoal, o nome ou sinais da pessoa a sofrê-la), além de mencionar o motivo e os fins da diligência.'
+  },
+  {
+    id: 'pcpe_proc_21',
+    disciplina: 'penal',
+    topico: 'Busca Domiciliar - Autorização Judicial e Exceções Constitucionais',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Sobre a busca domiciliar, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'Depende, em regra, de prévia autorização judicial, ressalvadas as hipóteses constitucionais de flagrante delito, desastre ou para prestar socorro, ou, durante o dia, por determinação judicial.' },
+      { letra: 'B', texto: 'Pode ser realizada livremente pela autoridade policial em qualquer domicílio, independentemente de autorização judicial ou de flagrante delito.', comentario: 'Incorreta. A inviolabilidade do domicílio é garantia constitucional (art. 5º, XI, CF), exigindo autorização judicial ou uma das exceções constitucionais expressas.' },
+      { letra: 'C', texto: 'É vedada em qualquer hipótese sem o consentimento expresso e prévio do morador.', comentario: 'Incorreta. Há exceções constitucionais que dispensam o consentimento do morador, como o flagrante delito, o desastre e a prestação de socorro.' },
+      { letra: 'D', texto: 'Somente pode ser realizada mediante requisição do Ministério Público, nunca por iniciativa da autoridade policial.', comentario: 'Incorreta. A autoridade policial pode representar pela busca e apreensão perante o juízo competente, não se limitando a iniciativa exclusiva do Ministério Público.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 5º, XI, da CF c/c Arts. 240-245 do CPP',
+    justificativa: 'A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito, desastre ou para prestar socorro, ou, durante o dia, por determinação judicial, disciplinando o CPP o procedimento da busca domiciliar nesses casos.'
+  },
+  {
+    id: 'pcpe_proc_22',
+    disciplina: 'penal',
+    topico: 'Medidas Cautelares Diversas da Prisão (Art. 319, CPP)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'O art. 319 do CPP prevê medidas cautelares diversas da prisão. É exemplo de medida cautelar prevista nesse dispositivo:',
+    alternativas: [
+      { letra: 'A', texto: 'Comparecimento periódico em juízo, no prazo e nas condições fixadas pelo juiz, para informar e justificar atividades.' },
+      { letra: 'B', texto: 'Suspensão definitiva dos direitos políticos do investigado.', comentario: 'Incorreta. A suspensão de direitos políticos não é medida cautelar do art. 319 do CPP, decorrendo de hipóteses próprias previstas na Constituição.' },
+      { letra: 'C', texto: 'Perda automática do cargo público, independentemente de processo administrativo ou decisão judicial específica.', comentario: 'Incorreta. A perda de cargo público não é medida cautelar prevista no art. 319; o dispositivo prevê, no máximo, a suspensão do exercício de função pública.' },
+      { letra: 'D', texto: 'Confisco definitivo de bens do investigado, antes de qualquer decisão condenatória.', comentario: 'Incorreta. Confisco definitivo de bens não é medida cautelar diversa da prisão prevista no art. 319 do CPP.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 319, I, do CPP',
+    justificativa: 'O art. 319 do CPP prevê, entre as medidas cautelares diversas da prisão, o comparecimento periódico em juízo, no prazo e nas condições fixadas pelo juiz, para informar e justificar atividades.'
+  },
+  {
+    id: 'pcpe_proc_23',
+    disciplina: 'penal',
+    topico: 'Medidas Cautelares Diversas da Prisão - Monitoração Eletrônica (Art. 319, CPP)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Entre as medidas cautelares diversas da prisão previstas no art. 319 do CPP, incluem-se:',
+    alternativas: [
+      { letra: 'A', texto: 'O recolhimento domiciliar no período noturno e nos dias de folga, e a monitoração eletrônica.' },
+      { letra: 'B', texto: 'A prisão preventiva obrigatória, sem possibilidade de substituição por outra medida.', comentario: 'Incorreta. A prisão preventiva não é medida cautelar "diversa da prisão"; o art. 319 trata justamente de alternativas a ela.' },
+      { letra: 'C', texto: 'A pena de multa, aplicável apenas após sentença condenatória transitada em julgado.', comentario: 'Incorreta. Pena de multa é sanção penal decorrente de condenação, e não medida cautelar processual do art. 319.' },
+      { letra: 'D', texto: 'A extinção da punibilidade do investigado.', comentario: 'Incorreta. Extinção da punibilidade é instituto de direito penal material (art. 107 do CP), não medida cautelar processual.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 319, V e IX, do CPP',
+    justificativa: 'O art. 319 do CPP prevê, entre as medidas cautelares diversas da prisão, o recolhimento domiciliar no período noturno e nos dias de folga (inciso V) e a monitoração eletrônica (inciso IX).'
+  },
+  {
+    id: 'pcpe_proc_24',
+    disciplina: 'penal',
+    topico: 'Liberdade Provisória - Regra Geral (Art. 321, CPP)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo o art. 321 do CPP, ausentes os requisitos que autorizam a decretação da prisão preventiva, o juiz deverá conceder:',
+    alternativas: [
+      { letra: 'A', texto: 'Liberdade provisória, impondo, se for o caso, as medidas cautelares previstas no art. 319 do CPP e observando os critérios do art. 282 do CPP.' },
+      { letra: 'B', texto: 'Prisão domiciliar obrigatória, independentemente de qualquer outra medida cautelar.', comentario: 'Incorreta. A ausência dos requisitos da preventiva não leva à prisão domiciliar obrigatória, mas à concessão de liberdade provisória, com ou sem cautelares diversas.' },
+      { letra: 'C', texto: 'Absolvição sumária do investigado, extinguindo o inquérito policial.', comentario: 'Incorreta. A concessão de liberdade provisória é medida cautelar processual, distinta da absolvição sumária, que pressupõe outros requisitos e fase própria.' },
+      { letra: 'D', texto: 'Arquivamento automático do inquérito policial, sem possibilidade de reabertura.', comentario: 'Incorreta. A liberdade provisória não implica arquivamento do inquérito policial, que prossegue para apuração dos fatos.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 321 do CPP',
+    justificativa: 'Ausentes os requisitos que autorizam a decretação da prisão preventiva, o juiz deverá conceder liberdade provisória, impondo, se for o caso, as medidas cautelares previstas no art. 319 do CPP e observando os critérios constantes do art. 282 do CPP.'
+  },
+  {
+    id: 'pcpe_proc_25',
+    disciplina: 'penal',
+    topico: 'Medidas Cautelares - Necessidade e Adequação (Art. 282, CPP)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Nos termos do art. 282 do CPP, as medidas cautelares previstas no Código deverão ser aplicadas observando-se a:',
+    alternativas: [
+      { letra: 'A', texto: 'Necessidade para aplicação da lei penal, para a investigação ou instrução criminal e, nos casos expressamente previstos, para evitar a prática de infrações penais, bem como a adequação da medida à gravidade do crime, circunstâncias do fato e condições pessoais do indiciado ou acusado.' },
+      { letra: 'B', texto: 'Discricionariedade plena da autoridade policial, sem necessidade de fundamentação judicial.', comentario: 'Incorreta. As medidas cautelares são decretadas pelo juiz, de ofício ou a requerimento, sempre exigindo fundamentação, e não discricionariedade livre da autoridade policial.' },
+      { letra: 'C', texto: 'Obrigatoriedade de decretação da prisão preventiva sempre que houver indícios de autoria.', comentario: 'Incorreta. A prisão preventiva não é obrigatória diante de simples indícios de autoria, dependendo dos requisitos específicos do art. 312 do CPP e da observância da necessidade e adequação.' },
+      { letra: 'D', texto: 'Vedação absoluta à cumulação de mais de uma medida cautelar diversa da prisão.', comentario: 'Incorreta. O CPP admite a aplicação isolada ou cumulativa das medidas cautelares, quando compatíveis com a natureza e gravidade do fato (art. 282, §1º).' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 282, I e II, do CPP',
+    justificativa: 'As medidas cautelares deverão ser aplicadas observando-se a necessidade (para aplicação da lei penal, investigação/instrução criminal, ou para evitar a prática de infrações penais) e a adequação da medida à gravidade do crime, circunstâncias do fato e condições pessoais do indiciado ou acusado, podendo ser aplicadas isolada ou cumulativamente.'
   }
 ];

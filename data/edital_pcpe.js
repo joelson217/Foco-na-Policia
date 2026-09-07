@@ -59,14 +59,18 @@ const DISCIPLINAS_PCPE_COMUNS = [
       'Investigação Criminal Conduzida pelo Delegado de Polícia (Lei 12.830/2013)',
       'Indiciamento e Não Exclusividade da Investigação (Lei 12.830/2013 e STF, ADI 5.043)',
       'Prisão Temporária - Hipóteses e Prazo (Lei 7.960/1989)',
-      'Reconhecimento de Pessoas e Coisas (Art. 226-228 CPP)'
+      'Reconhecimento de Pessoas e Coisas (Art. 226-228 CPP)',
+      'Busca e Apreensão - Requisitos, Mandado e Horário (Art. 240-245 CPP)',
+      'Liberdade Provisória e Medidas Cautelares Diversas (Art. 282, 319 e 321 CPP)'
     ],
     temasMaisCobrados: [
       { nome: 'Inquérito Policial (atribuições da Polícia Civil)', frequencia: 95 },
       { nome: 'Cadeia de Custódia da Prova (Pacote Anticrime)', frequencia: 92 },
       { nome: 'Investigação Criminal (Lei 12.830/2013)', frequencia: 90 },
       { nome: 'Prisão em Flagrante (modalidades)', frequencia: 90 },
+      { nome: 'Busca e Apreensão Domiciliar (requisitos e mandado)', frequencia: 88 },
       { nome: 'Prisão Preventiva e Temporária (fundamentos e prazos)', frequencia: 85 },
+      { nome: 'Medidas Cautelares Diversas da Prisão (Art. 319 CPP)', frequencia: 82 },
       { nome: 'Excludentes de Ilicitude', frequencia: 80 },
       { nome: 'Reconhecimento de Pessoas (Art. 226 CPP)', frequencia: 75 }
     ]
