@@ -165,5 +165,124 @@ const QUESTIONS_PROCESSUAL_PENAL_PCPE = [
     gabarito: 'A',
     artigo: 'Arts. 158-A a 158-F do CPP c/c jurisprudência do STJ (ex.: HC 653.515/RJ)',
     justificativa: 'O STJ entende que a quebra da cadeia de custódia pode comprometer a fidedignidade do vestígio, à luz do princípio da mesmidade (o vestígio examinado deve ser o mesmo coletado na cena do crime), cabendo ao julgador avaliar, no caso concreto, a repercussão da falha sobre a validade da prova produzida.'
+  },
+  {
+    id: 'pcpe_proc_10',
+    disciplina: 'penal',
+    topico: 'Lei 12.830/2013 - Natureza das Funções de Polícia Judiciária (Art. 2º, caput)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos do art. 2º, caput, da Lei nº 12.830/2013, as funções de polícia judiciária e a apuração das infrações penais exercidas pelo delegado de polícia são de natureza:',
+    alternativas: [
+      { letra: 'A', texto: 'Jurídica, essencial e exclusiva de Estado.' },
+      { letra: 'B', texto: 'Meramente administrativa, dispensável em determinadas hipóteses.', comentario: 'Incorreta. A lei atribui às funções de polícia judiciária natureza jurídica, essencial e exclusiva de Estado, e não simples natureza administrativa dispensável.' },
+      { letra: 'C', texto: 'Delegável a particulares mediante convênio ou contrato administrativo.', comentario: 'Incorreta. Por serem função exclusiva de Estado, não podem ser delegadas a particulares.' },
+      { letra: 'D', texto: 'Subsidiária às atividades do Ministério Público, atuando apenas em caráter complementar.', comentario: 'Incorreta. A lei não trata a função policial como subsidiária ao Ministério Público, mas como função estatal própria.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 2º, caput, da Lei 12.830/2013',
+    justificativa: 'As funções de polícia judiciária e a apuração das infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essencial e exclusiva de Estado.'
+  },
+  {
+    id: 'pcpe_proc_11',
+    disciplina: 'penal',
+    topico: 'Lei 12.830/2013 - Condução da Investigação Criminal (Art. 2º, §1º)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 2º, §1º, da Lei nº 12.830/2013, cabe ao delegado de polícia, na condição de autoridade policial, conduzir a investigação criminal por meio de inquérito policial ou de outro procedimento previsto em lei, que tem como objetivo:',
+    alternativas: [
+      { letra: 'A', texto: 'Apurar as circunstâncias, a materialidade e a autoria das infrações penais.' },
+      { letra: 'B', texto: 'Substituir a atuação do Ministério Público na propositura da ação penal pública.', comentario: 'Incorreta. A investigação conduzida pelo delegado é fase pré-processual informativa; a propositura da ação penal pública é atribuição privativa do Ministério Público.' },
+      { letra: 'C', texto: 'Fixar diretamente a pena aplicável ao investigado.', comentario: 'Incorreta. A fixação de pena é atividade jurisdicional, não integrando os objetivos da investigação criminal conduzida pelo delegado.' },
+      { letra: 'D', texto: 'Autorizar, de forma definitiva e sem controle judicial, a aplicação de medidas cautelares.', comentario: 'Incorreta. Medidas cautelares que restringem direitos fundamentais dependem, em regra, de decisão judicial, e não de ato definitivo da autoridade policial.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 2º, §1º, da Lei 12.830/2013',
+    justificativa: 'Ao delegado de polícia, na qualidade de autoridade policial, cabe a condução da investigação criminal por meio de inquérito policial ou de outro procedimento previsto em lei, que tem por objetivo apurar as circunstâncias, a materialidade e a autoria das infrações penais.'
+  },
+  {
+    id: 'pcpe_proc_12',
+    disciplina: 'penal',
+    topico: 'Lei 12.830/2013 - Indiciamento como Ato Privativo (Art. 2º, §6º)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'De acordo com o art. 2º, §6º, da Lei nº 12.830/2013, e com a jurisprudência do STJ a respeito, é correto afirmar sobre o indiciamento que:',
+    alternativas: [
+      { letra: 'A', texto: 'É ato privativo do delegado de polícia, mediante análise técnico-jurídica fundamentada, não cabendo ao juiz determinar ou impedir sua realização.' },
+      { letra: 'B', texto: 'Pode ser determinado diretamente pelo juiz, a pedido do Ministério Público, quando entender presentes indícios de autoria.', comentario: 'Incorreta. A jurisprudência veda a determinação judicial de indiciamento, por se tratar de ato privativo da autoridade policial.' },
+      { letra: 'C', texto: 'Independe de fundamentação, bastando a simples instauração do inquérito policial.', comentario: 'Incorreta. A lei exige ato fundamentado, com análise técnico-jurídica do fato, indicando autoria, materialidade e circunstâncias.' },
+      { letra: 'D', texto: 'É ato do Ministério Público, formalizado no momento do oferecimento da denúncia.', comentario: 'Incorreta. O indiciamento é ato da fase investigatória, privativo do delegado de polícia, e não do Ministério Público.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 2º, §6º, da Lei 12.830/2013',
+    justificativa: 'O indiciamento é ato privativo do delegado de polícia, dar-se-á por ato fundamentado mediante análise técnico-jurídica do fato, indicando autoria, materialidade e suas circunstâncias, não cabendo ao juiz determiná-lo ou impedi-lo.'
+  },
+  {
+    id: 'pcpe_proc_13',
+    disciplina: 'penal',
+    topico: 'Investigação Criminal - Não Exclusividade (STF, ADI 5.043)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'O Supremo Tribunal Federal, ao julgar a ADI 5.043, declarou a inconstitucionalidade parcial, sem redução de texto, de dispositivo da Lei nº 12.830/2013, para afastar interpretação segundo a qual:',
+    alternativas: [
+      { letra: 'A', texto: 'A condução de qualquer procedimento investigativo de natureza criminal seria atribuição exclusiva do delegado de polícia, já que a Constituição também confere poderes investigatórios a outros órgãos, como o Ministério Público e as comissões parlamentares de inquérito.' },
+      { letra: 'B', texto: 'O delegado de polícia teria competência para arquivar o inquérito policial sem participação do Ministério Público.', comentario: 'Incorreta. Essa não foi a interpretação afastada pelo STF na ADI 5.043, que tratou da exclusividade da condução da investigação criminal, e não do arquivamento do inquérito.' },
+      { letra: 'C', texto: 'As funções de polícia judiciária deixariam de ser exercidas por órgão de natureza estatal.', comentario: 'Incorreta. A decisão não afasta a natureza estatal da função policial, mas apenas a interpretação de exclusividade absoluta na condução de investigações criminais.' },
+      { letra: 'D', texto: 'O inquérito policial deixaria de ser peça meramente informativa e passaria a vincular obrigatoriamente a denúncia do Ministério Público.', comentario: 'Incorreta. O caráter informativo e não vinculante do inquérito policial não foi objeto da decisão na ADI 5.043.' }
+    ],
+    gabarito: 'A',
+    artigo: 'STF, ADI 5.043 (declara inconstitucionalidade parcial, sem redução de texto, do art. 2º, §1º, da Lei 12.830/2013)',
+    justificativa: 'O STF afastou interpretação que atribuísse ao delegado de polícia exclusividade na condução de qualquer procedimento investigativo criminal, reafirmando que a Constituição também confere poderes investigatórios a outros órgãos, como o Ministério Público e as CPIs, sem prejuízo da natureza própria da função de polícia judiciária.'
+  },
+  {
+    id: 'pcpe_proc_14',
+    disciplina: 'penal',
+    topico: 'Prisão Temporária - Hipóteses (Art. 1º da Lei 7.960/1989)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 1º da Lei nº 7.960/1989, caberá prisão temporária, entre outras hipóteses legais, quando:',
+    alternativas: [
+      { letra: 'A', texto: 'For imprescindível para as investigações do inquérito policial.' },
+      { letra: 'B', texto: 'O investigado se recusar a prestar depoimento em juízo, ainda que não haja risco à investigação.', comentario: 'Incorreta. A simples recusa a depor em juízo, sem repercussão sobre a investigação, não é hipótese legal de prisão temporária.' },
+      { letra: 'C', texto: 'For necessária para garantir a aplicação da lei penal ao final do processo.', comentario: 'Incorreta. Essa é hipótese própria da prisão preventiva (art. 312 do CPP), e não da prisão temporária, cujas hipóteses estão no art. 1º da Lei 7.960/89.' },
+      { letra: 'D', texto: 'O réu já tiver sido condenado em primeira instância, aguardando o trânsito em julgado.', comentario: 'Incorreta. Essa situação não é hipótese de prisão temporária, que é medida cautelar decretada durante a investigação, e não após condenação.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 1º, I, da Lei 7.960/1989',
+    justificativa: 'A prisão temporária cabe, entre outras hipóteses do art. 1º, quando imprescindível para as investigações do inquérito policial.'
+  },
+  {
+    id: 'pcpe_proc_15',
+    disciplina: 'penal',
+    topico: 'Prisão Temporária - Prazo (Art. 2º da Lei 7.960/1989)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos do art. 2º da Lei nº 7.960/1989, a prisão temporária, decretada pelo juiz em face de representação da autoridade policial ou de requerimento do Ministério Público, terá, em regra, o prazo de:',
+    alternativas: [
+      { letra: 'A', texto: '5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.' },
+      { letra: 'B', texto: '10 (dez) dias, improrrogável.', comentario: 'Incorreta. O prazo regra da Lei 7.960/89 é de 5 dias, prorrogável por igual período, e não de 10 dias improrrogáveis.' },
+      { letra: 'C', texto: '30 (trinta) dias, prorrogável por mais 30 dias, aplicável a qualquer crime.', comentario: 'Incorreta. O prazo de 30 dias prorrogável por mais 30 é o previsto para os crimes hediondos e equiparados (Lei 8.072/90), e não a regra geral da Lei 7.960/89.' },
+      { letra: 'D', texto: '24 (vinte e quatro) horas, sem possibilidade de prorrogação.', comentario: 'Incorreta. 24 horas é o prazo para a decisão fundamentada do juiz sobre a representação, e não a duração da prisão temporária.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 2º, caput, da Lei 7.960/1989',
+    justificativa: 'A prisão temporária será decretada pelo juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 dias, prorrogável por igual período em caso de extrema e comprovada necessidade.'
+  },
+  {
+    id: 'pcpe_proc_16',
+    disciplina: 'penal',
+    topico: 'Reconhecimento de Pessoas - Formalidades (Art. 226 do CPP)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Sobre o procedimento de reconhecimento de pessoas previsto no art. 226 do CPP, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'Exige, entre outras formalidades, a descrição prévia das características físicas pela pessoa que fará o reconhecimento e a lavratura de auto pormenorizado assinado pela autoridade, pela pessoa chamada a reconhecer e por duas testemunhas presenciais, sob pena de nulidade do reconhecimento.' },
+      { letra: 'B', texto: 'É mera recomendação doutrinária, sem caráter vinculante para a autoridade policial ou judicial.', comentario: 'Incorreta. O STJ consolidou entendimento de que as formalidades do art. 226 do CPP são de observância obrigatória, sob pena de nulidade do reconhecimento.' },
+      { letra: 'C', texto: 'Dispensa qualquer formalização quando a vítima já conhecia o suspeito antes do fato investigado.', comentario: 'Incorreta. A lei não prevê essa dispensa; as formalidades do art. 226 aplicam-se ao procedimento de reconhecimento formal, independentemente de conhecimento prévio alegado.' },
+      { letra: 'D', texto: 'Aplica-se exclusivamente ao reconhecimento realizado em juízo, não alcançando a fase de investigação policial.', comentario: 'Incorreta. As formalidades do art. 226 são exigidas tanto na fase investigativa quanto em juízo, sob pena de invalidade da prova.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 226 do CPP',
+    justificativa: 'O reconhecimento de pessoas exige, entre outras formalidades, a descrição prévia das características físicas do reconhecendo, a reunião de pessoas com características semelhantes (ou fotografias, no reconhecimento fotográfico) e a lavratura de auto pormenorizado assinado pela autoridade, pela pessoa chamada a reconhecer e por duas testemunhas presenciais, cujo descumprimento gera, conforme jurisprudência do STJ, a nulidade do reconhecimento.'
   }
 ];

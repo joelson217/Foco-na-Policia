@@ -55,14 +55,20 @@ const DISCIPLINAS_PCPE_COMUNS = [
       'Prisão Preventiva (Art. 311-316 CPP)',
       'Medidas Cautelares Alternativas (Art. 319 CPP)',
       'Ação Penal (tipos e condições)',
-      'Cadeia de Custódia da Prova Pericial (Art. 158-A a 158-F CPP, Pacote Anticrime)'
+      'Cadeia de Custódia da Prova Pericial (Art. 158-A a 158-F CPP, Pacote Anticrime)',
+      'Investigação Criminal Conduzida pelo Delegado de Polícia (Lei 12.830/2013)',
+      'Indiciamento e Não Exclusividade da Investigação (Lei 12.830/2013 e STF, ADI 5.043)',
+      'Prisão Temporária - Hipóteses e Prazo (Lei 7.960/1989)',
+      'Reconhecimento de Pessoas e Coisas (Art. 226-228 CPP)'
     ],
     temasMaisCobrados: [
       { nome: 'Inquérito Policial (atribuições da Polícia Civil)', frequencia: 95 },
       { nome: 'Cadeia de Custódia da Prova (Pacote Anticrime)', frequencia: 92 },
+      { nome: 'Investigação Criminal (Lei 12.830/2013)', frequencia: 90 },
       { nome: 'Prisão em Flagrante (modalidades)', frequencia: 90 },
-      { nome: 'Prisão Preventiva (fundamentos)', frequencia: 85 },
-      { nome: 'Excludentes de Ilicitude', frequencia: 80 }
+      { nome: 'Prisão Preventiva e Temporária (fundamentos e prazos)', frequencia: 85 },
+      { nome: 'Excludentes de Ilicitude', frequencia: 80 },
+      { nome: 'Reconhecimento de Pessoas (Art. 226 CPP)', frequencia: 75 }
     ]
   },
   {
