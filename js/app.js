@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v62';
+const APP_VERSION = 'v63';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -2361,7 +2361,7 @@ const CUSTOM_QUESTIONS_UI = {
 
 const VISUAL_FLASHCARDS = {
   currentIndex: 0,
-  sortedImages: [],
+  sortedItems: [],
   images: [
     "1 - Lei Penal no Tempo.png",
     "10 - Princípios do Direito Penal.png",
@@ -2399,13 +2399,23 @@ const VISUAL_FLASHCARDS = {
       : this.images.filter(f => !f.includes('Penitênciário do RN'));
 
     // Sort logically
-    this.sortedImages = [...imagensDoCurso].sort((a, b) => {
+    const imageItems = [...imagensDoCurso].sort((a, b) => {
       const numA = parseInt(a.split(' -')[0]) || 0;
       const numB = parseInt(b.split(' -')[0]) || 0;
       return numA - numB;
-    });
+    }).map(file => ({ type: 'image', file }));
 
-    this.sortedImages.forEach((file, index) => {
+    // PCPE não tem imagens PNG exclusivas (não há ferramenta de geração
+    // de imagem disponível) — em vez disso, ganha cartões HTML/CSS
+    // próprios (VISUAIS_HTML_PCPE, data/visuais_pcpe.js), renderizados
+    // com o mesmo grid/modal, sem depender de nenhum arquivo de imagem.
+    const htmlItems = isPcpe && typeof VISUAIS_HTML_PCPE !== 'undefined'
+      ? VISUAIS_HTML_PCPE.map(card => ({ type: 'html', card }))
+      : [];
+
+    this.sortedItems = [...imageItems, ...htmlItems];
+
+    this.sortedItems.forEach((item, index) => {
       const card = document.createElement('div');
       card.className = 'card visual-fc-card';
       card.style.cursor = 'pointer';
@@ -2415,16 +2425,26 @@ const VISUAL_FLASHCARDS = {
       card.style.alignItems = 'center';
       card.style.background = 'var(--bg-primary)';
       card.style.border = '1px solid var(--border)';
-      
-      const title = file.replace('.png', '').replace(/^\d+\s*-\s*/, '');
-      const encodedPath = `FlashCards/${encodeURIComponent(file)}`;
 
-      card.innerHTML = `
-        <div style="width: 100%; height: 160px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 12px; background: #000; display: flex; align-items: center; justify-content: center;">
-          <img src="${encodedPath}" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy" />
-        </div>
-        <div style="font-size: 0.9rem; font-weight: 600; text-align: center; color: var(--text-primary);">${title}</div>
-      `;
+      if (item.type === 'image') {
+        const title = item.file.replace('.png', '').replace(/^\d+\s*-\s*/, '');
+        const encodedPath = `FlashCards/${encodeURIComponent(item.file)}`;
+        card.innerHTML = `
+          <div style="width: 100%; height: 160px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 12px; background: #000; display: flex; align-items: center; justify-content: center;">
+            <img src="${encodedPath}" style="max-width: 100%; max-height: 100%; object-fit: contain;" loading="lazy" />
+          </div>
+          <div style="font-size: 0.9rem; font-weight: 600; text-align: center; color: var(--text-primary);">${title}</div>
+        `;
+      } else {
+        const c = item.card;
+        card.innerHTML = `
+          <div style="width: 100%; height: 160px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 12px; background: ${c.cor}22; border: 1px solid ${c.cor}55; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
+            <div style="font-size: 2.6rem;">${c.icon}</div>
+            <div style="font-size: 0.75rem; color: ${c.cor}; font-weight: 600; padding: 0 8px; text-align: center;">${c.secoes.length} seções</div>
+          </div>
+          <div style="font-size: 0.9rem; font-weight: 600; text-align: center; color: var(--text-primary);">${c.titulo}</div>
+        `;
+      }
 
       card.onclick = () => this.openViewer(index);
       grid.appendChild(card);
@@ -2432,20 +2452,48 @@ const VISUAL_FLASHCARDS = {
   },
 
   openViewer(index) {
-    if (index < 0) index = this.sortedImages.length - 1;
-    if (index >= this.sortedImages.length) index = 0;
-    
+    if (index < 0) index = this.sortedItems.length - 1;
+    if (index >= this.sortedItems.length) index = 0;
+
     this.currentIndex = index;
-    const file = this.sortedImages[index];
-    const title = file.replace('.png', '').replace(/^\d+\s*-\s*/, '');
-    const encodedPath = `FlashCards/${encodeURIComponent(file)}`;
+    const item = this.sortedItems[index];
 
     const modal = document.getElementById('visual-fc-modal');
     const img = document.getElementById('visual-fc-img');
+    const htmlContent = document.getElementById('visual-fc-html-content');
     const titleEl = document.getElementById('visual-fc-title');
-    
-    img.src = encodedPath;
-    titleEl.textContent = title;
+
+    if (item.type === 'image') {
+      const title = item.file.replace('.png', '').replace(/^\d+\s*-\s*/, '');
+      const encodedPath = `FlashCards/${encodeURIComponent(item.file)}`;
+      img.src = encodedPath;
+      img.style.display = 'block';
+      htmlContent.style.display = 'none';
+      htmlContent.innerHTML = '';
+      titleEl.textContent = title;
+    } else {
+      const c = item.card;
+      img.style.display = 'none';
+      img.src = '';
+      htmlContent.style.display = 'block';
+      htmlContent.innerHTML = `
+        <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+          <div style="font-size:2.2rem;">${c.icon}</div>
+          <div style="font-size:1.3rem; font-weight:700; color:${c.cor};">${c.titulo}</div>
+        </div>
+        ${c.fonte ? `<div style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px;">${c.fonte}</div>` : ''}
+        ${c.secoes.map(s => `
+          <div style="margin-bottom:14px;">
+            <div style="font-size:0.95rem; font-weight:700; color:var(--text-primary); border-left:3px solid ${c.cor}; padding-left:8px; margin-bottom:6px;">${s.subtitulo}</div>
+            <ul style="margin:0; padding-left:20px; color:var(--text-secondary); font-size:0.9rem; line-height:1.6;">
+              ${s.itens.map(i => `<li>${i}</li>`).join('')}
+            </ul>
+          </div>
+        `).join('')}
+      `;
+      titleEl.textContent = '';
+    }
+
     modal.classList.remove('hidden');
     modal.style.display = 'flex';
 
