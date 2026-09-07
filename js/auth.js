@@ -30,8 +30,8 @@
 const CURSOS_DISPONIVEIS = [
   { id: 'pprn', nome: 'Polícia Penal do RN (PPRN)', pronto: true },
   { id: 'pppe', nome: 'Polícia Penal de PE (PPPE)', pronto: true },
-  { id: 'pcpe_agente', nome: 'Polícia Civil de PE — Agente (PCPE)', pronto: false },
-  { id: 'pcpe_escrivao', nome: 'Polícia Civil de PE — Escrivão (PCPE)', pronto: false },
+  { id: 'pcpe_agente', nome: 'Polícia Civil de PE — Agente (PCPE)', pronto: true },
+  { id: 'pcpe_escrivao', nome: 'Polícia Civil de PE — Escrivão (PCPE)', pronto: true },
   { id: 'pmpe', nome: 'Polícia Militar de PE (PMPE)', pronto: false }
 ];
 
@@ -40,11 +40,19 @@ const CURSOS_DISPONIVEIS = [
 // data/questions_informatica.js) e Lei Seca/Flashcards Visuais
 // também (ver data/lei_seca_pe.js e o filtro em VISUAL_FLASHCARDS,
 // js/app.js) — todas as abas já têm conteúdo real pra esse curso.
+//
+// PCPE (Agente e Escrivão) ganhou banco próprio de Questões/Simulado
+// em 2026-09 (ver data/questions_legislacao_pcpe.js,
+// data/questions_estatistica.js, data/questions_contabilidade.js e
+// data/questions_arquivologia.js, além do conteúdo federal
+// reaproveitado — ver initQuestions() em js/app.js) — mas ainda NÃO
+// tem Lei Seca nem Flashcards Visuais próprios, por isso essas duas
+// abas ficam de fora até que esse conteúdo seja criado.
 const CURSO_TABS_DISPONIVEIS = {
   pprn: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pppe: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
-  pcpe_agente: [],
-  pcpe_escrivao: [],
+  pcpe_agente: ['dashboard', 'questoes', 'simulado'],
+  pcpe_escrivao: ['dashboard', 'questoes', 'simulado'],
   pmpe: []
 };
 
@@ -404,6 +412,10 @@ const AUTH = {
   aplicarEditalDoCurso(curso) {
     if (curso === 'pppe' && typeof EDITAL_PPPE !== 'undefined') {
       EDITAL = EDITAL_PPPE;
+    } else if (curso === 'pcpe_agente' && typeof EDITAL_PCPE_AGENTE !== 'undefined') {
+      EDITAL = EDITAL_PCPE_AGENTE;
+    } else if (curso === 'pcpe_escrivao' && typeof EDITAL_PCPE_ESCRIVAO !== 'undefined') {
+      EDITAL = EDITAL_PCPE_ESCRIVAO;
     } else if (typeof EDITAL_PPRN !== 'undefined') {
       EDITAL = EDITAL_PPRN;
     }

@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v52';
+const APP_VERSION = 'v53';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -153,7 +153,33 @@ function sourcesComuns() {
 
 function initQuestions() {
   let sources;
-  if (CURRENT_CURSO === 'pppe') {
+  if (CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao') {
+    // PCPE (Agente e Escrivão): bloco "Noções de Direito" do edital
+    // real (Cebraspe, PC-PE 2023) cobre apenas Legislação
+    // Estadual/Especial + Constitucional + Administrativo + Penal e
+    // Processual Penal (o "penal" do banco já inclui tópicos de
+    // processual penal) + Português — NÃO inclui LEP/Execução Penal,
+    // Direitos Humanos nem Ética, que são exclusivos das carreiras
+    // penitenciárias (PPRN/PPPE). Por isso NÃO reaproveita
+    // sourcesComuns() (que traria LEP e legislação especial federal
+    // fora do escopo da PCPE), usando uma lista própria e mais restrita.
+    // RLM e Informática são genéricos (sem conteúdo estadual do RN) e
+    // por isso reaproveitáveis. Estatística é comum aos dois cargos;
+    // Contabilidade Geral é exclusiva do Agente e Arquivologia
+    // exclusiva do Escrivão.
+    sources = [
+      typeof QUESTIONS_PENAL !== 'undefined' ? QUESTIONS_PENAL : [],
+      typeof QUESTIONS_CONSTITUCIONAL !== 'undefined' ? QUESTIONS_CONSTITUCIONAL : [],
+      typeof QUESTIONS_ADMINISTRATIVO !== 'undefined' ? QUESTIONS_ADMINISTRATIVO : [],
+      typeof QUESTIONS_PORTUGUES !== 'undefined' ? QUESTIONS_PORTUGUES : [],
+      typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
+      typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : [],
+      typeof QUESTIONS_LEGISLACAO_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_PCPE : [],
+      typeof QUESTIONS_ESTATISTICA !== 'undefined' ? QUESTIONS_ESTATISTICA : [],
+      CURRENT_CURSO === 'pcpe_agente' && typeof QUESTIONS_CONTABILIDADE !== 'undefined' ? QUESTIONS_CONTABILIDADE : [],
+      CURRENT_CURSO === 'pcpe_escrivao' && typeof QUESTIONS_ARQUIVOLOGIA !== 'undefined' ? QUESTIONS_ARQUIVOLOGIA : []
+    ];
+  } else if (CURRENT_CURSO === 'pppe') {
     // QUESTIONS_PESO1_REFORCO, QUESTIONS_PESO2_REFORCO2 e
     // QUESTIONS_PESO2_REFORCO4 têm blocos específicos do RN misturados
     // junto com conteúdo federal — filtra pelo id pra tirar só a parte
