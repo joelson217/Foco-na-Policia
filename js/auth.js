@@ -32,7 +32,7 @@ const CURSOS_DISPONIVEIS = [
   { id: 'pppe', nome: 'Polícia Penal de PE (PPPE)', pronto: true },
   { id: 'pcpe_agente', nome: 'Polícia Civil de PE — Agente (PCPE)', pronto: true },
   { id: 'pcpe_escrivao', nome: 'Polícia Civil de PE — Escrivão (PCPE)', pronto: true },
-  { id: 'pmpe', nome: 'Polícia Militar de PE (PMPE)', pronto: false }
+  { id: 'pmpe', nome: 'Polícia Militar de PE (PMPE)', pronto: true }
 ];
 
 // PPPE já tem banco próprio de Questões/Simulado (ver
@@ -53,7 +53,7 @@ const CURSO_TABS_DISPONIVEIS = {
   pppe: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pcpe_agente: ['dashboard', 'questoes', 'simulado'],
   pcpe_escrivao: ['dashboard', 'questoes', 'simulado'],
-  pmpe: []
+  pmpe: ['dashboard', 'questoes', 'simulado']
 };
 
 const SESSION_TOKEN_KEY = 'opfarda_session_token';
@@ -416,6 +416,8 @@ const AUTH = {
       EDITAL = EDITAL_PCPE_AGENTE;
     } else if (curso === 'pcpe_escrivao' && typeof EDITAL_PCPE_ESCRIVAO !== 'undefined') {
       EDITAL = EDITAL_PCPE_ESCRIVAO;
+    } else if (curso === 'pmpe' && typeof EDITAL_PMPE !== 'undefined') {
+      EDITAL = EDITAL_PMPE;
     } else if (typeof EDITAL_PPRN !== 'undefined') {
       EDITAL = EDITAL_PPRN;
     }

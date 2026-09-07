@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v59';
+const APP_VERSION = 'v60';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -186,6 +186,41 @@ function initQuestions() {
       typeof QUESTIONS_ESTATISTICA !== 'undefined' ? QUESTIONS_ESTATISTICA : [],
       CURRENT_CURSO === 'pcpe_agente' && typeof QUESTIONS_CONTABILIDADE !== 'undefined' ? QUESTIONS_CONTABILIDADE : [],
       CURRENT_CURSO === 'pcpe_escrivao' && typeof QUESTIONS_ARQUIVOLOGIA !== 'undefined' ? QUESTIONS_ARQUIVOLOGIA : []
+    ];
+  } else if (CURRENT_CURSO === 'pmpe') {
+    // PMPE (Soldado): os 6 blocos reais do edital (Instituto AOCP,
+    // PM-PE 2023/24) são Português, História de Pernambuco, RLM,
+    // Informática, Constitucional e Direitos Humanos e Legislação
+    // Extravagante — CONFIRMADO que NÃO cai Direito Penal,
+    // Processual Penal nem Direito Penal Militar pra Soldado (só
+    // pra Oficial, fora do escopo). Por isso não inclui
+    // QUESTIONS_PENAL nem QUESTIONS_ADMINISTRATIVO (Administrativo
+    // também não é um dos 6 blocos reais).
+    // Direitos Humanos: reaproveita só o subconjunto GENÉRICO de
+    // QUESTIONS_DH (tratados internacionais, DH na CF/88), filtrando
+    // fora "Regras de Mandela" e "Participação Social" (Conselho
+    // Penitenciário/CNPCP/Conselho da Comunidade), que são exclusivos
+    // do sistema prisional (LEP) e não se aplicam à PM.
+    // Legislação Extravagante: reaproveita os bancos federais
+    // (LEGISLACAO, EXTRA_LEGISLACAO, LEGISLACAO_ESPECIAL_PCPE —
+    // Drogas, Tortura, Maria da Penha, Hediondos, ECA, Abuso de
+    // Autoridade, Ambiental etc.), confirmados como parte real do
+    // bloco "Legislação Extravagante" do edital PM-PE.
+    // História de Pernambuco e o Estatuto do PM de PE (Lei 6.783/74)
+    // são exclusivos da PMPE (não existem em nenhuma outra carreira).
+    const dhGenericoPMPE = (typeof QUESTIONS_DH !== 'undefined' ? QUESTIONS_DH : [])
+      .filter(q => !/Regras de Mandela|Participação Social/i.test(q.topico || ''));
+    sources = [
+      typeof QUESTIONS_PORTUGUES !== 'undefined' ? QUESTIONS_PORTUGUES : [],
+      typeof QUESTIONS_HISTORIA_PE !== 'undefined' ? QUESTIONS_HISTORIA_PE : [],
+      typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
+      typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : [],
+      typeof QUESTIONS_CONSTITUCIONAL !== 'undefined' ? QUESTIONS_CONSTITUCIONAL : [],
+      dhGenericoPMPE,
+      typeof QUESTIONS_LEGISLACAO !== 'undefined' ? QUESTIONS_LEGISLACAO : [],
+      typeof QUESTIONS_EXTRA_LEGISLACAO !== 'undefined' ? QUESTIONS_EXTRA_LEGISLACAO : [],
+      typeof QUESTIONS_LEGISLACAO_ESPECIAL_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_ESPECIAL_PCPE : [],
+      typeof QUESTIONS_LEGISLACAO_PMPE !== 'undefined' ? QUESTIONS_LEGISLACAO_PMPE : []
     ];
   } else if (CURRENT_CURSO === 'pppe') {
     // QUESTIONS_PESO1_REFORCO, QUESTIONS_PESO2_REFORCO2 e
