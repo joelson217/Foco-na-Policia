@@ -45,14 +45,15 @@ const CURSOS_DISPONIVEIS = [
 // em 2026-09 (ver data/questions_legislacao_pcpe.js,
 // data/questions_estatistica.js, data/questions_contabilidade.js e
 // data/questions_arquivologia.js, além do conteúdo federal
-// reaproveitado — ver initQuestions() em js/app.js) — mas ainda NÃO
-// tem Lei Seca nem Flashcards Visuais próprios, por isso essas duas
-// abas ficam de fora até que esse conteúdo seja criado.
+// reaproveitado — ver initQuestions() em js/app.js), e também ganhou
+// Lei Seca (data/lei_seca_pcpe.js + reaproveitamento filtrado dos
+// decks genéricos, ver initLeiSeca() em js/app.js) e Flashcards
+// Visuais (reaproveitamento filtrado de VISUAL_FLASHCARDS.render()).
 const CURSO_TABS_DISPONIVEIS = {
   pprn: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pppe: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
-  pcpe_agente: ['dashboard', 'questoes', 'simulado'],
-  pcpe_escrivao: ['dashboard', 'questoes', 'simulado'],
+  pcpe_agente: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
+  pcpe_escrivao: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pmpe: ['dashboard', 'questoes', 'simulado']
 };
 

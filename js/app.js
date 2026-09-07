@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v60';
+const APP_VERSION = 'v61';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -617,8 +617,23 @@ const APP = {
     // específica da legislação estadual do RN — não serve pra outros
     // cursos. PPPE usa o deck próprio equivalente (LEI_SECA_PE), que já
     // tem a base constitucional (nacional) + a legislação de PE.
+    //
+    // PCPE (Agente e Escrivão): mesma lógica de reaproveitamento usada
+    // nas Questões — reaproveita os decks genéricos de Penal,
+    // Constitucional, Administrativo, Português e Legislação Penal
+    // Especial (federal), mas EXCLUI os decks de LEP/Execução Penal,
+    // Ética e Direitos Humanos (disciplina 'lep'/'etica'/'dh'), que são
+    // exclusivos das carreiras penitenciárias e não fazem parte do
+    // edital da PCPE. Soma o deck próprio LEI_SECA_PCPE (Lei
+    // 6.425/1972 + LONPC).
+    const isPcpe = CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao';
     const decksParaEsteCurso = CURRENT_CURSO === 'pprn'
       ? allDecks
+      : isPcpe
+      ? [
+          ...allDecks.filter(d => d.id !== 'pol_penal' && !['lep', 'etica', 'dh'].includes(d.disciplina)),
+          ...(typeof LEI_SECA_PCPE !== 'undefined' ? LEI_SECA_PCPE.decks : [])
+        ]
       : [
           ...allDecks.filter(d => d.id !== 'pol_penal'),
           ...(CURRENT_CURSO === 'pppe' && typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE.decks : [])
@@ -1256,6 +1271,7 @@ const FLASHCARDS = {
         typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
         typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
         typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null,
+        typeof LEI_SECA_PCPE !== 'undefined' ? LEI_SECA_PCPE : null,
         typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null,
         typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2 : null
       ].filter(s => s !== null);
@@ -1319,6 +1335,7 @@ const FLASHCARDS = {
         typeof MAPA_MENTAL_LEP_PENAL !== 'undefined' ? MAPA_MENTAL_LEP_PENAL : null,
         typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
         typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null,
+        typeof LEI_SECA_PCPE !== 'undefined' ? LEI_SECA_PCPE : null,
         typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null,
         typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2 : null
       ].filter(s => s !== null);
@@ -2369,10 +2386,16 @@ const VISUAL_FLASHCARDS = {
     grid.innerHTML = '';
 
     // O card "Estatuto e Regime Penitênciário do RN" é específico do
-    // PPRN — os demais são conceitos gerais de Direito Penal/LEP,
+    // PPRN. Os cards de "LEP" (Direitos e Deveres / Estabelecimentos
+    // Penais e Regimes) são específicos das carreiras penitenciárias
+    // (PPRN/PPPE) e não se aplicam à PCPE (Polícia Civil). Os demais
+    // são conceitos gerais de Direito Penal/Inquérito Policial,
     // reaproveitáveis por qualquer curso.
+    const isPcpe = CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao';
     const imagensDoCurso = CURRENT_CURSO === 'pprn'
       ? this.images
+      : isPcpe
+      ? this.images.filter(f => !f.includes('Penitênciário do RN') && !f.includes('LEP ('))
       : this.images.filter(f => !f.includes('Penitênciário do RN'));
 
     // Sort logically
