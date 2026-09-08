@@ -49,12 +49,19 @@ const CURSOS_DISPONIVEIS = [
 // Lei Seca (data/lei_seca_pcpe.js + reaproveitamento filtrado dos
 // decks genéricos, ver initLeiSeca() em js/app.js) e Flashcards
 // Visuais (reaproveitamento filtrado de VISUAL_FLASHCARDS.render()).
+//
+// PMPE (Soldado) ganhou Lei Seca (data/lei_seca_pmpe.js, Lei
+// 6.783/1974 + reaproveitamento filtrado dos decks genéricos de
+// Constitucional/DH/Legislação Extravagante — ver initLeiSeca()) e
+// Flashcards Visuais em HTML/CSS (data/visuais_pmpe.js — o curso não
+// reaproveita nenhuma imagem PNG porque seu edital não tem Direito
+// Penal, ao contrário de PPRN/PPPE/PCPE) em 2026-09.
 const CURSO_TABS_DISPONIVEIS = {
   pprn: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pppe: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pcpe_agente: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
   pcpe_escrivao: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais'],
-  pmpe: ['dashboard', 'questoes', 'simulado']
+  pmpe: ['dashboard', 'questoes', 'simulado', 'lei-seca', 'visuais']
 };
 
 const SESSION_TOKEN_KEY = 'opfarda_session_token';

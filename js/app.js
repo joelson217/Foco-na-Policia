@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v64';
+const APP_VERSION = 'v65';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -628,13 +628,33 @@ const APP = {
     // exclusivos das carreiras penitenciárias e não fazem parte do
     // edital da PCPE. Soma o deck próprio LEI_SECA_PCPE (Lei
     // 6.425/1972 + LONPC).
+    //
+    // PMPE (Soldado): o edital real NÃO tem Penal/Processual
+    // Penal/Administrativo (ver initQuestions()) — por isso, ao invés
+    // de excluir só alguns, INCLUI apenas os decks genéricos cuja
+    // disciplina bate com os blocos reais (Constitucional, Direitos
+    // Humanos genéricos, Legislação Extravagante federal: Maria da
+    // Penha, ECA, Drogas, Hediondos, Tortura, Abuso de Autoridade,
+    // Desarmamento, Racismo, Idoso, Antiterrorismo), excluindo os IDs
+    // que são de Licitações/Adm. Pública, Organização Criminosa ou
+    // Pacote Anticrime (Penal/Processual Penal) — fora do escopo do
+    // Soldado. Soma o deck próprio LEI_SECA_PMPE (Lei 6.783/1974).
     const isPcpe = CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao';
+    const isPmpe = CURRENT_CURSO === 'pmpe';
     const decksParaEsteCurso = CURRENT_CURSO === 'pprn'
       ? allDecks
       : isPcpe
       ? [
           ...allDecks.filter(d => d.id !== 'pol_penal' && !['lep', 'etica', 'dh'].includes(d.disciplina)),
           ...(typeof LEI_SECA_PCPE !== 'undefined' ? LEI_SECA_PCPE.decks : [])
+        ]
+      : isPmpe
+      ? [
+          ...allDecks.filter(d =>
+            ['constitucional', 'dh', 'legislacao'].includes(d.disciplina) &&
+            !['pol_penal', 'crimes_licitacao', 'lei_licitações', 'pacote_anticrime', 'org_crim', 'org_criminosa', 'orcrim_delacao', 'lei_organizacao_criminosa'].includes(d.id)
+          ),
+          ...(typeof LEI_SECA_PMPE !== 'undefined' ? LEI_SECA_PMPE.decks : [])
         ]
       : [
           ...allDecks.filter(d => d.id !== 'pol_penal'),
@@ -1274,6 +1294,7 @@ const FLASHCARDS = {
         typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
         typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null,
         typeof LEI_SECA_PCPE !== 'undefined' ? LEI_SECA_PCPE : null,
+        typeof LEI_SECA_PMPE !== 'undefined' ? LEI_SECA_PMPE : null,
         typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null,
         typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2 : null
       ].filter(s => s !== null);
@@ -1338,6 +1359,7 @@ const FLASHCARDS = {
         typeof LEI_SECA_LICITACOES_14133 !== 'undefined' ? LEI_SECA_LICITACOES_14133 : null,
         typeof LEI_SECA_PE !== 'undefined' ? LEI_SECA_PE : null,
         typeof LEI_SECA_PCPE !== 'undefined' ? LEI_SECA_PCPE : null,
+        typeof LEI_SECA_PMPE !== 'undefined' ? LEI_SECA_PMPE : null,
         typeof LEI_SECA_REFORCO !== 'undefined' ? LEI_SECA_REFORCO : null,
         typeof LEI_SECA_REFORCO2 !== 'undefined' ? LEI_SECA_REFORCO2 : null
       ].filter(s => s !== null);
@@ -2392,12 +2414,17 @@ const VISUAL_FLASHCARDS = {
     // Penais e Regimes) são específicos das carreiras penitenciárias
     // (PPRN/PPPE) e não se aplicam à PCPE (Polícia Civil). Os demais
     // são conceitos gerais de Direito Penal/Inquérito Policial,
-    // reaproveitáveis por qualquer curso.
+    // reaproveitáveis por qualquer curso. PMPE (Soldado) não tem
+    // Direito Penal no edital real, então nenhuma dessas imagens se
+    // aplica — o curso ganha só os cards HTML/CSS próprios.
     const isPcpe = CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao';
+    const isPmpe = CURRENT_CURSO === 'pmpe';
     const imagensDoCurso = CURRENT_CURSO === 'pprn'
       ? this.images
       : isPcpe
       ? this.images.filter(f => !f.includes('Penitênciário do RN') && !f.includes('LEP ('))
+      : isPmpe
+      ? []
       : this.images.filter(f => !f.includes('Penitênciário do RN'));
 
     // Sort logically
@@ -2407,12 +2434,14 @@ const VISUAL_FLASHCARDS = {
       return numA - numB;
     }).map(file => ({ type: 'image', file }));
 
-    // PCPE não tem imagens PNG exclusivas (não há ferramenta de geração
-    // de imagem disponível) — em vez disso, ganha cartões HTML/CSS
-    // próprios (VISUAIS_HTML_PCPE, data/visuais_pcpe.js), renderizados
-    // com o mesmo grid/modal, sem depender de nenhum arquivo de imagem.
+    // PCPE e PMPE não têm imagens PNG exclusivas (não há ferramenta de
+    // geração de imagem disponível) — em vez disso, ganham cartões
+    // HTML/CSS próprios (VISUAIS_HTML_PCPE / VISUAIS_HTML_PMPE),
+    // renderizados com o mesmo grid/modal, sem depender de imagem.
     const htmlItems = isPcpe && typeof VISUAIS_HTML_PCPE !== 'undefined'
       ? VISUAIS_HTML_PCPE.map(card => ({ type: 'html', card }))
+      : isPmpe && typeof VISUAIS_HTML_PMPE !== 'undefined'
+      ? VISUAIS_HTML_PMPE.map(card => ({ type: 'html', card }))
       : [];
 
     this.sortedItems = [...imageItems, ...htmlItems];

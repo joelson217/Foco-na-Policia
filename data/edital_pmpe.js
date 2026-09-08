@@ -215,11 +215,11 @@ const EDITAL_PMPE = {
       destaque: true,
       topicos: [
         'Lei 6.783/1974 - Estatuto dos Policiais-Militares de PE',
-        'Hierarquia e Disciplina (Art. 10-11)',
-        'Círculos Hierárquicos (Art. 20)',
-        'Deveres e Direitos Policiais-Militares (Art. 28 e 37)',
-        'Crime Militar x Transgressão Disciplinar (Art. 32)',
-        'Conselho de Disciplina e Conselho de Justificação'
+        'Hierarquia e Disciplina (Art. 12)',
+        'Círculos Hierárquicos (Art. 13-14)',
+        'Deveres e Direitos Policiais-Militares (Art. 30 e 49)',
+        'Crime Militar x Transgressão Disciplinar (Art. 40)',
+        'Conselho de Disciplina (Art. 48) e Conselho de Justificação (Art. 47)'
       ],
       temasMaisCobrados: [
         { nome: 'Hierarquia e Disciplina', frequencia: 90 },

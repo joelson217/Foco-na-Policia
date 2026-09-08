@@ -1006,11 +1006,11 @@
   <!-- Modal Viewer for Visual FlashCards -->
   <div id="visual-fc-modal" class="modal-overlay hidden" onclick="VISUAL_FLASHCARDS.closeModal(event)" style="z-index: 1000; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;">
     <div class="modal-content" onclick="event.stopPropagation()" style="max-width: 95vw; background: transparent; box-shadow: none; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; width: 100%; height: 100%; outline: none; border: none;">
-      <button onclick="VISUAL_FLASHCARDS.closeModal()" style="position: absolute; top: 16px; right: 16px; background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; font-size: 1.8rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">×</button>
+      <button onclick="VISUAL_FLASHCARDS.closeModal()" style="position: absolute; top: calc(env(safe-area-inset-top, 0px) + 20px); right: 16px; background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; font-size: 1.8rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">×</button>
       <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; max-height: 80vh; position: relative;">
         <button id="visual-fc-prev" onclick="VISUAL_FLASHCARDS.prevImage()" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">◀</button>
         <img id="visual-fc-img" src="" style="max-width: 85%; max-height: 75vh; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); object-fit: contain; display: block; margin: auto;" />
-        <div id="visual-fc-html-content" style="display: none; max-width: 480px; width: 90vw; max-height: 75vh; overflow-y: auto; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); text-align: left;"></div>
+        <div id="visual-fc-html-content" style="display: none; max-width: 480px; width: calc(100vw - 140px); max-height: 75vh; overflow-y: auto; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); text-align: left;"></div>
         <button id="visual-fc-next" onclick="VISUAL_FLASHCARDS.nextImage()" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; z-index: 1002; backdrop-filter: blur(4px); transition: background 0.2s;">▶</button>
       </div>
       <div id="visual-fc-title" style="color: white; margin-top: 16px; font-weight: 700; font-size: 1.2rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); text-align: center; max-width: 80vw;"></div>
@@ -1105,6 +1105,8 @@
     <script src="data/lei_seca_pe.js"></script>
     <script src="data/lei_seca_pcpe.js"></script>
     <script src="data/visuais_pcpe.js"></script>
+    <script src="data/lei_seca_pmpe.js"></script>
+    <script src="data/visuais_pmpe.js"></script>
     <script src="data/lei_seca_reforco.js"></script>
     <script src="data/lei_seca_reforco2.js"></script>
 <!-- App Scripts -->
