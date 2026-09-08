@@ -159,7 +159,8 @@ const EDITAL_PMPE = {
       ],
       temasMaisCobrados: [
         { nome: 'Art. 5º - Direitos Fundamentais', frequencia: 95 },
-        { nome: 'Segurança Pública - Art. 144 (Polícia Militar)', frequencia: 92 }
+        { nome: 'Segurança Pública - Art. 144 (Polícia Militar)', frequencia: 92 },
+        { nome: 'Princípios Fundamentais - Art. 1º a 4º', frequencia: 85 }
       ]
     },
     {

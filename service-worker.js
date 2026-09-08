@@ -1,7 +1,7 @@
 // Service Worker — Concursos-Policiais
 // Versão: atualizada automaticamente a cada deploy
 
-const CACHE_NAME = 'concursos-policiais-v70';
+const CACHE_NAME = 'concursos-policiais-v71';
 
 const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/questions_extra_3.js',
@@ -96,6 +96,7 @@ const ASSETS_TO_CACHE = [
   '/Foco-na-Policia/data/visuais_pcpe.js',
   '/Foco-na-Policia/data/lei_seca_pmpe.js',
   '/Foco-na-Policia/data/visuais_pmpe.js',
+  '/Foco-na-Policia/data/questions_constitucional_pmpe.js',
   '/Foco-na-Policia/data/lei_seca_reforco.js',
   '/Foco-na-Policia/data/lei_seca_reforco2.js',
   '/Foco-na-Policia/FlashCards/1 - Lei Penal no Tempo.png',

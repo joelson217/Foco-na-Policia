@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v70';
+const APP_VERSION = 'v71';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -217,6 +217,10 @@ function initQuestions() {
     // bloco "Legislação Extravagante" do edital PM-PE.
     // História de Pernambuco e o Estatuto do PM de PE (Lei 6.783/74)
     // são exclusivos da PMPE (não existem em nenhuma outra carreira).
+    // QUESTIONS_CONSTITUCIONAL_PMPE é um reforço exclusivo da PMPE
+    // (Princípios Fundamentais, Art. 1-4 da CF) criado à parte do
+    // banco QUESTIONS_CONSTITUCIONAL — que é compartilhado com a
+    // PPRN — pra não alterar um arquivo usado pela PPRN.
     const dhGenericoPMPE = (typeof QUESTIONS_DH !== 'undefined' ? QUESTIONS_DH : [])
       .filter(q => !/Regras de Mandela|Participação Social/i.test(q.topico || ''));
     sources = [
@@ -225,6 +229,7 @@ function initQuestions() {
       typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
       typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : [],
       typeof QUESTIONS_CONSTITUCIONAL !== 'undefined' ? QUESTIONS_CONSTITUCIONAL : [],
+      typeof QUESTIONS_CONSTITUCIONAL_PMPE !== 'undefined' ? QUESTIONS_CONSTITUCIONAL_PMPE : [],
       dhGenericoPMPE,
       typeof QUESTIONS_LEGISLACAO !== 'undefined' ? QUESTIONS_LEGISLACAO : [],
       extraLegislacaoSemLEP(),
