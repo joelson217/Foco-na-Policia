@@ -199,5 +199,133 @@ const QUESTIONS_ESTATISTICA = [
     ],
     gabarito: 'A',
     justificativa: 'O histograma representa graficamente a distribuição de frequências de uma variável quantitativa contínua, organizada em classes (intervalos), por meio de barras contíguas cuja área é proporcional à frequência de cada classe.'
+  },
+  {
+    id: 'estat_13',
+    disciplina: 'estatistica',
+    topico: 'Medidas de Tendência Central - Média Aritmética',
+    peso: 1,
+    dificuldade: 'facil',
+    enunciado: 'Um servidor registrou o número de ocorrências atendidas em 5 dias: 8, 10, 12, 6, 14. A média aritmética simples dessas observações é:',
+    alternativas: [
+      { letra: 'A', texto: '10.' },
+      { letra: 'B', texto: '12.', comentario: 'Incorreta. A soma dos valores é 50, e dividindo por 5 observações obtém-se 10, e não 12.' },
+      { letra: 'C', texto: '8.', comentario: 'Incorreta. 8 é apenas o menor valor da série (mínimo), não a média aritmética do conjunto.' },
+      { letra: 'D', texto: '14.', comentario: 'Incorreta. 14 é o maior valor da série (máximo), não a média aritmética do conjunto.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A média aritmética simples é a soma dos valores dividida pela quantidade de observações: (8+10+12+6+14)/5 = 50/5 = 10.'
+  },
+  {
+    id: 'estat_14',
+    disciplina: 'estatistica',
+    topico: 'Medidas de Tendência Central - Mediana',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Considere o conjunto de dados, já ordenado: 3, 5, 7, 9, 20. A mediana desse conjunto é:',
+    alternativas: [
+      { letra: 'A', texto: '7, pois é o valor central da série ordenada com número ímpar de observações.' },
+      { letra: 'B', texto: '8,8, calculado pela média aritmética de todos os valores.', comentario: 'Incorreta. 8,8 é a média aritmética do conjunto, e não a mediana — a mediana é o valor central da série ordenada, não uma média de todos os valores.' },
+      { letra: 'C', texto: '20, o maior valor da série.', comentario: 'Incorreta. A mediana é o valor CENTRAL da série ordenada (posição do meio), e não o maior valor.' },
+      { letra: 'D', texto: '3, o menor valor da série.', comentario: 'Incorreta. A mediana é o valor central da série ordenada, e não o menor valor.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Com número ímpar de observações (5), a mediana é o valor que ocupa a posição central da série já ordenada: 3, 5, [7], 9, 20 — portanto, 7. Diferente da média, a mediana não é sensível a valores extremos (outliers), como o 20 desta série.'
+  },
+  {
+    id: 'estat_15',
+    disciplina: 'estatistica',
+    topico: 'Medidas de Tendência Central - Mediana com Número Par de Elementos',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Em um conjunto de dados ordenado com número PAR de observações, a mediana é calculada:',
+    alternativas: [
+      { letra: 'A', texto: 'Pela média aritmética dos dois valores centrais da série ordenada.' },
+      { letra: 'B', texto: 'Pelo valor que se repete com maior frequência na série.', comentario: 'Incorreta. Essa é a definição de MODA, e não de mediana.' },
+      { letra: 'C', texto: 'Sempre pelo primeiro valor da série ordenada, independentemente da quantidade de elementos.', comentario: 'Incorreta. A mediana depende da posição central da série, não do primeiro valor, seja a quantidade de elementos par ou ímpar.' },
+      { letra: 'D', texto: 'Pela soma de todos os valores da série dividida pelo maior valor observado.', comentario: 'Incorreta. Essa operação não corresponde a nenhuma medida estatística padrão; a mediana com número par de elementos é a média dos dois valores centrais.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Quando o número de observações é par, não existe um único valor central — a mediana é definida como a média aritmética dos dois valores que ocupam as posições centrais da série ordenada. Ex.: em 2, 4, 6, 8, os dois centrais são 4 e 6, e a mediana é (4+6)/2 = 5.'
+  },
+  {
+    id: 'estat_16',
+    disciplina: 'estatistica',
+    topico: 'Medidas Separatrizes - Quartis',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Sobre os quartis de uma distribuição de dados, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'Dividem a série ordenada em 4 partes com aproximadamente igual número de observações, sendo o segundo quartil (Q2) equivalente à mediana.' },
+      { letra: 'B', texto: 'Dividem a série em 100 partes iguais, sendo cada uma chamada de quartil.', comentario: 'Incorreta. Dividir a série em 100 partes iguais é a definição de PERCENTIS, e não de quartis, que dividem a série em apenas 4 partes.' },
+      { letra: 'C', texto: 'São aplicáveis exclusivamente a variáveis qualitativas nominais.', comentario: 'Incorreta. Quartis (e demais separatrizes) são aplicados a variáveis quantitativas ordenáveis, e não a variáveis qualitativas nominais.' },
+      { letra: 'D', texto: 'O primeiro quartil (Q1) é sempre igual à média aritmética da série.', comentario: 'Incorreta. Q1 corresponde ao valor abaixo do qual estão 25% das observações, não sendo, em regra, igual à média aritmética da série.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Os quartis dividem a série de dados ordenada em 4 partes de aproximadamente igual número de observações: Q1 (25% dos dados abaixo), Q2 (50% dos dados abaixo — coincide com a mediana) e Q3 (75% dos dados abaixo). A diferença Q3-Q1 é chamada de amplitude interquartil, usada para identificar outliers.'
+  },
+  {
+    id: 'estat_17',
+    disciplina: 'estatistica',
+    topico: 'Probabilidade Básica - Conceito e Regra da Adição',
+    peso: 2,
+    dificuldade: 'medio',
+    enunciado: 'Em um sorteio com eventos mutuamente exclusivos A e B, a probabilidade de ocorrer A OU B é dada por:',
+    alternativas: [
+      { letra: 'A', texto: 'P(A ou B) = P(A) + P(B), pois eventos mutuamente exclusivos não podem ocorrer simultaneamente.' },
+      { letra: 'B', texto: 'P(A ou B) = P(A) × P(B), independentemente de os eventos serem mutuamente exclusivos.', comentario: 'Incorreta. A multiplicação de probabilidades (regra do "E") aplica-se a eventos independentes ocorrendo simultaneamente, não à ocorrência de "A ou B" entre eventos mutuamente exclusivos.' },
+      { letra: 'C', texto: 'P(A ou B) = P(A) + P(B) + P(A e B), mesmo quando A e B são mutuamente exclusivos.', comentario: 'Incorreta. A soma do termo de interseção P(A e B) só é necessária quando os eventos NÃO são mutuamente exclusivos; para eventos mutuamente exclusivos, P(A e B) = 0, então a fórmula geral se reduz a P(A) + P(B).' },
+      { letra: 'D', texto: 'P(A ou B) = 1, sempre que A e B forem mutuamente exclusivos.', comentario: 'Incorreta. A probabilidade de "A ou B" não é necessariamente 1; é igual à soma das probabilidades individuais de A e B, que pode ser qualquer valor entre 0 e 1.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Para eventos mutuamente exclusivos (que não podem ocorrer ao mesmo tempo, ou seja, a interseção é vazia), a probabilidade da união é a soma das probabilidades individuais: P(A ou B) = P(A) + P(B). A fórmula geral P(A ou B) = P(A) + P(B) - P(A e B) se reduz a essa forma porque P(A e B) = 0 nesse caso.'
+  },
+  {
+    id: 'estat_18',
+    disciplina: 'estatistica',
+    topico: 'Probabilidade Básica - Eventos Independentes e Regra da Multiplicação',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Uma moeda honesta é lançada duas vezes, de forma independente. A probabilidade de sair "cara" nos dois lançamentos é:',
+    alternativas: [
+      { letra: 'A', texto: '1/4, pois P(cara e cara) = P(cara) × P(cara) = 1/2 × 1/2.' },
+      { letra: 'B', texto: '1/2, pois basta somar a probabilidade de cada lançamento individual.', comentario: 'Incorreta. A soma das probabilidades (1/2 + 1/2 = 1) se aplica à regra do "ou" para eventos mutuamente exclusivos, não à ocorrência simultânea ("e") de eventos independentes, que exige multiplicação.' },
+      { letra: 'C', texto: '1, pois a moeda é honesta e os lançamentos são independentes.', comentario: 'Incorreta. Independência não garante certeza (probabilidade 1); a probabilidade conjunta de dois eventos independentes é o produto das probabilidades individuais, não necessariamente 1.' },
+      { letra: 'D', texto: '1/2 × 2 = 1, pois há dois lançamentos.', comentario: 'Incorreta. Não se multiplica a probabilidade por número de lançamentos dessa forma; a regra correta para eventos independentes ocorrendo simultaneamente é multiplicar as probabilidades individuais: 1/2 × 1/2 = 1/4.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Para eventos independentes, a probabilidade de ambos ocorrerem é o produto das probabilidades individuais: P(cara no 1º) × P(cara no 2º) = 1/2 × 1/2 = 1/4.'
+  },
+  {
+    id: 'estat_19',
+    disciplina: 'estatistica',
+    topico: 'Tipos de Amostragem - Por Conglomerados (Clusters)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Na amostragem por conglomerados (clusters), o procedimento consiste em:',
+    alternativas: [
+      { letra: 'A', texto: 'Dividir a população em grupos heterogêneos internamente (conglomerados), sortear alguns desses grupos e pesquisar todos (ou parte) dos elementos dos grupos sorteados.' },
+      { letra: 'B', texto: 'Dividir a população em estratos homogêneos internamente e sortear elementos proporcionalmente dentro de cada estrato.', comentario: 'Incorreta. Essa é a definição de amostragem ESTRATIFICADA, e não por conglomerados — na estratificada, os grupos (estratos) são homogêneos internamente; na por conglomerados, os grupos tendem a ser heterogêneos internamente.' },
+      { letra: 'C', texto: 'Selecionar um elemento inicial aleatório e, a partir dele, escolher os demais em intervalos regulares fixos.', comentario: 'Incorreta. Essa é a definição de amostragem SISTEMÁTICA, e não por conglomerados.' },
+      { letra: 'D', texto: 'Atribuir a cada elemento da população a mesma probabilidade de seleção individual, sorteando diretamente pessoas sem formar grupos.', comentario: 'Incorreta. Essa é a definição de amostragem ALEATÓRIA SIMPLES; na amostragem por conglomerados, sorteiam-se GRUPOS (conglomerados) inteiros, não indivíduos isoladamente.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Na amostragem por conglomerados, a população é dividida em grupos (conglomerados) que são, idealmente, heterogêneos internamente e semelhantes entre si — como bairros ou delegacias. Sorteiam-se alguns desses conglomerados, e todos (ou uma amostra) dos elementos dentro deles são pesquisados. É útil quando não há uma lista completa de todos os elementos da população, mas há uma lista dos grupos.'
+  },
+  {
+    id: 'estat_20',
+    disciplina: 'estatistica',
+    topico: 'Assimetria de Distribuições',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Em uma distribuição de frequências com assimetria positiva (à direita), a relação usual entre média, mediana e moda é:',
+    alternativas: [
+      { letra: 'A', texto: 'Média > Mediana > Moda.' },
+      { letra: 'B', texto: 'Moda > Mediana > Média.', comentario: 'Incorreta. Essa ordem corresponde à assimetria NEGATIVA (à esquerda), e não à assimetria positiva.' },
+      { letra: 'C', texto: 'Média = Mediana = Moda, independentemente do tipo de assimetria.', comentario: 'Incorreta. A igualdade entre as três medidas ocorre em distribuições SIMÉTRICAS (como a normal), e não em distribuições assimétricas.' },
+      { letra: 'D', texto: 'Mediana > Média > Moda.', comentario: 'Incorreta. Essa ordem não corresponde ao padrão usual de nenhum dos dois tipos clássicos de assimetria (positiva ou negativa).' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Em distribuições com assimetria positiva (cauda mais longa à direita), a média é "puxada" pelos valores extremos maiores, ficando com o maior valor das três medidas, seguida da mediana e, por último, a moda: Média > Mediana > Moda. Na assimetria negativa, a relação se inverte.'
   }
 ];

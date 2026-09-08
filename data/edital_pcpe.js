@@ -251,15 +251,20 @@ const DISCIPLINAS_PCPE_COMUNS = [
     icon: '📊',
     topicos: [
       'População e Amostra',
-      'Técnicas de Amostragem (Aleatória Simples, Estratificada, Sistemática)',
+      'Técnicas de Amostragem (Aleatória Simples, Estratificada, Sistemática, Conglomerados)',
       'Classificação de Variáveis (Qualitativa e Quantitativa)',
+      'Medidas de Tendência Central (Média, Mediana, Moda)',
       'Medidas de Dispersão (Variância, Desvio Padrão, Coeficiente de Variação)',
-      'Distribuição de Frequência',
-      'Correlação e Moda'
+      'Medidas Separatrizes (Quartis)',
+      'Distribuição de Frequência e Assimetria',
+      'Correlação',
+      'Probabilidade Básica (Regras da Adição e da Multiplicação)'
     ],
     temasMaisCobrados: [
       { nome: 'Amostragem (tipos)', frequencia: 85 },
-      { nome: 'Medidas de Dispersão', frequencia: 80 }
+      { nome: 'Medidas de Dispersão', frequencia: 80 },
+      { nome: 'Média, Mediana e Moda', frequencia: 88 },
+      { nome: 'Probabilidade Básica', frequencia: 75 }
     ]
   }
 ];
