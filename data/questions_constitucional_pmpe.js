@@ -343,5 +343,269 @@ const QUESTIONS_CONSTITUCIONAL_PMPE = [
     "gabarito": "A",
     "artigo": "Art. 1º, III; Art. 2º; Art. 3º, III; e Art. 4º, IV, da CF/88",
     "justificativa": "Dignidade da pessoa humana é fundamento da República (Art. 1º, III); independência e harmonia entre os Poderes está no Art. 2º; erradicar a pobreza e a marginalização é objetivo fundamental (Art. 3º, III); e não intervenção nos assuntos internos de outros Estados é princípio das relações internacionais (Art. 4º, IV). Distinguir os quatro artigos dos Princípios Fundamentais é um clássico ponto de pegadinha em provas objetivas."
+  },
+  {
+    "id": "const_pmpe_11",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "\"Os valores sociais do trabalho e da livre iniciativa\" constituem um dos fundamentos da República Federativa do Brasil previstos no Art. 1º da Constituição Federal, correspondendo ao inciso:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I.",
+        "comentario": "Incorreta, pois o inciso I do Art. 1º trata da soberania, não dos valores sociais do trabalho e da livre iniciativa."
+      },
+      {
+        "letra": "B",
+        "texto": "II.",
+        "comentario": "Incorreta, pois o inciso II do Art. 1º trata da cidadania, não dos valores sociais do trabalho e da livre iniciativa."
+      },
+      {
+        "letra": "C",
+        "texto": "III.",
+        "comentario": "Incorreta, pois o inciso III do Art. 1º trata da dignidade da pessoa humana, não dos valores sociais do trabalho e da livre iniciativa."
+      },
+      {
+        "letra": "D",
+        "texto": "IV."
+      }
+    ],
+    "gabarito": "D",
+    "artigo": "Art. 1º, IV, da CF/88",
+    "justificativa": "O Art. 1º, IV, da CF/88 estabelece como fundamento da República os valores sociais do trabalho e da livre iniciativa — combinando a valorização do trabalho humano com a liberdade de empreender, pilares da ordem econômica prevista no Art. 170 da CF."
+  },
+  {
+    "id": "const_pmpe_12",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "facil",
+    "enunciado": "A dignidade da pessoa humana, fundamento previsto no Art. 1º, III, da Constituição Federal, é comumente reconhecida pela doutrina constitucional como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Um valor-fonte (vetor axiológico) que orienta a interpretação de todo o ordenamento jurídico, sem se confundir com um direito fundamental específico do Art. 5º."
+      },
+      {
+        "letra": "B",
+        "texto": "Um objetivo fundamental da República, previsto no Art. 3º, III.",
+        "comentario": "Incorreta, pois a dignidade da pessoa humana está prevista como fundamento no Art. 1º, III — não como objetivo fundamental do Art. 3º (que trata de erradicar a pobreza e a marginalização, entre outros)."
+      },
+      {
+        "letra": "C",
+        "texto": "Um princípio aplicável apenas às relações entre particulares, sem incidência sobre atos do Poder Público.",
+        "comentario": "Incorreta, pois a dignidade da pessoa humana, como fundamento da República, vincula tanto as relações entre particulares (eficácia horizontal) quanto os atos do Poder Público (eficácia vertical)."
+      },
+      {
+        "letra": "D",
+        "texto": "Uma norma de eficácia limitada, que depende de regulamentação por lei ordinária para produzir efeitos.",
+        "comentario": "Incorreta, pois a dignidade da pessoa humana, como fundamento constitucional, tem aplicabilidade imediata e não depende de lei regulamentadora para irradiar seus efeitos sobre o ordenamento."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, III, da CF/88",
+    "justificativa": "A dignidade da pessoa humana é tratada pela doutrina majoritária como um valor-fonte ou vetor axiológico do ordenamento jurídico brasileiro — um fundamento (Art. 1º, III) que orienta a interpretação e aplicação das demais normas constitucionais e infraconstitucionais, distinto do rol de direitos e garantias fundamentais do Art. 5º, embora com eles dialogue."
+  },
+  {
+    "id": "const_pmpe_13",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "\"Garantir o desenvolvimento nacional\" é objetivo fundamental da República Federativa do Brasil previsto no Art. 3º da Constituição Federal, correspondendo ao inciso:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I.",
+        "comentario": "Incorreta, pois o inciso I do Art. 3º trata de construir uma sociedade livre, justa e solidária, não de garantir o desenvolvimento nacional."
+      },
+      {
+        "letra": "B",
+        "texto": "II."
+      },
+      {
+        "letra": "C",
+        "texto": "III.",
+        "comentario": "Incorreta, pois o inciso III do Art. 3º trata de erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais, não de garantir o desenvolvimento nacional isoladamente."
+      },
+      {
+        "letra": "D",
+        "texto": "IV.",
+        "comentario": "Incorreta, pois o inciso IV do Art. 3º trata de promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação, não de garantir o desenvolvimento nacional."
+      }
+    ],
+    "gabarito": "B",
+    "artigo": "Art. 3º, II, da CF/88",
+    "justificativa": "O Art. 3º, II, da CF/88 estabelece como objetivo fundamental garantir o desenvolvimento nacional — ao lado de construir uma sociedade livre, justa e solidária (I), erradicar a pobreza e reduzir desigualdades (III) e promover o bem de todos sem discriminação (IV)."
+  },
+  {
+    "id": "const_pmpe_14",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre o objetivo fundamental de \"construir uma sociedade livre, justa e solidária\", previsto no Art. 3º, I, da Constituição Federal, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "É o primeiro dos quatro objetivos fundamentais listados no Art. 3º da CF."
+      },
+      {
+        "letra": "B",
+        "texto": "Trata-se de fundamento da República, previsto no Art. 1º, e não de objetivo fundamental.",
+        "comentario": "Incorreta, pois \"construir uma sociedade livre, justa e solidária\" está expressamente no Art. 3º, I, como objetivo fundamental, e não no rol de fundamentos do Art. 1º."
+      },
+      {
+        "letra": "C",
+        "texto": "Foi revogado pela Emenda Constitucional nº 19/1998, que tratou da reforma administrativa.",
+        "comentario": "Incorreta, pois a EC 19/1998 tratou da reforma administrativa (Art. 37 e seguintes) e não revogou nem alterou o Art. 3º, I, da CF, que permanece em vigor."
+      },
+      {
+        "letra": "D",
+        "texto": "É um princípio de relações internacionais, previsto no Art. 4º.",
+        "comentario": "Incorreta, pois os princípios de relações internacionais estão no Art. 4º (independência nacional, não-intervenção etc.), e \"construir uma sociedade livre, justa e solidária\" é objetivo fundamental do Art. 3º, I."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 3º, I, da CF/88",
+    "justificativa": "O Art. 3º, I, da CF/88 lista, em primeiro lugar entre os objetivos fundamentais da República, \"construir uma sociedade livre, justa e solidária\", seguido de garantir o desenvolvimento nacional (II), erradicar a pobreza e reduzir desigualdades (III) e promover o bem de todos sem discriminação (IV)."
+  },
+  {
+    "id": "const_pmpe_15",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A independência nacional, princípio que rege a República Federativa do Brasil em suas relações internacionais, está prevista no Art. 4º da Constituição Federal, correspondendo ao inciso:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I."
+      },
+      {
+        "letra": "B",
+        "texto": "III.",
+        "comentario": "Incorreta, pois o inciso III do Art. 4º trata da autodeterminação dos povos, não da independência nacional."
+      },
+      {
+        "letra": "C",
+        "texto": "V.",
+        "comentario": "Incorreta, pois o inciso V do Art. 4º trata da igualdade entre os Estados, não da independência nacional."
+      },
+      {
+        "letra": "D",
+        "texto": "IX.",
+        "comentario": "Incorreta, pois o inciso IX do Art. 4º trata da cooperação entre os povos para o progresso da humanidade, não da independência nacional."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 4º, I, da CF/88",
+    "justificativa": "O Art. 4º, I, da CF/88 estabelece a independência nacional como o primeiro dos dez princípios que regem o Brasil em suas relações internacionais."
+  },
+  {
+    "id": "const_pmpe_16",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "A autodeterminação dos povos, princípio previsto no Art. 4º, III, da Constituição Federal, significa que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Cada povo tem o direito de escolher livremente sua forma de organização política, econômica e social, sem ingerência externa."
+      },
+      {
+        "letra": "B",
+        "texto": "O Brasil pode intervir militarmente em outros países para impor um regime de governo considerado mais adequado.",
+        "comentario": "Incorreta e contraditória com os próprios princípios do Art. 4º (não-intervenção, inciso IV), que vedam justamente esse tipo de ingerência."
+      },
+      {
+        "letra": "C",
+        "texto": "Apenas os povos que integram a comunidade latino-americana de nações têm direito à autodeterminação.",
+        "comentario": "Incorreta, pois o princípio da autodeterminação dos povos, previsto no Art. 4º, III, não se restringe aos povos latino-americanos — aplica-se de forma geral nas relações internacionais do Brasil."
+      },
+      {
+        "letra": "D",
+        "texto": "É sinônimo de soberania, fundamento previsto no Art. 1º, I, da CF.",
+        "comentario": "Incorreta, pois soberania (Art. 1º, I) é fundamento da própria República brasileira, enquanto autodeterminação dos povos (Art. 4º, III) é princípio que orienta o Brasil no respeito à livre escolha política de outros povos nas relações internacionais — conceitos relacionados, mas não sinônimos, previstos em artigos diferentes."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 4º, III, da CF/88",
+    "justificativa": "A autodeterminação dos povos (Art. 4º, III) é o princípio pelo qual o Brasil reconhece o direito de cada povo de decidir livremente sua forma de organização política, econômica, social e cultural, sem interferência externa — em consonância com a não-intervenção (inciso IV)."
+  },
+  {
+    "id": "const_pmpe_17",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "A solução pacífica dos conflitos, princípio das relações internacionais do Brasil previsto no Art. 4º, VII, da Constituição Federal, relaciona-se diretamente com qual outro princípio do mesmo artigo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A defesa da paz, prevista no inciso VI."
+      },
+      {
+        "letra": "B",
+        "texto": "A concessão de asilo político, prevista no inciso X.",
+        "comentario": "Incorreta, pois a concessão de asilo político (inciso X) trata do acolhimento de estrangeiros perseguidos, tema distinto da forma de resolução de conflitos internacionais tratada no inciso VII."
+      },
+      {
+        "letra": "C",
+        "texto": "A igualdade entre os Estados, prevista no inciso V.",
+        "comentario": "Incorreta como a relação mais direta: a igualdade entre os Estados (V) trata do status jurídico dos Estados no plano internacional, enquanto a solução pacífica dos conflitos (VII) trata do método de resolução de controvérsias — a relação mais imediata do inciso VII é com a defesa da paz (VI)."
+      },
+      {
+        "letra": "D",
+        "texto": "A prevalência dos direitos humanos, prevista no inciso II.",
+        "comentario": "Incorreta como a relação mais direta: prevalência dos direitos humanos (II) é princípio autônomo sobre proteção de direitos, distinto do método de resolução pacífica de conflitos do inciso VII, mais diretamente ligado à defesa da paz (VI)."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 4º, VI e VII, da CF/88",
+    "justificativa": "A defesa da paz (Art. 4º, VI) e a solução pacífica dos conflitos (Art. 4º, VII) são princípios complementares: o Brasil se compromete a defender a paz internacional e, quando surgem controvérsias, a buscar sua resolução por meios pacíficos (negociação, mediação, arbitragem), rejeitando o uso da força."
+  },
+  {
+    "id": "const_pmpe_18",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "\"Cooperação entre os povos para o progresso da humanidade\", princípio previsto no Art. 4º da Constituição Federal, corresponde ao inciso:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "VI.",
+        "comentario": "Incorreta, pois o inciso VI do Art. 4º trata da defesa da paz, não da cooperação entre os povos para o progresso da humanidade."
+      },
+      {
+        "letra": "B",
+        "texto": "VIII.",
+        "comentario": "Incorreta, pois o inciso VIII do Art. 4º trata do repúdio ao terrorismo e ao racismo, não da cooperação entre os povos para o progresso da humanidade."
+      },
+      {
+        "letra": "C",
+        "texto": "IX."
+      },
+      {
+        "letra": "D",
+        "texto": "X.",
+        "comentario": "Incorreta, pois o inciso X do Art. 4º trata da concessão de asilo político, não da cooperação entre os povos para o progresso da humanidade."
+      }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 4º, IX, da CF/88",
+    "justificativa": "O Art. 4º, IX, da CF/88 prevê a cooperação entre os povos para o progresso da humanidade como o penúltimo dos dez princípios que regem o Brasil em suas relações internacionais, imediatamente antes da concessão de asilo político (inciso X)."
   }
 ];
