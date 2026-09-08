@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v63';
+const APP_VERSION = 'v64';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -466,6 +466,8 @@ const APP = {
   refreshAfterCursoSwitch() {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('app').classList.remove('hidden');
+    this.initLeiSeca();
+    VISUAL_FLASHCARDS.render();
     DASHBOARD.render();
     this.updateCountdown();
     GAMIFICATION.updateUI();
