@@ -119,12 +119,12 @@ const DISCIPLINAS_PCPE_COMUNS = [
     destaque: true,
     topicos: [
       'Lei 6.425/1972 - Estatuto dos Policiais Civis de PE (fundamento e provimento)',
-      'Sistema Misto de Acesso (Art. 4º)',
+      'Fundamento da Função Policial (Art. 4º) e Sistema Misto de Acesso (Art. 7º)',
       'Deveres e Transgressões Disciplinares (Art. 30-31)',
       'Penas Disciplinares e Processo Administrativo (Art. 34)',
-      'Conselho Superior de Polícia',
+      'Conselho Superior de Polícia (Título VI)',
       'Lei 14.735/2023 - Lei Orgânica Nacional das Polícias Civis (LONPC)',
-      'Natureza Institucional e Funções Exclusivas (Art. 5-6)',
+      'Natureza Institucional (Art. 1º) e Funções Exclusivas (Art. 6º)',
       'Estrutura Organizacional e Delegado-Geral (Art. 7-8)',
       'Garantias Funcionais - Porte de Arma e Prisão Especial (Art. 30)'
     ],

@@ -279,5 +279,90 @@ const QUESTIONS_LEGISLACAO_PCPE = [
     gabarito: 'A',
     artigo: 'Art. 30 da Lei 14.735/2023',
     justificativa: 'O art. 30 assegura, entre outras garantias, a prisão especial (recolhimento em unidade prisional da própria instituição), o livre acesso e trânsito em qualquer recinto público ou privado em razão da função (respeitadas as garantias constitucionais e legais), e a prioridade em serviços de transporte e comunicação em missão emergencial.'
+  },
+  {
+    id: 'pcpe_leg_17',
+    disciplina: 'legislacao_pcpe',
+    topico: 'Lei 14.735/2023 (LONPC) - Conselho Superior de Polícia Civil (Art. 9º)',
+    peso: 2,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o art. 9º da Lei nº 14.735/2023, o Conselho Superior de Polícia Civil é presidido por quem, e como é composto?',
+    alternativas: [
+      { letra: 'A', texto: 'Presidido pelo Delegado-Geral, composto por representantes de todos os cargos efetivos da corporação, com possibilidade de eleição de membros e participação paritária.' },
+      { letra: 'B', texto: 'Presidido pelo Governador do Estado, composto exclusivamente por delegados de polícia.', comentario: 'Incorreta. O art. 9º prevê a presidência pelo Delegado-Geral, e a composição inclui representantes de TODOS os cargos efetivos, não apenas delegados.' },
+      { letra: 'C', texto: 'Presidido pelo Corregedor-Geral, com composição definida exclusivamente pelo Poder Executivo estadual.', comentario: 'Incorreta. A presidência cabe ao Delegado-Geral, não ao Corregedor-Geral; a lei prevê participação paritária e possibilidade de eleição de membros.' },
+      { letra: 'D', texto: 'Órgão sem presidência fixa, com rodízio obrigatório entre delegados e escrivães a cada semestre.', comentario: 'Incorreta. Não há previsão de rodízio de presidência; o art. 9º atribui a presidência ao Delegado-Geral.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 9º da Lei 14.735/2023',
+    justificativa: 'O art. 9º estabelece que o Conselho Superior de Polícia Civil é presidido pelo Delegado-Geral e integrado por policiais civis, composto por representantes de todos os cargos efetivos da corporação, com possibilidade de eleição de seus membros e participação paritária, respeitada a lei do respectivo ente federativo.'
+  },
+  {
+    id: 'pcpe_leg_18',
+    disciplina: 'legislacao_pcpe',
+    topico: 'Lei 14.735/2023 (LONPC) - Corregedoria-Geral (Art. 10, caput)',
+    peso: 2,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos do art. 10, caput, da Lei nº 14.735/2023, a Corregedoria-Geral de Polícia Civil, dotada de autonomia em suas atividades, tem por finalidade:',
+    alternativas: [
+      { letra: 'A', texto: 'Praticar atos de controle interno, correição, orientação e zelo pela qualidade e avaliação do serviço policial, com atuação preventiva e repressiva em infrações disciplinares e penais de seus servidores no exercício da função.' },
+      { letra: 'B', texto: 'Substituir o Poder Judiciário no julgamento de crimes cometidos por policiais civis.', comentario: 'Incorreta. O julgamento de crimes é função jurisdicional do Poder Judiciário; a Corregedoria atua no controle interno, correição e apuração disciplinar/administrativa.' },
+      { letra: 'C', texto: 'Definir exclusivamente a política remuneratória da corporação.', comentario: 'Incorreta. Matéria remuneratória não é a finalidade da Corregedoria-Geral, voltada ao controle interno, correição e zelo pela qualidade do serviço policial.' },
+      { letra: 'D', texto: 'Atuar apenas de forma repressiva, sendo vedada qualquer atuação preventiva.', comentario: 'Incorreta. O art. 10 prevê expressamente atuação PREVENTIVA e REPRESSIVA, e não apenas repressiva.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 10, caput, da Lei 14.735/2023',
+    justificativa: 'O art. 10, caput, estabelece que a Corregedoria-Geral de Polícia Civil, dotada de autonomia em suas atividades, tem por finalidade praticar atos de controle interno, correição, orientação e zelo pela qualidade e avaliação do serviço policial, com atuação preventiva e repressiva nas ocorrências de infrações disciplinares e penais praticadas por seus servidores no exercício da função.'
+  },
+  {
+    id: 'pcpe_leg_19',
+    disciplina: 'legislacao_pcpe',
+    topico: 'Lei 14.735/2023 (LONPC) - Corregedor-Geral e Dupla Instância (Art. 10, §1º e §3º)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo os §§ 1º e 3º do art. 10 da Lei nº 14.735/2023, quem designa o Corregedor-Geral de Polícia Civil, e o que é garantido em processos disciplinares com pena de demissão?',
+    alternativas: [
+      { letra: 'A', texto: 'O Corregedor-Geral é designado pelo Delegado-Geral, dentre delegados da classe mais elevada; garante-se dupla instância de revisão, com recurso ao Conselho Superior de Polícia Civil e, em última instância, ao Chefe do Poder Executivo.' },
+      { letra: 'B', texto: 'O Corregedor-Geral é eleito pelos próprios corregedores; não há revisão possível de penas de demissão.', comentario: 'Incorreta. A designação cabe ao Delegado-Geral (não eleição), e o §3º garante expressamente dupla instância de revisão em caso de demissão.' },
+      { letra: 'C', texto: 'O Corregedor-Geral é nomeado pelo Governador do Estado, sem qualquer recurso possível contra a demissão.', comentario: 'Incorreta. A designação é atribuição do Delegado-Geral, e o §3º assegura recurso em dois graus (Conselho Superior e Chefe do Executivo) nos casos de demissão.' },
+      { letra: 'D', texto: 'O cargo de Corregedor-Geral é ocupado automaticamente pelo delegado mais antigo da corporação.', comentario: 'Incorreta. Não há automatismo por antiguidade; a designação depende de ato do Delegado-Geral, dentre delegados da classe mais elevada.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 10, §1º e §3º, da Lei 14.735/2023',
+    justificativa: 'O §1º prevê que o Corregedor-Geral de Polícia Civil deve ser designado pelo Delegado-Geral, dentre delegados de polícia da classe mais elevada. O §3º garante o duplo grau de revisão do julgamento nos processos disciplinares na hipótese de penalidade de demissão, mediante recurso ao Conselho Superior de Polícia Civil e, em última instância, ao Chefe do Poder Executivo.'
+  },
+  {
+    id: 'pcpe_leg_20',
+    disciplina: 'legislacao_pcpe',
+    topico: 'Lei 14.735/2023 (LONPC) - Escola Superior de Polícia Civil (Art. 11)',
+    peso: 2,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos do art. 11 da Lei nº 14.735/2023, a Escola Superior de Polícia Civil é:',
+    alternativas: [
+      { letra: 'A', texto: 'Órgão de formação, capacitação, pesquisa e extensão, responsável pelo desenvolvimento dos recursos humanos da polícia civil, dirigido por delegado de polícia da classe mais elevada do cargo.' },
+      { letra: 'B', texto: 'Órgão vinculado ao Ministério da Educação, sem qualquer vínculo com a estrutura da polícia civil.', comentario: 'Incorreta. A Escola Superior de Polícia Civil integra a estrutura organizacional básica da própria polícia civil (art. 7º), e não é órgão externo vinculado ao MEC.' },
+      { letra: 'C', texto: 'Órgão exclusivamente de formação inicial, vedada a realização de cursos de pós-graduação.', comentario: 'Incorreta. O §1º do art. 11 permite expressamente cursos de graduação ou pós-graduação lato ou stricto sensu, com equivalência a universidades públicas.' },
+      { letra: 'D', texto: 'Órgão dirigido obrigatoriamente por um escrivão de polícia com formação em pedagogia.', comentario: 'Incorreta. A direção cabe a delegado de polícia da classe mais elevada do cargo, preferencialmente com especialização em administração ou educação, e não obrigatoriamente a um escrivão.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 11 da Lei 14.735/2023',
+    justificativa: 'O art. 11 define a Escola Superior de Polícia Civil como órgão de formação, capacitação, pesquisa e extensão, responsável pelo desenvolvimento dos recursos humanos da polícia civil, dirigido por delegado de polícia da classe mais elevada do cargo, preferencialmente com especialização nas áreas de administração ou educação.'
+  },
+  {
+    id: 'pcpe_leg_21',
+    disciplina: 'legislacao_pcpe',
+    topico: 'Lei 14.735/2023 (LONPC) - Corpo Docente da Escola Superior (Art. 11, §3º)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo o §3º do art. 11 da Lei nº 14.735/2023, o corpo docente da Escola Superior de Polícia Civil pode ser preenchido, preferencialmente, por:',
+    alternativas: [
+      { letra: 'A', texto: 'Integrantes da própria instituição, policiais civis que detenham notório saber, habilitação técnica ou formação pedagógica comprovadas, selecionados por edital.' },
+      { letra: 'B', texto: 'Exclusivamente professores universitários sem qualquer vínculo com a polícia civil.', comentario: 'Incorreta. A lei prioriza o preenchimento por integrantes da própria instituição (policiais civis com notório saber, habilitação técnica ou formação pedagógica), e não exclusivamente por docentes externos.' },
+      { letra: 'C', texto: 'Servidores indicados diretamente pelo Governador do Estado, sem necessidade de edital ou critério técnico.', comentario: 'Incorreta. O §3º exige seleção por meio de edital publicado na imprensa oficial, com requisitos de habilitação comprováveis, e não indicação política direta.' },
+      { letra: 'D', texto: 'Apenas delegados de polícia da classe mais elevada, vedada a participação de outros cargos da carreira.', comentario: 'Incorreta. A lei não restringe o corpo docente a delegados da classe mais elevada; qualquer policial civil com notório saber, habilitação técnica ou formação pedagógica comprovadas pode integrá-lo.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 11, §3º, da Lei 14.735/2023',
+    justificativa: 'O §3º prevê que o corpo docente da Escola Superior de Polícia Civil, designado pelo respectivo diretor, pode ser preenchido preferencialmente por integrantes da instituição dentre os policiais civis que detenham notório saber, habilitação técnica ou formação pedagógica comprovadas, selecionados por meio de edital publicado na imprensa oficial.'
   }
 ];
