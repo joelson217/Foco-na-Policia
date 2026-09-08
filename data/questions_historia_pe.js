@@ -9,6 +9,16 @@
 // Pernambucana de 1817, Confederação do Equador, Guerra dos
 // Cabanos (Cabanada), Revolução Praieira, e cultura popular
 // (frevo, maracatu).
+//
+// 2026-09: era a disciplina proporcionalmente mais fraca da PMPE (16
+// questões para um bloco de 10 questões no edital — a menor razão
+// pool/edital de todo o app). Acrescentados 8 tópicos icônicos
+// verificados via busca (múltiplas fontes cruzadas): Batalha dos
+// Guararapes (1648/1649), Quilombo dos Palmares/Zumbi (repressão
+// liderada pelo governo de Pernambuco, 1694-1695), Sinagoga Kahal
+// Zur Israel (primeira das Américas, período holandês), emancipação
+// de Alagoas (1817), Olinda como Patrimônio da Humanidade (UNESCO,
+// 1982), e transferência da capital para Recife (1827).
 // ============================================================
 
 const QUESTIONS_HISTORIA_PE = [
@@ -267,5 +277,133 @@ const QUESTIONS_HISTORIA_PE = [
     ],
     gabarito: 'A',
     justificativa: 'A rivalidade entre Olinda (núcleo tradicional da aristocracia açucareira) e Recife (povoado comercial e portuário em crescente ascensão econômica) tinha fundo político e econômico, relacionado à primazia entre os dois núcleos urbanos da capitania, tendo na Guerra dos Mascates (1710-1711) seu episódio mais emblemático.'
+  },
+  {
+    id: 'hist_pe_17',
+    disciplina: 'historia_pe',
+    topico: 'Batalhas dos Guararapes - Datas e Comandantes',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'As duas Batalhas dos Guararapes, travadas no Morro dos Guararapes (atual Jaboatão dos Guararapes) no contexto da Insurreição Pernambucana, ocorreram em:',
+    alternativas: [
+      { letra: 'A', texto: '19 de abril de 1648 (1ª Batalha) e 19 de fevereiro de 1649 (2ª Batalha), com vitória das tropas luso-brasileiras lideradas por André Vidal de Negreiros, Henrique Dias e Filipe Camarão.' },
+      { letra: 'B', texto: 'Ambas em 1654, no mesmo dia da expulsão final dos holandeses de Pernambuco.', comentario: 'Incorreta. As Batalhas dos Guararapes ocorreram alguns anos ANTES da expulsão final (1654): a 1ª em 1648 e a 2ª em 1649, marcando a virada da guerra a favor dos luso-brasileiros.' },
+      { letra: 'C', texto: 'Ambas vencidas pelas tropas holandesas, que consolidaram seu domínio sobre Pernambuco após os combates.', comentario: 'Incorreta. As duas Batalhas dos Guararapes foram vencidas pelas tropas luso-brasileiras, sendo decisivas para o enfraquecimento do domínio holandês na região.' },
+      { letra: 'D', texto: 'Durante o governo de Maurício de Nassau (1637-1643), antes de seu retorno à Holanda.', comentario: 'Incorreta. As batalhas ocorreram em 1648 e 1649, alguns anos depois do retorno de Nassau à Holanda (1644), já em outro contexto do conflito.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A 1ª Batalha dos Guararapes ocorreu em 19 de abril de 1648, e a 2ª em 19 de fevereiro de 1649, ambas com vitória das tropas luso-brasileiras comandadas por André Vidal de Negreiros, Henrique Dias (à frente do terço de homens negros) e Filipe Camarão (à frente do terço indígena), além de João Fernandes Vieira. As vitórias foram decisivas para o enfraquecimento da resistência holandesa, que se renderia definitivamente em 1654.'
+  },
+  {
+    id: 'hist_pe_18',
+    disciplina: 'historia_pe',
+    topico: 'Batalhas dos Guararapes - Marco Simbólico do Exército Brasileiro',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'As Batalhas dos Guararapes são tradicionalmente apontadas pela historiografia militar brasileira como um marco simbólico porque:',
+    alternativas: [
+      { letra: 'A', texto: 'Reuniram, pela primeira vez de forma articulada, europeus/luso-brasileiros, negros e indígenas em um mesmo combate contra um invasor estrangeiro, sendo associadas à origem do Exército Brasileiro (o Dia do Exército é comemorado em 19 de abril, data da 1ª Batalha).' },
+      { letra: 'B', texto: 'Foram o primeiro confronto armado envolvendo tropas portuguesas em toda a história do Brasil colonial.', comentario: 'Incorreta. Houve diversos outros confrontos armados no Brasil colonial antes de 1648; o marco simbólico dos Guararapes está associado à união de diferentes grupos étnicos na resistência, e não a serem o "primeiro confronto" da colônia.' },
+      { letra: 'C', texto: 'Marcaram a introdução do uso de artilharia pesada pela primeira vez em solo americano.', comentario: 'Incorreta. O marco histórico atribuído às Batalhas dos Guararapes não está relacionado a uma inovação de artilharia, mas à união simbólica de europeus, negros e indígenas na resistência luso-brasileira.' },
+      { letra: 'D', texto: 'Resultaram na criação imediata de um exército profissional permanente, nos moldes atuais, ainda no século XVII.', comentario: 'Incorreta. Não houve criação de um exército profissional permanente imediato nos moldes atuais; o vínculo simbólico com o Exército Brasileiro é uma construção histórica/comemorativa posterior (o Dia do Exército em 19 de abril).' }
+    ],
+    gabarito: 'A',
+    justificativa: 'As Batalhas dos Guararapes são consideradas simbolicamente o marco de origem do Exército Brasileiro, pela união inédita de europeus/luso-brasileiros, negros (sob Henrique Dias) e indígenas (sob Filipe Camarão) na resistência contra os holandeses. Em razão disso, o Dia do Exército Brasileiro é comemorado em 19 de abril, data da 1ª Batalha dos Guararapes (1648).'
+  },
+  {
+    id: 'hist_pe_19',
+    disciplina: 'historia_pe',
+    topico: 'Quilombo dos Palmares - Repressão pelo Governo de Pernambuco',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'O Quilombo dos Palmares, maior e mais duradouro quilombo do Brasil colonial (localizado na Serra da Barriga, região então pertencente ao governo/capitania de Pernambuco), teve sua destruição final, em 1694, promovida por:',
+    alternativas: [
+      { letra: 'A', texto: 'Expedição articulada pelo governo da capitania de Pernambuco, sob o governador Pedro de Almeida, com o bandeirante paulista Domingos Jorge Velho e Bernardo Vieira de Melo à frente das tropas.' },
+      { letra: 'B', texto: 'Uma força exclusivamente holandesa, ainda presente na região no fim do século XVII.', comentario: 'Incorreta. Os holandeses já haviam sido expulsos de Pernambuco em 1654, quatro décadas antes da destruição de Palmares (1694), não tendo qualquer participação nesse episódio.' },
+      { letra: 'C', texto: 'Tropas enviadas diretamente pela Coroa espanhola, então unificada com Portugal.', comentario: 'Incorreta. A União Ibérica (União das Coroas de Portugal e Espanha) já havia terminado em 1640; a expedição contra Palmares em 1694 foi articulada pelo governo da capitania de Pernambuco, e não pela Coroa espanhola.' },
+      { letra: 'D', texto: 'Uma negociação diplomática pacífica que resultou na anexação voluntária do quilombo ao território de Pernambuco.', comentario: 'Incorreta. A destruição de Palmares em 1694 resultou de uma ofensiva militar, e não de negociação pacífica ou anexação voluntária.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A destruição final do Quilombo dos Palmares, em 6 de fevereiro de 1694, foi resultado de uma expedição articulada pelo governo da capitania de Pernambuco (sob o governador Pedro de Almeida), com destaque para a atuação do bandeirante paulista Domingos Jorge Velho e de Bernardo Vieira de Melo à frente das tropas que atacaram o principal reduto do quilombo, a Serra da Barriga.'
+  },
+  {
+    id: 'hist_pe_20',
+    disciplina: 'historia_pe',
+    topico: 'Zumbi dos Palmares - Desfecho',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Após a destruição do principal reduto do Quilombo dos Palmares em 1694, Zumbi dos Palmares, sua principal liderança militar:',
+    alternativas: [
+      { letra: 'A', texto: 'Continuou resistindo por mais tempo, sendo capturado e morto em 20 de novembro de 1695, com sua cabeça decepada e exposta publicamente no Recife.' },
+      { letra: 'B', texto: 'Rendeu-se imediatamente em 1694, sendo perdoado e nomeado autoridade da capitania de Pernambuco.', comentario: 'Incorreta. Zumbi não se rendeu nem foi perdoado; continuou resistindo após a queda do principal reduto em 1694, sendo capturado e morto no ano seguinte, em 1695.' },
+      { letra: 'C', texto: 'Fugiu para Portugal, onde viveu exilado até sua morte por causas naturais.', comentario: 'Incorreta. Zumbi permaneceu resistindo no território de Pernambuco após a queda do reduto principal, sendo capturado e morto em 1695, e não fugiu para Portugal.' },
+      { letra: 'D', texto: 'Foi eleito o primeiro governador negro da capitania de Pernambuco pela Coroa portuguesa.', comentario: 'Incorreta. Não houve tal nomeação; Zumbi permaneceu na resistência armada contra as forças que destruíram Palmares, sendo perseguido, capturado e morto em 1695.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Após a queda do principal reduto de Palmares em 1694, Zumbi seguiu resistindo com um pequeno grupo, sendo traído, capturado e morto em 20 de novembro de 1695 — data que hoje é celebrada como o Dia da Consciência Negra. Sua cabeça foi decepada e exposta publicamente no Recife, por ordem do governo da capitania, como forma de desmentir crenças de imortalidade associadas à sua liderança.'
+  },
+  {
+    id: 'hist_pe_21',
+    disciplina: 'historia_pe',
+    topico: 'Sinagoga Kahal Zur Israel - Período Holandês',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'A Sinagoga Kahal Zur Israel, situada no atual Bairro do Recife, é reconhecida por ter sido:',
+    alternativas: [
+      { letra: 'A', texto: 'A primeira sinagoga das Américas, funcionando entre 1636 e 1654, no contexto da política de tolerância religiosa da ocupação holandesa em Pernambuco.' },
+      { letra: 'B', texto: 'Construída somente após a expulsão dos holandeses, já sob domínio português, em pleno século XVIII.', comentario: 'Incorreta. A Kahal Zur Israel funcionou justamente DURANTE o período de ocupação holandesa (1636-1654), e não após a expulsão dos holandeses.' },
+      { letra: 'C', texto: 'A primeira mesquita das Américas, ligada à presença de comerciantes do Império Otomano em Pernambuco.', comentario: 'Incorreta. A Kahal Zur Israel é uma SINAGOGA (templo judaico), não uma mesquita, e está ligada à presença de judeus na Pernambuco holandesa, não a comerciantes otomanos.' },
+      { letra: 'D', texto: 'Um templo que jamais funcionou de fato, permanecendo apenas como projeto arquitetônico não concluído.', comentario: 'Incorreta. A Kahal Zur Israel funcionou efetivamente como sinagoga entre 1636 e 1654, período em que atendeu à comunidade judaica estabelecida no Recife holandês.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'A Sinagoga Kahal Zur Israel, no Bairro do Recife, funcionou entre 1636 e 1654 como a primeira sinagoga das Américas, refletindo a política de maior tolerância religiosa adotada durante a ocupação holandesa (sobretudo no governo de Maurício de Nassau). Com a expulsão dos holandeses em 1654, boa parte da comunidade judaica de Recife migrou, entre outros destinos, para Nova Amsterdã (atual Nova York), onde fundou a primeira comunidade judaica da América do Norte.'
+  },
+  {
+    id: 'hist_pe_22',
+    disciplina: 'historia_pe',
+    topico: 'Emancipação de Alagoas em Relação a Pernambuco (1817)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'No contexto da Revolução Pernambucana de 1817, a Comarca de Alagoas, até então subordinada a Pernambuco:',
+    alternativas: [
+      { letra: 'A', texto: 'Foi elevada, em 16 de setembro de 1817, à condição de capitania autônoma, separando-se administrativamente de Pernambuco.' },
+      { letra: 'B', texto: 'Permaneceu subordinada a Pernambuco até os dias atuais, sem qualquer alteração em seu status administrativo.', comentario: 'Incorreta. A Comarca de Alagoas foi elevada a capitania autônoma em 1817, separando-se de Pernambuco — o atual estado de Alagoas é, desde então, unidade federativa distinta.' },
+      { letra: 'C', texto: 'Foi anexada ao território da Bahia, deixando de ter qualquer vínculo com Pernambuco ou com o futuro estado de Alagoas.', comentario: 'Incorreta. Não houve anexação de Alagoas à Bahia; a Comarca de Alagoas foi elevada à condição de capitania autônoma, dando origem ao atual estado de Alagoas.' },
+      { letra: 'D', texto: 'Tornou-se, em 1817, a nova capital de toda a capitania de Pernambuco, substituindo Olinda.', comentario: 'Incorreta. Alagoas não se tornou capital de Pernambuco; ao contrário, separou-se administrativamente da capitania nesse mesmo contexto de 1817.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Em 16 de setembro de 1817, no contexto imediatamente posterior à Revolução Pernambucana, a Comarca de Alagoas foi elevada à condição de capitania autônoma pela Coroa portuguesa, separando-se definitivamente da capitania de Pernambuco — origem do atual estado de Alagoas.'
+  },
+  {
+    id: 'hist_pe_23',
+    disciplina: 'historia_pe',
+    topico: 'Olinda - Patrimônio Histórico e Cultural da Humanidade (UNESCO)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'O Sítio Histórico de Olinda foi reconhecido pela UNESCO, em 1982, como Patrimônio Histórico e Cultural da Humanidade, sendo:',
+    alternativas: [
+      { letra: 'A', texto: 'A segunda cidade brasileira a receber esse título, depois de Ouro Preto (MG).' },
+      { letra: 'B', texto: 'A primeira cidade do mundo a receber qualquer título da UNESCO, em qualquer categoria.', comentario: 'Incorreta. Olinda não foi a primeira cidade do mundo a receber título da UNESCO; no Brasil, foi a segunda, depois de Ouro Preto (MG), reconhecida ainda nos anos 1980.' },
+      { letra: 'C', texto: 'Reconhecida exclusivamente pelo Carnaval, sem relação com seu patrimônio arquitetônico colonial.', comentario: 'Incorreta. O reconhecimento da UNESCO a Olinda está relacionado ao conjunto arquitetônico e urbanístico de seu sítio histórico colonial, e não apenas às festividades de Carnaval.' },
+      { letra: 'D', texto: 'Um título retirado definitivamente pela UNESCO na década de 2000, por descaracterização do patrimônio.', comentario: 'Incorreta. Não há registro de perda do título; o Sítio Histórico de Olinda mantém o reconhecimento como Patrimônio da Humanidade desde 1982.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O Sítio Histórico de Olinda foi declarado Patrimônio Histórico e Cultural da Humanidade pela UNESCO em 1982, sendo a segunda cidade brasileira a receber esse título, depois de Ouro Preto (MG) — reconhecimento relacionado ao conjunto arquitetônico colonial preservado na cidade, que foi capital da capitania/província de Pernambuco por cerca de 290 anos.'
+  },
+  {
+    id: 'hist_pe_24',
+    disciplina: 'historia_pe',
+    topico: 'Transferência da Capital de Olinda para Recife (1827)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Olinda foi a capital da capitania/província de Pernambuco por cerca de 290 anos, desde sua fundação, até que, em 1827, a sede do governo provincial foi definitivamente transferida para:',
+    alternativas: [
+      { letra: 'A', texto: 'Recife, que se consolidou como novo centro político-administrativo da província, dando continuidade ao processo de ascensão econômica já evidenciado desde a Guerra dos Mascates (1710-1711).' },
+      { letra: 'B', texto: 'Salvador, que passou a administrar tanto a Bahia quanto Pernambuco a partir de então.', comentario: 'Incorreta. A capital não foi transferida para Salvador (Bahia); a nova sede do governo provincial de Pernambuco passou a ser Recife, dentro do próprio território pernambucano.' },
+      { letra: 'C', texto: 'Nenhuma outra cidade — Olinda permanece, até hoje, a capital oficial do estado de Pernambuco.', comentario: 'Incorreta. Desde 1827, a capital de Pernambuco é Recife, e não mais Olinda.' },
+      { letra: 'D', texto: 'Igarassu, primeira vila fundada na capitania, que retomou o posto de sede administrativa.', comentario: 'Incorreta. A sede administrativa foi transferida para Recife em 1827, e não para Igarassu.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Em 1827, a sede do governo provincial de Pernambuco foi definitivamente transferida de Olinda para Recife, que já vinha se consolidando como polo comercial e portuário desde o período colonial — ascensão evidenciada, entre outros episódios, pela própria Guerra dos Mascates (1710-1711). Recife permanece, até hoje, a capital do estado de Pernambuco.'
   }
 ];

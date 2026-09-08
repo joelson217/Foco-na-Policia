@@ -8,7 +8,7 @@
 // Versão do conteúdo — bump junto com o CACHE_NAME do service-worker.js
 // a cada atualização de dados, para conferir no rodapé do app se a
 // atualização mais recente já chegou ao dispositivo.
-const APP_VERSION = 'v67';
+const APP_VERSION = 'v68';
 
 // ===================== ESTADO GLOBAL =====================
 let STATE = {
@@ -151,6 +151,15 @@ function sourcesComuns() {
   ];
 }
 
+// QUESTIONS_EXTRA_LEGISLACAO tem 5 questões (leg_extra_118/127/136/145/154)
+// marcadas com disciplina 'legislacao' mas que são, na verdade, sobre a LEP
+// (Lei 7.210/84) — servem à PPRN/PPPE (que têm Execução Penal no edital),
+// mas vazam indevidamente pra PCPE e PMPE, cujos editais NÃO incluem LEP.
+function extraLegislacaoSemLEP() {
+  return (typeof QUESTIONS_EXTRA_LEGISLACAO !== 'undefined' ? QUESTIONS_EXTRA_LEGISLACAO : [])
+    .filter(q => !/\(LEP\)|7\.210/i.test(q.topico || ''));
+}
+
 function initQuestions() {
   let sources;
   if (CURRENT_CURSO === 'pcpe_agente' || CURRENT_CURSO === 'pcpe_escrivao') {
@@ -179,7 +188,7 @@ function initQuestions() {
       typeof QUESTIONS_RLM !== 'undefined' ? QUESTIONS_RLM : [],
       typeof QUESTIONS_INFORMATICA !== 'undefined' ? QUESTIONS_INFORMATICA : [],
       typeof QUESTIONS_LEGISLACAO !== 'undefined' ? QUESTIONS_LEGISLACAO : [],
-      typeof QUESTIONS_EXTRA_LEGISLACAO !== 'undefined' ? QUESTIONS_EXTRA_LEGISLACAO : [],
+      extraLegislacaoSemLEP(),
       typeof QUESTIONS_LEGISLACAO_ESPECIAL_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_ESPECIAL_PCPE : [],
       typeof QUESTIONS_LEGISLACAO_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_PCPE : [],
       typeof QUESTIONS_PROCESSUAL_PENAL_PCPE !== 'undefined' ? QUESTIONS_PROCESSUAL_PENAL_PCPE : [],
@@ -218,7 +227,7 @@ function initQuestions() {
       typeof QUESTIONS_CONSTITUCIONAL !== 'undefined' ? QUESTIONS_CONSTITUCIONAL : [],
       dhGenericoPMPE,
       typeof QUESTIONS_LEGISLACAO !== 'undefined' ? QUESTIONS_LEGISLACAO : [],
-      typeof QUESTIONS_EXTRA_LEGISLACAO !== 'undefined' ? QUESTIONS_EXTRA_LEGISLACAO : [],
+      extraLegislacaoSemLEP(),
       typeof QUESTIONS_LEGISLACAO_ESPECIAL_PCPE !== 'undefined' ? QUESTIONS_LEGISLACAO_ESPECIAL_PCPE : [],
       typeof QUESTIONS_LEGISLACAO_PMPE !== 'undefined' ? QUESTIONS_LEGISLACAO_PMPE : []
     ];
