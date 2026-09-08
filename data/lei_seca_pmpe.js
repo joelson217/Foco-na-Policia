@@ -51,6 +51,16 @@ const LEI_SECA_PMPE = {
             { id: 'pmpe_ls_13', artigo: 'Art. 47 da Lei 6.783/1974', titulo: 'Conselho de Justificação', frente: 'A quem se aplica o Conselho de Justificação, e quem julga seus processos?', verso: 'Aplica-se ao OFICIAL presumivelmente incapaz de permanecer na ativa (também a oficiais reformados/reserva remunerada, §3º). Julga, em última instância, o TRIBUNAL DE JUSTIÇA DO ESTADO (§2º).', cobrado: 'hot', anos: [] },
             { id: 'pmpe_ls_14', artigo: 'Art. 48 da Lei 6.783/1974', titulo: 'Conselho de Disciplina', frente: 'A quem se aplica o Conselho de Disciplina, e quem julga seus processos?', verso: 'Aplica-se ao ASPIRANTE-A-OFICIAL PM e às PRAÇAS COM ESTABILIDADE assegurada, presumivelmente incapazes de permanecerem na ativa. Julga, em última instância, o COMANDANTE-GERAL da PM (§2º).', cobrado: 'hot', anos: [] }
           ]
+        },
+        {
+          titulo: '📌 Prerrogativas, Situações Especiais e Desligamento',
+          artigos: [
+            { id: 'pmpe_ls_15', artigo: 'Art. 68 da Lei 6.783/1974', titulo: 'Prerrogativas', frente: 'O que são as prerrogativas do policial-militar, segundo o art. 68? Cite um exemplo.', verso: 'HONRAS, DIGNIDADES e DISTINÇÕES devidas ao grau hierárquico e cargo. Exemplo: uso de títulos, UNIFORMES, distintivos, insígnias e emblemas correspondentes ao posto/graduação.', cobrado: 'medium', anos: [] },
+            { id: 'pmpe_ls_16', artigo: 'Art. 75 da Lei 6.783/1974', titulo: 'Agregação', frente: 'O que é a agregação, e ela abre vaga para promoção?', verso: 'Situação em que o policial-militar da ativa fica SEM NÚMERO na escala hierárquica. NÃO abre vaga, nem mesmo para efeito de PROMOÇÃO.', cobrado: 'hot', anos: [] },
+            { id: 'pmpe_ls_17', artigo: 'Art. 81 da Lei 6.783/1974', titulo: 'Ausência', frente: 'Quando o policial-militar é considerado "ausente" (art. 81)?', verso: 'Quando deixa de comparecer à sua Organização Policial-Militar (sem comunicar motivo) OU se ausenta sem licença, por mais de 24 HORAS consecutivas.', cobrado: 'medium', anos: [] },
+            { id: 'pmpe_ls_18', artigo: 'Arts. 83-84 da Lei 6.783/1974', titulo: 'Desaparecimento e Extravio', frente: 'Quantos dias definem "desaparecido" e quantos definem "extraviado"?', verso: 'DESAPARECIDO: paradeiro ignorado em serviço por mais de 8 DIAS. EXTRAVIADO: se o desaparecimento persistir por mais de 30 DIAS.', cobrado: 'medium', anos: [] },
+            { id: 'pmpe_ls_19', artigo: 'Art. 85 da Lei 6.783/1974', titulo: 'Desligamento do Serviço Ativo', frente: 'Cite ao menos 5 das 9 causas de desligamento/exclusão do serviço ativo (art. 85).', verso: 'Reserva remunerada, reforma, demissão, perda de posto e patente, licenciamento, exclusão a bem da disciplina, deserção, falecimento, extravio.', cobrado: 'hot', anos: [] }
+          ]
         }
       ]
     }

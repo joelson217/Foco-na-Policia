@@ -95,5 +95,30 @@ const VISUAIS_HTML_PMPE = [
         itens: ['Aplica-se ao Aspirante-a-Oficial e praças estáveis', 'Julgamento final: Comandante-Geral da PM']
       }
     ]
+  },
+  {
+    id: 'pmpe_vis_5',
+    titulo: 'Prerrogativas, Agregação e Desligamento',
+    icon: '📌',
+    cor: '#3b82f6',
+    fonte: 'Arts. 68, 75 e 81-85 da Lei 6.783/1974',
+    secoes: [
+      {
+        subtitulo: 'Prerrogativas (Art. 68)',
+        itens: ['Honras, dignidades e distinções do posto/graduação', 'Uso de títulos, uniformes, distintivos, insígnias e emblemas']
+      },
+      {
+        subtitulo: 'Agregação (Art. 75)',
+        itens: ['PM da ativa fica sem número na escala hierárquica', 'Não abre vaga, nem para promoção']
+      },
+      {
+        subtitulo: 'Ausência, Desaparecimento, Extravio (Arts. 81, 83-84)',
+        itens: ['Ausente: +24h sem comparecer ou sem licença', 'Desaparecido: +8 dias com paradeiro ignorado', 'Extraviado: desaparecimento por +30 dias']
+      },
+      {
+        subtitulo: 'Desligamento do Serviço Ativo (Art. 85)',
+        itens: ['Reserva remunerada, reforma, demissão', 'Perda de posto e patente, licenciamento', 'Exclusão a bem da disciplina, deserção, falecimento, extravio']
+      }
+    ]
   }
 ];

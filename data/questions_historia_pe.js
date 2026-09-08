@@ -405,5 +405,69 @@ const QUESTIONS_HISTORIA_PE = [
     ],
     gabarito: 'A',
     justificativa: 'Em 1827, a sede do governo provincial de Pernambuco foi definitivamente transferida de Olinda para Recife, que já vinha se consolidando como polo comercial e portuário desde o período colonial — ascensão evidenciada, entre outros episódios, pela própria Guerra dos Mascates (1710-1711). Recife permanece, até hoje, a capital do estado de Pernambuco.'
+  },
+  {
+    id: 'hist_pe_25',
+    disciplina: 'historia_pe',
+    topico: 'Joaquim Nabuco - Abolicionismo Pernambucano',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Joaquim Nabuco, nascido no Recife em 1849 e criado no Engenho de Massangana (PE), destacou-se nacionalmente por:',
+    alternativas: [
+      { letra: 'A', texto: 'Ser um dos principais líderes do movimento abolicionista brasileiro, autor da obra "O Abolicionismo" (1884) e eleito deputado por Pernambuco em 1885.' },
+      { letra: 'B', texto: 'Liderar a resistência armada contra a invasão holandesa no século XVII.', comentario: 'Incorreta. Joaquim Nabuco viveu no século XIX (1849-1910); a resistência à invasão holandesa ocorreu no século XVII, mais de 150 anos antes de seu nascimento.' },
+      { letra: 'C', texto: 'Proclamar a Confederação do Equador em 1824.', comentario: 'Incorreta. A Confederação do Equador (1824) foi liderada por Manuel de Carvalho Paes de Andrade; Joaquim Nabuco sequer havia nascido nessa época (nasceu em 1849).' },
+      { letra: 'D', texto: 'Fundar o movimento Manguebeat no Recife, na década de 1990.', comentario: 'Incorreta. O Manguebeat, movimento cultural dos anos 1990, foi protagonizado por Chico Science e Nação Zumbi, mais de um século após a atuação de Joaquim Nabuco (falecido em 1910).' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Joaquim Nabuco, nascido no Recife em 1849, foi um dos maiores nomes do abolicionismo brasileiro, autor de "O Abolicionismo" (1884), fundador da Sociedade Antiescravidão Brasileira (1880) e da Academia Brasileira de Letras (1897), tendo se elegido deputado por Pernambuco em 1885.'
+  },
+  {
+    id: 'hist_pe_26',
+    disciplina: 'historia_pe',
+    topico: 'Lampião e o Cangaço no Sertão Pernambucano',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'Virgulino Ferreira da Silva, o "Lampião", conhecido como o "Rei do Cangaço", nasceu, em 1897, em:',
+    alternativas: [
+      { letra: 'A', texto: 'Serra Talhada, no sertão de Pernambuco.' },
+      { letra: 'B', texto: 'Recife, capital de Pernambuco, onde viveu toda a sua vida sem atuar no sertão.', comentario: 'Incorreta. Lampião nasceu no sertão pernambucano (Serra Talhada), e não na capital Recife, e atuou justamente na região do sertão e do cangaço, não permanecendo na capital.' },
+      { letra: 'C', texto: 'Salvador, na Bahia, migrando posteriormente para Pernambuco já adulto.', comentario: 'Incorreta. Lampião nasceu em Serra Talhada, no sertão de Pernambuco, e não em Salvador.' },
+      { letra: 'D', texto: 'Olinda, primeira capital da capitania de Pernambuco.', comentario: 'Incorreta. Lampião nasceu no sertão pernambucano (Serra Talhada), região bem distinta do litoral onde se localiza Olinda.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Virgulino Ferreira da Silva, o Lampião (1897-1938), nasceu na Fazenda Passagem das Pedras, em Serra Talhada, no sertão de Pernambuco, tornando-se o mais famoso cangaceiro do Brasil, conhecido como "Rei do Cangaço", até ser morto em 1938 em confronto com forças policiais.'
+  },
+  {
+    id: 'hist_pe_27',
+    disciplina: 'historia_pe',
+    topico: 'Fernando de Noronha - Patrimônio Natural da Humanidade',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'O arquipélago de Fernando de Noronha, incorporado ao estado de Pernambuco em 1988 (com a extinção do antigo Território Federal), foi reconhecido pela UNESCO, em 2001, como:',
+    alternativas: [
+      { letra: 'A', texto: 'Patrimônio Natural da Humanidade, na designação conjunta "Reservas das Ilhas Atlânticas Brasileiras: Fernando de Noronha e Atol das Rocas".' },
+      { letra: 'B', texto: 'Patrimônio Cultural Imaterial da Humanidade, na mesma categoria do frevo.', comentario: 'Incorreta. Fernando de Noronha foi reconhecido como Patrimônio NATURAL da Humanidade (pelo valor ecológico/paisagístico), categoria distinta do Patrimônio Cultural Imaterial atribuído ao frevo.' },
+      { letra: 'C', texto: 'Território Federal independente, sem vínculo administrativo com nenhum estado brasileiro.', comentario: 'Incorreta. O antigo Território Federal de Fernando de Noronha foi extinto em 1988, e o arquipélago foi incorporado ao estado de Pernambuco, deixando de ser território federal autônomo.' },
+      { letra: 'D', texto: 'Parte do território do Rio Grande do Norte, junto com o Atol das Rocas.', comentario: 'Incorreta. Fernando de Noronha foi incorporado a Pernambuco em 1988; apenas o Atol das Rocas (que integra a mesma designação conjunta da UNESCO) pertence ao Rio Grande do Norte.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Com a extinção do Território Federal de Fernando de Noronha em 1988, o arquipélago foi incorporado ao estado de Pernambuco (enquanto o Atol das Rocas passou ao Rio Grande do Norte). Em 2001, a UNESCO reconheceu o conjunto "Reservas das Ilhas Atlânticas Brasileiras: Fernando de Noronha e Atol das Rocas" como Patrimônio Natural da Humanidade, pela relevância ecológica da área para espécies marinhas.'
+  },
+  {
+    id: 'hist_pe_28',
+    disciplina: 'historia_pe',
+    topico: 'Manguebeat - Movimento Cultural do Recife (Anos 1990)',
+    peso: 1,
+    dificuldade: 'medio',
+    enunciado: 'O Manguebeat, movimento cultural surgido no Recife no início dos anos 1990, tendo Chico Science e Nação Zumbi como principais expoentes, caracterizou-se por:',
+    alternativas: [
+      { letra: 'A', texto: 'Fundir ritmos tradicionais nordestinos, como maracatu, coco e ciranda, com elementos do rock, hip hop e música eletrônica.' },
+      { letra: 'B', texto: 'Rejeitar completamente qualquer influência da cultura popular pernambucana, buscando inspiração exclusivamente na música internacional.', comentario: 'Incorreta. O Manguebeat caracterizou-se justamente pela fusão de ritmos tradicionais pernambucanos (maracatu, coco, ciranda) com sonoridades urbanas contemporâneas, e não pela rejeição da cultura popular local.' },
+      { letra: 'C', texto: 'Ser um movimento exclusivamente literário, sem qualquer expressão musical.', comentario: 'Incorreta. O Manguebeat teve forte expressão musical (com bandas como Chico Science & Nação Zumbi e Mundo Livre S/A), além de abranger outras manifestações culturais, e não se restringiu à literatura.' },
+      { letra: 'D', texto: 'Ocorrer no século XIX, em paralelo à Revolução Praieira.', comentario: 'Incorreta. O Manguebeat é um movimento cultural do início dos anos 1990 (século XX), e não do século XIX; a Revolução Praieira ocorreu entre 1848 e 1850.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'O Manguebeat, surgido no Recife no início da década de 1990, teve em Chico Science & Nação Zumbi e Mundo Livre S/A seus principais expoentes, caracterizando-se pela fusão de ritmos tradicionais pernambucanos (maracatu, coco, ciranda) com rock, hip hop e música eletrônica, sob os símbolos do caranguejo (mangue) e da antena parabólica (conexão com o mundo).'
   }
 ];
