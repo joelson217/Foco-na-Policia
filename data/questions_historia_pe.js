@@ -469,5 +469,37 @@ const QUESTIONS_HISTORIA_PE = [
     ],
     gabarito: 'A',
     justificativa: 'O Manguebeat, surgido no Recife no início da década de 1990, teve em Chico Science & Nação Zumbi e Mundo Livre S/A seus principais expoentes, caracterizando-se pela fusão de ritmos tradicionais pernambucanos (maracatu, coco, ciranda) com rock, hip hop e música eletrônica, sob os símbolos do caranguejo (mangue) e da antena parabólica (conexão com o mundo).'
+  },
+  {
+    id: 'hist_pe_29',
+    disciplina: 'historia_pe',
+    topico: 'Frei Caneca - Atuação na Confederação do Equador',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Frei Joaquim do Amor Divino Caneca, uma das principais lideranças intelectuais da Confederação do Equador (1824), destacou-se, entre outras atuações, por:',
+    alternativas: [
+      { letra: 'A', texto: 'Editar o jornal "Typhis Pernambucano" e atuar como conselheiro do presidente da Confederação, Manuel de Carvalho Paes de Andrade.' },
+      { letra: 'B', texto: 'Comandar as tropas imperiais que sufocaram o movimento, opondo-se à Confederação do Equador.', comentario: 'Incorreta. Frei Caneca foi uma das principais lideranças INTELECTUAIS da Confederação do Equador, e não um comandante das tropas imperiais que a combateram.' },
+      { letra: 'C', texto: 'Fundar a Capitania de Pernambuco no século XVI, ao lado de Duarte Coelho.', comentario: 'Incorreta. Frei Caneca atuou no século XIX (Confederação do Equador, 1824), quase 300 anos após a fundação da capitania por Duarte Coelho (século XVI).' },
+      { letra: 'D', texto: 'Negociar a rendição holandesa que encerrou a Insurreição Pernambucana em 1654.', comentario: 'Incorreta. Frei Caneca atuou no século XIX; a Insurreição Pernambucana e a expulsão dos holandeses ocorreram no século XVII (1654), muito antes de seu nascimento.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Frei Caneca, influenciado pelo Iluminismo e por ideais liberais e federalistas, atuou como conselheiro do presidente da Confederação do Equador, Manuel de Carvalho Paes de Andrade, e defendeu o movimento também por meio do jornal que editava, o "Typhis Pernambucano".'
+  },
+  {
+    id: 'hist_pe_30',
+    disciplina: 'historia_pe',
+    topico: 'Frei Caneca - Execução (1825)',
+    peso: 2,
+    dificuldade: 'dificil',
+    enunciado: 'Frei Caneca foi condenado à morte por sua participação na Confederação do Equador. Sobre sua execução, ocorrida no Recife em janeiro de 1825, é correto afirmar que:',
+    alternativas: [
+      { letra: 'A', texto: 'A sentença original previa enforcamento, mas foi executada por fuzilamento, após carrascos se recusarem a cumprir a pena de forca contra o religioso.' },
+      { letra: 'B', texto: 'Frei Caneca foi absolvido pela comissão militar e libertado ainda em 1824.', comentario: 'Incorreta. Frei Caneca não foi absolvido; foi condenado por comissão militar e executado em janeiro de 1825, por sua participação na Confederação do Equador.' },
+      { letra: 'C', texto: 'A execução se deu por meio de guilhotina, método então recém-importado da França.', comentario: 'Incorreta. Não houve uso de guilhotina; a sentença original era de enforcamento, comutada para fuzilamento diante da recusa dos carrascos.' },
+      { letra: 'D', texto: 'Frei Caneca foi exilado em Portugal, cumprindo o restante da vida fora do Brasil.', comentario: 'Incorreta. Frei Caneca não foi exilado; foi condenado e executado no Recife, em janeiro de 1825.' }
+    ],
+    gabarito: 'A',
+    justificativa: 'Frei Caneca foi condenado por comissão militar a enforcamento, mas, diante da recusa de sucessivos carrascos em executar um religioso por essa forma, a pena foi cumprida por fuzilamento, em 13 de janeiro de 1825, no Recife — episódio que o tornou um dos maiores símbolos de martírio político da história de Pernambuco.'
   }
 ];

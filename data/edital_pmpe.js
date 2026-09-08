@@ -76,21 +76,24 @@ const EDITAL_PMPE = {
       destaque: true,
       topicos: [
         'Capitania de Pernambuco - Duarte Coelho e Fundação de Olinda',
-        'Invasão Holandesa e Governo de Maurício de Nassau',
-        'Insurreição Pernambucana (Expulsão dos Holandeses, 1654)',
-        'Guerra dos Mascates (1710-1711)',
-        'Revolução Pernambucana de 1817',
-        'Confederação do Equador (1824)',
-        'Guerra dos Cabanos / Cabanada (1832-1835)',
+        'Invasão Holandesa, Governo de Maurício de Nassau e Sinagoga Kahal Zur Israel',
+        'Batalhas dos Guararapes (1648-1649) e Insurreição Pernambucana (Expulsão dos Holandeses, 1654)',
+        'Quilombo dos Palmares e Zumbi (repressão pelo governo de Pernambuco, 1694-1695)',
+        'Guerra dos Mascates (1710-1711) e Transferência da Capital para Recife (1827)',
+        'Revolução Pernambucana de 1817, Frei Caneca e Confederação do Equador (1824)',
+        'Emancipação de Alagoas (1817) e Guerra dos Cabanos / Cabanada (1832-1835)',
         'Revolução Praieira (1848-1850)',
         'Economia Colonial e Divisão Regional (Zona da Mata, Agreste, Sertão)',
-        'Cultura Popular - Frevo e Maracatu'
+        'Cultura Popular e Patrimônio (Frevo, Maracatu, Olinda, Fernando de Noronha, Manguebeat)',
+        'Personalidades de Pernambuco (Joaquim Nabuco, Lampião)'
       ],
       temasMaisCobrados: [
         { nome: 'Invasão Holandesa e Nassau', frequencia: 92 },
         { nome: 'Guerra dos Mascates', frequencia: 88 },
         { nome: 'Revolução Pernambucana de 1817', frequencia: 85 },
-        { nome: 'Confederação do Equador', frequencia: 80 }
+        { nome: 'Confederação do Equador e Frei Caneca', frequencia: 80 },
+        { nome: 'Batalhas dos Guararapes', frequencia: 78 },
+        { nome: 'Quilombo dos Palmares', frequencia: 72 }
       ]
     },
     {
