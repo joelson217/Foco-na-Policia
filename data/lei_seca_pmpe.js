@@ -6,56 +6,19 @@
 // Legis, id=1032) — mesma fonte usada para corrigir e escrever
 // data/questions_legislacao_pmpe.js.
 //
-// O deck 'cf_principios_fundamentais' (disciplina 'constitucional')
-// cobre o Art. 1º a 4º da CF/88 — tópico do edital sem NENHUM
-// flashcard no banco de Lei Seca compartilhado (usado também pela
-// PPRN). Criado aqui, exclusivo da PMPE, pelo mesmo motivo de
-// data/questions_constitucional_pmpe.js: não alterar decks
-// compartilhados com a PPRN (prova em 2026-09-13).
+// Nota (2026-09-08): o deck de Princípios Fundamentais (Art. 1-4 CF)
+// que existiu aqui como 'cf_principios_fundamentais' foi REMOVIDO
+// deste arquivo — o mesmo conteúdo foi incorporado ao deck
+// compartilhado 'constitucional' em data/lei_seca.js (que também
+// cobria o mesmo gap para a PPRN/PPPE/PCPE). Como a PMPE já inclui
+// qualquer deck com disciplina 'constitucional' do banco
+// compartilhado (ver initLeiSeca() em js/app.js), manter os dois
+// causaria cartões duplicados (mesmos ids cf_pf_1-9) para quem
+// estuda PMPE.
 // ============================================================
 
 const LEI_SECA_PMPE = {
   decks: [
-    {
-      id: 'cf_principios_fundamentais',
-      disciplina: 'constitucional',
-      nome: 'Princípios Fundamentais da CF/88',
-      sigla: 'CF/88, Art. 1º-4º',
-      icon: '📜',
-      destaque: true,
-      peso: 1,
-      secoes: [
-        {
-          titulo: '🏛️ Art. 1º — Fundamentos e Forma de Estado',
-          artigos: [
-            { id: 'cf_pf_1', artigo: 'Art. 1º, caput, da CF/88', titulo: 'Forma de Estado', frente: 'Como a República Federativa do Brasil se constitui, segundo o caput do Art. 1º?', verso: 'Formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em ESTADO DEMOCRÁTICO DE DIREITO.', cobrado: 'hot', anos: [] },
-            { id: 'cf_pf_2', artigo: 'Art. 1º, I a V, da CF/88', titulo: 'Os 5 Fundamentos (macete)', frente: 'Quais são os 5 fundamentos da República, previstos nos incisos do Art. 1º?', verso: 'I - Soberania; II - Cidadania; III - Dignidade da pessoa humana; IV - Valores sociais do trabalho e da livre iniciativa; V - Pluralismo político. (Macete: SO-CI-DI-VA-PLU)', cobrado: 'hot', anos: [] },
-            { id: 'cf_pf_3', artigo: 'Art. 1º, parágrafo único, da CF/88', titulo: 'Soberania Popular', frente: 'Como o povo exerce o poder, segundo o parágrafo único do Art. 1º?', verso: 'Todo o poder emana do povo, que o exerce POR MEIO DE REPRESENTANTES ELEITOS ou DIRETAMENTE, nos termos da Constituição (democracia representativa + democracia direta: plebiscito, referendo, iniciativa popular).', cobrado: 'hot', anos: [] }
-          ]
-        },
-        {
-          titulo: '⚖️ Art. 2º — Separação de Poderes',
-          artigos: [
-            { id: 'cf_pf_4', artigo: 'Art. 2º da CF/88', titulo: 'Poderes da União', frente: 'Quais são os Poderes da União e qual sua relação entre si, segundo o Art. 2º?', verso: 'LEGISLATIVO, EXECUTIVO e JUDICIÁRIO — independentes e HARMÔNICOS entre si (sem hierarquia), cada um com funções típicas e mecanismos de controle recíproco (freios e contrapesos).', cobrado: 'hot', anos: [] }
-          ]
-        },
-        {
-          titulo: '🎯 Art. 3º — Objetivos Fundamentais',
-          artigos: [
-            { id: 'cf_pf_5', artigo: 'Art. 3º, I a IV, da CF/88', titulo: 'Os 4 Objetivos Fundamentais', frente: 'Quais são os 4 objetivos fundamentais da República, previstos no Art. 3º?', verso: 'I - Construir uma sociedade livre, justa e solidária; II - Garantir o desenvolvimento nacional; III - Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; IV - Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.', cobrado: 'hot', anos: [] },
-            { id: 'cf_pf_6', artigo: 'Art. 1º x Art. 3º da CF/88', titulo: 'Pegadinha: Fundamento x Objetivo', frente: 'Qual a diferença entre "fundamento" (Art. 1º) e "objetivo fundamental" (Art. 3º)? Dê um exemplo de troca comum em provas.', verso: 'Fundamentos (Art. 1º) são a BASE/ALICERCE do Estado (ex.: soberania, cidadania). Objetivos (Art. 3º) são METAS a alcançar (ex.: erradicar a pobreza). Bancas trocam: "dignidade da pessoa humana" (fundamento, Art. 1º, III) NÃO é objetivo do Art. 3º.', cobrado: 'hot', anos: [] }
-          ]
-        },
-        {
-          titulo: '🌎 Art. 4º — Relações Internacionais',
-          artigos: [
-            { id: 'cf_pf_7', artigo: 'Art. 4º, I a V, da CF/88', titulo: 'Princípios Relações Internacionais (1-5)', frente: 'Quais são os 5 primeiros princípios das relações internacionais do Brasil (Art. 4º, I a V)?', verso: 'I - Independência nacional; II - Prevalência dos direitos humanos; III - Autodeterminação dos povos; IV - Não-intervenção; V - Igualdade entre os Estados.', cobrado: 'hot', anos: [] },
-            { id: 'cf_pf_8', artigo: 'Art. 4º, VI a X, da CF/88', titulo: 'Princípios Relações Internacionais (6-10)', frente: 'Quais são os 5 últimos princípios das relações internacionais do Brasil (Art. 4º, VI a X)?', verso: 'VI - Defesa da paz; VII - Solução pacífica dos conflitos; VIII - Repúdio ao terrorismo e ao racismo; IX - Cooperação entre os povos para o progresso da humanidade; X - Concessão de asilo político.', cobrado: 'hot', anos: [] },
-            { id: 'cf_pf_9', artigo: 'Art. 4º, parágrafo único, da CF/88', titulo: 'Integração Latino-Americana', frente: 'O que o Brasil buscará, segundo o parágrafo único do Art. 4º?', verso: 'A INTEGRAÇÃO ECONÔMICA, POLÍTICA, SOCIAL e CULTURAL dos povos da América Latina, visando à formação de uma COMUNIDADE LATINO-AMERICANA DE NAÇÕES (fundamento constitucional de iniciativas como o Mercosul).', cobrado: 'medium', anos: [] }
-          ]
-        }
-      ]
-    },
     {
       id: 'estatuto_pm_pe',
       disciplina: 'legislacao_pmpe',

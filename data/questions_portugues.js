@@ -937,7 +937,8 @@ const QUESTIONS_PORTUGUES = [
     ],
     "gabarito": "A",
     "artigo": "Regência Nominal e Crase",
-    "justificativa": "Em \"à diretora\", há crase pela fusão da preposição \"a\" (exigida pelo verbo \"entregar algo A alguém\") com o artigo feminino \"a\" que antecede \"diretora\". Não há crase antes de palavras masculinas (\"a pé\"), antes de verbo (\"a partir\") ou antes de pronome pessoal (\"a ela\")."
+    "justificativa": "Em \"à diretora\", há crase pela fusão da preposição \"a\" (exigida pelo verbo \"entregar algo A alguém\") com o artigo feminino \"a\" que antecede \"diretora\". Não há crase antes de palavras masculinas (\"a pé\"), antes de verbo (\"a partir\") ou antes de pronome pessoal (\"a ela\").",
+    "id": "port_30"
   },
   {
     "disciplina": "portugues",
@@ -953,7 +954,8 @@ const QUESTIONS_PORTUGUES = [
     ],
     "gabarito": "A",
     "artigo": "Pontuação - Uso da Vírgula",
-    "justificativa": "O aposto explicativo (\"o novo agente penitenciário\"), que explica quem é João, deve ser isolado por vírgulas em AMBOS os lados. As demais alternativas isolam apenas um dos lados ou pontuam incorretamente outro trecho da frase, rompendo a coesão."
+    "justificativa": "O aposto explicativo (\"o novo agente penitenciário\"), que explica quem é João, deve ser isolado por vírgulas em AMBOS os lados. As demais alternativas isolam apenas um dos lados ou pontuam incorretamente outro trecho da frase, rompendo a coesão.",
+    "id": "port_31"
   },
   {
     "disciplina": "portugues",
@@ -970,7 +972,8 @@ const QUESTIONS_PORTUGUES = [
     ],
     "gabarito": "A",
     "artigo": "Ortografia - Parônimos (mal/mau) e Homófonos (se não/senão)",
-    "justificativa": "\"Se não\" (condicional + negação, substituível por \"caso não\") é o correto antes de uma condição, diferente de \"senão\" (equivalente a \"caso contrário\", usado em outro contexto). \"Mal\" é advérbio (antônimo de \"bem\", modifica o verbo \"agiu\"), diferente de \"mau\" (adjetivo, antônimo de \"bom\", modifica substantivo)."
+    "justificativa": "\"Se não\" (condicional + negação, substituível por \"caso não\") é o correto antes de uma condição, diferente de \"senão\" (equivalente a \"caso contrário\", usado em outro contexto). \"Mal\" é advérbio (antônimo de \"bem\", modifica o verbo \"agiu\"), diferente de \"mau\" (adjetivo, antônimo de \"bom\", modifica substantivo).",
+    "id": "port_32"
   },
   {
     "disciplina": "portugues",
@@ -987,7 +990,8 @@ const QUESTIONS_PORTUGUES = [
     ],
     "gabarito": "B",
     "artigo": "Tipologia Textual",
-    "justificativa": "O tipo injuntivo (ou instrucional) organiza-se em torno de comandos, instruções ou orientações para a realização de uma ação — típico de manuais, receitas e procedimentos operacionais, diferente da narração (sucessão de fatos), descrição (caracterização) e dissertação (defesa de ponto de vista)."
+    "justificativa": "O tipo injuntivo (ou instrucional) organiza-se em torno de comandos, instruções ou orientações para a realização de uma ação — típico de manuais, receitas e procedimentos operacionais, diferente da narração (sucessão de fatos), descrição (caracterização) e dissertação (defesa de ponto de vista).",
+    "id": "port_33"
   },
   {
     "disciplina": "portugues",
@@ -1003,7 +1007,8 @@ const QUESTIONS_PORTUGUES = [
     ],
     "gabarito": "A",
     "artigo": "Regência Nominal",
-    "justificativa": "\"Aptidão\" rege a preposição \"para\" (aptidão PARA algo). \"Obediente\", por sua vez, rege a preposição \"a\" (obediente ÀS normas), não \"com\" nem \"sobre\" — nenhuma das opções com \"obediente\" está correta nesta questão, restando a alternativa A como a única regência nominal correta apresentada."
+    "justificativa": "\"Aptidão\" rege a preposição \"para\" (aptidão PARA algo). \"Obediente\", por sua vez, rege a preposição \"a\" (obediente ÀS normas), não \"com\" nem \"sobre\" — nenhuma das opções com \"obediente\" está correta nesta questão, restando a alternativa A como a única regência nominal correta apresentada.",
+    "id": "port_34"
   },
   {
     "disciplina": "portugues",
@@ -1019,6 +1024,7 @@ const QUESTIONS_PORTUGUES = [
     ],
     "gabarito": "A",
     "artigo": "Coesão Referencial - Pronomes Oblíquos",
-    "justificativa": "O pronome oblíquo \"lhe\" retoma \"o novo agente\" (a quem o crachá foi entregue), funcionando como objeto indireto (\"entregou o crachá A ELE\") — o objeto direto da oração é \"o crachá\"."
+    "justificativa": "O pronome oblíquo \"lhe\" retoma \"o novo agente\" (a quem o crachá foi entregue), funcionando como objeto indireto (\"entregou o crachá A ELE\") — o objeto direto da oração é \"o crachá\".",
+    "id": "port_35"
   }
 ];

@@ -645,6 +645,10 @@ const QUESTIONS_PENAL = [
         "comentario": "A corrupção passiva (Art. 317 do CP) envolve solicitar, receber ou aceitar promessa de vantagem indevida, conduta distinta de apropriar-se de dinheiro público que já está sob a posse do funcionário em razão do cargo."
       },
       {
+        "letra": "C",
+        "texto": "Peculato-apropriação."
+      },
+      {
         "letra": "D",
         "texto": "Emprego irregular de verbas.",
         "comentario": "O emprego irregular de verbas públicas (Art. 315 do CP) consiste em dar às verbas ou rendas públicas aplicação diversa da estabelecida em lei, sem apropriação em proveito próprio, diferente da conduta descrita."
