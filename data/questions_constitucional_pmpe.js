@@ -211,5 +211,137 @@ const QUESTIONS_CONSTITUCIONAL_PMPE = [
     "gabarito": "A",
     "artigo": "Art. 4º, parágrafo único, da CF/88",
     "justificativa": "O parágrafo único do Art. 4º da CF/88 estabelece: \"A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações.\" É o fundamento constitucional de iniciativas como o Mercosul."
+  },
+  {
+    "id": "const_pmpe_7",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "facil",
+    "enunciado": "Nos termos do caput do Art. 1º da Constituição Federal, a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, e constitui-se em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Estado Democrático de Direito."
+      },
+      {
+        "letra": "B",
+        "texto": "Estado Social de Direito, apenas.",
+        "comentario": "Incorreta, pois a expressão literal do Art. 1º, caput, é \"Estado Democrático de Direito\", não \"Estado Social de Direito\"."
+      },
+      {
+        "letra": "C",
+        "texto": "Estado Federal Unitário, com Municípios subordinados aos Estados.",
+        "comentario": "Incorreta, pois o Brasil é uma federação com união indissolúvel entre Estados, Municípios e DF, sem relação de subordinação hierárquica entre esses entes — e não um \"Estado Unitário\"."
+      },
+      {
+        "letra": "D",
+        "texto": "República Parlamentarista, com Chefia de Estado e de Governo separadas.",
+        "comentario": "Incorreta, pois o Art. 1º não trata de forma de governo parlamentarista; o Brasil adota o presidencialismo, com acúmulo das chefias de Estado e de Governo na figura do Presidente da República."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, caput, da CF/88",
+    "justificativa": "O Art. 1º, caput, da CF/88 estabelece: \"A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito.\""
+  },
+  {
+    "id": "const_pmpe_8",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "NÃO constitui objetivo fundamental da República Federativa do Brasil, conforme o Art. 3º da Constituição Federal:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Construir uma sociedade livre, justa e solidária.",
+        "comentario": "Não é a resposta correta: trata-se de objetivo fundamental expresso no Art. 3º, I, da CF."
+      },
+      {
+        "letra": "B",
+        "texto": "Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais.",
+        "comentario": "Não é a resposta correta: trata-se de objetivo fundamental expresso no Art. 3º, III, da CF."
+      },
+      {
+        "letra": "C",
+        "texto": "Conceder asilo político a estrangeiros perseguidos por motivos políticos."
+      },
+      {
+        "letra": "D",
+        "texto": "Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.",
+        "comentario": "Não é a resposta correta: trata-se de objetivo fundamental expresso no Art. 3º, IV, da CF."
+      }
+    ],
+    "gabarito": "C",
+    "artigo": "Art. 3º da CF/88 c/c Art. 4º, X, da CF/88",
+    "justificativa": "A concessão de asilo político é princípio que rege as relações internacionais do Brasil (Art. 4º, X), e não um dos quatro objetivos fundamentais listados no Art. 3º (construir sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e reduzir desigualdades; promover o bem de todos sem discriminação). É comum bancas misturarem itens do Art. 4º entre as opções para testar se o candidato distingue os dois artigos."
+  },
+  {
+    "id": "const_pmpe_9",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Sobre os princípios do Art. 4º da Constituição Federal que regem o Brasil em suas relações internacionais, assinale a alternativa CORRETA:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O repúdio ao terrorismo e ao racismo (inciso VIII) e a igualdade entre os Estados (inciso V) estão entre os princípios expressos no Art. 4º."
+      },
+      {
+        "letra": "B",
+        "texto": "A igualdade entre os Estados foi suprimida do texto constitucional pela Emenda Constitucional nº 45/2004.",
+        "comentario": "Incorreta, pois a EC 45/2004 tratou da reforma do Poder Judiciário, não alterou o rol de princípios do Art. 4º, que permanece com a igualdade entre os Estados no inciso V."
+      },
+      {
+        "letra": "C",
+        "texto": "O repúdio ao terrorismo é princípio previsto em lei ordinária federal, e não na Constituição.",
+        "comentario": "Incorreta, pois o repúdio ao terrorismo e ao racismo está expressamente previsto no texto constitucional, no Art. 4º, VIII."
+      },
+      {
+        "letra": "D",
+        "texto": "A igualdade entre os Estados só se aplica às relações entre os entes federativos brasileiros (Estados-membros), não a Estados estrangeiros.",
+        "comentario": "Incorreta, pois o Art. 4º, V, trata da igualdade entre Estados soberanos no plano das relações internacionais, e não entre os Estados-membros da federação brasileira."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 4º, V e VIII, da CF/88",
+    "justificativa": "O Art. 4º, V, prevê a igualdade entre os Estados como princípio das relações internacionais do Brasil, e o inciso VIII prevê o repúdio ao terrorismo e ao racismo — ambos vigentes e integrantes do rol de dez princípios do artigo."
+  },
+  {
+    "id": "const_pmpe_10",
+    "disciplina": "constitucional",
+    "topico": "Princípios Fundamentais (Art. 1-4)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Relacione cada princípio ao artigo da Constituição Federal em que está previsto e assinale a alternativa CORRETA: (1) dignidade da pessoa humana; (2) independência e harmonia entre os Poderes; (3) erradicação da pobreza e da marginalização; (4) não intervenção nos assuntos internos de outros Estados.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 - Art. 1º; 2 - Art. 2º; 3 - Art. 3º; 4 - Art. 4º."
+      },
+      {
+        "letra": "B",
+        "texto": "1 - Art. 2º; 2 - Art. 1º; 3 - Art. 4º; 4 - Art. 3º.",
+        "comentario": "Incorreta: inverte os artigos — dignidade da pessoa humana é fundamento do Art. 1º (não do 2º), independência dos Poderes está no Art. 2º (não no 1º), erradicação da pobreza é objetivo do Art. 3º (não do 4º), e não intervenção é princípio de relações internacionais do Art. 4º (não do 3º)."
+      },
+      {
+        "letra": "C",
+        "texto": "1 - Art. 3º; 2 - Art. 4º; 3 - Art. 1º; 4 - Art. 2º.",
+        "comentario": "Incorreta: nenhuma das correspondências está correta — dignidade da pessoa humana é do Art. 1º, independência dos Poderes é do Art. 2º, erradicação da pobreza é do Art. 3º e não intervenção é do Art. 4º."
+      },
+      {
+        "letra": "D",
+        "texto": "Todos os quatro princípios estão previstos exclusivamente no Art. 5º da Constituição.",
+        "comentario": "Incorreta, pois nenhum dos quatro princípios listados está no Art. 5º (direitos e garantias individuais) — estão distribuídos entre os Art. 1º a 4º, que tratam dos Princípios Fundamentais."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 1º, III; Art. 2º; Art. 3º, III; e Art. 4º, IV, da CF/88",
+    "justificativa": "Dignidade da pessoa humana é fundamento da República (Art. 1º, III); independência e harmonia entre os Poderes está no Art. 2º; erradicar a pobreza e a marginalização é objetivo fundamental (Art. 3º, III); e não intervenção nos assuntos internos de outros Estados é princípio das relações internacionais (Art. 4º, IV). Distinguir os quatro artigos dos Princípios Fundamentais é um clássico ponto de pegadinha em provas objetivas."
   }
 ];
