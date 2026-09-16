@@ -21,6 +21,17 @@
 // 4) Estatuto do Desarmamento (6 questões) — tópico citado no edital
 //    com poucas questões sobre penas específicas pós-Pacote Anticrime
 //    e distinção posse x porte.
+// 5) Regime Jurídico Único do RN - LC 122/1994 (4 questões), Constituição
+//    do Estado do RN (3 questões), Código de Ética Estadual - Decreto
+//    33.094/2023 e Lei do Assédio - Lei 11.902/2024 (6 questões), e
+//    Processo Administrativo Estadual - LC 303/2005 (2 questões) —
+//    lacunas identificadas em auditoria contra a prova real da PPRN
+//    (Prova 04, Instituto Avalia, 13/09/2026): normas ESTADUAIS do RN
+//    citadas na prova mas ausentes do banco (que só tinha equivalentes
+//    federais). Conteúdo verificado via pesquisa direta no texto oficial
+//    de cada norma. Usa o prefixo 'p2r4_rn_' (já existente neste arquivo)
+//    para permanecer automaticamente restrito à PPRN — são normas do RN
+//    sem aplicação em PPPE/PCPE/PMPE (Pernambuco).
 // ============================================================
 
 const QUESTIONS_PESO2_REFORCO4 = [
@@ -571,5 +582,297 @@ const QUESTIONS_PESO2_REFORCO4 = [
     gabarito: 'A',
     artigo: 'Art. 6º, Lei 10.826/03',
     justificativa: 'O Art. 6º assegura o porte de arma de fogo, para o exercício da atividade, aos integrantes das Forças Armadas, das polícias (incluindo a Polícia Penal) e demais órgãos de segurança pública elencados na lei, em todo o território nacional, dispensada a autorização específica exigida do cidadão comum (Art. 10).'
+  },
+
+  // ---------- REGIME JURÍDICO ÚNICO DO RN - LC 122/1994 (4 questões) ----------
+  // Conteúdo verificado via pesquisa (Lei Complementar Estadual nº 122/1994 -
+  // Assembleia Legislativa do RN / bases de questões de concurso). Cobre o
+  // regime disciplinar dos servidores civis do Estado, cobrado na prova real
+  // da PPRN (Legislação Específica) e que o banco não tinha nenhum conteúdo.
+  {
+    id: 'p2r4_rn_13',
+    disciplina: 'legislacao',
+    topico: 'Regime Jurídico Único do RN (LC 122/1994)',
+    peso: 2,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'De acordo com a Lei Complementar Estadual nº 122/1994 (Regime Jurídico Único dos Servidores Públicos Civis do RN), são penalidades disciplinares aplicáveis ao servidor estadual:',
+    alternativas: [
+      { letra: 'A', texto: 'Advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão ou função de confiança.' },
+      { letra: 'B', texto: 'Repreensão, multa e prisão administrativa, nos mesmos moldes do regime disciplinar militar.', comentario: 'Essas figuras não constam do rol de penalidades do estatuto civil estadual, que segue o mesmo padrão da Lei 8.112/90 federal.' },
+      { letra: 'C', texto: 'Apenas advertência e demissão, sem gradações intermediárias.', comentario: 'O rol legal também prevê suspensão, cassação de aposentadoria/disponibilidade e destituição de função de confiança como penalidades intermediárias.' },
+      { letra: 'D', texto: 'Exoneração compulsória, como única penalidade disciplinar prevista em lei.', comentario: 'Exoneração é forma de vacância do cargo, não penalidade disciplinar — a penalidade equivalente à perda do cargo por infração é a demissão.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC nº 122/1994 (RN) - Regime disciplinar',
+    justificativa: 'O estatuto do servidor civil do RN segue o mesmo padrão do regime geral brasileiro de servidores públicos (à semelhança da Lei 8.112/90 federal): advertência, suspensão, demissão, cassação de aposentadoria/disponibilidade e destituição de cargo em comissão ou função de confiança.'
+  },
+  {
+    id: 'p2r4_rn_14',
+    disciplina: 'legislacao',
+    topico: 'Regime Jurídico Único do RN (LC 122/1994)',
+    peso: 2,
+    mostCobrado: true,
+    dificuldade: 'dificil',
+    enunciado: 'Segundo a LC nº 122/1994 (RN), os prazos de prescrição da ação disciplinar contra o servidor público estadual são:',
+    alternativas: [
+      { letra: 'A', texto: '5 anos para infrações puníveis com demissão, cassação de aposentadoria/disponibilidade ou destituição de função de confiança; 2 anos para suspensão; e 180 dias para advertência.' },
+      { letra: 'B', texto: '10 anos para qualquer infração, independentemente da penalidade cabível.', comentario: 'Os prazos são escalonados conforme a gravidade da penalidade (180 dias a 5 anos), não um prazo único de 10 anos.' },
+      { letra: 'C', texto: '1 ano para todas as infrações disciplinares, contado da data do conhecimento do fato pela autoridade.', comentario: 'Não há um prazo único de 1 ano — os prazos variam de 180 dias a 5 anos conforme a penalidade cabível.' },
+      { letra: 'D', texto: 'As infrações disciplinares são imprescritíveis no âmbito do serviço público estadual.', comentario: 'A lei prevê prazos prescricionais expressos, afastando a imprescritibilidade.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC nº 122/1994 (RN) - Prescrição',
+    justificativa: 'Assim como no regime geral dos servidores públicos brasileiros, a prescrição da ação disciplinar estadual segue a escala: 180 dias (advertência), 2 anos (suspensão) e 5 anos (demissão, cassação de aposentadoria/disponibilidade ou destituição de cargo/função de confiança) — o mesmo padrão já visto na LC 566/2016 (RN) para a carreira de Policial Penal.'
+  },
+  {
+    id: 'p2r4_rn_15',
+    disciplina: 'legislacao',
+    topico: 'Regime Jurídico Único do RN (LC 122/1994)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos da LC nº 122/1994 (RN), o servidor público estável do Estado do Rio Grande do Norte somente perderá o cargo em virtude de:',
+    alternativas: [
+      { letra: 'A', texto: 'Sentença judicial transitada em julgado ou de processo administrativo disciplinar em que lhe seja assegurada ampla defesa.' },
+      { letra: 'B', texto: 'Simples decisão do superior hierárquico imediato, sem necessidade de processo formal.', comentario: 'A perda do cargo do servidor estável exige processo formal com ampla defesa (ou decisão judicial), não bastando decisão unilateral do superior hierárquico.' },
+      { letra: 'C', texto: 'Avaliação de desempenho anual insatisfatória, aplicada automaticamente e sem contraditório.', comentario: 'A avaliação periódica de desempenho é hipótese de perda de cargo prevista na CF (art. 41, §1º, III), mas mesmo essa exige processo com garantia de contraditório e ampla defesa, não é automática.' },
+      { letra: 'D', texto: 'Simples denúncia anônima recebida pela Corregedoria, independentemente de apuração.', comentario: 'Uma denúncia, por si só, não gera a perda do cargo — é necessária a apuração formal em processo com ampla defesa.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC nº 122/1994 (RN)',
+    justificativa: 'Em harmonia com a garantia constitucional da estabilidade (Art. 41 CF/88), o servidor estável do RN só perde o cargo por sentença judicial transitada em julgado ou por processo administrativo disciplinar no qual lhe seja assegurada ampla defesa.'
+  },
+  {
+    id: 'p2r4_rn_16',
+    disciplina: 'legislacao',
+    topico: 'Regime Jurídico Único do RN (LC 122/1994)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'Segundo a LC nº 122/1994 (RN), a promoção do servidor público estadual — elevação à classe superior imediata dentro da carreira — obedece, entre outros, ao seguinte critério:',
+    alternativas: [
+      { letra: 'A', texto: 'Interstício mínimo de 2 (dois) anos na classe, realizando-se alternadamente pelos critérios de antiguidade de classe e de merecimento.' },
+      { letra: 'B', texto: 'É concedida automaticamente a cada ano, sem qualquer interstício mínimo ou critério de antiguidade/merecimento.', comentario: 'A lei exige interstício mínimo de 2 anos na classe e alterna os critérios de antiguidade e merecimento — não é uma concessão automática anual sem requisitos.' },
+      { letra: 'C', texto: 'Depende exclusivamente de concurso público de remoção, nos mesmos moldes do ingresso na carreira.', comentario: 'A promoção é movimentação interna na carreira (mudança de classe), distinta do ingresso por concurso público — não exige novo concurso.' },
+      { letra: 'D', texto: 'É vedada a qualquer servidor que já tenha sofrido penalidade de advertência, ainda que prescrita.', comentario: 'A lei não veda a promoção com base em penalidade já prescrita — a vedação a movimentações funcionais normalmente se limita a processos disciplinares em curso ou penalidades não prescritas.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC nº 122/1994 (RN) - Promoção',
+    justificativa: 'A promoção (elevação à classe superior imediata) exige interstício mínimo de 2 anos na classe e se realiza alternadamente pelos critérios de antiguidade de classe e de merecimento — modelo clássico de progressão funcional dos estatutos de servidores públicos brasileiros.'
+  },
+
+  // ---------- CONSTITUIÇÃO DO ESTADO DO RN (3 questões) ----------
+  // Conteúdo verificado via pesquisa (texto oficial da Constituição Estadual
+  // do RN e da Emenda Constitucional nº 22/2022, que incluiu a Polícia Penal
+  // entre os órgãos de segurança pública estaduais).
+  {
+    id: 'p2r4_rn_17',
+    disciplina: 'legislacao',
+    topico: 'Constituição do Estado do RN - Segurança Pública',
+    peso: 2,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'A Emenda Constitucional Estadual nº 22/2022 promoveu qual alteração na Constituição do Estado do Rio Grande do Norte, no que se refere à segurança pública?',
+    alternativas: [
+      { letra: 'A', texto: 'Incluiu a Polícia Penal entre os órgãos de segurança pública estaduais, ao lado da Polícia Civil e da Polícia Militar, adequando o texto estadual à Constituição Federal.' },
+      { letra: 'B', texto: 'Extinguiu a Polícia Militar do RN, transferindo suas atribuições para a Polícia Penal.', comentario: 'A emenda não extinguiu a Polícia Militar — apenas incluiu a Polícia Penal entre os órgãos de segurança pública, ao lado das polícias já existentes.' },
+      { letra: 'C', texto: 'Criou uma nova Guarda Estadual, distinta das polícias já existentes.', comentario: 'Não houve criação de uma nova corporação — a alteração foi incluir a Polícia Penal, já existente, no rol constitucional de órgãos de segurança pública.' },
+      { letra: 'D', texto: 'Transferiu a segurança dos estabelecimentos penais para a Polícia Militar.', comentario: 'A segurança dos estabelecimentos penais permanece a cargo da Polícia Penal, vinculada à Secretaria de Administração Penitenciária, e não foi transferida à Polícia Militar.' }
+    ],
+    gabarito: 'A',
+    artigo: 'EC Estadual nº 22/2022 - Art. 90, CE/RN',
+    justificativa: 'A EC 22/2022 alterou os arts. 18, 37 e 90 da Constituição Estadual do RN para incluir a Polícia Penal entre os órgãos de segurança pública estaduais (ao lado de Polícia Civil, Polícia Militar e Corpo de Bombeiros Militar), adequando o texto estadual à Constituição Federal, que já havia recebido a mesma inclusão pela EC 104/2019.'
+  },
+  {
+    id: 'p2r4_rn_18',
+    disciplina: 'legislacao',
+    topico: 'Constituição do Estado do RN - Polícia Penal',
+    peso: 2,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'Segundo o Art. 90 da Constituição do Estado do RN (com a redação dada pela EC nº 22/2022), a Polícia Penal Estadual:',
+    alternativas: [
+      { letra: 'A', texto: 'Está vinculada à Secretaria de Administração Penitenciária, órgão administrador do sistema penitenciário, cabendo-lhe a segurança dos estabelecimentos penais.' },
+      { letra: 'B', texto: 'É força auxiliar e reserva do Exército, tal como a Polícia Militar e o Corpo de Bombeiros Militar.', comentario: 'Força auxiliar e reserva do Exército é característica das forças militares estaduais (PM e CBM) — a Polícia Penal é órgão civil, não possuindo essa natureza.' },
+      { letra: 'C', texto: 'É subordinada diretamente ao Secretário de Segurança Pública, e não à Secretaria de Administração Penitenciária.', comentario: 'A vinculação constitucional é com a Secretaria de Administração Penitenciária, órgão gestor do sistema prisional, e não com a pasta de Segurança Pública.' },
+      { letra: 'D', texto: 'Tem sua organização e carreira definidas diretamente pela Constituição Estadual, sem necessidade de lei complementar específica.', comentario: 'A própria Constituição remete a lei complementar específica a regulamentação da organização, carreira, direitos, deveres e prerrogativas da Polícia Penal.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 90, Constituição Estadual do RN',
+    justificativa: 'O Art. 90 da CE/RN, na redação da EC 22/2022, vincula a Polícia Penal Estadual à Secretaria de Administração Penitenciária, atribuindo-lhe a segurança dos estabelecimentos penais, enquanto a Polícia Militar e o Corpo de Bombeiros Militar mantêm sua natureza de forças auxiliares e reserva do Exército — distinção que confirma a natureza civil da Polícia Penal.'
+  },
+  {
+    id: 'p2r4_rn_19',
+    disciplina: 'legislacao',
+    topico: 'Constituição do Estado do RN - Polícia Penal',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'De acordo com a Constituição do Estado do RN, a organização, o funcionamento, a estrutura de carreira, os direitos, deveres e prerrogativas da Polícia Penal Estadual são disciplinados:',
+    alternativas: [
+      { letra: 'A', texto: 'Por lei complementar específica, atualmente materializada na LC nº 566/2016 e na LC nº 664/2020, ambas do RN.' },
+      { letra: 'B', texto: 'Diretamente por decreto do Governador, sem necessidade de lei complementar.', comentario: 'A matéria é reservada à lei complementar, não podendo ser tratada apenas por decreto do Poder Executivo.' },
+      { letra: 'C', texto: 'Por resolução interna da própria corporação, sem participação do Poder Legislativo.', comentario: 'A disciplina da carreira depende de lei complementar, aprovada pela Assembleia Legislativa, e não de mero ato interno da corporação.' },
+      { letra: 'D', texto: 'Pela legislação federal aplicável às Polícias Civis dos Estados, por analogia.', comentario: 'A Polícia Penal do RN tem legislação estadual própria (LC 566/2016 e LC 664/2020), não sendo regida por analogia com a legislação da Polícia Civil.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Art. 90, Constituição Estadual do RN',
+    justificativa: 'A Constituição Estadual remete à lei complementar específica a disciplina da Polícia Penal — atualmente a LC nº 566/2016 (Estatuto da Carreira, então "Agente Penitenciário") e a LC nº 664/2020 (renomeação para "Policial Penal" e reestruturação da carreira), ambas já tratadas em profundidade no bloco de Legislação Penitenciária do RN deste banco.'
+  },
+
+  // ---------- ÉTICA DO RN - DECRETO 33.094/2023 E LEI 11.902/2024 (6 questões) ----------
+  // Conteúdo verificado via pesquisa (texto oficial publicado no Diário
+  // Oficial do RN). A prova real da PPRN cobrou essas duas normas ESTADUAIS
+  // no bloco de Ética, enquanto o banco só tinha o Decreto Federal 1.171/94 e
+  // a Lei 8.112/90 (federal) — achado mais relevante da auditoria da prova.
+  {
+    id: 'p2r4_rn_20',
+    disciplina: 'etica',
+    topico: 'Código de Ética Estadual do RN (Decreto 33.094/2023)',
+    peso: 2,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'O Decreto Estadual nº 33.094/2023 (RN), que aprova o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Estadual, elenca princípios que devem orientar a conduta do servidor, entre eles:',
+    alternativas: [
+      { letra: 'A', texto: 'Legalidade, moralidade, integridade, boa-fé e honestidade; interesse público, publicidade, transparência e proteção de dados pessoais; eficiência, presteza, zelo e assiduidade.' },
+      { letra: 'B', texto: 'Apenas a legalidade estrita, sem menção a moralidade, publicidade ou eficiência.', comentario: 'O rol de princípios do decreto é mais amplo, abrangendo também moralidade, integridade, publicidade, transparência, proteção de dados e eficiência, entre outros.' },
+      { letra: 'C', texto: 'Hierarquia militar e disciplina, por se tratar de servidores de carreira de segurança pública.', comentario: 'Hierarquia militar e disciplina são princípios das corporações militares, não constando do rol de princípios éticos do Decreto 33.094/2023, aplicável a todo o funcionalismo civil estadual.' },
+      { letra: 'D', texto: 'Lucratividade e eficiência de mercado, como parâmetros de avaliação de desempenho.', comentario: 'O decreto trata de princípios éticos do serviço público (legalidade, moralidade, interesse público etc.), e não de parâmetros de mercado ou lucratividade.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Decreto nº 33.094/2023 (RN)',
+    justificativa: 'O Decreto 33.094/2023 organiza os princípios em três grupos: (i) legalidade, moralidade, integridade, boa-fé e honestidade; (ii) interesse público, publicidade, transparência e proteção de dados pessoais; e (iii) eficiência, presteza, zelo e assiduidade — substituindo, para o Executivo Estadual do RN, a referência ao Decreto Federal nº 1.171/94.'
+  },
+  {
+    id: 'p2r4_rn_21',
+    disciplina: 'etica',
+    topico: 'Código de Ética Estadual do RN (Decreto 33.094/2023)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'Para fins de aplicação do Decreto Estadual nº 33.094/2023 (RN), considera-se "servidor público" sujeito ao Código de Ética:',
+    alternativas: [
+      { letra: 'A', texto: 'Todo aquele que exerce, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura, mandato, cargo, emprego ou função no âmbito do Poder Executivo Estadual.' },
+      { letra: 'B', texto: 'Somente os servidores efetivos, estáveis, com mais de 3 anos de exercício no cargo.', comentario: 'O Código se aplica de forma ampla, alcançando também servidores em estágio probatório, comissionados, contratados e até quem exerce função transitória e não remunerada.' },
+      { letra: 'C', texto: 'Apenas os ocupantes de cargos de direção, chefia ou assessoramento superior.', comentario: 'A abrangência do Código não se restringe a cargos de direção — alcança qualquer pessoa que exerça cargo, emprego ou função no Executivo Estadual, ainda que transitoriamente.' },
+      { letra: 'D', texto: 'Exclusivamente os servidores do Poder Judiciário e do Ministério Público estaduais.', comentario: 'O decreto regula o Código de Ética do Poder EXECUTIVO Estadual, não alcançando diretamente o Judiciário ou o Ministério Público, que possuem códigos de ética próprios.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Decreto nº 33.094/2023 (RN)',
+    justificativa: 'A abrangência subjetiva do Código é deliberadamente ampla: alcança qualquer pessoa que exerça cargo, emprego, função ou mandato no Poder Executivo Estadual, mesmo transitoriamente ou sem remuneração — abarcando desde o servidor efetivo até o agente público ocasional.'
+  },
+  {
+    id: 'p2r4_rn_22',
+    disciplina: 'etica',
+    topico: 'Código de Ética Estadual do RN (Decreto 33.094/2023)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'A apuração de condutas que configurem violação ao Código de Ética Profissional do Servidor Público Civil do Poder Executivo Estadual do RN (Decreto 33.094/2023) compete:',
+    alternativas: [
+      { letra: 'A', texto: 'Às Comissões de Ética Setoriais, de ofício ou mediante denúncia, podendo resultar em advertência ou censura ética, sem prejuízo de sanções de outras instâncias.' },
+      { letra: 'B', texto: 'Exclusivamente à Polícia Civil, mediante instauração de inquérito policial.', comentario: 'A apuração de infração ética é atribuição das Comissões de Ética Setoriais, no âmbito administrativo — não se confunde com inquérito policial, cabível apenas em caso de ilícito penal.' },
+      { letra: 'C', texto: 'Ao Poder Judiciário, mediante ação civil pública proposta pelo Ministério Público.', comentario: 'A apuração ética, no âmbito do Código, é administrativa e interna, conduzida pelas Comissões de Ética Setoriais, e não judicial.' },
+      { letra: 'D', texto: 'À Assembleia Legislativa, por meio de Comissão Parlamentar de Inquérito.', comentario: 'CPI é instrumento de fiscalização legislativa de fatos determinados, e não o órgão de apuração ordinária de infrações ao Código de Ética do Executivo Estadual.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Decreto nº 33.094/2023 (RN)',
+    justificativa: 'As condutas que violem o Código são apuradas pelas Comissões de Ética Setoriais, de ofício ou em razão de denúncias, podendo resultar, sem prejuízo de sanções cabíveis em outras instâncias (disciplinar, civil, penal), em advertência ou censura ética.'
+  },
+  {
+    id: 'p2r4_rn_23',
+    disciplina: 'etica',
+    topico: 'Lei do Assédio no RN (Lei 11.902/2024)',
+    peso: 2,
+    mostCobrado: true,
+    dificuldade: 'medio',
+    enunciado: 'A Lei Estadual nº 11.902/2024 (RN), que dispõe sobre medidas de prevenção e enfrentamento ao assédio no âmbito da Administração Pública do Poder Executivo Estadual, define o assédio moral como:',
+    alternativas: [
+      { letra: 'A', texto: 'Conduta omissiva ou comissiva abusiva, ainda que de maneira velada, manifestada por comportamentos, atos, gestos ou palavras, orais ou escritas, capaz de causar dano à personalidade, dignidade ou integridade física ou psicológica de uma pessoa, ou prejudicar sua carreira.' },
+      { letra: 'B', texto: 'Exclusivamente a agressão física praticada por superior hierárquico contra subordinado.', comentario: 'O conceito legal é mais amplo do que agressão física — abrange condutas omissivas e comissivas veladas, por atos, gestos ou palavras, que agridam a dignidade ou a carreira da vítima.' },
+      { letra: 'C', texto: 'Apenas manifestações públicas e explícitas de discriminação racial ou de gênero.', comentario: 'A lei trata do assédio moral em sentido próprio (abuso reiterado que fere a dignidade/carreira), distinto — embora correlato — da discriminação, que tem tratamento legal específico.' },
+      { letra: 'D', texto: 'Toda e qualquer crítica ao desempenho profissional do servidor, mesmo quando fundamentada e feita de forma respeitosa.', comentario: 'Crítica de desempenho fundamentada e respeitosa é exercício regular do poder diretivo/avaliativo, não se confundindo com a conduta abusiva exigida para caracterizar assédio moral.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Lei nº 11.902/2024 (RN)',
+    justificativa: 'A lei conceitua assédio moral como conduta abusiva — omissiva ou comissiva, ainda que velada — exteriorizada por comportamentos, atos, gestos ou palavras (orais ou escritas) capazes de causar dano à personalidade, dignidade ou integridade física/psicológica da vítima, ou prejudicar sua carreira.'
+  },
+  {
+    id: 'p2r4_rn_24',
+    disciplina: 'etica',
+    topico: 'Lei do Assédio no RN (Lei 11.902/2024)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'Nos termos da Lei Estadual nº 11.902/2024 (RN), o assédio sexual é caracterizado por:',
+    alternativas: [
+      { letra: 'A', texto: 'Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, ainda que de maneira velada, prevalecendo-se o agente de sua condição de agente público.' },
+      { letra: 'B', texto: 'Qualquer manifestação de afeto consentida entre colegas de trabalho, independentemente de hierarquia.', comentario: 'A lei não trata de manifestações consentidas entre pares — o núcleo do conceito é o CONSTRANGIMENTO com intuito de obter vantagem sexual, tipicamente prevalecendo-se de posição de autoridade.' },
+      { letra: 'C', texto: 'Exclusivamente condutas praticadas por superior hierárquico direto contra subordinado imediato.', comentario: 'A lei não restringe a caracterização à relação de subordinação imediata — abrange o constrangimento por agente público que se prevalece de sua condição funcional de forma mais ampla.' },
+      { letra: 'D', texto: 'Apenas o contato físico não consentido, excluindo palavras, gestos ou mensagens de conteúdo sexual.', comentario: 'O conceito legal não se limita ao contato físico — abrange o constrangimento por qualquer meio, ainda que de forma velada, incluindo palavras, gestos e mensagens.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Lei nº 11.902/2024 (RN)',
+    justificativa: 'O assédio sexual é definido pela lei como constranger alguém com o intuito de obter vantagem ou favorecimento sexual, ainda que de maneira velada, valendo-se o agente de sua condição de agente público — conceito próximo ao do tipo penal do Art. 216-A do Código Penal, mas voltado ao âmbito administrativo/funcional.'
+  },
+  {
+    id: 'p2r4_rn_25',
+    disciplina: 'etica',
+    topico: 'Lei do Assédio no RN (Lei 11.902/2024)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'Quanto ao tratamento das denúncias de assédio no âmbito da Administração Pública Estadual, a Lei nº 11.902/2024 (RN) estabelece que:',
+    alternativas: [
+      { letra: 'A', texto: 'As denúncias são tratadas por equipe multidisciplinar (Saúde, Psicologia, Direito, Serviço Social, entre outras áreas), com tramitação prioritária e preservação do sigilo das informações e da identidade do denunciante.' },
+      { letra: 'B', texto: 'Só podem ser recebidas denúncias formais, subscritas e identificadas, sendo vedado qualquer tipo de sigilo.', comentario: 'A lei determina expressamente a preservação do sigilo das informações e da identidade do denunciante, e não sua exposição.' },
+      { letra: 'C', texto: 'As denúncias seguem o rito comum, sem qualquer prioridade em relação a outros processos administrativos.', comentario: 'A lei determina tramitação PRIORITÁRIA para os casos de assédio e discriminação, e não tramitação em rito comum sem prioridade.' },
+      { letra: 'D', texto: 'A apuração compete exclusivamente a um único servidor da área jurídica, sem equipe multidisciplinar.', comentario: 'A lei prevê expressamente equipe multidisciplinar (Saúde, Psicologia, Direito, Serviço Social, entre outras), e não a atuação isolada de um único profissional.' }
+    ],
+    gabarito: 'A',
+    artigo: 'Lei nº 11.902/2024 (RN)',
+    justificativa: 'A lei determina que o tratamento das denúncias de assédio seja feito por equipe multidisciplinar (profissionais de Saúde, Psicologia, Direito, Serviço Social, entre outras áreas), com tramitação prioritária para os casos de assédio e discriminação e preservação do sigilo das informações e da identidade dos denunciantes.'
+  },
+
+  // ---------- PROCESSO ADMINISTRATIVO ESTADUAL DO RN (LC 303/2005) (2 questões) ----------
+  // Conteúdo verificado via pesquisa (texto oficial - LC nº 303/2005, RN,
+  // equivalente estadual da Lei 9.784/99 federal). Gap identificado no bloco
+  // de Direito Administrativo (Q36-45) da prova real da PPRN.
+  {
+    id: 'p2r4_rn_26',
+    disciplina: 'administrativo',
+    topico: 'Processo Administrativo Estadual do RN (LC 303/2005)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'A Lei Complementar Estadual nº 303/2005 (RN) tem por objeto:',
+    alternativas: [
+      { letra: 'A', texto: 'Estabelecer normas gerais sobre atos e processos administrativos no âmbito da Administração Pública Estadual, direta e indireta, visando à proteção dos direitos dos administrados e ao melhor cumprimento dos fins da atividade administrativa.' },
+      { letra: 'B', texto: 'Regular exclusivamente o processo administrativo disciplinar de servidores, sem alcançar outros tipos de processo administrativo.', comentario: 'A lei trata das normas gerais do processo administrativo estadual como um todo (peticionamento, decisão, recursos etc.), não se restringindo ao processo disciplinar.' },
+      { letra: 'C', texto: 'Disciplinar apenas os processos de licitação e contratos da Administração Pública Estadual.', comentario: 'Licitações e contratos têm lei específica própria (atualmente a Lei 14.133/21) — a LC 303/2005 trata das normas gerais do processo administrativo em sentido amplo.' },
+      { letra: 'D', texto: 'Regular o processo legislativo de elaboração das leis complementares estaduais.', comentario: 'A LC 303/2005 não trata de processo legislativo, e sim de processo administrativo no âmbito da Administração Pública Estadual.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC nº 303/2005 (RN)',
+    justificativa: 'A LC 303/2005 é o equivalente estadual, no RN, da Lei federal 9.784/99: estabelece normas gerais sobre atos e processos administrativos no âmbito da Administração Pública Estadual direta e indireta, com o objetivo de proteger os direitos dos administrados e assegurar o melhor cumprimento dos fins da atividade administrativa.'
+  },
+  {
+    id: 'p2r4_rn_27',
+    disciplina: 'administrativo',
+    topico: 'Processo Administrativo Estadual do RN (LC 303/2005)',
+    peso: 2,
+    mostCobrado: false,
+    dificuldade: 'medio',
+    enunciado: 'Quanto ao âmbito de aplicação da LC nº 303/2005 (RN), é correto afirmar que seus preceitos:',
+    alternativas: [
+      { letra: 'A', texto: 'Aplicam-se também aos órgãos dos Poderes Legislativo e Judiciário do Estado, bem como a outros órgãos, entidades ou particulares, quando no desempenho de função administrativa.' },
+      { letra: 'B', texto: 'Restringem-se exclusivamente ao Poder Executivo Estadual, sem qualquer aplicação a outros Poderes.', comentario: 'A lei estende expressamente sua aplicação aos órgãos do Legislativo e do Judiciário estaduais quando exercem função administrativa, e não apenas ao Executivo.' },
+      { letra: 'C', texto: 'Aplicam-se apenas à Administração Pública Municipal, não alcançando a esfera estadual.', comentario: 'Trata-se de lei ESTADUAL do RN, aplicável à Administração Pública Estadual — não regula a esfera municipal.' },
+      { letra: 'D', texto: 'Aplicam-se somente aos servidores efetivos, excluindo comissionados e contratados temporários.', comentario: 'A lei trata do processo administrativo em geral (atos e processos da Administração), não fazendo essa distinção quanto ao vínculo funcional do servidor envolvido.' }
+    ],
+    gabarito: 'A',
+    artigo: 'LC nº 303/2005 (RN)',
+    justificativa: 'Assim como a Lei 9.784/99 federal, a LC 303/2005 (RN) estende sua aplicação aos órgãos dos Poderes Legislativo e Judiciário do Estado, e a outros órgãos, entidades ou particulares, sempre que estiverem no desempenho de função administrativa, e não apenas ao Poder Executivo estadual.'
   }
 ];

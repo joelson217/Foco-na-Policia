@@ -506,5 +506,137 @@ const QUESTIONS_HISTORIA = [
     "artigo": "História da Fundação de Natal",
     "justificativa": "Natal foi fundada em 25 de dezembro de 1599, por ocasião da festa do Natal (nascimento de Jesus Cristo). O nome da cidade é uma referência direta à data de sua fundação. O Forte dos Reis Magos, construído em 1598, foi o primeiro passo para a colonização da região e a posterior fundação da cidade.",
     "id": "hist_15"
+  },
+  {
+    "id": "hist_16",
+    "disciplina": "historia",
+    "topico": "Motim das Mulheres (1875)",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Em 30 de agosto de 1875, ocorreu na cidade de Mossoró (RN) o episódio conhecido como \"Motim das Mulheres\" (ou \"Guerra das Mulheres\"), no qual cerca de 300 mulheres tomaram as ruas armadas com utensílios domésticos. O protesto tinha como motivação direta:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A revolta contra o recrutamento militar forçado de seus maridos e filhos para servir na Guerra do Paraguai."
+      },
+      {
+        "letra": "B",
+        "texto": "A revolta contra a cobrança do Imposto do Chão, que gerou a Sedição de Mossoró.",
+        "comentario": "A Sedição/Revolta do Quebra-Quilos e o Imposto do Chão são episódios distintos, de outra época e contexto — o Motim das Mulheres de 1875 teve como estopim o recrutamento militar."
+      },
+      {
+        "letra": "C",
+        "texto": "A resistência à abolição da escravatura, então prestes a ser decretada na província.",
+        "comentario": "O episódio não se relaciona à abolição (que no RN ocorreria efetivamente só em 1884, antecipando a Lei Áurea) — a motivação foi o recrutamento militar."
+      },
+      {
+        "letra": "D",
+        "texto": "O protesto contra a instalação da primeira estrada de ferro na região.",
+        "comentario": "Não há relação do episódio com ferrovias — a pauta foi o alistamento militar obrigatório de homens da cidade."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "História do RN - Motim das Mulheres",
+    "justificativa": "O Motim das Mulheres ocorreu em 30/08/1875 em Mossoró, quando cerca de 300 mulheres protestaram contra o recrutamento de seus maridos e filhos para o Exército/Marinha, alistamento que se intensificara desde a Guerra do Paraguai. Elas invadiram repartições públicas e delegacias, fizeram um escrivão refém e rasgaram os documentos e listas de alistamento militar."
+  },
+  {
+    "id": "hist_17",
+    "disciplina": "historia",
+    "topico": "Motim das Mulheres (1875) - Lideranças",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "dificil",
+    "enunciado": "São apontadas pela historiografia como lideranças do Motim das Mulheres de Mossoró (1875):",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Joaquina de Souza, Maria Filgueira e Anna Rodrigues Braga (esta última também conhecida como \"Anna Floriano\")."
+      },
+      {
+        "letra": "B",
+        "texto": "Nísia Floresta e Auta de Souza, ambas escritoras potiguares do período.",
+        "comentario": "Nísia Floresta e Auta de Souza são figuras importantes da literatura e da luta feminina no RN, mas não estão associadas historicamente à liderança do Motim das Mulheres de 1875."
+      },
+      {
+        "letra": "C",
+        "texto": "Não há registro de lideranças identificadas — o movimento é descrito como inteiramente espontâneo e anônimo.",
+        "comentario": "A historiografia local identifica nominalmente lideranças do movimento, entre elas Joaquina de Souza, Maria Filgueira e Anna Rodrigues Braga."
+      },
+      {
+        "letra": "D",
+        "texto": "Um grupo de esposas de fazendeiros que agia em nome dos interesses da elite agrária local.",
+        "comentario": "O movimento reuniu majoritariamente mulheres do povo, mães e esposas dos homens convocados, e não representava interesses da elite agrária."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "História do RN - Motim das Mulheres",
+    "justificativa": "A historiografia aponta Joaquina de Souza, Maria Filgueira e Anna Rodrigues Braga (\"Anna Floriano\") como as principais lideranças do movimento, sendo esta última lembrada por ter empunhado um espeto de ferro para defender a sede do jornal O Mossoroense, que publicizou o episódio."
+  },
+  {
+    "id": "hist_18",
+    "disciplina": "historia",
+    "topico": "A Grande Seca de 1877-1879",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A chamada \"Grande Seca\" de 1877 a 1879, um dos episódios mais dramáticos da história do semiárido nordestino, atingiu com severidade o Rio Grande do Norte, provocando:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Calamidade social intensa, com fome generalizada, mortandade de rebanhos e intenso fluxo migratório da população sertaneja."
+      },
+      {
+        "letra": "B",
+        "texto": "Impacto quase nulo sobre a economia potiguar, já que o RN não dependia da pecuária nem da agricultura de sequeiro.",
+        "comentario": "O RN dependia fortemente da pecuária e da agricultura de sequeiro no período, sendo duramente atingido pela seca, e não protegido dela."
+      },
+      {
+        "letra": "C",
+        "texto": "Um período de prosperidade econômica, impulsionado pela alta do preço do algodão.",
+        "comentario": "A seca de 1877-1879 é lembrada justamente pela calamidade e pela crise, não por prosperidade — o oposto do afirmado."
+      },
+      {
+        "letra": "D",
+        "texto": "A imediata construção de grandes açudes estaduais que eliminaram os efeitos das secas seguintes.",
+        "comentario": "A política de açudagem pública no RN se desenvolveu de forma mais sistemática apenas décadas depois (já no século XX), não como resposta imediata eliminando o problema já na seca de 1877-1879."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "História do RN - Secas do século XIX",
+    "justificativa": "A Grande Seca de 1877-1879 (que atingiu todo o Nordeste, com maior notoriedade no Ceará) provocou calamidades sociais graves no Rio Grande do Norte: fome, mortandade do gado sertanejo e intensa migração da população do interior em busca de água e sobrevivência, com registros de miséria extrema no período."
+  },
+  {
+    "id": "hist_19",
+    "disciplina": "historia",
+    "topico": "Formação histórica da indústria salineira do RN",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Sobre a formação histórica da indústria salineira do Rio Grande do Norte no final do século XIX, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A exploração comercial do sal, retomada em 1802 após período de abandono, ganhou novo impulso em 1886 com a taxação do sal estrangeiro e se expandiu ainda mais após 1889, já sob o regime republicano, especialmente na região de Macau."
+      },
+      {
+        "letra": "B",
+        "texto": "A indústria salineira potiguar só começou a existir no século XX, sem qualquer atividade extrativa relevante no período colonial ou imperial.",
+        "comentario": "A exploração do sal no litoral do RN é anterior ao século XX, remontando a atividades já no período colonial e retomada comercialmente em 1802, ainda no século XIX."
+      },
+      {
+        "letra": "C",
+        "texto": "O crescimento da produção salineira no final do século XIX se deveu exclusivamente a investimentos de capital estrangeiro, sem qualquer participação de empreendedores locais.",
+        "comentario": "Houve participação de empreendedores locais nesse processo, como a concessão obtida por Antônio Coelho Ribeiro Roma, em 1889, para instalar maquinário de extração e beneficiamento do sal."
+      },
+      {
+        "letra": "D",
+        "texto": "A queda do preço internacional do sal, no período, desestimulou qualquer investimento na atividade salineira do RN.",
+        "comentario": "O período foi, ao contrário, de estímulo à produção salineira potiguar, favorecido pela taxação do sal estrangeiro a partir de 1886 e pelo protecionismo do início da República."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "História do RN - Indústria salineira",
+    "justificativa": "A exploração comercial do sal no litoral potiguar (Açu, Macau, Areia Branca, Mossoró, Touros), abandonada durante boa parte do período colonial por conta de monopólios, foi retomada em 1802. Ganhou novo impulso em 1886, com a taxação do sal estrangeiro, e se expandiu ainda mais a partir de 1889, já no regime republicano, com destaque para as salinas de Macau — incluindo a concessão obtida por Antônio Coelho Ribeiro Roma, em 26/10/1889, para instalação de maquinário de extração e purificação do sal."
   }
 ];
