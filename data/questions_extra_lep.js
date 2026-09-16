@@ -718,5 +718,104 @@ const QUESTIONS_EXTRA_LEP = [
     "gabarito": "A",
     "artigo": "Portaria Interministerial MS/MJ nº 1/2014 (PNAISP)",
     "justificativa": "A PNAISP busca garantir o acesso das pessoas privadas de liberdade às ações e aos serviços de saúde do SUS, articulando a atenção básica prisional com a rede pública de saúde, em cumprimento ao direito à saúde previsto na LEP e na Constituição."
+  },
+  {
+    "id": "lep_extra_41",
+    "disciplina": "lep",
+    "topico": "Objetivo da Execução Penal (Exposição de Motivos e Título I da LEP)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "A compreensão teórica do objetivo da Lei de Execução Penal é importante porque repercute diretamente na forma como se dará o desempenho das funções do servidor público no dia a dia da execução da pena dos executados. Segundo a Exposição de Motivos e o Título I da LEP, é correto afirmar que a execução penal:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tem como um dos seus escopos efetivar as determinações de sentenças ou decisões criminais, sejam elas condenatórias ou absolutórias impróprias (que impõem medida de segurança), e parte do princípio de que as penas e medidas de segurança devem realizar a proteção dos bens jurídicos e a reincorporação do autor à comunidade."
+      },
+      {
+        "letra": "B",
+        "texto": "Tem como um de seus escopos efetivar unicamente as determinações de sentenças condenatórias, jamais as absolutórias.",
+        "comentario": "Incorreto, pois o Art. 1º da LEP menciona expressamente sentença ou decisão criminal, abrangendo também a decisão absolutória imprópria (que impõe medida de segurança ao inimputável), e não apenas as condenatórias."
+      },
+      {
+        "letra": "C",
+        "texto": "Tem como um de seus escopos a prevenção especial negativa, sendo a pena concebida pela Exposição de Motivos da LEP como mero mecanismo de inocuização do condenado.",
+        "comentario": "Incorreto, pois a Exposição de Motivos da LEP rejeita a ideia de pena como mera inocuização (afastamento do convívio social); adota-se a perspectiva de proteção dos bens jurídicos combinada com a busca da harmônica integração social do condenado e do internado."
+      },
+      {
+        "letra": "D",
+        "texto": "Parte do princípio de que as penas e medidas de segurança devem se destinar a impedir a reincorporação do autor à comunidade, evitando reincidência por meio do isolamento permanente.",
+        "comentario": "Incorreto, pois a LEP parte de princípio oposto: as penas e medidas de segurança devem realizar a proteção dos bens jurídicos e viabilizar a HARMÔNICA INTEGRAÇÃO SOCIAL do condenado e do internado, não o impedimento de sua reincorporação à comunidade."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Exposição de Motivos nº 213/1983 e Art. 1º da LEP",
+    "justificativa": "O Art. 1º da LEP estabelece que a execução penal tem por objetivo efetivar as disposições de sentença ou decisão criminal (condenatória ou absolutória imprópria) e proporcionar condições para a harmônica integração social do condenado e do internado. A Exposição de Motivos da LEP explicita que as penas e medidas de segurança devem realizar a proteção dos bens jurídicos e a reincorporação do autor à comunidade, rejeitando expressamente a ideia de pena como mero instrumento de inocuização ou de prevenção especial negativa pura."
+  },
+  {
+    "id": "lep_extra_42",
+    "disciplina": "lep",
+    "topico": "Individualização da Sanção Disciplinar - Vedação à Punição Coletiva",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Durante uma inspeção em cela ocupada por quatro detentos, foram encontrados objetos não permitidos. Questionados sobre a quem pertenciam os objetos, nenhum dos ocupantes assumiu a posse ou identificou o responsável. Considerando os princípios que regem a apuração de faltas disciplinares na execução penal, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não é possível a punição de todos os ocupantes da cela indistintamente, em razão do princípio da individualização (pessoalidade) da sanção disciplinar, que exige a apuração da autoria individual da falta, sob pena de configurar punição coletiva, incompatível com o devido processo disciplinar."
+      },
+      {
+        "letra": "B",
+        "texto": "Todos os ocupantes devem ser punidos solidariamente, em razão do princípio da segurança institucional, que autoriza a responsabilização coletiva quando não identificado o autor individual.",
+        "comentario": "Incorreto, pois não existe, no ordenamento da execução penal, previsão de responsabilização disciplinar solidária ou coletiva — a apuração de falta disciplinar exige a individualização da conduta e da autoria, sob pena de nulidade da sanção aplicada."
+      },
+      {
+        "letra": "C",
+        "texto": "Todos os ocupantes devem ser punidos, pois a mera presença no local do achado, independentemente de comprovação de autoria, já configura falta disciplinar por si só.",
+        "comentario": "Incorreto, pois a mera presença no local não supre a exigência de apuração da autoria individual da falta disciplinar; a ausência de identificação do responsável não autoriza a punição automática de todos os presentes."
+      },
+      {
+        "letra": "D",
+        "texto": "A autoridade administrativa tem discricionariedade plena para escolher, entre os ocupantes da cela, qual deles será punido, independentemente de apuração de provas.",
+        "comentario": "Incorreto, pois a aplicação de sanção disciplinar depende de procedimento de apuração que assegure o contraditório e a ampla defesa, com identificação e comprovação da autoria — não sendo uma escolha discricionária e arbitrária da autoridade administrativa."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Princípio da Individualização (Pessoalidade) da Sanção Disciplinar",
+    "justificativa": "A apuração de falta disciplinar na execução penal deve observar o devido processo legal, o contraditório e a ampla defesa (Art. 59 da LEP), exigindo a identificação e comprovação da autoria individual da conduta. A punição coletiva — sancionar todos os ocupantes de uma cela sem individualizar a autoria — viola o princípio da pessoalidade da sanção (correlato ao Art. 5º, XLV, da CF: \"nenhuma pena passará da pessoa do condenado\") e não encontra amparo na LEP."
+  },
+  {
+    "id": "lep_extra_43",
+    "disciplina": "lep",
+    "topico": "Livramento Condicional - Mudança de Comarca",
+    "peso": 1,
+    "mostCobrado": false,
+    "dificuldade": "medio",
+    "enunciado": "Um liberando, após a concessão do livramento condicional, manifesta o desejo de deixar a comarca do Juízo da Execução para iniciar vida em outra localidade. Nos termos da LEP, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O juiz poderá conceder o livramento e permitir a mudança de comarca, devendo o liberando, nesse caso, apresentar-se à autoridade judiciária ou executiva local, remetendo-se cópia da sentença concessiva do benefício e demais peças necessárias à fiscalização."
+      },
+      {
+        "letra": "B",
+        "texto": "A mudança de comarca do liberando é absolutamente vedada pela LEP durante todo o período de prova do livramento condicional.",
+        "comentario": "Incorreto, pois a LEP admite expressamente a mudança de comarca (ou até para o exterior) do liberando, desde que observadas as formalidades de comunicação e fiscalização perante a nova autoridade competente."
+      },
+      {
+        "letra": "C",
+        "texto": "A mudança de comarca extingue automaticamente o livramento condicional, exigindo-se a concessão de um novo benefício perante o juízo da comarca de destino.",
+        "comentario": "Incorreto, pois a mudança de comarca não extingue o livramento condicional concedido; a LEP prevê apenas o dever de apresentação à nova autoridade local e a remessa de cópia da sentença concessiva para fins de fiscalização, sem necessidade de nova concessão do benefício."
+      },
+      {
+        "letra": "D",
+        "texto": "A mudança de comarca é permitida sem qualquer necessidade de comunicação ou apresentação a autoridade local, bastando o liberando informar o fato em sua próxima audiência.",
+        "comentario": "Incorreto, pois a LEP exige que o liberando, ao mudar de comarca, apresente-se à autoridade judiciária ou executiva local, com a cópia da sentença concessiva do livramento, para viabilizar a fiscalização das condições impostas — e não apenas uma comunicação informal e diferida."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 144 da LEP",
+    "justificativa": "O Art. 144 da LEP estabelece que, se for permitida a mudança de comarca ou para o exterior, o liberando deverá apresentar-se à autoridade judiciária ou executiva local, juntando cópia da sentença que lhe concedeu o benefício e demais peças necessárias à fiscalização das condições do livramento condicional."
   }
 ];

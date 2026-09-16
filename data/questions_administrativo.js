@@ -1370,5 +1370,71 @@ const QUESTIONS_ADMINISTRATIVO = [
     "gabarito": "A",
     "artigo": "Princípio da Inafastabilidade da Jurisdição (Art. 5º, XXXV, CF)",
     "justificativa": "O Judiciário controla a LEGALIDADE dos atos administrativos (vinculados ou discricionários), incluindo o respeito aos limites legais da discricionariedade e aos princípios (razoabilidade, proporcionalidade, moralidade) — mas não pode substituir o MÉRITO administrativo (a escolha de conveniência e oportunidade em si), sob pena de violar a separação dos poderes."
+  },
+  {
+    "id": "adm_42",
+    "disciplina": "administrativo",
+    "topico": "Agentes Públicos - Cargo, Emprego e Função",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Agentes públicos são todas as pessoas físicas que prestam serviços ao Estado e exercem funções públicas. A respeito da distinção entre cargo público, emprego público e função pública, assinale a alternativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Cargo público é o conjunto de atribuições e responsabilidades criado por lei, com denominação própria, número certo e retribuição paga pelos cofres públicos, ocupado sob regime estatutário; já a função pública pode existir sem que o agente ocupe cargo ou emprego público, como nas hipóteses de contratação temporária ou de funções de confiança."
+      },
+      {
+        "letra": "B",
+        "texto": "Todo agente público, sem exceção, ocupa necessariamente um cargo efetivo integrante da Administração Direta.",
+        "comentario": "Incorreta, pois há agentes públicos que não ocupam cargo efetivo: empregados públicos (regime celetista), ocupantes de cargo em comissão (de livre nomeação e exoneração), contratados temporariamente (Art. 37, IX, CF) e os que exercem função pública sem cargo ou emprego correspondente."
+      },
+      {
+        "letra": "C",
+        "texto": "Emprego público caracteriza-se pela relação estatutária, regida predominantemente pela Lei nº 8.112/1990.",
+        "comentario": "Incorreta, pois o emprego público caracteriza-se pela relação jurídica CONTRATUAL, regida predominantemente pela Consolidação das Leis do Trabalho (CLT) — e não pelo regime estatutário da Lei 8.112/90, que rege os ocupantes de cargo público federal."
+      },
+      {
+        "letra": "D",
+        "texto": "A função pública sempre pressupõe a existência prévia de um cargo público vago a ser preenchido.",
+        "comentario": "Incorreta, pois a função pública pode ser exercida independentemente da existência de cargo ou emprego correspondente, como nas contratações temporárias por excepcional interesse público (Art. 37, IX, CF) e nas funções de confiança exercidas por servidores efetivos."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Doutrina de Direito Administrativo - Classificação dos Agentes Públicos",
+    "justificativa": "Cargo público: unidade de atribuições criada por lei, com denominação própria, número certo e regime jurídico estatutário. Emprego público: relação contratual, regida predominantemente pela CLT. Função pública: pode existir sem cargo ou emprego correspondente — engloba as funções de confiança (exercidas por servidores efetivos) e a contratação temporária por excepcional interesse público (Art. 37, IX, da CF), hipóteses em que o agente exerce atribuições estatais sem ocupar cargo ou emprego."
+  },
+  {
+    "id": "adm_43",
+    "disciplina": "administrativo",
+    "topico": "Lei de Responsabilidade Fiscal (LC 101/2000)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Com base na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), sobre a despesa obrigatória de caráter continuado, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Considera-se obrigatória de caráter continuado a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente a obrigação legal de sua execução por período superior a dois exercícios, e os atos que a criarem ou aumentarem deverão ser instruídos com estimativa do impacto orçamentário-financeiro no exercício em que entrarem em vigor e nos dois subsequentes."
+      },
+      {
+        "letra": "B",
+        "texto": "É considerado aumento de despesa a simples prorrogação daquela criada por prazo determinado.",
+        "comentario": "Incorreta, pois a LRF (Art. 17, §7º) estabelece expressamente que NÃO é considerado aumento de despesa a prorrogação daquela criada por prazo determinado."
+      },
+      {
+        "letra": "C",
+        "texto": "O aperfeiçoamento de ação governamental já existente, ainda que acarrete aumento de despesa, está dispensado da estimativa de impacto orçamentário-financeiro.",
+        "comentario": "Incorreta, pois a LRF exige a estimativa do impacto orçamentário-financeiro sempre que uma ação governamental gere aumento de despesa obrigatória de caráter continuado, independentemente de se tratar de criação ou de mero aperfeiçoamento de ação preexistente."
+      },
+      {
+        "letra": "D",
+        "texto": "A obrigação de demonstrar a origem dos recursos para o custeio da nova despesa aplica-se apenas às despesas de capital, não às despesas correntes.",
+        "comentario": "Incorreta, pois a exigência de demonstrar a origem dos recursos para custeio, prevista no Art. 17 da LRF, aplica-se justamente às despesas correntes de caráter continuado, e não está restrita às despesas de capital."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 17 da Lei Complementar nº 101/2000 (LRF)",
+    "justificativa": "O Art. 17 da LRF define despesa obrigatória de caráter continuado como a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente a obrigação legal de sua execução por um período superior a dois exercícios. Os atos que criarem ou aumentarem tal despesa devem ser instruídos com a estimativa do impacto orçamentário-financeiro no exercício em que entrarem em vigor e nos dois subsequentes, além de demonstrar a origem dos recursos para seu custeio (compensação). A simples prorrogação de despesa criada por prazo determinado NÃO é considerada aumento de despesa (§7º)."
   }
 ];

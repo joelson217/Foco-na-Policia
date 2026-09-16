@@ -899,5 +899,170 @@ const QUESTIONS_DH = [
     "artigo": "Regra 59 das Regras de Mandela",
     "justificativa": "A Regra 59 recomenda a alocação dos presos em unidades próximas às suas casas ou ao local de reabilitação social, reconhecendo a importância dos vínculos familiares e comunitários para a reintegração social do preso — princípio que dialoga com o direito à convivência familiar previsto na LEP e na Constituição.",
     "id": "dh_33"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Lei 12.847/2013 - Sistema Nacional de Prevenção e Combate à Tortura",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Em cumprimento ao compromisso internacional assumido pelo Brasil junto ao Protocolo Facultativo à Convenção contra a Tortura, a Lei nº 12.847/2013 instituiu o Sistema Nacional de Prevenção e Combate à Tortura (SNPCT). Sobre esse sistema, assinale a alternativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O SNPCT é composto, entre outros órgãos, pelo Comitê Nacional de Prevenção e Combate à Tortura (CNPCT) e pelo Mecanismo Nacional de Prevenção e Combate à Tortura (MNPCT), este último com atribuição de realizar visitas regulares e sem aviso prévio a locais de privação de liberdade."
+      },
+      {
+        "letra": "B",
+        "texto": "As visitas do Mecanismo Nacional de Prevenção e Combate à Tortura aos locais de privação de liberdade dependem de autorização judicial prévia e de aviso com antecedência mínima de 30 dias.",
+        "comentario": "Incorreta, pois a efetividade da prevenção depende justamente do caráter regular e SEM AVISO PRÉVIO das visitas, não se sujeitando a autorização judicial prévia ou a aviso antecipado à unidade visitada."
+      },
+      {
+        "letra": "C",
+        "texto": "O SNPCT substitui integralmente o Sistema Interamericano de Direitos Humanos no que se refere à apuração de casos de tortura ocorridos no Brasil.",
+        "comentario": "Incorreta, pois o SNPCT é um mecanismo NACIONAL de prevenção, criado em cumprimento a compromisso internacional, e não substitui o Sistema Interamericano de Direitos Humanos, que continua atuando de forma complementar e subsidiária."
+      },
+      {
+        "letra": "D",
+        "texto": "O Comitê Nacional de Prevenção e Combate à Tortura tem competência exclusivamente consultiva, sem qualquer atribuição de articulação com órgãos estaduais e municipais.",
+        "comentario": "Incorreta, pois entre as atribuições do CNPCT está justamente a articulação com entes federativos e órgãos de Estado para a implementação de políticas de prevenção e combate à tortura, além de suas funções consultivas."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Lei nº 12.847/2013",
+    "justificativa": "A Lei nº 12.847/2013 instituiu o Sistema Nacional de Prevenção e Combate à Tortura (SNPCT), composto pelo Comitê Nacional de Prevenção e Combate à Tortura (CNPCT — órgão colegiado de caráter consultivo e articulador) e pelo Mecanismo Nacional de Prevenção e Combate à Tortura (MNPCT — órgão com atribuição de realizar visitas regulares e sem aviso prévio a locais de privação de liberdade, prevenindo maus-tratos e tortura), em cumprimento ao Protocolo Facultativo à Convenção da ONU contra a Tortura.",
+    "id": "dh_34"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Distinção entre Direitos e Garantias Fundamentais",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A teoria constitucional, a partir da distinção formulada por Rui Barbosa, diferencia os direitos fundamentais das garantias fundamentais. Assinale a alternativa que descreve corretamente essa distinção.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Direitos fundamentais são disposições declaratórias, que reconhecem e definem bens e vantagens em si mesmos considerados (ex.: o direito à vida, à liberdade); garantias fundamentais são disposições assecuratórias, que instituem instrumentos para a proteção e efetivação desses direitos (ex.: habeas corpus, mandado de segurança)."
+      },
+      {
+        "letra": "B",
+        "texto": "Direitos e garantias fundamentais são termos absolutamente sinônimos, sem qualquer distinção conceitual na teoria constitucional.",
+        "comentario": "Incorreta, pois a doutrina constitucional, a partir de Rui Barbosa, distingue os dois conceitos: direitos declaram bens e vantagens; garantias são os instrumentos que asseguram sua efetivação."
+      },
+      {
+        "letra": "C",
+        "texto": "Garantias fundamentais são disposições declaratórias que reconhecem bens em si mesmos, e direitos fundamentais são os instrumentos processuais de proteção desses bens.",
+        "comentario": "Incorreta, pois inverte os conceitos: são os DIREITOS que declaram bens e vantagens em si mesmos, e as GARANTIAS que funcionam como instrumentos assecuratórios desses direitos."
+      },
+      {
+        "letra": "D",
+        "texto": "Apenas os direitos fundamentais estão previstos na Constituição Federal; as garantias fundamentais decorrem exclusivamente da legislação infraconstitucional.",
+        "comentario": "Incorreta, pois diversas garantias fundamentais estão expressamente previstas no próprio texto constitucional (ex.: habeas corpus e mandado de segurança, Art. 5º, LXVIII e LXIX, da CF), não decorrendo exclusivamente de lei infraconstitucional."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Distinção Doutrinária (Rui Barbosa) - Direitos x Garantias Fundamentais",
+    "justificativa": "Rui Barbosa distinguiu, no texto constitucional, as disposições meramente declaratórias (que reconhecem e declaram DIREITOS, bens e vantagens em si mesmos) das disposições assecuratórias (que, limitando o poder, instituem GARANTIAS, isto é, instrumentos processuais destinados a assegurar a fruição dos direitos declarados — como o habeas corpus, que garante o direito de locomoção, ou o mandado de segurança, que garante direito líquido e certo).",
+    "id": "dh_35"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Igualdade Material e Ações Afirmativas",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "A adoção de políticas de reserva de vagas em concursos públicos destinadas a pessoas negras e a pessoas com deficiência, sob o fundamento de que a mera previsão formal de igualdade não é suficiente para superar desigualdades históricas enfrentadas por esses grupos, fundamenta-se, na teoria dos direitos humanos, no princípio de que a igualdade deve ser compreendida em sua dimensão:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Material (substancial), que autoriza tratamento diferenciado para compensar desigualdades fáticas entre grupos, promovendo a igualdade de oportunidades."
+      },
+      {
+        "letra": "B",
+        "texto": "Formal, que veda qualquer distinção de tratamento entre os indivíduos, independentemente do contexto social.",
+        "comentario": "Incorreta, pois a igualdade meramente FORMAL (perante a lei, sem distinções) é justamente insuficiente para justificar ações afirmativas — são elas fundamentadas na igualdade MATERIAL, que reconhece a necessidade de tratamento diferenciado para compensar desigualdades reais."
+      },
+      {
+        "letra": "C",
+        "texto": "Absoluta, que impõe tratamento estritamente idêntico para todas as pessoas, independentemente do contexto social.",
+        "comentario": "Incorreta, pois uma igualdade \"absoluta\" e estritamente idêntica para todos seria incompatível com o próprio fundamento das ações afirmativas, que pressupõem tratamento diferenciado para grupos historicamente vulnerabilizados."
+      },
+      {
+        "letra": "D",
+        "texto": "Procedimental, que se restringe à observância de normas processuais nos concursos públicos.",
+        "comentario": "Incorreta, pois a dimensão procedimental da igualdade trata apenas da regularidade do processo (regras do certame), e não do fundamento substantivo que justifica a reserva de vagas para compensar desigualdades históricas."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Princípio da Igualdade Material (Substancial)",
+    "justificativa": "A igualdade material (ou substancial) reconhece que tratar formalmente todos de modo idêntico pode perpetuar desigualdades fáticas entre grupos historicamente vulnerabilizados. Por isso, autoriza-se o tratamento diferenciado (ações afirmativas, como cotas raciais e para pessoas com deficiência) como instrumento para promover a igualdade real de oportunidades — em contraposição à igualdade meramente formal, que se limita à isonomia perante a lei.",
+    "id": "dh_36"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Dimensões (Gerações) dos Direitos Humanos",
+    "peso": 1,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Os direitos humanos se consolidaram historicamente em dimensões (ou gerações) sucessivas, cada uma vinculada a um valor essencial do lema revolucionário francês: liberdade, igualdade e fraternidade. Reconhecer o direito ao meio ambiente equilibrado e o direito à paz como pertencentes à mesma dimensão evolutiva significa classificá-los na:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Terceira dimensão dos direitos humanos, vinculada ao valor fraternidade/solidariedade, que abrange direitos difusos e coletivos, de titularidade transindividual, como o meio ambiente equilibrado, a paz e o desenvolvimento."
+      },
+      {
+        "letra": "B",
+        "texto": "Primeira dimensão dos direitos humanos, vinculada ao valor liberdade.",
+        "comentario": "Incorreta, pois a primeira dimensão corresponde aos direitos civis e políticos (liberdade), como o direito à vida, à liberdade de expressão e ao voto — não ao meio ambiente ou à paz, que têm titularidade coletiva/difusa."
+      },
+      {
+        "letra": "C",
+        "texto": "Segunda dimensão dos direitos humanos, vinculada ao valor igualdade.",
+        "comentario": "Incorreta, pois a segunda dimensão corresponde aos direitos sociais, econômicos e culturais (igualdade), como saúde, educação e trabalho — direitos de titularidade individual exigíveis do Estado, distintos dos direitos difusos da terceira dimensão."
+      },
+      {
+        "letra": "D",
+        "texto": "Quarta dimensão dos direitos humanos, vinculada exclusivamente à bioética e à engenharia genética.",
+        "comentario": "Incorreta, pois parte da doutrina reserva a quarta dimensão a direitos como democracia, informação e pluralismo (ou, para alguns autores, à bioética) — o meio ambiente e a paz são classicamente associados à terceira dimensão (fraternidade/solidariedade)."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Teoria das Dimensões (Gerações) dos Direitos Humanos",
+    "justificativa": "A doutrina classifica os direitos humanos em dimensões sucessivas: 1ª dimensão (liberdade) — direitos civis e políticos, de defesa contra o Estado; 2ª dimensão (igualdade) — direitos sociais, econômicos e culturais, que exigem prestações positivas do Estado; 3ª dimensão (fraternidade/solidariedade) — direitos de titularidade difusa/coletiva, como o meio ambiente equilibrado, a paz, a autodeterminação dos povos e o desenvolvimento. Alguns autores ainda reconhecem uma 4ª dimensão, associada à democracia, à informação e ao pluralismo.",
+    "id": "dh_37"
+  },
+  {
+    "disciplina": "dh",
+    "topico": "Controle de Convencionalidade",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Ao julgar um caso concreto, um juiz brasileiro verificou que a norma interna aplicável contrariava disposição de tratado internacional de direitos humanos ratificado pelo Brasil. Ao afastar a aplicação da norma interna incompatível, realizando o exame de compatibilidade entre a norma interna e o tratado internacional de direitos humanos, o magistrado exerceu o que a doutrina denomina:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Controle de convencionalidade, que consiste na verificação da compatibilidade das normas internas com os tratados internacionais de direitos humanos incorporados ao ordenamento jurídico brasileiro."
+      },
+      {
+        "letra": "B",
+        "texto": "Controle de constitucionalidade concentrado, exercido exclusivamente pelo Supremo Tribunal Federal.",
+        "comentario": "Incorreta, pois o controle de constitucionalidade concentrado verifica a compatibilidade de normas com a Constituição Federal, exercido privativamente pelo STF; o caso descrito trata da compatibilidade da norma com um TRATADO internacional, o que caracteriza controle de convencionalidade, exercível também por juízes de primeiro grau (controle difuso de convencionalidade)."
+      },
+      {
+        "letra": "C",
+        "texto": "Controle de legalidade em abstrato, que compara a norma interna apenas com outras leis ordinárias.",
+        "comentario": "Incorreta, pois o parâmetro do controle exercido no caso não é outra lei ordinária, mas um tratado internacional de direitos humanos ratificado pelo Brasil."
+      },
+      {
+        "letra": "D",
+        "texto": "Controle político de tratados, exercido exclusivamente pelo Congresso Nacional no momento da ratificação.",
+        "comentario": "Incorreta, pois o controle político de tratados (aprovação pelo Congresso Nacional) é ato prévio e distinto do controle de convencionalidade, que é o exame judicial de compatibilidade entre normas internas e tratados já incorporados, realizável no julgamento de casos concretos."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Controle de Convencionalidade",
+    "justificativa": "O controle de convencionalidade consiste no exame de compatibilidade das normas internas com os tratados internacionais de direitos humanos ratificados pelo Estado. Pode ser exercido de forma difusa, por qualquer juiz ou tribunal no julgamento de casos concretos (afastando a aplicação da norma interna incompatível), distinguindo-se do controle de constitucionalidade, cujo parâmetro é a própria Constituição Federal.",
+    "id": "dh_38"
   }
 ];

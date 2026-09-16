@@ -2143,5 +2143,104 @@ const QUESTIONS_CONSTITUCIONAL = [
     "gabarito": "C",
     "artigo": "Art. 4º, IX, da CF/88",
     "justificativa": "O Art. 4º, IX, da CF/88 prevê a cooperação entre os povos para o progresso da humanidade como o penúltimo dos dez princípios que regem o Brasil em suas relações internacionais, imediatamente antes da concessão de asilo político (inciso X)."
+  },
+  {
+    "id": "const_65",
+    "disciplina": "constitucional",
+    "topico": "Competências do Congresso Nacional, do Senado e da Câmara",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre as competências do Poder Legislativo, à luz da Constituição Federal de 1988, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. Compete exclusivamente ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa.\nII. Compete exclusivamente ao Congresso Nacional autorizar o Presidente da República a declarar guerra e a celebrar a paz.\nIII. Compete privativamente ao Senado Federal aprovar previamente, por voto secreto, após arguição pública, a escolha dos Ministros do Supremo Tribunal Federal.\nIV. Compete privativamente à Câmara dos Deputados autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I e II, apenas.",
+        "comentario": "Incorreta, pois as assertivas III e IV também reproduzem corretamente competências privativas do Senado (Art. 52, III, \"a\") e da Câmara dos Deputados (Art. 51, I), respectivamente."
+      },
+      {
+        "letra": "B",
+        "texto": "I, III e IV, apenas.",
+        "comentario": "Incorreta, pois exclui indevidamente a assertiva II, que reproduz corretamente a competência exclusiva do Congresso Nacional prevista no Art. 49, II, da CF."
+      },
+      {
+        "letra": "C",
+        "texto": "II, III e IV, apenas.",
+        "comentario": "Incorreta, pois exclui indevidamente a assertiva I, que reproduz corretamente a competência exclusiva do Congresso Nacional prevista no Art. 49, V, da CF."
+      },
+      {
+        "letra": "D",
+        "texto": "I, II, III e IV."
+      }
+    ],
+    "gabarito": "D",
+    "artigo": "Art. 49, II e V; Art. 51, I; e Art. 52, III, \"a\", da CF/88",
+    "justificativa": "Todas as quatro assertivas reproduzem corretamente competências constitucionais do Legislativo: sustar atos normativos do Executivo que exorbitem do poder regulamentar (Art. 49, V — competência exclusiva do Congresso Nacional); autorizar declaração de guerra e celebração da paz (Art. 49, II — Congresso Nacional); aprovar a escolha de Ministros do STF (Art. 52, III, \"a\" — competência privativa do Senado Federal); e autorizar, por 2/3 dos membros, a instauração de processo contra o Presidente, o Vice-Presidente e os Ministros de Estado (Art. 51, I — competência privativa da Câmara dos Deputados)."
+  },
+  {
+    "id": "const_66",
+    "disciplina": "constitucional",
+    "topico": "Direitos e Garantias Fundamentais (Art. 5)",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "medio",
+    "enunciado": "Durante fiscalização em local público, um cidadão se recusou a prestar um serviço obrigatório imposto a todos, invocando motivo de crença religiosa, e também se recusou a cumprir a prestação alternativa fixada em lei para essa hipótese. Considerando a disciplina constitucional da liberdade de consciência e de crença (Art. 5º da CF/88), assinale a alternativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nesse caso, é possível a privação de direitos do cidadão, pois a Constituição admite a privação de direitos por motivo de crença religiosa quando o indivíduo, invocando-a para se eximir de obrigação legal a todos imposta, recusar-se a cumprir a prestação alternativa fixada em lei."
+      },
+      {
+        "letra": "B",
+        "texto": "A liberdade de crença é absoluta, de modo que, em nenhuma hipótese, a invocação de motivo religioso pode acarretar privação de direitos.",
+        "comentario": "Incorreta, pois o próprio Art. 5º, VIII, da CF estabelece uma exceção expressa: a privação de direitos é possível quando o indivíduo invoca a crença para se eximir de obrigação legal a todos imposta e recusa-se a cumprir a prestação alternativa fixada em lei."
+      },
+      {
+        "letra": "C",
+        "texto": "A recusa por motivo de crença só pode gerar privação de direitos políticos, nunca de outros direitos.",
+        "comentario": "Incorreta, pois o Art. 5º, VIII, não restringe a privação de direitos apenas aos direitos políticos — trata-se de privação de direitos em sentido amplo, na hipótese específica descrita no dispositivo."
+      },
+      {
+        "letra": "D",
+        "texto": "A prestação alternativa prevista em lei é sempre facultativa, cabendo ao cidadão decidir se a cumpre ou não, sem qualquer consequência.",
+        "comentario": "Incorreta, pois a recusa cumulativa — invocar a crença para se eximir da obrigação legal E recusar-se a cumprir a prestação alternativa — é justamente a hipótese que autoriza a privação de direitos, conforme o Art. 5º, VIII."
+      }
+    ],
+    "gabarito": "A",
+    "artigo": "Art. 5º, VIII, da CF/88",
+    "justificativa": "O Art. 5º, VIII, da CF/88 assegura que ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, SALVO se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa, fixada em lei. Ou seja, a liberdade de crença não é absoluta: a recusa cumulativa (eximir-se da obrigação E recusar a prestação alternativa) autoriza a privação de direitos."
+  },
+  {
+    "id": "const_67",
+    "disciplina": "constitucional",
+    "topico": "Eficácia das Normas Constitucionais",
+    "peso": 2,
+    "mostCobrado": true,
+    "dificuldade": "dificil",
+    "enunciado": "Sobre a classificação das normas constitucionais quanto à eficácia e aplicabilidade, segundo a doutrina de José Afonso da Silva, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\nI. As normas constitucionais de eficácia plena possuem aplicabilidade imediata desde a entrada em vigor da Constituição, não podendo ter sua eficácia restringida pelo legislador infraconstitucional.\nII. As normas constitucionais de eficácia contida têm aplicabilidade imediata, mas admitem restrição de sua eficácia por atuação do legislador ordinário ou nas hipóteses expressamente previstas pela própria Constituição.\nIII. Desde a promulgação da Constituição, as normas constitucionais de eficácia limitada já produzem determinados efeitos jurídicos, tais como a revogação de normas anteriores incompatíveis e a vinculação do legislador infraconstitucional, ainda que dependam de lei integradora para produzir seus efeitos essenciais.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I e II, apenas.",
+        "comentario": "Incorreta, pois a assertiva III também está correta: as normas de eficácia limitada, mesmo antes da lei integradora, já produzem efeitos jurídicos mínimos, como a revogação de normas incompatíveis e a vinculação do legislador."
+      },
+      {
+        "letra": "B",
+        "texto": "II e III, apenas.",
+        "comentario": "Incorreta, pois exclui indevidamente a assertiva I, que descreve corretamente a característica central das normas de eficácia plena: aplicabilidade imediata e insuscetibilidade de restrição pelo legislador infraconstitucional."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas.",
+        "comentario": "Incorreta, pois exclui indevidamente a assertiva II, que descreve corretamente a característica das normas de eficácia contida: aplicabilidade imediata, mas sujeita a restrição futura por lei ou por outras normas constitucionais."
+      },
+      {
+        "letra": "D",
+        "texto": "I, II e III."
+      }
+    ],
+    "gabarito": "D",
+    "artigo": "Classificação de José Afonso da Silva (Eficácia Plena, Contida e Limitada)",
+    "justificativa": "Normas de eficácia PLENA: aplicabilidade imediata, direta e integral, sem possibilidade de restrição pelo legislador (ex.: Art. 2º da CF). Normas de eficácia CONTIDA: aplicabilidade imediata, mas passíveis de restrição futura por lei infraconstitucional ou por outras normas constitucionais (ex.: liberdade de exercício profissional, Art. 5º, XIII). Normas de eficácia LIMITADA: dependem de lei integradora para produzir seus efeitos essenciais (aplicabilidade mediata/indireta), mas já produzem, desde a promulgação, eficácia jurídica mínima — revogam normas anteriores incompatíveis, vinculam o legislador a não legislar em sentido contrário e servem de parâmetro de interpretação (ex.: normas programáticas)."
   }
 ];

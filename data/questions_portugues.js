@@ -1026,5 +1026,107 @@ const QUESTIONS_PORTUGUES = [
     "artigo": "Coesão Referencial - Pronomes Oblíquos",
     "justificativa": "O pronome oblíquo \"lhe\" retoma \"o novo agente\" (a quem o crachá foi entregue), funcionando como objeto indireto (\"entregou o crachá A ELE\") — o objeto direto da oração é \"o crachá\".",
     "id": "port_35"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Formação de Palavras - Derivação Imprópria",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Em \"O policial agiu com um sorriso tranquilo, mas o não do detento à colaboração travou o interrogatório\", a palavra \"não\" destacada exemplifica o processo de formação de palavras denominado:",
+    "alternativas": [
+      { "letra": "A", "texto": "Derivação imprópria, pois um advérbio (\"não\") passou a funcionar como substantivo, sem alteração de forma." },
+      { "letra": "B", "texto": "Derivação prefixal, pois houve acréscimo de prefixo a um radical.", "comentario": "Incorreta. Não há acréscimo de prefixo a um radical: a palavra \"não\" mantém a mesma forma, apenas mudando de classe gramatical (de advérbio para substantivo)." },
+      { "letra": "C", "texto": "Derivação sufixal, pois houve acréscimo de sufixo ao radical.", "comentario": "Incorreta. Não há acréscimo de sufixo; a palavra permanece com a mesma forma, apenas mudando de função e classe gramatical." },
+      { "letra": "D", "texto": "Composição por justaposição de dois radicais.", "comentario": "Incorreta. Não há junção de dois radicais distintos em uma única palavra; trata-se de uma única palavra (\"não\") que muda de classe gramatical." }
+    ],
+    "gabarito": "A",
+    "artigo": "Formação de Palavras - Derivação Imprópria",
+    "justificativa": "A derivação imprópria (ou conversão) ocorre quando uma palavra muda de classe gramatical sem alteração em sua forma. Em \"o não do detento\", o advérbio de negação \"não\" passa a funcionar como substantivo (sujeito da locução \"travou o interrogatório\"), mantendo a mesma grafia — mesmo fenômeno de \"o azul do céu\" (adjetivo > substantivo) ou \"o jantar já está pronto\" (verbo no infinitivo > substantivo).",
+    "id": "port_36"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Sintaxe - Partícula de Realce",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Em \"Foi o agente penitenciário que conteve a rebelião\", o termo destacado \"que\":",
+    "alternativas": [
+      { "letra": "A", "texto": "Funciona como partícula de realce (expletiva), sem função sintática própria, podendo ser retirada da frase sem prejuízo do sentido essencial: \"O agente penitenciário conteve a rebelião\"." },
+      { "letra": "B", "texto": "Funciona como pronome relativo, retomando \"o agente penitenciário\" como antecedente e exercendo função de sujeito da oração que introduz.", "comentario": "Incorreta. Na construção de realce \"Foi... que\", o \"que\" não exerce função sintática própria nem retoma o antecedente como sujeito de uma oração subordinada adjetiva — ele apenas destaca o termo anteposto (\"o agente penitenciário\")." },
+      { "letra": "C", "texto": "Funciona como conjunção subordinativa causal, equivalente a \"porque\".", "comentario": "Incorreta. O \"que\" da construção de realce não introduz oração causal nem equivale a \"porque\"." },
+      { "letra": "D", "texto": "Funciona como conjunção coordenativa aditiva, equivalente a \"e\".", "comentario": "Incorreta. O \"que\" de realce não coordena duas orações com valor de adição; ele apenas enfatiza o termo destacado na construção \"Foi... que\"." }
+    ],
+    "gabarito": "A",
+    "artigo": "Sintaxe - Partícula Expletiva ou de Realce",
+    "justificativa": "Construções do tipo \"Foi... que\" / \"É... que\" (frases clivadas) usam o \"que\" como partícula expletiva ou de realce: ele destaca um termo da oração, mas não exerce função sintática própria nem pode ser classificado como pronome relativo ou conjunção com valor semântico — pode ser suprimido sem alterar a informação básica da frase, apenas seu efeito de ênfase.",
+    "id": "port_37"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Preposição - Valor Semântico",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Em \"O servidor treinou intensamente para ser aprovado no concurso\", a preposição destacada tem o sentido de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Finalidade, podendo ser substituída corretamente por \"a fim de\"." },
+      { "letra": "B", "texto": "Finalidade, podendo ser substituída corretamente por \"afim de\".", "comentario": "Incorreta. \"Afim\" (junto, sem espaço) é adjetivo que significa \"semelhante\" ou \"parente por afinidade\"; a locução prepositiva de finalidade é grafada separadamente: \"a fim de\"." },
+      { "letra": "C", "texto": "Causa, podendo ser substituída corretamente por \"por causa de\".", "comentario": "Incorreta. A oração não indica a causa (motivo anterior) do treino, e sim o objetivo (resultado pretendido) dele — trata-se de finalidade, não de causa." },
+      { "letra": "D", "texto": "Consequência, podendo ser substituída corretamente por \"de modo que\".", "comentario": "Incorreta. A oração não expressa uma consequência decorrente do treino, mas o objetivo que se pretende alcançar com ele." }
+    ],
+    "gabarito": "A",
+    "artigo": "Preposição \"Para\" - Sentido de Finalidade",
+    "justificativa": "A preposição \"para\", ao introduzir uma oração reduzida de infinitivo que expressa o objetivo de uma ação (\"treinou... para ser aprovado\"), tem valor semântico de finalidade, podendo ser substituída pela locução \"a fim de\" (duas palavras) sem alteração de sentido. \"Afim\" (uma palavra) é adjetivo e não deve ser confundido com a locução prepositiva.",
+    "id": "port_38"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Pronomes Relativos - Onde, Aonde e Donde",
+    "peso": 1,
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que o emprego de \"onde\", \"aonde\" ou \"donde\" está de acordo com a norma-padrão.",
+    "alternativas": [
+      { "letra": "A", "texto": "A unidade prisional aonde o agente trabalha fica no centro da cidade.", "comentario": "Incorreta. \"Aonde\" indica movimento (equivale a \"a que lugar\"), exigido por verbos de movimento; \"trabalhar\" não é verbo de movimento, cabendo \"onde\" (lugar em que): \"a unidade prisional onde o agente trabalha\"." },
+      { "letra": "B", "texto": "Este é o hospital donde ele foi atendido após o incidente.", "comentario": "Incorreta. \"Donde\" indica origem (de onde), incompatível com \"foi atendido\", que expressa permanência num local, sem ideia de proveniência; o correto é \"onde\": \"o hospital onde ele foi atendido\"." },
+      { "letra": "C", "texto": "Ainda não decidi aonde vou viajar nas próximas férias." },
+      { "letra": "D", "texto": "Essa é a sala onde ele foi buscar os documentos ontem.", "comentario": "Incorreta. \"Buscar\" (ir buscar) implica movimento em direção a um lugar; o correto, com verbo de movimento, é \"aonde\": \"a sala aonde ele foi buscar os documentos\"." }
+    ],
+    "gabarito": "C",
+    "artigo": "Emprego de Onde, Aonde e Donde",
+    "justificativa": "\"Onde\" indica lugar em que algo ocorre, sem ideia de movimento (rege a preposição \"em\"). \"Aonde\" indica lugar para onde se dirige algo, com verbos de movimento (rege a preposição \"a\"): \"aonde vou viajar\" está correto, pois \"viajar\" implica deslocamento. \"Donde\" indica origem, lugar de onde algo vem (rege a preposição \"de\").",
+    "id": "port_39"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Adjunto Adnominal e Complemento Nominal",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Em \"O respeito às normas institucionais é essencial\" e \"O respeito do servidor pelas normas institucionais foi elogiado\", os termos destacados exercem, respectivamente, a função de:",
+    "alternativas": [
+      { "letra": "A", "texto": "Complemento nominal e adjunto adnominal, pois \"às normas institucionais\" completa o sentido do substantivo abstrato transitivo \"respeito\", enquanto \"do servidor\" indica o agente da ação nominalizada, caracterizando o substantivo." },
+      { "letra": "B", "texto": "Adjunto adnominal e complemento nominal, respectivamente, pela ordem inversa da opção correta.", "comentario": "Incorreta. \"às normas institucionais\" completa o sentido de um substantivo abstrato de sentido incompleto (regência exigida por \"respeito\"), caracterizando complemento nominal — e não adjunto adnominal, que independe de regência exigida pelo núcleo." },
+      { "letra": "C", "texto": "Objeto indireto em ambos os casos, pois os dois termos são regidos por preposição.", "comentario": "Incorreta. Objeto indireto é termo que completa o sentido de um VERBO transitivo indireto; nos exemplos, \"respeito\" é substantivo, e os termos destacados completam ou caracterizam esse substantivo, não um verbo." },
+      { "letra": "D", "texto": "Adjunto adnominal em ambos os casos, pois ambos se ligam a um substantivo.", "comentario": "Incorreta. Embora ambos se liguem a um substantivo, \"às normas institucionais\" é exigido pela regência do substantivo abstrato transitivo \"respeito\" (complemento nominal), diferente de \"do servidor\", que apenas indica o agente/possuidor, sem ser regência exigida (adjunto adnominal)." }
+    ],
+    "gabarito": "A",
+    "artigo": "Adjunto Adnominal x Complemento Nominal",
+    "justificativa": "O complemento nominal completa o sentido de um substantivo, adjetivo ou advérbio ABSTRATO e de sentido incompleto (transitivo), sendo regido por preposição EXIGIDA pelo núcleo — \"respeito ÀS normas\" (respeito A algo). O adjunto adnominal apenas caracteriza, qualifica ou indica posse/origem/agente em relação a um substantivo, sem que a preposição seja uma exigência de regência — \"respeito DO servidor\" (de quem é o respeito), substituível por um adjetivo (\"respeito do servidor\" ≈ \"respeito estatal/pessoal\").",
+    "id": "port_40"
+  },
+  {
+    "disciplina": "portugues",
+    "topico": "Conjugação Verbal - Verbos Irregulares",
+    "peso": 1,
+    "dificuldade": "dificil",
+    "enunciado": "Assinale a alternativa cujas formas verbais completam corretamente as lacunas a seguir, na mesma ordem.\nOs fiscais _______ todos os documentos suspeitos durante a operação.\nSe isso não _______ aos interesses da corporação, o projeto será revisto.\nMuitos conflitos internos _______ da falta de comunicação entre as equipes.\nO servidor será exonerado quando se _______ a cumprir as determinações.",
+    "alternativas": [
+      { "letra": "A", "texto": "reteram / convir / advem / propuser", "comentario": "Incorreta. As formas corretas são \"retiveram\" (não \"reteram\") e \"advêm\" (com acento circunflexo, não \"advem\")." },
+      { "letra": "B", "texto": "retiveram / convier / advêm / propuser." },
+      { "letra": "C", "texto": "retiveram / convir / advêm / propor", "comentario": "Incorreta. No período condicional com \"se\", exige-se o futuro do subjuntivo \"convier\" (não o infinitivo \"convir\"); na última lacuna, após \"se\", também se exige o futuro do subjuntivo \"propuser\" (não o infinitivo \"propor\")." },
+      { "letra": "D", "texto": "reteram / convier / advem / propor", "comentario": "Incorreta. \"Reteram\" e \"advem\" estão grafados incorretamente (o correto é \"retiveram\" e \"advêm\"), e a última lacuna exige \"propuser\", não \"propor\"." }
+    ],
+    "gabarito": "B",
+    "artigo": "Conjugação de Verbos Irregulares (reter, convir, advir, propor)",
+    "justificativa": "\"Reter\" conjuga-se como \"ter\" (pretérito perfeito, 3ª pessoa do plural: retiveram). \"Convir\" conjuga-se como \"vir\" (futuro do subjuntivo: convier). \"Advir\" conjuga-se como \"vir\" (presente do indicativo, 3ª pessoa do plural: advêm, com acento circunflexo). \"Propor\" conjuga-se como \"pôr\" (futuro do subjuntivo: propuser).",
+    "id": "port_41"
   }
 ];

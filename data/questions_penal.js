@@ -1905,5 +1905,131 @@ const QUESTIONS_PENAL = [
   "gabarito": "A",
   "artigo": "Art. 281 do CPP",
   "justificativa": "O art. 281 equipara o intérprete, para todos os efeitos, aos peritos — sujeitando-se, portanto, às mesmas causas de impedimento (art. 279) e à disciplina judiciária (art. 275), como auxiliar da justiça."
+},
+{
+  "id": "penal_68",
+  "disciplina": "penal",
+  "topico": "Concurso de Pessoas - Cooperação Dolosamente Distinta",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Dois indivíduos combinam a prática de um furto em uma residência. Durante a execução, um deles, sem que o outro soubesse ou pudesse prever, decide estuprar a moradora que os surpreendeu. O comparsa que permaneceu vigiando do lado de fora nada sabia sobre essa possibilidade. Considerando a teoria do concurso de pessoas prevista no Código Penal, assinale a alternativa correta.",
+  "alternativas": [
+    { "letra": "A", "texto": "Trata-se de hipótese de cooperação dolosamente distinta (desvio subjetivo entre os agentes): o comparsa que não anuiu ao crime mais grave e para o qual o resultado não era previsível responde apenas pelo crime menos grave (furto), e não pelo estupro." },
+    { "letra": "B", "texto": "Ambos respondem igualmente pelos dois crimes (furto e estupro), em razão da regra geral de responsabilização objetiva no concurso de pessoas.", "comentario": "Incorreto, pois o Código Penal não adota responsabilidade objetiva no concurso de pessoas; quando um dos agentes pratica crime mais grave e diverso do combinado, sem que os demais tenham anuído ou pudessem prever tal resultado, estes respondem apenas pelo crime menos grave (Art. 29, §2º, do CP)." },
+    { "letra": "C", "texto": "O comparsa que vigiava deve responder pelo estupro com pena reduzida à metade, independentemente de o resultado ter sido previsível.", "comentario": "Incorreto, pois, se o resultado mais grave não era previsível ao comparsa e ele não anuiu à conduta, ele não responde pelo crime mais grave em hipótese alguma — nem mesmo com pena reduzida." },
+    { "letra": "D", "texto": "Ambos respondem apenas pelo furto, pois o estupro praticado isoladamente por um dos agentes rompe integralmente o vínculo do concurso de pessoas também quanto ao crime inicialmente combinado.", "comentario": "Incorreto quanto ao autor do estupro: aquele que praticou o crime mais grave responde por ambos os delitos (furto e estupro); apenas o comparsa que não anuiu e para quem o resultado não era previsível fica isento de responder pelo crime mais grave." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 29, §2º, do CP",
+  "justificativa": "O Art. 29, §2º, do CP prevê a cooperação dolosamente distinta (desvio subjetivo entre os agentes): se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste — a pena só será aumentada até a metade se o resultado mais grave era previsível a ele. No caso, não havendo anuência nem previsibilidade do estupro para o comparsa que apenas vigiava, ele responde somente pelo furto (crime combinado), enquanto o autor do estupro responde por ambos os crimes."
+},
+{
+  "id": "penal_69",
+  "disciplina": "penal",
+  "topico": "Superveniência de Doença Mental na Execução da Pena",
+  "peso": 1,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Um condenado, já em cumprimento de pena privativa de liberdade cumulada com pena de multa, é acometido por grave doença mental superveniente. Segundo o Código Penal, é correto afirmar que, nessa hipótese:",
+  "alternativas": [
+    { "letra": "A", "texto": "O condenado deverá ser recolhido a hospital de custódia e tratamento psiquiátrico ou, à falta, a outro estabelecimento adequado, mantendo-se, de forma autônoma, a execução da pena de multa como dívida de valor." },
+    { "letra": "B", "texto": "A superveniência de doença mental extingue automaticamente a punibilidade de todas as penas impostas, inclusive a de multa.", "comentario": "Incorreto, pois a superveniência de doença mental não é causa de extinção da punibilidade prevista no Art. 107 do CP — apenas altera o local e a forma de cumprimento da pena privativa de liberdade (recolhimento a hospital de custódia), sem extinguir a pena de multa." },
+    { "letra": "C", "texto": "Tanto a pena privativa de liberdade quanto a pena de multa ficam automaticamente suspensas até a alta médica do condenado.", "comentario": "Incorreto, pois a pena de multa, por se tratar de dívida de valor (Art. 51 do CP), não se suspende em razão da doença mental superveniente — sua execução segue seu curso de forma autônoma em relação à pena privativa de liberdade." },
+    { "letra": "D", "texto": "O condenado deve continuar cumprindo normalmente a pena no mesmo regime prisional em que se encontrava, sem qualquer alteração no local de cumprimento.", "comentario": "Incorreto, pois o Art. 41 do CP determina expressamente o recolhimento do condenado que sobrevém doença mental a hospital de custódia e tratamento psiquiátrico (ou, à falta, a outro estabelecimento adequado), e não a manutenção no regime prisional comum." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 41 e Art. 51 do CP",
+  "justificativa": "O Art. 41 do CP determina que o condenado a quem sobrevém doença mental deve ser recolhido a hospital de custódia e tratamento psiquiátrico ou, à falta, a outro estabelecimento adequado — mantendo a natureza de pena (e não a convertendo em extinção da punibilidade). A pena de multa, por ser considerada dívida de valor (Art. 51 do CP), tem execução autônoma e não se suspende ou extingue em razão da superveniência de doença mental do condenado."
+},
+{
+  "id": "penal_70",
+  "disciplina": "penal",
+  "topico": "Injúria Contra Funcionário Público - Ação Penal",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Durante a fiscalização de rotina em uma unidade prisional, um servidor foi ofendido em sua honra subjetiva por um visitante, que questionou seus atributos pessoais e funcionais, em razão do exercício de suas funções. Quanto à ação penal cabível na hipótese de crime de injúria (Art. 140 do CP) cometido contra funcionário público em razão de suas funções, assinale a alternativa correta.",
+  "alternativas": [
+    { "letra": "A", "texto": "Trata-se de ação penal pública condicionada à representação do ofendido." },
+    { "letra": "B", "texto": "Trata-se, em regra, de ação penal privada, salvo quando o crime for de injúria racial.", "comentario": "Incorreto quanto à hipótese descrita: embora a injúria seja, EM REGRA, crime de ação penal privada, o Art. 145, parágrafo único, do CP estabelece exceção expressa para o caso de injúria cometida contra funcionário público em razão de suas funções, hipótese em que a ação passa a ser pública condicionada à representação — e não permanece privada." },
+    { "letra": "C", "texto": "Trata-se de ação penal pública incondicionada, dispensando qualquer manifestação de vontade do ofendido.", "comentario": "Incorreto, pois a lei exige a representação do ofendido como condição de procedibilidade nessa hipótese específica, não se tratando de ação pública incondicionada." },
+    { "letra": "D", "texto": "Trata-se de ação penal privada personalíssima, extinguindo-se com a morte do ofendido sem possibilidade de sucessão processual.", "comentario": "Incorreto, pois a ação penal privada personalíssima é hipótese excepcionalíssima (ex.: crime de induzimento a erro essencial e ocultação de impedimento, Art. 236 do CP) — não se aplica à injúria contra funcionário público, que é ação pública condicionada à representação." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 145, parágrafo único, c/c Art. 141, II, do CP",
+  "justificativa": "Embora a injúria seja, em regra, crime de ação penal privada (Art. 145, caput, do CP), o parágrafo único desse artigo, combinado com o Art. 141, II, estabelece que, quando o crime é cometido contra funcionário público em razão do exercício de suas funções, procede-se mediante REPRESENTAÇÃO DO OFENDIDO — ou seja, a ação passa a ser pública condicionada à representação."
+},
+{
+  "id": "penal_71",
+  "disciplina": "penal",
+  "topico": "Circunstâncias Agravantes e Atenuantes",
+  "peso": 1,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Marcos, já condenado definitivamente em processo anterior por crime diverso, pratica novo crime doloso. Na data da sentença que o condena por esse novo crime, Marcos já havia completado 71 anos de idade. Considerando as circunstâncias agravantes e atenuantes previstas no Código Penal, assinale a alternativa correta.",
+  "alternativas": [
+    { "letra": "A", "texto": "Deverão ser consideradas tanto a agravante da reincidência (Art. 61, I) quanto a atenuante da senilidade (Art. 65, I), em razão de Marcos ser maior de 70 anos na data da sentença." },
+    { "letra": "B", "texto": "Somente a agravante da reincidência deve ser considerada, pois a atenuante da senilidade exige que o agente tenha mais de 70 anos na data do FATO, e não na data da sentença.", "comentario": "Incorreto, pois o Art. 65, I, do CP expressamente considera circunstância atenuante ser o agente maior de 70 (setenta) anos na data da SENTENÇA, e não na data do fato." },
+    { "letra": "C", "texto": "Somente a atenuante da senilidade deve ser considerada, pois a reincidência não pode ser reconhecida quando o agente for maior de 70 anos.", "comentario": "Incorreto, pois não há, no Código Penal, vedação ao reconhecimento da reincidência em razão da idade do agente — a reincidência (Art. 63) e a senilidade (Art. 65, I) são circunstâncias autônomas, que podem coexistir no mesmo caso." },
+    { "letra": "D", "texto": "Nenhuma das duas circunstâncias deve ser considerada, pois agravantes e atenuantes não podem ser aplicadas simultaneamente em um mesmo processo.", "comentario": "Incorreto, pois não há vedação à aplicação simultânea de agravantes e atenuantes reconhecidas no mesmo caso concreto — a pena-base, nessa fase da dosimetria (segunda fase), é ajustada considerando todas as circunstâncias legais presentes, sejam agravantes, sejam atenuantes." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 61, I, e Art. 65, I, do CP",
+  "justificativa": "A reincidência (Art. 61, I, do CP) é circunstância que sempre agrava a pena quando presente. A senilidade (Art. 65, I, do CP) é circunstância que sempre atenua a pena quando o agente é maior de 70 anos na data da SENTENÇA (e não na data do fato). Ambas as circunstâncias são autônomas e podem ser reconhecidas simultaneamente na segunda fase da dosimetria da pena (circunstâncias legais)."
+},
+{
+  "id": "penal_72",
+  "disciplina": "penal",
+  "topico": "Omissão Imprópria - Posição de Garante (Art. 13, §2º, CP)",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "dificil",
+  "enunciado": "Um policial penal, durante o plantão, é procurado por um detento que pede socorro, relatando estar sendo constrangido por outro preso a praticar ato libidinoso. O policial, podendo agir sem risco pessoal, nada faz para evitar a consumação do crime. Considerando a teoria da omissão imprópria (comissiva por omissão) prevista no Código Penal, assinale a alternativa correta.",
+  "alternativas": [
+    { "letra": "A", "texto": "O policial penal ocupa posição de garante em relação à integridade dos presos sob sua custódia, por força de lei (dever de vigilância e proteção inerente ao cargo); podendo agir e não agindo, ele responde pelo resultado (o próprio crime sexual), e não por omissão de socorro." },
+    { "letra": "B", "texto": "O policial penal responde apenas pelo crime de omissão de socorro (Art. 135 do CP), pois não possui qualquer dever jurídico específico de agir em relação aos presos sob sua custódia.", "comentario": "Incorreto, pois o policial penal tem, por força de lei, o dever de cuidado, proteção e vigilância em relação aos presos sob sua custódia (Art. 13, §2º, \"a\", do CP), caracterizando posição de garante — o que afasta a hipótese de mera omissão de socorro (crime próprio de quem NÃO tem esse dever específico) e o coloca na posição de responder pelo próprio resultado que podia e devia evitar." },
+    { "letra": "C", "texto": "O policial penal não pode ser responsabilizado penalmente, pois a omissão nunca gera responsabilidade penal no ordenamento brasileiro.", "comentario": "Incorreto, pois o Código Penal admite expressamente a responsabilização por omissão, tanto na modalidade própria (crimes omissivos próprios, como a omissão de socorro) quanto na modalidade imprópria (omissão de quem tinha o dever jurídico de agir e podia fazê-lo, respondendo pelo resultado, Art. 13, §2º, do CP)." },
+    { "letra": "D", "texto": "A posição de garante do policial penal somente se configuraria se ele tivesse, com seu comportamento anterior, criado o risco da ocorrência do resultado.", "comentario": "Incorreto como única hipótese, pois o Art. 13, §2º, do CP prevê três hipóteses de dever de agir (posição de garante): dever legal de cuidado, proteção ou vigilância (alínea \"a\" — aplicável ao caso do policial penal); assunção da responsabilidade de impedir o resultado (alínea \"b\"); e criação do risco por comportamento anterior (alínea \"c\") — não sendo esta última a única hipótese possível." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 13, §2º, \"a\", do CP",
+  "justificativa": "O Art. 13, §2º, do CP prevê a omissão imprópria (comissiva por omissão): o dever de agir incumbe a quem, por lei, tem obrigação de cuidado, proteção ou vigilância (alínea \"a\") — hipótese em que se enquadra o policial penal em relação aos presos sob sua custódia. Podendo agir e não agindo, o garante responde pelo RESULTADO que tinha o dever de evitar (no caso, o próprio crime sexual), e não pelo crime autônomo de omissão de socorro (Art. 135 do CP), que pressupõe a ausência desse dever jurídico específico."
+},
+{
+  "id": "penal_73",
+  "disciplina": "penal",
+  "topico": "Condescendência Criminosa",
+  "peso": 1,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Um chefe de setor, sabendo que seu subordinado cometeu infração funcional no exercício do cargo, deixa de responsabilizá-lo por indulgência (tolerância excessiva), embora tivesse competência para fazê-lo. Essa conduta caracteriza o crime de:",
+  "alternativas": [
+    { "letra": "A", "texto": "Condescendência criminosa (Art. 320 do CP), que consiste em deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente." },
+    { "letra": "B", "texto": "Prevaricação (Art. 319 do CP), que consiste em retardar ou deixar de praticar ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal.", "comentario": "Incorreto, pois a prevaricação exige a satisfação de interesse ou sentimento PESSOAL do próprio agente (como vingança, favorecimento) — a condescendência criminosa distingue-se por se caracterizar pela mera INDULGÊNCIA (tolerância, benevolência excessiva) em relação à conduta do subordinado, sem essa finalidade pessoal específica." },
+    { "letra": "C", "texto": "Advocacia administrativa (Art. 321 do CP), que consiste em patrocinar, direta ou indiretamente, interesse privado perante a Administração Pública.", "comentario": "Incorreto, pois a advocacia administrativa pressupõe o patrocínio de interesse PRIVADO de terceiro perante a Administração — situação distinta de deixar de responsabilizar um subordinado por indulgência." },
+    { "letra": "D", "texto": "Corrupção passiva (Art. 317 do CP), que consiste em solicitar ou receber vantagem indevida em razão da função.", "comentario": "Incorreto, pois não há, no caso descrito, qualquer solicitação ou recebimento de vantagem indevida — a condescendência criminosa não exige contrapartida financeira ou vantagem, bastando a indulgência (tolerância) na apuração da infração do subordinado." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 320 do CP",
+  "justificativa": "O Art. 320 do CP tipifica a condescendência criminosa: deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente. Pena: detenção de 15 dias a 1 mês, ou multa — distinguindo-se da prevaricação (Art. 319) pela ausência da finalidade de satisfazer interesse ou sentimento pessoal do próprio agente."
+},
+{
+  "id": "penal_74",
+  "disciplina": "penal",
+  "topico": "Recurso Cabível Contra a Decisão de Pronúncia",
+  "peso": 2,
+  "mostCobrado": true,
+  "dificuldade": "medio",
+  "enunciado": "Um réu foi pronunciado pela prática de crime doloso contra a vida, encaminhando-se o processo ao Tribunal do Júri. Inconformado com a decisão de pronúncia, o réu pretende recorrer. Nos termos do Código de Processo Penal, assinale a alternativa que apresenta o recurso cabível quanto a essa decisão e o respectivo prazo de interposição.",
+  "alternativas": [
+    { "letra": "A", "texto": "Recurso em sentido estrito, no prazo de 5 dias." },
+    { "letra": "B", "texto": "Recurso de apelação, no prazo de 15 dias.", "comentario": "Incorreto, pois a decisão de pronúncia, por não julgar o mérito da causa (apenas remete o réu a julgamento pelo Tribunal do Júri), desafia recurso em sentido estrito, e não apelação; além disso, o prazo de interposição do recurso em sentido estrito é de 5 dias, e não de 15." },
+    { "letra": "C", "texto": "Recurso em sentido estrito, no prazo de 10 dias.", "comentario": "Incorreto quanto ao prazo: embora o recurso cabível seja mesmo o em sentido estrito, o prazo para sua interposição é de 5 dias (Art. 586 do CPP), e não de 10 dias." },
+    { "letra": "D", "texto": "Habeas corpus, no prazo de 48 horas.", "comentario": "Incorreto, pois o habeas corpus não é o recurso próprio para impugnar a decisão de pronúncia em si — o CPP prevê recurso específico (recurso em sentido estrito, Art. 581, IV) para essa finalidade, sem prazo de 48 horas (que não corresponde ao regime recursal do CPP)." }
+  ],
+  "gabarito": "A",
+  "artigo": "Art. 581, IV, c/c Art. 586 do CPP",
+  "justificativa": "O Art. 581, IV, do CPP estabelece o cabimento de recurso em sentido estrito (RESE) contra a decisão, definitiva ou com força de definitiva, que pronunciar o réu. O prazo para interposição do recurso em sentido estrito é de 5 dias, nos termos do Art. 586 do CPP."
 }
 ];
